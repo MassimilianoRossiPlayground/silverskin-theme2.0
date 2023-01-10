@@ -1156,7 +1156,8 @@
       "checkpoint": "Checkpoint",
       "search_results": {
         "one": "Search: %{count} result found for \"%{terms}\"",
-        "other": "Search: %{count} results found for \"%{terms}\""
+        "other": "Search: %{count} results found for \"%{terms}\"",
+        "many": "Search: %{count} results found for \"%{terms}\""
       },
       "blog_or_article_with_error": "Error - %{title}"
     },
@@ -1586,5 +1587,27 @@
   },
   "date_formats": {
     "month_day_year": "%b %d, %Y"
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_status": {
+        "canceled_label": "Voided",
+        "preparing_for_shipping_label": "Preparing for shipment"
+      }
+    },
+    "B2B": {
+      "draft_order_details": {
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "many": "Your payment is {{count}} days overdue"
+            },
+            "banner_due": {
+              "many": "Your payment is due in {{count}} days"
+            }
+          }
+        }
+      }
+    }
   }
 }
