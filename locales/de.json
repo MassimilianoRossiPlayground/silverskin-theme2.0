@@ -892,7 +892,8 @@
         "title_with_products": {
           "zero": "%{product_name} kaufen",
           "one": "%{product_name} und %{count} weiteren Artikel kaufen",
-          "other": "%{product_name} und %{count} weitere Artikel kaufen"
+          "other": "%{product_name} und %{count} weitere Artikel kaufen",
+          "many": "%{product_name} und %{count} weitere Artikel kaufen"
         }
       },
       "localized_fields": {
@@ -909,7 +910,7 @@
           "close": "Schließen",
           "expand": "Mehr anzeigen",
           "processing": "Wird bearbeitet ...",
-          "submit": "Senden"
+          "submit": "Schicken"
         }
       },
       "change_country": {
@@ -920,33 +921,39 @@
         "recurring_totals_with_policies": {
           "first_cycles": {
             "one": "Erste Zahlung %{total_price}",
-            "other": "Erste %{count} Zahlungen von je %{total_price}"
+            "other": "Erste %{count} Zahlungen von je %{total_price}",
+            "many": "Erste %{count} Zahlungen von je %{total_price}"
           },
           "following_cycles": ", anschließend %{total_price} alle bzw. jede\/n %{interval}"
         },
         "recurring_total_intervals": {
           "day": {
             "one": "Tag",
-            "other": "%{count} Tage"
+            "other": "%{count} Tage",
+            "many": "%{count} Tage"
           },
           "week": {
             "one": "Woche",
-            "other": "%{count} Wochen"
+            "other": "%{count} Wochen",
+            "many": "%{count} Wochen"
           },
           "month": {
             "one": "Monat",
-            "other": "%{count} Monate"
+            "other": "%{count} Monate",
+            "many": "%{count} Monate"
           },
           "year": {
             "one": "Jahr",
-            "other": "%{count} Jahre"
+            "other": "%{count} Jahre",
+            "many": "%{count} Jahre"
           }
         },
         "recurring_totals_with_initial_order_shipping_discount": "Erste Zahlung %{total_price_with_discount}, anschließend %{recurring_total}",
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
             "one": ", anschließend %{count} Zahlung über %{total_price}",
-            "other": ", anschließend %{count} Zahlungen über je %{total_price}"
+            "other": ", anschließend %{count} Zahlungen über je %{total_price}",
+            "many": ", anschließend %{count} Zahlungen über je %{total_price}"
           }
         }
       },
@@ -962,6 +969,17 @@
       "mor_policies": {
         "terms_and_conditions": "Geschäftsbedingungen des Vertragspartners",
         "privacy_policy": "Datenschutzerklärung des Vertragspartners"
+      },
+      "contextual_availability": {
+        "title": {
+          "many": "Produkte nicht verfügbar"
+        },
+        "products_not_available": {
+          "many": "Diese Produkte werden aus deinem Warenkorb entfernt, weil sie in deinem Land\/deiner Region nicht verfügbar sind."
+        },
+        "all_products_in_cart_unavailable": {
+          "many": "Diese Produkte sind in deinem Land \/ deiner Region nicht verfügbar."
+        }
       }
     },
     "pagination": {
@@ -970,7 +988,7 @@
     },
     "links": {
       "powered_by_shopify": "Powered by Shopify",
-      "learn_more": "Mehr erfahren"
+      "learn_more": "Mehr Informationen"
     },
     "feed": {
       "more": "Mehr"
@@ -985,13 +1003,13 @@
       "signature": "Adresse"
     },
     "addresses": {
-      "zip_code": "Postleitzahl",
-      "postal_code": "Postleitzahl",
-      "postcode": "Postleitzahl",
-      "pincode": "Postleitzahl",
+      "zip_code": "PLZ",
+      "postal_code": "PLZ",
+      "postcode": "PLZ",
+      "pincode": "PLZ",
       "region": "Region",
       "prefecture": "Präfektur",
-      "province": "Provinz",
+      "province": "Bundesland",
       "state": "Bundesland",
       "state_and_territory": "Staat\/Territorium",
       "county": "Provinz",
