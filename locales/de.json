@@ -1501,7 +1501,7 @@
       "billing_address": "Rechnungsadresse",
       "payment_status": "Zahlungsstatus",
       "shipping_address": "Lieferadresse",
-      "fulfillment_status": "Lieferstatus",
+      "fulfillment_status": "Bestellungsstatus",
       "discount": "Rabatt",
       "shipping": "Versand",
       "tax": "Steuer",
@@ -1516,7 +1516,7 @@
     "recover_password": {
       "title": "Passwort zurücksetzen",
       "email": "E-Mail",
-      "submit": "Absenden",
+      "submit": "Schicken",
       "cancel": "Löschen",
       "subtext": "Wir werden dir eine E-Mail zum Zurücksetzen des Passworts schicken.",
       "success": "Wir haben dir eine E-Mail mit einem Link zum Aktualisieren des Passworts geschickt."
@@ -1551,9 +1551,9 @@
       "title": "Einkaufswagen"
     },
     "customer": {
-      "account": "Account",
+      "account": "Konto",
       "log_out": "Ausloggen",
-      "log_in": "Einloggen",
+      "log_in": "Login",
       "create_account": "Account erstellen"
     },
     "footer": {
