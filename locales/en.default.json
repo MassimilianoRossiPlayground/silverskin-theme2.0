@@ -513,7 +513,8 @@
         "address_city_contains_emojis": "City cannot contain emojis",
         "address_company_contains_emojis": "Company cannot contain emojis",
         "address_phone_contains_emojis": "Phone number cannot contain emojis",
-        "address_zip_contains_emojis": "ZIP \/ postal code cannot contain emojis"
+        "address_zip_contains_emojis": "ZIP \/ postal code cannot contain emojis",
+        "gift_card_buying_gift_card": "You can’t use a gift card to buy another gift card"
       },
       "payment_errors": {
         "generic_error": "There was an issue processing your payment. Try again or use a different payment method.",
