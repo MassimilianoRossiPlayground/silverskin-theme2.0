@@ -1355,23 +1355,23 @@
   },
   "blogs": {
     "article": {
-      "view_all": "View all",
+      "view_all": "Learn more",
       "tags": "Tags",
-      "read_more": "Continue reading",
-      "back_to_blog": "Back to {{ title }}"
+      "read_more": "Learn more",
+      "back_to_blog": "Back to the frontpage"
     },
     "comments": {
       "title": "Leave a comment",
-      "name": "Name",
+      "name": "First name",
       "email": "Email",
       "message": "Message",
       "post": "Post comment",
       "moderated": "Please note, comments must be approved before they are published",
       "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
-      "success": "Your comment was posted successfully! Thank you!",
+      "success": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
       "with_count": {
         "one": "{{ count }} comment",
-        "other": "{{ count }} comments"
+        "other": "{{ count }} comment"
       }
     }
   },
@@ -1425,9 +1425,9 @@
   },
   "customer": {
     "account": {
-      "title": "My account",
+      "title": "Account",
       "details": "Account details",
-      "view_addresses": "View addresses",
+      "view_addresses": "Address",
       "return": "Return to account"
     },
     "activate_account": {
@@ -1439,7 +1439,7 @@
       "cancel": "Decline invitation"
     },
     "addresses": {
-      "title": "Addresses",
+      "title": "Address",
       "default": "Default",
       "add_new": "Add address",
       "edit_address": "Edit address",
@@ -1451,14 +1451,14 @@
       "city": "City",
       "country": "Country",
       "province": "Province",
-      "zip": "Postal\/Zip code",
+      "zip": "ZIP code",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add address",
       "update": "Update address",
       "cancel": "Cancel",
       "edit": "Edit",
-      "delete": "Delete",
+      "delete": "Cancel",
       "delete_confirm": "Are you sure you wish to delete this address?"
     },
     "login": {
@@ -1512,13 +1512,13 @@
       "title": "Reset account password",
       "subtext": "Enter a new password for {{ email }}",
       "password": "Password",
-      "password_confirm": "Confirm Password",
+      "password_confirm": "Confirm password",
       "submit": "Reset Password"
     },
     "register": {
       "title": "Create Account",
-      "first_name": "First Name",
-      "last_name": "Last Name",
+      "first_name": "First name",
+      "last_name": "Last name",
       "email": "Email",
       "password": "Password",
       "submit": "Create",
@@ -1554,7 +1554,7 @@
       "next_product": "Next: {{ title }}",
       "sale": "Sale",
       "sale_price": "Sale price",
-      "regular_price": "Regular price",
+      "regular_price": "Price",
       "from_text_html": "from {{ price }}",
       "recent_products": "Recently viewed"
     },
