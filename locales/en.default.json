@@ -1269,7 +1269,7 @@
   "general": {
     "accessibility": {
       "skip_to_content": "Skip to content",
-      "close_modal": "Close (esc)",
+      "close_modal": "Close",
       "close": "Close",
       "learn_more": "Learn more"
     },
@@ -1284,7 +1284,7 @@
     "password_page": {
       "login_form_heading": "Enter store using password",
       "login_form_password_placeholder": "Your password",
-      "login_form_submit": "Enter",
+      "login_form_submit": "Submit",
       "signup_form_success": "We will send you an email right before we open!",
       "login_form_password_label": "Password",
       "signup_form_email_label": "Email",
@@ -1303,11 +1303,11 @@
     },
     "search": {
       "title": "Search",
-      "placeholder": "Search our store",
+      "placeholder": "Search",
       "submit": "Search",
-      "view_more": "View more",
+      "view_more": "Search",
       "pages": "Pages:",
-      "articles": "Articles:",
+      "articles": "Items",
       "no_results_html": "Your search for \"{{ terms }}\" did not yield any results.",
       "results_for_html": "Your search for \"{{ terms }}\" revealed the following:",
       "result_count": {
@@ -1331,7 +1331,7 @@
     },
     "drawers": {
       "navigation": "Site navigation",
-      "close_menu": "Close menu",
+      "close_menu": "Close",
       "expand_submenu": "Expand submenu",
       "collapse_submenu": "Collapse submenu"
     },
@@ -1345,11 +1345,11 @@
   },
   "contact": {
     "form": {
-      "name": "Name",
+      "name": "First name",
       "email": "Email",
-      "phone": "Phone number",
+      "phone": "Phone",
       "message": "Message",
-      "send": "Send",
+      "send": "Submit",
       "post_success": "Thanks for contacting us. We'll get back to you as soon as possible."
     }
   },
@@ -1604,10 +1604,26 @@
             },
             "banner_due": {
               "many": "Your payment is due in {{count}} days"
-            }
+            },
+            "banner_due_today": "Payment due today"
           }
         }
       }
+    },
+    "errors": {
+      "banner_title": {
+        "many": "There are {{count}} errors"
+      }
+    },
+    "shop_policies": {
+      "privacy_policy": "Privacy Policy",
+      "terms_of_service": "Terms of Service"
+    },
+    "payment_methods": {
+      "payment_details": {
+        "pre_authorized_payments": "Preauthorized payments"
+      },
+      "back_button": "Previous"
     }
   }
 }
