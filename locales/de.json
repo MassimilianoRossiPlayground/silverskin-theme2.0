@@ -1651,6 +1651,36 @@
     "B2B": {
       "account_information": {
         "company_card_section_accessibility_label": "Firma"
+      },
+      "locations": {
+        "contact_name": "Vorname",
+        "tax_exemption_not_applicable": "N. z."
+      },
+      "location_selection": {
+        "selection_cancel_button": "Schließen"
+      },
+      "draft_order_details": {
+        "payment_status": {
+          "draft": {
+            "title": "Die Zahlung ist noch nicht fällig"
+          },
+          "pay_now": "Jetzt bezahlen",
+          "pending": {
+            "banner_overdue": {
+              "many": "Deine Zahlung ist seit {{count}} Tagen überfällig"
+            },
+            "banner_due": {
+              "many": "Deine Zahlung ist in {{count}} Tagen fällig"
+            },
+            "banner_due_today": "Zahlung heute fällig",
+            "title": "Zahlung fällig"
+          }
+        }
+      }
+    },
+    "errors": {
+      "banner_title": {
+        "many": "Es liegen {{count}} Fehler vor"
       }
     }
   }
