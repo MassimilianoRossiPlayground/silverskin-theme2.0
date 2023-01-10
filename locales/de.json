@@ -1062,7 +1062,7 @@
       "less_than_or_equal_to": "muss kleiner oder gleich %{count} sein",
       "not_supported": "wird nicht unterstützt",
       "full_name_required": "Gib Vor- und Nachnamen ein.",
-      "invalid_for_card_type": "ist für diesen Kartentyp nicht gültig",
+      "invalid_for_card_type": "ist ungültig",
       "invalid_type": "Es tut uns leid, wir akzeptierenkeine Karten dieser Art ",
       "invalid_format": "ist keine Kreditkartennummer",
       "expired": "Kreditkarte ist abgelaufen",
@@ -1118,7 +1118,8 @@
           "inventory": "Artikel nicht verfügbar",
           "fraud": "Falsche Bestellung",
           "customer": "Bestellung vom Kunden geändert\/storniert",
-          "other": "Sonstiges"
+          "other": "Mehr",
+          "many": "Mehr"
         },
         "cash_on_delivery": "Nachnahme (COD)"
       },
@@ -1168,7 +1169,8 @@
       "checkpoint": "Checkpoint",
       "search_results": {
         "one": "Suche: %{count} Ergebnis für \"%{terms}\" gefunden ",
-        "other": "Suche: %{count} Ergebnisse für \"%{terms}\" gefunden "
+        "other": "Suche: %{count} Ergebnisse für \"%{terms}\" gefunden ",
+        "many": "Suche: %{count} Ergebnisse für \"%{terms}\" gefunden "
       },
       "blog_or_article_with_error": "Fehler – %{title}"
     },
@@ -1178,12 +1180,12 @@
     "challenge": {
       "message": "Um fortzufahren, lass uns wissen, dass du kein Roboter bist.",
       "error": "Deine Antwort war nicht korrekt, bitte versuche es noch einmal.",
-      "submit_button_text": "Senden"
+      "submit_button_text": "Schicken"
     },
     "checkpoint": {
       "message": "Captcha bearbeiten, um fortzufahren",
       "error": "Captcha-Validierung fehlgeschlagen.",
-      "submit_button_text": "Senden"
+      "submit_button_text": "Schicken"
     },
     "email_marketing": {
       "subscribed": {
@@ -1230,8 +1232,8 @@
         "two_hours": "In der Regel in 2 Stunden bereit",
         "four_hours": "In der Regel in 4 Stunden bereit",
         "twenty_four_hours": "In der Regel in 24 Stunden bereit",
-        "two_to_four_days": "In der Rege in 2 - 4 Tagen bereit",
-        "five_or_more_days": "In der Regel in 5 Tage oder mehr bereit",
+        "two_to_four_days": "In der Regel in 2 - 4 Tagen bereit",
+        "five_or_more_days": "In der Regel in 5 Tagen oder mehr bereit",
         "zero_to_two_hours": "In der Regel in 2 Stunden bereit",
         "two_to_four_hours": "In der Regel in 4 Stunden bereit",
         "immediately": "Jetzt zur Abholung bereit",
@@ -1243,7 +1245,7 @@
         "label": "Verfügbarkeit",
         "value": {
           "in_stock": "Auf Lager",
-          "out_of_stock": "Nicht vorrätig"
+          "out_of_stock": "Ausverkauft"
         }
       },
       "vendor": {
@@ -1263,8 +1265,8 @@
     "search": {
       "sorting": {
         "relevance": "Relevanz",
-        "price_ascending": "Preis (aufsteigend)",
-        "price_descending": "Preis (absteigend)"
+        "price_ascending": "Steigender Preis",
+        "price_descending": "Absteigender Preis"
       }
     }
   },
