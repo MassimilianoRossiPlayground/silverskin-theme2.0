@@ -136,13 +136,13 @@
         "product_column_header": "Produkte",
         "quantity_column_header": "Menge",
         "price_column_header": "Preis",
-        "status_column_header": "Status",
+        "status_column_header": "Bundesland",
         "removed_from_cart_notice": "Aus dem Einkaufswagen entfernt",
         "sold_out_label": "Ausverkauft",
         "reduced_label": "Reduziert",
         "reduced_with_quantity_label": "Nur %{quantity_available} verfügbar",
         "remove_from_cart_button_label": "Aus dem Einkaufswagen entfernen",
-        "continue_shopping_button_label": "Weitergehen",
+        "continue_shopping_button_label": "Weiter",
         "go_back_to_cart_button_label": "Zurück zu meinem Einkaufswagen"
       },
       "order_summary": {
@@ -268,24 +268,29 @@
         "subscription_delivery_description": {
           "prepaid_delivery_frequency": {
             "one": "für %{count} Lieferung",
-            "other": "für %{count} Lieferungen"
+            "other": "für %{count} Lieferungen",
+            "many": "für %{count} Lieferungen"
           },
           "subscription_delivery_frequency": {
             "day": {
               "one": "jeden Tag",
-              "other": "alle %{count} Tage"
+              "other": "alle %{count} Tage",
+              "many": "alle %{count} Tage"
             },
             "week": {
               "one": "jede Woche",
-              "other": "alle %{count} Wochen"
+              "other": "alle %{count} Wochen",
+              "many": "alle %{count} Wochen"
             },
             "month": {
               "one": "jeden Monat",
-              "other": "alle %{count} Monate"
+              "other": "alle %{count} Monate",
+              "many": "alle %{count} Monate"
             },
             "year": {
               "one": "jedes Jahr",
-              "other": "alle %{count} Jahre"
+              "other": "alle %{count} Jahre",
+              "many": "alle %{count} Jahre"
             }
           },
           "multiple_subscriptions_shipping_price_label": "%{shipping_price} pro Lieferung",
@@ -301,11 +306,13 @@
           "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} pro Zustellung), dann zum Preis von %{recurring_order_shipping_price}",
           "first_n_order_free": {
             "one": "Die erste Bestellung ist kostenlos",
-            "other": "Die ersten %{count} Bestellungen sind kostenlos"
+            "other": "Die ersten %{count} Bestellungen sind kostenlos",
+            "many": "Die ersten %{count} Bestellungen sind kostenlos"
           },
           "free_for_first_n_order": {
             "one": "Für die erste Bestellung",
-            "other": "Für die ersten %{count} Bestellungen"
+            "other": "Für die ersten %{count} Bestellungen",
+            "many": "Für die ersten %{count} Bestellungen"
           }
         },
         "estimated_delivery_time": "Voraussichtliche Lieferung um: %{time}",
@@ -359,7 +366,8 @@
         "express_checkout_free_order": "Für eine kostenlose Bestellung wird dir nichts in Rechnung gestellt.",
         "order_covered_by_gift_cards_notice": {
           "one": "Deine Bestellung wird von deinem Gutschein abgedeckt.",
-          "other": "Deine Bestellung wird von deinen Gutscheinen abgedeckt."
+          "other": "Deine Bestellung wird von deinen Gutscheinen abgedeckt.",
+          "many": "Deine Bestellung wird von deinen Gutscheinen abgedeckt."
         },
         "offsite_gateway_redirect_hint": "Nachdem du “%{button_label}” geklickt hast, wirst du zu %{gateway_label} weitergeleitet, um deinen Einkauf sicher abzuschließen.",
         "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} insgesamt %{total_shop_price}",
