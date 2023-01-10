@@ -1629,7 +1629,28 @@
         }
       },
       "order_status": {
-        "delivered_label": "Geliefert"
+        "delivered_label": "Geliefert",
+        "attempted_delivery_label": "Lieferversuch"
+      }
+    },
+    "order_details": {
+      "shipping": {
+        "method": "Versand"
+      },
+      "summary_title": "Zusammenfassung deiner Bestellung",
+      "total": "Gesamtsumme",
+      "show_order_summary": "Bestellzusammenfassung anzeigen",
+      "hide_order_summary": "Bestellzusammenfassung verbergen"
+    },
+    "addresses": {
+      "cancel_deletion_button": "Schließen"
+    },
+    "address_form": {
+      "cancel": "Schließen"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_section_accessibility_label": "Firma"
       }
     }
   }
