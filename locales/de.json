@@ -378,7 +378,8 @@
         "card_fields_container_prefix": "Rahmen für das Feld:",
         "card_fields_unavailable_html": {
           "one": "Kredit- und Debitkartenzahlungen sind momentan nicht verfügbar.<br>Bitte <a href=\"%{current_url}\">lade diese Seite neu<\/a> oder versuche es später noch einmal.",
-          "other": "Kredit- und Debitkartenzahlungen sind momentan nicht verfügbar.<br>Bitte <a href=\"%{current_url}\">lade diese Seite neu<\/a> oder probiere eine andere Zahlungsmethode."
+          "other": "Kredit- und Debitkartenzahlungen sind momentan nicht verfügbar.<br>Bitte <a href=\"%{current_url}\">lade diese Seite neu<\/a> oder probiere eine andere Zahlungsmethode.",
+          "many": "Kredit- und Debitkartenzahlungen sind momentan nicht verfügbar.<br>Bitte <a href=\"%{current_url}\">lade diese Seite neu<\/a> oder probiere eine andere Zahlungsmethode."
         },
         "card_fields_processing_error": "Bei der Verarbeitung der Zahlung ist ein Problem aufgetreten. Versuche, diese Seite zu aktualisieren oder überprüfe deine Internetverbindung.",
         "technical_error": "Zahlungen können derzeit aus technischen Gründen nicht bearbeitet werden. Versuche es in ein paar Minuten noch einmal.",
@@ -432,7 +433,7 @@
         "delete_customer_mandate_modal_cancel": "Schließen",
         "credit_card_vaulting_sign_in_banner_title": "Speichere deine Kreditkarte",
         "credit_card_vaulting_sign_in_banner_info": "Logge dich ein oder erstelle ein Konto, um deine Kreditkarteninformationen für zukünftige Käufe zu speichern.",
-        "credit_card_vaulting_sign_in_banner_button_label": "Einloggen",
+        "credit_card_vaulting_sign_in_banner_button_label": "Anmelden",
         "expiry_long": "(Läuft ab: %{month}\/%{year})",
         "expiry_short": "(Läuft ab: %{month}\/%{year})",
         "paypal_label": "PayPal",
@@ -559,7 +560,8 @@
         },
         "shipping_method_not_available_updated": {
           "one": "Der von dir hinzugefügte Artikel wird nicht an deinen Standort versendet. Entferne ihn vor der Zahlung, oder kontaktiere den Shop.",
-          "other": "Mindestens einer der von dir hinzugefügten Artikel wird nicht an deinen Standort versendet. Entferne ihn vor der Zahlung, oder kontaktiere den Shop."
+          "other": "Mindestens einer der von dir hinzugefügten Artikel wird nicht an deinen Standort versendet. Entferne ihn vor der Zahlung, oder kontaktiere den Shop.",
+          "many": "Mindestens einer der von dir hinzugefügten Artikel wird nicht an deinen Standort versendet. Entferne ihn vor der Zahlung, oder kontaktiere den Shop."
         }
       },
       "alternative_payment_method_banner": {
@@ -594,7 +596,8 @@
           "short": "Deine Bestellung wird bearbeitet.",
           "medium": {
             "one": "Deine Bestellung wird bearbeitet. Die geschätzte Wartezeit beträgt %{count} Minute.",
-            "other": "Deine Bestellung wird bearbeitet. Die geschätzte Wartezeit beträgt %{count} Minuten."
+            "other": "Deine Bestellung wird bearbeitet. Die geschätzte Wartezeit beträgt %{count} Minuten.",
+            "many": "Deine Bestellung wird bearbeitet. Die geschätzte Wartezeit beträgt %{count} Minuten."
           },
           "long": "Du erhältst eine E-Mail, sobald deine Bestellung bearbeitet worden ist. Wir verzeichnen derzeit eine große Anzahl an Bestellungen.",
           "no_auto_refresh_html": "Wenn du nicht automatisch weitergeleitet wirst, %{link}.",
@@ -607,7 +610,7 @@
         "title": "Zahlung konnte nicht verarbeitet werden",
         "payment_not_processed_title": "Zahlung konnte nicht verarbeitet werden",
         "payment_not_processed_text": "Dir wurde nichts berechnet. Kehre zu deinem Einkaufswagen zurück, um deinen Einkauf abzuschließen.",
-        "return_to_cart_button_label": "Zurück zum Einkaufswagen"
+        "return_to_cart_button_label": "Zurück zum Warenkorb"
       },
       "payment_gateway": {
         "credit_card_label": "Kreditkarte",
