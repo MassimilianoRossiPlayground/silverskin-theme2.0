@@ -1600,5 +1600,37 @@
   },
   "date_formats": {
     "month_day_year": "%B %d, %Y"
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "delete_confirmation": {
+        "cancel": "Schließen"
+      },
+      "login_prompt": {
+        "continue": "Weiter"
+      }
+    },
+    "account_information": {
+      "profile_card": {
+        "cancel": "Schließen"
+      }
+    },
+    "orders": {
+      "order_list": {
+        "column_headers": {
+          "total": "Gesamtsumme"
+        },
+        "items": {
+          "many": "{{count}} Artikel"
+        },
+        "pagination": {
+          "next": "Nächste",
+          "previous": "Vorherige"
+        }
+      },
+      "order_status": {
+        "delivered_label": "Geliefert"
+      }
+    }
   }
 }
