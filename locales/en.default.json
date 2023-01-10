@@ -96,8 +96,8 @@
         "phone_tooltip": "In case we need to contact you about your order",
         "zip_code_label": "ZIP code",
         "zip_code_placeholder": "ZIP code",
-        "postal_code_label": "Postal code",
-        "postal_code_placeholder": "Postal code",
+        "postal_code_label": "ZIP code",
+        "postal_code_placeholder": "ZIP code",
         "postcode_label": "Postcode",
         "postcode_placeholder": "Postcode",
         "pincode_label": "PIN code",
@@ -136,9 +136,9 @@
         "product_column_header": "Products",
         "quantity_column_header": "Quantity",
         "price_column_header": "Price",
-        "status_column_header": "Status",
+        "status_column_header": "State",
         "removed_from_cart_notice": "Removed from cart",
-        "sold_out_label": "Sold out",
+        "sold_out_label": "Out of stock",
         "reduced_label": "Reduced",
         "reduced_with_quantity_label": "Only %{quantity_available} left",
         "remove_from_cart_button_label": "Remove from cart",
@@ -148,7 +148,7 @@
       "order_summary": {
         "title": "Order summary",
         "order_name_label": "Order %{name}",
-        "shopping_cart_label": "Shopping cart",
+        "shopping_cart_label": "Cart",
         "discount_title": "Discount",
         "discount_label": "Discount code",
         "discount_placeholder": "Discount code",
@@ -268,24 +268,29 @@
         "subscription_delivery_description": {
           "prepaid_delivery_frequency": {
             "one": "for %{count} time",
-            "other": "for %{count} times"
+            "other": "for %{count} times",
+            "many": "for %{count} times"
           },
           "subscription_delivery_frequency": {
             "day": {
               "one": "every day",
-              "other": "every %{count} days"
+              "other": "every %{count} days",
+              "many": "every %{count} days"
             },
             "week": {
               "one": "every week",
-              "other": "every %{count} weeks"
+              "other": "every %{count} weeks",
+              "many": "every %{count} weeks"
             },
             "month": {
               "one": "every month",
-              "other": "every %{count} months"
+              "other": "every %{count} months",
+              "many": "every %{count} months"
             },
             "year": {
               "one": "every year",
-              "other": "every %{count} years"
+              "other": "every %{count} years",
+              "many": "every %{count} years"
             }
           },
           "multiple_subscriptions_shipping_price_label": "%{shipping_price} per delivery",
