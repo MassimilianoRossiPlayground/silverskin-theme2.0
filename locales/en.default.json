@@ -1019,7 +1019,7 @@
     "errors": {
       "blank": "can't be blank",
       "credit_card_session_expired": "Credit card authorization has expired, please enter your payment information again. Your card has not been charged.",
-      "empty": "can't be empty",
+      "empty": "can't be blank",
       "invalid_email": "must be a valid email address",
       "discount_disabled": "This discount has been disabled",
       "discount_expired": "This discount is not valid anymore",
@@ -1049,7 +1049,7 @@
       "less_than_or_equal_to": "must be less than or equal to %{count}",
       "not_supported": "is not supported",
       "full_name_required": "Enter a first name and last name",
-      "invalid_for_card_type": "is not valid",
+      "invalid_for_card_type": "is invalid",
       "invalid_type": "sorry, we do not accept cards of this type",
       "invalid_format": "format is not valid",
       "expired": "has expired",
@@ -1105,7 +1105,8 @@
           "inventory": "Items unavailable",
           "fraud": "Fraudulent order",
           "customer": "Customer changed\/cancelled order",
-          "other": "Other"
+          "other": "More",
+          "many": "More"
         },
         "cash_on_delivery": "Cash on Delivery (COD)"
       },
