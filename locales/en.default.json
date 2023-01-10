@@ -553,7 +553,8 @@
         },
         "shipping_method_not_available_updated": {
           "one": "The item you added doesn’t ship to your location. Remove it to check out, or contact the store.",
-          "other": "One or more items you added don’t ship to your location. Remove them to check out, or contact the store."
+          "other": "One or more items you added don’t ship to your location. Remove them to check out, or contact the store.",
+          "many": "One or more items you added don’t ship to your location. Remove them to check out, or contact the store."
         }
       },
       "alternative_payment_method_banner": {
@@ -588,7 +589,8 @@
           "short": "Your order’s being processed.",
           "medium": {
             "one": "Your order’s being processed. Estimated wait time is 1 minute.",
-            "other": "Your order’s being processed. Estimated wait time is %{count} minutes."
+            "other": "Your order’s being processed. Estimated wait time is %{count} minutes.",
+            "many": "Your order’s being processed. Estimated wait time is %{count} minutes."
           },
           "long": "You’ll receive an email as soon as your order’s processed. There’s currently a high volume of orders.",
           "no_auto_refresh_html": "If you’re not automatically redirected, %{link}.",
@@ -599,7 +601,7 @@
       "failed_payment": {
         "page_title": "Payment couldn’t be processed",
         "title": "Payment couldn’t be processed",
-        "payment_not_processed_title": "Your payment couldn’t be processed",
+        "payment_not_processed_title": "Payment couldn’t be processed",
         "payment_not_processed_text": "You haven’t been charged. Return to your cart to complete your purchase.",
         "return_to_cart_button_label": "Return to cart"
       },
@@ -722,7 +724,7 @@
           "shipping": "Pickup location"
         },
         "thank_you_confirmed_order_with_email_pick_up": "You’ll receive an email when your order is ready for pickup.",
-        "thank_you_confirmed_order_with_phone_pick_up": "You’ll receive an email when your order is ready for pickup.",
+        "thank_you_confirmed_order_with_phone_pick_up": "You’ll receive a text when your order is ready for pickup.",
         "thank_you_confirmed_order_with_email_and_phone_pick_up": "You’ll receive an email when your order is ready for pickup.",
         "ready_for_pickup_title": "Your order is ready for pickup",
         "ready_for_pickup_description": "Your order is ready for pickup. Please bring your order confirmation when you pick up your order.",
@@ -735,9 +737,9 @@
         "order_status_confirmed_order_local": "We’re getting your order ready for delivery.",
         "delivery_information_label": "Delivery information:",
         "gift_card_sent_confirmation": "Gift cards sent",
-        "out_for_delivery_local_title": "Your order is out for delivery",
+        "out_for_delivery_local_title": "Your shipment is out for delivery",
         "out_for_delivery_local_description_html": "Your order will arrive soon.",
-        "delivered_local_title": "Your order has been delivered",
+        "delivered_local_title": "Your shipment has been delivered",
         "delivered_local_description_html": "Haven’t received your order? %{let_us_know}.",
         "let_us_know": "Let us know",
         "qr_code": {
