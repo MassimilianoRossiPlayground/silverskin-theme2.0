@@ -847,7 +847,8 @@
         "changes_summary": {
           "added": {
             "one": "Added",
-            "other": "%{count} added"
+            "other": "%{count} added",
+            "many": "%{count} added"
           },
           "removed": "Removed",
           "subtracted": "%{count} removed"
@@ -882,7 +883,8 @@
         "title_with_products": {
           "zero": "Purchase %{product_name}",
           "one": "Purchase %{product_name} and %{count} other item",
-          "other": "Purchase %{product_name} and %{count} other items"
+          "other": "Purchase %{product_name} and %{count} other items",
+          "many": "Purchase %{product_name} and %{count} other items"
         }
       },
       "localized_fields": {
@@ -910,33 +912,39 @@
         "recurring_totals_with_policies": {
           "first_cycles": {
             "one": "First payment %{total_price}",
-            "other": "First %{count} payments %{total_price} each"
+            "other": "First %{count} payments %{total_price} each",
+            "many": "First %{count} payments %{total_price} each"
           },
           "following_cycles": ", then %{total_price} every %{interval}"
         },
         "recurring_total_intervals": {
           "day": {
             "one": "day",
-            "other": "%{count} days"
+            "other": "%{count} days",
+            "many": "%{count} days"
           },
           "week": {
             "one": "week",
-            "other": "%{count} weeks"
+            "other": "%{count} weeks",
+            "many": "%{count} weeks"
           },
           "month": {
             "one": "month",
-            "other": "%{count} months"
+            "other": "%{count} months",
+            "many": "%{count} months"
           },
           "year": {
             "one": "year",
-            "other": "%{count} years"
+            "other": "%{count} years",
+            "many": "%{count} years"
           }
         },
         "recurring_totals_with_initial_order_shipping_discount": "First payment %{total_price_with_discount}, then %{recurring_total}",
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
             "one": ", then %{count} payment at %{total_price}",
-            "other": ", then %{count} payments at %{total_price} each"
+            "other": ", then %{count} payments at %{total_price} each",
+            "many": ", then %{count} payments at %{total_price} each"
           }
         }
       },
@@ -948,6 +956,17 @@
           "generic_error": "There was an issue processing your request.",
           "success_message": "Your payment method has been successfully deleted"
         }
+      },
+      "contextual_availability": {
+        "title": {
+          "many": "Products unavailable"
+        },
+        "products_not_available": {
+          "many": "These products will be removed from your cart because they're not available in your country\/region."
+        },
+        "all_products_in_cart_unavailable": {
+          "many": "These products are not available in your country\/region."
+        }
       }
     },
     "pagination": {
@@ -956,7 +975,7 @@
     },
     "links": {
       "powered_by_shopify": "Powered by Shopify",
-      "learn_more": "Learn more"
+      "learn_more": "More information"
     },
     "feed": {
       "more": "More"
@@ -972,9 +991,9 @@
     },
     "addresses": {
       "zip_code": "ZIP code",
-      "postal_code": "Postal code",
-      "postcode": "Postcode",
-      "pincode": "Pincode",
+      "postal_code": "ZIP code",
+      "postcode": "ZIP code",
+      "pincode": "ZIP code",
       "region": "Region",
       "prefecture": "Prefecture",
       "province": "Province",
