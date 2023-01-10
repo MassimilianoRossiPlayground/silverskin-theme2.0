@@ -629,12 +629,12 @@
         "page_title_no_name": "Vielen Dank!",
         "cancelled_page_title": "Bestellung storniert",
         "customer_information_title": "Kundeninformationen",
-        "contact_information_title": "Kontaktinformationen",
+        "contact_information_title": "Kontakdetails",
         "billing_address_title": "Rechnungsadresse",
         "shipping_address_title": "Lieferadresse",
         "shipping_address_map_title": "Google-Karte, die die Lieferadresse anzeigt: %{address}",
         "payment_method_title": "Zahlungsmethode",
-        "shipping_method_title": "Versandart",
+        "shipping_method_title": "Versand",
         "tracking_number": "Trackingnummer:",
         "company_tracking_number": "%{company} Trackingnummer:",
         "estimated_arrival": "Voraussichtliches Lieferdatum: ",
@@ -690,7 +690,8 @@
         "login_not_customer_html": "Nicht %{name}? Du kannst %{link}",
         "login_reorder_link_text": {
           "one": "dieses Produkt ebenfalls kaufen",
-          "other": "diese Produkte ebenfalls kaufen"
+          "other": "diese Produkte ebenfalls kaufen",
+          "many": "diese Produkte ebenfalls kaufen"
         },
         "customer_information_hidden_fields_message": "Logge dich ein, um alle Kundeninformationen zu sehen.",
         "cancelled_title": "Deine Bestellung wurde storniert",
@@ -744,9 +745,9 @@
         "order_status_confirmed_order_local": "Wir bereiten deine Bestellung gerade für die Zustellung vor.",
         "delivery_information_label": "Informationen zur Zustellung:",
         "gift_card_sent_confirmation": "Geschenkgutschein gesendet",
-        "out_for_delivery_local_title": "Zustellung für deine Bestellung läuft",
+        "out_for_delivery_local_title": "Die Zustellung deiner Bestellung läuft.",
         "out_for_delivery_local_description_html": "Deine Bestellung wird in Kürze ankommen.",
-        "delivered_local_title": "Deine Bestellung wurde zugestellt",
+        "delivered_local_title": "Deine Bestellung wurde geliefert",
         "delivered_local_description_html": "Hast du deine Bestellung nicht erhalten? %{let_us_know}.",
         "let_us_know": "Lass es uns wissen",
         "qr_code": {
@@ -773,7 +774,7 @@
             "description": "Der Shop sendet dir Zustellungsaktualisierungen in Echtzeit, sobald deine Bestellung versendet wurde."
           },
           "sms": {
-            "title": "Oder einen Link an dein Telefon senden"
+            "title": "Oder sende einen Link an das Telefon"
           }
         },
         "estimated_delivery": "Voraussichtliche Zustellung ",
@@ -823,7 +824,8 @@
         "legal_notice": "Impressum",
         "shipping_policy": "Versandbedingungen",
         "terms_of_sale": "Verkaufsbedingungen",
-        "subscription_policy": "Abonnement-Richtlinien"
+        "subscription_policy": "Abonnement-Richtlinien",
+        "contact_information": "Kontakdetails"
       },
       "remember_me": {
         "shopify_pay_label": "Shop Pay",
