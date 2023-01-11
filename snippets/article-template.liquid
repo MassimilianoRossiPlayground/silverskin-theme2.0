@@ -242,23 +242,25 @@
   <div id="blog-others-articles" class="blog-cards  swiper-container ">
       <div class="blog-cards__container swiper-wrapper">
         
-        {% for article in blogs[blog.handle].articles limit:6 %}
-          <div class="swiper-slide">
-            <a href="{{ article.url }}">
-              <div class="single-article">
-                {%- assign article_img_url = article.image | img_url: 'master' -%}
-                <img class="card-image" width="100%" src="{{ article_img_url }}" alt="{{ article.title }} ">
-                <div class="single-article__tags">
+        {% for other_article in blogs[blog.handle].articles limit:6 %}
+          {% if article.title != other_article.title %}
+            <div class="swiper-slide">
+              <a href="{{ other_article.url }}">
+                <div class="single-article">
+                  {%- assign article_img_url = other_article.image | img_url: 'master' -%}
+                  <img class="card-image" width="100%" src="{{ article_img_url }}" alt="{{ other_article.title }} ">
+                  <div class="single-article__tags">
 
-                  {%- for tag in article.tags -%}
-                    <a href="{{ blogs[blog.handle].url }}/tagged/{{ tag | handle }}">{{ tag }}</a>{% unless forloop.last %} - {% endunless %}
-                  {%- endfor -%}
+                    {%- for tag in other_article.tags -%}
+                      <a href="{{ blogs[blog.handle].url }}/tagged/{{ tag | handle }}">{{ tag }}</a>{% unless forloop.last %} - {% endunless %}
+                    {%- endfor -%}
 
+                  </div>
+                  <h4 class="article-title">{{ other_article.title }}</h4>
                 </div>
-                <h4 class="article-title">{{ article.title }}</h4>
-              </div>
-            </a>
-          </div>
+              </a>
+            </div>
+          {% endif %} 
         {% endfor %} 
 
       </div>
