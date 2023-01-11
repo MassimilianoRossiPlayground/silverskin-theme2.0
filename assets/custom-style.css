@@ -196,6 +196,9 @@ span.quote-icon img {
 .template-cart .language-switcher-header svg {
     filter: invert(100%);
 }
+.template-article .language-switcher-header svg {
+    filter: invert(100%);
+}
 
 .template-index .site-header--opening .language-switcher-header svg {
     filter: invert(100%);
@@ -762,6 +765,12 @@ label[for] {
 
 .template-product .site-nav__icons__white {
     display: none;
+}
+.template-article .site-nav__icons__white {
+    display: none;
+}
+.template-article .site-nav__icons__black {
+    display: block;
 }
 
 .collection-item__title--heading {
