@@ -5,7 +5,7 @@
 
 <div class="grid__item {{ grid_item_width }}" data-aos="row-of-{{ per_row }}">
   <div class="grid grid--article">
-    <div class="grid__item small--one-third">
+    <div class="grid__item small--three-third">
       {% if article.image %}
         <a href="{{ article.url }}" class="article__grid-image">
           {% if fixed_aspect_ratio %}
@@ -46,7 +46,7 @@
         </div>
       {% endif %}
     </div>
-    <div class="grid__item small--two-thirds">
+    <div class="grid__item small--three-thirds">
       <div class="article__grid-meta">
         {% if section.settings.blog_show_date or article.tags.size > 0 or articles.comments_count > 0 %}
           <div class="article__date">
