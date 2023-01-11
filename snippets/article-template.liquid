@@ -29,9 +29,9 @@
   </div>
 
   <div class="article__date">
-    {% if section.settings.blog_show_date %}
+    {% comment %} {% if section.settings.blog_show_date %}
       {{ article.published_at | time_tag: format: 'month_day_year' }}
-    {% endif %}
+    {% endif %} {% endcomment %}
     {{ article.metafields.custom.data_durata }}
   </div>
 </div>
