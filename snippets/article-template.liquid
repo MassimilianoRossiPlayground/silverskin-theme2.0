@@ -245,7 +245,7 @@
           <div class="swiper-slide">
             <div class="single-article">
               {%- assign article_img_url = article.image | img_url: 'master' -%}
-              <img class="card-image" src="{{ article_img_url }}" alt="{{ article.title }} ">
+              <img class="card-image" width="100%" src="{{ article_img_url }}" alt="{{ article.title }} ">
               <div class="single-article__tags">
 
                 {%- for tag in article.tags -%}

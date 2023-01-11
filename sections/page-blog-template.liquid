@@ -32,7 +32,7 @@
           {% if block.type == 'cards' %}
             <div class="single-card">
               {%- assign img_url = block.settings.card_image | img_url: 'master' -%}
-              <img class="card-image" width="100%" src="{{ img_url }}" alt="{{ block.settings.card_title }} ">
+              <img class="card-image" src="{{ img_url }}" alt="{{ block.settings.card_title }} ">
               <div class="single-card__content">
                 <h4 class="card-title">{{ block.settings.card_title }}</h4>
                 <p class="card-subtitle">{{ block.settings.card_subtitle }}</p>
