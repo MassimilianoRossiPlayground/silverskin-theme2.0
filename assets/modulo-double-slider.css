@@ -837,4 +837,7 @@
     .container-sliders_markers .swiper-pagination-bullet.swiper-pagination-bullet-active{
         background: black;;
     }
+    .container-sliders_markers .swiper-pagination.swiper-pagination-bullets {
+        display: none;
+    }
 }
