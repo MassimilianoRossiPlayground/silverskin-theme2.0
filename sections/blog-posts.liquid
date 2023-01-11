@@ -29,12 +29,12 @@
       {% for i in (1..section.settings.post_limit) %}
         <div class="grid__item medium-up--one-third" data-aos="row-of-3">
           <div class="grid">
-            <div class="grid__item small--one-third">
+            <div class="grid__item small--three-third">
               <a href="#" class="article__grid-image">
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
               </a>
             </div>
-            <div class="grid__item small--two-thirds">
+            <div class="grid__item small--three-thirds">
               <div class="article__grid-meta">
                 {% if section.settings.blog_show_date or article.tags.size > 0 or articles.comments_count > 0 %}
                   <div class="article__date">
