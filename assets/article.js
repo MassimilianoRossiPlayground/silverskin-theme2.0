@@ -16,5 +16,21 @@
         }
     }
 
+
+    console.log("init article slider")
+    // const moreArticleSlider = new Swiper("#blog-others-articles", {
+    //     slidesPerView: 3,
+    //     spaceBetween: 30,
+    //     breakpoints: {
+    //         310: {
+    //             slidesPerView: 3
+    //         },
+    //         1024: {
+    //             slidesPerView: 3,
+    //             spaceBetween: 30,
+    //         }
+    //     }
+    // }) 
+
 })(document);
   

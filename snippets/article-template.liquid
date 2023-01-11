@@ -236,6 +236,33 @@
   </div>
 </div>
 
+{% comment %} START - BLOGS {% endcomment %}
+<div class="container container-blogs">
+  <section id="blog-others-articles" class="blog-cards  swiper-container ">
+      <div class="blog-cards__container swiper-wrapper">
+        
+        {% for article in blogs[blog.handle].articles limit:6 %}
+        
+            <div class="swiper-slide">
+              <div class="single-card">
+                {%- assign img_url = block.settings.card_image | img_url: 'master' -%}
+                <img class="card-image" src="{{ img_url }}" alt="{{ block.settings.card_title }} ">
+                <div class="single-card__content">
+                  <h4 class="card-title">{{ block.settings.card_title }}</h4>
+                  <p class="card-subtitle">{{ block.settings.card_subtitle }}</p>
+                  <a class="card-cta btn btn-white" href="{{ block.settings.card_link }}">{{ block.settings.card_cta }}</a>
+                </div>
+              </div>
+            </div>
+  
+
+          {% endfor %}
+
+      </div>
+  </section>
+</div>  
+{% comment %} END - BLOGS {% endcomment %}
+
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",
