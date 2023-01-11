@@ -40,7 +40,7 @@
   {%- assign img_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
   <img
-    class="collection-hero__image image-fit lazyload"
+    class="image-fit lazyload"
     src=""
     data-src="{{ img_url }}"
     data-aspectratio="{{ article.image.aspect_ratio }}"
