@@ -25,14 +25,14 @@
     {{ article.title }}
   </h1>
   <div class="blog-subtitle">
-    {{custom.sottotitolo}}
+    {{article.metafields.custom.sottotitolo}}
   </div>
 
   <div class="article__date">
     {% if section.settings.blog_show_date %}
       {{ article.published_at | time_tag: format: 'month_day_year' }}
     {% endif %}
-    {{custom.data_durata}}
+    {{ article.metafields.custom.data_durata }}
   </div>
 </div>
 
@@ -56,7 +56,7 @@
     >
   </noscript>
 
-  <div class="image_blog_alt">{{custom.image_caption}}</div>
+  <div class="image_blog_alt">{{article.metafields.custom.image_caption}}</div>
 {% endif %}
 
 <div class="page-width page-content blog-content">
