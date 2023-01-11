@@ -10,25 +10,9 @@
         "blog_show_author": false,
         "social_sharing_blog": true
       }
-    },
-    "3ec167ec-0908-4b02-ad9f-b998862b2348": {
-      "type": "blog-posts",
-      "settings": {
-        "title": "More articles",
-        "blog": "prova-blog",
-        "post_limit": 3,
-        "blog_show_tags": true,
-        "blog_show_date": false,
-        "blog_show_comments": false,
-        "blog_show_author": false,
-        "view_all": false,
-        "blog_image_size": "wide",
-        "divider": false
-      }
     }
   },
   "order": [
-    "main",
-    "3ec167ec-0908-4b02-ad9f-b998862b2348"
+    "main"
   ]
 }
