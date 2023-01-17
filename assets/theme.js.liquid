@@ -1977,22 +1977,26 @@ lazySizesConfig.expFactor = 4;
       }
       
       var scroll = $window.scrollTop();
+      var navBlog = document.querySelector(".nav-blog")
 
       var threshold = 150;
   
       if (scroll < config.lastScroll){
 
-        
-  
         config.stickyActive = true;
         $siteHeader.addClass(config.stickyClass).addClass(config.openTransitionClass);
+        if (navBlog) {
+          navBlog.addClass(config.stickyClass).addClass(config.openTransitionClass);
+        }
         
       }else{
 
          $siteHeader.removeClass(config.stickyClass);
         //  .removeClass(config.openTransitionClass)
          config.stickyActive = false;
-        
+        if (navBlog) {
+          navBlog.removeClass(config.stickyClass).removeClass(config.openTransitionClass);
+        }
       }
 
       if (scroll>threshold){
