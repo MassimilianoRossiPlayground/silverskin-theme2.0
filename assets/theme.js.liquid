@@ -1986,7 +1986,7 @@ lazySizesConfig.expFactor = 4;
         config.stickyActive = true;
         $siteHeader.addClass(config.stickyClass).addClass(config.openTransitionClass);
         if (navBlog) {
-          navBlog.addClass(config.stickyClass).addClass(config.openTransitionClass);
+          navBlog.classList.add("stuck")
         }
         
       }else{
@@ -1995,8 +1995,7 @@ lazySizesConfig.expFactor = 4;
         //  .removeClass(config.openTransitionClass)
          config.stickyActive = false;
         if (navBlog) {
-          navBlog.removeClass(config.stickyClass).removeClass(config.openTransitionClass);
-        }
+          navBlog.classList.remove("stuck")        }
       }
 
       if (scroll>threshold){
