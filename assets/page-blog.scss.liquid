@@ -30,6 +30,13 @@
         padding: 10px 0;
         transform: translateY(0);
         transition-duration: 0.3s;
+        top: 0;
+        &.stuck {
+            top: 120px;
+            @media screen and (max-width: 768px) {
+                top: 105px;
+            }
+        }
         &.hidden {
             height: 0;
             transform: translateY(-150px);
@@ -48,12 +55,6 @@
                 @media screen and (max-width: 768px) {
                     margin: 10px;
                 }
-            }
-        }
-        @media screen and (max-width: 768px) {
-            top: 0;
-            &.stuck {
-                top: 105px;
             }
         }
     }
