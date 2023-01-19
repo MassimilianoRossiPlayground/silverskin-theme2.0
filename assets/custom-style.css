@@ -5969,6 +5969,7 @@ h1.section-header__title {
             font-weight: 700;
             font-size: 70px !important;
             line-height: .90769em;
+            margin-bottom:40px;
 }
 
 @media screen and (max-width: 769px) {
@@ -5976,4 +5977,13 @@ h1.section-header__title {
     #shopify-section-template--17675682939201__39ea0bc7-54cd-4be6-86b6-f3e9f8d024ee.background-media-text__inner{
         position: relative;
     }
+}
+#shopify-section-template--17675682939201__81fd9031-4c4f-4bb6-9152-4c36341866c5,
+#shopify-section-template--17675682939201__f56a4586-2671-457c-85a9-4cc3eaa5cbaa{
+    font-family: barlow !important;
+    font-size: 13px;
+}
+
+#shopify-section-template--17675682939201__f56a4586-2671-457c-85a9-4cc3eaa5cbaa strong{
+    font-size: 30px;
 }
