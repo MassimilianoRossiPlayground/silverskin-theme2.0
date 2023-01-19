@@ -27,70 +27,63 @@
       "type": "featured-content",
       "settings": {
         "title": "",
-        "text": "<p><strong>Vi raccontiamo  la storia di chi della bici ha fatto molto più di uno sport: di chi la ama oltre la fatica. <\/strong><\/p><p>Dietro i record, le medaglie e i numeri sulla maglia, c’è un mondo intero fatto di allenamenti estenuanti, sveglie irragionevoli, cibi poco appetitosi e tanta fatica. Un mondo che meriterebbe i riflettori e senza il quale non esisterebbero traguardi e finish line. Abbiamo ripercorso con Nico Valsesia (ultrabiker e ultratrailer)  i mesi di avvicinamento ad  alcune delle gare di ultracycling più dure al mondo. <br\/>Dal casco con i piombi, per preparare il collo a giornate intere di pedalate, alle sedie di casa ingegnosamente sostituite da sellini per la bici. <br\/>Abbiamo rivissuto con lui  i durissimi allenamenti in ogni condizione climatica, le diete e le sveglie prima dell’alba. <\/p>",
-        "align_text": "left",
+        "text": "<p><strong>Vi raccontiamo  la storia di chi della bici <br\/>ha fatto molto più di uno sport:<br\/>di chi la ama oltre la fatica. <\/strong><\/p>",
+        "align_text": "center",
         "narrow_column": false,
         "enlarge_text": true,
         "divider": false
       }
     },
-    "a49cde7c-88b3-4800-992b-4a35c00704e4": {
-      "type": "text-columns",
-      "blocks": {
-        "template--17675682939201__a49cde7c-88b3-4800-992b-4a35c00704e4-167412142522154186-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/02-img-quadrate.jpg",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--17675682939201__a49cde7c-88b3-4800-992b-4a35c00704e4-167412142522154186-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/03-img-quadrate.jpg",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--17675682939201__a49cde7c-88b3-4800-992b-4a35c00704e4-167412142522154186-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/04-img-quadrate.jpg",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17675682939201__a49cde7c-88b3-4800-992b-4a35c00704e4-167412142522154186-0",
-        "template--17675682939201__a49cde7c-88b3-4800-992b-4a35c00704e4-167412142522154186-1",
-        "template--17675682939201__a49cde7c-88b3-4800-992b-4a35c00704e4-167412142522154186-2"
-      ],
+    "837eff25-8318-4f0f-b6c9-cbb0be57e602": {
+      "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/02-img-quadrate.jpg",
+        "image_width": 500,
+        "subtitle": "",
         "title": "",
-        "align_text": "left",
+        "text": "<p>Dietro i record, le medaglie e i numeri sulla maglia, c’è un mondo intero fatto di allenamenti estenuanti, sveglie irragionevoli, cibi poco appetitosi e tanta fatica. Un mondo che meriterebbe i riflettori e senza il quale non esisterebbero traguardi e finish line. Abbiamo ripercorso con Nico Valsesia (ultrabiker e ultratrailer)  i mesi di avvicinamento ad  alcune delle gare di ultracycling più dure al mondo. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
         "divider": false
+      }
+    },
+    "89202ec3-1769-4dfc-ab92-f4f92d0f7869": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/03-img-quadrate.jpg",
+        "image_width": 500,
+        "subtitle": "",
+        "title": "",
+        "text": "<p>Dal casco con i piombi, per preparare il collo a giornate intere di pedalate, alle sedie di casa ingegnosamente sostituite da sellini per la bici. <br\/>Abbiamo rivissuto con lui  i durissimi allenamenti in ogni condizione climatica, le diete e le sveglie prima dell’alba. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "591f5e9a-7ea5-4ba6-a70e-5aa3887d1819": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "focal_point": "center",
+        "color_border": "#f4f4f4",
+        "layout": "left",
+        "height": 650,
+        "framed": false,
+        "parallax": true
       }
     },
     "f56a4586-2671-457c-85a9-4cc3eaa5cbaa": {
       "type": "featured-content",
       "settings": {
         "title": "",
-        "text": "<p>Abbiamo assistito a un amore a volte folle, dalle radici profondissime, senza il quale nulla sarebbe possibile. <br\/>La passione è preziosa e come il base layer, è il vero primo strato verso ogni traguardo. <br\/>Per questo ci impegniamo a custodirla. <\/p><p><strong>VESTI IL BASE LAYER DELLO SPORT<\/strong><\/p><p><a href=\"https:\/\/www.silverskin.it\/collections\/donna\" target=\"_blank\" title=\"https:\/\/www.silverskin.it\/collections\/donna\">Shop donna<\/a>   <a href=\"https:\/\/www.silverskin.it\/collections\/uomo\" title=\"https:\/\/www.silverskin.it\/collections\/uomo\">Shop uomo<\/a><\/p>",
-        "align_text": "left",
+        "text": "<p>Abbiamo assistito a un amore a volte folle, dalle radici pro<br\/>fondissime, senza il quale nulla sarebbe possibile. La passione è preziosa e come il base layer, è il vero primo strato verso ogni traguardo. <br\/><strong>Per questo ci impegniamo a custodirla. <\/strong><\/p><p><\/p><p><a href=\"https:\/\/www.silverskin.it\/collections\/donna\" target=\"_blank\" title=\"https:\/\/www.silverskin.it\/collections\/donna\">SHOP DONNA<\/a>   <a href=\"https:\/\/www.silverskin.it\/collections\/uomo\" title=\"https:\/\/www.silverskin.it\/collections\/uomo\">SHOP UOMO<\/a><\/p>",
+        "align_text": "center",
         "narrow_column": false,
         "enlarge_text": true,
         "divider": false
@@ -103,26 +96,16 @@
         "video_url": "https:\/\/www.youtube.com\/watch?v=2nKZMNxmcD0",
         "divider": false
       }
-    },
-    "722529bc-505a-452b-b538-b9a6e6f619db": {
-      "type": "featured-content",
-      "settings": {
-        "title": "",
-        "text": "<p><a href=\"https:\/\/www.silverskin.it\/pages\/attivita\" target=\"_blank\" title=\"https:\/\/www.silverskin.it\/pages\/attivita\"><strong>I nostri base layer in azione<\/strong><\/a><\/p>",
-        "align_text": "left",
-        "narrow_column": false,
-        "enlarge_text": true,
-        "divider": false
-      }
     }
   },
   "order": [
     "main",
     "39ea0bc7-54cd-4be6-86b6-f3e9f8d024ee",
     "81fd9031-4c4f-4bb6-9152-4c36341866c5",
-    "a49cde7c-88b3-4800-992b-4a35c00704e4",
+    "837eff25-8318-4f0f-b6c9-cbb0be57e602",
+    "89202ec3-1769-4dfc-ab92-f4f92d0f7869",
+    "591f5e9a-7ea5-4ba6-a70e-5aa3887d1819",
     "f56a4586-2671-457c-85a9-4cc3eaa5cbaa",
-    "e3bc315b-de9b-4e9c-b446-e0d28a4f36c1",
-    "722529bc-505a-452b-b538-b9a6e6f619db"
+    "e3bc315b-de9b-4e9c-b446-e0d28a4f36c1"
   ]
 }
