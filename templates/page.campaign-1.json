@@ -17,7 +17,7 @@
         "focal_point": "center",
         "color_border": "#000000",
         "layout": "left",
-        "height": 550,
+        "height": 750,
         "framed": false,
         "parallax": true
       }
@@ -41,9 +41,9 @@
           "settings": {
             "enable_image": true,
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "title": "",
+            "text": "",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -52,9 +52,9 @@
           "settings": {
             "enable_image": true,
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "title": "",
+            "text": "",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -63,9 +63,9 @@
           "settings": {
             "enable_image": true,
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "title": "",
+            "text": "",
+            "button_label": "",
             "button_link": ""
           }
         }
