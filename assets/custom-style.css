@@ -5960,5 +5960,12 @@ h1.section-header__title {
 }
 #shopify-section-template--17675682939201__39ea0bc7-54cd-4be6-86b6-f3e9f8d024ee .background-media-text__text{
     background: none;
-    color: #000;
+    color: #fff;
+}
+
+@media screen and (max-width: 769px) {
+    #shopify-section-template--17675682939201__39ea0bc7-54cd-4be6-86b6-f3e9f8d024ee .background-media-text,
+    #shopify-section-template--17675682939201__39ea0bc7-54cd-4be6-86b6-f3e9f8d024ee.background-media-text__inner{
+        position: relative;
+    }
 }
