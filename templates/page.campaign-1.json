@@ -65,6 +65,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/04-img-quadrate.jpg",
             "image_width": 650,
             "title": "",
             "text": "",
