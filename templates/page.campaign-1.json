@@ -37,7 +37,7 @@
     "837eff25-8318-4f0f-b6c9-cbb0be57e602": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/02-img-quadrate.jpg",
+        "image": "shopify:\/\/shop_images\/02-img-1.jpg",
         "image_width": 500,
         "subtitle": "",
         "title": "",
@@ -51,7 +51,7 @@
     "89202ec3-1769-4dfc-ab92-f4f92d0f7869": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/03-img-quadrate.jpg",
+        "image": "shopify:\/\/shop_images\/02-img-2_eba4aabc-2626-48be-bbc8-46d9e23c6c42.jpg",
         "image_width": 500,
         "subtitle": "",
         "title": "",
@@ -70,10 +70,11 @@
         "text": "",
         "button_label": "",
         "button_link": "",
-        "focal_point": "center",
+        "image": "shopify:\/\/shop_images\/02-img-3_a96c9abc-e883-429c-8a83-1c9ede195108.jpg",
+        "focal_point": "bottom",
         "color_border": "#f4f4f4",
         "layout": "left",
-        "height": 650,
+        "height": 750,
         "framed": false,
         "parallax": true
       }
