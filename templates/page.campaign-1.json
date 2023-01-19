@@ -2,11 +2,110 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "39ea0bc7-54cd-4be6-86b6-f3e9f8d024ee": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "Impressive",
+        "title": "Large image with text box",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "focal_point": "center",
+        "color_border": "#f4f4f4",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
+        "parallax": true
+      }
+    },
+    "81fd9031-4c4f-4bb6-9152-4c36341866c5": {
+      "type": "featured-content",
+      "settings": {
+        "title": "",
+        "text": "<p>A sentence or two introducing your brand, what you sell, and what makes your brand compelling to customers.<\/p>",
+        "align_text": "left",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
+    "a49cde7c-88b3-4800-992b-4a35c00704e4": {
+      "type": "text-columns",
+      "blocks": {
+        "template--17675682939201__a49cde7c-88b3-4800-992b-4a35c00704e4-167412142522154186-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--17675682939201__a49cde7c-88b3-4800-992b-4a35c00704e4-167412142522154186-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--17675682939201__a49cde7c-88b3-4800-992b-4a35c00704e4-167412142522154186-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17675682939201__a49cde7c-88b3-4800-992b-4a35c00704e4-167412142522154186-0",
+        "template--17675682939201__a49cde7c-88b3-4800-992b-4a35c00704e4-167412142522154186-1",
+        "template--17675682939201__a49cde7c-88b3-4800-992b-4a35c00704e4-167412142522154186-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
+    },
+    "e3bc315b-de9b-4e9c-b446-e0d28a4f36c1": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "divider": false
+      }
+    },
+    "f56a4586-2671-457c-85a9-4cc3eaa5cbaa": {
+      "type": "featured-content",
+      "settings": {
+        "title": "",
+        "text": "<p>A sentence or two introducing your brand, what you sell, and what makes your brand compelling to customers.<\/p>",
+        "align_text": "left",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "39ea0bc7-54cd-4be6-86b6-f3e9f8d024ee",
+    "81fd9031-4c4f-4bb6-9152-4c36341866c5",
+    "a49cde7c-88b3-4800-992b-4a35c00704e4",
+    "e3bc315b-de9b-4e9c-b446-e0d28a4f36c1",
+    "f56a4586-2671-457c-85a9-4cc3eaa5cbaa"
   ]
 }
