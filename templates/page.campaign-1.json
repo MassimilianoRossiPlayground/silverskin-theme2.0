@@ -14,6 +14,7 @@
         "text": "<p><em><strong>Una storia di profonda passione, di amore viscerale, <br\/>quello che ti spinge oltre i limiti verso mete lontane.<\/strong><\/em><\/p>",
         "button_label": "",
         "button_link": "",
+        "image": "shopify:\/\/shop_images\/01-Hero-HP.jpg",
         "focal_point": "center",
         "color_border": "#000000",
         "layout": "left",
@@ -40,6 +41,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/02-img-quadrate.jpg",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -51,6 +53,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/03-img-quadrate.jpg",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -62,6 +65,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/04-img-quadrate.jpg",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -85,7 +89,7 @@
       "type": "featured-content",
       "settings": {
         "title": "",
-        "text": "<p>Abbiamo assistito a un amore a volte folle, dalle radici profondissime, senza il quale nulla sarebbe possibile. <\/p><p>La passione è preziosa e come il base layer, è il vero primo strato verso ogni traguardo.<\/p><p>Per questo ci impegniamo a custodirla. <\/p><p><strong>Vesti IL BASE LAYER DELLO SPORT<\/strong><\/p><p><a href=\"https:\/\/www.silverskin.it\/collections\/donna\" target=\"_blank\" title=\"https:\/\/www.silverskin.it\/collections\/donna\"><strong>Shop donna<\/strong><\/a><strong>   <\/strong><a href=\"https:\/\/www.silverskin.it\/collections\/uomo\" title=\"https:\/\/www.silverskin.it\/collections\/uomo\"><strong>Shop uomo<\/strong><\/a><\/p>",
+        "text": "<p>Abbiamo assistito a un amore a volte folle, dalle radici profondissime, senza il quale nulla sarebbe possibile. <\/p><p>La passione è preziosa e come il base layer, è il vero primo strato verso ogni traguardo. <\/p><p>Per questo ci impegniamo a custodirla. <\/p><p><strong>Vesti IL BASE LAYER DELLO SPORT<\/strong><\/p><p><a href=\"https:\/\/www.silverskin.it\/collections\/donna\" target=\"_blank\" title=\"https:\/\/www.silverskin.it\/collections\/donna\"><strong>Shop donna<\/strong><\/a><strong>   <\/strong><a href=\"https:\/\/www.silverskin.it\/collections\/uomo\" title=\"https:\/\/www.silverskin.it\/collections\/uomo\"><strong>Shop uomo<\/strong><\/a><\/p>",
         "align_text": "left",
         "narrow_column": false,
         "enlarge_text": true,
@@ -96,7 +100,18 @@
       "type": "featured-video",
       "settings": {
         "title": "",
-        "video_url": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=2nKZMNxmcD0",
+        "divider": false
+      }
+    },
+    "722529bc-505a-452b-b538-b9a6e6f619db": {
+      "type": "featured-content",
+      "settings": {
+        "title": "",
+        "text": "<p><a href=\"https:\/\/www.silverskin.it\/pages\/attivita\" target=\"_blank\" title=\"https:\/\/www.silverskin.it\/pages\/attivita\"><strong>I nostri base layer in azione<\/strong><\/a><\/p>",
+        "align_text": "left",
+        "narrow_column": false,
+        "enlarge_text": true,
         "divider": false
       }
     }
@@ -107,6 +122,7 @@
     "81fd9031-4c4f-4bb6-9152-4c36341866c5",
     "a49cde7c-88b3-4800-992b-4a35c00704e4",
     "f56a4586-2671-457c-85a9-4cc3eaa5cbaa",
-    "e3bc315b-de9b-4e9c-b446-e0d28a4f36c1"
+    "e3bc315b-de9b-4e9c-b446-e0d28a4f36c1",
+    "722529bc-505a-452b-b538-b9a6e6f619db"
   ]
 }
