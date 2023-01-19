@@ -6022,7 +6022,10 @@ h1.section-header__title {
 
 div#shopify-section-template--17675682939201__837eff25-8318-4f0f-b6c9-cbb0be57e602 {
     margin-bottom: 0px;
-    @media screen and (max-width: 769px) {
+    
+}
+@media screen and (max-width: 769px) {
+    div#shopify-section-template--17675682939201__837eff25-8318-4f0f-b6c9-cbb0be57e602 {
         margin-bottom: 20px;
     }
 }
