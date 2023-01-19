@@ -34,6 +34,48 @@
         "divider": false
       }
     },
+    "837eff25-8318-4f0f-b6c9-cbb0be57e602": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/02-img-quadrate.jpg",
+        "image_width": 500,
+        "subtitle": "",
+        "title": "",
+        "text": "<p>Dietro i record, le medaglie e i numeri sulla maglia, c’è un mondo intero fatto di allenamenti estenuanti, sveglie irragionevoli, cibi poco appetitosi e tanta fatica. Un mondo che meriterebbe i riflettori e senza il quale non esisterebbero traguardi e finish line.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "89202ec3-1769-4dfc-ab92-f4f92d0f7869": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/03-img-quadrate.jpg",
+        "image_width": 500,
+        "subtitle": "",
+        "title": "",
+        "text": "<p>Dietro i record, le medaglie e i numeri sulla maglia, c’è un mondo intero fatto di allenamenti estenuanti, sveglie irragionevoli, cibi poco appetitosi e tanta fatica. Un mondo che meriterebbe i riflettori e senza il quale non esisterebbero traguardi e finish line.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "ca362e9b-e7c4-45b0-bc95-6507dff4117f": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/04-img-quadrate.jpg",
+        "image_width": 500,
+        "subtitle": "",
+        "title": "",
+        "text": "<p>Dietro i record, le medaglie e i numeri sulla maglia, c’è un mondo intero fatto di allenamenti estenuanti, sveglie irragionevoli, cibi poco appetitosi e tanta fatica. Un mondo che meriterebbe i riflettori e senza il quale non esisterebbero traguardi e finish line.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "divider": false
+      }
+    },
     "a49cde7c-88b3-4800-992b-4a35c00704e4": {
       "type": "text-columns",
       "blocks": {
@@ -120,6 +162,9 @@
     "main",
     "39ea0bc7-54cd-4be6-86b6-f3e9f8d024ee",
     "81fd9031-4c4f-4bb6-9152-4c36341866c5",
+    "837eff25-8318-4f0f-b6c9-cbb0be57e602",
+    "89202ec3-1769-4dfc-ab92-f4f92d0f7869",
+    "ca362e9b-e7c4-45b0-bc95-6507dff4117f",
     "a49cde7c-88b3-4800-992b-4a35c00704e4",
     "f56a4586-2671-457c-85a9-4cc3eaa5cbaa",
     "e3bc315b-de9b-4e9c-b446-e0d28a4f36c1",
