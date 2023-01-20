@@ -483,7 +483,7 @@
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
               "image": "shopify:\/\/shop_images\/01-Hero-HP_3e4b70e3-84e8-4d3b-aaf9-4d4268d03fc1.jpg",
-              "focal_point": "center center"
+              "focal_point": "20% 50%"
             }
           },
           "1578064016256": {
