@@ -3337,8 +3337,8 @@ section#section-hotspots-snow {
 }
 
 .hotspot-modal {
-    width: 70%;
-    max-width: 1250px;
+    width: 80%;
+    max-width: 1400px;
     display: flex;
     flex-wrap: wrap;
     position: absolute;
