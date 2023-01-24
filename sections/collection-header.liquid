@@ -22,6 +22,8 @@
           {%- assign banner_uomo = collection.metafields.custom.banner_uomo -%}
           {%- assign banner_donna = collection.metafields.custom.banner_donna -%}
 
+          <span style="display:none">{{banner_uomo}}</span>
+
           {% if collection.tags contains "Uomo" %}
             {% if banner_uomo %}
               {%- assign img_url = banner_uomo.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
