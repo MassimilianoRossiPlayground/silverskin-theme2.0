@@ -23,6 +23,7 @@
           {%- assign banner_donna = collection.metafields.custom.banner_donna | img_url: 'master' -%}
 
           <span style="display:none">{{banner_uomo}}</span>
+          <span style="display:none">{{collection.tags}}</span>
 
           {% if collection.tags contains "Uomo" %}
             {% if banner_uomo %}
