@@ -5966,7 +5966,14 @@ h1.section-header__title {
     }
 }
 
+@media screen and (max-width: 768px) {
+   
 
+    /* Page Neve */
+    #shopify-section-page-snow-template .hotspot-modal {
+        width: 95%;
+    }
+}
 
 
 /* nico valesia lending */
