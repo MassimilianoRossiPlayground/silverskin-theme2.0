@@ -19,8 +19,8 @@
           </div>
         {% else %}
 
-          {%- assign banner_uomo = collection.metafields.custom.banner_uomo | img_tag -%}
-          {%- assign banner_donna = collection.metafields.custom.banner_donna | img_tag -%}
+          {%- assign banner_uomo = collection.metafields.custom.banner_uomo | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+          {%- assign banner_donna = collection.metafields.custom.banner_donna | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
           <span style="display:none">{{banner_uomo}}</span>
 
