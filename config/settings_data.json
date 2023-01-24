@@ -1315,6 +1315,46 @@
           "video_desk": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d08e6d7a9f1f42a681ff16742d0d7e03.mp4",
           "video_mob": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5ce6ac073ff340edb4ed4f63cf5d7df3.mp4"
         }
+      },
+      "collection-sidebar": {
+        "type": "collection-sidebar",
+        "blocks": {
+          "c8c10548-11c6-4e30-8f7e-e24d26619699": {
+            "type": "tags_group",
+            "settings": {
+              "title": "Tipologia",
+              "tag_list": "Accessori\nCalze\nMaglie\nPantaloni\nMascherine",
+              "collapsed": false
+            }
+          },
+          "3c1030aa-d0b6-405e-a962-5bae50a6b5dd": {
+            "type": "tags_group",
+            "settings": {
+              "title": "Attività",
+              "tag_list": "Ciclismo\nMotociclismo\nRunning\nSnowsports\nOutdoor Lifestyle\nProfessional",
+              "collapsed": false
+            }
+          },
+          "ed9cd607-2c7c-4762-bd24-30e64eea8583": {
+            "type": "tags_group",
+            "settings": {
+              "title": "Colore",
+              "tag_list": "Anthracite\nPearlGrey",
+              "collapsed": false
+            }
+          }
+        },
+        "block_order": [
+          "c8c10548-11c6-4e30-8f7e-e24d26619699",
+          "3c1030aa-d0b6-405e-a962-5bae50a6b5dd",
+          "ed9cd607-2c7c-4762-bd24-30e64eea8583"
+        ],
+        "settings": {
+          "enable_sidebar": true,
+          "filter_style": "drawer",
+          "tags_combine": false,
+          "enable_sort": true
+        }
       }
     },
     "content_for_index": [
