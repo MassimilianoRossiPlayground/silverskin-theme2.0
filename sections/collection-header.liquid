@@ -18,7 +18,25 @@
             </div>
           </div>
         {% else %}
-          {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+          {%- assign banner_uomo = collection.metafields.custom.banner_uomo | img_tag -%}
+          {%- assign banner_donna = collection.metafields.custom.banner_donna | img_tag -%}
+
+          <span style="display:none">{{banner_uomo}}</span>
+
+          {% if collection.tags contains "Uomo" %}
+            {% if banner_uomo %}
+              {%- assign img_url = banner_uomo -%}
+            {% else %}
+              {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+            {% endif %}
+          {% elsif collection.tags contains "Donna"%}
+            {% if banner_donna %}
+              {%- assign img_url = banner_donna -%}
+            {% else %}
+              {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+            {% endif %}
+          {% endif %}
 
           <img class="collection-hero__image image-fit lazyload"
             src=""
