@@ -26,13 +26,13 @@
 
           {% if collection.tags contains "Uomo" %}
             {% if banner_uomo %}
-              {%- assign img_url = banner_uomo.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+              {%- assign img_url = banner_uomo -%}
             {% else %}
               {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             {% endif %}
           {% elsif collection.tags contains "Donna"%}
             {% if banner_donna %}
-              {%- assign img_url = banner_donna.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+              {%- assign img_url = banner_donna -%}
             {% else %}
               {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             {% endif %}
