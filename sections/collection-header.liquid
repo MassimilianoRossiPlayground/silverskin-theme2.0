@@ -30,7 +30,7 @@
             {% else %}
               {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             {% endif %}
-          {% elseif collection.tags contains "Donna"%}
+          {% elsif collection.tags contains "Donna"%}
             {% if banner_donna %}
               {%- assign img_url = banner_donna.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             {% else %}
