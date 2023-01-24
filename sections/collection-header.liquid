@@ -26,16 +26,16 @@
           <span style="display:none">{{current_tags}}</span>
 
           {% if current_tags contains "Uomo" %}
-            {% if banner_uomo %}
-              {%- assign img_url = banner_uomo -%}
-            {% else %}
+            {% if banner_uomo contains "no-image" %}
               {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+            {% else %}
+              {%- assign img_url = banner_uomo -%}
             {% endif %}
           {% elsif current_tags contains "Donna"%}
-            {% if banner_donna %}
-              {%- assign img_url = banner_donna -%}
-            {% else %}
+            {% if banner_donna contains "no-image" %}
               {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+            {% else %}
+              {%- assign img_url = banner_donna -%}
             {% endif %}
           {% else %}
               {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
