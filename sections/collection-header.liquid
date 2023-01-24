@@ -36,6 +36,8 @@
             {% else %}
               {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             {% endif %}
+          {% else %}
+              {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
           {% endif %}
 
           <img class="collection-hero__image image-fit lazyload"
