@@ -23,15 +23,15 @@
           {%- assign banner_donna = collection.metafields.custom.banner_donna | img_url: 'master' -%}
 
           <span style="display:none">{{banner_uomo}}</span>
-          <span style="display:none">{{collection.tags}}</span>
+          <span style="display:none">{{current_tags}}</span>
 
-          {% if collection.tags contains "Uomo" %}
+          {% if current_tags contains "Uomo" %}
             {% if banner_uomo %}
               {%- assign img_url = banner_uomo -%}
             {% else %}
               {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             {% endif %}
-          {% elsif collection.tags contains "Donna"%}
+          {% elsif current_tags contains "Donna"%}
             {% if banner_donna %}
               {%- assign img_url = banner_donna -%}
             {% else %}
