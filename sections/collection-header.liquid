@@ -19,25 +19,80 @@
           </div>
         {% else %}
 
-          {%- assign banner_uomo = collection.metafields.custom.banner_uomo | img_tag -%}
-          {%- assign banner_donna = collection.metafields.custom.banner_donna | img_tag -%}
+          {%- assign uomo_stay_fresh = collection.metafields.custom.uomo_stay_fresh | img_url: 'master' -%}
+          {%- assign uomo_stay_warm = collection.metafields.custom.uomo_stay_warm | img_url: 'master' -%}
+          {%- assign uomo_stay_x_warm = collection.metafields.custom.uomo_stay_x_warm | img_url: 'master' -%}
+          {%- assign uomo_accessori = collection.metafields.custom.uomo_accessori | img_url: 'master' -%}
+          {%- assign donna_stay_fresh = collection.metafields.custom.donna_stay_fresh | img_url: 'master' -%}
+          {%- assign donna_stay_warm = collection.metafields.custom.donna_stay_warm | img_url: 'master' -%}
+          {%- assign donna_stay_x_warm = collection.metafields.custom.donna_stay_x_warm | img_url: 'master' -%}
+          {%- assign donna_accessori = collection.metafields.custom.donna_accessori | img_url: 'master' -%}
 
-          <span style="display:none">{{banner_uomo}}</span>
+          {% if current_tags contains "Uomo" %}
 
-          {% if collection.tags contains "Uomo" %}
-            {% if banner_uomo %}
-              {%- assign img_url = banner_uomo -%}
+            {% if current_tags contains "Stay Fresh" %}
+                  {% if uomo_stay_fresh contains "no-image" %}
+                    {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  {% else %}
+                    {%- assign img_url = uomo_stay_fresh -%}
+                  {% endif %}
+            {% elsif current_tags contains "Stay Warm" %}
+                  {% if uomo_stay_warm contains "no-image" %}
+                    {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  {% else %}
+                    {%- assign img_url = uomo_stay_warm -%}
+                  {% endif %}
+            {% elsif current_tags contains "Stay X-Warm" %}
+                  {% if uomo_stay_x_warm contains "no-image" %}
+                    {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  {% else %}
+                    {%- assign img_url = uomo_stay_x_warm -%}
+                  {% endif %}
+            {% elsif current_tags contains "Accessori" %}
+                  {% if uomo_accessori contains "no-image" %}
+                    {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  {% else %}
+                    {%- assign img_url = uomo_accessori -%}
+                  {% endif %}
             {% else %}
               {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             {% endif %}
-          {% elsif collection.tags contains "Donna"%}
-            {% if banner_donna %}
-              {%- assign img_url = banner_donna -%}
+
+          {% elsif current_tags contains "Donna"%}
+
+            {% if current_tags contains "Stay Fresh" %}
+                  {% if donna_stay_fresh contains "no-image" %}
+                    {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  {% else %}
+                    {%- assign img_url = donna_stay_fresh -%}
+                  {% endif %}
+            {% elsif current_tags contains "Stay Warm" %}
+                  {% if donna_stay_warm contains "no-image" %}
+                    {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  {% else %}
+                    {%- assign img_url = donna_stay_warm -%}
+                  {% endif %}
+            {% elsif current_tags contains "Stay X-Warm" %}
+                  {% if donna_stay_x_warm contains "no-image" %}
+                    {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  {% else %}
+                    {%- assign img_url = donna_stay_x_warm -%}
+                  {% endif %}
+            {% elsif current_tags contains "Accessori" %}
+                  {% if donna_accessori contains "no-image" %}
+                    {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  {% else %}
+                    {%- assign img_url = donna_accessori -%}
+                  {% endif %}
             {% else %}
               {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             {% endif %}
+
+          {% else %}
+            {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
           {% endif %}
 
+<span style="display:none">{{current_tags}}</span>
           <img class="collection-hero__image image-fit lazyload"
             src=""
             data-src="{{ img_url }}"
