@@ -6052,8 +6052,8 @@ div#shopify-section-template--17675682939201__837eff25-8318-4f0f-b6c9-cbb0be57e6
     max-width: 100% !important;
 }
 
-.buono-regalo .pdp-banner,
-.buono-regalo .title-secondary-banner,
-.buono-regalo .secondary-banner {
+.main-template-buono-regalo .pdp-banner,
+.main-template-buono-regalo .title-secondary-banner,
+.main-template-buono-regalo .secondary-banner {
     display: none;
 }
