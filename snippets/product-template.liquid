@@ -17,7 +17,7 @@
 {% endunless %}
 
 {% assign product_img_structure = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
-<div id="ProductSection-{{ section_id }}" class="product-section" data-section-id="{{ section_id }}" data-section-type="product-template" data-product-handle="{{ product.handle }}" data-product-url="{{ product.url | within: collection }}" data-aspect-ratio="{{ 100 | divided_by: product.featured_image.aspect_ratio }}" data-img-url="{{ product_img_structure }}"
+<div id="ProductSection-{{ section_id }}" class="product-section {{ product.handle }}" data-section-id="{{ section_id }}" data-section-type="product-template" data-product-handle="{{ product.handle }}" data-product-url="{{ product.url | within: collection }}" data-aspect-ratio="{{ 100 | divided_by: product.featured_image.aspect_ratio }}" data-img-url="{{ product_img_structure }}"
   {% if settings.product_zoom_enable %}
   data-image-zoom="true"
   {% endif %}
