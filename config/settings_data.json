@@ -1319,6 +1319,14 @@
       "collection-sidebar": {
         "type": "collection-sidebar",
         "blocks": {
+          "c5477bb6-d06d-4ec4-a93a-a7f163a1daa3": {
+            "type": "tags_group",
+            "settings": {
+              "title": "Genere",
+              "tag_list": "Uomo\nDonna",
+              "collapsed": false
+            }
+          },
           "c8c10548-11c6-4e30-8f7e-e24d26619699": {
             "type": "tags_group",
             "settings": {
@@ -1342,21 +1350,13 @@
               "tag_list": "Anthracite\nPearlGrey",
               "collapsed": false
             }
-          },
-          "c5477bb6-d06d-4ec4-a93a-a7f163a1daa3": {
-            "type": "tags_group",
-            "settings": {
-              "title": "Genere",
-              "tag_list": "Uomo\nDonna",
-              "collapsed": false
-            }
           }
         },
         "block_order": [
+          "c5477bb6-d06d-4ec4-a93a-a7f163a1daa3",
           "c8c10548-11c6-4e30-8f7e-e24d26619699",
           "3c1030aa-d0b6-405e-a962-5bae50a6b5dd",
-          "ed9cd607-2c7c-4762-bd24-30e64eea8583",
-          "c5477bb6-d06d-4ec4-a93a-a7f163a1daa3"
+          "ed9cd607-2c7c-4762-bd24-30e64eea8583"
         ],
         "settings": {
           "enable_sidebar": true,
