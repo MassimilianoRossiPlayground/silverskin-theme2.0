@@ -8,7 +8,6 @@
 
       <div class="product__main-photos" data-aos>
 
-        {% comment %} {%- if product.available and product.compare_at_price_min > product.price_min -%} {% endcomment %}
         {%- if product.compare_at_price_min > product.price_min -%}
           {%- capture discount -%}{{ product.compare_at_price_min | minus:product.price_min | times:100.0 | divided_by:product.compare_at_price_min | round }}%{%- endcapture -%}
           <div class="hc-sale-tag"><span>{{ discount }}</span></div>
