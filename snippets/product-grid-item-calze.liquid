@@ -67,7 +67,8 @@
     <a href="{{ product.url | within: collection }}" class="grid-product__link {% if sold_out %} grid-product__link--disabled{% endif %}">
       <div class="grid-product__image-mask">
 
-        {%- if product.available and product.compare_at_price_min > product.price_min -%}
+        {% comment %} {%- if product.available and product.compare_at_price_min > product.price_min -%} {% endcomment %}
+        {%- if product.compare_at_price_min > product.price_min -%}
           {%- capture discount -%}
             {{ product.compare_at_price_min | minus:product.price_min | times:100.0 | divided_by:product.compare_at_price_min | round }}%{%- endcapture -%}
           <div class="hc-sale-tag">
