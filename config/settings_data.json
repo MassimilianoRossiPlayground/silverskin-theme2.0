@@ -60,7 +60,7 @@
     "product_save_amount": true,
     "product_save_type": "percent",
     "product_zoom_enable": false,
-    "quick_shop_enable": true,
+    "quick_shop_enable": false,
     "quick_shop_text": "Discover more",
     "product_grid_image_size": "portrait",
     "product_hover_image": true,
