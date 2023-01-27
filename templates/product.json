@@ -14,13 +14,14 @@
     },
     "gallery": {
       "type": "product-gallery",
-      "settings": {}
+      "settings": {
+      }
     },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
         "show_product_recommendations": true,
-        "product_recommendations_heading": "You may also like",
+        "product_recommendations_heading": "PRODOTTI CORRELATI",
         "related_count": 5
       }
     },
