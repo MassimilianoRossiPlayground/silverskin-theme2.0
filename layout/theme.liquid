@@ -200,25 +200,7 @@
 
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if settings.enable_currencies %} currencies-enabled{% endif %}" data-transitions="false">
-{% comment %} <script>
-$.ajax({
-        url: "https://cdn.shopify.com/s/files/1/0285/3706/1424/t/8/assets/theme.scss.css?v=11156068118958684331",
-        success:function(suc){ 
-            console.log("FUNZIONA")
-        },
-        error:function(suc){ 
-            console.log("NON FUNZIONA")
 
-            $( document ).ready(function() {
-                
-                $( "body" ).empty();
-
-                document.body.innerHTML = document.body.innerHTML + ' <div class="maintenancemode" style="text-align: center;margin: 50px auto;">SITO IN MANUTENZIONE</div>';
-
-            });
-        }
-})
-</script> {% endcomment %}
 <script>window.KlarnaThemeGlobals={};{%case template.name%} {%when"product"%} window.KlarnaThemeGlobals.data_purchase_amount={{product.first_available_variant.price}};window.KlarnaThemeGlobals.productVariants={{product.variants|json}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%when"cart"%} window.KlarnaThemeGlobals.data_purchase_amount={{cart.total_price}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%endcase%}</script>
 
     {% comment %} <!-- Google Tag Manager (noscript) -->
