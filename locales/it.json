@@ -119,7 +119,7 @@
       "update": "Carrello aggiornato",
       "checkout": "Checkout",
       "empty": "Il carrello è vuoto.",
-      "continue_browsing_html": "<a href=\"\/collections\/all\">Continua lo shopping<\/a>",
+      "continue_browsing_html": "<a href=\"\/collections\/prodotti\">Continua lo shopping<\/a>",
       "close_cart": "Chiudi carrello",
       "reduce_quantity": "Riduci la quantità dell'articolo di uno",
       "increase_quantity": "Aumenta la quantità dell'articolo di uno",
