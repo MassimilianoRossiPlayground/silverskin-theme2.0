@@ -495,6 +495,7 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/05-Banner.jpg",
               "focal_point": "80% 50%"
             }
           }
