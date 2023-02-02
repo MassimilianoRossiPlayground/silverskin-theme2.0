@@ -111,7 +111,7 @@
     "share_twitter": true,
     "share_pinterest": false,
     "homepage_social_image": "",
-    "favicon": "shopify:\/\/shop_images\/PITTOGRAMMA_BLACK.png",
+    "favicon": "shopify:\/\/shop_images\/pittogramma.png",
     "search_enable": true,
     "search_type": "product",
     "predictive_search_enabled": true,
@@ -120,7 +120,7 @@
     "predictive_image_size": "square",
     "show_breadcrumbs": true,
     "checkout_header_image": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/logotipo_horizontal_black-01_6a44b3bf-5960-46e7-ad79-10988f188ba9.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logotipo_horizontal_black-01_e4191685-c878-406d-b8c7-9270d218a1d3.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "checkout_body_background_image": "",
@@ -427,6 +427,7 @@
               "link_text_2": "Acquista donna",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/silverskin-snow-hero-desk_8e36197f-7bc0-40f6-a0d7-5f6fcd494ee4.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -443,6 +444,7 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/HeroBanner_4f850d93-347f-4446-88b0-4f21b55196f6.jpg",
               "focal_point": "center center"
             }
           },
@@ -459,6 +461,7 @@
               "link_text_2": "Stay Warm - Donna",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/01-Stay-Warm-V5.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -492,6 +495,7 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/05-Banner.jpg",
               "focal_point": "80% 50%"
             }
           }
@@ -1195,7 +1199,8 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology"
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/Termoregolazione_perfetta_f58f2796-9718-4700-b5f7-684d3016a1e3.jpg"
             }
           },
           "b5d1c4bc-f714-4d74-8899-23a89aafc8c6": {
@@ -1206,7 +1211,8 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology"
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/Pelle_sempre_asciutta_8b3e96a1-5fab-4d31-97ed-9aad722e9dbf.jpg"
             }
           },
           "ea2eb875-5bf3-4252-b3c7-041aa58abf8e": {
@@ -1217,7 +1223,8 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology"
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/Traspirabilita_e_comodita_di_livello_superiore_578b1bb5-995f-47c9-9ad9-d9765d77f7c5.jpg"
             }
           }
         },
