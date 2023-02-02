@@ -1252,37 +1252,43 @@
           "27d8aab6-83f8-43c5-ad93-20df23d57fd6": {
             "type": "icon",
             "settings": {
-              "title": "IPOALLERGENICO"
+              "title": "IPOALLERGENICO",
+              "image": "shopify:\/\/shop_images\/ipoallergenico-icona-white_2x_70f67639-2240-4583-a39c-7c0fdbd5fbe9.png"
             }
           },
           "e0fdb7f7-4d68-4321-beb0-2854d57aa029-1672747437f6e471fb-0": {
             "type": "icon",
             "settings": {
-              "title": "ANTIBATTERICO"
+              "title": "ANTIBATTERICO",
+              "image": "shopify:\/\/shop_images\/antibatterico-icona-white_2x_92f60374-fbc6-4205-86c1-eb0db0628c1e.png"
             }
           },
           "d65e494b-d820-4a1d-9166-19a923510bfe": {
             "type": "icon",
             "settings": {
-              "title": "ANTI ODORE"
+              "title": "ANTI ODORE",
+              "image": "shopify:\/\/shop_images\/antiodore-icona-white_2x_51f7b97a-cecd-40aa-a0e4-abb7595d616f.png"
             }
           },
           "73230429-d9fa-4c9e-a93a-49e02fad8d48": {
             "type": "icon",
             "settings": {
-              "title": "ESTREMA TRASPIRABILITÀ"
+              "title": "ESTREMA TRASPIRABILITÀ",
+              "image": "shopify:\/\/shop_images\/traspirabilita-icona-white_2x_c81e909d-57fb-4345-8c2f-f42f28e7f587.png"
             }
           },
           "e85a538f-0faa-4eae-8983-4f1bcf060e70": {
             "type": "icon",
             "settings": {
-              "title": "MASSIMA ELASTICITÀ"
+              "title": "MASSIMA ELASTICITÀ",
+              "image": "shopify:\/\/shop_images\/elasticita-icona-white_2x_086f0355-b608-43ab-a2c9-1a2d478df1c6.png"
             }
           },
           "c57078f2-76e8-4a92-81b7-2ea30493ba4d": {
             "type": "icon",
             "settings": {
-              "title": "SENZA CUCITURE"
+              "title": "SENZA CUCITURE",
+              "image": "shopify:\/\/shop_images\/cuciture-icona-white_2x_ae40930a-8048-4aee-bf73-683f765e775a.png"
             }
           }
         },
