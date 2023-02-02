@@ -1090,6 +1090,7 @@
           "16ecb858-aa84-4da4-a25a-0d4b36124c28-16710177566d572eeb-0": {
             "type": "slide",
             "settings": {
+              "slide_image": "shopify:\/\/shop_images\/testimonial-01_2x_13838195-3519-45ed-88ed-e375c9a631e2.png",
               "slide_cit": "“Una maglia estremamente elastica, che segue ogni movimento. Ti avvolge senza comprimere ed è talmente comoda che spesso mi dimentico di averla addosso.”",
               "slide_subtitle": "- Alessio Zambon - Ultra trailer professionista"
             }
@@ -1097,6 +1098,7 @@
           "dc096421-5e71-4a0e-b6db-8b5ee487b74e": {
             "type": "slide",
             "settings": {
+              "slide_image": "shopify:\/\/shop_images\/testimonial-03_2x_b6a1c59f-e321-46bf-ae19-32754795fad2.png",
               "slide_cit": "“Un base layer versatile capace di proteggerti dai cambi repentini di temperatura, tenendoti sempre asciutto. Non lo toglierei mai!”",
               "slide_subtitle": "- Stefano La Mastra - ciclista"
             }
@@ -1104,6 +1106,7 @@
           "2c77e39b-61e7-4a04-b15f-0f36846662ff": {
             "type": "slide",
             "settings": {
+              "slide_image": "shopify:\/\/shop_images\/testimonial-02_2x_d25b400c-b294-454f-9ff0-39f9c148fd10.png",
               "slide_cit": "“Essenziale! La utilizzo sempre e da sempre. Quando partecipo a corse come la Atlas race, lo indosso per una settimana intera senza che si sentano cattivi odori o che il tessuto perda elasticità a causa del sudore.”",
               "slide_subtitle": "Nico Valsesia - ultra-biker"
             }
