@@ -157,8 +157,6 @@
           "1524768779513": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/Logo_Silverskin_Black_2x_fb8f61ac-110c-43cd-a199-1e9347bfed11.png",
-              "logo-inverted": "shopify:\/\/shop_images\/Logo_Silverskin_2x_52961998-425f-4ecc-ace7-238fe957e331.png",
               "desktop_logo_width": 200,
               "mobile_logo_width": 140
             }
@@ -188,7 +186,6 @@
           "1525444454442": {
             "type": "logo_social",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/LOGOTIPO_HORIZONTAL_WHITE_cd245e4c-59af-442f-8614-746d37ba02dc.png",
               "desktop_logo_height": 85,
               "container_width": 95
             }
@@ -206,7 +203,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": false,
-              "menu": "terms",
+              "menu": "",
               "container_width": 15
             }
           },
@@ -222,7 +219,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "donna",
+              "menu": "",
               "container_width": 15
             }
           },
@@ -405,7 +402,6 @@
           "popup_seconds": 40,
           "popup_days": 10,
           "popup_title": "",
-          "popup_image": "shopify:\/\/shop_images\/210929-silverskin-our-collections-slider-warm-01-mob_2x_76594b2b-1b43-4b17-9576-44f5e4225095.jpg",
           "popup_text": "<p>Tutte le ultime <strong>novità<\/strong>, le <strong>info dal mondo Silverskin<\/strong> e <strong>promozioni imperdibili<\/strong>, direttamente nella tua casella di posta!<\/p><p>Inserisci la tua e-mail e ricevi un <strong>CODICE SCONTO DEL 10% <\/strong>da utilizzare sul tuo primo ordine!<\/p>",
           "close_text": "No grazie!",
           "privacy_text": "ACCETTO LE CONDIZIONI DI <a href=\"\/pages\/privacy\/\" target=\"_blank\">PRIVACY<\/a>",
@@ -483,7 +479,6 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/01-Hero-HP_3e4b70e3-84e8-4d3b-aaf9-4d4268d03fc1.jpg",
               "focal_point": "center center"
             }
           },
@@ -500,7 +495,6 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/05-Banner.jpg",
               "focal_point": "80% 50%"
             }
           }
@@ -741,7 +735,6 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/Stay_Warm_Collection.jpg",
               "video_url": "",
               "width": "100",
               "height": 500,
@@ -765,7 +758,6 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-x-warm-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/Stay_X-Warm_Collection.jpg",
               "video_url": "",
               "width": "50",
               "height": 600,
@@ -789,7 +781,6 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/Stay_Fresh_Collection.jpg",
               "video_url": "",
               "width": "50",
               "height": 600,
@@ -1095,7 +1086,6 @@
           "16ecb858-aa84-4da4-a25a-0d4b36124c28-16710177566d572eeb-0": {
             "type": "slide",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/testimonial-01_2x_13838195-3519-45ed-88ed-e375c9a631e2.png",
               "slide_cit": "“Una maglia estremamente elastica, che segue ogni movimento. Ti avvolge senza comprimere ed è talmente comoda che spesso mi dimentico di averla addosso.”",
               "slide_subtitle": "- Alessio Zambon - Ultra trailer professionista"
             }
@@ -1103,7 +1093,6 @@
           "dc096421-5e71-4a0e-b6db-8b5ee487b74e": {
             "type": "slide",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/testimonial-03_2x_b6a1c59f-e321-46bf-ae19-32754795fad2.png",
               "slide_cit": "“Un base layer versatile capace di proteggerti dai cambi repentini di temperatura, tenendoti sempre asciutto. Non lo toglierei mai!”",
               "slide_subtitle": "- Stefano La Mastra - ciclista"
             }
@@ -1111,7 +1100,6 @@
           "2c77e39b-61e7-4a04-b15f-0f36846662ff": {
             "type": "slide",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/testimonial-02_2x_d25b400c-b294-454f-9ff0-39f9c148fd10.png",
               "slide_cit": "“Essenziale! La utilizzo sempre e da sempre. Quando partecipo a corse come la Atlas race, lo indosso per una settimana intera senza che si sentano cattivi odori o che il tessuto perda elasticità a causa del sudore.”",
               "slide_subtitle": "Nico Valsesia - ultra-biker"
             }
@@ -1140,7 +1128,6 @@
               "cta_text2": "",
               "cta_text2_color": "",
               "cta_link2": "",
-              "image": "shopify:\/\/shop_images\/hp-snow-banner_2x_e88451ea-6e88-4c43-8012-a36a7dcc20ae.jpg",
               "video_url": "",
               "width": "100",
               "height": 800,
@@ -1169,7 +1156,6 @@
           "2a07fafe-14ff-414d-b9e8-cbaddee00fa0": {
             "type": "advanced",
             "settings": {
-              "top_image": "shopify:\/\/shop_images\/activities-all_2x_ff44be4c-8abf-466e-ad5a-ae409fc79246.png",
               "subheading": "",
               "heading": "I nostri layer in azione",
               "textarea": "Che tu sia in viaggio alla  scoperta di un nuovo trail o in partenza per un weekend sulla neve, <br>scopri il base layer perfetto per le tue attività.",
@@ -1179,7 +1165,6 @@
               "cta_text2": "",
               "cta_text2_color": "",
               "cta_link2": "",
-              "image": "shopify:\/\/shop_images\/hp-activity-banner_2x_9d477e7d-bae7-4c10-bec4-fc15a2117cd5.jpg",
               "video_url": "",
               "width": "100",
               "height": 800,
@@ -1213,8 +1198,7 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/Termoregolazione_perfetta_f58f2796-9718-4700-b5f7-684d3016a1e3.jpg"
+              "cta2link": "\/pages\/technology"
             }
           },
           "b5d1c4bc-f714-4d74-8899-23a89aafc8c6": {
@@ -1225,8 +1209,7 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/Pelle_sempre_asciutta_8b3e96a1-5fab-4d31-97ed-9aad722e9dbf.jpg"
+              "cta2link": "\/pages\/technology"
             }
           },
           "ea2eb875-5bf3-4252-b3c7-041aa58abf8e": {
@@ -1237,8 +1220,7 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/Traspirabilita_e_comodita_di_livello_superiore_578b1bb5-995f-47c9-9ad9-d9765d77f7c5.jpg"
+              "cta2link": "\/pages\/technology"
             }
           }
         },
@@ -1258,43 +1240,37 @@
           "27d8aab6-83f8-43c5-ad93-20df23d57fd6": {
             "type": "icon",
             "settings": {
-              "title": "IPOALLERGENICO",
-              "image": "shopify:\/\/shop_images\/ipoallergenico-icona-white_2x_70f67639-2240-4583-a39c-7c0fdbd5fbe9.png"
+              "title": "IPOALLERGENICO"
             }
           },
           "e0fdb7f7-4d68-4321-beb0-2854d57aa029-1672747437f6e471fb-0": {
             "type": "icon",
             "settings": {
-              "title": "ANTIBATTERICO",
-              "image": "shopify:\/\/shop_images\/antibatterico-icona-white_2x_92f60374-fbc6-4205-86c1-eb0db0628c1e.png"
+              "title": "ANTIBATTERICO"
             }
           },
           "d65e494b-d820-4a1d-9166-19a923510bfe": {
             "type": "icon",
             "settings": {
-              "title": "ANTI ODORE",
-              "image": "shopify:\/\/shop_images\/antiodore-icona-white_2x_51f7b97a-cecd-40aa-a0e4-abb7595d616f.png"
+              "title": "ANTI ODORE"
             }
           },
           "73230429-d9fa-4c9e-a93a-49e02fad8d48": {
             "type": "icon",
             "settings": {
-              "title": "ESTREMA TRASPIRABILITÀ",
-              "image": "shopify:\/\/shop_images\/traspirabilita-icona-white_2x_c81e909d-57fb-4345-8c2f-f42f28e7f587.png"
+              "title": "ESTREMA TRASPIRABILITÀ"
             }
           },
           "e85a538f-0faa-4eae-8983-4f1bcf060e70": {
             "type": "icon",
             "settings": {
-              "title": "MASSIMA ELASTICITÀ",
-              "image": "shopify:\/\/shop_images\/elasticita-icona-white_2x_086f0355-b608-43ab-a2c9-1a2d478df1c6.png"
+              "title": "MASSIMA ELASTICITÀ"
             }
           },
           "c57078f2-76e8-4a92-81b7-2ea30493ba4d": {
             "type": "icon",
             "settings": {
-              "title": "SENZA CUCITURE",
-              "image": "shopify:\/\/shop_images\/cuciture-icona-white_2x_ae40930a-8048-4aee-bf73-683f765e775a.png"
+              "title": "SENZA CUCITURE"
             }
           }
         },
