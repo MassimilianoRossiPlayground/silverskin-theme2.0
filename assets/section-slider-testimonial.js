@@ -13,6 +13,10 @@
         const swiperTestimonial = new Swiper(sliderTestimonial, {
             slidesPerView: 3,
             spaceBetween: 30,
+            navigation: {
+                nextEl: ".slider-testimonial-swiper .swiper-button-next",
+                prevEl: ".slider-testimonial-swiper .swiper-button-prev",
+            },
             breakpoints: {
                 310: {
                     slidesPerView: 1.3
