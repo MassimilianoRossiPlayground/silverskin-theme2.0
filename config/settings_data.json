@@ -1112,12 +1112,39 @@
               "slide_cit": "“Essenziale! La utilizzo sempre e da sempre. Quando partecipo a corse come la Atlas race, lo indosso per una settimana intera senza che si sentano cattivi odori o che il tessuto perda elasticità a causa del sudore.”",
               "slide_subtitle": "Nico Valsesia - ultra-biker"
             }
+          },
+          "be216c11-202b-4cd3-a3ef-9028d3f0914e": {
+            "type": "slide",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/test-01.png",
+              "slide_cit": "“Davvero comoda sulla pelle. A prima vista la maglia mi sembrava troppo piccola. A vederla ti aspetti compressione, invece ti avvolge alla perfezione..”",
+              "slide_subtitle": "Alessandro Silva - Maestro di sci e amante della montagna"
+            }
+          },
+          "8ee640c5-d009-4f4e-bd6c-d9604ea7ee40": {
+            "type": "slide",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/test-02.png",
+              "slide_cit": "“Una vera seconda pelle, perfettamente sintonizzata con il corpo e i suoi movimenti, anche i più esasperati, per ottenere condizioni di comfort totali durante le attività più intense [...] Una vera sorpresa!”",
+              "slide_subtitle": "-Alfredo Tradati - Giornalista, ex allenatore e coach di sciatori della nazionale"
+            }
+          },
+          "9d301094-02b9-49b1-9e2d-8d8a0880e844": {
+            "type": "slide",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/test-03.png",
+              "slide_cit": "“Negli anni di carriera ho capito che lo strato a contatto con la pelle è il più importante. Con Silverskin ho risolto”",
+              "slide_subtitle": "Daniele Ratto – Ciclista - Professionista dal 2010 al 2016, vincitore di tappa alla Vuelta a España"
+            }
           }
         },
         "block_order": [
           "16ecb858-aa84-4da4-a25a-0d4b36124c28-16710177566d572eeb-0",
           "dc096421-5e71-4a0e-b6db-8b5ee487b74e",
-          "2c77e39b-61e7-4a04-b15f-0f36846662ff"
+          "2c77e39b-61e7-4a04-b15f-0f36846662ff",
+          "be216c11-202b-4cd3-a3ef-9028d3f0914e",
+          "8ee640c5-d009-4f4e-bd6c-d9604ea7ee40",
+          "9d301094-02b9-49b1-9e2d-8d8a0880e844"
         ],
         "settings": {
         }
