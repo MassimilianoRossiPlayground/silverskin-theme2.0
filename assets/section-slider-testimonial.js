@@ -13,6 +13,7 @@
         const swiperTestimonial = new Swiper(sliderTestimonial, {
             slidesPerView: 3,
             spaceBetween: 30,
+            loop: true,
             breakpoints: {
                 310: {
                     slidesPerView: 1.3
