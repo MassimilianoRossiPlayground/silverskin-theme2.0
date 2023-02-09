@@ -28,12 +28,19 @@
 {% else %}
   {% assign pearl_sku = sku_parts[0] | append: '-PearlGrey-' %}
   {% assign antracite_sku = sku_parts[0] | append: '-Anthracite-' %}
-  {% assign sku_all_variants = sku_all_variants | push: pearl_sku.'XS/S' %}
-  {% assign sku_all_variants = sku_all_variants | push: pearl_sku.'M/L' %}
-  {% assign sku_all_variants = sku_all_variants | push: pearl_sku.'XL/XXL' %}
-  {% assign sku_all_variants = sku_all_variants | push: antracite_sku.'XS/S' %}
-  {% assign sku_all_variants = sku_all_variants | push: antracite_sku.'M/L' %}
-  {% assign sku_all_variants = sku_all_variants | push: antracite_sku.'XL/XXL' %}
+  {% assign pearl_sku_s = pearl_sku | append: 'XS/S' %}
+  {% assign pearl_sku_m = pearl_sku | append: 'M/L' %}
+  {% assign pearl_sku_l = pearl_sku | append: 'XL/XXL' %}
+  {% assign antracite_sku_s = antracite_sku | append: 'XS/S' %}
+  {% assign antracite_sku_m = antracite_sku | append: 'M/L' %}
+  {% assign antracite_sku_l = antracite_sku | append: 'XL/XXL' %}
+
+  {% assign sku_all_variants = sku_all_variants | push: pearl_sku_s %}
+  {% assign sku_all_variants = sku_all_variants | push: pearl_sku_m %}
+  {% assign sku_all_variants = sku_all_variants | push: pearl_sku_l %}
+  {% assign sku_all_variants = sku_all_variants | push: antracite_sku_s %}
+  {% assign sku_all_variants = sku_all_variants | push: antracite_sku_m %}
+  {% assign sku_all_variants = sku_all_variants | push: antracite_sku_l %}
 {% endif %}
 
 {{ sku_all_variants }}
