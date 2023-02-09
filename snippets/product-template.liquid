@@ -20,6 +20,7 @@
 {% assign current_sku = current_variant.sku %}
 {% assign sku_parts = current_sku | split: "-" %}
 {% assign sku_all_variants = "" | split: ',' %}
+
 {% if sku_parts[2] == "TU" %}
   {% assign pearl_sku = sku_parts[0] | append: '-PearlGrey-TU' %}
   {% assign antracite_sku = sku_parts[0] | append: '-Anthracite-TU' %}
@@ -44,6 +45,8 @@
 {% endif %}
 
 {{ sku_all_variants | json }}
+{{ pearl_sku | json }}
+{{ antracite_sku | json }}
 {% assign product_img_structure = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
 <div
   id="ProductSection-{{ section_id }}"
