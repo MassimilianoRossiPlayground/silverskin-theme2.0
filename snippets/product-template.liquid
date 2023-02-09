@@ -39,7 +39,7 @@
   {% assign sku_all_variants = "" | append: pearl_sku_s | append: "," | append: pearl_sku_m | append: "," | append: pearl_sku_l | append: "," | append: antracite_sku_s | append: "," | append: antracite_sku_m | append: "," | append: antracite_sku_l %}
 {% endif %}
 
-{{ sku_all_variants }}
+
 
 {% assign product_img_structure = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
 <div
@@ -297,7 +297,7 @@
               data-style-height="24px"
               data-style-width="100%"
               data-theme="light"
-              data-sku="{{ current_variant.sku }}"
+              data-sku="{{ sku_all_variants }}"
               data-no-reviews="hide"
               data-scroll-to-list="true"
               data-style-alignment="center">
@@ -405,9 +405,7 @@
             </div>
 
 
-            <!-- <div class="trustpilot-widget  trustpilot-widget-mob trustpilot-product-mini" data-locale="{{languageWidget}}" data-template-id="54d39695764ea907c0f34825" data-businessunit-id="5de514fbf25ac90001046fb1" data-style-height="24px" data-style-width="100%" data-theme="light" data-sku="{{ current_variant.sku }}" data-no-reviews="hide" data-scroll-to-list="true" data-style-alignment="center">
-            <a href="https://it.trustpilot.com/review/www.silverskin.it" target="_blank" rel="noopener">Trustpilot</a>
-            </div>-->
+
             <!-- TrustBox widget - Product Reviews -->
             <div
               class="trustpilot-widget trustpilot-widget-mob trustpilot-product-mini"
@@ -417,7 +415,7 @@
               data-style-height="24px"
               data-style-width="100%"
               data-theme="light"
-              data-sku="{{ current_variant.sku }}"
+              data-sku="{{ sku_all_variants }}"
               data-review-languages="it"
               data-no-reviews="hide"
               data-fullwidth="true">
@@ -626,7 +624,7 @@
                   data-style-height="700px"
                   data-style-width="100%"
                   data-theme="light"
-                  data-sku="{{ current_variant.sku }}"
+                  data-sku="{{ sku_all_variants }}"
                   data-review-languages="it"
                   data-no-reviews="show">
                   <a
