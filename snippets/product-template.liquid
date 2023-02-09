@@ -55,7 +55,7 @@
   {% assign sku_all_variants = pearl_sku_s | append: "," | append: pearl_sku_m | append: "," | append: pearl_sku_l | append: "," | append: antracite_sku_s | append: "," | append: antracite_sku_m | append: "," | append: antracite_sku_l %}
 {% endif %}
 
-{{ sku_all_variants }}
+
 
 {% assign product_img_structure = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
 <div
