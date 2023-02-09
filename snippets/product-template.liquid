@@ -43,7 +43,7 @@
   {% assign sku_all_variants = sku_all_variants | push: antracite_sku_l %}
 {% endif %}
 
-{{ sku_all_variants }}
+{{ sku_all_variants | json }}
 {% assign product_img_structure = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
 <div
   id="ProductSection-{{ section_id }}"
