@@ -19,13 +19,13 @@
 {% include 'product-template-variables' %}
 {% assign current_sku = current_variant.sku %}
 {% assign sku_parts = current_sku | split: "-" %}
-{% assign sku_all_variants = "" | split: ',' %}
+
 
 {% if sku_parts[2] == "TU" %}
   {% assign pearl_sku = sku_parts[0] | append: '-PearlGrey-TU' %}
   {% assign antracite_sku = sku_parts[0] | append: '-Anthracite-TU' %}
-  {% assign sku_all_variants = sku_all_variants | push: pearl_sku %}
-  {% assign sku_all_variants = sku_all_variants | push: antracite_sku %}
+  {% assign sku_all_variants = "" | append: pearl_sku | append: "," | append: antracite_sku %}
+
 {% else %}
   {% assign pearl_sku = sku_parts[0] | append: '-PearlGrey-' %}
   {% assign antracite_sku = sku_parts[0] | append: '-Anthracite-' %}
@@ -36,17 +36,11 @@
   {% assign antracite_sku_m = antracite_sku | append: 'M/L' %}
   {% assign antracite_sku_l = antracite_sku | append: 'XL/XXL' %}
 
-  {% assign sku_all_variants = sku_all_variants | push: pearl_sku_s %}
-  {% assign sku_all_variants = sku_all_variants | push: pearl_sku_m %}
-  {% assign sku_all_variants = sku_all_variants | push: pearl_sku_l %}
-  {% assign sku_all_variants = sku_all_variants | push: antracite_sku_s %}
-  {% assign sku_all_variants = sku_all_variants | push: antracite_sku_m %}
-  {% assign sku_all_variants = sku_all_variants | push: antracite_sku_l %}
+  {% assign sku_all_variants = "" | append: pearl_sku_s | append: "," | append: pearl_sku_m | append: "," | append: pearl_sku_l | append: "," | append: antracite_sku_s | append: "," | append: antracite_sku_m | append: "," | append: antracite_sku_l %}
 {% endif %}
 
-{{ sku_all_variants | json }}
-{{ pearl_sku | json }}
-{{ antracite_sku | json }}
+{{ sku_all_variants }}
+
 {% assign product_img_structure = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
 <div
   id="ProductSection-{{ section_id }}"
