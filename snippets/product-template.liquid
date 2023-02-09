@@ -16,8 +16,37 @@
   {% assign description_style = 'full' %}
 {% endunless %}
 
+{% include 'product-template-variables' %}
+{% assign current_sku = current_variant.sku %}
+{% assign sku_parts = current_sku | split: "-" %}
+{% assign sku_all_variants = "" | split: ',' %}
+{% if sku_parts[2] == "TU" %}
+  {% assign pearl_sku = sku_parts[0] | append: '-PearlGrey-TU' %}
+  {% assign antracite_sku = sku_parts[0] | append: '-Anthracite-TU' %}
+  {% assign sku_all_variants = sku_all_variants | push: pearl_sku %}
+  {% assign sku_all_variants = sku_all_variants | push: antracite_sku %}
+{% else %}
+  {% assign pearl_sku = sku_parts[0] | append: '-PearlGrey-' %}
+  {% assign antracite_sku = sku_parts[0] | append: '-Anthracite-' %}
+  {% assign sku_all_variants = sku_all_variants | push: pearl_sku | append: 'XS/S' %}
+  {% assign sku_all_variants = sku_all_variants | push: pearl_sku | append: 'M/L' %}
+  {% assign sku_all_variants = sku_all_variants | push: pearl_sku | append: 'XL/XXL' %}
+  {% assign sku_all_variants = sku_all_variants | push: antracite_sku | append: 'XS/S' %}
+  {% assign sku_all_variants = sku_all_variants | push: antracite_sku | append: 'M/L' %}
+  {% assign sku_all_variants = sku_all_variants | push: antracite_sku | append: 'XL/XXL' %}
+{% endif %}
+
+{{ sku_all_variants }}
 {% assign product_img_structure = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
-<div id="ProductSection-{{ section_id }}" class="product-section {{ product.handle }}" data-section-id="{{ section_id }}" data-section-type="product-template" data-product-handle="{{ product.handle }}" data-product-url="{{ product.url | within: collection }}" data-aspect-ratio="{{ 100 | divided_by: product.featured_image.aspect_ratio }}" data-img-url="{{ product_img_structure }}"
+<div
+  id="ProductSection-{{ section_id }}"
+  class="product-section {{ product.handle }}"
+  data-section-id="{{ section_id }}"
+  data-section-type="product-template"
+  data-product-handle="{{ product.handle }}"
+  data-product-url="{{ product.url | within: collection }}"
+  data-aspect-ratio="{{ 100 | divided_by: product.featured_image.aspect_ratio }}"
+  data-img-url="{{ product_img_structure }}"
   {% if settings.product_zoom_enable %}
   data-image-zoom="true"
   {% endif %}
@@ -93,7 +122,10 @@
               {% if wcp_v_compare_at_price > wcp_v_price %}
                 {% assign hide_sale_price = false %}
               {% endif %}
-              <span id="PriceA11y-{{ section_id }}" class="visually-hidden" aria-hidden="{{ hide_sale_price }}">
+              <span
+                id="PriceA11y-{{ section_id }}"
+                class="visually-hidden"
+                aria-hidden="{{ hide_sale_price }}">
                 {{ 'products.general.regular_price' | t }}
               </span>
               <span class="product__price-wrap-{{ section_id }}{% if hide_sale_price %} hide{% endif %}">
@@ -181,15 +213,23 @@
               </script>
 
               {% comment %}
-                If loaded in quick view, it might be from a JS-loaded function
-                that loads recommended products. If that's the case, the above
-                JS will not set the variant inventory. Add it to an accessible
-                data div to read later instead.
+              If loaded in quick view, it might be from a JS-loaded function
+              that loads recommended products. If that's the case, the above
+              JS will not set the variant inventory. Add it to an accessible
+              data div to read later instead.
               {% endcomment %}
               {% if isModal %}
-                <div data-section-id="{{ section_id }}" class="hide js-product-inventory-data" aria-hidden="true">
+                <div
+                  data-section-id="{{ section_id }}"
+                  class="hide js-product-inventory-data"
+                  aria-hidden="true">
                   {% for variant in variants_with_inventory_tracking %}
-                    <div class="js-variant-inventory-data" data-id="{{ variant.id }}" data-quantity="{{ variant.inventory_quantity | default: 0 }}" data-incoming="{{ variant.incoming | default: false | json }}" data-date="{{ variant.next_incoming_date | date: format: 'date' | json }}"></div>
+                    <div
+                      class="js-variant-inventory-data"
+                      data-id="{{ variant.id }}"
+                      data-quantity="{{ variant.inventory_quantity | default: 0 }}"
+                      data-incoming="{{ variant.incoming | default: false | json }}"
+                      data-date="{{ variant.next_incoming_date | date: format: 'date' | json }}"></div>
                   {% endfor %}
                 </div>
               {% endif %}
@@ -206,7 +246,12 @@
               <!-- End TrustBox widget -->
                 <div class="shipping-return-policy"> <div class="box-group-del">
                   <div class="box-del">
-                    <img src="" class="lazyload" data-sizes="auto" data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-shipping-icon_2x_e0d3c320-1fce-484b-bc07-8a88b1207ba1.png?v=1610984327" alt="silverskin">
+                    <img
+                      src=""
+                      class="lazyload"
+                      data-sizes="auto"
+                      data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-shipping-icon_2x_e0d3c320-1fce-484b-bc07-8a88b1207ba1.png?v=1610984327"
+                      alt="silverskin">
                     <div>
                       <a href="/pages/spedizioni-e-consegna" target="_blank">
                         <span>Consegna in Italia in 24/48h lavorative</span>
@@ -214,7 +259,12 @@
                     </div>
                   </div>
                   <div class="box-del">
-                    <img src="" class="lazyload" data-sizes="auto" data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-return-icon_2x_a69cb4bf-9d8b-4062-a965-36f2fc9a425e.png?v=1610984327" alt="silverskin">
+                    <img
+                      src=""
+                      class="lazyload"
+                      data-sizes="auto"
+                      data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-return-icon_2x_a69cb4bf-9d8b-4062-a965-36f2fc9a425e.png?v=1610984327"
+                      alt="silverskin">
                     <div>
                       <a href="/pages/resi" target="_blank">
                         <ly-as-442620>30 giorni per reso e cambio</ly-as-442620>
@@ -235,8 +285,22 @@
             {% if localization.language.iso_code == 'en' %}
               {%- assign languageWidget = "en-GB" -%}
             {% endif %}
-            <div class="trustpilot-widget  trustpilot-widget-desk trustpilot-product-mini" data-locale="{{languageWidget}}" data-template-id="54d39695764ea907c0f34825" data-businessunit-id="5de514fbf25ac90001046fb1" data-style-height="24px" data-style-width="100%" data-theme="light" data-sku="{{ current_variant.sku }}" data-no-reviews="hide" data-scroll-to-list="true" data-style-alignment="center">
-              <a href="https://it.trustpilot.com/review/www.silverskin.it" target="_blank" rel="noopener">Trustpilot</a>
+            <div
+              class="trustpilot-widget  trustpilot-widget-desk trustpilot-product-mini"
+              data-locale="{{languageWidget}}"
+              data-template-id="54d39695764ea907c0f34825"
+              data-businessunit-id="5de514fbf25ac90001046fb1"
+              data-style-height="24px"
+              data-style-width="100%"
+              data-theme="light"
+              data-sku="{{ current_variant.sku }}"
+              data-no-reviews="hide"
+              data-scroll-to-list="true"
+              data-style-alignment="center">
+              <a
+                href="https://it.trustpilot.com/review/www.silverskin.it"
+                target="_blank"
+                rel="noopener">Trustpilot</a>
             </div>
 
             <!-- TrustBox widget - Product Mini -->
@@ -246,22 +310,35 @@
 
             {% unless isModal %}
               {% comment %}
-                Shopify's product form attaches a number of tracking
-                scripts that cause slower load times and false statistics.
-                Quick view modals request these on-demand.
+              Shopify's product form attaches a number of tracking
+              scripts that cause slower load times and false statistics.
+              Quick view modals request these on-demand.
               {% endcomment %}
               {% include 'product-form', section_id: section_id %}
             {% else %}
-              <div id="ProductFormHolder-{{ section_id }}" class="product-form-holder" data-url="{{ product.url }}" data-template="{{ product.template_suffix }}"></div>
+              <div
+                id="ProductFormHolder-{{ section_id }}"
+                class="product-form-holder"
+                data-url="{{ product.url }}"
+                data-template="{{ product.template_suffix }}"></div>
             {% endunless %}
 
             {% if settings.trust_image != blank %}
               <div class="aos-animate trust-image" style="max-width: {{ settings.trust_image.width }}px;">
                 <div class="image-wrap " style="height: 0; padding-bottom: {{ 100 | divided_by: settings.trust_image.aspect_ratio }}%;">
                   {% assign img_url = settings.trust_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
-                  <img class="lazyload" data-src="{{ img_url }}" data-widths="[360, 540]" data-aspectratio="{{ settings.trust_image.aspect_ratio }}" data-sizes="auto" alt="{{ settings.trust_image.alt }}">
+                  <img
+                    class="lazyload"
+                    data-src="{{ img_url }}"
+                    data-widths="[360, 540]"
+                    data-aspectratio="{{ settings.trust_image.aspect_ratio }}"
+                    data-sizes="auto"
+                    alt="{{ settings.trust_image.alt }}">
                   <noscript>
-                    <img class="lazyloaded" src="{{ settings.trust_image | img_url: '540x' }}" alt="{{ settings.trust_image.alt }}">
+                    <img
+                      class="lazyloaded"
+                      src="{{ settings.trust_image | img_url: '540x' }}"
+                      alt="{{ settings.trust_image.alt }}">
                   </noscript>
                 </div>
               </div>
@@ -270,7 +347,7 @@
 
 
             {%- comment -%}
-              mobile sections
+            mobile sections
             {%- endcomment -%}
 
             <div class="klarna-widget-mob"></div>
@@ -294,7 +371,12 @@
               <div class="shipping-return-policy">
                 <div class="box-group-del">
                   <div class="box-del">
-                    <img src="" class="lazyload" data-sizes="auto" data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-shipping-icon_2x_e0d3c320-1fce-484b-bc07-8a88b1207ba1.png?v=1610984327" alt="silverskin">
+                    <img
+                      src=""
+                      class="lazyload"
+                      data-sizes="auto"
+                      data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-shipping-icon_2x_e0d3c320-1fce-484b-bc07-8a88b1207ba1.png?v=1610984327"
+                      alt="silverskin">
                     <div>
                       <a href="/pages/spedizioni-e-consegna" target="_blank">
                         <span>Consegna in Italia in 24/48h lavorative</span>
@@ -302,7 +384,12 @@
                     </div>
                   </div>
                   <div class="box-del">
-                    <img src="" class="lazyload" data-sizes="auto" data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-return-icon_2x_a69cb4bf-9d8b-4062-a965-36f2fc9a425e.png?v=1610984327" alt="silverskin">
+                    <img
+                      src=""
+                      class="lazyload"
+                      data-sizes="auto"
+                      data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-return-icon_2x_a69cb4bf-9d8b-4062-a965-36f2fc9a425e.png?v=1610984327"
+                      alt="silverskin">
                     <div>
                       <a href="/pages/resi" target="_blank">
                         <ly-as-442620>30 giorni per reso e cambio</ly-as-442620>
@@ -314,8 +401,22 @@
             </div>
 
 
-            <div class="trustpilot-widget  trustpilot-widget-mob trustpilot-product-mini" data-locale="{{languageWidget}}" data-template-id="54d39695764ea907c0f34825" data-businessunit-id="5de514fbf25ac90001046fb1" data-style-height="24px" data-style-width="100%" data-theme="light" data-sku="{{ current_variant.sku }}" data-no-reviews="hide" data-scroll-to-list="true" data-style-alignment="center">
-              <a href="https://it.trustpilot.com/review/www.silverskin.it" target="_blank" rel="noopener">Trustpilot</a>
+            <div
+              class="trustpilot-widget  trustpilot-widget-mob trustpilot-product-mini"
+              data-locale="{{languageWidget}}"
+              data-template-id="54d39695764ea907c0f34825"
+              data-businessunit-id="5de514fbf25ac90001046fb1"
+              data-style-height="24px"
+              data-style-width="100%"
+              data-theme="light"
+              data-sku="{{ current_variant.sku }}"
+              data-no-reviews="hide"
+              data-scroll-to-list="true"
+              data-style-alignment="center">
+              <a
+                href="https://it.trustpilot.com/review/www.silverskin.it"
+                target="_blank"
+                rel="noopener">Trustpilot</a>
             </div>
 
 
@@ -327,43 +428,78 @@
               <div class="panel" style="display:block;">
                 <div class="box-ben">
                   <div class="box-ben-single">
-                    <img class="lazyload" data-sizes="auto" src="" data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-thermoregulation-icon_2x_786b526a-2e86-4276-a1e2-339ba414a442.png?v=1610980403" alt="silverskin">
+                    <img
+                      class="lazyload"
+                      data-sizes="auto"
+                      src=""
+                      data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-thermoregulation-icon_2x_786b526a-2e86-4276-a1e2-339ba414a442.png?v=1610980403"
+                      alt="silverskin">
                     <span>
                       <ly-as-442622>Termoregolazione superiore</ly-as-442622>
                     </span>
                   </div>
                   <div class="box-ben-single">
-                    <img class="lazyload" data-sizes="auto" src="" data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-breathability-icon_2x_ec5f3bf5-98c8-45b4-9629-1e0ae12a78ef.png?v=1610980403" alt="silverskin">
+                    <img
+                      class="lazyload"
+                      data-sizes="auto"
+                      src=""
+                      data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-breathability-icon_2x_ec5f3bf5-98c8-45b4-9629-1e0ae12a78ef.png?v=1610980403"
+                      alt="silverskin">
                     <span>
                       <ly-as-442623>Traspirabilità estrema</ly-as-442623>
                     </span>
                   </div>
                   <div class="box-ben-single">
-                    <img class="lazyload" data-sizes="auto" src="" data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-stretchability-icon_2x_a6a623b2-615c-44ff-9e52-5503d7156bb9.png?v=1610980403" alt="silverskin">
+                    <img
+                      class="lazyload"
+                      data-sizes="auto"
+                      src=""
+                      data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-stretchability-icon_2x_a6a623b2-615c-44ff-9e52-5503d7156bb9.png?v=1610980403"
+                      alt="silverskin">
                     <span>
                       <ly-as-442624>Massima elasticità</ly-as-442624>
                     </span>
                   </div>
                   <div class="box-ben-single">
-                    <img class="lazyload" data-sizes="auto" src="" data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-seamless-icon_2x_8b4a6a38-5ba1-4b85-995a-2f3990325ee0.png?v=1610980403" alt="silverskin">
+                    <img
+                      class="lazyload"
+                      data-sizes="auto"
+                      src=""
+                      data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-seamless-icon_2x_8b4a6a38-5ba1-4b85-995a-2f3990325ee0.png?v=1610980403"
+                      alt="silverskin">
                     <span>
                       <ly-as-442625>Tecnologia senza cuciture</ly-as-442625>
                     </span>
                   </div>
                   <div class="box-ben-single">
-                    <img class="lazyload" data-sizes="auto" src="" data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-antiodour-icon_2x_9f567c11-8276-491e-ae97-aec737c897e6.png?v=1610980403" alt="silverskin">
+                    <img
+                      class="lazyload"
+                      data-sizes="auto"
+                      src=""
+                      data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-antiodour-icon_2x_9f567c11-8276-491e-ae97-aec737c897e6.png?v=1610980403"
+                      alt="silverskin">
                     <span>
                       <ly-as-442626>Ipoallergenico</ly-as-442626>
                     </span>
                   </div>
                   <div class="box-ben-single">
-                    <img class="lazyload" data-sizes="auto" src="" data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-antiodour-icon_2x_9f567c11-8276-491e-ae97-aec737c897e6.png?v=1610980403" alt="silverskin">
+                    <img
+                      class="lazyload"
+                      data-sizes="auto"
+                      src=""
+                      data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-antiodour-icon_2x_9f567c11-8276-491e-ae97-aec737c897e6.png?v=1610980403"
+                      alt="silverskin">
                     <span>
                       <ly-as-442627>Anti odore</ly-as-442627>
                     </span>
                   </div>
                   <div class="box-ben-single">
-                    <img class="lazyload" data-sizes="auto" src="" data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-antibacterial-icon_2x_0aa96563-dce8-4137-badc-d59e87d55a00.png?v=1610980403" alt="silverskin">
+                    <img
+                      class="lazyload"
+                      data-sizes="auto"
+                      src=""
+                      data-src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-antibacterial-icon_2x_0aa96563-dce8-4137-badc-d59e87d55a00.png?v=1610980403"
+                      alt="silverskin">
                     <span>
                       <ly-as-442628>Antibatterico</ly-as-442628>
                     </span>
@@ -472,8 +608,22 @@
               <div>
 
                 <!-- TrustBox widget - Product Reviews -->
-                <div class="trustpilot-widget" data-locale="{{languageWidget}}" data-template-id="544a426205dc0a09088833c6" data-font-family="barlow" data-businessunit-id="5de514fbf25ac90001046fb1" data-style-height="700px" data-style-width="100%" data-theme="light" data-sku="{{ current_variant.sku }}" data-review-languages="it" data-no-reviews="show">
-                  <a href="https://it.trustpilot.com/review/www.silverskin.it" target="_blank" rel="noopener">Trustpilot</a>
+                <div
+                  class="trustpilot-widget"
+                  data-locale="{{languageWidget}}"
+                  data-template-id="544a426205dc0a09088833c6"
+                  data-font-family="barlow"
+                  data-businessunit-id="5de514fbf25ac90001046fb1"
+                  data-style-height="700px"
+                  data-style-width="100%"
+                  data-theme="light"
+                  data-sku="{{ current_variant.sku }}"
+                  data-review-languages="it"
+                  data-no-reviews="show">
+                  <a
+                    href="https://it.trustpilot.com/review/www.silverskin.it"
+                    target="_blank"
+                    rel="noopener">Trustpilot</a>
                 </div>
                 <!-- End TrustBox widget -->
               </div>
@@ -486,19 +636,19 @@
             {% endif %}
 
             {% comment %}
-              <div class="accordion">Consegna e Resi</div>
-              <div class="panel">
-              <div class="box-group-del">
-              <div class="box-del">
-              <img src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-shipping-icon_2x_e0d3c320-1fce-484b-bc07-8a88b1207ba1.png?v=1610984327" alt="silverskin">
-              <div><a href="/pages/spedizioni-e-consegna" target="_blank"><span>Consegna in Italia ENTRO </span> {{ shipping_days }} <span>giorni lavorativi</span></a></div>
-              </div>
-              <div class="box-del">
-              <img src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-return-icon_2x_a69cb4bf-9d8b-4062-a965-36f2fc9a425e.png?v=1610984327" alt="silverskin">
-              <div><a href="/pages/resi" target="_blank">30 giorni per reso e cambio</a></div>
-              </div>
-              </div>
-              </div>
+            <div class="accordion">Consegna e Resi</div>
+            <div class="panel">
+            <div class="box-group-del">
+            <div class="box-del">
+            <img src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-shipping-icon_2x_e0d3c320-1fce-484b-bc07-8a88b1207ba1.png?v=1610984327" alt="silverskin">
+            <div><a href="/pages/spedizioni-e-consegna" target="_blank"><span>Consegna in Italia ENTRO </span> {{ shipping_days }} <span>giorni lavorativi</span></a></div>
+            </div>
+            <div class="box-del">
+            <img src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-return-icon_2x_a69cb4bf-9d8b-4062-a965-36f2fc9a425e.png?v=1610984327" alt="silverskin">
+            <div><a href="/pages/resi" target="_blank">30 giorni per reso e cambio</a></div>
+            </div>
+            </div>
+            </div>
             {% endcomment %}
 
 
@@ -560,7 +710,10 @@
 
 
 {% unless product == empty %}
-  <script type='application/json' class='wcp_json wcp_json_{{ product.id }}' id='wcp_json_{{ product.id }}'>
+  <script
+    type='application/json'
+    class='wcp_json wcp_json_{{ product.id }}'
+    id='wcp_json_{{ product.id }}'>
     {% include 'wcp_product_json' with product %}
   </script>
 {% endunless %}
@@ -568,7 +721,10 @@
 
 
 {% unless wcp_vd_HTML_table == '' %}
-  <script type='application/json' class='wcp_vd_table' id='wcp_vd_table_{{ product.id }}'>
+  <script
+    type='application/json'
+    class='wcp_vd_table'
+    id='wcp_vd_table_{{ product.id }}'>
     {{ wcp_vd_HTML_table_tmp }}
   </script>
 {% endunless %}
@@ -584,11 +740,11 @@
       {% raw %}
         {{#each vdtable}}
         <tr>
-          <td>{{Qty}}
+          <td>{{ Qty }}
           </td>
-          <td>{{Discount}}
+          <td>{{ Discount }}
           </td>
-          <td>{{Price}}
+          <td>{{ Price }}
           </td>
         </tr>
         {{/each}}
