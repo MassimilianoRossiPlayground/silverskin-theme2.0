@@ -26,6 +26,22 @@
   {% assign antracite_sku = sku_parts[0] | append: '-Anthracite-TU' %}
   {% assign sku_all_variants = "" | append: pearl_sku | append: "," | append: antracite_sku %}
 
+{% elsif sku_parts[2] contains "3" or sku_parts[2] contains "4" %}
+  {% assign pearl_sku = sku_parts[0] | append: '-PearlGrey-' %}
+  {% assign antracite_sku = sku_parts[0] | append: '-Anthracite-' %}
+  {% assign pearl_sku_35 = pearl_sku | append: '35/38' %}
+  {% assign pearl_sku_39 = pearl_sku | append: '39/42' %}
+  {% assign pearl_sku_43 = pearl_sku | append: '43/46' %}
+  {% assign pearl_sku_36 = pearl_sku | append: '36/41' %}
+  {% assign pearl_sku_42 = pearl_sku | append: '42/46' %}
+  {% assign antracite_sku_35 = antracite_sku | append: '35/38' %}
+  {% assign antracite_sku_39 = antracite_sku | append: '39/42' %}
+  {% assign antracite_sku_43 = antracite_sku | append: '43/46' %}
+  {% assign antracite_sku_36 = antracite_sku | append: '36/41' %}
+  {% assign antracite_sku_42 = antracite_sku | append: '42/46' %}
+  {% assign sku_all_variants = pearl_sku_35 | append: "," | append: pearl_sku_39 | append: "," | append: pearl_sku_43 | append: "," | append: pearl_sku_36 | append: "," | append: pearl_sku_42 %}
+  {% assign sku_all_variants = sku_all_variants | append: "," | append: antracite_sku_35 | append: "," | append: antracite_sku_39 | append: "," | append: antracite_sku_43 | append: "," | append: antracite_sku_36 | append: "," | append: antracite_sku_42 %}
+
 {% else %}
   {% assign pearl_sku = sku_parts[0] | append: '-PearlGrey-' %}
   {% assign antracite_sku = sku_parts[0] | append: '-Anthracite-' %}
@@ -39,7 +55,7 @@
   {% assign sku_all_variants = pearl_sku_s | append: "," | append: pearl_sku_m | append: "," | append: pearl_sku_l | append: "," | append: antracite_sku_s | append: "," | append: antracite_sku_m | append: "," | append: antracite_sku_l %}
 {% endif %}
 
-
+{{ sku_all_variants }}
 
 {% assign product_img_structure = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
 <div
