@@ -455,10 +455,11 @@ span.quote-icon img {
     font-size: 18px!important;
     padding: 5px 20px!important;
     min-width: 250px;
-    width: 30%;
+    width: 40%;
     border: 1px solid #000;
     margin-top:10px;
     display: inline-block;
+    text-align: center;
 }
 
 .site-nav__dropdown-link--custom::after
