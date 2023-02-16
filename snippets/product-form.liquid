@@ -22,7 +22,7 @@
   {% if localization.language.iso_code != "it" %}
     {% assign link_lang = "/" | append: localization.language.iso_code %}
   {% endif %}
-  {% assign color_link_lang = shop.secure_url | append: link_lang | append: "/collections/" | append: color_link_array[1] %}
+  {% assign color_link_lang = shop.url | append: link_lang | append: "/collections/" | append: color_link_array[1] %}
 
 
   {% for t in product.tags %}
