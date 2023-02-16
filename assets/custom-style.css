@@ -459,7 +459,7 @@ span.quote-icon img {
     border: 1px solid #000;
     margin-top:10px;
     display: inline-block;
-    text-align: center;
+    text-align: center!important;
 }
 
 .site-nav__dropdown-link--custom::after
