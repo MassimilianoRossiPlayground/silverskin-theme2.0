@@ -441,6 +441,11 @@ span.quote-icon img {
     width: 49%;
     text-align: center!important;
 }
+
+.medium-up--one-half--custom-first{
+    border-right: 1px solid grey;
+}
+
 .site-nav__dropdown-link--top-level--custom
 {
     animation: none;
@@ -460,12 +465,13 @@ span.quote-icon img {
     font-size: 18px!important;
     padding: 5px 20px!important;
     min-width: 250px;
-    width: 40%;
+    width: 60%;
     border: 1px solid #000;
     margin-top:10px;
     display: inline-block;
     text-align: center!important;
 }
+
 
 .site-nav__dropdown-link--custom::after
 {
