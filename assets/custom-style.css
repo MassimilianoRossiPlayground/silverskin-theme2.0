@@ -452,12 +452,19 @@ span.quote-icon img {
 
 .site-nav__dropdown-link--custom{
     text-transform: uppercase;
-    font-size: 24px;
-    padding: 10px 20px;
+    font-size: 24px!important;
+    padding: 10px 20px!important;
     border: 1px solid #000;
     margin-top:10px;
     display: inline-block;
 }
+
+.site-nav__dropdown-link--custom::after
+{
+    animation: none;
+    display: none;
+}
+
 
 /*  --------------- */
 /*      FOOTER      */
