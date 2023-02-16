@@ -439,7 +439,7 @@ span.quote-icon img {
 
 .medium-up--one-half--custom{
     width: 49%;
-    text-align: center;
+    text-align: center!important;
 }
 .site-nav__dropdown-link--top-level--custom
 {
