@@ -435,6 +435,13 @@ span.quote-icon img {
 }
 
 
+/*menu v2*/
+.site-nav__dropdown-link--second-level
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+
 /*  --------------- */
 /*      FOOTER      */
 /*  --------------- */
