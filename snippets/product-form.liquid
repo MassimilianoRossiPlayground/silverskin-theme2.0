@@ -19,8 +19,8 @@
 
 
   {% assign color_link_array = product.metafields.custom_fields['link_colore_alternativo'] | split: "collections/" %}
-
-  {% assign color_link_lang = "https://silverskin.it" | append: localization.language.iso_code | append: "/collections/" | append: color_link_array[1] %}
+  {% assign link_lang = "/" | append: localization.language.iso_code %}
+  {% assign color_link_lang = "https://silverskin.it" | append: link_lang | append: "/collections/" | append: color_link_array[1] %}
 
 
   {% for t in product.tags %}
