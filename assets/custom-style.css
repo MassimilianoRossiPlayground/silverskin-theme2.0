@@ -436,6 +436,11 @@ span.quote-icon img {
 
 
 /*menu v2*/
+
+.medium-up--one-half--custom{
+    width: 49%;
+    text-align: center;
+}
 .site-nav__dropdown-link--top-level--custom
 {
     animation: none;
