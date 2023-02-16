@@ -443,6 +443,11 @@ span.quote-icon img {
     font-size: 40px;
     font-weight: bold;
 }
+.site-nav__dropdown-link--top-level--custom::after
+{
+    animation: none;
+    display: none;
+}
 
 /*  --------------- */
 /*      FOOTER      */
