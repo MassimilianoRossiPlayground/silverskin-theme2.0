@@ -440,8 +440,9 @@ span.quote-icon img {
 {
     animation: none;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
+    font-family: "barlow-bold" !important;
 }
 .site-nav__dropdown-link--top-level--custom::after
 {
