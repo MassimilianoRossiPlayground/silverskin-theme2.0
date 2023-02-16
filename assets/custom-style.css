@@ -436,8 +436,10 @@ span.quote-icon img {
 
 
 /*menu v2*/
-.site-nav__dropdown-link--second-level
+.site-nav__dropdown-link--top-level--custom
 {
+    animation: none;
+    text-decoration: none;
     font-size: 40px;
     font-weight: bold;
 }
