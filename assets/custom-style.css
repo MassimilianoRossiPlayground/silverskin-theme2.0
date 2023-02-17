@@ -489,6 +489,19 @@ span.quote-icon img {
     margin-right: 10px;
 }
 
+.category-badge-stay-x-warm{
+    background-color: red;
+}
+.category-badge-stay-warm{
+    background-color: orange;
+}
+.category-badge-stay-fresh{
+    background-color: cyan;
+}
+.category-badge-light-warm{
+    background-color: green;
+}
+
 .site-nav__dropdown-link--custom::after
 {
     animation: none;
