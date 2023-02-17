@@ -480,6 +480,7 @@ span.quote-icon img {
 }
 .site-nav__dropdown-link--custom:hover .category-badge{
     display: block;
+    overflow: hidden;
     right: -4px;
 }
 
