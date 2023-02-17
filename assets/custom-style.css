@@ -479,7 +479,7 @@ span.quote-icon img {
 }
 
 .category-badge::after {
-    content: "";
+    content:'';
     position: absolute;
     right: 0;
     top: 0;
@@ -488,9 +488,7 @@ span.quote-icon img {
     -webkit-transform: skew(-20deg);
     -moz-transform: skew(-20deg);
     -o-transform: skew(-20deg);
-    margin-left: -10px;
-    margin-top: 1px;
-    margin-right: 10px;
+
 }
 
 .category-badge-stay-x-warm{
