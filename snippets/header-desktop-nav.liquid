@@ -80,13 +80,11 @@
 
                   {% for grandchildlink in childlink.links %}
                     {% if grandchildlink.title contains "Warm" or grandchildlink.title contains "fresh" %}
-
                       {%- assign category = grandchildlink.title -%}
-                      {%- assign category = category | replace: " ", "-" }}
-                        {%- assign badge = "category-badge category-badge-" | append: category -%}
+                      {%- assign badge = "category-badge category-badge-" -%}
                     {% endif %}
                     <div>
-                      <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--custom {{badge}}">
+                      <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--custom {{badge}}{{ category | replace: " ", "-" }}">
                         {{ grandchildlink.title }}
                       </a>
                     </div>
