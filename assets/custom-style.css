@@ -478,7 +478,8 @@ span.quote-icon img {
     color: white;
 }
 
-.category-badge {
+.category-badge::after {
+    content: "";
     position: absolute;
     right: 0;
     top: 0;
