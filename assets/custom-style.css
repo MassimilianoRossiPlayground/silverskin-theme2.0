@@ -471,7 +471,10 @@ span.quote-icon img {
     display: inline-block;
     text-align: center!important;
 }
-
+.site-nav__dropdown-link--custom:hover{
+    background-color: black;
+    color: white;
+}
 
 .site-nav__dropdown-link--custom::after
 {
