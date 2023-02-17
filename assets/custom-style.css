@@ -480,14 +480,13 @@ span.quote-icon img {
     color: white;
 }
 .site-nav__dropdown-link--custom:hover .category-badge{
-    transition:right .5s linear;
-    display: block;   
+  
     right: -4px;
 }
 
 .category-badge{
-    transition:right 1s linear;
-    display: none;
+    transition:right .5s linear;
+    display: block;
     position: absolute;
     right: -60px;
     top: 50%;
