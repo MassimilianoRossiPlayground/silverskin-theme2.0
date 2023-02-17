@@ -470,6 +470,7 @@ span.quote-icon img {
     margin-top:10px;
     display: inline-block;
     text-align: center!important;
+    transition: background-color 500ms linear;
 }
 .site-nav__dropdown-link--custom:hover{
     background-color: black;
