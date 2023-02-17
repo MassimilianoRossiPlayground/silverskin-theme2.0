@@ -480,6 +480,7 @@ span.quote-icon img {
 
 .category-badge::after {
     content:'';
+    display: block;
     position: absolute;
     right: 0;
     top: 0;
