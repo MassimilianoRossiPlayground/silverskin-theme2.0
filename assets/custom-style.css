@@ -479,12 +479,13 @@ span.quote-icon img {
     color: white;
 }
 
-.category-badge {
+.category-badge:hover{
   
     display: block;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     width: 50px;
     height: 10px;
     -webkit-transform: skew(-20deg);
