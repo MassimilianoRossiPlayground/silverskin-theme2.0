@@ -83,7 +83,7 @@
                       {%- assign category = grandchildlink.title -%}
                       {%- assign badge = "category-badge category-badge-" -%}
                     {% endif %}
-                    <div class="{{badge}}{{ category | replace: " ", "-" | downcase}}">
+                    <div class="{{badge}}{{ category | replace: " ", "-" | downcase }}">
                       <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--custom ">
                         {{ grandchildlink.title }}
                       </a>
