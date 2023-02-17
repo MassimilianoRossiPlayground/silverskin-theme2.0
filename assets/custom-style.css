@@ -462,8 +462,8 @@ span.quote-icon img {
 
 
 .site-nav__dropdown-link--custom{
-    display: block;
-    position: relative;
+    display: inline-block;
+    
     text-transform: uppercase;
     font-size: 18px!important;
     padding: 5px 20px!important;
@@ -478,7 +478,10 @@ span.quote-icon img {
     background-color: black;
     color: white;
 }
+.category-badge{
 
+    position: relative;
+}
 .category-badge::after {
     content:'';
     display: block;
