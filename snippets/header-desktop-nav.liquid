@@ -79,7 +79,7 @@
                   {% endif %}
 
                   {% for grandchildlink in childlink.links %}
-                    {% if grandchildlink.title contains "Warm" or grandchildlink.title contains "fresh" %}
+                    {% if grandchildlink.title contains "Warm" or grandchildlink.title contains "Fresh" %}
                       {%- assign category = grandchildlink.title -%}
                       {%- assign badge = "category-badge category-badge-" -%}
                     {% endif %}
