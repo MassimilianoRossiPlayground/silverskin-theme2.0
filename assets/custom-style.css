@@ -473,14 +473,15 @@ span.quote-icon img {
     margin-top:10px;
     text-align: center!important;
     transition: background-color 500ms linear;
+    overflow: hidden;
 }
 .site-nav__dropdown-link--custom:hover{
     background-color: black;
     color: white;
 }
 .site-nav__dropdown-link--custom:hover .category-badge{
-    display: block;
-    overflow: hidden;
+    transition:right .5s linear;
+    display: block;   
     right: -4px;
 }
 
