@@ -499,16 +499,18 @@ span.quote-icon img {
 }
 
 .category-badge-stay-x-warm{
-    background-color: red;
+    background-color: #FF001F;
 }
 .category-badge-stay-warm{
-    background-color: orange;
+    background-color: #EC8314;
+    ;
 }
 .category-badge-stay-fresh{
-    background-color: cyan;
+    background-color: #1D89FF;
 }
 .category-badge-light-warm{
-    background-color: green;
+    background-color:  #1ABC3E;
+    ;
 }
 
 .site-nav__dropdown-link--custom::after
