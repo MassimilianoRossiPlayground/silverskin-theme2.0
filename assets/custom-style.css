@@ -493,16 +493,16 @@ span.quote-icon img {
 
 }
 
-.category-badge-stay-x-warm::after{
+.category-badge-stay-x-warm{
     background-color: red;
 }
-.category-badge-stay-warm::after{
+.category-badge-stay-warm{
     background-color: orange;
 }
-.category-badge-stay-fresh::after{
+.category-badge-stay-fresh{
     background-color: cyan;
 }
-.category-badge-light-warm::after{
+.category-badge-light-warm{
     background-color: green;
 }
 
