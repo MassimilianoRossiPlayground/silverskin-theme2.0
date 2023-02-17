@@ -481,11 +481,11 @@ span.quote-icon img {
 }
 .site-nav__dropdown-link--custom:hover .category-badge{
   
-    right: -4px;
+    right: -14px;
 }
 
 .category-badge{
-    transition:right .3s linear;
+    transition:right .2s linear;
     display: block;
     position: absolute;
     right: -60px;
