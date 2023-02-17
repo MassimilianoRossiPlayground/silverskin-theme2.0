@@ -79,13 +79,15 @@
                   {% endif %}
 
                   {% for grandchildlink in childlink.links %}
-                    {% if grandchildlink.title contains "Warm" or grandchildlink.title contains "Fresh" %}
-                      {%- assign category = grandchildlink.title -%}
-                      {%- assign badge = "category-badge category-badge-" -%}
-                    {% endif %}
+
                     <div class="">
-                      <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--custom {{badge}}{{ category | replace: " ", "-" | downcase }}">
+                      <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--custom ">
                         {{ grandchildlink.title }}
+                        {% if grandchildlink.title contains "Warm" or grandchildlink.title contains "Fresh" %}
+                          {%- assign category = grandchildlink.title -%}
+                          {%- assign badge = "category-badge category-badge-" -%}
+                          <div class="{{badge}}{{ category | replace: " ", "-" | downcase }}"></div>
+                        {% endif %}
                       </a>
                     </div>
                   {% endfor %}

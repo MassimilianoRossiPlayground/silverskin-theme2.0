@@ -462,7 +462,7 @@ span.quote-icon img {
 
 
 .site-nav__dropdown-link--custom{
-    display: block;
+    display: inline-block;
     position: relative;    
     text-transform: uppercase;
     font-size: 18px!important;
@@ -479,10 +479,10 @@ span.quote-icon img {
     color: white;
 }
 
-.category-badge::after {
-    content:'';
+.category-badge {
+  
     display: block;
-
+    position: absolute;
     right: 0;
     top: 0;
     width: 50px;
