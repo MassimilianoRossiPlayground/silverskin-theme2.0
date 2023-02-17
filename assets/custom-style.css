@@ -480,20 +480,20 @@ span.quote-icon img {
 }
 .site-nav__dropdown-link--custom:hover .category-badge{
     display: block;
+    right: -4px;
 }
 
 .category-badge{
-  
+    transition:right 1s linear;
     display: none;
     position: absolute;
-    right: 0;
+    right: -60px;
     top: 50%;
-    transform: translateY(-50%);
     width: 50px;
     height: 10px;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-    -o-transform: skew(-20deg);
+    -webkit-transform:translateY(-50%) skew(-20deg);
+    -moz-transform:translateY(-50%) skew(-20deg);
+    -o-transform:translateY(-50%) skew(-20deg);
 
 }
 
