@@ -478,10 +478,13 @@ span.quote-icon img {
     background-color: black;
     color: white;
 }
-
-.category-badge:hover{
-  
+.site-nav__dropdown-link--custom:hover .category-badge{
     display: block;
+}
+
+.category-badge{
+  
+    display: none;
     position: absolute;
     right: 0;
     top: 50%;
