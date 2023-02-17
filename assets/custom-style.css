@@ -479,10 +479,10 @@ span.quote-icon img {
     color: white;
 }
 
-.category-badge:after {
+.category-badge::after {
     content:'';
     display: block;
-    position: absolute;
+
     right: 0;
     top: 0;
     width: 50px;
