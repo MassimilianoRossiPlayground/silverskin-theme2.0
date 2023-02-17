@@ -485,7 +485,7 @@ span.quote-icon img {
 }
 
 .category-badge{
-    transition:right .5s linear;
+    transition:right .3s linear;
     display: block;
     position: absolute;
     right: -60px;
