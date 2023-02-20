@@ -558,19 +558,19 @@ a.mobile-nav__link{
 }
 
 .mobile-nav__item.Stay.X-Warm a::after{
-    background-color: red!important;
+    background-color: #FF001F!important;
 }
 
 .mobile-nav__item.Stay.Warm a::after{
-    background-color: orange!important;
+    background-color: #EC8314!important;
 }
 
 .mobile-nav__item.Light.Warm a::after{
-    background-color: green!important;
+    background-color: #1ABC3E!important;
 }
 
 .mobile-nav__item.Stay.Fresh a::after{
-    background-color: blue!important;
+    background-color: #1D89FF!important;
 }
 
 
