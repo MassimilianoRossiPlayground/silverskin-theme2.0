@@ -521,7 +521,7 @@ span.quote-icon img {
 
 
 /* custom nav section */
-.mobile-nav__grandchildlist:after{
+.mobile-nav__grandchildlist:before{
     content:none;
 }
 
