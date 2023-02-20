@@ -538,6 +538,7 @@ a.mobile-nav__link{
     border: 1px solid #000;
     text-transform: uppercase;
     margin: 5px 15px;
+    text-align: center;
 }
 
 /*  --------------- */
