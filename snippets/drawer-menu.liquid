@@ -84,7 +84,7 @@
           {% if has_dropdown %}
             <div
               id="Linklist-{{ child_list_handle }}"
-              class="mobile-nav__sublist collapsible-content collapsible-content--all is-open{% if link.active or link.child_active %}is-open{% endif %}"
+              class="mobile-nav__sublist collapsible-content collapsible-content--all {% if link.active or link.child_active %}is-open{% endif %}"
               aria-labelledby="Label-{{ child_list_handle }}"
               {% if link.active or link.child_active %}style="height: auto;"{% endif %}>
               <div class="collapsible-content__inner">
@@ -101,7 +101,7 @@
                         {% if childlink.url == '#' and has_sub_dropdown %}
                           <button
                             type="button"
-                            aria-controls="Sublinklist-{{ child_list_handle }}-{{ grand_child_list_handle }}"
+                            aria-controls="Sublinklist-{{ child_list_handle }}-{{ grand_child_list_handle }} is-open"
                             {% if childlink.active or childlink.child_active %}aria-open="true"{% endif %}
                             class="mobile-nav__link--button collapsible-trigger {% if childlink.active or childlink.child_active %}is-open{% endif %}">
                             <span class="mobile-nav__faux-link" {% if childlink.active %}data-active="true"{% endif %}>{{ childlink.title | escape }}</span>
@@ -119,7 +119,7 @@
                         {% if childlink.url != '#' and has_sub_dropdown %}
                           <button
                             type="button"
-                            aria-controls="Sublinklist-{{ child_list_handle }}-{{ grand_child_list_handle }}"
+                            aria-controls="Sublinklist-{{ child_list_handle }}-{{ grand_child_list_handle }} is-open"
                             class="collapsible-trigger {% if childlink.active or childlink.child_active %}is-open{% endif %}">
                             {% include 'collapsible-icons-alt' %}
                           </button>
@@ -128,7 +128,7 @@
 
                       {% if has_sub_dropdown %}
                         <div
-                          id="Sublinklist-{{ child_list_handle }}-{{ grand_child_list_handle }}"
+                          id="Sublinklist-{{ child_list_handle }}-{{ grand_child_list_handle }} is-open"
                           aria-labelledby="Sublabel-{{ grand_child_list_handle }}"
                           class="mobile-nav__sublist collapsible-content collapsible-content--all {% if childlink.active or childlink.child_active %}is-open{% endif %}"
                           {% if childlink.active or childlink.child_active %}style="height: auto;"{% endif %}>
