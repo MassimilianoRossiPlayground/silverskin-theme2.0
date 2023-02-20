@@ -555,7 +555,7 @@ a.mobile-nav__link{
     -o-transform: skew(-20deg) translateX(-50%);
 }
 
-.mobile-nav__item.Stay.X-Warm a{
+.mobile-nav__item.Stay.X-Warm a::after{
     background-color: red;
 }
 
