@@ -524,12 +524,22 @@ span.quote-icon img {
 .mobile-nav__grandchildlist:before{
     content:none;
 }
+
+a.mobile-nav__link{
+    text-transform: uppercase;
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 1;
+}
+
 .mobile-nav__grandchildlist a.mobile-nav__link{
     display: block;
     border: 1px solid #000;
     text-transform: uppercase;
     margin: 5px 15px;
 }
+
 /*  --------------- */
 /*      FOOTER      */
 /*  --------------- */
