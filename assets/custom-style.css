@@ -546,7 +546,7 @@ a.mobile-nav__link{
 
     position: absolute;
     content: '';
-    right: -5px;
+    right: -15px;
     height: 10px;
     top: calc(50% - 5px);
     width: 50px;
