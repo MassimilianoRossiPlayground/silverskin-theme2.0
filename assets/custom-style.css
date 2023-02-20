@@ -546,7 +546,7 @@ a.mobile-nav__link{
     background-color: black;
     position: absolute;
     content: '';
-    right: -50px;
+    right: 50px;
     height: 20px;
     width: 50px;
     transform: skew(-20deg) translateX(-50%);
