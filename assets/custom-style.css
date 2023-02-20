@@ -540,13 +540,14 @@ a.mobile-nav__link{
     margin: 5px 15px;
     text-align: center;
     overflow: hidden;
+    position: relative;
 }
 
 #Sublinklist-collections-uomo2-pages-collezioni2 .mobile-nav__link::after,#Sublinklist-collections-donna3-collections2 .mobile-nav__link::after{
 
     position: absolute;
     content: '';
-    right: -15px;
+    right: -35px;
     height: 10px;
     top: calc(50% - 5px);
     width: 50px;
