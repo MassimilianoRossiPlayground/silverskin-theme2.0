@@ -543,10 +543,10 @@ a.mobile-nav__link{
 }
 
 #Sublinklist-collections-uomo2-pages-collezioni2 .mobile-nav__link::after,#Sublinklist-collections-donna3-collections2 .mobile-nav__link::after{
-    background-color: black;
+
     position: absolute;
     content: '';
-    right: 50px;
+    right: -5px;
     height: 20px;
     width: 50px;
     transform: skew(-20deg) translateX(-50%);
@@ -556,8 +556,21 @@ a.mobile-nav__link{
 }
 
 .mobile-nav__item.Stay.X-Warm a::after{
-    background-color: red;
+    background-color: red!important;
 }
+
+.mobile-nav__item.Stay.Warm a::after{
+    background-color: orange!important;
+}
+
+.mobile-nav__item.Light.Warm a::after{
+    background-color: green!important;
+}
+
+.mobile-nav__item.Stay.Fresh a::after{
+    background-color: blue!important;
+}
+
 
 /*  --------------- */
 /*      FOOTER      */
