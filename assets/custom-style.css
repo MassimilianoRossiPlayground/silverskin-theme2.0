@@ -541,7 +541,7 @@ a.mobile-nav__link{
     text-align: center;
 }
 
-#Sublinklist-collections-uomo2-pages-collezioni2 #mobile-nav__link::after,#Sublinklist-collections-donna3-collections2 #mobile-nav__link::after{
+#Sublinklist-collections-uomo2-pages-collezioni2 .mobile-nav__link::after,#Sublinklist-collections-donna3-collections2 .mobile-nav__link::after{
     background-color: black;
     position: absolute;
     content: '';
