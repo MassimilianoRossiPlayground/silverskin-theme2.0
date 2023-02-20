@@ -53,6 +53,7 @@
   {% assign antracite_sku_l = antracite_sku | append: 'XL/XXL' %}
 
   {% assign sku_all_variants = pearl_sku_s | append: "," | append: pearl_sku_m | append: "," | append: pearl_sku_l | append: "," | append: antracite_sku_s | append: "," | append: antracite_sku_m | append: "," | append: antracite_sku_l %}
+  {% assign sku_all_variants = sku_all_variants | append: "," | append: pearl_sku_s_alt | append: "," | append: pearl_sku_m_alt | append: "," | append: pearl_sku_l_alt | append: "," | append: antracite_sku_s_alt | append: "," | append: antracite_sku_m_alt | append: "," | append: antracite_sku_l_alt %}
 {% endif %}
 
 
