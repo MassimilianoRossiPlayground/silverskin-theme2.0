@@ -135,7 +135,7 @@
                           <div class="collapsible-content__inner">
                             <ul class="mobile-nav__grandchildlist">
                               {% for grandchildlink in childlink.links %}
-                                <li class="mobile-nav__item">
+                                <li class="mobile-nav__item {{ grandchildlink.title }}">
                                   <a
                                     href="{{ grandchildlink.url }}"
                                     class="mobile-nav__link"
