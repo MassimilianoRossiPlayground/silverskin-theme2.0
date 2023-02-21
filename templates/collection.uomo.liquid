@@ -9,12 +9,12 @@
         </div>
         <div class="grid__item medium-up--four-fifths grid__item--content">
           {% section 'collection-promotions' %}
-          test
           <div class="collection-grid__wrapper">
-            {% section 'collection-template-man' %}
+            {% include 'image-banner' with banner_image_url: 'https://cdn.shopify.com/s/files/1/0696/3979/9097/collections/maglie_2592x.jpg?v=1675417485', banner_title: 'TITOLO', button_href: '/collections/maglie/Uomo', button_title: 'scopri tutti' %}
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+{% section 'collection-template-man' %}
