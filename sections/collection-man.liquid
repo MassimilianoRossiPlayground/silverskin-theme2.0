@@ -22,3 +22,28 @@
     </div>
   </div>
 </div>
+{% schema %}
+  {
+    "name": "Collection uomo",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Slideshow"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Banner",
+        "type": "banner",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
