@@ -30,11 +30,28 @@
 
   .snippet_collection_banner .title::before {
     content: '';
-    height: 20px;
+    display: block;
+    height: 10px;
     width: 60px;
-    background-color: red;
+
     transform: skew(-20deg);
+    margin: 0 auto 10px;
   }
+
+  .snippet_collection_banner.stay-xwarm .title::before {
+    background-color: #FF001F;
+  }
+  .snippet_collection_banner.stay-warm .title::before {
+    background-color: #EC8314;
+  }
+  .snippet_collection_banner.light-warm .title::before {
+    background-color: #1ABC3E;
+  }
+  .snippet_collection_banner.stay-fresh .title::before {
+    background-color: #1D89FF;
+  }
+
+
 
   .snippet_collection_banner .banner-caption {
     position: absolute;
