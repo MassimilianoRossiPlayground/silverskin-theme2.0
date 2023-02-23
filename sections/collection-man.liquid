@@ -1,21 +1,36 @@
 <div class="collection-grid__wrapper">
   <h1>UOMO</h1>
   <hr>
-  <p>I NOSTRI PRODOTTI</p>
+  <h2>I NOSTRI PRODOTTI</h2>
   <div class="grid grid--uniform">
     <div class="grid__item medium-up--one-half">
 
       {% include 'image-banner' with banner_image_url: section.blocks[0].settings.image, banner_title: 'MAGLIE', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTTE' %}
     </div>
     <div class="grid__item medium-up--one-half">
-      {% include 'image-banner' with banner_image_url: 'https://cdn.shopify.com/s/files/1/0696/3979/9097/collections/maglie_2592x.jpg?v=1675417485', banner_title: 'PANTALONI', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTTI' %}
+      {% include 'image-banner' with banner_image_url: section.blocks[1].settings.image, banner_title: 'PANTALONI', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTTI' %}
     </div>
     <div class="grid__item">
-      {% include 'image-banner' with banner_image_url: 'https://cdn.shopify.com/s/files/1/0696/3979/9097/collections/maglie_2592x.jpg?v=1675417485', banner_title: 'ACCESSORI', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTT I I PRODOTTI' %}
+      {% include 'image-banner' with banner_image_url: section.blocks[2].settings.image, banner_title: 'ACCESSORI', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTT I I PRODOTTI' %}
     </div>
   </div>
 </div>
 
+<h2>LE NOSTRE COLLEZIONI</h2>
+<div class="grid grid--uniform">
+  <div class="grid__item medium-up--one-half ">
+    {% include 'image-collection-banner' with banner_image_url: section.blocks[3].settings.image, banner_title: 'STAY X-WARM', button_href: '/collections/stay-x-warm/Uomo+Stay-X-Warm', button_title: 'Scopri tutti i prodotti' %}
+  </div>
+  <div class="grid__item medium-up--one-half ">
+    {% include 'image-collection-banner' with banner_image_url: section.blocks[4].settings.image, banner_title: 'STAY WARM', button_href: '/collections/stay-warm/Uomo+Stay-Warm', button_title: 'Scopri tutti i prodotti' %}
+  </div>
+  <div class="grid__item medium-up--one-half">
+    {% include 'image-collection-banner' with banner_image_url: section.blocks[5].settings.image, banner_title: 'LIGHT WARM', button_href: '/collections/stay-warm/Uomo+Stay-Warm', button_title: 'Scopri tutti i prodotti' %}
+  </div>
+  <div class="grid__item medium-up--one-half">
+    {% include 'image-collection-banner' with banner_image_url: section.blocks[6].settings.image, banner_title: 'STAY FRESH', button_href: '/collections/stay-fresh/Uomo+Stay-Fresh', button_title: 'Scopri tutti i prodotti' %}
+  </div>
+</div>
 
 
 {% schema %}
