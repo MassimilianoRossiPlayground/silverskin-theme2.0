@@ -4,7 +4,7 @@
   <p>I NOSTRI PRODOTTI</p>
   <div class="grid grid--uniform">
     <div class="grid__item medium-up--one-half">
-      {{ section.blocks[0].settings.image }}
+      {{ section.blocks[0].settings.image | img_url: 'master' | img_tag }}
       {% include 'image-banner' with banner_image_url: section.blocks[0].settings.image.src, banner_title: 'MAGLIE', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTTE' %}
     </div>
     <div class="grid__item medium-up--one-half">
