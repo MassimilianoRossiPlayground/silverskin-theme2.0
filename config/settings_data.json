@@ -1400,11 +1400,13 @@
           "collection-man-1": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Stay_Fresh_Collection.jpg"
             }
           },
           "collection-man-2": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Stay_Warm_Collection.jpg"
             }
           },
           "collection-man-3": {
