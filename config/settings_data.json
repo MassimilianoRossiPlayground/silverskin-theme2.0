@@ -1412,21 +1412,25 @@
           "collection-man-3": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/hp-activity-banner_2x_9d477e7d-bae7-4c10-bec4-fc15a2117cd5.jpg"
             }
           },
           "collection-man-4": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/hp-snow-banner_2x_e88451ea-6e88-4c43-8012-a36a7dcc20ae.jpg"
             }
           },
           "collection-man-5": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/05-Banner.jpg"
             }
           },
           "collection-man-6": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/03-2x_9922d439-1691-4a27-a3c2-ee0c5536d241.jpg"
             }
           }
         },
