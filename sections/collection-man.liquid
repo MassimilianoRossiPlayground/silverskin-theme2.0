@@ -4,7 +4,7 @@
   <p>I NOSTRI PRODOTTI</p>
   <div class="grid grid--uniform">
     <div class="grid__item medium-up--one-half">
-      {% include 'image-banner' with banner_image_url: 'https://cdn.shopify.com/s/files/1/0696/3979/9097/collections/maglie_2592x.jpg?v=1675417485', banner_title: 'MAGLIE', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTTE' %}
+      {% include 'image-banner' with banner_image_url: section.blocks[0].image, banner_title: 'MAGLIE', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTTE' %}
     </div>
     <div class="grid__item medium-up--one-half">
       {% include 'image-banner' with banner_image_url: 'https://cdn.shopify.com/s/files/1/0696/3979/9097/collections/maglie_2592x.jpg?v=1675417485', banner_title: 'PANTALONI', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTTI' %}
@@ -14,6 +14,8 @@
     </div>
   </div>
 </div>
+
+
 
 {% schema %}
   {
