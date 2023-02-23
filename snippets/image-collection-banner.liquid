@@ -1,9 +1,9 @@
 <style>
 
-  .snippet_banner {
+  .snippet_collection_banner {
     width: 100%;
-    height: 40vw;
-    max-height: 550px;
+    height: 30vw;
+    max-height: 350px;
     background-size: cover;
     background-position: center;
     margin-bottom: 20px;
@@ -11,7 +11,7 @@
     text-align: center;
   }
 
-  .snippet_banner::after {
+  .snippet_collection_banner::after {
     content: '';
     position: absolute;
     top: 0;
@@ -22,13 +22,13 @@
     background: linear-gradient(0deg, rgba(0,0,0,0.639093137254902) 0%, rgba(0,0,0,0.5046393557422969) 27%, rgba(255,255,255,0) 100%);
   }
 
-  .snippet_banner .title {
+  .snippet_collection_banner .title {
     font-family: "barlow-bold" !important;
     font-size: 32px;
     color: white;
   }
 
-  .snippet_banner .banner-caption {
+  .snippet_collection_banner .banner-caption {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -36,7 +36,7 @@
     z-index: 1;
   }
 
-  .snippet_banner .home__specs__cta {
+  .snippet_collection_banner .home__specs__cta {
     display: inline-block;
     color: white;
     border-color: white;
@@ -46,7 +46,7 @@
     max-width: 400px;
   }
 </style>
-<div class="snippet_banner {{ banner_class }}" style="background-image:url('{{banner_image_url  | img_url: 'master'}}');">
+<div class="snippet_collection_banner {{ banner_class }}" style="background-image:url('{{banner_image_url  | img_url: 'master'}}');">
   <div class="banner-caption">
     <div class="title">{{ banner_title }}</div>
     <div class="subtitle">{{ banner_subtitle }}</div>
