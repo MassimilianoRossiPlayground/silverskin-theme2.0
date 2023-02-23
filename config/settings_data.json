@@ -1387,6 +1387,60 @@
           "tags_combine": false,
           "enable_sort": true
         }
+      },
+      "collection-man": {
+        "type": "collection-man",
+        "blocks": {
+          "collection-man-0": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Stay_X-Warm_Collection.jpg"
+            }
+          },
+          "collection-man-1": {
+            "type": "banner",
+            "settings": {
+            }
+          },
+          "collection-man-2": {
+            "type": "banner",
+            "settings": {
+            }
+          },
+          "collection-man-3": {
+            "type": "banner",
+            "settings": {
+            }
+          },
+          "collection-man-4": {
+            "type": "banner",
+            "settings": {
+            }
+          },
+          "collection-man-5": {
+            "type": "banner",
+            "settings": {
+            }
+          },
+          "collection-man-6": {
+            "type": "banner",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "collection-man-0",
+          "collection-man-1",
+          "collection-man-2",
+          "collection-man-3",
+          "collection-man-4",
+          "collection-man-5",
+          "collection-man-6"
+        ],
+        "settings": {
+          "title": "Collection uomo",
+          "subtitle": ""
+        }
       }
     },
     "content_for_index": [
