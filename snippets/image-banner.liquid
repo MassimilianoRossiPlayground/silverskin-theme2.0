@@ -46,7 +46,7 @@
     max-width: 400px;
   }
 </style>
-<div class="snippet_banner " style="background-image:url('{{banner_image_url}}');">
+<div class="snippet_banner " style="background-image:url('{{banner_image_url  | img_url: 'master'}}');">
   <div class="banner-caption">
     <div class="title">{{ banner_title }}</div>
     <a href="{{button_href}}" class="home__specs__cta text-link">{{ button_title }}</a>
