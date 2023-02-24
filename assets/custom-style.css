@@ -617,8 +617,8 @@ image-banner
 
   .snippet_banner .home__specs__cta {
     display: inline-block;
-    color: white!important;
-    border-color: white;
+    color: white;
+    border-color: white!important;
     margin-top: 30px;
     width: 60%;
     max-width: 400px;
