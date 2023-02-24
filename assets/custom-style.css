@@ -617,7 +617,7 @@ image-banner
 
   .snippet_banner .home__specs__cta {
     display: inline-block;
-    color: white;
+    color: white!important;
     border-color: white;
     margin-top: 30px;
     width: 60%;
@@ -706,7 +706,7 @@ image-banner
   .snippet_collection_banner .home__specs__cta {
     display: inline-block;
     color: white;
-    border-color: white;
+    border-color: white!important;
     margin-top: 30px;
     width: 60%;
     max-width: 400px;
