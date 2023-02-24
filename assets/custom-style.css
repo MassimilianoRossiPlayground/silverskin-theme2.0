@@ -717,9 +717,9 @@ image-banner
   @media screen and (max-width: 769px) {
     .snippet_collection_banner {
    
-        height: 45vw;
+        height: 50vw;
         max-height: 100%;
-     
+        padding: 10px;
     }
 
     
