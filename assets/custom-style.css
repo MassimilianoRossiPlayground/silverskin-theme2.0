@@ -713,6 +713,18 @@ image-banner
     text-transform: uppercase;
   }
 
+
+  @media screen and (max-width: 769px) {
+    .snippet_collection_banner {
+   
+        height: 45vw;
+        max-height: 100%;
+     
+    }
+
+    
+}
+
   /**
   collection man
   */
