@@ -625,6 +625,15 @@ image-banner
   }
 
 
+@media screen and (max-width: 769px) {
+    .snippet_banner .banner-caption {
+  
+        padding: 10px;
+      }
+    
+}
+
+
   /*
   image-collection-banner
   */
