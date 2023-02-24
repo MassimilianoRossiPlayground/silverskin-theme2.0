@@ -719,9 +719,15 @@ image-banner
    
         height: 50vw;
         max-height: 100%;
+        
+    }
+    .snippet_collection_banner .banner-caption{
+   
         padding: 10px;
+        
     }
 
+    
     
 }
 
