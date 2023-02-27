@@ -749,9 +749,10 @@ image-banner
         padding:20px;
         background:  #27292f2a;
         flex: 1;
+        margin: 0 auto;
 
     }
-    .collection-square .collection-square__title::after{
+    .collection-square .collection-square::after{
         content: '';
         display: block;
         position: absolute;
@@ -760,7 +761,7 @@ image-banner
         height: 5px;
         background-color: red;
     }
-    .collection-square.active .collection-square__title::after{
+    .collection-square.active .collection-square::after{
        
         width: 100%;
         
