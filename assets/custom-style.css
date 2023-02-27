@@ -750,7 +750,11 @@ image-banner
         margin: 20px;
         background:  #27292f2a;
         flex: 1;
+        text-align: center;
        
+    }
+    .collection-square.active{
+        background:  #27292f;
     }
     .collection-square .collection-square__point{
         content: '';
@@ -772,20 +776,26 @@ image-banner
     }
     .collection-square .collection-square__title{
         font-size: 32px;
-        color: white;
-        
+        color: white;        
     }
     .collection-square .collection-square__temp{
         font-size: 14px;
-        color: white;
-    
+        color: white;    
     }
     .collection-square .collection-square__subtitle{
         font-size: 14px;
-        color: lightgray;
-     
+        color: lightgray;     
     }
 
+    .collection-square.active .collection-square__title{
+        color: black;        
+    }
+    .collection-square.active .collection-square__temp{
+        color: black;    
+    }
+    .collection-square.active .collection-square__subtitle{
+        color: grey;     
+    }
     /**
     collection man
     */
