@@ -1,4 +1,4 @@
-{% if current_tags contains "Stay Fresh" or current_tags contains "Stay Warm" or current_tags contains "Stay X-Warm" or current_tags contains "Light Warm" %}
+{% unless current_tags contains "Stay Fresh" and current_tags contains "Stay Warm" and current_tags contains "Stay X-Warm" and current_tags contains "Light Warm" %}
   {% section 'collection-header' %}
 {% endif %}
 
