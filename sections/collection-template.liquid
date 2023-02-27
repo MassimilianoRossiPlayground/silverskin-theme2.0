@@ -8,6 +8,33 @@
   data-section-id="{{ section.id }}"
   data-section-type="collection-template">
 
+<div class="collection-square {% if current_tags contains "Stay X-Warm" %}xwarm{% endif %}">
+  <div class="collection-square__title">Stay X-Warm</div>
+  <div class="collection-square__temp"> da 0° a 20°</div>
+  <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet </div>
+</div>
+  
+<div class="collection-square {% if current_tags contains "Stay Warm" %}warm{% endif %}">
+    <div class="collection-square__title">Stay Warm</div>
+    <div class="collection-square__temp"> da 0° a 20°</div>
+    <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet </div>
+  </div>
+  
+<div class="collection-square {% if current_tags contains "Light Warm" %}lightwarm{% endif %}">
+  <div class="collection-square__title">Light Warm</div>
+  <div class="collection-square__temp"> da 0° a 20°</div>
+  <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet </div>
+</div>
+<div class="collection-square {% if current_tags contains "Stay Fresh" %}fresh{% endif %}">
+  <div class="collection-square__title">Stay Fresh</div>
+  <div class="collection-square__temp"> da 0° a 20°</div>
+  <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet </div>
+</div>
+
+
+  {% if current_tags contains "" %}
+  {% endif %}
+
   {%- if section.settings.description_position == 'top' -%}
     {% if collection.description != blank %}
       <div class="rte">

@@ -731,9 +731,53 @@ image-banner
     
 }
 
-  /**
-  collection man
-  */
+    /**
+    *
+    *   COLLECTION BANNERS
+    *
+    **/
+    .collection-square__container{
+        display: flex;
+    }
+
+    .collection-square{
+        position: relative;
+        padding:20px;
+        background:  #27292f2a;
+        flex: 1;
+
+    }
+    .collection-square .collection-square__title::after{
+        position: absolute;
+        top: 0;
+        width: 5px;
+        height: 5px;
+        background-color: red;
+    }
+    .collection-square.active .collection-square__title::after{
+       
+        width: 100%;
+        
+    }
+    .collection-square .collection-square__title{
+        font-size: 32px;
+        color: white;
+        
+    }
+    .collection-square .collection-square__temp{
+        font-size: 14px;
+        color: white;
+    
+    }
+    .collection-square .collection-square__subtitle{
+        font-size: 14px;
+        color: lightgray;
+     
+    }
+
+    /**
+    collection man
+    */
 
   .collection-man-title {
 
