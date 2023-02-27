@@ -747,6 +747,7 @@ image-banner
         position: relative;
         display: block;
         padding:20px;
+        margin: 20px;
         background:  #27292f2a;
         flex: 1;
        
