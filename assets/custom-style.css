@@ -805,6 +805,7 @@ image-banner
         color: black;      
         font-size: 32px;  
         font-family: barlow-bold !important;
+        text-transform: uppercase;
     }
     .collection-square .collection-square__temp{
         color: black;  
