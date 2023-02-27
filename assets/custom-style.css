@@ -789,26 +789,31 @@ image-banner
         
     }
     .collection-square.active .collection-square__title{
-        font-size: 32px;
+      
         color: white;        
     }
     .collection-square.active .collection-square__temp{
-        font-size: 14px;
+       
         color: white;    
     }
     .collection-square.active .collection-square__subtitle{
-        font-size: 14px;
+       
         color: lightgray;     
     }
 
     .collection-square .collection-square__title{
-        color: black;        
+        color: black;      
+        font-size: 32px;  
+        font-family: barlow-bold !important;
     }
     .collection-square .collection-square__temp{
-        color: black;    
+        color: black;  
+        font-size: 14px;  
+        font-family: barlow-bold !important;
     }
     .collection-square .collection-square__subtitle{
-        color: grey;     
+        color: grey;   
+        font-size: 14px;  
     }
     /**
     collection man
