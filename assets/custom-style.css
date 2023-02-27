@@ -749,19 +749,22 @@ image-banner
         padding:20px;
         background:  #27292f2a;
         flex: 1;
-        margin: 0 auto;
-
+       
     }
-    .collection-square .collection-square::after{
+    .collection-square .collection-square__point{
         content: '';
         display: block;
         position: absolute;
         top: 0;
+        left: 0;
+        right: 0;
         width: 5px;
         height: 5px;
         background-color: red;
+        margin: 0 auto;
+
     }
-    .collection-square.active .collection-square::after{
+    .collection-square.active .collection-square__point{
        
         width: 100%;
         
