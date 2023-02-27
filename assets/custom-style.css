@@ -765,10 +765,24 @@ image-banner
         right: 0;
         width: 5px;
         height: 10px;
-        background-color: red;
+        
         margin: 0 auto;
 
     }
+
+    .collection-square.xwarm .collection-square__point{
+        background-color: #FF001F;
+    }
+    .collection-square.warm .collection-square__point{
+        background-color: #EC8314;
+    }
+    .collection-square.lightwarm .collection-square__point{
+        background-color: #1ABC3E;
+    }
+    .collection-square.fresh .collection-square__point{
+        background-color: #1D89FF;
+    }
+
     .collection-square.active .collection-square__point{
        
         width: 100%;
