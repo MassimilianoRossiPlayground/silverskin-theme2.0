@@ -736,6 +736,9 @@ image-banner
     *   COLLECTION BANNERS
     *
     **/
+    .space-for-heat-collections{
+        padding-top:100px;
+    }
     .collection-square__container{
         display: flex;
     }
