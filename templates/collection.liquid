@@ -1,7 +1,10 @@
 {% unless current_tags contains "Stay Fresh" and current_tags contains "Stay Warm" and current_tags contains "Stay X-Warm" and current_tags contains "Light Warm" %}
   {% section 'collection-header' %}
 {% endunless %}
-{{ current_tags }}
+
+{% for tag in current_tags %}
+  <li>{{ tag }}</li>
+{% endfor %}
 <div id="CollectionAjaxResult" class="collection-content">
   <div id="CollectionAjaxContent">
     <div class="page-width">
