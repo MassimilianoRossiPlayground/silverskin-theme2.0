@@ -64,12 +64,8 @@
 
         var collection_swiper = new Swiper(collectionContainer, {
           slidesPerView: 1,
-          spaceBetween: 30,
-          loop: true,
-          navigation: {
-            nextEl: ".section-bestsellers-" + i + " .swiper-button-next",
-            prevEl: ".section-bestsellers-" + i + " .swiper-button-prev"
-          },
+          spaceBetween: 10,
+          loop: false,
           breakpoints: { // when window width is >= 320px
             320: {
               slidesPerView: 1,
@@ -80,8 +76,6 @@
       });
 
     });
-
-
 
   })(document);
 </script>
