@@ -750,9 +750,9 @@ image-banner
         margin: 20px;
         background:  #27292f2a;
         flex: 1;
-        text-align: center;
-       
+        text-align: center;       
     }
+
     .collection-square.active{
         background:  #27292f;
     }
@@ -816,6 +816,16 @@ image-banner
         color: grey;   
         font-size: 14px;  
     }
+    @media screen and (max-width: 769px) {
+        .collection-square{
+         
+            margin: 20px;
+            flex: 1 1 auto;    
+        }
+        
+    }
+
+   
     /**
     collection man
     */
