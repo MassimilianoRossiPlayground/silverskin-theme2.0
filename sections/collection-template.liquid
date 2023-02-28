@@ -11,8 +11,36 @@
  
 
 
-  {% if current_tags contains "" %}
-  {% endif %}
+  <div class="collection-square__container">
+
+    <a class="collection-square xwarm {% if current_tags contains "Stay X-Warm" %}active{% endif %}" href="/collections/stay-x-warm/Stay-X-Warm">
+      <div class="collection-square__point"></div>
+      <div class="collection-square__title">Stay X-Warm</div>
+      <div class="collection-square__temp"> da 0° a 20°</div>
+      <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet </div>
+      
+    </a>
+      
+    <a class="collection-square warm {% if current_tags contains "Stay Warm" %}active{% endif %}" href="/collections/stay-warm/Stay-Warm">
+      <div class="collection-square__point"></div>
+        <div class="collection-square__title">Stay Warm</div>
+        <div class="collection-square__temp"> da 0° a 20°</div>
+        <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet </div>
+      </a>
+      
+    <a class="collection-square lightwarm {% if current_tags contains "Light Warm" %}active{% endif %}" href="/collections/light-warm/Light-Warm">
+      <div class="collection-square__point"></div>
+      <div class="collection-square__title">Light Warm</div>
+      <div class="collection-square__temp"> da 0° a 20°</div>
+      <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet </div>
+    </a>
+    <a class="collection-square fresh {% if current_tags contains "Stay Fresh" %}active{% endif %}" href="/collections/stay-fresh/Stay-Fresh">
+      <div class="collection-square__point"></div>
+      <div class="collection-square__title">Stay Fresh</div>
+      <div class="collection-square__temp"> da 0° a 20°</div>
+      <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet </div>
+    </a>
+  </div>
 
   {%- if section.settings.description_position == 'top' -%}
     {% if collection.description != blank %}
@@ -26,6 +54,8 @@
   {%- if section.settings.subcollection_style == 'above' -%}
     {%- include 'subcollections', per_row: section.settings.subcollections_per_row -%}
   {%- endif -%}
+
+  
 
   <div class="collection-filter">
     {%- assign current_filter_size = current_tags | size -%}
@@ -70,36 +100,7 @@
     <p class="medium-up--hide text-center">{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</p>
   {%- endif -%}
 
-  <div class="collection-square__container">
-
-    <a class="collection-square xwarm {% if current_tags contains "Stay X-Warm" %}active{% endif %}" href="/collections/stay-x-warm/Stay-X-Warm">
-      <div class="collection-square__point"></div>
-      <div class="collection-square__title">Stay X-Warm</div>
-      <div class="collection-square__temp"> da 0° a 20°</div>
-      <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet </div>
-      
-    </a>
-      
-    <a class="collection-square warm {% if current_tags contains "Stay Warm" %}active{% endif %}" href="/collections/stay-warm/Stay-Warm">
-      <div class="collection-square__point"></div>
-        <div class="collection-square__title">Stay Warm</div>
-        <div class="collection-square__temp"> da 0° a 20°</div>
-        <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet </div>
-      </a>
-      
-    <a class="collection-square lightwarm {% if current_tags contains "Light Warm" %}active{% endif %}" href="/collections/light-warm/Light-Warm">
-      <div class="collection-square__point"></div>
-      <div class="collection-square__title">Light Warm</div>
-      <div class="collection-square__temp"> da 0° a 20°</div>
-      <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet </div>
-    </a>
-    <a class="collection-square fresh {% if current_tags contains "Stay Fresh" %}active{% endif %}" href="/collections/stay-fresh/Stay-Fresh">
-      <div class="collection-square__point"></div>
-      <div class="collection-square__title">Stay Fresh</div>
-      <div class="collection-square__temp"> da 0° a 20°</div>
-      <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet </div>
-    </a>
-  </div>
+ 
 
   <div
     class="grid grid--uniform grid--collection{% if section.settings.mobile_flush_grid %} small--grid--flush{% endif %}"
