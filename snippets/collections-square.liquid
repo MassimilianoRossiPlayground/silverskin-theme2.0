@@ -1,7 +1,10 @@
 <div class="swiper-container collection-square__container">
   <div class=" swiper-wrapper">
 
-    <a class="collection-square xwarm {% if current_tags contains "Stay X-Warm" %}active{% endif %} swiper-slide" href="/collections/stay-x-warm/Stay-X-Warm">
+    <a
+      class="collection-square xwarm {% if current_tags contains "Stay X-Warm" %}active{% endif %} swiper-slide"
+      href="/collections/stay-x-warm/Stay-X-Warm"
+      slide="1">
       <div class="collection-square__point"></div>
       <div class="collection-square__title">Stay X-Warm</div>
       <div class="collection-square__temp">
@@ -11,7 +14,10 @@
 
     </a>
 
-    <a class="collection-square warm {% if current_tags contains "Stay Warm" %}active{% endif %} swiper-slide" href="/collections/stay-warm/Stay-Warm">
+    <a
+      class="collection-square warm {% if current_tags contains "Stay Warm" %}active{% endif %} swiper-slide"
+      href="/collections/stay-warm/Stay-Warm"
+      slide="2">
       <div class="collection-square__point"></div>
       <div class="collection-square__title">Stay Warm</div>
       <div class="collection-square__temp">
@@ -20,7 +26,10 @@
       </div>
     </a>
 
-    <a class="collection-square lightwarm {% if current_tags contains "Light Warm" %}active{% endif %} swiper-slide" href="/collections/light-warm/Light-Warm">
+    <a
+      class="collection-square lightwarm {% if current_tags contains "Light Warm" %}active{% endif %} swiper-slide"
+      href="/collections/light-warm/Light-Warm"
+      slide="3">
       <div class="collection-square__point"></div>
       <div class="collection-square__title">Light Warm</div>
       <div class="collection-square__temp">
@@ -28,7 +37,10 @@
       <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet
       </div>
     </a>
-    <a class="collection-square fresh {% if current_tags contains "Stay Fresh" %}active{% endif %} swiper-slide" href="/collections/stay-fresh/Stay-Fresh">
+    <a
+      class="collection-square fresh {% if current_tags contains "Stay Fresh" %}active{% endif %} swiper-slide"
+      href="/collections/stay-fresh/Stay-Fresh"
+      slide="4">
       <div class="collection-square__point"></div>
       <div class="collection-square__title">Stay Fresh</div>
       <div class="collection-square__temp">
@@ -47,7 +59,7 @@
     if (window.innerWidth > 1024) {
       return;
     }
-
+    let initialSlide = document.querySelector(".collection-square.active").getAttribute("slide")
     let selectors = {
       collectionsSelectorContainer: '.collection-square__container'
     };
@@ -66,6 +78,7 @@
           slidesPerView: 1,
           spaceBetween: 10,
           loop: false,
+          initialSlide: initialSlide,
           pagination: {
             el: ".swiper-pagination-collections-square",
             renderBullet: function(index, className) {
