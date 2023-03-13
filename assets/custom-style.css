@@ -741,6 +741,11 @@ image-banner
     }
     .collection-square__container{
         display: flex;
+        padding:40px;
+    }
+
+    .swiper-pagination-collections-square{
+        bottom:0px;
     }
 
     .collection-square{
