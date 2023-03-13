@@ -60,6 +60,9 @@
       return;
     }
     let initialSlide = document.querySelector(".collection-square.active").getAttribute("slide")
+    initialSlide--;
+    console.log(initialSlide);
+
     let selectors = {
       collectionsSelectorContainer: '.collection-square__container'
     };
@@ -78,7 +81,7 @@
           slidesPerView: 1,
           spaceBetween: 10,
           loop: false,
-          initialSlide: (initialSlide - 1),
+          initialSlide: initialSlide,
           pagination: {
             el: ".swiper-pagination-collections-square",
             renderBullet: function(index, className) {
