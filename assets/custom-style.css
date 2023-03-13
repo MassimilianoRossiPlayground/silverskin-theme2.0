@@ -748,6 +748,14 @@ image-banner
         bottom:0px!important;
     }
 
+    .swiper-pagination-collections-square .hexagon{
+     
+        background: red;
+        -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+        clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+          
+    }
+
     .collection-square{
         position: relative;
         display: block;

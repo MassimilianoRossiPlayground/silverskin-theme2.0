@@ -67,7 +67,10 @@
           spaceBetween: 10,
           loop: false,
           pagination: {
-            el: ".swiper-pagination-collections-square"
+            el: ".swiper-pagination-collections-square",
+            renderBullet: function(index, className) {
+              return '<span class="' + className + ' hexagon"></span>';
+            }
           }
         });
       });
