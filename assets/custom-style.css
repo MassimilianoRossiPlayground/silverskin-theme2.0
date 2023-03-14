@@ -1196,16 +1196,28 @@ label[for] {
 .rte h1::before{
     content: '';
     position: absolute;
-    top: -10px;
+    top: -12px;
     left: 0;
     right: 0;
     margin: 0 auto;
     width: 50px;
-    height: 10px;
+    height: 8px;
     background-color: red;
     transform: skew(-20deg);
-    
 }
+.rte.stay-x-warm h1::before{
+    background-color: #FF001F;
+}
+.rte.stay-warm h1::before{
+    background-color: #EC8314;
+}
+.rte.stay-fresh h1::before{
+    background-color: #1D89FF;
+}
+.rte.light-warm h1::before{
+    background-color:  #1ABC3E;
+}
+
 .template-product .site-nav__icons__black {
     display: block;
 }

@@ -1,6 +1,17 @@
 {%- assign per_row = section.settings.per_row -%}
 {%- assign paginate_by = per_row | times: section.settings.rows_per_page -%}
-
+{% if current_tags contains "Stay X-Warm" %}
+  {%- assign class_rte ="stay-x-warm"-%}
+{%endif%}
+{% if current_tags contains "Stay Warm" %}
+  {%- assign class_rte ="stay-warm"-%}
+{%endif%}
+{% if current_tags contains "Stay Fresh" %}
+  {%- assign class_rte ="stay-fresh"-%}
+{%endif%}
+{% if current_tags contains "Light Warm" %}
+  {%- assign class_rte ="light-warm"-%}
+{%endif%}
 {% paginate collection.products by paginate_by %}
 
 <div
@@ -15,7 +26,7 @@
 
   {%- if section.settings.description_position == 'top' -%}
     {% if collection.description != blank %}
-      <div class="rte">
+      <div class="rte {{class_rte}}">
         {{ collection.description }}
       </div>
       {% if current_tags contains "Stay Fresh" or current_tags contains "Stay Warm" or current_tags contains "Stay X-Warm" or current_tags contains "Light Warm" %}
