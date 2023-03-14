@@ -1188,6 +1188,20 @@ label[for] {
 
 
 /* collezioni */
+
+.rte h1{
+    font-family: "barlow-bold-italic" !important;
+
+}
+.rte h1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 5px;
+    background-color: red;
+    
+}
 .template-product .site-nav__icons__black {
     display: block;
 }
