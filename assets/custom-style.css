@@ -1191,12 +1191,12 @@ label[for] {
 
 .rte h1{
     font-family: "barlow-bold-italic" !important;
-
+    position: relative;
 }
 .rte h1::before{
     content: '';
     position: absolute;
-    top: 0;
+    top: -10px;
     width: 20px;
     height: 5px;
     background-color: red;
