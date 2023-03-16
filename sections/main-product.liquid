@@ -133,13 +133,13 @@
     {% elsif module.system.type == "pdp_two_box" %}
 
       {% if module.image_left %}
-        <img src="{{module.image | img_url}}">
+        <img src="{{module.image | img_url : '1920x1024'}}">
         <span>{{ module.title }}</span>
         <span>{{ module.description }}</span>
       {% else %}
         <span>{{ module.title }}</span>
         <span>{{ module.description }}</span>
-        <img src="{{module.image | img_url}}">
+        <img src="{{module.image | img_url: '1920x1024'}}">
       {% endif %}
 
 
