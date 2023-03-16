@@ -123,7 +123,7 @@
 
         {% for image_m in module.image.value %}
 
-          <img class="pdp-gallery-image pdp-gallery-image--{% increment image_number %}" src="{{ image_m | img_url }}">
+          <img class="pdp-gallery-image pdp-gallery-image--{% increment image_number %}" src="{{ image_m | img_url: '1400x' }}">
 
         {% endfor %}
 
