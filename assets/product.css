@@ -14,3 +14,15 @@
     flex: 1 1 50%;
     width: 50%;
 }
+
+.pdp-two-box{
+    display: flex;
+}
+
+.pdp-two-box__caption{
+    width: 50%;
+}
+
+.pdp-two-box__image{
+    width: 50%;
+}
