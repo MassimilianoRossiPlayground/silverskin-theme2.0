@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="{{ 'product.css' | asset_url }}" type="text/css">
+
 {% include 'wcp_discount' with product %}
 {% assign current_variant = product.selected_or_first_available_variant %}
 {% include 'wcp_variant' with current_variant %}
@@ -124,6 +126,10 @@
                 {{ product.title }}
               </h1>
             {% endif %}
+
+            {% if product.metafields.descriptors.subtitle %}
+              <h2 class="product-description-subtitle">{{product.metafields.descriptors.subtitle}}</h2>
+            {% endif %} 
 
             {% if settings.enable_product_reviews and settings.reviews_layout == 'full' %}
               {% if isModal %}

@@ -114,6 +114,37 @@
     }
   </style>
 
+
+
+    
+  {% for module in product.metafields.custom.modules.value %}
+
+    {% if module.system.type == "pdp_gallery" %}
+
+      {% for image_m in module.image.value %}
+        <img src="{{ image_m | img_url }}">
+      {% endfor %}
+
+    {% elsif module.system.type == "pdp_two_box" %}
+
+      {% if module.image_left %}
+        <img src="{{module.image | img_url}}">
+        <span>{{module.title}}</span>
+        <span>{{module.description}}</span>
+      {% else %}
+        <span>{{module.title}}</span>
+        <span>{{module.description}}</span>
+        <img src="{{module.image | img_url}}">
+      {% endif %}
+
+
+    {% endif %}
+
+  {% endfor %}
+
+
+
+
   <div class="pdp-banner {{collection_banner}}__banner">
     <div class="pdp-banner__box">
       <div class="pdp-banner__box__col">
