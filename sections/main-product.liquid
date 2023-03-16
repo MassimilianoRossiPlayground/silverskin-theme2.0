@@ -121,8 +121,8 @@
 
 
       {% for image_m in module.image.value %}
-        {% increment image_number %}
-        <img class=" {{image_number}}" src="{{ image_m | img_url }}">
+
+        <img class="{% increment image_number %}" src="{{ image_m | img_url }}">
       {% endfor %}
 
     {% elsif module.system.type == "pdp_two_box" %}
