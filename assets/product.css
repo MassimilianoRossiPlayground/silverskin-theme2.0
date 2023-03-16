@@ -12,4 +12,5 @@
 }
 .pdp-gallery-image--1,.pdp-gallery-image--2{
     flex: 1 1 50%;
+    width: 50%;
 }
