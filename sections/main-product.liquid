@@ -119,11 +119,11 @@
 
     {% if module.system.type == "pdp_gallery" %}
 
-      <div class="gallery">
+      <div class="pdp-gallery">
 
         {% for image_m in module.image.value %}
 
-          <img class="gallery-image gallery-image--{% increment image_number %}" src="{{ image_m | img_url }}">
+          <img class="pdp-gallery-image pdp-gallery-image--{% increment image_number %}" src="{{ image_m | img_url }}">
 
         {% endfor %}
 
