@@ -131,16 +131,15 @@
 
 
     {% elsif module.system.type == "pdp_two_box" %}
-
-      {% if module.image_left %}
-        <img src="{{module.image | img_url: '1400x'}}">
-        <span>{{ module.title }}</span>
-        <span>{{ module.description }}</span>
-      {% else %}
-        <span>{{ module.title }}</span>
-        <span>{{ module.description }}</span>
-        <img src="{{module.image | img_url: '1400x'}}">
-      {% endif %}
+      <div class="pdp-two-box {% if module.image_left %}is-left{% endif %}">
+        <div class="pdp-two-box__caption">
+          <span>{{ module.title }}</span>
+          <span>{{ module.description }}</span>
+        </div>
+        <div class="pdp-two-box__image">
+          <img src="{{module.image | img_url: '1400x'}}">
+        </div>
+      </div>
 
 
     {% endif %}
