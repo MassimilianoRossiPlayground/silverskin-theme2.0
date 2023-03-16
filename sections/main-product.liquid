@@ -119,11 +119,16 @@
 
     {% if module.system.type == "pdp_gallery" %}
 
+      <div class="gallery">
 
-      {% for image_m in module.image.value %}
+        {% for image_m in module.image.value %}
 
-        <img class="{% increment image_number %}" src="{{ image_m | img_url }}">
-      {% endfor %}
+          <img class="gallery-image gallery-image--{% increment image_number %}" src="{{ image_m | img_url }}">
+
+        {% endfor %}
+
+      </div>
+
 
     {% elsif module.system.type == "pdp_two_box" %}
 
