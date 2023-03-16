@@ -4,11 +4,12 @@
 
 .pdp-gallery{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .pdp-gallery-image{
     flex: 1 1 100%;
 }
-.pdp-gallery-image--2,.pdp-gallery-image--3{
+.pdp-gallery-image--1,.pdp-gallery-image--2{
     flex: 1 1 50%;
 }
