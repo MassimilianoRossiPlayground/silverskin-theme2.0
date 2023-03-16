@@ -118,11 +118,11 @@
   {% for module in product.metafields.custom.modules.value %}
 
     {% if module.system.type == "pdp_gallery" %}
-      {% assign image_number = 1 %}
+
 
       {% for image_m in module.image.value %}
-        <img class="pippo {{image_number}}" src="{{ image_m | img_url }}">
-        {% assign image_number = image_number+1 %}
+        {% increment image_number %}
+        <img class=" {{image_number}}" src="{{ image_m | img_url }}">
       {% endfor %}
 
     {% elsif module.system.type == "pdp_two_box" %}
