@@ -52,7 +52,8 @@
         flex-direction: column-reverse;
     }
     .pdp-two-box{
-        flex-direction: column;
+        flex-direction: column-reverse;
+        margin: 20px 0;
     }
     .pdp-two-box__image{
         width: 100%;
