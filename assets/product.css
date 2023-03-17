@@ -27,7 +27,9 @@
 }
 .pdp-two-box__caption-inner{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
 }
 
 .pdp-two-box__title{
