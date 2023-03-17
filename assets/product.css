@@ -17,14 +17,17 @@
 
 .pdp-two-box{
     display: flex;
+    margin-top: 50px;
 }
 
 .pdp-two-box__caption{
     width: 50%;
     flex: 1 1 50%;
+    padding: 100px;
 }
 
 .pdp-two-box__image{
     width: 50%;
     flex: 1 1 50%;
+    padding: 100px;
 }
