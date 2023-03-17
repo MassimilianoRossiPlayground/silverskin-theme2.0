@@ -49,7 +49,16 @@
 
 .pdp-gallery-pagination{
     text-align: center;
-    
+
+}
+
+.pdp-gallery-pagination .swiper-pagination-bullet{
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.pdp-gallery-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color: white;
 }
 
 @media screen and (max-width: 768px) {
