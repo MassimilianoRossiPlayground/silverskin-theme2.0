@@ -19,6 +19,9 @@
     display: flex;
     margin: 50px 0;
 }
+.pdp-two-box.is-left{
+    flex-direction: row-reverse;
+}
 
 .pdp-two-box__caption{
     width: 50%;
