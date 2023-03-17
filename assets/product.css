@@ -17,7 +17,7 @@
 
 .pdp-two-box{
     display: flex;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 .pdp-two-box__caption{
