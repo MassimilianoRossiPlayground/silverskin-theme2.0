@@ -296,7 +296,10 @@
       //SWIPER - gallery
       new Swiper('.pdp-gallery-js', {
       // Optional parameters
-        pagination:true
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+        },
       });
     }
   });
