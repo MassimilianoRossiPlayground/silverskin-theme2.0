@@ -54,11 +54,7 @@
 
 .pdp-gallery-pagination .swiper-pagination-bullet{
     border: 1px solid white;
-    width: 35.36px;
-    height: 35.36px;
-    -webkit-transform: scaleY(0.5774) rotate(-45deg);
-    -ms-transform: scaleY(0.5774) rotate(-45deg);
-    transform: scaleY(0.5774) rotate(-45deg);
+    border-radius: 25px;
 }
 
 .pdp-gallery-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
