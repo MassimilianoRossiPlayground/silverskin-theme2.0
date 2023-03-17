@@ -67,4 +67,8 @@
         padding: 20px;
         margin: 0;
     }
+    .pdp-gallery-image{
+        flex: 1 1 100%!important;
+        width: 100%;
+    }
 }
