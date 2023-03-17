@@ -23,7 +23,16 @@
 .pdp-two-box__caption{
     width: 50%;
     flex: 1 1 50%;
-    padding: 100px;
+    padding: 50px;
+}
+.pdp-two-box__caption-inner{
+    display: flex;
+    align-items: center;
+}
+
+.pdp-two-box__title{
+    font-family: "barlow-bold" !important;
+    font-size: 32px;
 }
 
 .pdp-two-box__image{
