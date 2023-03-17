@@ -27,6 +27,7 @@
     width: 50%;
     flex: 1 1 50%;
     padding: 0 120px;
+    margin-top: 15px;
 }
 .pdp-two-box__caption-inner{
     display: flex;
