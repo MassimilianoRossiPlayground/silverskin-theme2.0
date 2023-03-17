@@ -118,7 +118,7 @@
   {% for module in product.metafields.custom.modules.value %}
 
     {% if module.system.type == "pdp_gallery" %}
-      <div class="pdp-gallery only-desk-flex">
+      <div class="pdp-gallery pdp-gallery-js only-desk-flex">
 
         {% assign image_number = 1 %}
         {% for image_m in module.image.value %}
@@ -287,6 +287,19 @@
       soldOut: {{ 'products.product.sold_out' | t | json }},
       unavailable: {{ 'products.product.unavailable' | t | json }}
     };
+
+  $(function(){
+
+    if(window.innerWidth<1024){
+
+      //SWIPER - gallery
+      let swiper_calze = new Swiper('.pdp-gallery-js', {
+      // Optional parameters
+      });
+    }
+  });
+
+
   </script>
 </div>
 
