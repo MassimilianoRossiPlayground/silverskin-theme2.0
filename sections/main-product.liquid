@@ -118,7 +118,7 @@
   {% for module in product.metafields.custom.modules.value %}
 
     {% if module.system.type == "pdp_gallery" %}
-      <div class="pdp-gallery only-desk">
+      <div class="pdp-gallery only-desk-flex">
 
         {% assign image_number = 1 %}
         {% for image_m in module.image.value %}
