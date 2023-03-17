@@ -59,6 +59,7 @@
 
 .pdp-gallery-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
     background-color: white;
+    border: 1px solid black;
 }
 
 @media screen and (max-width: 768px) {
