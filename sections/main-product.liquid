@@ -138,6 +138,7 @@
             </div>
             {% assign image_number = image_number | plus: 1 %}
           {% endfor %}
+          <div class="swiper-pagination"></div>
 
         </div>
       </div>
@@ -295,6 +296,7 @@
       //SWIPER - gallery
       new Swiper('.pdp-gallery-js', {
       // Optional parameters
+        pagination:true
       });
     }
   });
