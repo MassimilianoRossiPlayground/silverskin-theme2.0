@@ -46,3 +46,24 @@
     flex: 1 1 50%;
     padding: 0 40px;
 }
+
+@media screen and (max-width: 768px) {
+    .pdp-two-box.is-left{
+        flex-direction: column-reverse;
+    }
+    .pdp-two-box{
+        flex-direction: column;
+    }
+    .pdp-two-box__image{
+        width: 100%;
+        flex: 1;
+        padding: 20px;
+        margin: 0;
+    }
+    .pdp-two-box__caption{
+        width: 100%;
+        flex: 1;
+        padding: 20px;
+        margin: 0;
+    }
+}
