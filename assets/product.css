@@ -47,6 +47,11 @@
     padding: 0 40px;
 }
 
+.pdp-gallery-pagination{
+    text-align: center;
+    
+}
+
 @media screen and (max-width: 768px) {
     .pdp-two-box.is-left{
         flex-direction: column-reverse;
