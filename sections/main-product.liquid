@@ -118,7 +118,7 @@
   {% for module in product.metafields.custom.modules.value %}
 
     {% if module.system.type == "pdp_gallery" %}
-      <div class="pdp-gallery pdp-gallery-js only-deskflex">
+      <div class="pdp-gallery  only-deskflex">
 
         {% assign image_number = 1 %}
         {% for image_m in module.image.value %}
@@ -129,7 +129,7 @@
         {% endfor %}
 
       </div>
-      <div class="pdp-gallery swiper-container only-mob">
+      <div class="pdp-gallery pdp-gallery-js swiper-container only-mob">
         <div class="swiper-wrapper">
           {% assign image_number = 1 %}
           {% for image_m in module.image.value %}
@@ -291,9 +291,9 @@
   $(function(){
 
     if(window.innerWidth<1024){
-  console.log("start swiper");
+      console.log("start swiper");
       //SWIPER - gallery
-      let swiper_calze = new Swiper('.pdp-gallery-js', {
+      new Swiper('.pdp-gallery-js', {
       // Optional parameters
       });
     }
