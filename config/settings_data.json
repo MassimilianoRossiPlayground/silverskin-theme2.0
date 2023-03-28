@@ -727,6 +727,30 @@
       "16057820817ca1b14f": {
         "type": "promo-grid",
         "blocks": {
+          "d17de3f9-4b74-4609-ae62-1d8646e6d6a8": {
+            "type": "advanced",
+            "settings": {
+              "subheading": "DA 10° A 40°",
+              "heading": "STAY FRESH",
+              "textarea": "Mantiene la tua temperatura corporea durante attività ad alta intensità o quando fa caldo.<br> <a href=\"\/pages\/collezioni#section-fresh-collection\">Scopri di più.<\/a>",
+              "cta_text1": "Acquista Uomo",
+              "cta_text1_color": "",
+              "cta_link1": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Uomo",
+              "cta_text2": "Acquista Donna",
+              "cta_text2_color": "",
+              "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
+              "image": "shopify:\/\/shop_images\/08-Homepage-Banner-Collezione-Stay-Fresh.jpg",
+              "video_url": "",
+              "width": "100",
+              "height": 480,
+              "text_size": 100,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "center",
+              "color_accent": "#ffffff",
+              "boxed": false,
+              "framed": false
+            }
+          },
           "370735d6-5393-441e-9741-006508fa2b76": {
             "type": "advanced",
             "settings": {
@@ -739,12 +763,12 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/Stay_Warm_Collection.jpg",
+              "image": "shopify:\/\/shop_images\/hp-banner-warm-desk_f479220a-cf5a-4dca-be01-b5dec608a761.jpg",
               "video_url": "",
-              "width": "100",
+              "width": "50",
               "height": 500,
               "text_size": 100,
-              "text_align": "vertical-center horizontal-center",
+              "text_align": "vertical-bottom horizontal-center",
               "focal_point": "center",
               "color_accent": "#ffffff",
               "boxed": false,
@@ -774,36 +798,12 @@
               "boxed": false,
               "framed": false
             }
-          },
-          "d17de3f9-4b74-4609-ae62-1d8646e6d6a8": {
-            "type": "advanced",
-            "settings": {
-              "subheading": "DA 10° A 40°",
-              "heading": "STAY FRESH",
-              "textarea": "Mantiene la tua temperatura corporea durante attività ad alta intensità o quando fa caldo.<br> <a href=\"\/pages\/collezioni#section-fresh-collection\">Scopri di più.<\/a>",
-              "cta_text1": "Acquista Uomo",
-              "cta_text1_color": "",
-              "cta_link1": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Uomo",
-              "cta_text2": "Acquista Donna",
-              "cta_text2_color": "",
-              "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/Stay_Fresh_Collection.jpg",
-              "video_url": "",
-              "width": "50",
-              "height": 600,
-              "text_size": 100,
-              "text_align": "vertical-bottom horizontal-center",
-              "focal_point": "bottom",
-              "color_accent": "#ffffff",
-              "boxed": false,
-              "framed": false
-            }
           }
         },
         "block_order": [
+          "d17de3f9-4b74-4609-ae62-1d8646e6d6a8",
           "370735d6-5393-441e-9741-006508fa2b76",
-          "ca8bd397-bd39-49ef-a5aa-d911e692bc8e",
-          "d17de3f9-4b74-4609-ae62-1d8646e6d6a8"
+          "ca8bd397-bd39-49ef-a5aa-d911e692bc8e"
         ],
         "settings": {
           "full_width": true,
