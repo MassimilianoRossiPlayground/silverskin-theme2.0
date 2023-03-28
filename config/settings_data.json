@@ -168,7 +168,7 @@
           "1524768779513"
         ],
         "settings": {
-          "main_menu_link_list": "header",
+          "main_menu_link_list": "main-menu",
           "mega_menu_images": true,
           "main_menu_alignment": "left-center",
           "header_style": "sticky",
@@ -197,7 +197,7 @@
             "settings": {
               "show_footer_title": true,
               "title": "Silverskin Srl",
-              "text": "<p>Strada Padana Superiore 2\/B 20063<\/p><p>Cernusco sul Naviglio (MI)<\/p><p>Tel<a href=\"tel:+390240707942\" title=\"tel:+390240707942\">. +39 02 40707942<\/a><\/p><p>Mail: <a href=\"mailto:support@silverskin.it\" target=\"_blank\" title=\"mailto:support@silverskin.it\">support@silverskin.it<\/a><\/p><p>VAT: 10968490960<\/p><p>Prodotto brevettato<\/p><p>Made in Italy<\/p>",
+              "text": "<p>Strada Padana Superiore 2\/B 20063<\/p><p>Cernusco sul Naviglio (MI)<\/p><p>Tel<a href=\"tel:+390240707942\" title=\"tel:+390240707942\">. +39 02 40707942<\/a><\/p><p>Mail: <a href=\"mailto:support@silverskin.it\" target=\"_blank\" title=\"mailto:support@silverskin.it\">support@silverskin.it<\/a><\/p><p>VAT: 10968490960<\/p><p>Made in Italy<\/p>",
               "container_width": 24
             }
           },
@@ -205,7 +205,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": false,
-              "menu": "",
+              "menu": "terms",
               "container_width": 15
             }
           },
@@ -221,7 +221,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "",
+              "menu": "donna",
               "container_width": 15
             }
           },
@@ -833,7 +833,7 @@
           "row_2_col_2_sup": "SILVERSKIN",
           "row_2_col_2_title": "COSA FACCIAMO",
           "row_2_col_2_text1": "Produciamo base layer in fibra d'argento capaci di adattarsi alle esigenze del tuo corpo.",
-          "row_2_col_2_text2": "I nostri prodotti, infatti, sono capaci di sfruttare le proprietà termoregolatrici dell'argento. <strong>Quindi, che tu ti stia allenando nel freddo estremo o nel caldo torrido, i nostri base layer ti permettono di avere sempre temperatura costante e corpo asciutto.<\/strong><br><br>Utilizzando la nostra tecnologia brevettata, progettiamo prodotti innovativi con il tuo benessere in mente.<br><br>La presenza di argento nel nostro tessuto stimola la muscolatura per aiutarti a scongiurare gli infortuni. E la tecnologia di produzione 3D permette di confezionare capi privi di cuciture, per un'ampia libertà di movimento.<br><br>Leggeri, elastici e comodi, i nostri base layer ti daranno la sensazione di una seconda pelle addosso. Progettiamo i nostri prodotti per aiutarti a preservare la tua energia. Perché la tua forza è preziosa.",
+          "row_2_col_2_text2": "I nostri prodotti, infatti, sono capaci di sfruttare le proprietà termoregolatrici dell'argento. <strong>Quindi, che tu ti stia allenando nel freddo estremo o nel caldo torrido, i nostri base layer ti permettono di avere sempre temperatura costante e corpo asciutto.<\/strong><br><br>La presenza di argento nel nostro tessuto stimola la muscolatura per aiutarti a scongiurare gli infortuni. E la tecnologia di produzione 3D permette di confezionare capi privi di cuciture, per un'ampia libertà di movimento.<br><br>Leggeri, elastici e comodi, i nostri base layer ti daranno la sensazione di una seconda pelle addosso. Progettiamo i nostri prodotti per aiutarti a preservare la tua energia. Perché la tua forza è preziosa.",
           "cta_text": "SCOPRI LA TECNOLOGIA",
           "cta_link": "\/pages\/technology\/"
         }
@@ -1094,7 +1094,7 @@
             "settings": {
               "slide_image": "shopify:\/\/shop_images\/testimonial-01_2x_13838195-3519-45ed-88ed-e375c9a631e2.png",
               "slide_cit": "“Una maglia estremamente elastica, che segue ogni movimento. Ti avvolge senza comprimere ed è talmente comoda che spesso mi dimentico di averla addosso.”",
-              "slide_subtitle": "- Alessio Zambon - Ultra trailer professionista"
+              "slide_subtitle": "Alessio Zambon - Ultra trailer professionista"
             }
           },
           "dc096421-5e71-4a0e-b6db-8b5ee487b74e": {
@@ -1102,7 +1102,7 @@
             "settings": {
               "slide_image": "shopify:\/\/shop_images\/testimonial-03_2x_b6a1c59f-e321-46bf-ae19-32754795fad2.png",
               "slide_cit": "“Un base layer versatile capace di proteggerti dai cambi repentini di temperatura, tenendoti sempre asciutto. Non lo toglierei mai!”",
-              "slide_subtitle": "- Stefano La Mastra - ciclista"
+              "slide_subtitle": "Stefano La Mastra - ciclista"
             }
           },
           "2c77e39b-61e7-4a04-b15f-0f36846662ff": {
@@ -1110,7 +1110,7 @@
             "settings": {
               "slide_image": "shopify:\/\/shop_images\/testimonial-02_2x_d25b400c-b294-454f-9ff0-39f9c148fd10.png",
               "slide_cit": "“Essenziale! La utilizzo sempre e da sempre. Quando partecipo a corse come la Atlas race, lo indosso per una settimana intera senza che si sentano cattivi odori o che il tessuto perda elasticità a causa del sudore.”",
-              "slide_subtitle": "Nico Valsesia - ultra-biker"
+              "slide_subtitle": "Nico Valsesia - Ultra-biker"
             }
           },
           "be216c11-202b-4cd3-a3ef-9028d3f0914e": {
@@ -1126,7 +1126,7 @@
             "settings": {
               "slide_image": "shopify:\/\/shop_images\/test-02.png",
               "slide_cit": "“Una vera seconda pelle, perfettamente sintonizzata con il corpo e i suoi movimenti, anche i più esasperati, per ottenere condizioni di comfort totali durante le attività più intense [...] Una vera sorpresa!”",
-              "slide_subtitle": "-Alfredo Tradati - Giornalista, ex allenatore e coach di sciatori della nazionale"
+              "slide_subtitle": "Alfredo Tradati - Giornalista, ex allenatore e coach di sciatori della nazionale"
             }
           },
           "9d301094-02b9-49b1-9e2d-8d8a0880e844": {
