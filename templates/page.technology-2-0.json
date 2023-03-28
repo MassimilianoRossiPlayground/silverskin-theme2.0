@@ -80,27 +80,65 @@
       "blocks": {
         "ebb75e41-a55c-422d-aa3f-7ee4057dcbc8": {
           "type": "product_block",
+          "disabled": true,
           "settings": {
             "product_id": "stay-fresh-bike-socks-anthracite"
           }
         },
         "c394007d-5df9-4ecb-98e5-72a14e44d16d": {
           "type": "product_block",
+          "disabled": true,
           "settings": {
             "product_id": "stay-fresh-canotta-termica-anthracite"
           }
         },
         "4f328a64-57d4-4a03-8f75-9abb3447605c": {
           "type": "product_block",
+          "disabled": true,
           "settings": {
             "product_id": "base-layer-termico-manica-lunga-girocollo-anthracite"
+          }
+        },
+        "4179cf65-0be1-4392-84b3-f726961534b7": {
+          "type": "product_block",
+          "settings": {
+            "product_id": "stay-fresh-maglia-termica-manica-corta-girocollo-anthracite-1"
+          }
+        },
+        "d027ed55-4284-4ab8-a235-76282df77930": {
+          "type": "product_block",
+          "settings": {
+            "product_id": "base-layer-termico-smanicato-grigio-perla-sk005lnf"
+          }
+        },
+        "7e853273-4252-4d0c-b84a-7ae77475de12": {
+          "type": "product_block",
+          "settings": {
+            "product_id": "base-layer-termico-girocollo-manica-corta-anthracite"
+          }
+        },
+        "dd445770-34b8-40dc-aa3c-e34d7ae4557b": {
+          "type": "product_block",
+          "settings": {
+            "product_id": "copia-del-stay-fresh-canotta-termica-pearlgrey"
+          }
+        },
+        "2a2b74bb-09ab-4867-a6d2-f4aeb154e80a": {
+          "type": "product_block",
+          "settings": {
+            "product_id": "stay-fresh-endurance-run-socks-anthracite"
           }
         }
       },
       "block_order": [
         "ebb75e41-a55c-422d-aa3f-7ee4057dcbc8",
         "c394007d-5df9-4ecb-98e5-72a14e44d16d",
-        "4f328a64-57d4-4a03-8f75-9abb3447605c"
+        "4f328a64-57d4-4a03-8f75-9abb3447605c",
+        "4179cf65-0be1-4392-84b3-f726961534b7",
+        "d027ed55-4284-4ab8-a235-76282df77930",
+        "7e853273-4252-4d0c-b84a-7ae77475de12",
+        "dd445770-34b8-40dc-aa3c-e34d7ae4557b",
+        "2a2b74bb-09ab-4867-a6d2-f4aeb154e80a"
       ],
       "settings": {
         "title": "SCOPRI I NOSTRI BEST SELLER",
