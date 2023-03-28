@@ -434,6 +434,23 @@
               "focal_point": "80% 50%"
             }
           },
+          "1578064016256": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "",
+              "title": "Comfort,<br>Traspirabilità<br>e Termoregolazione",
+              "title_size": 70,
+              "subheading": "",
+              "link": "https:\/\/www.silverskin.it\/pages\/technology",
+              "link_text": "Scopri la tecnologia",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "#ffffff",
+              "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/HeroBanner-Calza-Bike_1d96f712-9699-4f40-8959-e72cb99076dc.jpg",
+              "focal_point": "80% 50%"
+            }
+          },
           "1578407199975": {
             "type": "image",
             "settings": {
@@ -484,31 +501,14 @@
               "text_align": "vertical-center horizontal-left",
               "focal_point": "center center"
             }
-          },
-          "1578064016256": {
-            "type": "image",
-            "settings": {
-              "top_subheading": "",
-              "title": "Comfort,<br>Traspirabilità<br>e Termoregolazione",
-              "title_size": 70,
-              "subheading": "",
-              "link": "https:\/\/www.silverskin.it\/pages\/technology",
-              "link_text": "Scopri la tecnologia",
-              "link_2": "",
-              "link_text_2": "",
-              "color_accent": "#ffffff",
-              "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/HeroBanner-Calza-Bike_1d96f712-9699-4f40-8959-e72cb99076dc.jpg",
-              "focal_point": "80% 50%"
-            }
           }
         },
         "block_order": [
           "a7caeca8-bcb3-41df-be58-73a7c6b13614",
+          "1578064016256",
           "1578407199975",
           "1524768368258-0",
-          "69513a8e-34b0-4ddc-b904-53cb0daa0cb9",
-          "1578064016256"
+          "69513a8e-34b0-4ddc-b904-53cb0daa0cb9"
         ],
         "settings": {
           "section_height": "100vh",
