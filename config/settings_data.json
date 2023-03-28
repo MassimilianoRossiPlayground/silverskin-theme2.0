@@ -434,23 +434,6 @@
               "focal_point": "80% 50%"
             }
           },
-          "1578064016256": {
-            "type": "image",
-            "settings": {
-              "top_subheading": "",
-              "title": "Comfort,<br>Traspirabilità<br>e Termoregolazione",
-              "title_size": 70,
-              "subheading": "",
-              "link": "https:\/\/www.silverskin.it\/pages\/technology",
-              "link_text": "Scopri la tecnologia",
-              "link_2": "",
-              "link_text_2": "",
-              "color_accent": "#ffffff",
-              "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/HeroBanner-Calza-Bike_1d96f712-9699-4f40-8959-e72cb99076dc.jpg",
-              "focal_point": "80% 50%"
-            }
-          },
           "1578407199975": {
             "type": "image",
             "settings": {
@@ -485,6 +468,23 @@
               "focal_point": "80% 50%"
             }
           },
+          "1578064016256": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "",
+              "title": "Comfort,<br>Traspirabilità<br>e Termoregolazione",
+              "title_size": 70,
+              "subheading": "",
+              "link": "https:\/\/www.silverskin.it\/pages\/technology",
+              "link_text": "Scopri la tecnologia",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "#ffffff",
+              "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/HeroBanner-Calza-Bike_1d96f712-9699-4f40-8959-e72cb99076dc.jpg",
+              "focal_point": "80% 50%"
+            }
+          },
           "69513a8e-34b0-4ddc-b904-53cb0daa0cb9": {
             "type": "image",
             "disabled": true,
@@ -505,9 +505,9 @@
         },
         "block_order": [
           "a7caeca8-bcb3-41df-be58-73a7c6b13614",
-          "1578064016256",
           "1578407199975",
           "1524768368258-0",
+          "1578064016256",
           "69513a8e-34b0-4ddc-b904-53cb0daa0cb9"
         ],
         "settings": {
@@ -1230,18 +1230,6 @@
       "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0": {
         "type": "modulo-double-slider",
         "blocks": {
-          "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0": {
-            "type": "slide",
-            "settings": {
-              "title": "<span class=\"home__specs__counter\">01.<\/span> TERMOREGOLAZIONE PERFETTA",
-              "description": "<p>L’uso dell’<strong>argento<\/strong> nella composizione del tessuto e la particolare costruzione del filato <strong>mantengono costante la tua temperatura corporea<\/strong> in ogni situazione. Il sistema di <strong>Thermo Buffering™<\/strong> permette di dissipare il calore e ridurre l’impatto dell’esterno, mantenendo la tua temperatura ideale, sempre.<\/p>",
-              "cta1text": "SCOPRI LE COLLEZIONI",
-              "cta1link": "\/pages\/collezioni",
-              "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/05-Homepage-Power-is-Precious-Traspirabilita.jpg"
-            }
-          },
           "b5d1c4bc-f714-4d74-8899-23a89aafc8c6": {
             "type": "slide",
             "settings": {
@@ -1265,12 +1253,24 @@
               "cta2link": "\/pages\/technology",
               "image": "shopify:\/\/shop_images\/03-Homepage-Power-is-Precious-Termoregolazione.jpg"
             }
+          },
+          "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0": {
+            "type": "slide",
+            "settings": {
+              "title": "<span class=\"home__specs__counter\">01.<\/span> TERMOREGOLAZIONE PERFETTA",
+              "description": "<p>L’uso dell’<strong>argento<\/strong> nella composizione del tessuto e la particolare costruzione del filato <strong>mantengono costante la tua temperatura corporea<\/strong> in ogni situazione. Il sistema di <strong>Thermo Buffering™<\/strong> permette di dissipare il calore e ridurre l’impatto dell’esterno, mantenendo la tua temperatura ideale, sempre.<\/p>",
+              "cta1text": "SCOPRI LE COLLEZIONI",
+              "cta1link": "\/pages\/collezioni",
+              "cta2text": "SCOPRI LA TECNOLOGIA",
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/05-Homepage-Power-is-Precious-Traspirabilita.jpg"
+            }
           }
         },
         "block_order": [
-          "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0",
           "b5d1c4bc-f714-4d74-8899-23a89aafc8c6",
-          "ea2eb875-5bf3-4252-b3c7-041aa58abf8e"
+          "ea2eb875-5bf3-4252-b3c7-041aa58abf8e",
+          "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0"
         ],
         "settings": {
           "title": "POWER IS PRECIOUS",
