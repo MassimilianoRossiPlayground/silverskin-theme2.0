@@ -5,12 +5,11 @@
   <div class="grid grid--uniform">
     {% for block in section.blocks %}
 
-      {% case block.settings.type %}
+      {% case block.type %}
         {% when 'banner' %}
-        <div class="grid__item {% if block.setting.half %}  medium-up--one-half{%endif%}">
-          {% include 'image-banner' with banner_image_url: block.settings.image, banner_title: block.settings.title, button_href: block.cta_link, button_title: block.cta_text %}
-        </div>
-
+          <div class="grid__item {% if block.setting.half %}  medium-up--one-half{%endif%}">
+            {% include 'image-banner' with banner_image_url: block.settings.image, banner_title: block.settings.title, button_href: block.cta_link, button_title: block.cta_text %}
+          </div>
       {% endcase %}
 
     {% endfor %}
@@ -21,7 +20,7 @@
 <h2 class="collection-man-subtitle">{{ section.settings.subtitle }}</h2>
 <div class="grid grid--uniform">
   {% for block in section.blocks %}
-    {% case block.settings.type %}
+    {% case block.type %}
       {% when 'banner_temp' %}
       <div class="grid__item {% if block.setting.half %}  medium-up--one-half{%endif%} ">
         {% include 'image-collection-banner' with banner_image_url: block.settings.image, banner_class: block.settings.class, banner_title: block.settings.title, banner_subtitle: block.settings.subtitle, button_href: block.settings.cta_link, button_title: block.settings.cta_text %}
