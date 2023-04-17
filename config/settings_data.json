@@ -1470,6 +1470,85 @@
           "title": "Uomo",
           "subtitle": "LE NOSTRE COLLEZIONI"
         }
+      },
+      "collection-woman": {
+        "type": "collection-woman",
+        "blocks": {
+          "collection-woman-0": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ss-product-banner-01-women-desk_2x_c78855b4-9453-45e8-ac4e-75bcca17b98c.jpg",
+              "title": "",
+              "cta_text": "VEDI TUTTI",
+              "cta_link": "",
+              "half": "half"
+            }
+          },
+          "collection-woman-1": {
+            "type": "banner",
+            "settings": {
+              "title": "",
+              "cta_text": "VEDI TUTTI",
+              "cta_link": "",
+              "half": "half"
+            }
+          },
+          "collection-woman-2": {
+            "type": "banner",
+            "settings": {
+              "title": "",
+              "cta_text": "VEDI TUTTI",
+              "cta_link": "",
+              "half": "half"
+            }
+          },
+          "collection-woman-3": {
+            "type": "banner_temp",
+            "settings": {
+              "title": "",
+              "subtitle": "",
+              "class": "",
+              "cta_text": "SCOPRI TUTTI I PRODOTTI",
+              "cta_link": "",
+              "half": "half"
+            }
+          },
+          "collection-woman-4": {
+            "type": "banner_temp",
+            "settings": {
+              "title": "",
+              "subtitle": "",
+              "class": "",
+              "cta_text": "SCOPRI TUTTI I PRODOTTI",
+              "cta_link": "",
+              "half": "half"
+            }
+          },
+          "collection-woman-5": {
+            "type": "banner_temp",
+            "settings": {
+              "title": "",
+              "subtitle": "",
+              "class": "",
+              "cta_text": "SCOPRI TUTTI I PRODOTTI",
+              "cta_link": "",
+              "half": "half"
+            }
+          }
+        },
+        "block_order": [
+          "collection-woman-0",
+          "collection-woman-1",
+          "collection-woman-2",
+          "collection-woman-3",
+          "collection-woman-4",
+          "collection-woman-5"
+        ],
+        "settings": {
+          "collection_name": "DONNA",
+          "title": "Donna",
+          "subtitle": "LE NOSTRE COLLEZIONI"
+        }
       }
     },
     "content_for_index": [
