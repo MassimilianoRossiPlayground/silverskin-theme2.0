@@ -1531,12 +1531,13 @@
           "collection-woman-5": {
             "type": "banner_temp",
             "settings": {
-              "title": "",
-              "subtitle": "",
-              "class": "",
+              "image": "shopify:\/\/shop_images\/ss-fresh-banner-women-desk_2x_7ac9d46d-f8b7-475f-aa41-25827a5e98e5.jpg",
+              "title": "STAY FRESH",
+              "subtitle": "DA 10° A 40°",
+              "class": "stay-fresh",
               "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "",
-              "half": "half"
+              "cta_link": "\/collections\/stay-fresh-collection\/Donna+Stay-Fresh",
+              "half": "full"
             }
           }
         },
