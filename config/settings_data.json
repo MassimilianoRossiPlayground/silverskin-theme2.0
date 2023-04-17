@@ -1416,20 +1416,22 @@
           "collection-man-woman-2": {
             "type": "banner",
             "settings": {
-              "title": "",
-              "cta_text": "",
-              "cta_link": "",
-              "half": "half"
+              "image": "shopify:\/\/shop_images\/ss-product-banner-03-men-desk_1x_2e23ea8d-7728-4a0f-993d-b78bd219f0f7.jpg",
+              "title": "ACCESSORI",
+              "cta_text": "VEDI TUTTI",
+              "cta_link": "\/collections\/accessori\/Uomo",
+              "half": "full"
             }
           },
           "collection-man-woman-3": {
             "type": "banner_temp",
             "settings": {
-              "title": "",
-              "subtitle": "",
-              "class": "",
-              "cta_text": "",
-              "cta_link": "",
+              "image": "shopify:\/\/shop_images\/ss-x-warm-banner-men-desk_2x_d9398c6f-e118-4168-99fc-b4e2ad74caf4.jpg",
+              "title": "STAY X-WARM",
+              "subtitle": "da -40° a -10°",
+              "class": "stay-xwarm",
+              "cta_text": "SCOPRI TUTTI I PRODOTTI",
+              "cta_link": "\/collections\/stay-x-warm-collection\/Uomo+Stay-X-Warm",
               "half": "half"
             }
           },
