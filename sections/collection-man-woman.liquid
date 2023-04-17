@@ -1,15 +1,3 @@
-{% if section.settings.collection_name contains "Uomo" or section.settings.collection_name contains "Man" or %}
-  {% assign uomodonna_link = "Uomo" %}
-{% else %}
-  {% assign uomodonna_link = "Donna" %}
-{% endif %}
-
-
-{% assign link = shop_locale.iso_code | append: "/collections/maglie/" | append: uomodonna_link %}
-{% assign link = shop_locale.iso_code | append: "/collections/maglie/" | append: uomodonna_link %}
-{% assign link = shop_locale.iso_code | append: "/collections/maglie/" | append: uomodonna_link %}
-
-
 <div class="collection-grid__wrapper">
   <h1 class="collection-man-title">{{ section.settings.collection_name }}</h1>
   <hr>
