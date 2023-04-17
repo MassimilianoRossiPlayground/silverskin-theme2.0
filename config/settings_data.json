@@ -1390,20 +1390,20 @@
           "enable_sort": true
         }
       },
-      "collection-woman": {
-        "type": "collection-woman",
+      "collection-man": {
+        "type": "collection-man",
         "blocks": {
-          "collection-woman-0": {
+          "collection-man-0": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-product-banner-01-women-desk_2x_c78855b4-9453-45e8-ac4e-75bcca17b98c.jpg",
+              "image": "shopify:\/\/shop_images\/ss-product-banner-01-men-desk_2x_40660827-63b2-457d-afbe-ab02b960a269.jpg",
               "title": "MAGLIE",
-              "cta_text": "VEDI TUTTE",
-              "cta_link": "\/collections\/base-layer-maglie\/Donna",
+              "cta_text": "VEDI TUTTI",
+              "cta_link": "\/collections\/base-layer-maglie\/Uomo",
               "half": "half"
             }
           },
-          "collection-woman-1": {
+          "collection-man-1": {
             "type": "banner",
             "settings": {
               "image": "shopify:\/\/shop_images\/ss-product-banner-02-women-desk_2x_efb585be-839a-43a4-80c0-3c835e2c13ef.jpg",
@@ -1413,16 +1413,17 @@
               "half": "half"
             }
           },
-          "collection-woman-2": {
+          "collection-man-2": {
             "type": "banner",
             "settings": {
-              "title": "",
+              "image": "shopify:\/\/shop_images\/ss-product-banner-03-men-desk_1x_2e23ea8d-7728-4a0f-993d-b78bd219f0f7.jpg",
+              "title": "ACCESSORI",
               "cta_text": "VEDI TUTTI",
-              "cta_link": "",
-              "half": "half"
+              "cta_link": "\/collections\/accessori\/Donna+Accessori",
+              "half": "full"
             }
           },
-          "collection-woman-3": {
+          "collection-man-3": {
             "type": "banner_temp",
             "settings": {
               "title": "",
@@ -1433,7 +1434,7 @@
               "half": "half"
             }
           },
-          "collection-woman-4": {
+          "collection-man-4": {
             "type": "banner_temp",
             "settings": {
               "title": "",
@@ -1444,7 +1445,7 @@
               "half": "half"
             }
           },
-          "collection-woman-5": {
+          "collection-man-5": {
             "type": "banner_temp",
             "settings": {
               "title": "",
@@ -1457,16 +1458,16 @@
           }
         },
         "block_order": [
-          "collection-woman-0",
-          "collection-woman-1",
-          "collection-woman-2",
-          "collection-woman-3",
-          "collection-woman-4",
-          "collection-woman-5"
+          "collection-man-0",
+          "collection-man-1",
+          "collection-man-2",
+          "collection-man-3",
+          "collection-man-4",
+          "collection-man-5"
         ],
         "settings": {
-          "collection_name": "DONNA",
-          "title": "Donna",
+          "collection_name": "UOMO",
+          "title": "Uomo",
           "subtitle": "LE NOSTRE COLLEZIONI"
         }
       }
