@@ -1380,7 +1380,6 @@
           "tags_combine": false,
           "enable_sort": true
         }
-<<<<<<< HEAD
       },
       "collection-man": {
         "type": "collection-man",
@@ -1549,8 +1548,6 @@
           "title": "SCOPRI I NOSTRI PRODOTTI",
           "subtitle": "LE NOSTRE COLLEZIONI"
         }
-=======
->>>>>>> staging
       }
     },
     "content_for_index": [
