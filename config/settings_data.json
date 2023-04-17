@@ -1519,11 +1519,12 @@
           "collection-woman-4": {
             "type": "banner_temp",
             "settings": {
-              "title": "",
-              "subtitle": "",
-              "class": "",
+              "image": "shopify:\/\/shop_images\/ss-warm-banner-women-desk_2x_6782c2b7-7737-4336-86ed-aa572fa31677.jpg",
+              "title": "STAY WARM",
+              "subtitle": "DA -20° A 10°",
+              "class": "stay-warm",
               "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "",
+              "cta_link": "\/collections\/stay-warm-collection\/Donna+Stay-Warm",
               "half": "half"
             }
           },
