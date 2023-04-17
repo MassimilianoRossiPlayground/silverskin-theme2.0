@@ -1406,9 +1406,10 @@
           "collection-man-woman-1": {
             "type": "banner",
             "settings": {
-              "title": "",
-              "cta_text": "",
-              "cta_link": "",
+              "image": "shopify:\/\/shop_images\/ss-product-banner-02-men-desk_2x_94593c72-5ed7-4db6-9639-3ff87386f2f9.jpg",
+              "title": "PANTALONI",
+              "cta_text": "VEDI TUTTI",
+              "cta_link": "\/collections\/base-layer-pantaloni\/Uomo",
               "half": "half"
             }
           },
