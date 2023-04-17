@@ -12,7 +12,7 @@
         "transparent_header": true,
         "herotitle": "POWER IS PRECIOUS",
         "herosubtitle": "PERFETTA TERMOREGOLAZIONE, MASSIMA PERFORMANCE",
-        "image": "shopify:\/\/shop_images\/LP_Tecnologia_HeroBanner_7a14e176-fd27-4875-a1e8-b4b2292146c2.jpg",
+        "image": "shopify:\/\/shop_images\/01-HeroBanner_23abd022-a87e-4b3a-8c1d-ff940ee3f84e.jpg",
         "cta1text": "ACQUISTA UOMO",
         "cta1link": "\/collections\/uomo",
         "cta2text": "ACQUISTA DONNA",
@@ -38,7 +38,7 @@
     "6adc4084-20a8-4634-965c-c88d75956ef0": {
       "type": "modulo-hero-video-text",
       "settings": {
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/51dacefa655b43e7b1350aee26e8d000.mp4",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9777ddcf1e604e45aa1332747af6755e.mp4",
         "background_image": "shopify:\/\/shop_images\/03-2x_9922d439-1691-4a27-a3c2-ee0c5536d241.jpg",
         "icon": "shopify:\/\/shop_images\/tech-icon-banner3_2x_b0bfb8ba-532f-4190-b92b-9636cc58ca64.png",
         "title": "TERMOREGOLAZIONE AVANZATA",
@@ -48,7 +48,7 @@
     "1a8618aa-23df-42ee-8883-21b7333b2b33": {
       "type": "modulo-hero-video-text",
       "settings": {
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/61bf3c797a3f4289a0dc7a28b1908e0e.mp4",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5aaa110311a0417f8724995bc8348aa9.mp4",
         "background_image": "shopify:\/\/shop_images\/01-2x_b0487cb4-2abe-4043-a0d2-8e2997f2d174.jpg",
         "icon": "shopify:\/\/shop_images\/tech-icon-banner1_2x_19617738-07e1-4ffb-ab05-2addd2fa7f10.png",
         "title": "TRASPIRABILITÀ ESTREMA E  TESSUTO AD ASCIUGATURA RAPIDA",
@@ -58,7 +58,7 @@
     "68a5c792-bc70-4f8e-ba99-cba5b2fd31db": {
       "type": "modulo-hero-video-text",
       "settings": {
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f6591ebf35684d87a556695e822190ed.mp4",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9c0a38929cda47b7866a9ba01bc00f0b.mp4",
         "background_image": "shopify:\/\/shop_images\/02-2x_80d7080a-7c86-4e50-abc6-0946cfd161ed.jpg",
         "icon": "shopify:\/\/shop_images\/tech-icon-banner2_2x_39fa5cc4-0abc-4751-a9e1-ac3a97e54181.png",
         "title": "ASSENZA DI CUCITURE, MASSIMA ELASTICITÀ",
@@ -80,27 +80,65 @@
       "blocks": {
         "ebb75e41-a55c-422d-aa3f-7ee4057dcbc8": {
           "type": "product_block",
+          "disabled": true,
           "settings": {
             "product_id": "stay-fresh-bike-socks-anthracite"
           }
         },
         "c394007d-5df9-4ecb-98e5-72a14e44d16d": {
           "type": "product_block",
+          "disabled": true,
           "settings": {
             "product_id": "stay-fresh-canotta-termica-anthracite"
           }
         },
         "4f328a64-57d4-4a03-8f75-9abb3447605c": {
           "type": "product_block",
+          "disabled": true,
           "settings": {
             "product_id": "base-layer-termico-manica-lunga-girocollo-anthracite"
+          }
+        },
+        "4179cf65-0be1-4392-84b3-f726961534b7": {
+          "type": "product_block",
+          "settings": {
+            "product_id": "stay-fresh-maglia-termica-manica-corta-girocollo-anthracite-1"
+          }
+        },
+        "d027ed55-4284-4ab8-a235-76282df77930": {
+          "type": "product_block",
+          "settings": {
+            "product_id": "base-layer-termico-smanicato-grigio-perla-sk005lnf"
+          }
+        },
+        "7e853273-4252-4d0c-b84a-7ae77475de12": {
+          "type": "product_block",
+          "settings": {
+            "product_id": "base-layer-termico-girocollo-manica-corta-anthracite"
+          }
+        },
+        "dd445770-34b8-40dc-aa3c-e34d7ae4557b": {
+          "type": "product_block",
+          "settings": {
+            "product_id": "copia-del-stay-fresh-maglia-termica-manica-corta-collo-a-v-pearlgrey"
+          }
+        },
+        "2a2b74bb-09ab-4867-a6d2-f4aeb154e80a": {
+          "type": "product_block",
+          "settings": {
+            "product_id": "stay-fresh-endurance-run-socks-anthracite"
           }
         }
       },
       "block_order": [
         "ebb75e41-a55c-422d-aa3f-7ee4057dcbc8",
         "c394007d-5df9-4ecb-98e5-72a14e44d16d",
-        "4f328a64-57d4-4a03-8f75-9abb3447605c"
+        "4f328a64-57d4-4a03-8f75-9abb3447605c",
+        "4179cf65-0be1-4392-84b3-f726961534b7",
+        "d027ed55-4284-4ab8-a235-76282df77930",
+        "7e853273-4252-4d0c-b84a-7ae77475de12",
+        "dd445770-34b8-40dc-aa3c-e34d7ae4557b",
+        "2a2b74bb-09ab-4867-a6d2-f4aeb154e80a"
       ],
       "settings": {
         "title": "SCOPRI I NOSTRI BEST SELLER",

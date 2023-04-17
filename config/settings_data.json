@@ -418,6 +418,7 @@
         "blocks": {
           "a7caeca8-bcb3-41df-be58-73a7c6b13614": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "top_subheading": "",
               "title": "Goditi il freddo",
@@ -430,6 +431,23 @@
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
               "image": "shopify:\/\/shop_images\/silverskin-snow-hero-desk_8e36197f-7bc0-40f6-a0d7-5f6fcd494ee4.jpg",
+              "focal_point": "80% 50%"
+            }
+          },
+          "1524768368258-0": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "",
+              "title": "Il base layer<br>dello sport",
+              "title_size": 70,
+              "subheading": "",
+              "link": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Uomo+Stay-Fresh",
+              "link_text": "Stay Fresh - Uomo",
+              "link_2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna+Stay-Fresh",
+              "link_text_2": "Stay Fresh - Donna",
+              "color_accent": "#ffffff",
+              "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/HeroBanner-BiciStrada_30c7702e-7d04-45c1-b984-c289734c9ea7.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -446,24 +464,24 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/HeroBanner_4f850d93-347f-4446-88b0-4f21b55196f6.jpg",
+              "image": "shopify:\/\/shop_images\/02-Homepage-Hero-Banner-Temperatura.jpg",
               "focal_point": "center center"
             }
           },
-          "1524768368258-0": {
+          "1578064016256": {
             "type": "image",
             "settings": {
               "top_subheading": "",
-              "title": "Il base layer<br>dello sport",
+              "title": "Comfort,<br>Traspirabilità<br>e Termoregolazione",
               "title_size": 70,
               "subheading": "",
-              "link": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Uomo",
-              "link_text": "Stay Warm - Uomo",
-              "link_2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna",
-              "link_text_2": "Stay Warm - Donna",
+              "link": "https:\/\/www.silverskin.it\/pages\/technology",
+              "link_text": "Scopri la tecnologia",
+              "link_2": "",
+              "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/01-Stay-Warm-V5.jpg",
+              "image": "shopify:\/\/shop_images\/HeroBanner-Calza-Bike_1d96f712-9699-4f40-8959-e72cb99076dc.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -483,31 +501,14 @@
               "text_align": "vertical-center horizontal-left",
               "focal_point": "center center"
             }
-          },
-          "1578064016256": {
-            "type": "image",
-            "settings": {
-              "top_subheading": "",
-              "title": "Comfort,<br>Traspirabilità<br>e Termoregolazione",
-              "title_size": 70,
-              "subheading": "",
-              "link": "https:\/\/www.silverskin.it\/pages\/technology",
-              "link_text": "Scopri la tecnologia",
-              "link_2": "",
-              "link_text_2": "",
-              "color_accent": "#ffffff",
-              "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/05-Banner.jpg",
-              "focal_point": "80% 50%"
-            }
           }
         },
         "block_order": [
           "a7caeca8-bcb3-41df-be58-73a7c6b13614",
-          "1578407199975",
           "1524768368258-0",
-          "69513a8e-34b0-4ddc-b904-53cb0daa0cb9",
-          "1578064016256"
+          "1578407199975",
+          "1578064016256",
+          "69513a8e-34b0-4ddc-b904-53cb0daa0cb9"
         ],
         "settings": {
           "section_height": "100vh",
@@ -726,6 +727,30 @@
       "16057820817ca1b14f": {
         "type": "promo-grid",
         "blocks": {
+          "d17de3f9-4b74-4609-ae62-1d8646e6d6a8": {
+            "type": "advanced",
+            "settings": {
+              "subheading": "DA 10° A 40°",
+              "heading": "STAY FRESH",
+              "textarea": "Mantiene la tua temperatura corporea durante attività ad alta intensità o quando fa caldo.<br> <a href=\"\/pages\/collezioni#section-fresh-collection\">Scopri di più.<\/a>",
+              "cta_text1": "Acquista Uomo",
+              "cta_text1_color": "",
+              "cta_link1": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Uomo",
+              "cta_text2": "Acquista Donna",
+              "cta_text2_color": "",
+              "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
+              "image": "shopify:\/\/shop_images\/08-Homepage-Banner-Collezione-Stay-Fresh.jpg",
+              "video_url": "",
+              "width": "100",
+              "height": 480,
+              "text_size": 100,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "center",
+              "color_accent": "#ffffff",
+              "boxed": false,
+              "framed": false
+            }
+          },
           "370735d6-5393-441e-9741-006508fa2b76": {
             "type": "advanced",
             "settings": {
@@ -738,12 +763,12 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/Stay_Warm_Collection.jpg",
+              "image": "shopify:\/\/shop_images\/hp-banner-warm-desk_f479220a-cf5a-4dca-be01-b5dec608a761.jpg",
               "video_url": "",
-              "width": "100",
+              "width": "50",
               "height": 500,
               "text_size": 100,
-              "text_align": "vertical-center horizontal-center",
+              "text_align": "vertical-bottom horizontal-center",
               "focal_point": "center",
               "color_accent": "#ffffff",
               "boxed": false,
@@ -773,36 +798,12 @@
               "boxed": false,
               "framed": false
             }
-          },
-          "d17de3f9-4b74-4609-ae62-1d8646e6d6a8": {
-            "type": "advanced",
-            "settings": {
-              "subheading": "DA 10° A 40°",
-              "heading": "STAY FRESH",
-              "textarea": "Mantiene la tua temperatura corporea durante attività ad alta intensità o quando fa caldo.<br> <a href=\"\/pages\/collezioni#section-fresh-collection\">Scopri di più.<\/a>",
-              "cta_text1": "Acquista Uomo",
-              "cta_text1_color": "",
-              "cta_link1": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Uomo",
-              "cta_text2": "Acquista Donna",
-              "cta_text2_color": "",
-              "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/Stay_Fresh_Collection.jpg",
-              "video_url": "",
-              "width": "50",
-              "height": 600,
-              "text_size": 100,
-              "text_align": "vertical-bottom horizontal-center",
-              "focal_point": "bottom",
-              "color_accent": "#ffffff",
-              "boxed": false,
-              "framed": false
-            }
           }
         },
         "block_order": [
+          "d17de3f9-4b74-4609-ae62-1d8646e6d6a8",
           "370735d6-5393-441e-9741-006508fa2b76",
-          "ca8bd397-bd39-49ef-a5aa-d911e692bc8e",
-          "d17de3f9-4b74-4609-ae62-1d8646e6d6a8"
+          "ca8bd397-bd39-49ef-a5aa-d911e692bc8e"
         ],
         "settings": {
           "full_width": true,
@@ -1151,6 +1152,7 @@
       },
       "1586f3e6-8b23-4c14-b513-ab776b94b9fe": {
         "type": "promo-grid",
+        "disabled": true,
         "blocks": {
           "33f3ed3b-c9cc-47b9-96c3-3740592d939f": {
             "type": "advanced",
@@ -1202,7 +1204,7 @@
               "cta_text2": "",
               "cta_text2_color": "",
               "cta_link2": "",
-              "image": "shopify:\/\/shop_images\/hp-activity-banner_2x_9d477e7d-bae7-4c10-bec4-fc15a2117cd5.jpg",
+              "image": "shopify:\/\/shop_images\/06-Homepage-Banner-I-nostri-layer-in-azione.jpg",
               "video_url": "",
               "width": "100",
               "height": 800,
@@ -1228,47 +1230,47 @@
       "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0": {
         "type": "modulo-double-slider",
         "blocks": {
-          "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0": {
-            "type": "slide",
-            "settings": {
-              "title": "<span class=\"home__specs__counter\">01.<\/span> TERMOREGOLAZIONE PERFETTA",
-              "description": "<p>L’uso dell’<strong>argento<\/strong> nella composizione del tessuto e la particolare costruzione del filato <strong>mantengono costante la tua temperatura corporea<\/strong> in ogni situazione. Il sistema di <strong>Thermo Buffering™<\/strong> permette di dissipare il calore e ridurre l’impatto dell’esterno, mantenendo la tua temperatura ideale, sempre.<\/p>",
-              "cta1text": "SCOPRI LE COLLEZIONI",
-              "cta1link": "\/pages\/collezioni",
-              "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/Termoregolazione_perfetta_f58f2796-9718-4700-b5f7-684d3016a1e3.jpg"
-            }
-          },
           "b5d1c4bc-f714-4d74-8899-23a89aafc8c6": {
             "type": "slide",
             "settings": {
-              "title": "<span class=\"home__specs__counter\">02.<\/span> PELLE SEMPRE ASCIUTTA",
+              "title": "<span class=\"home__specs__counter\">01.<\/span> PELLE SEMPRE ASCIUTTA",
               "description": "<p>Il sudore è espulso all’esterno e la <strong>pelle resta asciutta<\/strong>. Il filato d’argento contrasta la diffusione di batteri, tenendoti <strong>fresco e senza odori<\/strong>, anche durante performance ad alta intensità.<\/p>",
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
               "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/Pelle_sempre_asciutta_8b3e96a1-5fab-4d31-97ed-9aad722e9dbf.jpg"
+              "image": "shopify:\/\/shop_images\/04-Homepage-Power-is-Precious-Temperatura-costante.jpg"
             }
           },
           "ea2eb875-5bf3-4252-b3c7-041aa58abf8e": {
             "type": "slide",
             "settings": {
-              "title": "<span class=\"home__specs__counter\">03.<\/span> TRASPIRABILITÀ E COMODITÀ DI LIVELLO SUPERIORE",
+              "title": "<span class=\"home__specs__counter\">02.<\/span> TRASPIRABILITÀ E COMODITÀ DI LIVELLO SUPERIORE",
               "description": "<p>La tua passione merita il massimo della <strong>comodità<\/strong>. Per questo abbiamo eliminato ogni cucitura. La speciale composizione del <strong>filato<\/strong> e la <strong>lavorazione 3D<\/strong> garantiscono <strong>eccezionale traspirabilità e morbidezza<\/strong>, oltre a un’elasticità che non comprime e <strong>si adatta alla perfezione al movimento naturale del tuo corpo<\/strong>.<\/p>",
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
               "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/Traspirabilita_e_comodita_di_livello_superiore_578b1bb5-995f-47c9-9ad9-d9765d77f7c5.jpg"
+              "image": "shopify:\/\/shop_images\/03-Homepage-Power-is-Precious-Termoregolazione.jpg"
+            }
+          },
+          "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0": {
+            "type": "slide",
+            "settings": {
+              "title": "<span class=\"home__specs__counter\">03.<\/span> TERMOREGOLAZIONE PERFETTA",
+              "description": "<p>L’uso dell’<strong>argento<\/strong> nella composizione del tessuto e la particolare costruzione del filato <strong>mantengono costante la tua temperatura corporea<\/strong> in ogni situazione. Il sistema di <strong>Thermo Buffering™<\/strong> permette di dissipare il calore e ridurre l’impatto dell’esterno, mantenendo la tua temperatura ideale, sempre.<\/p>",
+              "cta1text": "SCOPRI LE COLLEZIONI",
+              "cta1link": "\/pages\/collezioni",
+              "cta2text": "SCOPRI LA TECNOLOGIA",
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/05-Homepage-Power-is-Precious-Traspirabilita.jpg"
             }
           }
         },
         "block_order": [
-          "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0",
           "b5d1c4bc-f714-4d74-8899-23a89aafc8c6",
-          "ea2eb875-5bf3-4252-b3c7-041aa58abf8e"
+          "ea2eb875-5bf3-4252-b3c7-041aa58abf8e",
+          "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0"
         ],
         "settings": {
           "title": "POWER IS PRECIOUS",
