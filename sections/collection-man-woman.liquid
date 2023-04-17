@@ -5,13 +5,13 @@
   <div class="grid grid--uniform">
     <div class="grid__item medium-up--one-half">
 
-      {% include 'image-banner' with banner_image_url: section.blocks[0].settings.image, banner_title: 'MAGLIE', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTTE' %}
+      {% include 'image-banner' with banner_image_url: section.blocks[0].settings.image, banner_title: 'MAGLIE', button_href: '{{shop_locale.iso_code}}/collections/maglie/Uomo', button_title: 'VEDI TUTTE' %}
     </div>
     <div class="grid__item medium-up--one-half">
-      {% include 'image-banner' with banner_image_url: section.blocks[1].settings.image, banner_title: 'PANTALONI', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTTI' %}
+      {% include 'image-banner' with banner_image_url: section.blocks[1].settings.image, banner_title: 'PANTALONI', button_href: '/collections/pantaloni/Uomo', button_title: 'VEDI TUTTI' %}
     </div>
     <div class="grid__item">
-      {% include 'image-banner' with banner_image_url: section.blocks[2].settings.image, banner_title: 'ACCESSORI', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTT I I PRODOTTI' %}
+      {% include 'image-banner' with banner_image_url: section.blocks[2].settings.image, banner_title: 'ACCESSORI', button_href: '/collections/accessori/Uomo', button_title: 'VEDI TUTT I I PRODOTTI' %}
     </div>
   </div>
 </div>
