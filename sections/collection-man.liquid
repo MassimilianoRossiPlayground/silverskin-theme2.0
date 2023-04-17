@@ -32,22 +32,25 @@
 
 {% schema %}
   {
-    "name": "Collection uomo-donna",
+    "name": "Collection uomo",
     "limit": 1,
     "max_blocks": 7,
     "settings": [
       {
         "type": "text",
         "id": "collection_name",
-        "label": "Nome Collezione"
+        "label": "Nome Collezione",
+        "defaul": "UOMO"
       }, {
         "type": "text",
         "id": "title",
-        "label": "Titolo"
+        "label": "Titolo",
+        "defaul": "I NOSTRI PRODOTTI"
       }, {
         "type": "text",
         "id": "subtitle",
-        "label": "Sottotitolo"
+        "label": "Sottotitolo",
+        "defaul": "LE NOSTRE COLLEZIONI"
       }
     ],
     "blocks": [
@@ -68,7 +71,8 @@
           {
             "id": "cta_text",
             "label": "Cta text",
-            "type": "text"
+            "type": "text",
+            "defaul": "VEDI TUTTI"
           },
           {
             "id": "cta_link",
@@ -116,7 +120,8 @@
           }, {
             "id": "cta_text",
             "label": "Cta text",
-            "type": "text"
+            "type": "text",
+            "defaul": "SCOPRI TUTTI I PRODOTTI"
           }, {
             "id": "cta_link",
             "label": "Link banner",

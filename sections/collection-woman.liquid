@@ -1,51 +1,56 @@
 <div class="collection-grid__wrapper">
-  <h1 class="collection-man-title">Donna</h1>
+  <h1 class="collection-man-title">{{ section.settings.collection_name }}</h1>
   <hr>
   <h2 class="collection-man-subtitle">{{ section.settings.title }}</h2>
   <div class="grid grid--uniform">
-    <div class="grid__item medium-up--one-half">
+    {% for block in section.blocks %}
 
-      {% include 'image-banner' with banner_image_url: section.blocks[0].settings.image, banner_title: 'MAGLIE', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTTE' %}
-    </div>
-    <div class="grid__item medium-up--one-half">
-      {% include 'image-banner' with banner_image_url: section.blocks[1].settings.image, banner_title: 'PANTALONI', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTTI' %}
-    </div>
-    <div class="grid__item">
-      {% include 'image-banner' with banner_image_url: section.blocks[2].settings.image, banner_title: 'ACCESSORI', button_href: '/collections/maglie/Uomo', button_title: 'VEDI TUTT I I PRODOTTI' %}
-    </div>
+      {% case block.type %}
+        {% when 'banner' %}
+          <div class="grid__item {% if block.settings.half == 'half' %}  medium-up--one-half{%endif%}">
+            {% include 'image-banner' with banner_image_url: block.settings.image, banner_title: block.settings.title, button_href: block.settings.cta_link, button_title: block.settings.cta_text %}
+          </div>
+      {% endcase %}
+
+    {% endfor %}
+
   </div>
 </div>
 
 <h2 class="collection-man-subtitle">{{ section.settings.subtitle }}</h2>
 <div class="grid grid--uniform">
-  <div class="grid__item medium-up--one-half ">
-    {% include 'image-collection-banner' with banner_image_url: section.blocks[3].settings.image, banner_class: 'stay-xwarm', banner_title: 'STAY X-WARM', banner_subtitle: 'DA -20° A 20°', button_href: '/collections/stay-x-warm/Uomo+Stay-X-Warm', button_title: 'Scopri tutti i prodotti' %}
-  </div>
-  <div class="grid__item medium-up--one-half ">
-    {% include 'image-collection-banner' with banner_image_url: section.blocks[4].settings.image, banner_class: 'stay-warm', banner_title: 'STAY WARM', banner_subtitle: 'DA -20° A 20°', button_href: '/collections/stay-warm/Uomo+Stay-Warm', button_title: 'Scopri tutti i prodotti' %}
-  </div>
-  <!--<div class="grid__item medium-up--one-half">
-  {% include 'image-collection-banner' with banner_image_url: section.blocks[5].settings.image, banner_class: 'light-warm', banner_title: 'LIGHT WARM', banner_subtitle: 'DA -20° A 20°', button_href: '/collections/stay-warm/Uomo+Stay-Warm', button_title: 'Scopri tutti i prodotti' %}
-  </div>--><div class="grid__item medium-up--one-half">
-    {% include 'image-collection-banner' with banner_image_url: section.blocks[5].settings.image, banner_class: 'stay-fresh', banner_title: 'STAY FRESH', banner_subtitle: 'DA -20° A 20°', button_href: '/collections/stay-fresh/Uomo+Stay-Fresh', button_title: 'Scopri tutti i prodotti' %}
-  </div>
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'banner_temp' %}
+      <div class="grid__item {% if block.settings.half == 'half' %}  medium-up--one-half{%endif%} ">
+        {% include 'image-collection-banner' with banner_image_url: block.settings.image, banner_class: block.settings.class, banner_title: block.settings.title, banner_subtitle: block.settings.subtitle, button_href: block.settings.cta_link, button_title: block.settings.cta_text %}
+      </div>
+    {% endcase %}
+  {% endfor %}
 </div>
 
 
 {% schema %}
   {
-    "name": "Collection uomo",
+    "name": "Collection donna",
     "limit": 1,
     "max_blocks": 7,
     "settings": [
       {
         "type": "text",
+        "id": "collection_name",
+        "label": "Nome Collezione",
+        "defaul": "UOMO"
+      }, {
+        "type": "text",
         "id": "title",
-        "label": "Titolo"
+        "label": "Titolo",
+        "defaul": "I NOSTRI PRODOTTI"
       }, {
         "type": "text",
         "id": "subtitle",
-        "label": "Sottotitolo"
+        "label": "Sottotitolo",
+        "defaul": "LE NOSTRE COLLEZIONI"
       }
     ],
     "blocks": [
@@ -57,13 +62,91 @@
             "id": "image",
             "label": "Image",
             "type": "image_picker"
+          },
+          {
+            "id": "title",
+            "label": "Title",
+            "type": "text"
+          },
+          {
+            "id": "cta_text",
+            "label": "Cta text",
+            "type": "text",
+            "defaul": "VEDI TUTTI"
+          },
+          {
+            "id": "cta_link",
+            "label": "Link banner",
+            "type": "text"
+          }, {
+            "type": "select",
+            "id": "half",
+            "label": "Column large",
+            "options": [
+              {
+                "value": "half",
+                "label": "Half"
+              }, {
+                "value": "full",
+                "label": "Full"
+              }
+            ],
+            "default": "half"
+          }
+        ]
+      }, {
+        "name": "Banner Temperature",
+        "type": "banner_temp",
+        "settings": [
+          {
+            "id": "image",
+            "label": "Image",
+            "type": "image_picker"
+          },
+          {
+            "id": "title",
+            "label": "Title",
+            "type": "text"
+          },
+          {
+            "id": "subtitle",
+            "label": "Subtitle",
+            "type": "text"
+          },
+          {
+            "id": "class",
+            "label": "Classe",
+            "type": "text"
+          }, {
+            "id": "cta_text",
+            "label": "Cta text",
+            "type": "text",
+            "defaul": "SCOPRI TUTTI I PRODOTTI"
+          }, {
+            "id": "cta_link",
+            "label": "Link banner",
+            "type": "text"
+          }, {
+            "type": "select",
+            "id": "half",
+            "label": "Column large",
+            "options": [
+              {
+                "value": "half",
+                "label": "Half"
+              }, {
+                "value": "full",
+                "label": "Full"
+              }
+            ],
+            "default": "half"
           }
         ]
       }
     ],
     "default": {
       "settings": {
-        "title": "Collection uomo"
+        "title": "Donna"
       },
       "blocks": [
         {
@@ -76,11 +159,11 @@
           "type": "banner"
         },
         {
-          "type": "banner"
+          "type": "banner_temp"
         }, {
-          "type": "banner"
+          "type": "banner_temp"
         }, {
-          "type": "banner"
+          "type": "banner_temp"
         }
       ]
     }
