@@ -1487,9 +1487,10 @@
           "collection-woman-1": {
             "type": "banner",
             "settings": {
-              "title": "",
+              "image": "shopify:\/\/shop_images\/ss-product-banner-02-women-desk_2x_efb585be-839a-43a4-80c0-3c835e2c13ef.jpg",
+              "title": "PANTALONI",
               "cta_text": "VEDI TUTTI",
-              "cta_link": "",
+              "cta_link": "\/collections\/base-layer-pantaloni\/Donna",
               "half": "half"
             }
           },
