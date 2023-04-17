@@ -1426,34 +1426,37 @@
           "collection-man-3": {
             "type": "banner_temp",
             "settings": {
-              "title": "",
-              "subtitle": "",
-              "class": "",
+              "image": "shopify:\/\/shop_images\/ss-x-warm-banner-men-desk_2x_d9398c6f-e118-4168-99fc-b4e2ad74caf4.jpg",
+              "title": "STAY X-WARM",
+              "subtitle": "DA -40° A -20°",
+              "class": "stay-xwarm",
               "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "",
+              "cta_link": "\/collections\/stay-x-warm-collection\/Uomo+Stay-X-Warm",
               "half": "half"
             }
           },
           "collection-man-4": {
             "type": "banner_temp",
             "settings": {
-              "title": "",
-              "subtitle": "",
-              "class": "",
+              "image": "shopify:\/\/shop_images\/ss-warm-banner-men-desk_2x_f7a7a7d1-55bc-4a07-95cf-a8b6286a2273.jpg",
+              "title": "STAY WARM",
+              "subtitle": "DA -20° A 20°",
+              "class": "stay-warm",
               "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "",
+              "cta_link": "\/collections\/stay-warm-collection\/Uomo+Stay-Warm",
               "half": "half"
             }
           },
           "collection-man-5": {
             "type": "banner_temp",
             "settings": {
-              "title": "",
-              "subtitle": "",
-              "class": "",
+              "image": "shopify:\/\/shop_images\/ss-fresh-banner-men-desk_2x_a814bf85-49d4-49b7-9fb8-b9923da11f0b.jpg",
+              "title": "STAY FRESH",
+              "subtitle": "DA 10° A 40°",
+              "class": "stay-fresh",
               "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "",
-              "half": "half"
+              "cta_link": "SCOPRI TUTTI I PRODOTTI",
+              "half": "full"
             }
           }
         },
