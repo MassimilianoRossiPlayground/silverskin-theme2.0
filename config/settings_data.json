@@ -1390,87 +1390,82 @@
           "enable_sort": true
         }
       },
-      "collection-man-woman": {
-        "type": "collection-man-woman",
+      "collection-woman": {
+        "type": "collection-woman",
         "blocks": {
-          "collection-man-woman-0": {
+          "collection-woman-0": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-product-banner-01-men-desk_2x_40660827-63b2-457d-afbe-ab02b960a269.jpg",
+              "image": "shopify:\/\/shop_images\/ss-product-banner-01-women-desk_2x_c78855b4-9453-45e8-ac4e-75bcca17b98c.jpg",
               "title": "MAGLIE",
-              "cta_text": "VEDI TUTTI",
-              "cta_link": "\/collections\/base-layer-maglie\/Uomo",
+              "cta_text": "VEDI TUTTE",
+              "cta_link": "\/collections\/base-layer-maglie\/Donna",
               "half": "half"
             }
           },
-          "collection-man-woman-1": {
+          "collection-woman-1": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-product-banner-02-women-desk_2x_efb585be-839a-43a4-80c0-3c835e2c13ef.jpg",
-              "title": "PANTALONI",
+              "title": "",
               "cta_text": "VEDI TUTTI",
-              "cta_link": "\/collections\/base-layer-pantaloni\/Uomo",
+              "cta_link": "",
               "half": "half"
             }
           },
-          "collection-man-woman-2": {
+          "collection-woman-2": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-product-banner-03-women-desk_2x_be8af4c7-f2e4-4bc4-8e72-9837b2dcafd1.jpg",
-              "title": "ACCESSORI",
+              "title": "",
               "cta_text": "VEDI TUTTI",
-              "cta_link": "\/collections\/accessori\/Uomo",
-              "half": "full"
-            }
-          },
-          "collection-man-woman-3": {
-            "type": "banner_temp",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/ss-x-warm-banner-men-desk_2x_d9398c6f-e118-4168-99fc-b4e2ad74caf4.jpg",
-              "title": "STAY X-WARM",
-              "subtitle": "da -40° a -10°",
-              "class": "stay-xwarm",
-              "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "\/collections\/stay-x-warm-collection\/Uomo+Stay-X-Warm",
+              "cta_link": "",
               "half": "half"
             }
           },
-          "collection-man-woman-4": {
+          "collection-woman-3": {
             "type": "banner_temp",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-warm-banner-men-desk_2x_f7a7a7d1-55bc-4a07-95cf-a8b6286a2273.jpg",
-              "title": "STAY WARM",
-              "subtitle": "da -20° a 20°",
-              "class": "stay-warm",
+              "title": "",
+              "subtitle": "",
+              "class": "",
               "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "\/collections\/stay-warm-collection\/Uomo+Stay-Warm",
+              "cta_link": "",
               "half": "half"
             }
           },
-          "collection-man-woman-5": {
+          "collection-woman-4": {
             "type": "banner_temp",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-fresh-banner-men-desk_2x_a814bf85-49d4-49b7-9fb8-b9923da11f0b.jpg",
-              "title": "STAY FRESH",
-              "subtitle": "da 10° a 40°",
-              "class": "stay-fresh",
+              "title": "",
+              "subtitle": "",
+              "class": "",
               "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "\/collections\/stay-fresh-collection\/Uomo+Stay-Fresh",
-              "half": "full"
+              "cta_link": "",
+              "half": "half"
+            }
+          },
+          "collection-woman-5": {
+            "type": "banner_temp",
+            "settings": {
+              "title": "",
+              "subtitle": "",
+              "class": "",
+              "cta_text": "SCOPRI TUTTI I PRODOTTI",
+              "cta_link": "",
+              "half": "half"
             }
           }
         },
         "block_order": [
-          "collection-man-woman-0",
-          "collection-man-woman-1",
-          "collection-man-woman-2",
-          "collection-man-woman-3",
-          "collection-man-woman-4",
-          "collection-man-woman-5"
+          "collection-woman-0",
+          "collection-woman-1",
+          "collection-woman-2",
+          "collection-woman-3",
+          "collection-woman-4",
+          "collection-woman-5"
         ],
         "settings": {
-          "collection_name": "UOMO",
-          "title": "i nostri prodotti",
+          "collection_name": "DONNA",
+          "title": "Donna",
           "subtitle": "LE NOSTRE COLLEZIONI"
         }
       }
