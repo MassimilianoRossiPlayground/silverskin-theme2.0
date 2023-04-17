@@ -1450,12 +1450,13 @@
           "collection-man-woman-5": {
             "type": "banner_temp",
             "settings": {
-              "title": "",
-              "subtitle": "",
-              "class": "",
-              "cta_text": "",
-              "cta_link": "",
-              "half": "half"
+              "image": "shopify:\/\/shop_images\/ss-fresh-banner-men-desk_2x_a814bf85-49d4-49b7-9fb8-b9923da11f0b.jpg",
+              "title": "STAY FRESH",
+              "subtitle": "da 10° a 40°",
+              "class": "stay-fresh",
+              "cta_text": "SCOPRI TUTTI I PRODOTTI",
+              "cta_link": "\/collections\/stay-fresh-collection\/Uomo+Stay-Fresh",
+              "half": "full"
             }
           }
         },
