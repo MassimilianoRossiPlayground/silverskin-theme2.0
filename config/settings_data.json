@@ -168,7 +168,7 @@
           "1524768779513"
         ],
         "settings": {
-          "main_menu_link_list": "main-menu",
+          "main_menu_link_list": "header",
           "mega_menu_images": true,
           "main_menu_alignment": "left-center",
           "header_style": "sticky",
@@ -447,7 +447,6 @@
               "link_text_2": "Stay Fresh - Donna",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/HeroBanner-BiciStrada_30c7702e-7d04-45c1-b984-c289734c9ea7.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -464,7 +463,6 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/02-Homepage-Hero-Banner-Temperatura.jpg",
               "focal_point": "center center"
             }
           },
@@ -481,7 +479,6 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/HeroBanner-Calza-Bike_1d96f712-9699-4f40-8959-e72cb99076dc.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -739,7 +736,6 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/08-Homepage-Banner-Collezione-Stay-Fresh.jpg",
               "video_url": "",
               "width": "100",
               "height": 480,
@@ -763,7 +759,6 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/hp-banner-warm-desk_f479220a-cf5a-4dca-be01-b5dec608a761.jpg",
               "video_url": "",
               "width": "50",
               "height": 500,
@@ -1204,7 +1199,6 @@
               "cta_text2": "",
               "cta_text2_color": "",
               "cta_link2": "",
-              "image": "shopify:\/\/shop_images\/06-Homepage-Banner-I-nostri-layer-in-azione.jpg",
               "video_url": "",
               "width": "100",
               "height": 800,
@@ -1238,8 +1232,7 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/04-Homepage-Power-is-Precious-Temperatura-costante.jpg"
+              "cta2link": "\/pages\/technology"
             }
           },
           "ea2eb875-5bf3-4252-b3c7-041aa58abf8e": {
@@ -1250,8 +1243,7 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/03-Homepage-Power-is-Precious-Termoregolazione.jpg"
+              "cta2link": "\/pages\/technology"
             }
           },
           "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0": {
@@ -1262,8 +1254,7 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/05-Homepage-Power-is-Precious-Traspirabilita.jpg"
+              "cta2link": "\/pages\/technology"
             }
           }
         },
@@ -1388,90 +1379,6 @@
           "filter_style": "drawer",
           "tags_combine": false,
           "enable_sort": true
-        }
-      },
-      "collection-man-woman": {
-        "type": "collection-man-woman",
-        "blocks": {
-          "collection-man-woman-0": {
-            "type": "banner",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/ss-product-banner-01-men-desk_2x_40660827-63b2-457d-afbe-ab02b960a269.jpg",
-              "title": "MAGLIE",
-              "cta_text": "VEDI TUTTI",
-              "cta_link": "\/collections\/base-layer-maglie\/Uomo",
-              "half": "half"
-            }
-          },
-          "collection-man-woman-1": {
-            "type": "banner",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/ss-product-banner-02-women-desk_2x_efb585be-839a-43a4-80c0-3c835e2c13ef.jpg",
-              "title": "PANTALONI",
-              "cta_text": "VEDI TUTTI",
-              "cta_link": "\/collections\/base-layer-pantaloni\/Uomo",
-              "half": "half"
-            }
-          },
-          "collection-man-woman-2": {
-            "type": "banner",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/ss-product-banner-03-women-desk_2x_be8af4c7-f2e4-4bc4-8e72-9837b2dcafd1.jpg",
-              "title": "ACCESSORI",
-              "cta_text": "VEDI TUTTI",
-              "cta_link": "\/collections\/accessori\/Uomo",
-              "half": "full"
-            }
-          },
-          "collection-man-woman-3": {
-            "type": "banner_temp",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/ss-x-warm-banner-men-desk_2x_d9398c6f-e118-4168-99fc-b4e2ad74caf4.jpg",
-              "title": "STAY X-WARM",
-              "subtitle": "da -40° a -10°",
-              "class": "stay-xwarm",
-              "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "\/collections\/stay-x-warm-collection\/Uomo+Stay-X-Warm",
-              "half": "half"
-            }
-          },
-          "collection-man-woman-4": {
-            "type": "banner_temp",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/ss-warm-banner-men-desk_2x_f7a7a7d1-55bc-4a07-95cf-a8b6286a2273.jpg",
-              "title": "STAY WARM",
-              "subtitle": "da -20° a 20°",
-              "class": "stay-warm",
-              "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "\/collections\/stay-warm-collection\/Uomo+Stay-Warm",
-              "half": "half"
-            }
-          },
-          "collection-man-woman-5": {
-            "type": "banner_temp",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/ss-fresh-banner-men-desk_2x_a814bf85-49d4-49b7-9fb8-b9923da11f0b.jpg",
-              "title": "STAY FRESH",
-              "subtitle": "da 10° a 40°",
-              "class": "stay-fresh",
-              "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "\/collections\/stay-fresh-collection\/Uomo+Stay-Fresh",
-              "half": "full"
-            }
-          }
-        },
-        "block_order": [
-          "collection-man-woman-0",
-          "collection-man-woman-1",
-          "collection-man-woman-2",
-          "collection-man-woman-3",
-          "collection-man-woman-4",
-          "collection-man-woman-5"
-        ],
-        "settings": {
-          "collection_name": "UOMO",
-          "title": "i nostri prodotti",
-          "subtitle": "LE NOSTRE COLLEZIONI"
         }
       }
     },
