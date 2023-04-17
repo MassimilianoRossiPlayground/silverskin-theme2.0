@@ -812,18 +812,6 @@
           "space_below": false
         }
       },
-      "collection-template-man": {
-        "type": "collection-template-man",
-        "settings": {
-          "description_position": "bottom",
-          "subcollection_style": "below",
-          "subcollections_per_row": 5,
-          "enable_collection_count": true,
-          "per_row": 3,
-          "rows_per_page": 20,
-          "mobile_flush_grid": false
-        }
-      },
       "page-aboutus-template": {
         "type": "page-aboutus-template",
         "settings": {
@@ -1512,7 +1500,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/ss-x-warm-banner-women-desk_2x_fe31108c-a1cd-4d3e-a521-a8e7ff35076d.jpg",
               "title": "STAY X-WARM",
-              "subtitle": "DA -40° A -20°",
+              "subtitle": "DA -40° A -10°",
               "class": "stay-xwarm",
               "cta_text": "SCOPRI TUTTI I PRODOTTI",
               "cta_link": "\/collections\/stay-x-warm-collection\/Donna+Stay-X-Warm",
