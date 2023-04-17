@@ -1479,7 +1479,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/ss-product-banner-01-women-desk_2x_c78855b4-9453-45e8-ac4e-75bcca17b98c.jpg",
               "title": "MAGLIE",
-              "cta_text": "VEDI TUTTI",
+              "cta_text": "VEDI TUTTE",
               "cta_link": "\/collections\/base-layer-maglie\/Donna",
               "half": "half"
             }
@@ -1497,10 +1497,11 @@
           "collection-woman-2": {
             "type": "banner",
             "settings": {
-              "title": "",
+              "image": "shopify:\/\/shop_images\/ss-product-banner-03-women-desk_2x_be8af4c7-f2e4-4bc4-8e72-9837b2dcafd1.jpg",
+              "title": "ACCESSORI",
               "cta_text": "VEDI TUTTI",
-              "cta_link": "",
-              "half": "half"
+              "cta_link": "\/collections\/accessori\/Donna+Accessori",
+              "half": "full"
             }
           },
           "collection-woman-3": {
