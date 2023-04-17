@@ -1406,10 +1406,10 @@
           "collection-man-1": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-product-banner-02-women-desk_2x_efb585be-839a-43a4-80c0-3c835e2c13ef.jpg",
+              "image": "shopify:\/\/shop_images\/ss-product-banner-02-men-desk_2x_94593c72-5ed7-4db6-9639-3ff87386f2f9.jpg",
               "title": "PANTALONI",
               "cta_text": "VEDI TUTTI",
-              "cta_link": "\/collections\/base-layer-pantaloni\/Donna",
+              "cta_link": "\/collections\/base-layer-pantaloni\/Uomo",
               "half": "half"
             }
           },
@@ -1470,7 +1470,7 @@
         ],
         "settings": {
           "collection_name": "UOMO",
-          "title": "Uomo",
+          "title": "I NOSTRI PRODOTTI",
           "subtitle": "LE NOSTRE COLLEZIONI"
         }
       },
