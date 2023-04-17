@@ -1399,16 +1399,17 @@
               "image": "shopify:\/\/shop_images\/ss-product-banner-01-men-desk_2x_40660827-63b2-457d-afbe-ab02b960a269.jpg",
               "title": "MAGLIE",
               "cta_text": "VEDI TUTTI",
-              "cta_link": "\/collections\/maglie",
+              "cta_link": "\/collections\/base-layer-maglie\/Uomo",
               "half": "half"
             }
           },
           "collection-man-woman-1": {
             "type": "banner",
             "settings": {
-              "title": "",
-              "cta_text": "",
-              "cta_link": "",
+              "image": "shopify:\/\/shop_images\/ss-product-banner-02-men-desk_2x_94593c72-5ed7-4db6-9639-3ff87386f2f9.jpg",
+              "title": "PANTALONI",
+              "cta_text": "VEDI TUTTI",
+              "cta_link": "\/collections\/base-layer-pantaloni\/Uomo",
               "half": "half"
             }
           },
