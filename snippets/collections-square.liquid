@@ -1,9 +1,15 @@
+{% if current_tags contains "Uomo" %}
+  {% assign uomodonna_link = "Uomo" %}
+{% else %}
+  {% assign uomodonna_link = "Donna" %}
+{% endif %}
+
 <div class="swiper-container collection-square__container">
   <div class=" swiper-wrapper">
 
     <a
       class="collection-square xwarm {% if current_tags contains "Stay X-Warm" %}active{% endif %} swiper-slide"
-      href="/collections/stay-x-warm-collection/Stay-X-Warm"
+      href="/collections/stay-x-warm-collection/Stay-X-Warm+{{uomodonna_link}}"
       slide="1">
       <div class="collection-square__point"></div>
       <div class="collection-square__title">Stay X-Warm</div>
