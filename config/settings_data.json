@@ -1438,11 +1438,12 @@
           "collection-man-woman-4": {
             "type": "banner_temp",
             "settings": {
-              "title": "",
-              "subtitle": "",
-              "class": "",
-              "cta_text": "",
-              "cta_link": "",
+              "image": "shopify:\/\/shop_images\/ss-warm-banner-men-desk_2x_f7a7a7d1-55bc-4a07-95cf-a8b6286a2273.jpg",
+              "title": "STAY WARM",
+              "subtitle": "da -20° a 20°",
+              "class": "stay-warm",
+              "cta_text": "SCOPRI TUTTI I PRODOTTI",
+              "cta_link": "\/collections\/stay-warm-collection\/Uomo+Stay-Warm",
               "half": "half"
             }
           },
