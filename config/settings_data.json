@@ -1507,11 +1507,12 @@
           "collection-woman-3": {
             "type": "banner_temp",
             "settings": {
-              "title": "",
-              "subtitle": "",
-              "class": "",
+              "image": "shopify:\/\/shop_images\/ss-x-warm-banner-women-desk_2x_fe31108c-a1cd-4d3e-a521-a8e7ff35076d.jpg",
+              "title": "STAY X-WARM",
+              "subtitle": "DA -40° A -20°",
+              "class": "stay-xwarm",
               "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "",
+              "cta_link": "\/collections\/stay-x-warm-collection\/Donna+Stay-X-Warm",
               "half": "half"
             }
           },
