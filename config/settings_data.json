@@ -168,7 +168,7 @@
           "1524768779513"
         ],
         "settings": {
-          "main_menu_link_list": "header",
+          "main_menu_link_list": "main-menu",
           "mega_menu_images": true,
           "main_menu_alignment": "left-center",
           "header_style": "sticky",
@@ -447,6 +447,7 @@
               "link_text_2": "Stay Fresh - Donna",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/HeroBanner-BiciStrada_30c7702e-7d04-45c1-b984-c289734c9ea7.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -463,6 +464,7 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/02-Homepage-Hero-Banner-Temperatura.jpg",
               "focal_point": "center center"
             }
           },
@@ -479,6 +481,7 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/HeroBanner-Calza-Bike_1d96f712-9699-4f40-8959-e72cb99076dc.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -707,7 +710,7 @@
           "heading_font": "helvetica_n4",
           "heading_size": 20,
           "feed_width": 100,
-          "html_area": "<!-- -->"
+          "html_area": "<!--  -->"
         }
       },
       "1594645290306": {
@@ -736,6 +739,7 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
+              "image": "shopify:\/\/shop_images\/08-Homepage-Banner-Collezione-Stay-Fresh.jpg",
               "video_url": "",
               "width": "100",
               "height": 480,
@@ -759,6 +763,7 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna",
+              "image": "shopify:\/\/shop_images\/hp-banner-warm-desk_f479220a-cf5a-4dca-be01-b5dec608a761.jpg",
               "video_url": "",
               "width": "50",
               "height": 500,
@@ -1199,6 +1204,7 @@
               "cta_text2": "",
               "cta_text2_color": "",
               "cta_link2": "",
+              "image": "shopify:\/\/shop_images\/06-Homepage-Banner-I-nostri-layer-in-azione.jpg",
               "video_url": "",
               "width": "100",
               "height": 800,
@@ -1232,7 +1238,8 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology"
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/04-Homepage-Power-is-Precious-Temperatura-costante.jpg"
             }
           },
           "ea2eb875-5bf3-4252-b3c7-041aa58abf8e": {
@@ -1243,7 +1250,8 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology"
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/03-Homepage-Power-is-Precious-Termoregolazione.jpg"
             }
           },
           "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0": {
@@ -1254,7 +1262,8 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology"
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/05-Homepage-Power-is-Precious-Traspirabilita.jpg"
             }
           }
         },
@@ -1545,7 +1554,7 @@
         ],
         "settings": {
           "collection_name": "DONNA",
-          "title": "SCOPRI I NOSTRI PRODOTTI",
+          "title": "I NOSTRI PRODOTTI",
           "subtitle": "LE NOSTRE COLLEZIONI"
         }
       }
