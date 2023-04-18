@@ -205,7 +205,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": false,
-              "menu": "",
+              "menu": "terms",
               "container_width": 15
             }
           },
@@ -221,7 +221,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "",
+              "menu": "donna",
               "container_width": 15
             }
           },
@@ -1416,7 +1416,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/ss-x-warm-banner-men-desk_2x_d9398c6f-e118-4168-99fc-b4e2ad74caf4.jpg",
               "title": "STAY X-WARM",
-              "subtitle": "DA -40° A -20°",
+              "subtitle": "DA -40° A -10°",
               "class": "stay-xwarm",
               "cta_text": "SCOPRI TUTTI I PRODOTTI",
               "cta_link": "\/collections\/stay-x-warm-collection\/Uomo+Stay-X-Warm",
