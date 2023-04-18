@@ -82,20 +82,20 @@
 
    
 .activity-page__hero {
-    background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/ss-activity-hero-desk_2x_c1fb5975-7027-4035-9d70-99f513bf9b59.jpg?v=1662562523);
+    background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/09-Pagina-attivita-desk-atterraggio.jpg?v=1681802647);
     background-position: top center;
 }
 .activity-page__hero[data-hero="running"] {
-    background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/ss-activity-hero-running-desk_2x_e44b9366-1929-449c-bc71-50b610182b77.png?v=1662542274);
+    background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/10-Pagina-attivita-desk-corsa.jpg?v=1681802815);
 }
 .activity-page__hero[data-hero="cycling"] {
-    background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/ss-activity-hero-cycling-desk_1x_c36ffcbe-a315-420c-b086-2abfc04238bb.jpg?v=1662542276 );
+    background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/11-Pagina-attivita-desk-bici.jpg?v=1681802867);
 }
 .activity-page__hero[data-hero="snowsport"] {
     background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/ss-activity-hero-snow-desk_1x_bda2f9c0-49d1-40df-b20d-b097fb290273.jpg?v=1662542277);
 }
 .activity-page__hero[data-hero="mountaineering"] {
-    background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/ss-activity-hero-mountaineering-desk_1x_5255cf79-f132-4924-a4f3-038253cdf316.jpg?v=1662542276);
+    background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/12-Pagina-attivita-desk-alpinismo-ste-poggi.jpg?v=1681803059);
 }
 
 .hero-icon{
@@ -369,7 +369,7 @@
 @media (max-width: 768px) {
 
     .activity-page__hero {
-        background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/ss-activity-hero-mob_1x_8edd9cc7-8a2a-4bef-a692-9d0a132b8927.jpg?v=1662562525);
+        background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/13-Pagina-attivita-mob-atterraggio.jpg?v=1681803057);
         height: calc(100vh -100px);
         /* height: calc(calc(var(--vh, 1vh) * 100) - 140px); */
         margin-top: -120px;
@@ -378,11 +378,11 @@
     }
 
     .activity-page__hero[data-hero="running"] {
-        background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/ss-activity-hero-running-mob_1x_a3d0b0cd-8964-49c9-8c14-4e9a03605a58.jpg?v=1662542275);
+        background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/14-Pagina-attivita-mob-corsa.jpg?v=1681803057);
     }
 
     .activity-page__hero[data-hero="cycling"] {
-        background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/ss-activity-hero-cycling-mob_1x_8cfc26e0-52dd-487d-a921-238cb8a816d8.jpg?v=1662542275);
+        background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/15-Pagina-attivita-mob-bici.jpg?v=1681803057);
     }
 
     .activity-page__hero[data-hero="snowsport"] {
@@ -390,7 +390,7 @@
     }
 
     .activity-page__hero[data-hero="mountaineering"] {
-        background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/ss-activity-hero-mountaineering-mob_1x_1153c9c6-7a3b-4ca5-8309-d4d9b585a1fc.jpg?v=1662542273);
+        background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/16-Pagina-attivita-mob-alpinismo-ste-poggi.jpg?v=1681803057);
     }
 
 
