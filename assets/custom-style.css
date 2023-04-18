@@ -543,7 +543,7 @@ a.mobile-nav__link{
     position: relative;
 }
 
-#Sublinklist-collections-uomo2-pages-collezioni2 .mobile-nav__link::after,#Sublinklist-collections-donna3-collections2 .mobile-nav__link::after{
+#Sublinklist-collections-uomo2-pages-collezioni2 .mobile-nav__link::after,#Sublinklist-collections-donna3-pages-collezioni2 .mobile-nav__link::after{
 
     position: absolute;
     content: '';
