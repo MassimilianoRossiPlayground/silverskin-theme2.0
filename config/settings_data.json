@@ -738,6 +738,7 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
+              "image": "shopify:\/\/shop_images\/08-Homepage-Banner-Collezione-Stay-Fresh.jpg",
               "video_url": "",
               "width": "100",
               "height": 480,
@@ -761,6 +762,7 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna",
+              "image": "shopify:\/\/shop_images\/hp-banner-warm-desk_f479220a-cf5a-4dca-be01-b5dec608a761.jpg",
               "video_url": "",
               "width": "50",
               "height": 500,
@@ -775,6 +777,7 @@
           "ca8bd397-bd39-49ef-a5aa-d911e692bc8e": {
             "type": "advanced",
             "settings": {
+              "top_image": "shopify:\/\/shop_images\/Stay_X-Warm_Collection.jpg",
               "subheading": "DA -40° A -10°",
               "heading": "STAY X-WARM",
               "textarea": "Preserva il tuo calore corporeo in condizioni climatiche estreme.<br> <a href=\"\/pages\/collezioni#section-xwarm-collection\">Scopri di più.<\/a>",
@@ -1181,6 +1184,7 @@
               "cta_text2": "",
               "cta_text2_color": "",
               "cta_link2": "",
+              "image": "shopify:\/\/shop_images\/06-Homepage-Banner-I-nostri-layer-in-azione.jpg",
               "video_url": "",
               "width": "100",
               "height": 800,
