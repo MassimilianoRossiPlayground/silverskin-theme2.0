@@ -463,6 +463,7 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/02-Homepage-Hero-Banner-Temperatura.jpg",
               "focal_point": "center center"
             }
           },
@@ -479,6 +480,7 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/HeroBanner-Calza-Bike_1d96f712-9699-4f40-8959-e72cb99076dc.jpg",
               "focal_point": "80% 50%"
             }
           },
