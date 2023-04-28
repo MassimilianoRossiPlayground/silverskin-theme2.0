@@ -205,7 +205,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": false,
-              "menu": "",
+              "menu": "footer-1",
               "container_width": 15
             }
           },
@@ -213,7 +213,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "footer",
+              "menu": "uomo",
               "container_width": 15
             }
           },
@@ -221,7 +221,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "",
+              "menu": "donna",
               "container_width": 15
             }
           },
