@@ -421,15 +421,16 @@
             "disabled": true,
             "settings": {
               "top_subheading": "",
-              "title": "Goditi il freddo",
+              "title": "Il nuovo <br>Base Layer per <br>l'alta intensità",
               "title_size": 70,
               "subheading": "And optional subtext",
               "link": "https:\/\/www.silverskin.it\/collections\/uomo",
-              "link_text": "Acquista uomo",
-              "link_2": "https:\/\/www.silverskin.it\/collections\/donna",
-              "link_text_2": "Acquista donna",
+              "link_text": "Scopri PRIMO",
+              "link_2": "",
+              "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/01-Homepage-Hero-Banner-PRIMO.jpg",
               "focal_point": "80% 50%"
             }
           },
