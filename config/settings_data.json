@@ -111,7 +111,7 @@
     "share_twitter": true,
     "share_pinterest": false,
     "homepage_social_image": "",
-    "favicon": "shopify:\/\/shop_images\/pittogramma.png",
+    "favicon": "shopify:\/\/shop_images\/LOGOTIPO_VERTICAL_BLACK.png",
     "search_enable": true,
     "search_type": "product",
     "predictive_search_enabled": true,
@@ -120,7 +120,7 @@
     "predictive_image_size": "square",
     "show_breadcrumbs": true,
     "checkout_header_image": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/logotipo_horizontal_black-01_e4191685-c878-406d-b8c7-9270d218a1d3.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Logo_Silverskin_Black_2x_fb8f61ac-110c-43cd-a199-1e9347bfed11.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "checkout_body_background_image": "",
@@ -157,7 +157,7 @@
           "1524768779513": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/logotipo_horizontal_black-01_6a44b3bf-5960-46e7-ad79-10988f188ba9.png",
+              "logo": "shopify:\/\/shop_images\/Logo_Silverskin_Black_2x_fb8f61ac-110c-43cd-a199-1e9347bfed11.png",
               "logo-inverted": "shopify:\/\/shop_images\/Logo_Silverskin_2x_52961998-425f-4ecc-ace7-238fe957e331.png",
               "desktop_logo_width": 200,
               "mobile_logo_width": 140
@@ -168,7 +168,7 @@
           "1524768779513"
         ],
         "settings": {
-          "main_menu_link_list": "main-menu",
+          "main_menu_link_list": "header",
           "mega_menu_images": true,
           "main_menu_alignment": "left-center",
           "header_style": "sticky",
@@ -205,7 +205,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": false,
-              "menu": "terms",
+              "menu": "footer-1",
               "container_width": 15
             }
           },
@@ -213,7 +213,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "footer",
+              "menu": "uomo",
               "container_width": 15
             }
           },
@@ -430,7 +430,6 @@
               "link_text_2": "Acquista donna",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/silverskin-snow-hero-desk_8e36197f-7bc0-40f6-a0d7-5f6fcd494ee4.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -778,6 +777,7 @@
           "ca8bd397-bd39-49ef-a5aa-d911e692bc8e": {
             "type": "advanced",
             "settings": {
+              "top_image": "shopify:\/\/shop_images\/Stay_X-Warm_Collection.jpg",
               "subheading": "DA -40° A -10°",
               "heading": "STAY X-WARM",
               "textarea": "Preserva il tuo calore corporeo in condizioni climatiche estreme.<br> <a href=\"\/pages\/collezioni#section-xwarm-collection\">Scopri di più.<\/a>",
@@ -787,7 +787,6 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-x-warm-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/Stay_X-Warm_Collection.jpg",
               "video_url": "",
               "width": "50",
               "height": 600,
@@ -1113,7 +1112,7 @@
           "8ee640c5-d009-4f4e-bd6c-d9604ea7ee40": {
             "type": "slide",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/test-02.png",
+              "slide_image": "shopify:\/\/shop_images\/testimonials-02_2x_ac7c7b9e-cf45-47d8-8953-20c6821e94b2.png",
               "slide_cit": "“Una vera seconda pelle, perfettamente sintonizzata con il corpo e i suoi movimenti, anche i più esasperati, per ottenere condizioni di comfort totali durante le attività più intense [...] Una vera sorpresa!”",
               "slide_subtitle": "Alfredo Tradati - Giornalista, ex allenatore e coach di sciatori della nazionale"
             }
@@ -1121,7 +1120,7 @@
           "9d301094-02b9-49b1-9e2d-8d8a0880e844": {
             "type": "slide",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/test-03.png",
+              "slide_image": "shopify:\/\/shop_images\/test-03_1.png",
               "slide_cit": "“Negli anni di carriera ho capito che lo strato a contatto con la pelle è il più importante. Con Silverskin ho risolto”",
               "slide_subtitle": "Daniele Ratto – Ciclista - Professionista dal 2010 al 2016, vincitore di tappa alla Vuelta a España"
             }
@@ -1154,7 +1153,6 @@
               "cta_text2": "",
               "cta_text2_color": "",
               "cta_link2": "",
-              "image": "shopify:\/\/shop_images\/hp-snow-banner_2x_e88451ea-6e88-4c43-8012-a36a7dcc20ae.jpg",
               "video_url": "",
               "width": "100",
               "height": 800,
