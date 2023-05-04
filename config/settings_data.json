@@ -416,23 +416,6 @@
       "1524768368258": {
         "type": "slideshow",
         "blocks": {
-          "a7caeca8-bcb3-41df-be58-73a7c6b13614": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "top_subheading": "",
-              "title": "Goditi il freddo",
-              "title_size": 70,
-              "subheading": "And optional subtext",
-              "link": "https:\/\/www.silverskin.it\/collections\/uomo",
-              "link_text": "Acquista uomo",
-              "link_2": "https:\/\/www.silverskin.it\/collections\/donna",
-              "link_text_2": "Acquista donna",
-              "color_accent": "#ffffff",
-              "text_align": "vertical-center horizontal-left",
-              "focal_point": "80% 50%"
-            }
-          },
           "1524768368258-0": {
             "type": "image",
             "settings": {
@@ -484,6 +467,23 @@
               "focal_point": "80% 50%"
             }
           },
+          "a7caeca8-bcb3-41df-be58-73a7c6b13614": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "top_subheading": "",
+              "title": "Goditi il freddo",
+              "title_size": 70,
+              "subheading": "And optional subtext",
+              "link": "https:\/\/www.silverskin.it\/collections\/uomo",
+              "link_text": "Acquista uomo",
+              "link_2": "https:\/\/www.silverskin.it\/collections\/donna",
+              "link_text_2": "Acquista donna",
+              "color_accent": "#ffffff",
+              "text_align": "vertical-center horizontal-left",
+              "focal_point": "80% 50%"
+            }
+          },
           "69513a8e-34b0-4ddc-b904-53cb0daa0cb9": {
             "type": "image",
             "disabled": true,
@@ -503,10 +503,10 @@
           }
         },
         "block_order": [
-          "a7caeca8-bcb3-41df-be58-73a7c6b13614",
           "1524768368258-0",
           "1578407199975",
           "1578064016256",
+          "a7caeca8-bcb3-41df-be58-73a7c6b13614",
           "69513a8e-34b0-4ddc-b904-53cb0daa0cb9"
         ],
         "settings": {
@@ -706,7 +706,6 @@
       "1594644909912": {
         "type": "instafeed",
         "settings": {
-          "heading_font": "helvetica_n4",
           "heading_size": 20,
           "feed_width": 100,
           "html_area": "<!--  -->"
