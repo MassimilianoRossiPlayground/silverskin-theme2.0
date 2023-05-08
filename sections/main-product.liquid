@@ -161,7 +161,7 @@
           </div>
         {% else %}
         b  
-        {{module.image.value}}
+        {{module.image.value | video_tag: image_size: '400x'}}
           {% comment %} {{ module.image | video_tag: autoplay: true, loop: true, muted: true, controls: false }} {% endcomment %}
         {% endif %}
 
