@@ -154,9 +154,17 @@
           </div>
 
         </div>
-        <div class="pdp-two-box__image">
-          <img src="{{module.image | img_url: '1400x'}}">
-        </div>
+
+        {% if module.image contains ".jpg" or module.image contains ".jpeg" or module.image contains ".png" or module.image contains ".gif" %}
+          <div class="pdp-two-box__image">
+            <img src="{{module.image | img_url: '1400x'}}">
+          </div>
+        {% else %}
+          <video width="100%" autoplay muted loop playsinline >
+            <source src="movie.mp4" type="video/mp4">
+          </video>
+        {% endif %}
+        
       </div>
 
 
