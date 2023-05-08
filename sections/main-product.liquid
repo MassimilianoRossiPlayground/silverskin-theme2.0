@@ -160,9 +160,7 @@
             <img src="{{module.image | img_url: '1400x'}}">
           </div>
         {% else %}
-          <video width="100%" autoplay muted loop playsinline >
-            <source src="{{ module.image | url }}" type="video/mp4">
-          </video>
+          {{ module.image | video_tag: autoplay: true, loop: true, muted: true, controls: false }}
         {% endif %}
 
       </div>
