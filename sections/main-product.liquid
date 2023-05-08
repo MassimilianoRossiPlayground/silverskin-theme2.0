@@ -156,11 +156,17 @@
         </div>
 
         <div class="pdp-two-box__image">
-          {% if module.image contains ".jpg" or module.image contains ".jpeg" or module.image contains ".png" or module.image contains ".gif" %}
-              <img src="{{module.image | img_url: '1400x'}}">
+          {% case module.image.value.media_type %}
+            {% when 'image' %}
+              <img src="{{module.image.value | img_url: '1400x'}}">
+            {% when 'video' %}
+              {{ module.image.value | video_tag: image_size: '100%', autoplay: true, loop: true, muted: true, controls: false }}
+          {% endcase %}
+          {% comment %} {% if module.image.value.media_type %}
+              <img src="{{module.image.value | img_url: '1400x'}}">
           {% else %}
             {{ module.image.value | video_tag: image_size: '100%', autoplay: true, loop: true, muted: true, controls: false }}
-          {% endif %}
+          {% endif %} {% endcomment %}
         </div>
 
       </div>
