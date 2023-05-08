@@ -160,8 +160,9 @@
             <img src="{{module.image | img_url: '1400x'}}">
           </div>
         {% else %}
-        {{module.image.media_type}}
-          {{ module.image | video_tag: autoplay: true, loop: true, muted: true, controls: false }}
+        a 
+        {{module.image}}
+          {% comment %} {{ module.image | video_tag: autoplay: true, loop: true, muted: true, controls: false }} {% endcomment %}
         {% endif %}
 
       </div>
