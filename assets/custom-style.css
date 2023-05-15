@@ -479,9 +479,9 @@ span.quote-icon img {
     transition: background-color 500ms linear;
     overflow: hidden;
 }
-.site-nav__dropdown-link--custom:hover{
-    background-color: black;
-    color: white;
+.site-nav__dropdown a.site-nav__dropdown-link--custom:hover{
+    background-color: #fff;
+    color: #000;
 }
 .site-nav__dropdown-link--custom:hover .category-badge{
   
