@@ -453,6 +453,7 @@ span.quote-icon img {
     font-size: 30px;
     font-weight: bold;
     font-family: "barlow-bold" !important;
+    color: #fff;
 }
 .site-nav__dropdown-link--top-level--custom::after
 {
