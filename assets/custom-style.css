@@ -461,7 +461,9 @@ span.quote-icon img {
     display: none;
 }
 
-
+.site-nav__dropdown a.site-nav__dropdown-link--custom {
+    background-color: transparent;
+}
 .site-nav__dropdown-link--custom{
     display: inline-block;
     position: relative;    
@@ -471,7 +473,6 @@ span.quote-icon img {
     min-width: 250px;
     width: 60%;
     border: 1px solid #fff;
-    background-color: transparent;
     color: #fff;
     margin-top:10px;
     text-align: center!important;
