@@ -470,7 +470,8 @@ span.quote-icon img {
     padding: 5px 20px!important;
     min-width: 250px;
     width: 60%;
-    border: 1px solid #000;
+    border: 1px solid #fff;
+    color: #fff;
     margin-top:10px;
     text-align: center!important;
     transition: background-color 500ms linear;
