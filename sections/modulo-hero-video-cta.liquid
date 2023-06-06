@@ -3,6 +3,13 @@
 {% assign video_desk = section.settings.video_desk | video_tag: image_size: 'master', autoplay: true,  loop: true, muted: true, controls: false %}
 {% assign video_mob = section.settings.video_mob | video_tag: image_size: 'master', autoplay: true,  loop: true, muted: true, controls: false %}
 
+{% if section.settings.content_position == "bottom" %}
+  {% assign content_position = "top:75%;" %}
+{% else %}
+  {% assign content_position = "top:50%;" %}
+{% endif %}
+
+
 <div class="super_container">
   <section class="hero-video-cta">
 
@@ -14,16 +21,24 @@
       {{video_mob}}
     </div>
 
-      <div class="hero-video-cta__content">
-        <h2>{{ section.settings.title }}</h2>
-        <h4>{{ section.settings.sub_title }}</h4>
-        <div class="hero-video-cta__link">                
-          <a class="btn btn-white" href="{{section.settings.cta_1_link}}" tabindex="-1">
-            {{section.settings.cta_1_text}}
-          </a>
-          <a class="btn btn-transp" href="{{section.settings.cta_2_link}}" tabindex="-1">
-            {{section.settings.cta_2_text}}
-          </a>
+      <div class="hero-video-cta__content" style="{{content_position}}">
+        {%- if section.settings.title != blank -%}
+          <h2>{{ section.settings.title }}</h2>
+        {%- endif -%}
+        {% if section.settings.sub_title != blank %}
+          <h4>{{ section.settings.sub_title }}</h4>
+        {% endif %}
+        <div class="hero-video-cta__link">     
+          {% if section.settings.cta_1_text != blank %}           
+            <a class="btn btn-white" href="{{section.settings.cta_1_link}}" tabindex="-1">
+              {{section.settings.cta_1_text}}
+            </a>
+          {% endif %}
+          {% if section.settings.cta_2_text != blank %}
+            <a class="btn btn-transp" href="{{section.settings.cta_2_link}}" tabindex="-1">
+              {{section.settings.cta_2_text}}
+            </a>
+        {% endif %}
         </div>
       </div>
       <i class="hero-video-cta-icon fas fa-chevron-down"></i>
@@ -75,6 +90,22 @@
           "type": "text",
           "id": "cta_2_link",
           "label": "CTA 2 Link"
+        },
+        {
+          "type": "select",
+          "id": "content_position",
+          "label": "Content position",
+          "options": [
+              {
+              "value": "center",
+              "label": "Center"
+              },
+              {
+              "value": "bottom",
+              "label": "Bottom"
+              }
+          ],
+          "default": "center"
         }
     ],
     "presets": [
