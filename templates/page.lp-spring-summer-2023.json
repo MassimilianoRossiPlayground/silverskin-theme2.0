@@ -68,6 +68,55 @@
         "cta_2_link": "#"
       }
     },
+    "76462d61-d1ee-488f-9601-57a0b220fdf4": {
+      "type": "modulo-slider-cards",
+      "blocks": {
+        "template--19318380790073__76462d61-d1ee-488f-9601-57a0b220fdf4-1685460711ed79a508-0": {
+          "type": "cards",
+          "settings": {
+            "title": "TERMOREGOLAZIONE",
+            "text": "Mantiene la tua temperatura costante anche nei freddi estremi",
+            "image_desk": "shopify:\/\/shop_images\/silverskin-snow-focus-thermoregulation-desk_2x_9ff84a8a-7dec-418a-baa3-4eca4f28527f.jpg",
+            "image_mob": "shopify:\/\/shop_images\/silverskin-snow-focus-thermoregulation-desk_2x_9ff84a8a-7dec-418a-baa3-4eca4f28527f.jpg"
+          }
+        },
+        "4e529420-3b47-4c6b-a851-1429b26ae7a0": {
+          "type": "cards",
+          "settings": {
+            "title": "test2",
+            "text": "test2 text",
+            "image_desk": "shopify:\/\/shop_images\/m-fresh-base-layer-maglia-corta-v-anthracite-detail-02_301f8940-7aa8-4f5f-913a-482caeb2cb78.jpg",
+            "image_mob": "shopify:\/\/shop_images\/m-fresh-base-layer-maglia-corta-v-anthracite-detail-02_301f8940-7aa8-4f5f-913a-482caeb2cb78.jpg"
+          }
+        },
+        "86b15c73-011a-4d63-8efa-3dedc3ed0cd7": {
+          "type": "cards",
+          "settings": {
+            "title": "Test3",
+            "text": "Lorem Test3",
+            "image_desk": "shopify:\/\/shop_images\/m-warm-accessori-passamontagna-anthracite-detail_5f322c04-aa02-4b5f-8770-9a076e624f1c.jpg",
+            "image_mob": "shopify:\/\/shop_images\/silverskin-snow-focus-thermoregulation-desk_2x_9ff84a8a-7dec-418a-baa3-4eca4f28527f.jpg"
+          }
+        },
+        "7683c738-c9df-4542-a5e6-6ff1e254fd2e": {
+          "type": "cards",
+          "settings": {
+            "title": "Test4",
+            "text": "Lorem ipsum",
+            "image_desk": "shopify:\/\/shop_images\/silverskin-snow-focus-thermoregulation-desk_2x_9ff84a8a-7dec-418a-baa3-4eca4f28527f.jpg",
+            "image_mob": "shopify:\/\/shop_images\/silverskin-snow-focus-thermoregulation-desk_2x_9ff84a8a-7dec-418a-baa3-4eca4f28527f.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--19318380790073__76462d61-d1ee-488f-9601-57a0b220fdf4-1685460711ed79a508-0",
+        "4e529420-3b47-4c6b-a851-1429b26ae7a0",
+        "86b15c73-011a-4d63-8efa-3dedc3ed0cd7",
+        "7683c738-c9df-4542-a5e6-6ff1e254fd2e"
+      ],
+      "settings": {
+      }
+    },
     "bfcbd342-a553-444e-92e8-e676dcfb38c2": {
       "type": "modulo-icons",
       "blocks": {
@@ -189,55 +238,6 @@
         "cta_text": "ACQUISTA"
       }
     },
-    "76462d61-d1ee-488f-9601-57a0b220fdf4": {
-      "type": "modulo-slider-cards",
-      "blocks": {
-        "template--19318380790073__76462d61-d1ee-488f-9601-57a0b220fdf4-1685460711ed79a508-0": {
-          "type": "cards",
-          "settings": {
-            "title": "test1",
-            "text": "test1 text",
-            "image_desk": "shopify:\/\/shop_images\/m-fresh-base-layer-maglia-corta-v-anthracite-front_fd000ce4-c4d1-4aa8-8a0e-19d162a2ab00.jpg",
-            "image_mob": "shopify:\/\/shop_images\/m-fresh-base-layer-maglia-corta-v-anthracite-detail-01_e0008fde-5c48-49d5-a600-d68f4f6779c7.jpg"
-          }
-        },
-        "4e529420-3b47-4c6b-a851-1429b26ae7a0": {
-          "type": "cards",
-          "settings": {
-            "title": "test2",
-            "text": "test2 text",
-            "image_desk": "shopify:\/\/shop_images\/m-fresh-base-layer-maglia-corta-v-anthracite-detail-02_301f8940-7aa8-4f5f-913a-482caeb2cb78.jpg",
-            "image_mob": "shopify:\/\/shop_images\/m-fresh-base-layer-maglia-corta-v-anthracite-detail-02_301f8940-7aa8-4f5f-913a-482caeb2cb78.jpg"
-          }
-        },
-        "86b15c73-011a-4d63-8efa-3dedc3ed0cd7": {
-          "type": "cards",
-          "settings": {
-            "title": "Test3",
-            "text": "Lorem Test3",
-            "image_desk": "shopify:\/\/shop_images\/m-warm-accessori-passamontagna-anthracite-detail_5f322c04-aa02-4b5f-8770-9a076e624f1c.jpg",
-            "image_mob": "shopify:\/\/shop_images\/silverskin-snow-focus-thermoregulation-desk_2x_9ff84a8a-7dec-418a-baa3-4eca4f28527f.jpg"
-          }
-        },
-        "7683c738-c9df-4542-a5e6-6ff1e254fd2e": {
-          "type": "cards",
-          "settings": {
-            "title": "Test4",
-            "text": "Lorem ipsum",
-            "image_desk": "shopify:\/\/shop_images\/silverskin-snow-focus-thermoregulation-desk_2x_9ff84a8a-7dec-418a-baa3-4eca4f28527f.jpg",
-            "image_mob": "shopify:\/\/shop_images\/silverskin-snow-focus-thermoregulation-desk_2x_9ff84a8a-7dec-418a-baa3-4eca4f28527f.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "template--19318380790073__76462d61-d1ee-488f-9601-57a0b220fdf4-1685460711ed79a508-0",
-        "4e529420-3b47-4c6b-a851-1429b26ae7a0",
-        "86b15c73-011a-4d63-8efa-3dedc3ed0cd7",
-        "7683c738-c9df-4542-a5e6-6ff1e254fd2e"
-      ],
-      "settings": {
-      }
-    },
     "71e8d427-731f-47eb-93ae-68681bfee61c": {
       "type": "newsletter",
       "settings": {
@@ -297,10 +297,10 @@
     "180300a6-2f84-4cda-b590-06e2f7494ce9",
     "1cf481ed-804f-43aa-99e5-b39cac39cc4b",
     "a596bdb9-73db-426d-bd29-a49764aede1b",
+    "76462d61-d1ee-488f-9601-57a0b220fdf4",
     "bfcbd342-a553-444e-92e8-e676dcfb38c2",
     "a574362f-8a39-42f2-81a2-f75aedd1819e",
     "d3308ef3-17f6-4a01-8929-ae91dab77b0d",
-    "76462d61-d1ee-488f-9601-57a0b220fdf4",
     "71e8d427-731f-47eb-93ae-68681bfee61c",
     "9c5e355f-8f8f-4476-9184-8cc4260e42a9",
     "951be7e2-cf87-4ac6-a209-39325992bea8",
