@@ -89,30 +89,30 @@
             "image_mob": "shopify:\/\/shop_images\/unnamed-1.jpg"
           }
         },
-        "86b15c73-011a-4d63-8efa-3dedc3ed0cd7": {
+        "41356f0e-49d9-4727-bf56-1d1fa9443015": {
           "type": "cards",
           "settings": {
-            "title": "Test3",
-            "text": "Lorem Test3",
-            "image_desk": "shopify:\/\/shop_images\/m-warm-accessori-passamontagna-anthracite-detail_5f322c04-aa02-4b5f-8770-9a076e624f1c.jpg",
-            "image_mob": "shopify:\/\/shop_images\/silverskin-snow-focus-thermoregulation-desk_2x_9ff84a8a-7dec-418a-baa3-4eca4f28527f.jpg"
+            "title": "Elasticità",
+            "text": "Segue ogni movimento anche minimo del corpo",
+            "image_desk": "shopify:\/\/shop_images\/unnamed-2.jpg",
+            "image_mob": "shopify:\/\/shop_images\/unnamed-2.jpg"
           }
         },
-        "7683c738-c9df-4542-a5e6-6ff1e254fd2e": {
+        "7976f967-6c65-4f99-8571-5b4b80a0a1c2": {
           "type": "cards",
           "settings": {
-            "title": "Test4",
-            "text": "Lorem ipsum",
-            "image_desk": "shopify:\/\/shop_images\/silverskin-snow-focus-thermoregulation-desk_2x_9ff84a8a-7dec-418a-baa3-4eca4f28527f.jpg",
-            "image_mob": "shopify:\/\/shop_images\/silverskin-snow-focus-thermoregulation-desk_2x_9ff84a8a-7dec-418a-baa3-4eca4f28527f.jpg"
+            "title": "Antiodore",
+            "text": "Proprietà antiodore per un uso prolungato",
+            "image_desk": "shopify:\/\/shop_images\/unnamed.jpg",
+            "image_mob": "shopify:\/\/shop_images\/unnamed.jpg"
           }
         }
       },
       "block_order": [
         "template--19318380790073__76462d61-d1ee-488f-9601-57a0b220fdf4-1685460711ed79a508-0",
         "4e529420-3b47-4c6b-a851-1429b26ae7a0",
-        "86b15c73-011a-4d63-8efa-3dedc3ed0cd7",
-        "7683c738-c9df-4542-a5e6-6ff1e254fd2e"
+        "41356f0e-49d9-4727-bf56-1d1fa9443015",
+        "7976f967-6c65-4f99-8571-5b4b80a0a1c2"
       ],
       "settings": {
       }
