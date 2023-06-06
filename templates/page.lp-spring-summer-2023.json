@@ -37,11 +37,26 @@
         "template--19421578428729__a596bdb9-73db-426d-bd29-a49764aede1b-1686056530251074cf-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/m-fresh-base-layer-maglia-corta-v-anthracite-front_fd000ce4-c4d1-4aa8-8a0e-19d162a2ab00.jpg"
+          }
+        },
+        "e2d2b7e3-761c-4371-b257-178e8f79d19d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/m-fresh-base-layer-maglia-corta-v-pearlgrey-detail-02.jpg"
+          }
+        },
+        "4cdeceb1-c28d-490e-b56b-b0763e4a172f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/m-fresh-base-layer-maglia-corta-v-pearlgrey-front_95e85a31-9e22-4d4e-a4c3-31994bf9ab82.jpg"
           }
         }
       },
       "block_order": [
-        "template--19421578428729__a596bdb9-73db-426d-bd29-a49764aede1b-1686056530251074cf-0"
+        "template--19421578428729__a596bdb9-73db-426d-bd29-a49764aede1b-1686056530251074cf-0",
+        "e2d2b7e3-761c-4371-b257-178e8f79d19d",
+        "4cdeceb1-c28d-490e-b56b-b0763e4a172f"
       ],
       "settings": {
         "sup_title": "SILVERSKIN",
