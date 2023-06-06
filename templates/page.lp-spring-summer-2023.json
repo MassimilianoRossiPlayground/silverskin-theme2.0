@@ -24,10 +24,10 @@
     "1cf481ed-804f-43aa-99e5-b39cac39cc4b": {
       "type": "modulo-text-cta",
       "settings": {
-        "title": "Title",
-        "sub_title": "sub title",
-        "text": "<p>Lorem ipsum<\/p>",
-        "cta_text": "CTA Text",
+        "title": "IN PISTA O IN VETTA, RIMANI",
+        "sub_title": "lorem ipsum dolor sit",
+        "text": "<p>lorem ipsum dolor sitlorem ipsum dolor sitlorem ipsum dolor sitlorem ipsum dolor sitlorem ipsum dolor sitlorem ipsum dolor sitlorem ipsum dolor sitlorem ipsum dolor sitlorem ipsum dolor sitlorem ipsum dolor sitlorem ipsum dolor sitlorem ipsum dolor sitlorem ipsum dolor sitlorem ipsum dolor sit<\/p>",
+        "cta_text": "SCOPRI LE COLLEZIONI",
         "cta_link": "#"
       }
     },
