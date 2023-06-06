@@ -106,13 +106,23 @@
             "image_desk": "shopify:\/\/shop_images\/unnamed.jpg",
             "image_mob": "shopify:\/\/shop_images\/unnamed.jpg"
           }
+        },
+        "9494f34d-56e6-4a78-b31b-da938f859674": {
+          "type": "cards",
+          "settings": {
+            "title": "Comfort",
+            "text": "Morbido e confortevole sulla pelle",
+            "image_desk": "shopify:\/\/shop_images\/unnamed-1_8b025f54-7c0c-44d8-a531-54cb2c5894c0.jpg",
+            "image_mob": "shopify:\/\/shop_images\/unnamed-1_8b025f54-7c0c-44d8-a531-54cb2c5894c0.jpg"
+          }
         }
       },
       "block_order": [
         "template--19318380790073__76462d61-d1ee-488f-9601-57a0b220fdf4-1685460711ed79a508-0",
         "4e529420-3b47-4c6b-a851-1429b26ae7a0",
         "41356f0e-49d9-4727-bf56-1d1fa9443015",
-        "7976f967-6c65-4f99-8571-5b4b80a0a1c2"
+        "7976f967-6c65-4f99-8571-5b4b80a0a1c2",
+        "9494f34d-56e6-4a78-b31b-da938f859674"
       ],
       "settings": {
       }
