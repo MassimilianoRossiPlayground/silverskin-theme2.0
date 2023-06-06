@@ -1,0 +1,359 @@
+<script src="{{ 'modulo-slider-box-text.js' | asset_url }}" defer="defer"></script>
+
+
+<div class="slider-box-text">
+
+    <div class="slider-box-text__images">
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+    
+                {% for block in section.blocks %}
+    
+                    {%- assign img_url = block.settings.image | img_url: 'master' -%}
+    
+                    <div class="swiper-slide">
+                        <div class="slider-image" style="background-image: url('{{img_url}}');"></div>
+                    </div>
+    
+                {% endfor %}
+    
+            </div>
+        </div>
+    
+        <div class="slider-navigation-specs">
+            <div class="swiper-button-next">
+                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-right" viewbox="0 0 284.49 498.98"><path d="M35 498.98a35 35 0 0 1-24.75-59.75l189.74-189.74L10.25 59.75a35.002 35.002 0 0 1 49.5-49.5l214.49 214.49a35 35 0 0 1 0 49.5L59.75 488.73A34.89 34.89 0 0 1 35 498.98z"></path></svg>
+            </div>
+            <div class="swiper-button-prev">
+                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-left" viewbox="0 0 284.49 498.98"><path d="M249.49 0a35 35 0 0 1 24.75 59.75L84.49 249.49l189.75 189.74a35.002 35.002 0 1 1-49.5 49.5L10.25 274.24a35 35 0 0 1 0-49.5L224.74 10.25A34.89 34.89 0 0 1 249.49 0z"></path></svg>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="slider-box-text__content">
+        <div class="slider-box-text__content__text">
+            <h5>{{ section.settings.title }}</h5>
+            <h2>{{ section.settings.title }}</h2>
+            <span class="line-copy"></span>
+            <div>{{ section.settings.description }}</div>
+            <div class="slider-box-text-ctas">
+                {% if section.settings.cta_1_text != blank %}           
+                <a class="btn btn-grey" href="{{section.settings.cta_1_link}}">
+                  {{section.settings.cta_1_text}}
+                </a>
+              {% endif %}
+              {% if section.settings.cta_2_text != blank %}
+                <a class="btn btn-grey" href="{{section.settings.cta_2_link}}">
+                  {{section.settings.cta_2_text}}
+                </a>
+              {% endif %}
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Slider Box Text",
+    "max_blocks": 99,
+    "settings": [
+        {
+            "type": "text",
+            "id": "sup_title",
+            "label": "Sup Title",
+            "default": "SILVERSKIN"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "POWER IS PRECIOUS"
+        },
+        {
+            "type": "richtext",
+            "id": "description",
+            "label": "Description",
+            "default": "<p>La tua forza è preziosa. Per questo integriamo <b>l'argento</b> nel nostro rivoluzionario intimo termico. Il risultato è una linea di prodotti <b>senza cuciture</b> che portano <b>comfort, traspirabilità e termoregolazione</b> a un livello superiore.</p>"
+        },
+        {
+            "type": "text",
+            "id": "cta_1_text",
+            "label": "CTA 1 Text"
+        },
+        {
+            "type": "text",
+            "id": "cta_1_link",
+            "label": "CTA 1 Link"
+        },
+        {
+            "type": "text",
+            "id": "cta_2_text",
+            "label": "CTA 2 Text"
+        },
+        {
+            "type": "text",
+            "id": "cta_2_link",
+            "label": "CTA 2 Link"
+        }
+    ],
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Slide",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            }
+        ]
+      }
+    ],
+    "presets": [
+        {
+            "name": "Slider Box Text",
+            "blocks": [
+                {
+                "type": "slide"
+                }
+            ]
+        }
+    ]
+  }
+{% endschema %}
+
+
+{% style %}
+
+
+.slider-box-text__images .swiper-container {
+    width: 50%;
+    height: 100%;
+}
+
+.slider-box-text__images .swiper-slide {
+    text-align: center;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.slider-box-text__images .slider-navigation-specs {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+    width: 100px;
+    transform: translateX(-100%);
+    z-index: 1;
+}
+
+.slider-box-text__images .swiper-button-next {
+    top: 0;
+    bottom: unset;
+    right: 0;
+    left: 0;
+    background: #000;
+    width: 100px;
+    height: 100px;
+    margin-top: 0;
+}
+.slider-box-text__images svg.icon.icon-chevron-right {
+    color: #fff;
+}
+
+.slider-box-text__images .swiper-button-prev {
+    top: unset;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #fff;
+    color: #000;
+    width: 100px;
+    height: 100px;
+}
+
+.slider-box-text__images .sliders-pagination-specs {
+    width: 60px;
+    height: 60px;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.slider-box-text__images .swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled {
+    opacity: 1;
+}
+
+.slider-box-text__images .swiper-button-next:after,
+.slider-box-text__images .swiper-button-prev:after {
+    display: none;
+}
+.slider-box-text__images .swiper-button-next .arrow__line {
+    height: 2px;
+    width: 15px;
+    background-color: #fff;
+    transition: width .35s, left .35s, top .35s, -webkit-transform .35s;
+    transition: width .35s, transform .35s, left .35s, top .35s;
+    transition: width .35s, transform .35s, left .35s, top .35s, -webkit-transform .35s;
+}
+
+.slider-box-text__images .swiper-button-prev .arrow__line {
+    height: 2px;
+    width: 15px;
+    background-color: #27292F;
+    transition: width .35s, left .35s, top .35s, -webkit-transform .35s;
+    transition: width .35s, transform .35s, left .35s, top .35s;
+    transition: width .35s, transform .35s, left .35s, top .35s, -webkit-transform .35s;
+}
+
+.slider-box-text__images .swiper-button-next .arrow__line {
+    left: calc(50% - 2px);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.slider-box-text__images .swiper-button-prev .arrow__line {
+    left: calc(50% + 2px);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.slider-box-text__images .arrow__line,
+.slider-box-text__images .arrow__square {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.slider-box-text__images .swiper-button-next .arrow__square {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.slider-box-text__images .swiper-button-prev .arrow__square {
+    -webkit-transform: translate(-50%, -50%) rotate(-135deg);
+    transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.slider-box-text__images .swiper-button-next .arrow__square {
+    height: 10px;
+    width: 10px;
+    border-top: 2px #fff solid;
+    border-right: 2px #fff solid;
+    transition: width .35s, left .35s, top .35s, -webkit-transform .35s;
+    transition: width .35s, transform .35s, left .35s, top .35s;
+    transition: width .35s, transform .35s, left .35s, top .35s, -webkit-transform .35s;
+}
+
+.slider-box-text__images .swiper-button-prev .arrow__square {
+    height: 10px;
+    width: 10px;
+    border-top: 2px #27292F solid;
+    border-right: 2px #27292F solid;
+    transition: width .35s, left .35s, top .35s, -webkit-transform .35s;
+    transition: width .35s, transform .35s, left .35s, top .35s;
+    transition: width .35s, transform .35s, left .35s, top .35s, -webkit-transform .35s;
+}
+
+.slider-box-text__images .swiper-button-next:hover .arrow__line {
+    width: 12px;
+    left: calc(50% - 5px);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.slider-box-text__images .swiper-button-next:hover .arrow__square {
+    left: calc(50% + 5px);
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.slider-box-text__images .swiper-button-prev:hover .arrow__line {
+    width: 15px;
+    left: calc(50% + 5px);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.slider-box-text__images .swiper-button-prev:hover .arrow__square {
+    left: calc(50% - 5px);
+    -webkit-transform: translate(-50%, -50%) rotate(-135deg);
+    transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.slider-box-text__images .slider-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.slider-box-text__images .swiper-button-next:focus,
+.slider-box-text__images .swiper-button-prev:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+{% endstyle %}
+
+
+
+{% javascript %}
+
+(function(document) {
+
+    let selectors = {
+        containerSlideImages: '.slider-box-text__images'
+    };
+  
+    let containerSlideImages = document.querySelectorAll(selectors.containerSlideImages)
+
+    window.addEventListener("load", (event) => {
+        
+        containerSlideImages.forEach((e,i) => {
+
+            containerSlideImages[i].classList.add('slider-box-text__images-' + i);
+        
+            let swiper_images = new Swiper('.slider-box-text__images-' + i + ' .swiper-container', {
+                touchRatio: 0.1,
+                fadeEffect: {
+                    crossFade: true
+                },
+                pagination: {
+                    el: '.slider-box-text__images-' + i + ' .swiper-pagination'
+                }
+            });
+    
+
+        });
+        
+
+    });
+
+    
+
+
+})(document);
+  
+
+{% endjavascript %}

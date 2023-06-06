@@ -32,6 +32,11 @@
     color: #fff;
 }
 
+.hero-video-cta__link a {
+    letter-spacing: normal;
+    min-width: 300px;
+}
+
 .hero-video-cta__content h2 {
     font-size: 70px;
 }

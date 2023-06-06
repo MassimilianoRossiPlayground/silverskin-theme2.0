@@ -16,9 +16,10 @@
     cursor: pointer;
     padding: 10px;
     border: 1px solid #fff;
-    width: 220px;
     display: block;
     font-family: "barlow-semibold";
+    font-size: 14px;
+    max-width: 300px;
 }
 
 .text-cta .text-cta__content {
@@ -39,4 +40,5 @@
     font-family: "barlow";
     font-size: 28px;
     margin-bottom: 30px;
+    letter-spacing: normal;
 }
