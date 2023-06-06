@@ -31,6 +31,28 @@
         "cta_link": "#"
       }
     },
+    "a596bdb9-73db-426d-bd29-a49764aede1b": {
+      "type": "modulo-slider-box-text",
+      "blocks": {
+        "template--19421578428729__a596bdb9-73db-426d-bd29-a49764aede1b-1686056530251074cf-0": {
+          "type": "slide",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--19421578428729__a596bdb9-73db-426d-bd29-a49764aede1b-1686056530251074cf-0"
+      ],
+      "settings": {
+        "sup_title": "SILVERSKIN",
+        "title": "STAY FRESH 2023",
+        "description": "<p>La tua forza è preziosa. Per questo integriamo <strong>l'argento<\/strong> nel nostro rivoluzionario intimo termico. Il risultato è una linea di prodotti <strong>senza cuciture<\/strong> che portano <strong>comfort, traspirabilità e termoregolazione<\/strong> a un livello superiore.<\/p>",
+        "cta_1_text": "ACQUISTA UOMO",
+        "cta_1_link": "#",
+        "cta_2_text": "ACQUISTA DONNA",
+        "cta_2_link": "#"
+      }
+    },
     "bfcbd342-a553-444e-92e8-e676dcfb38c2": {
       "type": "modulo-icons",
       "blocks": {
@@ -230,18 +252,43 @@
         "cta_text": "Contattaci",
         "cta_link": "#"
       }
+    },
+    "3cf1e6fe-14ee-4616-9f51-374d5413385f": {
+      "type": "modulo-double-slider",
+      "blocks": {
+        "template--19421578428729__3cf1e6fe-14ee-4616-9f51-374d5413385f-16860544565068d8d3-0": {
+          "type": "slide",
+          "settings": {
+            "title": "<span class=\"home__specs__counter\">01.<\/span> TERMOREGOLAZIONE PERFETTA",
+            "description": "<p>L’uso dell’<b>argento<\/b> nella composizione del tessuto e la particolare costruzione del filato <b>mantengono costante la tua temperatura corporea<\/b> in ogni situazione. Il sistema di <b>Thermo Buffering™<\/b> permette di dissipare il calore e ridurre l’impatto dell’esterno, mantenendo la tua temperatura ideale, sempre.<\/p>",
+            "cta1text": "SCOPRI LE COLLEZIONI",
+            "cta1link": "\/pages\/collezioni",
+            "cta2text": "SCOPRI LA TECNOLOGIA",
+            "cta2link": "\/pages\/technology"
+          }
+        }
+      },
+      "block_order": [
+        "template--19421578428729__3cf1e6fe-14ee-4616-9f51-374d5413385f-16860544565068d8d3-0"
+      ],
+      "settings": {
+        "title": "POWER IS PRECIOUS",
+        "description": "<p>La tua forza è preziosa. Per questo integriamo <strong>l'argento<\/strong> nel nostro rivoluzionario intimo termico. Il risultato è una linea di prodotti <strong>senza cuciture<\/strong> che portano <strong>comfort, traspirabilità e termoregolazione<\/strong> a un livello superiore.<\/p>"
+      }
     }
   },
   "order": [
     "main",
     "180300a6-2f84-4cda-b590-06e2f7494ce9",
     "1cf481ed-804f-43aa-99e5-b39cac39cc4b",
+    "a596bdb9-73db-426d-bd29-a49764aede1b",
     "bfcbd342-a553-444e-92e8-e676dcfb38c2",
     "a574362f-8a39-42f2-81a2-f75aedd1819e",
     "d3308ef3-17f6-4a01-8929-ae91dab77b0d",
     "76462d61-d1ee-488f-9601-57a0b220fdf4",
     "71e8d427-731f-47eb-93ae-68681bfee61c",
     "9c5e355f-8f8f-4476-9184-8cc4260e42a9",
-    "951be7e2-cf87-4ac6-a209-39325992bea8"
+    "951be7e2-cf87-4ac6-a209-39325992bea8",
+    "3cf1e6fe-14ee-4616-9f51-374d5413385f"
   ]
 }
