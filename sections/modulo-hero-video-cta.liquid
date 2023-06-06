@@ -1,0 +1,86 @@
+<link rel="stylesheet" href="{{ 'modulo-hero-video-cta.css' | asset_url }}" type="text/css">
+
+{% assign video_desk = section.settings.video_desk | video_tag: image_size: 'master', autoplay: true,  loop: true, muted: true, controls: false %}
+{% assign video_mob = section.settings.video_mob | video_tag: image_size: 'master', autoplay: true,  loop: true, muted: true, controls: false %}
+
+<div class="super_container">
+  <section class="hero-video-cta">
+
+    <div class="only-desk">
+      {{video_desk}}
+    </div>
+
+    <div class="only-mob">
+      {{video_mob}}
+    </div>
+
+      <div class="hero-video-cta__content">
+        <h2>{{ section.settings.title }}</h2>
+        <h4>{{ section.settings.sub_title }}</h4>
+        <div class="hero-video-cta__link">                
+          <a class="btn btn-white" href="{{section.settings.cta_1_link}}" tabindex="-1">
+            {{section.settings.cta_1_text}}
+          </a>
+          <a class="btn btn-transp" href="{{section.settings.cta_2_link}}" tabindex="-1">
+            {{section.settings.cta_2_text}}
+          </a>
+        </div>
+      </div>
+      <i class="hero-video-cta-icon fas fa-chevron-down"></i>
+
+  </section>
+</div>  
+
+
+{% schema %}
+  {
+    "name": "Hero Video Cta",
+    "settings": [
+        {
+            "type": "video",
+            "id": "video_desk",
+            "label": "Video Desk"
+        },
+        {
+          "type": "video",
+          "id": "video_mob",
+          "label": "Video Mob"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "sub_title",
+          "label": "Sub Title"
+        },
+        {
+          "type": "text",
+          "id": "cta_1_text",
+          "label": "CTA 1 Text"
+        },
+        {
+          "type": "text",
+          "id": "cta_1_link",
+          "label": "CTA 1 Link"
+        },
+        {
+          "type": "text",
+          "id": "cta_2_text",
+          "label": "CTA 2 Text"
+        },
+        {
+          "type": "text",
+          "id": "cta_2_link",
+          "label": "CTA 2 Link"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Hero Video Cta"
+        }
+    ]
+  }
+{% endschema %}

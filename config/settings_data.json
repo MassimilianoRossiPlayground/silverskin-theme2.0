@@ -205,7 +205,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": false,
-              "menu": "terms",
+              "menu": "",
               "container_width": 15
             }
           },
@@ -221,7 +221,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "donna",
+              "menu": "",
               "container_width": 15
             }
           },
@@ -400,7 +400,7 @@
       "newsletter-popup": {
         "type": "newsletter-popup",
         "settings": {
-          "mode": "enabled",
+          "mode": "disabled",
           "popup_seconds": 40,
           "popup_days": 10,
           "popup_title": "",

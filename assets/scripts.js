@@ -1146,6 +1146,26 @@ $( document ).ready(function() {
             'event': 'submit-form-newsletter-ok'
             });
         })
+
+
+        // Carico DK come selettore per store ita
+        if (window.location.hostname == "www.silverskin.it") {
+
+            let optionDK = `
+                <li key="dk" style="color: #ffffff;  margin: 0px 0px; padding: 0px 0px; order: -4 !important;" tabindex="-4">
+                  <a class="ly-custom-dropdown-list-element ly-languages-switcher-link ly-bright-theme" href="#" data-language-code="dk" data-ly-locked="true">
+                  <img style="margin: 0 3px;" width="19px" heighr="14px" src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/denmark-flag.jpg?v=1685019743">
+                  <span class="ly-custom-dropdown-list-element-right">DK</span>
+                  </a>
+                </li>
+            `
+
+            $("#languagesSwitcherList-2").append(optionDK)
+
+            $("li[key='dk']").on("click", function(){
+                window.location.replace("https://www.silverskin.dk")
+            })
+        }
         
 
         // Promo -- Alla visualizzazione del banner / della slide dello slideshow, caricare il seguente script:

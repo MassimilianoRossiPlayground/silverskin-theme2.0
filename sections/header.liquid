@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="{{ 'header.css' | asset_url }}" type="text/css">
+<script src="{{ 'header.js' | asset_url }}" defer="defer"></script>
+
 {%- assign main_menu = linklists[section.settings.main_menu_link_list] -%}
 {%- assign toolbar_menu = linklists[section.settings.toolbar_menu] -%}
 
@@ -150,6 +153,14 @@
             {% endif %}
 
             <div class="header-item header-item--icons">
+
+              <div class="btn-head header-selector-localization header-selector-localization--desk">
+
+                {% include 'localization-countries' %}
+                {% include 'localization-languages' %}
+  
+              </div>
+
               {% include 'header-icons' %}
             </div>
           </div>
