@@ -11,12 +11,12 @@
       "settings": {
         "video_desk": "shopify:\/\/files\/videos\/3ffb8e8db9d84f028705d2edf4379e5a.mp4",
         "video_mob": "shopify:\/\/files\/videos\/20066a2377f44210b83c417a3b7cb1c9.mp4",
-        "title": "Title",
-        "sub_title": "Sub-title",
-        "cta_1_text": "cta1",
+        "title": "",
+        "sub_title": "",
+        "cta_1_text": "SCOPRI COLLEZIONI",
         "cta_1_link": "#",
-        "cta_2_text": "cta2",
-        "cta_2_link": "#"
+        "cta_2_text": "",
+        "cta_2_link": ""
       }
     },
     "1cf481ed-804f-43aa-99e5-b39cac39cc4b": {
