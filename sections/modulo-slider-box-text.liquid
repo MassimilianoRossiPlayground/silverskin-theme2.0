@@ -138,6 +138,9 @@
 .slider-box-text__content {
     width: 50%;
 }
+.slider-box-text__images {
+    position: relative;
+}
 .slider-box-text__content {
     padding: 50px 20px 50px 100px;
     display: flex;
@@ -196,7 +199,6 @@
     bottom: 0;
     height: 200px;
     width: 100px;
-    transform: translateX(-100%);
     z-index: 1;
 }
 
@@ -366,32 +368,30 @@
 (function(document) {
 
     let selectors = {
-        containerSlideImages: '.slider-box-text__images'
+        containerSlideImages: '.slider-box-text__images .swiper-container',
+        containerSlideImagesNext: '.slider-box-text__images .swiper-button-next',
+        containerSlideImagesPrev: '.slider-box-text__images .swiper-button-prev',
     };
   
-    let containerSlideImages = document.querySelectorAll(selectors.containerSlideImages)
+    let containerSlideImages = document.querySelector(selectors.containerSlideImages)
+    let containerSlideImagesNext = document.querySelector(selectors.containerSlideImagesNext)
+    let containerSlideImagesPrev = document.querySelector(selectors.containerSlideImagesPrev)
 
-    window.addEventListener("load", (event) => {
-        
-        containerSlideImages.forEach((e,i) => {
+    window.addEventListener('load', function() {
 
-            containerSlideImages[i].classList.add('slider-box-text__images-' + i);
-        
-            let swiper_images = new Swiper('.slider-box-text__images-' + i + ' .swiper-container', {
-                touchRatio: 0.1,
-                fadeEffect: {
-                    crossFade: true
-                },
-                pagination: {
-                    el: '.slider-box-text__images-' + i + ' .swiper-pagination'
-                }
-            });
-    
-
+        let swiper_images = new Swiper(containerSlideImages, {
+            touchRatio: 0.1,
+            fadeEffect: {
+                crossFade: true
+            },
+            navigation: {
+                nextEl: containerSlideImagesNext,
+                prevEl: containerSlideImagesPrev
+            },
         });
-        
-
     });
+
+
 
     
 
