@@ -13,7 +13,7 @@
                     {%- assign img_url = block.settings.image | img_url: 'master' -%}
     
                     <div class="swiper-slide">
-                        <div class="slider-image" style="background-image: url('{{img_url}}');"></div>
+                        <img class="slider-image" src="{{img_url}}" alt="silverskin {{ section.settings.title }}">
                     </div>
     
                 {% endfor %}
@@ -34,10 +34,10 @@
 
     <div class="slider-box-text__content">
         <div class="slider-box-text__content__text">
-            <h5>{{ section.settings.title }}</h5>
+            <h5>{{ section.settings.sup_title }}</h5>
             <h2>{{ section.settings.title }}</h2>
             <span class="line-copy"></span>
-            <div>{{ section.settings.description }}</div>
+            <div class="slider-box-text__content__text__descr">{{ section.settings.description }}</div>
             <div class="slider-box-text-ctas">
                 {% if section.settings.cta_1_text != blank %}           
                 <a class="btn btn-grey" href="{{section.settings.cta_1_link}}">
@@ -130,10 +130,47 @@
 
 {% style %}
 
-
-.slider-box-text__images .swiper-container {
+.slider-box-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+.slider-box-text__images,
+.slider-box-text__content {
     width: 50%;
+}
+.slider-box-text__content {
+    padding: 50px 20px 50px 100px;
+    display: flex;
+    align-items: center;
+}
+.slider-box-text__images .swiper-container {
     height: 100%;
+}
+.slider-box-text__content a.btn.btn-grey,
+.slider-box-text__content a.btn.btn-grey:hover {
+    background: #f3f3f3!important;
+    color: #000!important;
+    min-width: 220px;
+    margin: 0 20px 0 0;
+}
+.slider-box-text__content__text h5 {
+    margin-bottom: 5px;
+}
+.slider-box-text__content__text h2 {
+    margin-bottom: 10px;
+}
+.slider-box-text__content__text .line-copy {
+    box-sizing: border-box;
+    height: 1px;
+    width: 66px;
+    border: 1px solid #181A1E;
+    display: block;
+    margin: 20px 0;
+}
+.slider-box-text__content__text__descr {
+    font-size: 14px;
+    max-width: 560px;
+    margin-bottom: 30px;
 }
 
 .slider-box-text__images .swiper-slide {
@@ -314,6 +351,12 @@
     outline: -webkit-focus-ring-color auto 0px;
 }
 
+@media screen and (max-width: 768px) {
+    .slider-box-text__images,
+    .slider-box-text__content {
+        width: 100%;
+    }
+} 
 {% endstyle %}
 
 
