@@ -32,7 +32,7 @@
                         <div class="swiper-slide">
                             <img src="{{  all_products[p_id_man].featured_image | img_url: '1024x' }}" alt="best seller silverskin">
                             <h4>{{ all_products[p_id_man].title }}</h4>    
-                            <h4 class="best-sellers-description">{{ all_products[p_id_man].metafields.descriptors.subtitle }}</h4>
+                            <div class="best-sellers-description">{{ all_products[p_id_man].metafields.descriptors.subtitle }}</div>
                             <div class="product-slider-gender-cta">
                                 <a class="product-slider-gender-cta__link" 
                                     attr-title="{{ all_products[p_id_man].title }}" 
@@ -55,6 +55,7 @@
             </div>
             <div class="swiper-button-next"><i class="fas fa-angle-right"></i></div>
             <div class="swiper-button-prev"><i class="fas fa-angle-left"></i></div>
+            <div class="swiper-pagination"></div>
         </div>
 
         <div class="slider-gender-woman">
@@ -68,7 +69,7 @@
                         <div class="swiper-slide">
                             <img src="{{  all_products[p_id_woman].featured_image | img_url: '1024x' }}" alt="best seller silverskin">
                             <h4>{{ all_products[p_id_woman].title }}</h4>    
-                            <h4 class="best-sellers-description">{{ all_products[p_id_woman].metafields.descriptors.subtitle }}</h4>
+                            <div class="best-sellers-description">{{ all_products[p_id_woman].metafields.descriptors.subtitle }}</div>
                             <div class="product-slider-gender-cta">
                                 <a class="product-slider-gender-cta__link" 
                                     attr-title="{{ all_products[p_id_man].title }}" 
@@ -91,6 +92,7 @@
             </div>
             <div class="swiper-button-next"><i class="fas fa-angle-right"></i></div>
             <div class="swiper-button-prev"><i class="fas fa-angle-left"></i></div>
+            <div class="swiper-pagination"></div>
         </div>
 
     </div>
@@ -290,6 +292,26 @@
 .no-desk {
     display: none;
 }
+.section-product-slider-gender .swiper-pagination {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-product-slider-gender .swiper-pagination-bullet {
+    background-image: url('data:image/svg+xml,<svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 1L14.9282 5V13L8 17L1.0718 13V5L8 1Z" fill="%23181A1E" stroke="%23E3E3E3"/></svg>');
+    width: 17px;
+    height: 19PX;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: transparent;
+    margin: 5px;
+    opacity: 1;
+}
+.section-product-slider-gender span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-image: url('data:image/svg+xml,<svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 1L14.9282 5V13L8 17L1.0718 13V5L8 1Z" fill="%23E3E3E3" stroke="%23E3E3E3"/></svg>');
+}
+
 @media screen and (min-width: 769px) and (max-width: 1190px) {
 
     .section-product-slider-gender .swiper-slide img {
@@ -381,6 +403,9 @@
                     nextEl: sliderMan.querySelector(".swiper-button-next"),
                     prevEl: sliderMan.querySelector(".swiper-button-prev"),
                 },
+                pagination: {
+                    el: sliderMan.querySelector(".swiper-pagination")
+                },
                 breakpoints: {
                     // when window width is >= 320px
                     320: {
@@ -403,6 +428,9 @@
                 navigation: {
                     nextEl: sliderWoman.querySelector(".swiper-button-next"),
                     prevEl: sliderWoman.querySelector(".swiper-button-prev"),
+                },
+                pagination: {
+                    el: sliderWoman.querySelector(".swiper-pagination")
                 },
                 breakpoints: {
                     // when window width is >= 320px
