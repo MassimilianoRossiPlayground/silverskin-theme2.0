@@ -1,0 +1,363 @@
+<div class="section-product-slider-gender">
+  <div class="product-slider-gender box-width">
+
+    <div class="product-slider-gender__head">
+
+        <div class="product-slider-gender__head__btn js-btn-man">
+            <img src="{{ section.settings.image_man | img_url: 'master' }}" alt="silverskin man">
+            <span>{{ section.settings.button_man }}</span>
+        </div>
+
+        <h2>{{ section.settings.title }}</h2>
+
+        <div class="product-slider-gender__head__btn js-btn-woman">
+            <img src="{{ section.settings.image_woman | img_url: 'master' }}" alt="silverskin woman">
+            <span>{{ section.settings.button_woman }}</span>
+        </div>
+
+    </div>
+
+    <div class="product-slider-gender__slider">
+
+        <div class="slider-gender-man">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    {% for product_block in section.blocks %}
+
+                        {% assign p_id_man = product_block.settings.product_id_man %}
+                        {% assign p_id_woman = product_block.settings.product_id_woman %}
+                        
+                        <div class="swiper-slide">
+                            <img src="{{  all_products[p_id_man].featured_image | img_url: '1024x' }}" alt="best seller silverskin">
+                            <h4>{{ all_products[p_id_man].title }}</h4>    
+                            <h4 class="best-sellers-description">{{ all_products[p_id_man].metafields.descriptors.subtitle }}</h4>
+                            <div class="best-sellers-cta">
+                                <a class="best-sellers-cta__link" 
+                                    attr-title="{{ all_products[p_id_man].title }}" 
+                                    attr-price="{{ all_products[p_id_man].price | money | remove: '€ ' | replace: ',' , '.'  }}" 
+                                    attr-handle="{{ all_products[p_id_man].handle }}" 
+                                    attr-type="{{ all_products[p_id_man].type }}" 
+                                    href="{{ all_products[p_id_man].url }}">{{ section.settings.cta_text_man }}</a>
+                            
+                                <a class="best-sellers-cta__link" 
+                                    attr-title="{{ all_products[p_id_woman].title }}" 
+                                    attr-price="{{ all_products[p_id_woman].price | money | remove: '€ ' | replace: ',' , '.'  }}" 
+                                    attr-handle="{{ all_products[p_id_woman].handle }}" 
+                                    attr-type="{{ all_products[p_id_woman].type }}" 
+                                    href="{{ all_products[p_id_woman].url }}">{{ section.settings.cta_text_woman }}</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+
+                </div>
+                <div class="swiper-button-next"><i class="fas fa-angle-right"></i></div>
+                <div class="swiper-button-prev"><i class="fas fa-angle-left"></i></div>
+            </div>
+        </div>
+
+        <div class="slider-gender-woman hide">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    {% for product_block in section.blocks %}
+
+                        {% assign p_id_man = product_block.settings.product_id_man %}
+                        {% assign p_id_woman = product_block.settings.product_id_woman %}
+                        
+                        <div class="swiper-slide">
+                            <img src="{{  all_products[p_id_woman].featured_image | img_url: '1024x' }}" alt="best seller silverskin">
+                            <h4>{{ all_products[p_id_woman].title }}</h4>    
+                            <h4 class="best-sellers-description">{{ all_products[p_id_woman].metafields.descriptors.subtitle }}</h4>
+                            <div class="best-sellers-cta">
+                                <a class="best-sellers-cta__link" 
+                                    attr-title="{{ all_products[p_id_man].title }}" 
+                                    attr-price="{{ all_products[p_id_man].price | money | remove: '€ ' | replace: ',' , '.'  }}" 
+                                    attr-handle="{{ all_products[p_id_man].handle }}" 
+                                    attr-type="{{ all_products[p_id_man].type }}" 
+                                    href="{{ all_products[p_id_man].url }}">{{ section.settings.cta_text_man }}</a>
+                            
+                                <a class="best-sellers-cta__link" 
+                                    attr-title="{{ all_products[p_id_woman].title }}" 
+                                    attr-price="{{ all_products[p_id_woman].price | money | remove: '€ ' | replace: ',' , '.'  }}" 
+                                    attr-handle="{{ all_products[p_id_woman].handle }}" 
+                                    attr-type="{{ all_products[p_id_woman].type }}" 
+                                    href="{{ all_products[p_id_woman].url }}">{{ section.settings.cta_text_woman }}</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+
+                </div>
+                <div class="swiper-button-next"><i class="fas fa-angle-right"></i></div>
+                <div class="swiper-button-prev"><i class="fas fa-angle-left"></i></div>
+            </div>
+        </div>
+
+    </div>
+
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Product Slider Gender",
+    "max_blocks": 99,
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "SCOPRI I NOSTRI BEST SELLER"
+        },
+        {
+            "type": "image_picker",
+            "id": "image_man",
+            "label": "Image man"
+        },
+        {
+            "type": "text",
+            "id": "button_man",
+            "label": "Button Man",
+            "default": "UOMO"
+        },
+        {
+            "type": "image_picker",
+            "id": "image_woman",
+            "label": "Image Woman"
+        },
+        {
+            "type": "text",
+            "id": "button_woman",
+            "label": "Button Woman",
+            "default": "DONNA"
+        },
+        {
+            "type": "text",
+            "id": "cta_text_man",
+            "label": "CTA Man",
+            "default": "ACQUISTA UOMO"
+        },
+        {
+            "type": "text",
+            "id": "cta_text_woman",
+            "label": "CTA Woman",
+            "default": "ACQUISTA DONNA"
+        }
+    ],
+    "blocks": [
+      {
+        "type": "product_block",
+        "name": "Products",
+        "settings": [
+            {
+                "type": "product",
+                "id": "product_id_man",
+                "label": "Product Man"
+            },
+            {
+                "type": "product",
+                "id": "product_id_woman",
+                "label": "Product Woman"
+            }
+        ]
+      }
+    ],
+    "presets": [
+        {
+            "name": "Product Slider Gender",
+            "blocks": [
+                {
+                    "type": "product_block"
+                }
+            ]
+        }
+    ]
+  }
+{% endschema %}
+
+
+{% style %}
+.section-product-slider-gender {
+    margin: 60px 0;
+    background: #000;
+}
+.product-slider-gender__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-product-slider-gender h4 {
+    margin: 50px 0;
+    font-family: "barlow-medium";
+}
+.product-slider-gender__head__btn {
+    display: flex;
+    align-items: center;
+}
+
+.section-product-slider-gender .swiper-slide.swiper-slide-next .best-sellers-cta,
+.section-product-slider-gender .swiper-slide.swiper-slide-next h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.section-product-slider-gender .swiper-slide img {
+    height: 380px;
+    transform: translateY(100px);
+    transition-duration: 0.3s;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.section-product-slider-gender .swiper-slide.swiper-slide-next img {
+    height: unset;
+    transform: translateY(1px);
+    transition-duration: 0.3s;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+}
+
+.section-product-slider-gender .fas.fa-angle-right,
+.section-product-slider-gender .fas.fa-angle-left {
+    font-size: 30px;
+}
+.section-product-slider-gender .swiper-slide img {
+    max-height: 380px;
+    height: auto;
+    /* transform: translateY(10px); */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1190px) {
+
+    .section-product-slider-gender .swiper-slide img {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .section-product-slider-gender .swiper-slide img {
+        filter: unset;
+        -webkit-filter: unset;
+        transform: unset;
+    }
+
+    .section-product-slider-gender .swiper-slide .best-sellers-cta,
+    .section-product-slider-gender .swiper-slide h4 {
+        display: flex;
+        justify-content: center;
+    }
+    .section-product-slider-gender .swiper-slide h4 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .section-product-slider-gender .swiper-slide img {
+        max-height: 260px;
+    }
+    .section-product-slider-gender .technology-slider {
+        margin: 30px 0;
+    }
+
+    .section-product-slider-gender .swiper-slide .best-sellers-cta,
+    .section-product-slider-gender .swiper-slide h4 {
+        max-width: 260px;
+        margin: 15px auto;
+    }
+}
+{% endstyle %}
+
+
+
+
+
+{% javascript %}
+(function(document) {
+
+    let selectors = {
+        btnMan: '.js-btn-man',
+        btnWoman: '.js-btn-woman',
+        sliderMan: '.slider-gender-man',
+        sliderWoman: '.slider-gender-woman',
+    };
+
+    let btnMan = document.querySelector(selectors.btnMan)
+    let btnWoman = document.querySelector(selectors.btnWoman)
+    let sliderMan = document.querySelector(selectors.sliderMan)
+    let sliderWoman = document.querySelector(selectors.sliderWoman)
+
+    window.addEventListener("load", (event) => {
+
+        if (sliderMan) {
+            let sliderMan_swiper = new Swiper(sliderMan.querySelector(".swiper-container"), {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                loop: true,
+                navigation: {
+                    nextEl: sliderMan.querySelector(".swiper-button-next"),
+                    prevEl: sliderMan.querySelector(".swiper-button-prev"),
+                },
+                breakpoints: {
+                    // when window width is >= 320px
+                    320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                    },
+                    // when window width is >= 640px
+                    991: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                    }
+                }
+            });
+        }
+        if (sliderWoman) {
+            let sliderWoman_swiper = new Swiper(sliderWoman.querySelector(".swiper-container"), {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                loop: true,
+                navigation: {
+                    nextEl: sliderWoman.querySelector(".swiper-button-next"),
+                    prevEl: sliderWoman.querySelector(".swiper-button-prev"),
+                },
+                breakpoints: {
+                    // when window width is >= 320px
+                    320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                    },
+                    // when window width is >= 640px
+                    991: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                    }
+                }
+            });
+        }
+
+            
+        btnMan.addEventListener("click", function(){
+                
+            sliderWoman.classList.add("hide")
+            sliderMan.classList.remove("hide")
+
+            sliderMan_swiper.reInit()
+        })
+
+        btnWoman.addEventListener("click", function(){
+            
+            sliderMan.classList.add("hide")
+            sliderWoman.classList.remove("hide")
+
+            sliderWoman_swiper.reInit()
+        })
+
+        
+    });
+
+
+})(document);
+
+{% endjavascript %}
