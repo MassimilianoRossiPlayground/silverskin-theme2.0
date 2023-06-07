@@ -96,4 +96,7 @@
     .only-mob {
         display: block;
     }
+    section.hero-video-cta video {
+        height: 70vh;
+    }
 }
