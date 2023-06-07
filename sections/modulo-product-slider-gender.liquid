@@ -32,7 +32,7 @@
                         <div class="swiper-slide">
                             <img src="{{  all_products[p_id_man].featured_image | img_url: '1024x' }}" alt="best seller silverskin">
                             <h4>{{ all_products[p_id_man].title }}</h4>    
-                            <div class="best-sellers-description">Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comodo e leggero, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento
+                            <div class="product-slider-gender-description">Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comodo e leggero, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento
                             {{ all_products[p_id_man].metafields.descriptors.subtitle }}</div>
                             <div class="product-slider-gender-cta">
                                 <a class="product-slider-gender-cta__link" 
@@ -70,7 +70,7 @@
                         <div class="swiper-slide">
                             <img src="{{  all_products[p_id_woman].featured_image | img_url: '1024x' }}" alt="best seller silverskin">
                             <h4>{{ all_products[p_id_woman].title }}</h4>    
-                            <div class="best-sellers-description">{{ all_products[p_id_woman].metafields.descriptors.subtitle }}</div>
+                            <div class="product-slider-gender-description">{{ all_products[p_id_woman].metafields.descriptors.subtitle }}</div>
                             <div class="product-slider-gender-cta">
                                 <a class="product-slider-gender-cta__link" 
                                     attr-title="{{ all_products[p_id_man].title }}" 
@@ -201,7 +201,7 @@
     color: #fff;
 }
 .section-product-slider-gender h4 {
-    margin: 50px 0;
+    margin: 50px 0 20px 0;
     font-family: "barlow-medium";
     color: #fff;
 }
@@ -223,12 +223,12 @@
     position: relative;
 }
 .product-slider-gender__slider h4,
-.product-slider-gender__slider .best-sellers-description,
+.product-slider-gender__slider .product-slider-gender-description,
 .product-slider-gender__slider .product-slider-gender-cta {
     display: none; 
 }
 .product-slider-gender__slider .swiper-slide-next h4,
-.product-slider-gender__slider .swiper-slide-next .best-sellers-description,
+.product-slider-gender__slider .swiper-slide-next .product-slider-gender-description,
 .product-slider-gender__slider .swiper-slide-next .product-slider-gender-cta {
     display: block; 
 }
@@ -247,7 +247,11 @@
     padding: 10px;
     margin: 40px 10px;
 }
-
+.product-slider-gender-description {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
 .section-product-slider-gender .swiper-slide img {
     height: 380px;
     transform: translateY(38px) scale(0.8);
