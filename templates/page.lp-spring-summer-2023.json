@@ -169,10 +169,26 @@
             "product_id_man": "stay-fresh-canotta-ciclismo-anthracite-1",
             "product_id_woman": "stay-fresh-canotta-ciclismo-anthracite"
           }
+        },
+        "f6391d4b-8d69-4d38-a2df-5246523c8ffe": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "stay-fresh-bike-socks-anthracite",
+            "product_id_woman": "stay-fresh-bike-socks-pearlgrey-logo"
+          }
+        },
+        "b33edf56-946d-408a-b4f0-2469a609c6ed": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "copia-del-stay-fresh-canotta-termica-pearlgrey",
+            "product_id_woman": "copia-del-stay-fresh-canotta-termica-anthracite"
+          }
         }
       },
       "block_order": [
-        "template--19421578428729__1c40a134-9d83-4e92-820f-4c85f49b94c1-1686129954ea758d32-0"
+        "template--19421578428729__1c40a134-9d83-4e92-820f-4c85f49b94c1-1686129954ea758d32-0",
+        "f6391d4b-8d69-4d38-a2df-5246523c8ffe",
+        "b33edf56-946d-408a-b4f0-2469a609c6ed"
       ],
       "settings": {
         "title": "i baselayer per la montagna",
