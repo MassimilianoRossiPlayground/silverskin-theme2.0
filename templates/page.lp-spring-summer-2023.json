@@ -297,7 +297,8 @@
         "7004b69c-b0ed-4501-be85-508984dab9f5"
       ],
       "settings": {
-        "gallery_height": 3327
+        "gallery_height": 3327,
+        "gallery_height_mob": 1400
       }
     },
     "65a04109-d795-42a5-8402-5f4e0525844a": {
