@@ -10,7 +10,7 @@
   
   </div>
 
-  {% if section.settings.cta_link %}
+  {% if section.settings.cta_link != blank %}
     <a class="text-cta__link" href="{{ section.settings.cta_link }}">{{ section.settings.cta_text }}</a>
   {% else %}
     <a class="text-cta__link js-scroll-down">{{ section.settings.cta_text }} <i class="far fa-arrow-alt-circle-down"></i></a>
