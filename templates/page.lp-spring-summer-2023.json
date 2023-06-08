@@ -274,7 +274,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-31_2_1.jpg",
-            "direction_from": "left",
+            "direction_from": "right",
             "cord_x": 10,
             "cord_y": 2360
           }
