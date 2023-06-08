@@ -33,10 +33,16 @@
 
       <div class="hero-video-cta__content" style="{{content_position}}">
         {%- if section.settings.title != blank -%}
-          <h2>{{ section.settings.title }}</h2>
+          <h2 class="only-desk">{{ section.settings.title }}</h2>
+        {%- endif -%}
+        {%- if section.settings.mob_title != blank -%}
+          <h2 class="only-mob">{{ section.settings.mob_title }}</h2>
         {%- endif -%}
         {% if section.settings.sub_title != blank %}
-          <h4>{{ section.settings.sub_title }}</h4>
+          <h4 class="only-desk">{{ section.settings.sub_title }}</h4>
+        {% endif %}
+        {% if section.settings.mob_sub_title != blank %}
+          <h4 class="only-mob">{{ section.settings.mob_sub_title }}</h4>
         {% endif %}
         <div class="hero-video-cta__link">     
           {% if section.settings.cta_1_text != blank %}           
@@ -85,6 +91,16 @@
           "type": "text",
           "id": "sub_title",
           "label": "Sub Title"
+        },
+        {
+          "type": "text",
+          "id": "mob_title",
+          "label": "Mobile Title"
+        },
+        {
+          "type": "text",
+          "id": "mob_sub_title",
+          "label": "Mobile Sub Title"
         },
         {
           "type": "text",
