@@ -2,7 +2,7 @@
 
     <div class="masonry-gallery" style="height: {{section.settings.gallery_height}}px;">
         {% for block in section.blocks %}
-            <img style="position: absolute; top: {{ block.settings.cord_y}}px;left: {{ block.settings.cord_x}}px;" src="{{ block.settings.image | img_url: 'master' }}" alt="silverskin">
+            <img style="position: absolute; top: {{ block.settings.cord_y}}px;left: {{ block.settings.cord_x}}%;" src="{{ block.settings.image | img_url: 'master' }}" alt="silverskin">
         {% endfor %}
     </div>
 
@@ -57,7 +57,11 @@
 
 
 {% style %}
-
+.masonry-gallery {
+    position: relative;
+    width: 100%;
+    background: #d9d9d9;
+}
 
 
 {% endstyle %}
