@@ -10,7 +10,11 @@
   
   </div>
 
-  <a class="text-cta__link" href="{{ section.settings.cta_link }}">{{ section.settings.cta_text }}</a>
+  {% if section.settings.cta_link %}
+    <a class="text-cta__link" href="{{ section.settings.cta_link }}">{{ section.settings.cta_text }}</a>
+  {% else %}
+    <a class="text-cta__link js-scroll-down">{{ section.settings.cta_text }} <i class="far fa-arrow-alt-circle-down"></i></a>
+  {% endif %}
 
 </div>
 
@@ -51,3 +55,35 @@
     ]
   }
 {% endschema %}
+
+
+{% javascript %}
+
+(function(document) {
+
+let selectors = {
+    sectionCtaText: '.text-cta'
+};
+
+
+let sectionCtaText = document.querySelector(selectors.sectionCtaText)
+
+window.addEventListener("load", (event) => {
+    
+      let heroBanner_height = heroBanner.offsetHeight
+      let scrollDown = heroBanner.querySelector('.js-scroll-down')
+
+      scrollDown.addEventListener("click", function(){
+          window.scrollTo({ left: 0, top: heroBanner_height, behavior: "smooth" });
+      })
+
+})
+
+
+
+
+
+})(document);
+
+
+{% endjavascript %}

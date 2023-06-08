@@ -20,6 +20,7 @@
     font-family: "barlow-semibold";
     font-size: 14px;
     max-width: 300px;
+    letter-spacing: 0.1em;
 }
 
 .text-cta .text-cta__content {
@@ -41,4 +42,21 @@
     font-size: 28px;
     margin-bottom: 30px;
     letter-spacing: normal;
+}
+
+
+@media screen and (max-width: 768px) {
+    .text-cta .text-cta__content {
+        padding: 0 30px;
+        text-align: left;
+    }
+    .text-cta .text-cta__content h5 {
+        text-align: left !important;
+    }
+    .text-cta .text-cta__link {
+        margin: 30px;
+    }
+    .text-cta {
+        padding: 40px 0;
+    }
 }

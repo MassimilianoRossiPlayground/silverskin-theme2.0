@@ -44,7 +44,7 @@
         {% if section.settings.mob_sub_title != blank %}
           <h4 class="only-mob">{{ section.settings.mob_sub_title }}</h4>
         {% endif %}
-        <div class="hero-video-cta__link">     
+        <div class="hero-video-cta__link only-desk">     
           {% if section.settings.cta_1_text != blank %}           
             <a class="btn btn-white" href="{{section.settings.cta_1_link}}" tabindex="-1">
               {{section.settings.cta_1_text}}
@@ -57,6 +57,20 @@
           {% endif %}
         </div>
       </div>
+
+      <div class="hero-video-cta__link only-mob">     
+        {% if section.settings.cta_1_text != blank %}           
+          <a class="btn btn-white" href="{{section.settings.cta_1_link}}" tabindex="-1">
+            {{section.settings.cta_1_text}}
+          </a>
+        {% endif %}
+        {% if section.settings.cta_2_text != blank %}
+          <a class="btn btn-transp" href="{{section.settings.cta_2_link}}" tabindex="-1">
+            {{section.settings.cta_2_text}}
+          </a>
+        {% endif %}
+      </div>
+
       <i style="{{show_arrow_down}}" class="hero-video-cta-icon fas fa-chevron-down"></i>
 
   </section>

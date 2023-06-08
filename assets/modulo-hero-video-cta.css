@@ -25,7 +25,7 @@
 
 .hero-video-cta__content {
     position: absolute;
-    top: 50%;
+    top: 50% !important;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -41,23 +41,9 @@
     font-size: 70px;
 }
 
-.hero-video-cta__content h2:before {
-    display: block;
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    content: "";
-    height: 10px;
-    width: 59px;
-    background-color: #EC8312;
-    background: linear-gradient(270deg, #FF001F 0%, #EC8312 100%);
-    -webkit-transform: skew(-20deg) translateX(-50%);
-    -moz-transform: skew(-20deg) translateX(-50%);
-    -o-transform: skew(-20deg) translateX(-50%);
-}
-
 .hero-video-cta__content h4 {
     font-size: 20px;
+    letter-spacing: normal;
 }
 
 .hero-video-cta__content i.fas.fa-chevron-down {
@@ -98,5 +84,20 @@
     }
     section.hero-video-cta video {
         height: 70vh;
+    }
+    .hero-video-cta__content h2 {
+        font-size: 40px;
+    }
+    .hero-video-cta__link {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .hero-video-cta__link a {
+        min-width: 160px;
+    }
+    .hero-video-cta__content {
+        width: 90%;
     }
 }
