@@ -18,15 +18,15 @@
     <div class="masonry-gallery only-mob" style="height: {{section.settings.gallery_height_mob}}px;">
         {% for block in section.blocks %}
 
-            {% if block.settings.direction_from == "left" %}
-                {% assign direction_from = "left" %}
-                {% assign transform_direction = "top left" %}
+            {% if block.settings.direction_from_mob == "left" %}
+                {% assign direction_from_mob = "left" %}
+                {% assign transform_direction_mob = "top left" %}
               {% else %}
-                {% assign direction_from = "right" %}
-                {% assign transform_direction = "top right" %}
+                {% assign direction_from_mob = "right" %}
+                {% assign transform_direction_mob = "top right" %}
               {% endif %}
 
-            <img style="position: absolute; top: {{ block.settings.cord_y_mob}}px;{{direction_from}}: {{ block.settings.cord_x_mob}}%;transform-origin: {{transform_direction}};" src="{{ block.settings.image | img_url: 'master' }}" alt="silverskin">
+            <img style="position: absolute; top: {{ block.settings.cord_y_mob}}px;{{direction_from_mob}}: {{ block.settings.cord_x_mob}}%;transform-origin: {{transform_direction_mob}};" src="{{ block.settings.image | img_url: 'master' }}" alt="silverskin">
         {% endfor %}
     </div>
 
@@ -83,6 +83,22 @@
                 "type": "number",
                 "id": "cord_y",
                 "label": "Coordinata Y in px"
+            },
+            {
+                "type": "select",
+                "id": "direction_from_mob",
+                "label": "Direction Mobile orizontal from",
+                "options": [
+                    {
+                    "value": "left",
+                    "label": "Left"
+                    },
+                    {
+                    "value": "right",
+                    "label": "Right"
+                    }
+                ],
+                "default": "left"
             },
             {
                 "type": "number",
