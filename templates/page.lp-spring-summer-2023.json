@@ -189,6 +189,15 @@
         "full_width": true,
         "divider": false
       }
+    },
+    "8ddddf7c-0171-475c-8bf8-b1645359ab54": {
+      "type": "modulo-contact",
+      "settings": {
+        "title": "SE HAI DOMANDE, CONTATTACI",
+        "form_title": "MESSAGGIO",
+        "privacy": "<p>Confermo di aver letto e compreso la dichiarazione sulla <a href=\"https:\/\/www.silverskin.it\/pages\/privacy\" target=\"_blank\" title=\"\/pages\/privacy\">privacy<\/a> e acconsento al trattamento dei miei dati personali a scopi di markewting.<\/p>",
+        "btn_submit": "INVIA"
+      }
     }
   },
   "order": [
@@ -199,6 +208,7 @@
     "76462d61-d1ee-488f-9601-57a0b220fdf4",
     "1c40a134-9d83-4e92-820f-4c85f49b94c1",
     "65a04109-d795-42a5-8402-5f4e0525844a",
-    "b77925cd-2fef-4c38-8ebd-27a6bbada3b6"
+    "b77925cd-2fef-4c38-8ebd-27a6bbada3b6",
+    "8ddddf7c-0171-475c-8bf8-b1645359ab54"
   ]
 }
