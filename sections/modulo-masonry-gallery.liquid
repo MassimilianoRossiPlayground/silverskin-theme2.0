@@ -2,7 +2,15 @@
 
     <div class="masonry-gallery" style="height: {{section.settings.gallery_height}}px;">
         {% for block in section.blocks %}
-            <img style="position: absolute; top: {{ block.settings.cord_y}}px;left: {{ block.settings.cord_x}}%;" src="{{ block.settings.image | img_url: 'master' }}" alt="silverskin">
+
+            {% if block.settings.direction_from == "left" %}
+                {% assign direction_from = "left" %}
+              {% else %}
+                {% assign direction_from = "right" %}
+              {% endif %}
+
+              
+            <img style="position: absolute; top: {{ block.settings.cord_y}}px;{{direction_from}}: {{ block.settings.cord_x}}%;" src="{{ block.settings.image | img_url: 'master' }}" alt="silverskin">
         {% endfor %}
     </div>
 
@@ -29,6 +37,22 @@
                 "id": "image",
                 "label": "Image"
             },
+            {
+                "type": "select",
+                "id": "direction_from",
+                "label": "Direction from",
+                "options": [
+                    {
+                    "value": "left",
+                    "label": "Left"
+                    },
+                    {
+                    "value": "right",
+                    "label": "Right"
+                    }
+                ],
+                "default": "left"
+              },
             {
                 "type": "number",
                 "id": "cord_x",
