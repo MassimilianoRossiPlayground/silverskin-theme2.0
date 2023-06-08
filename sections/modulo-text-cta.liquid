@@ -70,11 +70,12 @@ let sectionCtaText = document.querySelector(selectors.sectionCtaText)
 
 window.addEventListener("load", (event) => {
     
-      let heroBanner_height = heroBanner.offsetHeight
-      let scrollDown = heroBanner.querySelector('.js-scroll-down')
+      let sectionCtaText_height = sectionCtaText.offsetTop + sectionCtaText.offsetHeight
+      let scrollDown = sectionCtaText.querySelector('.js-scroll-down')
 
+      console.log(sectionCtaText_height)
       scrollDown.addEventListener("click", function(){
-          window.scrollTo({ left: 0, top: heroBanner_height, behavior: "smooth" });
+          window.scrollTo({ left: 0, top: sectionCtaText_height, behavior: "smooth" });
       })
 
 })
