@@ -269,6 +269,15 @@
             "cord_x": 0,
             "cord_y": 2572
           }
+        },
+        "7004b69c-b0ed-4501-be85-508984dab9f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-31_2_1.jpg",
+            "direction_from": "left",
+            "cord_x": 10,
+            "cord_y": 2360
+          }
         }
       },
       "block_order": [
@@ -282,7 +291,8 @@
         "1c14ee12-4dec-4995-8fc7-52ed4f4d1687",
         "2e7a8904-1164-41d2-b760-625ad3bff02d",
         "b1c5a302-559b-4b83-b992-77961f29c8a4",
-        "bea89176-69d7-4132-831f-9908f77ec202"
+        "bea89176-69d7-4132-831f-9908f77ec202",
+        "7004b69c-b0ed-4501-be85-508984dab9f5"
       ],
       "settings": {
         "gallery_height": 3327
