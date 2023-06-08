@@ -2,6 +2,7 @@
 
 {% assign video_desk = section.settings.video_desk | video_tag: image_size: 'master', autoplay: true,  loop: true, muted: true, controls: false %}
 {% assign video_mob = section.settings.video_mob | video_tag: image_size: 'master', autoplay: true,  loop: true, muted: true, controls: false %}
+{% assign image_mob = section.settings.image_mob | img_url: 'master'%}
 
 {% if section.settings.content_position == "bottom" %}
   {% assign content_position = "top:75%;" %}
@@ -23,7 +24,11 @@
     </div>
 
     <div class="only-mob">
-      {{video_mob}}
+      {% if video_mob != blank %}
+        {{video_mob}}
+      {% elsif image_mob != blank %}
+        <img width="100%" src="{{image_mob}}" alt="silverkin">
+      {% endif %}
     </div>
 
       <div class="hero-video-cta__content" style="{{content_position}}">
@@ -65,6 +70,11 @@
           "type": "video",
           "id": "video_mob",
           "label": "Video Mob"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mob",
+          "label": "Image Mob"
         },
         {
             "type": "text",
