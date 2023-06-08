@@ -1,0 +1,65 @@
+<div class="section-masonry-gallery">
+
+    <div class="masonry-gallery" style="height: {{section.settings.gallery_height}}px;">
+        {% for block in section.blocks %}
+            <img style="position: absolute; top: {{ block.settings.cord_y}}px;left: {{ block.settings.cord_x}}px;" src="{{ block.settings.image | img_url: 'master' }}" alt="silverskin">
+        {% endfor %}
+    </div>
+
+</div>
+
+{% schema %}
+  {
+    "name": "Masonry Gallery",
+    "max_blocks": 99,
+    "settings": [
+        {
+            "type": "number",
+            "id": "gallery_height",
+            "label": "Gallery Height in px"
+        }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "number",
+                "id": "cord_x",
+                "label": "Coordinata  in % da 0 a 100"
+            },
+            {
+                "type": "number",
+                "id": "cord_y",
+                "label": "Coordinata Y in px"
+            }
+        ]
+      }
+    ],
+    "presets": [
+        {
+            "name": "Masonry Gallery",
+            "blocks": [
+                {
+                "type": "image"
+                }
+            ]
+        }
+    ]
+  }
+{% endschema %}
+
+
+{% style %}
+
+
+
+{% endstyle %}
+
+
