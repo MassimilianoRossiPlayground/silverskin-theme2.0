@@ -3,7 +3,7 @@
     background: #000;
 }
 
-.slider-navigation {
+.slider-cards .slider-navigation {
     width: 25%;
     position: relative;
     display: flex;
@@ -19,7 +19,7 @@
     position: relative;
 }
 
-.slider-navigation .swiper-button-next {
+.slider-cards .slider-navigation .swiper-button-next {
     top: 0;
     bottom: unset;
     right: 0;
@@ -31,7 +31,7 @@
     opacity: 1 !important;
 }
 
-.slider-navigation .swiper-button-prev {
+.slider-cards .slider-navigation .swiper-button-prev {
     bottom: unset;
     right: 0;
     left: 0;
@@ -43,18 +43,18 @@
     opacity: 1 !important;
 }
 
-.slider-navigation svg.icon.icon-chevron-right {
+.slider-cards .slider-navigation svg.icon.icon-chevron-right {
     color: #fff;
 }
 
-.slider-navigation svg.icon.icon-chevron-left {
+.slider-cards .slider-navigation svg.icon.icon-chevron-left {
     color: #000;
 }
-.slider-navigation .swiper-button-next {
+.slider-cards .slider-navigation .swiper-button-next {
     border: 1px solid #fff;
 }
 
-.slider-navigation .swiper-button-prev {
+.slider-cards .slider-navigation .swiper-button-prev {
     border: none;
 }
 
@@ -96,8 +96,11 @@
 }
 
 @media screen and (max-width: 768px) {
-    .slider-navigation {
+    .slider-cards .slider-navigation {
         display: none;
+    }
+    .cards-slider .card-box .no-desk {
+        display: block;
     }
     .cards-slider {
         width: 100%;
