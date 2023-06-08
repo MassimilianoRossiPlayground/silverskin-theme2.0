@@ -46,14 +46,13 @@
             
                     {% comment %} <input type="hidden" id="hidden" name="contact[page]" value="{{ section.settings.hidden_text }}"> {% endcomment %}
              
-                    <div class="col-12">
-                      <div class="form-input privacy">
-                        <input id="privacy" type="checkbox" name="customer[privacy]" required/>
-                        <label for="privacy" style="font-weight:normal">{{section.settings.privacy}}</label>
-                      </div>
+                    <div class="col-12 form-send">
+                        <div class="form-input privacy">
+                            <input id="privacy" type="checkbox" name="customer[privacy]" required/>
+                            <label for="privacy" style="font-weight:normal">{{section.settings.privacy}}</label>
+                        </div>
+                        <input type="submit" class="btn" value="{{section.settings.btn_submit}}">
                     </div>
-            
-                    <input type="submit" class="btn" value="{{section.settings.btn_submit}}">
             
                   </div>
             
@@ -101,65 +100,69 @@
 
 
 {% style %}
-.section-newsletter-image {
-    background: #000;
-    color: #fff;
+.contact-message {
+    padding: 100px 20px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
-.newsletter-image {
+.contact-message__form {
+    margin-top: 60px;
+}
+.form-container {
     display: flex;
     flex-wrap: wrap;
 }
-.newsletter-image__form {
-    width: 60%;
+.contact-message__form .col-6 {
+    width: 50%;
 }
-.newsletter-image__image {
-    width: 40%;
+.contact-message__form .col-6:first-child {
+    padding-right: 20px;
 }
-.newsletter-image__form__content {
-    padding: 100px 40px 100px 100px;
-    max-width: 690px;
+.contact-message__form .col-12 {
+    width: 100%;
 }
-input.newsletter__input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #fff;
-  opacity: 1; /* Firefox */
-}
-
-input.newsletter__input:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #fff;
-}
-
-input.newsletter__input::-ms-input-placeholder { /* Microsoft Edge */
-  color: #fff;
-}
-
-input#Contact-Newsletter-email {
+.contact-message__form input,
+.contact-message__form textarea {
+    width: 100%;
+    background: #d9d9d9;
     border: none;
-    border-bottom: 2px solid;
-    padding: 10px 0;
-    width: 340px;
-    margin-right: 30px;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: .3em;
+    margin-bottom: 20px;
 }
-button.btn.newsletter__submit {
-    border: 1px solid #797979;
-    min-width: 170px;
-    font-size: 12px;
+.contact-message__form input.btn {
+    background: #000;
+    max-width: 200px;
+    max-height: 40px;
 }
-.newsletter-image__form__description {
-    font-size: 20px;
-    margin: 40px 0;
+.contact-message__form .form-send {
+    display: flex;
+    justify-content: space-between;
 }
-.newsletter-image__image img {
-    height: 100%;
-    object-fit: cover;
+.contact-message__form .form-input.privacy {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.contact-message__form input#privacy {
+    width: auto;
+    margin-top: 4px;
+    display:block;
+}
+.contact-message__form label {
+    max-width: 570px;
+}
+.contact-message__form label p {
+    letter-spacing: normal;
 }
 
 @media screen and (max-width: 768px) {
-    .newsletter-image__form ,
-    .newsletter-image__image {
+    .contact-message {
+        padding: 60px 20px;
+    }
+    .contact-message__form .col-6 {
         width: 100%;
+    }
+    .form-send {
+        flex-direction: column;
     }
 }
 
