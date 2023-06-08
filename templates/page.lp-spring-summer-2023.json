@@ -206,13 +206,83 @@
             "cord_x": 10,
             "cord_y": 666
           }
+        },
+        "52fea3ce-e836-4334-a84b-3dd13826c989": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-34_1.png",
+            "direction_from": "left",
+            "cord_x": 5,
+            "cord_y": 1040
+          }
+        },
+        "8759048f-6fa2-4cc9-ae1f-4e975046ec85": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-30_1.jpg",
+            "direction_from": "left",
+            "cord_x": 20,
+            "cord_y": 1280
+          }
+        },
+        "36b86ce1-53ff-4d2b-88aa-a2afb26144f4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_6483441_2_1.jpg",
+            "direction_from": "left",
+            "cord_x": 0,
+            "cord_y": 1640
+          }
+        },
+        "1c14ee12-4dec-4995-8fc7-52ed4f4d1687": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-58_3.jpg",
+            "direction_from": "right",
+            "cord_x": 0,
+            "cord_y": 1340
+          }
+        },
+        "2e7a8904-1164-41d2-b760-625ad3bff02d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
+            "direction_from": "left",
+            "cord_x": 0,
+            "cord_y": 2617
+          }
+        },
+        "b1c5a302-559b-4b83-b992-77961f29c8a4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_6483441_1.jpg",
+            "direction_from": "left",
+            "cord_x": 20,
+            "cord_y": 2520
+          }
+        },
+        "bea89176-69d7-4132-831f-9908f77ec202": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-27_1.jpg",
+            "direction_from": "right",
+            "cord_x": 0,
+            "cord_y": 2572
+          }
         }
       },
       "block_order": [
         "template--19421578428729__2b57f855-38a4-425f-bbff-a6b7552977df-1686216511496eb766-0",
         "7d068a2a-e6b1-4e33-8a8f-e53e069d5559",
         "3cac1968-bc2a-4529-a110-795b772b6bc4",
-        "2b113cb2-670c-4e11-93ba-22dc45f8972a"
+        "2b113cb2-670c-4e11-93ba-22dc45f8972a",
+        "52fea3ce-e836-4334-a84b-3dd13826c989",
+        "8759048f-6fa2-4cc9-ae1f-4e975046ec85",
+        "36b86ce1-53ff-4d2b-88aa-a2afb26144f4",
+        "1c14ee12-4dec-4995-8fc7-52ed4f4d1687",
+        "2e7a8904-1164-41d2-b760-625ad3bff02d",
+        "b1c5a302-559b-4b83-b992-77961f29c8a4",
+        "bea89176-69d7-4132-831f-9908f77ec202"
       ],
       "settings": {
         "gallery_height": 3327
