@@ -178,6 +178,17 @@
         "mail_placeholder": "INSERISCI LA TUA MAIL",
         "submit_text": "ISCRIVITI"
       }
+    },
+    "b77925cd-2fef-4c38-8ebd-27a6bbada3b6": {
+      "type": "instagram",
+      "settings": {
+        "title": "OUR LATEST POST ON INSTAGRAM",
+        "username": "",
+        "client_id": "",
+        "count": "1",
+        "full_width": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -187,6 +198,7 @@
     "a596bdb9-73db-426d-bd29-a49764aede1b",
     "76462d61-d1ee-488f-9601-57a0b220fdf4",
     "1c40a134-9d83-4e92-820f-4c85f49b94c1",
-    "65a04109-d795-42a5-8402-5f4e0525844a"
+    "65a04109-d795-42a5-8402-5f4e0525844a",
+    "b77925cd-2fef-4c38-8ebd-27a6bbada3b6"
   ]
 }
