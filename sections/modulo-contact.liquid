@@ -1,0 +1,169 @@
+<div class="section-contact-message">
+
+    <div class="contact-message">
+        <div class="contact-message__title">
+            <h2>{{ section.settings.title }}</h2>
+        </div>
+        <div class="contact-message__form">
+            <h5>{{ section.settings.form_title }}</h5>
+            <div class="contact-message__form__form">
+
+                {%- assign formId = 'ContactForm' -%}
+                {% form 'contact', id: formId %}
+            
+                  <input type="hidden" name="contact[tags]" value="ContactForm">
+                  <div class="form-container">
+                    <div class="col-6">
+                      <div class="form-input">
+                        <input type="text" id="{{ formId }}-name" name="contact[name]" placeholder="NAME" required>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-input">
+                        <input
+                          type="email"
+                          id="{{ formId }}-email"
+                          name="contact[email]"
+                          autocorrect="off"
+                          autocapitalize="off"
+                          aria-required="true" 
+                          placeholder="EMAIL" 
+                          required
+                          >
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-input">
+                        <textarea rows="10" id="{{ formId }}-message" name="contact[message]" placeholder="MESSAGE" required></textarea>
+                      </div>
+                    </div>
+            
+                    {%- if form.posted_successfully? -%}
+                        <p class="form-message form-message--success" data-form-status>
+                        {{ 'contact.form.post_success' | t }}
+                        </p>
+                    {%- endif -%}
+            
+                    {% comment %} <input type="hidden" id="hidden" name="contact[page]" value="{{ section.settings.hidden_text }}"> {% endcomment %}
+             
+                    <div class="col-12">
+                      <div class="form-input privacy">
+                        <input id="privacy" type="checkbox" name="customer[privacy]" required/>
+                        <label for="privacy" style="font-weight:normal">{{section.settings.privacy}}</label>
+                      </div>
+                    </div>
+            
+                    <input type="submit" class="btn" value="{{section.settings.btn_submit}}">
+            
+                  </div>
+            
+                {% endform %}
+              </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Contact form message",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "SE HAI DOMANDE, CONTATTACI"
+        },
+        {
+            "type": "text",
+            "id": "form_title",
+            "label": "Form Title",
+            "default": "MESSAGGIO"
+        },
+        {
+            "type": "richtext",
+            "id": "privacy",
+            "label": "Privacy"        
+        },
+        {
+            "type": "text",
+            "id": "btn_submit",
+            "label": "Submit button",
+            "default": "INVIA"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Contact form message"
+        }
+    ]
+  }
+{% endschema %}
+
+
+{% style %}
+.section-newsletter-image {
+    background: #000;
+    color: #fff;
+}
+.newsletter-image {
+    display: flex;
+    flex-wrap: wrap;
+}
+.newsletter-image__form {
+    width: 60%;
+}
+.newsletter-image__image {
+    width: 40%;
+}
+.newsletter-image__form__content {
+    padding: 100px 40px 100px 100px;
+    max-width: 690px;
+}
+input.newsletter__input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+input.newsletter__input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+input.newsletter__input::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+}
+
+input#Contact-Newsletter-email {
+    border: none;
+    border-bottom: 2px solid;
+    padding: 10px 0;
+    width: 340px;
+    margin-right: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: .3em;
+}
+button.btn.newsletter__submit {
+    border: 1px solid #797979;
+    min-width: 170px;
+    font-size: 12px;
+}
+.newsletter-image__form__description {
+    font-size: 20px;
+    margin: 40px 0;
+}
+.newsletter-image__image img {
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .newsletter-image__form ,
+    .newsletter-image__image {
+        width: 100%;
+    }
+}
+
+
+{% endstyle %}
+
+
