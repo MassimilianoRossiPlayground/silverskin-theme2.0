@@ -5,12 +5,13 @@
 
             {% if block.settings.direction_from == "left" %}
                 {% assign direction_from = "left" %}
+                {% assign transform_direction = "top left" %}
               {% else %}
                 {% assign direction_from = "right" %}
+                {% assign transform_direction = "top right" %}
               {% endif %}
 
-              
-            <img style="position: absolute; top: {{ block.settings.cord_y}}px;{{direction_from}}: {{ block.settings.cord_x}}%;" src="{{ block.settings.image | img_url: 'master' }}" alt="silverskin">
+            <img style="position: absolute; top: {{ block.settings.cord_y}}px;{{direction_from}}: {{ block.settings.cord_x}}%;transform-origin: {{transform_direction}};" src="{{ block.settings.image | img_url: 'master' }}" alt="silverskin">
         {% endfor %}
     </div>
 
@@ -87,6 +88,42 @@
     background: #d9d9d9;
 }
 
+@media screen and (max-width: 1440px) {
+    .masonry-gallery img {
+        transform: scale(0.8);
+    }
+}
+@media screen and (max-width: 991px) {
+    .masonry-gallery img {
+        transform: scale(0.6);
+    }
+}
+@media screen and (max-width: 768px) {
+    .masonry-gallery {
+        display: flex;
+        overflow-x: scroll;
+        height: 400px !important;
+        overflow-y: hidden;
+    }
+    .masonry-gallery img {
+        position: relative !important;
+        transform: none;
+        width: 100%;
+        height: 100%;
+        top: unset !important;
+        left: unset !important;
+        right: unset !important;
+    }
+    .masonry-gallery::-webkit-scrollbar {
+        height: 4px;
+        width: 4px;
+        background: gray;
+    }
+    .masonry-gallery::-webkit-scrollbar-thumb:horizontal {
+        background: #000;
+        border-radius: 10px;
+    }
+}
 
 {% endstyle %}
 
