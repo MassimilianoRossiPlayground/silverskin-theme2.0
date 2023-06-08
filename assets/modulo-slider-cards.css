@@ -96,8 +96,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    .slider-cards .slider-navigation {
-        display: none;
+    .slider-cards .slider-navigation,
+    .slider-cards .swiper-pagination {
+        display: none!important;
     }
     .cards-slider .card-box .no-desk {
         display: block;

@@ -1,6 +1,6 @@
 <div class="section-masonry-gallery">
 
-    <div class="masonry-gallery" style="height: {{section.settings.gallery_height}}px;">
+    <div class="masonry-gallery only-desk" style="height: {{section.settings.gallery_height}}px;">
         {% for block in section.blocks %}
 
             {% if block.settings.direction_from == "left" %}
@@ -15,6 +15,21 @@
         {% endfor %}
     </div>
 
+    <div class="masonry-gallery only-mob" style="height: {{section.settings.gallery_height_mob}}px;">
+        {% for block in section.blocks %}
+
+            {% if block.settings.direction_from == "left" %}
+                {% assign direction_from = "left" %}
+                {% assign transform_direction = "top left" %}
+              {% else %}
+                {% assign direction_from = "right" %}
+                {% assign transform_direction = "top right" %}
+              {% endif %}
+
+            <img style="position: absolute; top: {{ block.settings.cord_y_mob}}px;{{direction_from}}: {{ block.settings.cord_x_mob}}%;transform-origin: {{transform_direction}};" src="{{ block.settings.image | img_url: 'master' }}" alt="silverskin">
+        {% endfor %}
+    </div>
+
 </div>
 
 {% schema %}
@@ -26,6 +41,11 @@
             "type": "number",
             "id": "gallery_height",
             "label": "Gallery Height in px"
+        },
+        {
+            "type": "number",
+            "id": "gallery_height_mob",
+            "label": "Gallery Height Mobile in px"
         }
     ],
     "blocks": [
@@ -57,12 +77,22 @@
             {
                 "type": "number",
                 "id": "cord_x",
-                "label": "Coordinata  in % da 0 a 100"
+                "label": "Coordinata X in % da 0 a 100"
             },
             {
                 "type": "number",
                 "id": "cord_y",
                 "label": "Coordinata Y in px"
+            },
+            {
+                "type": "number",
+                "id": "cord_x_mob",
+                "label": "Coordinata Mobile X in % da 0 a 100"
+            },
+            {
+                "type": "number",
+                "id": "cord_y_mob",
+                "label": "Coordinata Mobile Y in px"
             }
         ]
       }
@@ -98,7 +128,8 @@
         transform: scale(0.6);
     }
 }
-@media screen and (max-width: 768px) {
+
+/* @media screen and (max-width: 768px) {
     .masonry-gallery {
         display: flex;
         overflow-x: scroll;
@@ -123,7 +154,7 @@
         background: #000;
         border-radius: 10px;
     }
-}
+} */
 
 {% endstyle %}
 
