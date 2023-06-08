@@ -178,10 +178,19 @@
             "cord_x": 0,
             "cord_y": 0
           }
+        },
+        "7d068a2a-e6b1-4e33-8a8f-e53e069d5559": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_6483441_1_1.jpg",
+            "cord_x": 20,
+            "cord_y": 500
+          }
         }
       },
       "block_order": [
-        "template--19421578428729__2b57f855-38a4-425f-bbff-a6b7552977df-1686216511496eb766-0"
+        "template--19421578428729__2b57f855-38a4-425f-bbff-a6b7552977df-1686216511496eb766-0",
+        "7d068a2a-e6b1-4e33-8a8f-e53e069d5559"
       ],
       "settings": {
         "gallery_height": 3327
