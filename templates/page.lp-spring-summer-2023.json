@@ -137,7 +137,9 @@
           "type": "product_block",
           "settings": {
             "product_id_man": "stay-fresh-canotta-ciclismo-anthracite-1",
-            "product_id_woman": "stay-fresh-canotta-ciclismo-anthracite"
+            "product_id_woman": "stay-fresh-canotta-ciclismo-anthracite",
+            "image_man": "shopify:\/\/shop_images\/manica_corta.png",
+            "image_woman": "shopify:\/\/shop_images\/manica_corta.png"
           }
         },
         "f6391d4b-8d69-4d38-a2df-5246523c8ffe": {
