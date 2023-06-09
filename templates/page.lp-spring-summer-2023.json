@@ -191,7 +191,8 @@
             "cord_y": 0,
             "direction_from_mob": "left",
             "cord_x_mob": 0,
-            "cord_y_mob": 0
+            "cord_y_mob": 0,
+            "scale_image_mobile": 50
           }
         },
         "7d068a2a-e6b1-4e33-8a8f-e53e069d5559": {
@@ -201,9 +202,10 @@
             "direction_from": "left",
             "cord_x": 20,
             "cord_y": 500,
-            "direction_from_mob": "right",
-            "cord_x_mob": 0,
-            "cord_y_mob": 200
+            "direction_from_mob": "left",
+            "cord_x_mob": 30,
+            "cord_y_mob": 160,
+            "scale_image_mobile": 50
           }
         },
         "3cac1968-bc2a-4529-a110-795b772b6bc4": {
@@ -213,9 +215,10 @@
             "direction_from": "right",
             "cord_x": 0,
             "cord_y": 120,
-            "direction_from_mob": "left",
+            "direction_from_mob": "right",
             "cord_x_mob": 0,
-            "cord_y_mob": 400
+            "cord_y_mob": 650,
+            "scale_image_mobile": 40
           }
         },
         "2b113cb2-670c-4e11-93ba-22dc45f8972a": {
@@ -227,7 +230,8 @@
             "cord_y": 666,
             "direction_from_mob": "right",
             "cord_x_mob": 0,
-            "cord_y_mob": 600
+            "cord_y_mob": 0,
+            "scale_image_mobile": 30
           }
         },
         "52fea3ce-e836-4334-a84b-3dd13826c989": {
@@ -238,8 +242,9 @@
             "cord_x": 5,
             "cord_y": 1040,
             "direction_from_mob": "left",
-            "cord_x_mob": 0,
-            "cord_y_mob": 950
+            "cord_x_mob": 10,
+            "cord_y_mob": 325,
+            "scale_image_mobile": 30
           }
         },
         "8759048f-6fa2-4cc9-ae1f-4e975046ec85": {
@@ -251,7 +256,8 @@
             "cord_y": 1280,
             "direction_from_mob": "right",
             "cord_x_mob": 0,
-            "cord_y_mob": 1200
+            "cord_y_mob": 370,
+            "scale_image_mobile": 55
           }
         },
         "36b86ce1-53ff-4d2b-88aa-a2afb26144f4": {
@@ -263,19 +269,8 @@
             "cord_y": 1640,
             "direction_from_mob": "left",
             "cord_x_mob": 0,
-            "cord_y_mob": 1450
-          }
-        },
-        "1c14ee12-4dec-4995-8fc7-52ed4f4d1687": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-58_3.jpg",
-            "direction_from": "right",
-            "cord_x": 0,
-            "cord_y": 1340,
-            "direction_from_mob": "right",
-            "cord_x_mob": 0,
-            "cord_y_mob": 1800
+            "cord_y_mob": 500,
+            "scale_image_mobile": 50
           }
         },
         "2e7a8904-1164-41d2-b760-625ad3bff02d": {
@@ -287,7 +282,8 @@
             "cord_y": 2617,
             "direction_from_mob": "left",
             "cord_x_mob": 0,
-            "cord_y_mob": 2100
+            "cord_y_mob": 1000,
+            "scale_image_mobile": 50
           }
         },
         "b1c5a302-559b-4b83-b992-77961f29c8a4": {
@@ -297,9 +293,10 @@
             "direction_from": "left",
             "cord_x": 20,
             "cord_y": 2520,
-            "direction_from_mob": "right",
-            "cord_x_mob": 0,
-            "cord_y_mob": 2400
+            "direction_from_mob": "left",
+            "cord_x_mob": 40,
+            "cord_y_mob": 950,
+            "scale_image_mobile": 30
           }
         },
         "bea89176-69d7-4132-831f-9908f77ec202": {
@@ -311,7 +308,8 @@
             "cord_y": 2572,
             "direction_from_mob": "left",
             "cord_x_mob": 0,
-            "cord_y_mob": 2700
+            "cord_y_mob": 1299,
+            "scale_image_mobile": 80
           }
         },
         "7004b69c-b0ed-4501-be85-508984dab9f5": {
@@ -321,7 +319,23 @@
             "direction_from": "right",
             "cord_x": 10,
             "cord_y": 2360,
-            "direction_from_mob": "left"
+            "direction_from_mob": "left",
+            "cord_x_mob": 0,
+            "cord_y_mob": 800,
+            "scale_image_mobile": 50
+          }
+        },
+        "1c14ee12-4dec-4995-8fc7-52ed4f4d1687": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-58_3.jpg",
+            "direction_from": "right",
+            "cord_x": 0,
+            "cord_y": 1340,
+            "direction_from_mob": "right",
+            "cord_x_mob": 0,
+            "cord_y_mob": 1200,
+            "scale_image_mobile": 30
           }
         }
       },
@@ -333,15 +347,15 @@
         "52fea3ce-e836-4334-a84b-3dd13826c989",
         "8759048f-6fa2-4cc9-ae1f-4e975046ec85",
         "36b86ce1-53ff-4d2b-88aa-a2afb26144f4",
-        "1c14ee12-4dec-4995-8fc7-52ed4f4d1687",
         "2e7a8904-1164-41d2-b760-625ad3bff02d",
         "b1c5a302-559b-4b83-b992-77961f29c8a4",
         "bea89176-69d7-4132-831f-9908f77ec202",
-        "7004b69c-b0ed-4501-be85-508984dab9f5"
+        "7004b69c-b0ed-4501-be85-508984dab9f5",
+        "1c14ee12-4dec-4995-8fc7-52ed4f4d1687"
       ],
       "settings": {
         "gallery_height": 3327,
-        "gallery_height_mob": 2900
+        "gallery_height_mob": 1550
       }
     },
     "65a04109-d795-42a5-8402-5f4e0525844a": {
