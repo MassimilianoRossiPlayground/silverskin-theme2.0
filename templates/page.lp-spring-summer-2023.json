@@ -247,7 +247,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-30_1.jpg",
             "direction_from": "left",
-            "cord_x": 20,
+            "cord_x": 24,
             "cord_y": 1280,
             "direction_from_mob": "right",
             "cord_x_mob": 0,
