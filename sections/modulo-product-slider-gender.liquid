@@ -30,10 +30,10 @@
                         {% assign p_id_woman = product_block.settings.product_id_woman %}
                         
                         <div class="swiper-slide">
-                            <img src="{{  all_products[p_id_man].featured_image | img_url: '1024x' }}" alt="best seller silverskin">
+                            {% comment %} <img src="{{  all_products[p_id_man].featured_image | img_url: '1024x' }}" alt="best seller silverskin"> {% endcomment %}
+                            <img src="{{ product_block.settings.image_man | img_url: 'master' }}" alt="best seller silverskin">
                             <h4>{{ all_products[p_id_man].title }}</h4>    
-                            <div class="product-slider-gender-description">Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comodo e leggero, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento
-                            {{ all_products[p_id_man].metafields.descriptors.subtitle }}</div>
+                            <div class="product-slider-gender-description">{{ product_block.settings.description }}</div>
                             <div class="product-slider-gender-cta">
                                 <a class="product-slider-gender-cta__link" 
                                     attr-title="{{ all_products[p_id_man].title }}" 
@@ -68,9 +68,9 @@
                         {% assign p_id_woman = product_block.settings.product_id_woman %}
                         
                         <div class="swiper-slide">
-                            <img src="{{  all_products[p_id_woman].featured_image | img_url: '1024x' }}" alt="best seller silverskin">
+                            <img src="{{ product_block.settings.image_woman | img_url: 'master' }}" alt="best seller silverskin">
                             <h4>{{ all_products[p_id_woman].title }}</h4>    
-                            <div class="product-slider-gender-description">{{ all_products[p_id_woman].metafields.descriptors.subtitle }}</div>
+                            <div class="product-slider-gender-description">{{ product_block.settings.description }}</div>
                             <div class="product-slider-gender-cta">
                                 <a class="product-slider-gender-cta__link" 
                                     attr-title="{{ all_products[p_id_man].title }}" 
@@ -171,6 +171,11 @@
                 "type": "image_picker",
                 "id": "image_woman",
                 "label": "Image Woman"
+            },
+            {
+                "type": "text",
+                "id": "description",
+                "label": "Description"
             }
         ]
       }
