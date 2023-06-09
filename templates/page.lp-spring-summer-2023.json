@@ -139,21 +139,28 @@
             "product_id_man": "stay-fresh-canotta-ciclismo-anthracite-1",
             "product_id_woman": "stay-fresh-canotta-ciclismo-anthracite",
             "image_man": "shopify:\/\/shop_images\/manica_corta.png",
-            "image_woman": "shopify:\/\/shop_images\/manica_corta.png"
+            "image_woman": "shopify:\/\/shop_images\/manica_corta.png",
+            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comodo e leggero, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento"
           }
         },
         "f6391d4b-8d69-4d38-a2df-5246523c8ffe": {
           "type": "product_block",
           "settings": {
             "product_id_man": "stay-fresh-bike-socks-anthracite",
-            "product_id_woman": "stay-fresh-bike-socks-pearlgrey-logo"
+            "product_id_woman": "stay-fresh-bike-socks-pearlgrey-logo",
+            "image_man": "shopify:\/\/shop_images\/manica_corta.png",
+            "image_woman": "shopify:\/\/shop_images\/manica_corta.png",
+            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comodo e leggero, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento"
           }
         },
         "b33edf56-946d-408a-b4f0-2469a609c6ed": {
           "type": "product_block",
           "settings": {
             "product_id_man": "copia-del-stay-fresh-canotta-termica-pearlgrey",
-            "product_id_woman": "copia-del-stay-fresh-canotta-termica-anthracite"
+            "product_id_woman": "copia-del-stay-fresh-canotta-termica-anthracite",
+            "image_man": "shopify:\/\/shop_images\/manica_corta.png",
+            "image_woman": "shopify:\/\/shop_images\/manica_corta.png",
+            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comodo e leggero, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento"
           }
         }
       },
