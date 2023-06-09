@@ -26,7 +26,7 @@
                 {% assign transform_direction_mob = "top right" %}
               {% endif %}
 
-            <img style="position: absolute; top: {{ block.settings.cord_y_mob}}px;{{direction_from_mob}}: {{ block.settings.cord_x_mob}}%;transform-origin: {{transform_direction_mob}};" src="{{ block.settings.image | img_url: 'master' }}" alt="silverskin">
+            <img style="position: absolute; top: {{ block.settings.cord_y_mob}}px;{{direction_from_mob}}: {{ block.settings.cord_x_mob}}%;transform-origin: {{transform_direction_mob}}; transform: scale({{scale_image_mobile | divided_by: 10.0}});" src="{{ block.settings.image | img_url: 'master' }}" alt="silverskin">
         {% endfor %}
     </div>
 
@@ -109,6 +109,11 @@
                 "type": "number",
                 "id": "cord_y_mob",
                 "label": "Coordinata Mobile Y in px"
+            },
+            {
+                "type": "number",
+                "id": "scale_image_mobile",
+                "label": "Scale image mobile"
             }
         ]
       }
