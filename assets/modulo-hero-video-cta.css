@@ -25,7 +25,7 @@
 
 .hero-video-cta__content {
     position: absolute;
-    top: 50% !important;
+    top: 50%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -85,6 +85,10 @@
     section.hero-video-cta video {
         height: 70vh;
     }
+    .hero-video-cta__content {
+        width: 90%;
+        top: 50% !important;
+    }
     .hero-video-cta__content h2 {
         font-size: 40px;
     }
@@ -97,7 +101,5 @@
     .hero-video-cta__link a {
         min-width: 160px;
     }
-    .hero-video-cta__content {
-        width: 90%;
-    }
+
 }
