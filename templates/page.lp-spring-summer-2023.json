@@ -222,6 +222,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-37_1.jpg",
+            "direction_vertical_from": "top",
             "direction_from": "left",
             "cord_x": 0,
             "cord_y": 0,
@@ -235,6 +236,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_6483441_1_1.jpg",
+            "direction_vertical_from": "top",
             "direction_from": "left",
             "cord_x": 20,
             "cord_y": 500,
@@ -248,6 +250,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-39_1.jpg",
+            "direction_vertical_from": "top",
             "direction_from": "right",
             "cord_x": 0,
             "cord_y": 120,
@@ -261,6 +264,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-31_2.jpg",
+            "direction_vertical_from": "top",
             "direction_from": "right",
             "cord_x": 10,
             "cord_y": 666,
@@ -274,6 +278,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-34_1.png",
+            "direction_vertical_from": "top",
             "direction_from": "left",
             "cord_x": 5,
             "cord_y": 1040,
@@ -287,6 +292,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-30_1.jpg",
+            "direction_vertical_from": "top",
             "direction_from": "left",
             "cord_x": 24,
             "cord_y": 1280,
@@ -300,6 +306,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_6483441_2_1.jpg",
+            "direction_vertical_from": "top",
             "direction_from": "left",
             "cord_x": 0,
             "cord_y": 1640,
@@ -313,6 +320,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
+            "direction_vertical_from": "top",
             "direction_from": "left",
             "cord_x": 0,
             "cord_y": 2617,
@@ -326,6 +334,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_6483441_1.jpg",
+            "direction_vertical_from": "top",
             "direction_from": "left",
             "cord_x": 20,
             "cord_y": 2520,
@@ -339,9 +348,10 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-27_1.jpg",
+            "direction_vertical_from": "bottom",
             "direction_from": "right",
             "cord_x": 0,
-            "cord_y": 2572,
+            "cord_y": 0,
             "direction_from_mob": "left",
             "cord_x_mob": 0,
             "cord_y_mob": 1299,
@@ -352,6 +362,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-31_2_1.jpg",
+            "direction_vertical_from": "top",
             "direction_from": "right",
             "cord_x": 10,
             "cord_y": 2360,
@@ -365,6 +376,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-58_3.jpg",
+            "direction_vertical_from": "top",
             "direction_from": "right",
             "cord_x": 0,
             "cord_y": 1340,
