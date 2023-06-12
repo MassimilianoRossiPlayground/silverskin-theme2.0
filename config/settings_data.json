@@ -205,7 +205,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": false,
-              "menu": "",
+              "menu": "terms",
               "container_width": 15
             }
           },
@@ -221,7 +221,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "",
+              "menu": "donna",
               "container_width": 15
             }
           },
@@ -400,7 +400,7 @@
       "newsletter-popup": {
         "type": "newsletter-popup",
         "settings": {
-          "mode": "disabled",
+          "mode": "enabled",
           "popup_seconds": 40,
           "popup_days": 10,
           "popup_title": "",
@@ -438,7 +438,7 @@
             "type": "image",
             "settings": {
               "top_subheading": "",
-              "title": "Collezione <br>Stay Fresh",
+              "title": "I base layer <br>per la montagna",
               "title_size": 70,
               "subheading": "",
               "link": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Uomo+Stay-Fresh",
@@ -447,12 +447,13 @@
               "link_text_2": "Acquista Donna",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/HeroBanner-BiciStrada_30c7702e-7d04-45c1-b984-c289734c9ea7.jpg",
+              "image": "shopify:\/\/shop_images\/79b175ce-a8c4-4a85-9475-9773cc96d026.jpg",
               "focal_point": "80% 50%"
             }
           },
           "1578407199975": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "top_subheading": "",
               "title": "La tua temperatura<br> sempre",
@@ -470,6 +471,7 @@
           },
           "1578064016256": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "top_subheading": "",
               "title": "Comfort,<br>Traspirabilità<br>e Termoregolazione",
