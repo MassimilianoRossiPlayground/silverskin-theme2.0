@@ -354,7 +354,7 @@
             "cord_y": 0,
             "direction_from_mob": "left",
             "cord_x_mob": 0,
-            "cord_y_mob": 1299,
+            "cord_y_mob": 0,
             "scale_image_mobile": 80
           }
         },
