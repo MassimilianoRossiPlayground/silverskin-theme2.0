@@ -207,13 +207,24 @@
             "image_man": "shopify:\/\/shop_images\/manica_corta.png",
             "description": "Perfetta le attività più intense come il trail e lo skyrunning, questa canotta accelera l’evaporazione del sudore grazie alle lavorazioni di alleggerimento in corrispondenza di petto, addome e schiena."
           }
+        },
+        "0d1f1b56-a074-4197-b35b-a65134736ea4": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "",
+            "product_id_woman": "",
+            "image_man": "shopify:\/\/shop_images\/manica_corta.png",
+            "image_woman": "shopify:\/\/shop_images\/2.png",
+            "description": "Versatile e adatto per tutte le attività in montagna, il modello smanicato aderisce al torace senza comprimere, assicurando comfort, libertà di movimento e massima traspirabilità."
+          }
         }
       },
       "block_order": [
         "template--19421578428729__1c40a134-9d83-4e92-820f-4c85f49b94c1-1686129954ea758d32-0",
         "f6391d4b-8d69-4d38-a2df-5246523c8ffe",
         "b33edf56-946d-408a-b4f0-2469a609c6ed",
-        "a07bf90b-1101-41fe-a500-25c10d1ba131"
+        "a07bf90b-1101-41fe-a500-25c10d1ba131",
+        "0d1f1b56-a074-4197-b35b-a65134736ea4"
       ],
       "settings": {
         "title": "i baselayer per la montagna",
