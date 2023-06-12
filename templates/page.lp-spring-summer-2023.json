@@ -454,8 +454,8 @@
       "type": "modulo-newsletter-image",
       "settings": {
         "sup_title": "SILVERSKIN",
-        "title": "10% di sconto sul tuo primo ordine!",
-        "description": "<p>Iscriviti alla newsletter e ricevi un codice sconto del 10% da utilizzare sul tuo primo ordine.<br\/><br\/>Resta sempre aggiornato sulle ultime novità, sulle info dal mondo Silverskin e su promozioni imperdibili!<\/p>",
+        "title": "10% off se partecipi alla community e ti registri alla newsletter",
+        "description": "",
         "image": "shopify:\/\/shop_images\/4.jpg",
         "mail_placeholder": "INSERISCI LA TUA MAIL",
         "submit_text": "ISCRIVITI"
