@@ -33,72 +33,70 @@
         "cta_link": ""
       }
     },
-    "0580ac93-9f0f-4b26-8206-c413c213ae5b": {
-      "type": "modulo-double-slider",
-      "blocks": {
-        "template--19421578428729__0580ac93-9f0f-4b26-8206-c413c213ae5b-1686558708fbcb917c-0": {
-          "type": "slide",
-          "settings": {
-            "title": "Daniele Milesi, istruttore CAI",
-            "description": "<p>“La montagna? È un luogo dove mi sento molto più a casa rispetto a quella vera, in città. È un posto dell’anima. A Roncobello, dice qualcuno, c’è una sorta di campo magnetico che attrae tipi strani e spinge noi a tornare lì, per un nuovo incontro con lo stupore, la meraviglia e alcuni attimi di perfezione. Qualcosa che non ti basta mai, un’overdose di bellezza che vivi e progetti per tutta settimana”<\/p>",
-            "cta1text": "",
-            "cta1link": "",
-            "cta2text": "",
-            "cta2link": "",
-            "image": "shopify:\/\/shop_images\/test-01.png"
-          }
-        },
-        "94472508-9ede-4ce0-b86d-3eb38fa95feb": {
-          "type": "slide",
-          "settings": {
-            "title": "Andrea Bormida, aspirante guida alpina - Collegio Lombardia",
-            "description": "<p>“Il mio primo ricordo, da bambino, parla del desiderio insoddisfatto di raggiungere il punto più alto, per scoprire cosa ci fosse di là. La montagna è sempre riuscita ad assecondare il mio lato nomade ma il rapporto con lei chiede tanto in cambio: costa sacrificare alcuni affetti, costa fatica, la sveglia presto e il tempo. È una passione totalizzante quanto egoistica, di cui a volte capisci di avere bisogno”.<\/p>",
-            "cta1text": "",
-            "cta1link": "",
-            "cta2text": "",
-            "cta2link": "",
-            "image": "shopify:\/\/shop_images\/test-02.png"
-          }
-        }
-      },
-      "block_order": [
-        "template--19421578428729__0580ac93-9f0f-4b26-8206-c413c213ae5b-1686558708fbcb917c-0",
-        "94472508-9ede-4ce0-b86d-3eb38fa95feb"
-      ],
-      "settings": {
-        "orientation": "images_left",
-        "title": "",
-        "description": ""
-      }
-    },
     "a596bdb9-73db-426d-bd29-a49764aede1b": {
       "type": "modulo-slider-box-text",
       "blocks": {
         "template--19421578428729__a596bdb9-73db-426d-bd29-a49764aede1b-1686056530251074cf-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/m-fresh-base-layer-maglia-corta-v-anthracite-front_fd000ce4-c4d1-4aa8-8a0e-19d162a2ab00.jpg"
+            "image": "shopify:\/\/shop_images\/testimonial-01_2x_13838195-3519-45ed-88ed-e375c9a631e2.png",
+            "sup_title": "SILVERSKIN",
+            "title": "Daniele Milesi, istruttore CAI",
+            "description": "<p>“La montagna? È un luogo dove mi sento molto più a casa rispetto a quella vera, in città. È un posto dell’anima. A Roncobello, dice qualcuno, c’è una sorta di campo magnetico che attrae tipi strani e spinge noi a tornare lì, per un nuovo incontro con lo stupore, la meraviglia e alcuni attimi di perfezione. Qualcosa che non ti basta mai, un’overdose di bellezza che vivi e progetti per tutta settimana”<\/p>",
+            "cta_1_text": "",
+            "cta_1_link": "",
+            "cta_2_text": "",
+            "cta_2_link": ""
           }
         },
         "e2d2b7e3-761c-4371-b257-178e8f79d19d": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/m-fresh-base-layer-maglia-corta-v-pearlgrey-detail-02.jpg"
+            "image": "shopify:\/\/shop_images\/testimonial-03_2x_b6a1c59f-e321-46bf-ae19-32754795fad2.png",
+            "sup_title": "SILVERSKIN",
+            "title": "Andrea Bormida, aspirante guida alpina - Collegio Lombardia",
+            "description": "<p>“Il mio primo ricordo, da bambino, parla del desiderio insoddisfatto di raggiungere il punto più alto, per scoprire cosa ci fosse di là. La montagna è sempre riuscita ad assecondare il mio lato nomade ma il rapporto con lei chiede tanto in cambio: costa sacrificare alcuni affetti, costa fatica, la sveglia presto e il tempo. È una passione totalizzante quanto egoistica, di cui a volte capisci di avere bisogno”.<\/p>",
+            "cta_1_text": "",
+            "cta_1_link": "",
+            "cta_2_text": "",
+            "cta_2_link": ""
           }
         },
         "4cdeceb1-c28d-490e-b56b-b0763e4a172f": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/m-fresh-base-layer-maglia-corta-v-pearlgrey-front_95e85a31-9e22-4d4e-a4c3-31994bf9ab82.jpg"
+            "image": "shopify:\/\/shop_images\/test-01.png",
+            "sup_title": "SILVERSKIN",
+            "title": "Giacomo Regallo, aspirante guida alpina",
+            "description": "<p>“Scegliendo di vivere in montagna ho fatto una scelta di libertà, soprattutto dall’idea di vivere con meno, perché è tanto quello che ha da insegnarti. Il salire in cima ad una parete che non porta a nulla, in sé, è inutile per certi versi ma fondamentale per progredire come individuo, come società. E poi è terapeutica: non sarei davvero contento senza lo stato di tranquillità e distensione in cui mi pone”.  <\/p>",
+            "cta_1_text": "",
+            "cta_1_link": "",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        },
+        "35fc76d5-09db-489c-bbb6-1fbd0facde88": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/test-03.png",
+            "sup_title": "SILVERSKIN",
+            "title": "Raffaele Tangari, aspirante guida alpina",
+            "description": "<p>“La mia casa è l’emozione che provo in montagna. Uno stato di calma, di concentrazione e di tensione positiva, che mi permette di staccare la testa e di condividere. Non posso farne a meno, è la mia espressione artistica. Mi ha insegnato ad esser paziente e motivato e soprattutto sincero con me stesso: ti mette a nudo, oltre che alla prova”. <\/p>",
+            "cta_1_text": "",
+            "cta_1_link": "",
+            "cta_2_text": "",
+            "cta_2_link": ""
           }
         }
       },
       "block_order": [
         "template--19421578428729__a596bdb9-73db-426d-bd29-a49764aede1b-1686056530251074cf-0",
         "e2d2b7e3-761c-4371-b257-178e8f79d19d",
-        "4cdeceb1-c28d-490e-b56b-b0763e4a172f"
+        "4cdeceb1-c28d-490e-b56b-b0763e4a172f",
+        "35fc76d5-09db-489c-bbb6-1fbd0facde88"
       ],
       "settings": {
+        "enable_text_slider": "yes",
         "sup_title": "SILVERSKIN",
         "title": "STAY FRESH 2023",
         "description": "<p>La tua forza è preziosa. Per questo integriamo <strong>l'argento<\/strong> nel nostro rivoluzionario intimo termico. Il risultato è una linea di prodotti <strong>senza cuciture<\/strong> che portano <strong>comfort, traspirabilità e termoregolazione<\/strong> a un livello superiore.<\/p>",
@@ -432,7 +430,6 @@
     "main",
     "180300a6-2f84-4cda-b590-06e2f7494ce9",
     "1cf481ed-804f-43aa-99e5-b39cac39cc4b",
-    "0580ac93-9f0f-4b26-8206-c413c213ae5b",
     "a596bdb9-73db-426d-bd29-a49764aede1b",
     "76462d61-d1ee-488f-9601-57a0b220fdf4",
     "1c40a134-9d83-4e92-820f-4c85f49b94c1",
