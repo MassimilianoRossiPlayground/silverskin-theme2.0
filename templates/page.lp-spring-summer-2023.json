@@ -202,8 +202,8 @@
         "a07bf90b-1101-41fe-a500-25c10d1ba131": {
           "type": "product_block",
           "settings": {
-            "product_id_man": "",
-            "product_id_woman": "",
+            "product_id_man": "stay-fresh-canotta-ciclismo-anthracite",
+            "product_id_woman": "copia-del-stay-fresh-canotta-termica-anthracite",
             "image_man": "shopify:\/\/shop_images\/manica_corta.png",
             "image_woman": "shopify:\/\/shop_images\/2.png",
             "description": "Perfetta le attività più intense come il trail e lo skyrunning, questa canotta accelera l’evaporazione del sudore grazie alle lavorazioni di alleggerimento in corrispondenza di petto, addome e schiena."
@@ -212,8 +212,8 @@
         "0d1f1b56-a074-4197-b35b-a65134736ea4": {
           "type": "product_block",
           "settings": {
-            "product_id_man": "",
-            "product_id_woman": "",
+            "product_id_man": "copia-del-stay-fresh-bike-socks-anthracite",
+            "product_id_woman": "copia-del-stay-fresh-bike-socks-anthracite",
             "image_man": "shopify:\/\/shop_images\/manica_corta.png",
             "image_woman": "shopify:\/\/shop_images\/2.png",
             "description": "Versatile e adatto per tutte le attività in montagna, il modello smanicato aderisce al torace senza comprimere, assicurando comfort, libertà di movimento e massima traspirabilità."
@@ -222,8 +222,8 @@
         "8297179f-7ee8-45a8-8744-b313767bb291": {
           "type": "product_block",
           "settings": {
-            "product_id_man": "",
-            "product_id_woman": "",
+            "product_id_man": "base-layer-termico-girocollo-manica-corta-grigio-perla",
+            "product_id_woman": "stay-fresh-maglia-termica-manica-corta-girocollo-pearlgrey-1",
             "image_man": "shopify:\/\/shop_images\/manica_corta.png",
             "image_woman": "shopify:\/\/shop_images\/2.png",
             "description": "Ideale per l’alta quota, questo base layer preserva il calore corporeo, isolando dalle temperature più rigide dai 3.000 mt in su. Traspirante e confortevole, favorisce la dispersione del sudore per una pelle sempre asciutta."
