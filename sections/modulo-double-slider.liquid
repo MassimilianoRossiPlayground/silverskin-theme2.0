@@ -4,11 +4,18 @@
 <div class="container-sliders_markers">
 
     <div class="swiper-container container-left">
-        <div class="fixed-content">
-            <h2>{{ section.settings.title }}</h2>
-            <div>{{ section.settings.description }}</div>
-            <span class="line-copy"></span>
-        </div>
+
+        {% if section.settings.title != blank or section.settings.title != blank %}
+            <div class="fixed-content">
+                {% if section.settings.title != blank %}
+                    <h2>{{ section.settings.title }}</h2>
+                {% endif %}
+                {% if section.settings.title != blank %}
+                    <div>{{ section.settings.description }}</div>
+                {% endif %}
+                <span class="line-copy"></span>
+            </div>
+        {% endif %}
 
         <div class="swiper-wrapper">
             
@@ -20,10 +27,16 @@
 
                         <div>{{block.settings.description}}</div>
 
-                        <div class="home__specs__links">
-                            <a class="home__specs__cta home__specs__cta--black text-link" href="{{block.settings.cta1link}}">{{block.settings.cta1text}}</a>
-                            <a class="home__specs__cta text-link"  href="{{block.settings.cta2link}}">{{block.settings.cta2text}}</a>
-                        </div>
+                        {% if block.settings.cta1text != blank or block.settings.cta2text != blank %}
+                            <div class="home__specs__links">
+                                {% if block.settings.cta1text != blank %}
+                                    <a class="home__specs__cta home__specs__cta--black text-link" href="{{block.settings.cta1link}}">{{block.settings.cta1text}}</a>
+                                {% endif %}
+                                {% if block.settings.cta2text != blank %}
+                                    <a class="home__specs__cta text-link"  href="{{block.settings.cta2link}}">{{block.settings.cta2text}}</a>
+                                {% endif %}
+                            </div>
+                        {% endif %}
 
                     </div>
                 </div>
