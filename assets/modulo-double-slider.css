@@ -4,6 +4,9 @@
     height: 715px;
     position: relative;
 }
+.container-sliders_markers.row-reverse {
+    flex-direction: row-reverse;
+}
 
 .container-sliders_markers .swiper-container {
     width: 50%;

@@ -1,7 +1,12 @@
 <link rel="stylesheet" href="{{ 'modulo-double-slider.css' | asset_url }}" type="text/css">
 <script src="{{ 'modulo-double-slider.js' | asset_url }}" defer="defer"></script>
 
-<div class="container-sliders_markers">
+{% if section.settings.orientation == "images_left" %}
+    {% assign class_direction = "row-reverse"%}
+{% else %}
+    {% assign class_direction = ""%}
+{% endif %}
+<div class="container-sliders_markers {{class_direction}}">
 
     <div class="swiper-container container-left">
 
@@ -95,7 +100,7 @@
                 "label": "Images right"
               }
             ],
-            "default": "images_left",
+            "default": "images_right",
             "info": "Slider orientation."
         },
         {
