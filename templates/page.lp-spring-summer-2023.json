@@ -33,6 +33,43 @@
         "cta_link": ""
       }
     },
+    "0580ac93-9f0f-4b26-8206-c413c213ae5b": {
+      "type": "modulo-double-slider",
+      "blocks": {
+        "template--19421578428729__0580ac93-9f0f-4b26-8206-c413c213ae5b-1686558708fbcb917c-0": {
+          "type": "slide",
+          "settings": {
+            "title": "Daniele Milesi, istruttore CAI",
+            "description": "<p>“La montagna? È un luogo dove mi sento molto più a casa rispetto a quella vera, in città. È un posto dell’anima. A Roncobello, dice qualcuno, c’è una sorta di campo magnetico che attrae tipi strani e spinge noi a tornare lì, per un nuovo incontro con lo stupore, la meraviglia e alcuni attimi di perfezione. Qualcosa che non ti basta mai, un’overdose di bellezza che vivi e progetti per tutta settimana”<\/p>",
+            "cta1text": "",
+            "cta1link": "",
+            "cta2text": "",
+            "cta2link": "",
+            "image": "shopify:\/\/shop_images\/test-01.png"
+          }
+        },
+        "94472508-9ede-4ce0-b86d-3eb38fa95feb": {
+          "type": "slide",
+          "settings": {
+            "title": "Andrea Bormida, aspirante guida alpina - Collegio Lombardia",
+            "description": "<p>“Il mio primo ricordo, da bambino, parla del desiderio insoddisfatto di raggiungere il punto più alto, per scoprire cosa ci fosse di là. La montagna è sempre riuscita ad assecondare il mio lato nomade ma il rapporto con lei chiede tanto in cambio: costa sacrificare alcuni affetti, costa fatica, la sveglia presto e il tempo. È una passione totalizzante quanto egoistica, di cui a volte capisci di avere bisogno”.<\/p>",
+            "cta1text": "",
+            "cta1link": "",
+            "cta2text": "",
+            "cta2link": "",
+            "image": "shopify:\/\/shop_images\/test-02.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--19421578428729__0580ac93-9f0f-4b26-8206-c413c213ae5b-1686558708fbcb917c-0",
+        "94472508-9ede-4ce0-b86d-3eb38fa95feb"
+      ],
+      "settings": {
+        "title": "POWER IS PRECIOUS",
+        "description": "<p>La tua forza è preziosa. Per questo integriamo <strong>l'argento<\/strong> nel nostro rivoluzionario intimo termico. Il risultato è una linea di prodotti <strong>senza cuciture<\/strong> che portano <strong>comfort, traspirabilità e termoregolazione<\/strong> a un livello superiore.<\/p>"
+      }
+    },
     "a596bdb9-73db-426d-bd29-a49764aede1b": {
       "type": "modulo-slider-box-text",
       "blocks": {
@@ -394,6 +431,7 @@
     "main",
     "180300a6-2f84-4cda-b590-06e2f7494ce9",
     "1cf481ed-804f-43aa-99e5-b39cac39cc4b",
+    "0580ac93-9f0f-4b26-8206-c413c213ae5b",
     "a596bdb9-73db-426d-bd29-a49764aede1b",
     "76462d61-d1ee-488f-9601-57a0b220fdf4",
     "1c40a134-9d83-4e92-820f-4c85f49b94c1",
