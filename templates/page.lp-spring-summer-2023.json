@@ -113,7 +113,7 @@
           "type": "cards",
           "settings": {
             "title": "Termoregolazione",
-            "text": "Mantiene la tua temperatura costante anche nei freddi estremi",
+            "text": "Mantiene la temperatura corporea costante, sempre",
             "image_desk": "shopify:\/\/shop_images\/unnamed5.png",
             "image_mob": "shopify:\/\/shop_images\/unnamed5.png"
           }
@@ -122,7 +122,7 @@
           "type": "cards",
           "settings": {
             "title": "Traspirabilità",
-            "text": "Equilibrio ottimale tra  ventilazione e ritenzione del calore",
+            "text": "Rapida evaporazione del sudore per una pelle asciutta",
             "image_desk": "shopify:\/\/shop_images\/unnamed3.png",
             "image_mob": "shopify:\/\/shop_images\/unnamed3.png"
           }
