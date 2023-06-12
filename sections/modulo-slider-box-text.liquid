@@ -32,6 +32,7 @@
 
     </div>
 
+    {% if section.settings.enable_text_slider == "no" %}
     <div class="slider-box-text__content">
         <div class="slider-box-text__content__text">
             <h5>{{ section.settings.sup_title }}</h5>
@@ -52,6 +53,40 @@
             </div>
         </div>
     </div>
+    {% else %}
+    <div class="slider-box-text__content">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+
+                {% for block in section.blocks %}
+
+                    <div class="swiper-slide">
+                        <div class="slider-box-text__content__text">
+                            <h5>{{ block.settings.sup_title }}</h5>
+                            <h2>{{ block.settings.title }}</h2>
+                            <span class="line-copy"></span>
+                            <div class="slider-box-text__content__text__descr">{{ block.settings.description }}</div>
+                            <div class="slider-box-text-ctas">
+                                {% if block.settings.cta_1_text != blank %}           
+                                <a class="btn btn-grey" href="{{block.settings.cta_1_link}}">
+                                {{block.settings.cta_1_text}}
+                                </a>
+                            {% endif %}
+                            {% if block.settings.cta_2_text != blank %}
+                                <a class="btn btn-grey" href="{{block.settings.cta_2_link}}">
+                                {{block.settings.cta_2_text}}
+                                </a>
+                            {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    
+                {% endfor %}
+                
+            </div>
+        </div>
+    </div>
+    {% endif %}
 
 </div>
 
@@ -62,6 +97,23 @@
     "name": "Slider Box Text",
     "max_blocks": 99,
     "settings": [
+        {
+            "type": "select",
+            "id": "enable_text_slider",
+            "label": "Enable text slider",
+            "options": [
+                {
+                "value": "no",
+                "label": "No"
+                },
+                {
+                "value": "yes",
+                "label": "Yes"
+                }
+            ],
+            "default": "no",
+            "info": "If yes, those settings will be replaced with boxes texts."
+        },
         {
             "type": "text",
             "id": "sup_title",
@@ -110,6 +162,44 @@
                 "type": "image_picker",
                 "id": "image",
                 "label": "Image"
+            },
+            {
+                "type": "text",
+                "id": "sup_title",
+                "label": "Sup Title",
+                "default": "SILVERSKIN"
+            },
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "POWER IS PRECIOUS"
+            },
+            {
+                "type": "richtext",
+                "id": "description",
+                "label": "Description",
+                "default": "<p>La tua forza è preziosa. Per questo integriamo <b>l'argento</b> nel nostro rivoluzionario intimo termico. Il risultato è una linea di prodotti <b>senza cuciture</b> che portano <b>comfort, traspirabilità e termoregolazione</b> a un livello superiore.</p>"
+            },
+            {
+                "type": "text",
+                "id": "cta_1_text",
+                "label": "CTA 1 Text"
+            },
+            {
+                "type": "text",
+                "id": "cta_1_link",
+                "label": "CTA 1 Link"
+            },
+            {
+                "type": "text",
+                "id": "cta_2_text",
+                "label": "CTA 2 Text"
+            },
+            {
+                "type": "text",
+                "id": "cta_2_link",
+                "label": "CTA 2 Link"
             }
         ]
       }
@@ -398,11 +488,13 @@
         containerSlideImages: '.slider-box-text__images .swiper-container',
         containerSlideImagesNext: '.slider-box-text__images .swiper-button-next',
         containerSlideImagesPrev: '.slider-box-text__images .swiper-button-prev',
+        containerSlideText: '.slider-box-text__content .swiper-container',
     };
   
     let containerSlideImages = document.querySelector(selectors.containerSlideImages)
     let containerSlideImagesNext = document.querySelector(selectors.containerSlideImagesNext)
     let containerSlideImagesPrev = document.querySelector(selectors.containerSlideImagesPrev)
+    let containerSlideText = document.querySelector(selectors.containerSlideText)
 
     window.addEventListener('load', function() {
 
@@ -416,6 +508,32 @@
                 prevEl: containerSlideImagesPrev
             },
         });
+
+        let swiper_text = new Swiper(containerSlideText, {
+            touchRatio: 0.1,
+            fadeEffect: {
+                crossFade: true
+            }
+        });
+
+        if (typeof swiper_images !== null) {
+            swiper_images.controller.control = swiper_text;
+        }
+        if (typeof swiper_text !== null) {
+            swiper_text.controller.control = swiper_images;
+        }
+
+        swiper_images.on('slideChange', function (e) {
+            console.log("change")
+            swiper_images.pagination.update()
+            swiper_text.pagination.update()
+        });
+        swiper_text.on('slideChange', function (e) {
+            console.log("change")
+            swiper_images.pagination.update()
+            swiper_text.pagination.update()
+        });
+
     });
 
 
