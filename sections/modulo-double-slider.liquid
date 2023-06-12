@@ -82,6 +82,23 @@
     "max_blocks": 99,
     "settings": [
         {
+            "type": "select",
+            "id": "orientation",
+            "label": "Orientation",
+            "options": [
+              {
+                "value": "images_left",
+                "label": "Images left"
+              },
+              {
+                "value": "images_right",
+                "label": "Images right"
+              }
+            ],
+            "default": "images_left",
+            "info": "Slider orientation."
+        },
+        {
             "type": "text",
             "id": "title",
             "label": "Title",
