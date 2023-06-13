@@ -420,13 +420,13 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-58_3.jpg",
-            "direction_vertical_from": "top",
+            "direction_vertical_from": "bottom",
             "direction_from": "right",
             "cord_x": 0,
-            "cord_y": 1340,
+            "cord_y": 0,
             "direction_from_mob": "right",
             "cord_x_mob": 0,
-            "cord_y_mob": 1200,
+            "cord_y_mob": 30,
             "scale_image_mobile": 60
           }
         }
