@@ -189,16 +189,6 @@
             "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comodo e leggero, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento"
           }
         },
-        "b33edf56-946d-408a-b4f0-2469a609c6ed": {
-          "type": "product_block",
-          "settings": {
-            "product_id_man": "copia-del-stay-fresh-canotta-termica-pearlgrey",
-            "product_id_woman": "copia-del-stay-fresh-canotta-termica-anthracite",
-            "image_man": "shopify:\/\/shop_images\/sbracciata.png",
-            "image_woman": "shopify:\/\/shop_images\/canotta_termica_donna.png",
-            "description": "Pratico e leggero, il modello canotta mantiene la tua pelle asciutta durante le salite, le discese e le arrampicate più faticose. Il primo strato essenziale per proteggerti in caso di cambi di temperatura repentini."
-          }
-        },
         "a07bf90b-1101-41fe-a500-25c10d1ba131": {
           "type": "product_block",
           "settings": {
@@ -207,6 +197,16 @@
             "image_man": "shopify:\/\/shop_images\/cycling.png",
             "image_woman": "shopify:\/\/shop_images\/vyvling_donna.png",
             "description": "Perfetta le attività più intense come il trail e lo skyrunning, questa canotta accelera l’evaporazione del sudore grazie alle lavorazioni di alleggerimento in corrispondenza di petto, addome e schiena."
+          }
+        },
+        "b33edf56-946d-408a-b4f0-2469a609c6ed": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "copia-del-stay-fresh-canotta-termica-pearlgrey",
+            "product_id_woman": "copia-del-stay-fresh-canotta-termica-anthracite",
+            "image_man": "shopify:\/\/shop_images\/sbracciata.png",
+            "image_woman": "shopify:\/\/shop_images\/canotta_termica_donna.png",
+            "description": "Pratico e leggero, il modello canotta mantiene la tua pelle asciutta durante le salite, le discese e le arrampicate più faticose. Il primo strato essenziale per proteggerti in caso di cambi di temperatura repentini."
           }
         },
         "0d1f1b56-a074-4197-b35b-a65134736ea4": {
@@ -243,8 +243,8 @@
       "block_order": [
         "f6391d4b-8d69-4d38-a2df-5246523c8ffe",
         "template--19421578428729__1c40a134-9d83-4e92-820f-4c85f49b94c1-1686129954ea758d32-0",
-        "b33edf56-946d-408a-b4f0-2469a609c6ed",
         "a07bf90b-1101-41fe-a500-25c10d1ba131",
+        "b33edf56-946d-408a-b4f0-2469a609c6ed",
         "0d1f1b56-a074-4197-b35b-a65134736ea4",
         "8297179f-7ee8-45a8-8744-b313767bb291",
         "9752cddd-7f55-4f31-a88b-ea0c726d1ac8"
