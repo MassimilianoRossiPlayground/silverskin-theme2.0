@@ -427,7 +427,7 @@
             "direction_from_mob": "right",
             "cord_x_mob": 500,
             "cord_y_mob": 50,
-            "scale_image_mobile": 60
+            "scale_image_mobile": 30
           }
         }
       },
