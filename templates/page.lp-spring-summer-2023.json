@@ -423,10 +423,10 @@
             "direction_vertical_from": "bottom",
             "direction_from": "right",
             "cord_x": 0,
-            "cord_y": 0,
+            "cord_y": 1400,
             "direction_from_mob": "right",
-            "cord_x_mob": 0,
-            "cord_y_mob": 30,
+            "cord_x_mob": 500,
+            "cord_y_mob": 50,
             "scale_image_mobile": 60
           }
         }
