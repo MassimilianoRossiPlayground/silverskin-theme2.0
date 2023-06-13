@@ -300,7 +300,7 @@
             "cord_y": 120,
             "direction_from_mob": "right",
             "cord_x_mob": 0,
-            "cord_y_mob": 650,
+            "cord_y_mob": 700,
             "scale_image_mobile": 40
           }
         },
@@ -398,8 +398,8 @@
             "cord_y": 0,
             "direction_from_mob": "left",
             "cord_x_mob": 0,
-            "cord_y_mob": 0,
-            "scale_image_mobile": 50
+            "cord_y_mob": 40,
+            "scale_image_mobile": 75
           }
         },
         "7004b69c-b0ed-4501-be85-508984dab9f5": {
@@ -412,8 +412,8 @@
             "cord_y": 2360,
             "direction_from_mob": "left",
             "cord_x_mob": 0,
-            "cord_y_mob": 800,
-            "scale_image_mobile": 50
+            "cord_y_mob": 790,
+            "scale_image_mobile": 45
           }
         },
         "1c14ee12-4dec-4995-8fc7-52ed4f4d1687": {
