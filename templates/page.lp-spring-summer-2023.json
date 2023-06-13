@@ -169,16 +169,6 @@
     "1c40a134-9d83-4e92-820f-4c85f49b94c1": {
       "type": "modulo-product-slider-gender",
       "blocks": {
-        "template--19421578428729__1c40a134-9d83-4e92-820f-4c85f49b94c1-1686129954ea758d32-0": {
-          "type": "product_block",
-          "settings": {
-            "product_id_man": "base-layer-termico-girocollo-manica-corta-grigio-perla",
-            "product_id_woman": "base-layer-termico-girocollo-manica-lunga-grigio-perla-sk014vnf",
-            "image_man": "shopify:\/\/shop_images\/warm_maniche_corte_1.png",
-            "image_woman": "shopify:\/\/shop_images\/warm_donna_maniche_corte_1.png",
-            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comodo e leggero, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento"
-          }
-        },
         "f6391d4b-8d69-4d38-a2df-5246523c8ffe": {
           "type": "product_block",
           "settings": {
@@ -187,6 +177,16 @@
             "image_man": "shopify:\/\/shop_images\/manica_corta_collo_quadrato.png",
             "image_woman": "shopify:\/\/shop_images\/manica_corta_quadrato_donna.png",
             "description": "Studiata per chi non ama i capi accollati, è l’alleato perfetto per affrontare diverse  condizioni climatiche. Stabilizza la temperatura corporea, sia quando sei in movimento che quando fai una pausa."
+          }
+        },
+        "template--19421578428729__1c40a134-9d83-4e92-820f-4c85f49b94c1-1686129954ea758d32-0": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "base-layer-termico-girocollo-manica-corta-grigio-perla",
+            "product_id_woman": "base-layer-termico-girocollo-manica-lunga-grigio-perla-sk014vnf",
+            "image_man": "shopify:\/\/shop_images\/warm_maniche_corte_1.png",
+            "image_woman": "shopify:\/\/shop_images\/warm_donna_maniche_corte_1.png",
+            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comodo e leggero, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento"
           }
         },
         "b33edf56-946d-408a-b4f0-2469a609c6ed": {
@@ -241,8 +241,8 @@
         }
       },
       "block_order": [
-        "template--19421578428729__1c40a134-9d83-4e92-820f-4c85f49b94c1-1686129954ea758d32-0",
         "f6391d4b-8d69-4d38-a2df-5246523c8ffe",
+        "template--19421578428729__1c40a134-9d83-4e92-820f-4c85f49b94c1-1686129954ea758d32-0",
         "b33edf56-946d-408a-b4f0-2469a609c6ed",
         "a07bf90b-1101-41fe-a500-25c10d1ba131",
         "0d1f1b56-a074-4197-b35b-a65134736ea4",
