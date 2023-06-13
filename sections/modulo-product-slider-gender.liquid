@@ -242,9 +242,9 @@
 .product-slider-gender__slider .product-slider-gender-cta {
     display: none; 
 }
-.product-slider-gender__slider .swiper-slide-next h4,
-.product-slider-gender__slider .swiper-slide-next .product-slider-gender-description,
-.product-slider-gender__slider .swiper-slide-next .product-slider-gender-cta {
+.product-slider-gender__slider .swiper-slide-active h4,
+.product-slider-gender__slider .swiper-slide-active .product-slider-gender-description,
+.product-slider-gender__slider .swiper-slide-active .product-slider-gender-cta {
     display: block; 
 }
 .section-product-slider-gender .swiper-slide.swiper-slide-next .product-slider-gender-cta,
@@ -374,6 +374,7 @@
     .section-product-slider-gender h2 {
         text-align: center;
         padding: 50px 0;
+        font-size: 31px;
     }
     .product-slider-gender__head__btn {
         margin: 0 0 50px 0;
@@ -434,6 +435,9 @@
         transform: scale(0.7);
         transform-origin: left;
         float: left;
+    }
+    .product-slider-gender__head__btn.disabled {
+        width: 100px;
     }
 
 }
