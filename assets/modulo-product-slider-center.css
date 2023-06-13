@@ -16,6 +16,7 @@
 .technology-slider .swiper-slide.swiper-slide-next h4 {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .technology-slider .swiper-slide img {
