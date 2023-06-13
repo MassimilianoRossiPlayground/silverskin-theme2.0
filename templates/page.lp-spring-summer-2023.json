@@ -426,8 +426,8 @@
             "cord_y": 1400,
             "direction_from_mob": "right",
             "cord_x_mob": 0,
-            "cord_y_mob": 50,
-            "scale_image_mobile": 30
+            "cord_y_mob": 130,
+            "scale_image_mobile": 35
           }
         }
       },
