@@ -19,3 +19,33 @@
 </div>
 
 {% comment %} {% section 'custom-fields-pages' %} {% endcomment %}
+
+
+{% schema %}
+  {
+    "name": "Page",
+    "settings": [
+      {
+        "type": "select",
+        "id": "no_index",
+        "label": "No index",
+        "options": [
+            {
+            "value": "yes",
+            "label": "Yes"
+            },
+            {
+            "value": "no",
+            "label": "No"
+            }
+        ],
+        "default": "no"
+      }
+    ],
+    "presets": [
+        {
+            "name": "Page"
+        }
+    ]
+  }
+{% endschema %}
