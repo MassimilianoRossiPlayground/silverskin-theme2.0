@@ -67,7 +67,7 @@
       {%- assign fixed_aspect_ratio = true -%}
     {%- endunless -%}
 
-    <a href="{{link_lang}}{{ product.url | within: collection }}" attr-title="{{ product.title }}" attr-price="{{ product.price | money | remove: '€ ' | replace: ',' , '.'  }}" attr-handle="{{ product.handle }}" attr-type="{{ product.type }}" attr-lang="{{ link_lang }}" class="grid-product__link {% if sold_out %} grid-product__link--disabled{% endif %}">
+    <a href="{{link_lang}}{{ product.url }}" attr-title="{{ product.title }}" attr-price="{{ product.price | money | remove: '€ ' | replace: ',' , '.'  }}" attr-handle="{{ product.handle }}" attr-type="{{ product.type }}" attr-lang="{{ link_lang }}" class="grid-product__link {% if sold_out %} grid-product__link--disabled{% endif %}">
 
       {% comment %}
         {% if product.tags contains 'Calze' and product.tags contains 'Stay Fresh' %}
