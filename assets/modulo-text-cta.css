@@ -59,4 +59,7 @@
     .text-cta {
         padding: 40px 0;
     }
+    .text-cta .text-cta__content h2 {
+        font-size: 42px;
+    }
 }

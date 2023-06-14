@@ -251,6 +251,7 @@
 .section-product-slider-gender .swiper-slide.swiper-slide-next h4 {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .section-product-slider-gender .product-slider-gender-cta a {
@@ -373,6 +374,7 @@
     .section-product-slider-gender h2 {
         text-align: center;
         padding: 50px 0;
+        font-size: 31px;
     }
     .product-slider-gender__head__btn {
         margin: 0 0 50px 0;
@@ -394,7 +396,60 @@
         margin: 15px auto;
         text-align: center;
     }
-    
+
+    .section-product-slider-gender div.swiper-button-next, 
+    .section-product-slider-gender div.swiper-button-prev {
+        display:none;
+    }
+
+
+    .product-slider-gender__slider .slider-gender-man, 
+    .product-slider-gender__slider .slider-gender-woman {
+        padding: 0 80px
+    }
+
+    .product-slider-gender__slider {
+        overflow: hidden;
+    }
+    .product-slider-gender__slider .slider-gender-man .swiper-container, 
+    .product-slider-gender__slider .slider-gender-woman .swiper-container {
+        overflow: unset;
+    }
+    .product-slider-gender__slider .slider-gender-man .swiper-container .swiper-slide:not(.swiper-slide-active) h4, 
+    .product-slider-gender__slider .slider-gender-woman .swiper-container .swiper-slide:not(.swiper-slide-active) h4,
+    .product-slider-gender__slider .slider-gender-man .swiper-container .swiper-slide:not(.swiper-slide-active) .product-slider-gender-description, 
+    .product-slider-gender__slider .slider-gender-woman .swiper-container .swiper-slide:not(.swiper-slide-active) .product-slider-gender-description, 
+    .product-slider-gender__slider .slider-gender-man .swiper-container .swiper-slide:not(.swiper-slide-active) .product-slider-gender-cta, 
+    .product-slider-gender__slider .slider-gender-woman .swiper-container .swiper-slide:not(.swiper-slide-active) .product-slider-gender-cta 
+    {
+        display: none;
+    }
+    .product-slider-gender__slider .slider-gender-man .swiper-container .swiper-slide.swiper-slide-prev img, 
+    .product-slider-gender__slider .slider-gender-woman .swiper-container .swiper-slide.swiper-slide-prev img {
+        transform: scale(0.7);
+        transform-origin: right;
+        float: right;
+    }
+    .product-slider-gender__slider .slider-gender-man .swiper-container .swiper-slide.swiper-slide-next img, 
+    .product-slider-gender__slider .slider-gender-woman .swiper-container .swiper-slide.swiper-slide-next img{
+        transform: scale(0.7);
+        transform-origin: left;
+        float: left;
+    }
+    .product-slider-gender__head__btn.disabled {
+        width: 100px;
+    }
+    .product-slider-gender__slider .swiper-slide-active h4,
+    .product-slider-gender__slider .swiper-slide-active .product-slider-gender-description,
+    .product-slider-gender__slider .swiper-slide-active .product-slider-gender-cta {
+        display: flex; 
+    }
+    .product-slider-gender__head img {
+        width: 60px;
+    }
+    .product-slider-gender__head__btn h5 {
+        margin: 10px;
+    }
 }
 {% endstyle %}
 
