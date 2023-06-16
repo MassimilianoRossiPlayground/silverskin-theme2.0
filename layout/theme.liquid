@@ -84,6 +84,9 @@
 
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
 
+  {% if page.handle == "privacy" or page.handle == "condizioni-di-vendita" or page.handle == "cookie-policy" or page.handle == "metodi-di-pagamento" %}
+    <meta name="robots" content="noindex">
+  {% endif %}
 
   {% style %}
     .collection-item__title {
