@@ -55,7 +55,7 @@
             "image": "shopify:\/\/shop_images\/Screenshot_2023-06-12_alle_14.58.39.png",
             "sup_title": "SILVERSKIN",
             "title": "Andrea Bormida, aspirante guida alpina - Collegio Lombardia",
-            "description": "<p>“Il mio primo ricordo, da bambino, parla del desiderio insoddisfatto di raggiungere il punto più alto, per scoprire cosa ci fosse di là. La montagna è sempre riuscita ad assecondare il mio lato nomade ma il rapporto con lei chiede tanto in cambio: costa sacrificare alcuni affetti, costa fatica, la sveglia presto e il tempo. È una passione totalizzante quanto egoistica, di cui a volte capisci di avere bisogno”.<\/p>",
+            "description": "<p>“Il mio primo ricordo, da bambino, parla del desiderio di raggiungere il punto più alto, per scoprire cosa ci fosse di là. La montagna è sempre riuscita ad assecondare il mio lato nomade e il rapporto con lei è onesto: anche se chiede qualcosa in cambio, ripaga sempre. Una passione forse egoistica, di cui a volte capisci di aver bisogno”<\/p>",
             "cta_1_text": "",
             "cta_1_link": "",
             "cta_2_text": "",
@@ -68,7 +68,7 @@
             "image": "shopify:\/\/shop_images\/Screenshot_2023-06-12_alle_14.59.20.png",
             "sup_title": "SILVERSKIN",
             "title": "Giacomo Regallo, aspirante guida alpina",
-            "description": "<p>“Scegliendo di vivere in montagna ho fatto una scelta di libertà, soprattutto dall’idea di vivere con meno, perché è tanto quello che ha da insegnarti. Il salire in cima ad una parete che non porta a nulla, in sé, è inutile per certi versi ma fondamentale per progredire come individuo, come società. E poi è terapeutica: non sarei davvero contento senza lo stato di tranquillità e distensione in cui mi pone”.  <\/p>",
+            "description": "<p>“Scegliendo di vivere in montagna ho fatto una scelta di libertà, soprattutto dall’idea di vivere con meno, perché è tanto quello che ha da insegnarti. Il salire in cima ad una parete che non porta a nulla, in sé, è inutile per certi versi ma fondamentale per progredire come individuo, come società. E poi è terapeutica: non sarei davvero contento senza lo stato di tranquillità e distensione in cui mi pone”<\/p>",
             "cta_1_text": "",
             "cta_1_link": "",
             "cta_2_text": "",
@@ -81,7 +81,7 @@
             "image": "shopify:\/\/shop_images\/Screenshot_2023-06-12_alle_15.00.52.png",
             "sup_title": "SILVERSKIN",
             "title": "Raffaele Tangari, aspirante guida alpina",
-            "description": "<p>“La mia casa è l’emozione che provo in montagna. Uno stato di calma, di concentrazione e di tensione positiva, che mi permette di staccare la testa e di condividere. Non posso farne a meno, è la mia espressione artistica. Mi ha insegnato ad esser paziente e motivato e soprattutto sincero con me stesso: ti mette a nudo, oltre che alla prova”. <\/p>",
+            "description": "<p>“La mia casa è l’emozione che provo in montagna. Uno stato di calma, di concentrazione e di tensione positiva, che mi permette di staccare la testa e di condividere. Non posso farne a meno, è la mia espressione artistica. Mi ha insegnato ad esser paziente e motivato e soprattutto sincero con me stesso: ti mette a nudo, oltre che alla prova”<\/p>",
             "cta_1_text": "",
             "cta_1_link": "",
             "cta_2_text": "",
@@ -174,8 +174,8 @@
           "settings": {
             "product_id_man": "base-layer-termico-girocollo-manica-corta-grigio-perla",
             "product_id_woman": "base-layer-termico-collo-a-v-manica-corta-pearlgrey-1",
-            "image_man": "shopify:\/\/shop_images\/manica_corta_collo_quadrato.png",
-            "image_woman": "shopify:\/\/shop_images\/manica_corta_quadrato_donna.png",
+            "image_man": "shopify:\/\/shop_images\/manica_corta_collo_quadrato_26a22404-26a8-483b-a799-4da9668fb246.png",
+            "image_woman": "shopify:\/\/shop_images\/manica_corta_quadrato_donna_8d43fca4-f02c-4201-bfeb-184b1c00bec3.png",
             "description": "Studiata per chi non ama i capi accollati, è l’alleato perfetto per affrontare diverse  condizioni climatiche. Stabilizza la temperatura corporea, sia quando sei in movimento che quando fai una pausa."
           }
         },
@@ -184,9 +184,9 @@
           "settings": {
             "product_id_man": "stay-fresh-canotta-ciclismo-anthracite",
             "product_id_woman": "copia-del-stay-fresh-canotta-termica-anthracite",
-            "image_man": "shopify:\/\/shop_images\/cycling.png",
-            "image_woman": "shopify:\/\/shop_images\/vyvling_donna.png",
-            "description": "Perfetta le attività più intense come il trail e lo skyrunning, questa canotta accelera l’evaporazione del sudore grazie alle lavorazioni di alleggerimento in corrispondenza di petto, addome e schiena."
+            "image_man": "shopify:\/\/shop_images\/AN_Stay_Fresh_Cycling_-_Uomo_-_frontale.png",
+            "image_woman": "shopify:\/\/shop_images\/AN_Stay_Fresh_Cycling_-_Donna_-_frontale.png",
+            "description": "Perfetta per le attività più intense come il trail e lo skyrunning, questa canotta accelera l’evaporazione del sudore grazie alle lavorazioni di alleggerimento in corrispondenza di petto, addome e schiena."
           }
         },
         "template--19421578428729__1c40a134-9d83-4e92-820f-4c85f49b94c1-1686129954ea758d32-0": {
@@ -194,9 +194,9 @@
           "settings": {
             "product_id_man": "base-layer-termico-girocollo-manica-corta-grigio-perla",
             "product_id_woman": "base-layer-termico-girocollo-manica-lunga-grigio-perla-sk014vnf",
-            "image_man": "shopify:\/\/shop_images\/warm_maniche_corte_1.png",
-            "image_woman": "shopify:\/\/shop_images\/warm_donna_maniche_corte_1.png",
-            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comodo e leggero, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento"
+            "image_man": "shopify:\/\/shop_images\/manica_corta_collo_quadrato_26a22404-26a8-483b-a799-4da9668fb246.png",
+            "image_woman": "shopify:\/\/shop_images\/manica_corta_quadrato_donna_8d43fca4-f02c-4201-bfeb-184b1c00bec3.png",
+            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comoda e leggera, elimina i cattivi odori grazie alla proprietà antibatteriche dell’argento"
           }
         },
         "b33edf56-946d-408a-b4f0-2469a609c6ed": {
@@ -204,8 +204,8 @@
           "settings": {
             "product_id_man": "copia-del-stay-fresh-canotta-termica-pearlgrey",
             "product_id_woman": "copia-del-stay-fresh-canotta-termica-anthracite",
-            "image_man": "shopify:\/\/shop_images\/sbracciata.png",
-            "image_woman": "shopify:\/\/shop_images\/canotta_termica_donna.png",
+            "image_man": "shopify:\/\/shop_images\/sbracciata_cdae1a7c-b988-4577-839d-216570af75f6.png",
+            "image_woman": "shopify:\/\/shop_images\/canotta_termica_donna_bdde66d3-b624-46e2-82c2-62178ca8dd76.png",
             "description": "Pratico e leggero, il modello canotta mantiene la tua pelle asciutta durante le salite, le discese e le arrampicate più faticose. Il primo strato essenziale per proteggerti in caso di cambi di temperatura repentini."
           }
         },
@@ -214,8 +214,8 @@
           "settings": {
             "product_id_man": "base-layer-termico-smanicato-pearlgrey",
             "product_id_woman": "base-layer-termico-smanicato-grigio-perla-sk005lnf",
-            "image_man": "shopify:\/\/shop_images\/maglia_termica_smanicata_girocollo_bianca.png",
-            "image_woman": "shopify:\/\/shop_images\/termica_Smanicata_Girocollo_donna.png",
+            "image_man": "shopify:\/\/shop_images\/maglia_termica_smanicata_girocollo_bianca_0b9f5e39-60c2-4692-a02f-1747ec612806.png",
+            "image_woman": "shopify:\/\/shop_images\/termica_Smanicata_Girocollo_donna_b82f1d86-dc6f-44ee-ae51-09d987b8551c.png",
             "description": "Versatile e adatto per tutte le attività in montagna, il modello smanicato aderisce al torace senza comprimere, assicurando comfort, libertà di movimento e massima traspirabilità."
           }
         },
@@ -224,8 +224,8 @@
           "settings": {
             "product_id_man": "manicotto-performance-anthracite-1",
             "product_id_woman": "manicotto-performance-anthracite",
-            "image_man": "shopify:\/\/shop_images\/manicotti_2_1.png",
-            "image_woman": "shopify:\/\/shop_images\/manicotti_2_1.png",
+            "image_man": "shopify:\/\/shop_images\/manicotti_2_1_c83163a2-8559-4651-aa3b-68ead520a184.png",
+            "image_woman": "shopify:\/\/shop_images\/manicotti_2_1_c83163a2-8559-4651-aa3b-68ead520a184.png",
             "description": "L’accessorio da avere sempre nello zaino, per affrontare repentine variazioni meteo. Elastici e leggeri, trasformano il base layer a mezza manica in manica lunga, offrendo una maggiore protezione."
           }
         },
@@ -234,8 +234,8 @@
           "settings": {
             "product_id_man": "base-layer-termico-girocollo-manica-corta-pearlgrey-1",
             "product_id_woman": "base-layer-termico-girocollo-manica-corta-pearlgrey",
-            "image_man": "shopify:\/\/shop_images\/warm_maniche_corte_1.png",
-            "image_woman": "shopify:\/\/shop_images\/warm_donna_maniche_corte_1.png",
+            "image_man": "shopify:\/\/shop_images\/warm_maniche_corte_1_f7ec40aa-2e72-4fb4-a7ee-e68ca8aa50fa.png",
+            "image_woman": "shopify:\/\/shop_images\/warm_donna_maniche_corte_1_f0facb91-ead8-41aa-ad14-54fe077343cb.png",
             "description": "Ideale per l’alta quota, questo base layer preserva il calore corporeo, isolando dalle temperature più rigide dai 3.000 mt in su. Traspirante e confortevole, favorisce la dispersione del sudore per una pelle sempre asciutta."
           }
         }
