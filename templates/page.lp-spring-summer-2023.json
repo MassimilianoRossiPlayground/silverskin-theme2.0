@@ -4,6 +4,7 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "layout_none": "no"
       }
     },
     "180300a6-2f84-4cda-b590-06e2f7494ce9": {
