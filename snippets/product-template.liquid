@@ -18,7 +18,7 @@
   {% assign description_style = 'full' %}
 {% endunless %}
 
-{% include 'product-template-variables' %}
+{% comment %} {% include 'product-template-variables' %} {% endcomment %}
 {% assign current_sku = current_variant.sku %}
 {% assign sku_parts = current_sku | split: "-" %}
 
