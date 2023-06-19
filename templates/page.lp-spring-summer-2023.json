@@ -4,7 +4,6 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
-        "layout_none": "no"
       }
     },
     "180300a6-2f84-4cda-b590-06e2f7494ce9": {
@@ -173,8 +172,8 @@
         "f6391d4b-8d69-4d38-a2df-5246523c8ffe": {
           "type": "product_block",
           "settings": {
-            "product_id_man": "base-layer-termico-girocollo-manica-corta-grigio-perla",
-            "product_id_woman": "base-layer-termico-collo-a-v-manica-corta-pearlgrey-1",
+            "product_id_man": "stay-fresh-maglia-termica-manica-corta-girocollo-pearlgrey",
+            "product_id_woman": "stay-fresh-maglia-termica-manica-corta-girocollo-pearlgrey-1",
             "image_man": "shopify:\/\/shop_images\/manica_corta_collo_quadrato_26a22404-26a8-483b-a799-4da9668fb246.png",
             "image_woman": "shopify:\/\/shop_images\/manica_corta_quadrato_donna_8d43fca4-f02c-4201-bfeb-184b1c00bec3.png",
             "description": "Studiata per chi non ama i capi accollati, è l’alleato perfetto per affrontare diverse  condizioni climatiche. Stabilizza la temperatura corporea, sia quando sei in movimento che quando fai una pausa."
