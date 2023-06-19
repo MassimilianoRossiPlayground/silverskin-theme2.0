@@ -192,11 +192,11 @@
         "template--19421578428729__1c40a134-9d83-4e92-820f-4c85f49b94c1-1686129954ea758d32-0": {
           "type": "product_block",
           "settings": {
-            "product_id_man": "base-layer-termico-girocollo-manica-corta-grigio-perla",
-            "product_id_woman": "base-layer-termico-girocollo-manica-lunga-grigio-perla-sk014vnf",
-            "image_man": "shopify:\/\/shop_images\/manica_corta_collo_quadrato_26a22404-26a8-483b-a799-4da9668fb246.png",
-            "image_woman": "shopify:\/\/shop_images\/manica_corta_quadrato_donna_8d43fca4-f02c-4201-bfeb-184b1c00bec3.png",
-            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comoda e leggera, elimina i cattivi odori grazie alla proprietà antibatteriche dell’argento"
+            "product_id_man": "stay-fresh-canotta-termica-anthracite",
+            "product_id_woman": "copia-del-stay-fresh-canotta-termica-anthracite",
+            "image_man": "shopify:\/\/shop_images\/UOMO_CANOTTA_Stay_Fresh_-_Canotta_termica.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_CANOTTA_Stay_Fresh_-_Canotta_termica.png",
+            "description": "Pratico e leggero, il modello canotta mantiene la tua pelle asciutta durante le salite, le discese e le arrampicate più faticose. Il primo strato essenziale per proteggerti in caso di cambi di temperatura repentini."
           }
         },
         "b33edf56-946d-408a-b4f0-2469a609c6ed": {
