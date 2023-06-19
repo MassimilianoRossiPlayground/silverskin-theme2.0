@@ -212,11 +212,21 @@
         "0d1f1b56-a074-4197-b35b-a65134736ea4": {
           "type": "product_block",
           "settings": {
-            "product_id_man": "base-layer-termico-smanicato-pearlgrey",
-            "product_id_woman": "base-layer-termico-smanicato-grigio-perla-sk005lnf",
-            "image_man": "shopify:\/\/shop_images\/maglia_termica_smanicata_girocollo_bianca_0b9f5e39-60c2-4692-a02f-1747ec612806.png",
-            "image_woman": "shopify:\/\/shop_images\/termica_Smanicata_Girocollo_donna_b82f1d86-dc6f-44ee-ae51-09d987b8551c.png",
+            "product_id_man": "base-layer-termico-smanicato-grigio-perla-sk005lnf",
+            "product_id_woman": "base-layer-termico-smanicato-pearlgrey",
+            "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_SMANICATA_Stay_Fresh_Maglia_termica_Manica_Corta_png_4193d50c-7e67-40fc-afad-f715dc744259.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_GIROCOLLO_SMANICATA_Stay_Fresh_Maglia_termica_Manica_Corta.png",
             "description": "Versatile e adatto per tutte le attività in montagna, il modello smanicato aderisce al torace senza comprimere, assicurando comfort, libertà di movimento e massima traspirabilità."
+          }
+        },
+        "8297179f-7ee8-45a8-8744-b313767bb291": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "base-layer-termico-girocollo-manica-corta-pearlgrey",
+            "product_id_woman": "base-layer-termico-girocollo-manica-corta-pearlgrey-1",
+            "image_man": "shopify:\/\/shop_images\/UOMO_WARM_Stay_Warm_Manica_Corta_girocollo.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo.png",
+            "description": "Ideale per l’alta quota, questo base layer preserva il calore corporeo, isolando dalle temperature più rigide dai 3.000 mt in su. Traspirante e confortevole, favorisce la dispersione del sudore per una pelle sempre asciutta."
           }
         },
         "9752cddd-7f55-4f31-a88b-ea0c726d1ac8": {
@@ -228,16 +238,6 @@
             "image_woman": "shopify:\/\/shop_images\/manicotti_2_1_c83163a2-8559-4651-aa3b-68ead520a184.png",
             "description": "L’accessorio da avere sempre nello zaino, per affrontare repentine variazioni meteo. Elastici e leggeri, trasformano il base layer a mezza manica in manica lunga, offrendo una maggiore protezione."
           }
-        },
-        "8297179f-7ee8-45a8-8744-b313767bb291": {
-          "type": "product_block",
-          "settings": {
-            "product_id_man": "base-layer-termico-girocollo-manica-corta-pearlgrey-1",
-            "product_id_woman": "base-layer-termico-girocollo-manica-corta-pearlgrey",
-            "image_man": "shopify:\/\/shop_images\/warm_maniche_corte_1_f7ec40aa-2e72-4fb4-a7ee-e68ca8aa50fa.png",
-            "image_woman": "shopify:\/\/shop_images\/warm_donna_maniche_corte_1_f0facb91-ead8-41aa-ad14-54fe077343cb.png",
-            "description": "Ideale per l’alta quota, questo base layer preserva il calore corporeo, isolando dalle temperature più rigide dai 3.000 mt in su. Traspirante e confortevole, favorisce la dispersione del sudore per una pelle sempre asciutta."
-          }
         }
       },
       "block_order": [
@@ -246,8 +246,8 @@
         "template--19421578428729__1c40a134-9d83-4e92-820f-4c85f49b94c1-1686129954ea758d32-0",
         "b33edf56-946d-408a-b4f0-2469a609c6ed",
         "0d1f1b56-a074-4197-b35b-a65134736ea4",
-        "9752cddd-7f55-4f31-a88b-ea0c726d1ac8",
-        "8297179f-7ee8-45a8-8744-b313767bb291"
+        "8297179f-7ee8-45a8-8744-b313767bb291",
+        "9752cddd-7f55-4f31-a88b-ea0c726d1ac8"
       ],
       "settings": {
         "title": "i baselayer per la montagna",
