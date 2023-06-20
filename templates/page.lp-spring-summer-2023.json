@@ -176,6 +176,7 @@
             "product_id_woman": "manicotto-performance-anthracite",
             "image_man": "shopify:\/\/shop_images\/manicotti_2_1_c83163a2-8559-4651-aa3b-68ead520a184.png",
             "image_woman": "shopify:\/\/shop_images\/manicotti_2_1_c83163a2-8559-4651-aa3b-68ead520a184.png",
+            "title": "Manicotti",
             "description": "L’accessorio da avere sempre nello zaino, per affrontare repentine variazioni meteo. Elastici e leggeri, trasformano il base layer a mezza manica in manica lunga, offrendo una maggiore protezione."
           }
         },
@@ -186,6 +187,7 @@
             "product_id_woman": "stay-fresh-maglia-termica-manica-corta-girocollo-anthracite-1",
             "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo.png",
             "image_woman": "shopify:\/\/shop_images\/DONNA_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo.png",
+            "title": "Manica Corta Girocollo",
             "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comoda e leggera, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento."
           }
         },
@@ -196,6 +198,7 @@
             "product_id_woman": "base-layer-termico-girocollo-manica-corta-grigio-perla",
             "image_man": "shopify:\/\/shop_images\/UOMO_COLLO_V_Stay_Fresh-Maglia_termica_Manica_Corta_Collo_V.png",
             "image_woman": "shopify:\/\/shop_images\/DONNA_COLLO_V_Stay_Fresh-Maglia_termica_Manica_Corta_Collo_V.png",
+            "title": "Manica Corta Collo V",
             "description": "Studiata per chi non ama i capi accollati, è l’alleato perfetto per affrontare diverse  condizioni climatiche. Stabilizza la temperatura corporea, sia quando sei in movimento che quando fai una pausa."
           }
         },
@@ -206,6 +209,7 @@
             "product_id_woman": "copia-del-stay-fresh-canotta-termica-anthracite",
             "image_man": "shopify:\/\/shop_images\/UOMO_CANOTTA_Stay_Fresh_-_Canotta_termica.png",
             "image_woman": "shopify:\/\/shop_images\/DONNA_CANOTTA_Stay_Fresh_-_Canotta_termica.png",
+            "title": "Canotta",
             "description": "Pratico e leggero, il modello canotta mantiene la tua pelle asciutta durante le salite, le discese e le arrampicate più faticose. Il primo strato essenziale per proteggerti in caso di cambi di temperatura repentini."
           }
         },
@@ -216,6 +220,7 @@
             "product_id_woman": "base-layer-termico-smanicato-pearlgrey",
             "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_SMANICATA_Stay_Fresh_Maglia_termica_Manica_Corta_png_4193d50c-7e67-40fc-afad-f715dc744259.png",
             "image_woman": "shopify:\/\/shop_images\/DONNA_GIROCOLLO_SMANICATA_Stay_Fresh_Maglia_termica_Manica_Corta.png",
+            "title": "Smanicata",
             "description": "Versatile e adatto per tutte le attività in montagna, il modello smanicato aderisce al torace senza comprimere, assicurando comfort, libertà di movimento e massima traspirabilità."
           }
         },
@@ -226,6 +231,7 @@
             "product_id_woman": "stay-fresh-canotta-ciclismo-anthracite-1",
             "image_man": "shopify:\/\/shop_images\/UOMO_CICLISMO_Stay_Fresh_-_Canotta_Ciclismo.png",
             "image_woman": "shopify:\/\/shop_images\/DONNA_CICLISMO_Stay_Fresh_-_Canotta_Ciclismo.png",
+            "title": "Canotta Cycling",
             "description": "Perfetta per le attività più intense come il trail e lo skyrunning, questa canotta accelera l’evaporazione del sudore grazie alle lavorazioni di alleggerimento in corrispondenza di petto, addome e schiena."
           }
         },
@@ -236,6 +242,7 @@
             "product_id_woman": "base-layer-termico-girocollo-manica-corta-pearlgrey-1",
             "image_man": "shopify:\/\/shop_images\/UOMO_WARM_Stay_Warm_Manica_Corta_girocollo.png",
             "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo.png",
+            "title": "Canotta Cycling",
             "description": "Ideale per l’alta quota, questo base layer preserva il calore corporeo, isolando dalle temperature più rigide dai 3.000 mt in su. Traspirante e confortevole, favorisce la dispersione del sudore per una pelle sempre asciutta."
           }
         }
