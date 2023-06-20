@@ -169,6 +169,16 @@
     "1c40a134-9d83-4e92-820f-4c85f49b94c1": {
       "type": "modulo-product-slider-gender",
       "blocks": {
+        "9752cddd-7f55-4f31-a88b-ea0c726d1ac8": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "manicotto-performance-anthracite-1",
+            "product_id_woman": "manicotto-performance-anthracite",
+            "image_man": "shopify:\/\/shop_images\/manicotti_2_1_c83163a2-8559-4651-aa3b-68ead520a184.png",
+            "image_woman": "shopify:\/\/shop_images\/manicotti_2_1_c83163a2-8559-4651-aa3b-68ead520a184.png",
+            "description": "L’accessorio da avere sempre nello zaino, per affrontare repentine variazioni meteo. Elastici e leggeri, trasformano il base layer a mezza manica in manica lunga, offrendo una maggiore protezione."
+          }
+        },
         "f6391d4b-8d69-4d38-a2df-5246523c8ffe": {
           "type": "product_block",
           "settings": {
@@ -176,7 +186,7 @@
             "product_id_woman": "stay-fresh-maglia-termica-manica-corta-girocollo-anthracite-1",
             "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo.png",
             "image_woman": "shopify:\/\/shop_images\/DONNA_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo.png",
-            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comodo e leggero, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento."
+            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comoda e leggera, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento."
           }
         },
         "a07bf90b-1101-41fe-a500-25c10d1ba131": {
@@ -228,26 +238,16 @@
             "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo.png",
             "description": "Ideale per l’alta quota, questo base layer preserva il calore corporeo, isolando dalle temperature più rigide dai 3.000 mt in su. Traspirante e confortevole, favorisce la dispersione del sudore per una pelle sempre asciutta."
           }
-        },
-        "9752cddd-7f55-4f31-a88b-ea0c726d1ac8": {
-          "type": "product_block",
-          "settings": {
-            "product_id_man": "manicotto-performance-anthracite-1",
-            "product_id_woman": "manicotto-performance-anthracite",
-            "image_man": "shopify:\/\/shop_images\/manicotti_2_1_c83163a2-8559-4651-aa3b-68ead520a184.png",
-            "image_woman": "shopify:\/\/shop_images\/manicotti_2_1_c83163a2-8559-4651-aa3b-68ead520a184.png",
-            "description": "L’accessorio da avere sempre nello zaino, per affrontare repentine variazioni meteo. Elastici e leggeri, trasformano il base layer a mezza manica in manica lunga, offrendo una maggiore protezione."
-          }
         }
       },
       "block_order": [
+        "9752cddd-7f55-4f31-a88b-ea0c726d1ac8",
         "f6391d4b-8d69-4d38-a2df-5246523c8ffe",
         "a07bf90b-1101-41fe-a500-25c10d1ba131",
         "template--19421578428729__1c40a134-9d83-4e92-820f-4c85f49b94c1-1686129954ea758d32-0",
         "0d1f1b56-a074-4197-b35b-a65134736ea4",
         "b33edf56-946d-408a-b4f0-2469a609c6ed",
-        "8297179f-7ee8-45a8-8744-b313767bb291",
-        "9752cddd-7f55-4f31-a88b-ea0c726d1ac8"
+        "8297179f-7ee8-45a8-8744-b313767bb291"
       ],
       "settings": {
         "title": "i baselayer per la montagna",
