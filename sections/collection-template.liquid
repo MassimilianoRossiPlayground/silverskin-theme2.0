@@ -1,5 +1,6 @@
 {%- assign per_row = section.settings.per_row -%}
 {%- assign paginate_by = per_row | times: section.settings.rows_per_page -%}
+
 {% if current_tags contains "Stay X-Warm" %}
   {%- assign class_rte ="stay-x-warm"-%}
 {%endif%}
@@ -12,17 +13,22 @@
 {% if current_tags contains "Light Warm" %}
   {%- assign class_rte ="light-warm"-%}
 {%endif%}
-{% paginate collection.products by paginate_by %}
+
+{% assign current_month = 'now' | date: "%m" %}
+
+{% case current_month %}
+  {% when "12" or "01" or "02" or "11" %}
+  {% assign collection_array = "warm,xwarm,fresh" | split: ',' %}
+  {% when "03" or "10" %}
+  {% assign collection_array = "warm,fresh,xwarm" | split: ',' %}
+  {% when "04" or "05" or "06" or "07" or "08" or "09" %}
+  {% assign collection_array = "fresh,warm,xwarm" | split: ',' %}
+{% endcase %}
 
 <div
   id="CollectionSection"
   data-section-id="{{ section.id }}"
   data-section-type="collection-template">
-
- 
-
-
-  
 
   {%- if section.settings.description_position == 'top' -%}
     {% if collection.description != blank %}
@@ -105,22 +111,45 @@
       {%- assign grid_item_width = 'small--one-half medium-up--one-fifth' -%}
     {% endcase %}
 
-    {%- for product in collection.products -%}
+
+    {% for current_collection in collection_array %}
+
+      {% if current_collection == "fresh" %}
+        {% assign collection_handle = 'stay-fresh-collection' %}
+        {%- for product in collections[collection_handle].products -%}
+          {%- include 'product-grid-item' -%}
+        {%- endfor -%}
+      {% endif %}
+
+      {% if current_collection == "warm" %}
+        {% assign collection_handle = 'stay-warm-collection' %}
+        {%- for product in collections[collection_handle].products -%}
+          {%- include 'product-grid-item' -%}
+        {%- endfor -%}
+      {% endif %}
+
+      {% if current_collection == "xwarm" %}
+        {% assign collection_handle = 'stay-x-warm-collection' %}
+        {%- for product in collections[collection_handle].products -%}
+          {%- include 'product-grid-item' -%}
+        {%- endfor -%}
+      {% endif %}
+
+    {% endfor %}
+
+
+    {% comment %} {%- for product in collection.products -%}
       {%- include 'product-grid-item' -%}
     {%- else -%}
       <div class="grid__item">
         <p class="collections_no_matches">{{ 'collections.general.no_matches' | t }}</p>
       </div>
-    {%- endfor -%}
+    {%- endfor -%} {% endcomment %}
 
   </div>
 
   {%- if section.settings.subcollection_style == 'below' -%}
     {%- include 'subcollections', per_row: section.settings.subcollections_per_row -%}
-  {%- endif -%}
-
-  {%- if paginate.pages > 1 -%}
-    {%- include 'pagination' -%}
   {%- endif -%}
 
   {%- if section.settings.description_position == 'bottom' -%}
@@ -133,16 +162,7 @@
     {% endif %}
   {%- endif -%}
 
-  {%- if settings.quick_shop_enable -%}
-    {%- for product in collection.products -%}
-      {%- if product.available -%}
-        {%- include 'quick-shop-modal' -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endif -%}
 </div>
-
-{% endpaginate %}
 
 {% schema %}
   {
