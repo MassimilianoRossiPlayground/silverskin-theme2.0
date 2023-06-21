@@ -1487,17 +1487,6 @@
               "half": "full"
             }
           },
-          "collection-woman-3": {
-            "type": "banner_temp",
-            "settings": {
-              "title": "STAY X-WARM",
-              "subtitle": "DA -40° A -10°",
-              "class": "stay-xwarm",
-              "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "\/collections\/stay-x-warm-collection\/Donna+Stay-X-Warm",
-              "half": "half"
-            }
-          },
           "collection-woman-4": {
             "type": "banner_temp",
             "settings": {
@@ -1508,6 +1497,17 @@
               "cta_link": "\/collections\/stay-warm-collection\/Donna+Stay-Warm",
               "half": "half"
             }
+          },
+          "collection-woman-3": {
+            "type": "banner_temp",
+            "settings": {
+              "title": "STAY X-WARM",
+              "subtitle": "DA -40° A -10°",
+              "class": "stay-xwarm",
+              "cta_text": "SCOPRI TUTTI I PRODOTTI",
+              "cta_link": "\/collections\/stay-x-warm-collection\/Donna+Stay-X-Warm",
+              "half": "half"
+            }
           }
         },
         "block_order": [
@@ -1515,8 +1515,8 @@
           "collection-woman-1",
           "collection-woman-2",
           "collection-woman-5",
-          "collection-woman-3",
-          "collection-woman-4"
+          "collection-woman-4",
+          "collection-woman-3"
         ],
         "settings": {
           "collection_name": "DONNA",
