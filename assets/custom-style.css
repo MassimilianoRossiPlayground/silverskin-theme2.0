@@ -2563,6 +2563,11 @@ label.variant__button-label.color-swatch {
     -o-transform: skew(-20deg) translateX(-50%);
 }
 
+.grid.grid--uniform {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .collection-division .grid {
     display: flex;
     flex-wrap: wrap;
