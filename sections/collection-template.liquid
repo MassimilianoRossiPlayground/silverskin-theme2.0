@@ -14,6 +14,7 @@
   {%- assign class_rte ="light-warm"-%}
 {%endif%}
 
+{%- assign collection_tag = collection.title -%}
 {% assign current_month = 'now' | date: "%m" %}
 
 {% case current_month %}
@@ -112,30 +113,79 @@
     {% endcase %}
 
 
-    {% for current_collection in collection_array %}
+    {% if current_tags contains "Stay Fresh" or current_tags contains "Stay Warm" or current_tags contains "Stay X-Warm" or current_tags contains "Light Warm" %}
+       
+      {%- for product in collection.products -%}
+        {%- include 'product-grid-item' -%}
+      {%- else -%}
+        <div class="grid__item">
+          <p class="collections_no_matches">{{ 'collections.general.no_matches' | t }}</p>
+        </div>
+      {%- endfor -%}
 
-      {% if current_collection == "fresh" %}
-        {% assign collection_handle = 'stay-fresh-collection' %}
-        {%- for product in collections[collection_handle].products -%}
-          {%- include 'product-grid-item' -%}
-        {%- endfor -%}
-      {% endif %}
+    {% else %}
 
-      {% if current_collection == "warm" %}
-        {% assign collection_handle = 'stay-warm-collection' %}
-        {%- for product in collections[collection_handle].products -%}
-          {%- include 'product-grid-item' -%}
-        {%- endfor -%}
-      {% endif %}
+      {% for current_collection in collection_array %}
 
-      {% if current_collection == "xwarm" %}
-        {% assign collection_handle = 'stay-x-warm-collection' %}
-        {%- for product in collections[collection_handle].products -%}
-          {%- include 'product-grid-item' -%}
-        {%- endfor -%}
-      {% endif %}
+        {% if current_collection == "fresh" %}
+          {%- for product in collection.products -%}
+            {% if product.tags contains 'Stay Fresh' %}
+              
+              {% if current_tags != blank %}
+                {% for current_tag in current_tags %}
+                  {% if product.tags contains current_tag %}
+                    {%- include 'product-grid-item' -%}
+                  {% endif %}
+                {%- endfor -%}
+              {% else %}
+                {%- include 'product-grid-item' -%}
+              {% endif %}
 
-    {% endfor %}
+            {% endif %}
+          {%- endfor -%}
+        {% endif %}
+
+        {% if current_collection == "warm" %}
+          {%- for product in collection.products -%}
+            {% if product.tags contains 'Stay Warm' %}
+
+              {% if current_tags != blank %}
+                {% for current_tag in current_tags %}
+                  {% if product.tags contains current_tag %}
+                    {%- include 'product-grid-item' -%}
+                  {% endif %}
+                {%- endfor -%}
+              {% else %}
+                {%- include 'product-grid-item' -%}
+              {% endif %}
+
+            {% endif %}
+          {%- endfor -%}
+        {% endif %}
+
+        {% if current_collection == "xwarm" %}
+          {%- for product in collection.products -%}
+            {% if product.tags contains 'Stay X-Warm' %}
+
+              {% if current_tags != blank %}
+                {% for current_tag in current_tags %}
+                  {% if product.tags contains current_tag %}
+                    {%- include 'product-grid-item' -%}
+                  {% endif %}
+                {%- endfor -%}
+              {% else %}
+                {%- include 'product-grid-item' -%}
+              {% endif %}
+              
+            {% endif %}
+          {%- endfor -%}
+        {% endif %}
+
+      {% endfor %}
+
+    {% endif %}
+
+
 
 
     {% comment %} {%- for product in collection.products -%}
