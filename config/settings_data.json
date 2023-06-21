@@ -1409,17 +1409,6 @@
               "half": "full"
             }
           },
-          "collection-man-3": {
-            "type": "banner_temp",
-            "settings": {
-              "title": "STAY X-WARM",
-              "subtitle": "DA -40° A -10°",
-              "class": "stay-xwarm",
-              "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "\/collections\/stay-x-warm-collection\/Uomo+Stay-X-Warm",
-              "half": "half"
-            }
-          },
           "collection-man-4": {
             "type": "banner_temp",
             "settings": {
@@ -1430,6 +1419,17 @@
               "cta_link": "\/collections\/stay-warm-collection\/Uomo+Stay-Warm",
               "half": "half"
             }
+          },
+          "collection-man-3": {
+            "type": "banner_temp",
+            "settings": {
+              "title": "STAY X-WARM",
+              "subtitle": "DA -40° A -10°",
+              "class": "stay-xwarm",
+              "cta_text": "SCOPRI TUTTI I PRODOTTI",
+              "cta_link": "\/collections\/stay-x-warm-collection\/Uomo+Stay-X-Warm",
+              "half": "half"
+            }
           }
         },
         "block_order": [
@@ -1437,8 +1437,8 @@
           "collection-man-1",
           "collection-man-2",
           "collection-man-5",
-          "collection-man-3",
-          "collection-man-4"
+          "collection-man-4",
+          "collection-man-3"
         ],
         "settings": {
           "collection_name": "UOMO",
