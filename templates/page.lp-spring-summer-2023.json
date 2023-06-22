@@ -9,6 +9,7 @@
     "180300a6-2f84-4cda-b590-06e2f7494ce9": {
       "type": "modulo-hero-video-cta",
       "settings": {
+        "transparent_header": true,
         "video_desk": "shopify:\/\/files\/videos\/silverskin2.mp4",
         "image_mob": "shopify:\/\/shop_images\/Screenshot_2023-06-07_alle_16.34_1.png",
         "title": "",
@@ -149,9 +150,7 @@
           "type": "cards",
           "settings": {
             "title": "Comfort",
-            "text": "Morbido e avvolgente, come una seconda pelle",
-            "image_desk": "shopify:\/\/shop_images\/silverskin-snow-focus-comfort-desk_2x_8c580efe-42f6-47d7-a28f-d207c6ff29b2.jpg",
-            "image_mob": "shopify:\/\/shop_images\/silverskin-snow-focus-comfort-desk_2x_8c580efe-42f6-47d7-a28f-d207c6ff29b2.jpg"
+            "text": "Morbido e avvolgente, come una seconda pelle"
           }
         }
       },
@@ -174,8 +173,6 @@
           "settings": {
             "product_id_man": "manicotto-performance-anthracite-1",
             "product_id_woman": "manicotto-performance-anthracite",
-            "image_man": "shopify:\/\/shop_images\/MANICOTTI.png",
-            "image_woman": "shopify:\/\/shop_images\/MANICOTTI.png",
             "title": "Manicotti",
             "description": "L’accessorio da avere sempre nello zaino, per affrontare repentine variazioni meteo. Elastici e leggeri, trasformano il base layer a mezza manica in manica lunga, offrendo una maggiore protezione."
           }
