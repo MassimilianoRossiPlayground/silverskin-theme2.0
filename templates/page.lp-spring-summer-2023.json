@@ -266,6 +266,12 @@
         "cta_text_woman": "ACQUISTA DONNA"
       }
     },
+    "ae38e237-8eff-4b67-9d79-b6f6299e16ee": {
+      "type": "modulo-custom-html",
+      "settings": {
+        "html": "<div style=\"background:#000;\">\n<iframe title=\"Customer reviews powered by Trustpilot\" loading=\"auto\" src=\"https:\/\/widget.trustpilot.com\/trustboxes\/53aa8807dec7e10d38f59f32\/index.html?templateId=53aa8807dec7e10d38f59f32&businessunitId=5de514fbf25ac90001046fb1#locale=it-IT&styleHeight=120px&styleWidth=100%25&theme=dark\" style=\"position: relative; height: 120px; width: 100%; border-style: none; display: block; overflow: hidden;\"><\/iframe>\n<\/div>"
+      }
+    },
     "2b57f855-38a4-425f-bbff-a6b7552977df": {
       "type": "modulo-masonry-gallery",
       "blocks": {
@@ -516,6 +522,7 @@
     "a596bdb9-73db-426d-bd29-a49764aede1b",
     "76462d61-d1ee-488f-9601-57a0b220fdf4",
     "1c40a134-9d83-4e92-820f-4c85f49b94c1",
+    "ae38e237-8eff-4b67-9d79-b6f6299e16ee",
     "2b57f855-38a4-425f-bbff-a6b7552977df",
     "65a04109-d795-42a5-8402-5f4e0525844a",
     "39522a20-48c4-41dd-adaa-9cce63a50319",
