@@ -468,6 +468,17 @@
         "submit_text": "ISCRIVITI"
       }
     },
+    "39522a20-48c4-41dd-adaa-9cce63a50319": {
+      "type": "featured-content",
+      "settings": {
+        "title": "Seguici su Instagram",
+        "text": "",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": false,
+        "divider": false
+      }
+    },
     "ee16903a-872d-48e1-8fa4-6536fa01874a": {
       "type": "instafeed",
       "settings": {
@@ -507,6 +518,7 @@
     "1c40a134-9d83-4e92-820f-4c85f49b94c1",
     "2b57f855-38a4-425f-bbff-a6b7552977df",
     "65a04109-d795-42a5-8402-5f4e0525844a",
+    "39522a20-48c4-41dd-adaa-9cce63a50319",
     "ee16903a-872d-48e1-8fa4-6536fa01874a",
     "b77925cd-2fef-4c38-8ebd-27a6bbada3b6",
     "8ddddf7c-0171-475c-8bf8-b1645359ab54"
