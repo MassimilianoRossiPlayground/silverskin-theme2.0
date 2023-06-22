@@ -150,7 +150,9 @@
           "type": "cards",
           "settings": {
             "title": "Comfort",
-            "text": "Morbido e avvolgente, come una seconda pelle"
+            "text": "Morbido e avvolgente, come una seconda pelle",
+            "image_desk": "shopify:\/\/shop_images\/comfort.jpg",
+            "image_mob": "shopify:\/\/shop_images\/comfort.jpg"
           }
         }
       },
