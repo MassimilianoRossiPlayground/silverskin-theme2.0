@@ -62,9 +62,10 @@
  
 
 }
-.activity-page__hero-text h2{
+.activity-page__hero-text h1{
 
    font-size: 70px;
+   font-family: "barlow-bold-italic" !important;
 
 }
 .activity-page__hero-text p {
@@ -399,7 +400,7 @@
         top:55%;
     }
 
-    .activity-page__hero-text h2 {
+    .activity-page__hero-text h1 {
         font-size: 32px;
         max-width: 95%;
         margin-left:  auto;

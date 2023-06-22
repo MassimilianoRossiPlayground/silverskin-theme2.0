@@ -1,28 +1,28 @@
-{% comment %}ly_liquid_scripts_begin{% endcomment %}{% capture ly_liquid_content %}{% comment %}ly_liquid_scripts_end{% endcomment %}<!doctype html>
-<html class="no-js" lang="{{ shop.locale }}"{% comment %}ly_dir_replace_for_[]_begin{% endcomment %}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%} dir="rtl" {%- endif -%}{% comment %}ly_dir_replace_end{% endcomment %}>
+{%- comment -%}ly_liquid_scripts_begin{%- endcomment -%}{%- capture ly_liquid_content -%}{%- comment -%}ly_liquid_scripts_end{%- endcomment -%}<!doctype html>
+<html class="no-js" lang="{{ shop.locale }}"{%- comment -%}ly_dir_replace_for_[]_begin{%- endcomment -%}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%} dir="rtl" {%- endif -%}{%- comment -%}ly_dir_replace_end{%- endcomment -%}>
 <head>
-{% render 'hoculus-scp-opt' %}
-{% if customer %}
+{%- render 'hoculus-scp-opt' -%}
+{%- if customer -%}
  
-  {% assign user_visitorLoginState = 'logged-id' %}
+  {%- assign user_visitorLoginState = 'logged-id' -%}
 
-  {% if customer.orders_count > 0 %}
-    {% assign user_visitorExistingCustomer = 'yes' %}
-  {% else %}
-    {% assign user_visitorExistingCustomer = 'no' %}
-  {% endif %}
+  {%- if customer.orders_count > 0 -%}
+    {%- assign user_visitorExistingCustomer = 'yes' -%}
+  {%- else -%}
+    {%- assign user_visitorExistingCustomer = 'no' -%}
+  {%- endif -%}
 
-  {% if customer.accepts_marketing %}
-    {% assign user_visitorNewsletterSubscription = 'yes' %}
-  {% else %}
-    {% assign user_visitorNewsletterSubscription = 'no' %}
-  {% endif %}
+  {%- if customer.accepts_marketing -%}
+    {%- assign user_visitorNewsletterSubscription = 'yes' -%}
+  {%- else -%}
+    {%- assign user_visitorNewsletterSubscription = 'no' -%}
+  {%- endif -%}
 
-{% else %}
-  {% assign user_visitorLoginState = 'not-logged' %}
-{% endif %}
+{%- else -%}
+  {%- assign user_visitorLoginState = 'not-logged' -%}
+{%- endif -%}
 
-    {% comment %} <script>
+    {%- comment -%} <script>
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
           'pageLang': '{{ request.locale.iso_code }}',
@@ -39,9 +39,9 @@
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KJVGQLQ');</script> {% endcomment %}
+    })(window,document,'script','dataLayer','GTM-KJVGQLQ');</script> {%- endcomment -%}
     <!-- End Google Tag Manager -->
-{% include 'kiwiSizing' %}
+{%- include 'kiwiSizing' -%}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -49,9 +49,9 @@
   <meta name="google-site-verification" content="RH3esHt2mbPLJv9iELD1malxkAVtTCu4m6TdG6ggaGg" />
 
   <!-- TrustBox script -->
-  {% comment %} 
+  {%- comment -%} 
   <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" defer></script>
-  {% endcomment %}
+  {%- endcomment -%}
   <!-- End TrustBox script -->
   
   <link rel="alternate" hreflang="it"
@@ -71,21 +71,28 @@
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
   {%- endif -%}
 
-  {% include 'seo-title' %}
+  {%- include 'seo-title' -%}
   <title>{{ seo_title }}</title>
   
+  {%- if template contains 'product' -%}
+    {%- include 'product-template-variables' -%}
+  {%- endif -%}
+
   {%- if page_description -%}
   <meta name="description" content="{{ page_description | escape }}">
   {%- endif -%}
 
-  {% include 'social-meta-tags' %}
+  {%- include 'social-meta-tags' -%}
   
-  {% include 'font-face' %}
+  {%- include 'font-face' -%}
 
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
 
+  {%- if page.handle == "privacy" or page.handle == "condizioni-di-vendita" or page.handle == "cookie-policy" or page.handle == "metodi-di-pagamento" -%}
+    <meta name="robots" content="noindex">
+  {%- endif -%}
 
-  {% style %}
+  {%- style -%}
     .collection-item__title {
       font-size: {{ settings.type_collection_size | times: 0.8 }}px;
     }
@@ -95,7 +102,7 @@
         font-size: {{ settings.type_collection_size }}px;
       }
     }
-  {% endstyle %}
+  {%- endstyle -%}
 
   <script>
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
@@ -145,13 +152,13 @@
 
   <script src="{{ 'vendor-scripts-v5.js' | asset_url | split: '?' | first }}" defer="defer"></script>
 
-  {% if settings.enable_currencies %}
-    {% unless shop.enabled_currencies.size > 1 %}
+  {%- if settings.enable_currencies -%}
+    {%- unless shop.enabled_currencies.size > 1 -%}
       <script src="/services/javascripts/currencies.js" defer="defer"></script>
       <script src="{{ 'currencies.jquery.min.js' | asset_url | split: '?' | first }}" defer="defer"></script>
-    {% endunless %}
+    {%- endunless -%}
     <link rel="stylesheet" href="{{ 'currency-flags.css' | asset_url }}">
-  {% endif %}
+  {%- endif -%}
 
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
 
@@ -159,7 +166,7 @@
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}
 
-  {% comment %} START - Custom Tool CSS {% endcomment %}
+  {%- comment -%} START - Custom Tool CSS {%- endcomment -%}
 
     <link rel="preload" href="{{ 'custom-style.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ 'custom-style.css' | asset_url }}"></noscript>
@@ -180,7 +187,7 @@
 
   
 
-  {% comment %} END - Custom Tool CSS {% endcomment %}
+  {%- comment -%} END - Custom Tool CSS {%- endcomment -%}
 
 <meta name="facebook-domain-verification" content="6d20m9zdoot8y557o0lqer21oquzk0" />
 
@@ -192,55 +199,55 @@
 {%- comment -%}Added by Heartcoding from Sale & Discount Manager{%- endcomment -%}
   {%- if product -%}<script>const hcVariants = {{ product.variants | json }};</script>{%- endif -%}{{ shop.metafields.saletag.hc_tag_css }}
 
-{% include 'analyzify-gtm-body' %}
-{% comment %}ly_dir_styles_begin{% endcomment %}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%}{{- 'ly-rtl.css' | asset_url | stylesheet_tag -}}{%- endif -%}{% comment %}ly_dir_styles_end{% endcomment %}</head>
+{%- include 'analyzify-gtm-body' -%}
+{%- comment -%}ly_dir_styles_begin{%- endcomment -%}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%}{{- 'ly-rtl.css' | asset_url | stylesheet_tag -}}{%- endif -%}{%- comment -%}ly_dir_styles_end{%- endcomment -%}</head>
 
 
 
 
 
-<body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}--{{ handle }} {% if settings.enable_currencies %} currencies-enabled{% endif %}" data-transitions="false">
+<body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}--{{ handle }} {%- if settings.enable_currencies -%} currencies-enabled{%- endif -%}" data-transitions="false">
 
 <script>window.KlarnaThemeGlobals={};{%case template.name%} {%when"product"%} window.KlarnaThemeGlobals.data_purchase_amount={{product.first_available_variant.price}};window.KlarnaThemeGlobals.productVariants={{product.variants|json}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%when"cart"%} window.KlarnaThemeGlobals.data_purchase_amount={{cart.total_price}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%endcase%}</script>
 
-    {% comment %} <!-- Google Tag Manager (noscript) -->
+    {%- comment -%} <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ shop.metafields.gtm.tracking_id }}"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) --> {% endcomment %}
+    <!-- End Google Tag Manager (noscript) --> {%- endcomment -%}
     
     <!-- Google Tag Manager (noscript) -->
-    {% comment %} <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJVGQLQ"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> {% endcomment %}
+    {%- comment -%} <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJVGQLQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> {%- endcomment -%}
     <!-- End Google Tag Manager (noscript) -->
 
-  {% comment %}
+  {%- comment -%}
     Enable below script if page transitions enabled
-  {% endcomment %}
-  {% comment %}
+  {%- endcomment -%}
+  {%- comment -%}
   <script type="text/javascript">window.setTimeout(function() { document.body.className += " loaded"; }, 25);</script>
-  {% endcomment %}
+  {%- endcomment -%}
 
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
-  {% comment %} LOAD SVG {% endcomment %}
+  {%- comment -%} LOAD SVG {%- endcomment -%}
   <div id="spriteSvg" data-svg="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/svg.svg?v=1589365684"></div>
 
   <div id="PageContainer" class="page-container">
     <div class="transition-body">
 
-    {% section 'header' %}
+    {%- section 'header' -%}
 
       <main class="main-content" id="MainContent" locale="{{ shop.locale }}">
         {{ content_for_layout }}
       </main>
 
-      {% section 'footer-promotions' %}
-      {% section 'footer' %}
+      {%- section 'footer-promotions' -%}
+      {%- section 'footer' -%}
 
     </div>
   </div>
 
-  {% section 'newsletter-popup' %}
+  {%- section 'newsletter-popup' -%}
 
   {%- if settings.cart_type == 'drawer' -%}
     {%- include 'ajax-cart-template' -%}
@@ -250,9 +257,9 @@
     {%- include 'currency-modal' -%}
   {%- endif -%}
 
-  {% comment %}
+  {%- comment -%}
     Custom markup for slider arrows using theme icons
-  {% endcomment %}
+  {%- endcomment -%}
   <div class="hide">
     <button id="prevArrowTemplate" class="slick-prev" aria-label="{{ 'general.pagination.previous' | t }}" type="button">
       <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-left" viewBox="0 0 284.49 498.98"><path d="M249.49 0a35 35 0 0 1 24.75 59.75L84.49 249.49l189.75 189.74a35.002 35.002 0 1 1-49.5 49.5L10.25 274.24a35 35 0 0 1 0-49.5L224.74 10.25A34.89 34.89 0 0 1 249.49 0z"/></svg>
@@ -268,11 +275,11 @@
     {%- include 'predictive-template' -%}
   {%- endif -%}
 
-  {% include 'video-modal' %}
-  {% include 'photoswipe-template' %}
-  {% if template contains 'product' %}
-    {% include 'recently-viewed-product-template' %}
-  {% endif %}
+  {%- include 'video-modal' -%}
+  {%- include 'photoswipe-template' -%}
+  {%- if template contains 'product' -%}
+    {%- include 'recently-viewed-product-template' -%}
+  {%- endif -%}
 
   <script type="text/javascript" src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
   <script type="text/javascript" src="{{ 'gsap.min.js' | asset_url }}" defer="defer"></script>
@@ -283,18 +290,18 @@
   <script type="text/javascript" src="{{ 'scripts__lp-activity.js' | asset_url }}" defer="defer"></script>
   <script type="text/javascript" src="{{ 'nouislider.min.js' | asset_url }}" defer="defer"></script>
 
-  {% comment %} START Moduli {% endcomment %}
+  {%- comment -%} START Moduli {%- endcomment -%}
   <script type="text/javascript" src="{{ 'modulo-slider-cards.js' | asset_url }}" defer="defer"></script>
 
-  {% comment %} END Moduli {% endcomment %}
+  {%- comment -%} END Moduli {%- endcomment -%}
 
 
-  {% comment %} END - Custom Tool JS {% endcomment %}
-{% comment %}
+  {%- comment -%} END - Custom Tool JS {%- endcomment -%}
+{%- comment -%}
 {{ '//cdn.shopify.com/s/files/1/0194/1736/6592/t/1/assets/booster-page-speed-optimizer.js?23' | script_tag }}
-{% endcomment %}
+{%- endcomment -%}
 <!-- WPD Start -->
-                {% if customer.tags.size > 0 and template != 'cart' %}
+                {%- if customer.tags.size > 0 and template != 'cart' -%}
                 <script>
                     document.addEventListener('DOMContentLoaded', function() {
                       let checkoutbtninterval = setInterval(function(){
@@ -310,20 +317,20 @@
 },500)
                 });
               </script>
-               {% endif %}
+               {%- endif -%}
          
 
-               {% if customer.tags.size > 0 and template == 'cart' %}
-                 {% include 'wcp_cart' %}
-               {% endif %}
+               {%- if customer.tags.size > 0 and template == 'cart' -%}
+                 {%- include 'wcp_cart' -%}
+               {%- endif -%}
                <!-- WPD End -->
-  {% include 'js-translations' %}
+  {%- include 'js-translations' -%}
   
 <link rel="preload" as="script" href="https://consent.cookiebot.com/uc.js">
 <script id="Cookiebot" rel="preconnect" src="https://consent.cookiebot.com/uc.js" data-cbid="5b6e39bd-2ece-46dc-9463-ccfb70627bb8" data-blockingmode="auto" type="text/javascript" defer="defer"></script>
 <script type="text/javascript" src="{{ 'hoculus.js' | asset_url }}" defer="defer"></script>
 
-  {% include 'subscribe-it-helper' %}<!-- langify-v2-scripts-begin -->{% comment %}ly_liquid_scripts_begin{% endcomment %}{% endcapture %}{% render 'ly-liquid-scripts' content: ly_liquid_content %}{% comment %}ly_liquid_scripts_end{% endcomment %}{% comment %}ly_core_scripts_begin{% endcomment %}{% render 'ly-core-scripts' %}{% comment %}ly_core_scripts_end{% endcomment %}{% comment %}ly_switcher_factory_begin{% endcomment %}{% render 'ly-switcher-factory' %}{% comment %}ly_switcher_factory_end{% endcomment %}<!-- langify-v2-scripts-end --></body>
+  {%- include 'subscribe-it-helper' -%}<!-- langify-v2-scripts-begin -->{%- comment -%}ly_liquid_scripts_begin{%- endcomment -%}{%- endcapture -%}{%- render 'ly-liquid-scripts' content: ly_liquid_content -%}{%- comment -%}ly_liquid_scripts_end{%- endcomment -%}{%- comment -%}ly_core_scripts_begin{%- endcomment -%}{%- render 'ly-core-scripts' -%}{%- comment -%}ly_core_scripts_end{%- endcomment -%}{%- comment -%}ly_switcher_factory_begin{%- endcomment -%}{%- render 'ly-switcher-factory' -%}{%- comment -%}ly_switcher_factory_end{%- endcomment -%}<!-- langify-v2-scripts-end --></body>
 
  
 

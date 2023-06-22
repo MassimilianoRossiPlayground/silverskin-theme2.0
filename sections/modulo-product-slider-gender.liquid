@@ -32,7 +32,11 @@
                         <div class="swiper-slide">
                             {% comment %} <img src="{{  all_products[p_id_man].featured_image | img_url: '1024x' }}" alt="best seller silverskin"> {% endcomment %}
                             <img src="{{ product_block.settings.image_man | img_url: 'master' }}" alt="best seller silverskin">
-                            <h4>{{ all_products[p_id_man].title }}</h4>    
+                            {% if product_block.settings.title != blank %}
+                                <h4>{{ product_block.settings.title }}</h4>    
+                            {% else %}
+                                <h4>{{ all_products[p_id_woman].title }}</h4>    
+                            {% endif %}
                             <div class="product-slider-gender-description">{{ product_block.settings.description }}</div>
                             <div class="product-slider-gender-cta">
                                 <a class="product-slider-gender-cta__link" 
@@ -69,7 +73,11 @@
                         
                         <div class="swiper-slide">
                             <img src="{{ product_block.settings.image_woman | img_url: 'master' }}" alt="best seller silverskin">
-                            <h4>{{ all_products[p_id_woman].title }}</h4>    
+                            {% if product_block.settings.title != blank %}
+                                <h4>{{ product_block.settings.title }}</h4>    
+                            {% else %}
+                                <h4>{{ all_products[p_id_woman].title }}</h4>    
+                            {% endif %}
                             <div class="product-slider-gender-description">{{ product_block.settings.description }}</div>
                             <div class="product-slider-gender-cta">
                                 <a class="product-slider-gender-cta__link" 
@@ -171,6 +179,11 @@
                 "type": "image_picker",
                 "id": "image_woman",
                 "label": "Image Woman"
+            },
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
             },
             {
                 "type": "text",

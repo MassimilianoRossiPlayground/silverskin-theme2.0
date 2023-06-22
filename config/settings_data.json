@@ -669,7 +669,7 @@
             "type": "contact-form",
             "settings": {
               "title": "",
-              "privacy": "Confermo di aver letto e compreso la Dichiarazione sulla <a href=\"\/pages\/privacy\/\">privacy<\/a> e acconsento al trattamento dei miei dati personali a scopi di marketing.",
+              "privacy": "Confermo di aver letto e compreso la Dichiarazione sulla <a href=\"\/pages\/privacy\">privacy<\/a> e acconsento al trattamento dei miei dati personali a scopi di marketing.",
               "show_phone": true,
               "narrow_column": true
             }
@@ -709,7 +709,6 @@
       "1594644909912": {
         "type": "instafeed",
         "settings": {
-          "heading_font": "helvetica_n4",
           "heading_size": 20,
           "feed_width": 100,
           "html_area": "<!--  -->"
@@ -1229,7 +1228,7 @@
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
               "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/04-Homepage-Power-is-Precious-Temperatura-costante.jpg"
+              "image": "shopify:\/\/shop_images\/01-Homepage-Power-is-Precious2.jpg"
             }
           },
           "ea2eb875-5bf3-4252-b3c7-041aa58abf8e": {
@@ -1326,6 +1325,7 @@
       },
       "34fe17a8-3051-4639-9c8a-4b3bde3a7445": {
         "type": "modulo-hero-video",
+        "disabled": true,
         "settings": {
           "video_desk": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d08e6d7a9f1f42a681ff16742d0d7e03.mp4",
           "video_mob": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5ce6ac073ff340edb4ed4f63cf5d7df3.mp4"
@@ -1413,16 +1413,16 @@
               "half": "full"
             }
           },
-          "collection-man-3": {
+          "collection-man-5": {
             "type": "banner_temp",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-x-warm-banner-men-desk_2x_d9398c6f-e118-4168-99fc-b4e2ad74caf4.jpg",
-              "title": "STAY X-WARM",
-              "subtitle": "DA -40° A -10°",
-              "class": "stay-xwarm",
+              "image": "shopify:\/\/shop_images\/ss-fresh-banner-men-desk_2x_a814bf85-49d4-49b7-9fb8-b9923da11f0b.jpg",
+              "title": "STAY FRESH",
+              "subtitle": "DA 10° A 40°",
+              "class": "stay-fresh",
               "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "\/collections\/stay-x-warm-collection\/Uomo+Stay-X-Warm",
-              "half": "half"
+              "cta_link": "\/collections\/stay-fresh-collection\/Uomo+Stay-Fresh",
+              "half": "full"
             }
           },
           "collection-man-4": {
@@ -1437,16 +1437,16 @@
               "half": "half"
             }
           },
-          "collection-man-5": {
+          "collection-man-3": {
             "type": "banner_temp",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-fresh-banner-men-desk_2x_a814bf85-49d4-49b7-9fb8-b9923da11f0b.jpg",
-              "title": "STAY FRESH",
-              "subtitle": "DA 10° A 40°",
-              "class": "stay-fresh",
+              "image": "shopify:\/\/shop_images\/ss-x-warm-banner-men-desk_2x_d9398c6f-e118-4168-99fc-b4e2ad74caf4.jpg",
+              "title": "STAY X-WARM",
+              "subtitle": "DA -40° A -10°",
+              "class": "stay-xwarm",
               "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "\/collections\/stay-fresh-collection\/Uomo+Stay-Fresh",
-              "half": "full"
+              "cta_link": "\/collections\/stay-x-warm-collection\/Uomo+Stay-X-Warm",
+              "half": "half"
             }
           }
         },
@@ -1454,9 +1454,9 @@
           "collection-man-0",
           "collection-man-1",
           "collection-man-2",
-          "collection-man-3",
+          "collection-man-5",
           "collection-man-4",
-          "collection-man-5"
+          "collection-man-3"
         ],
         "settings": {
           "collection_name": "UOMO",
@@ -1470,7 +1470,6 @@
           "collection-woman-0": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-product-banner-01-women-desk_2x_c78855b4-9453-45e8-ac4e-75bcca17b98c.jpg",
               "title": "MAGLIE",
               "cta_text": "VEDI TUTTE",
               "cta_link": "\/collections\/base-layer-maglie\/Donna",
@@ -1480,7 +1479,6 @@
           "collection-woman-1": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-product-banner-02-women-desk_2x_efb585be-839a-43a4-80c0-3c835e2c13ef.jpg",
               "title": "PANTALONI",
               "cta_text": "VEDI TUTTI",
               "cta_link": "\/collections\/base-layer-pantaloni\/Donna",
@@ -1490,35 +1488,10 @@
           "collection-woman-2": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ss-product-banner-03-women-desk_2x_be8af4c7-f2e4-4bc4-8e72-9837b2dcafd1.jpg",
               "title": "ACCESSORI",
               "cta_text": "VEDI TUTTI",
               "cta_link": "\/collections\/accessori\/Donna+Accessori",
               "half": "full"
-            }
-          },
-          "collection-woman-3": {
-            "type": "banner_temp",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/ss-x-warm-banner-women-desk_2x_fe31108c-a1cd-4d3e-a521-a8e7ff35076d.jpg",
-              "title": "STAY X-WARM",
-              "subtitle": "DA -40° A -10°",
-              "class": "stay-xwarm",
-              "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "\/collections\/stay-x-warm-collection\/Donna+Stay-X-Warm",
-              "half": "half"
-            }
-          },
-          "collection-woman-4": {
-            "type": "banner_temp",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/ss-warm-banner-women-desk_2x_6782c2b7-7737-4336-86ed-aa572fa31677.jpg",
-              "title": "STAY WARM",
-              "subtitle": "DA -20° A 20°",
-              "class": "stay-warm",
-              "cta_text": "SCOPRI TUTTI I PRODOTTI",
-              "cta_link": "\/collections\/stay-warm-collection\/Donna+Stay-Warm",
-              "half": "half"
             }
           },
           "collection-woman-5": {
@@ -1532,15 +1505,38 @@
               "cta_link": "\/collections\/stay-fresh-collection\/Donna+Stay-Fresh",
               "half": "full"
             }
+          },
+          "collection-woman-4": {
+            "type": "banner_temp",
+            "settings": {
+              "title": "STAY WARM",
+              "subtitle": "DA -20° A 20°",
+              "class": "stay-warm",
+              "cta_text": "SCOPRI TUTTI I PRODOTTI",
+              "cta_link": "\/collections\/stay-warm-collection\/Donna+Stay-Warm",
+              "half": "half"
+            }
+          },
+          "collection-woman-3": {
+            "type": "banner_temp",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ss-x-warm-banner-women-desk_2x_fe31108c-a1cd-4d3e-a521-a8e7ff35076d.jpg",
+              "title": "STAY X-WARM",
+              "subtitle": "DA -40° A -10°",
+              "class": "stay-xwarm",
+              "cta_text": "SCOPRI TUTTI I PRODOTTI",
+              "cta_link": "\/collections\/stay-x-warm-collection\/Donna+Stay-X-Warm",
+              "half": "half"
+            }
           }
         },
         "block_order": [
           "collection-woman-0",
           "collection-woman-1",
           "collection-woman-2",
-          "collection-woman-3",
+          "collection-woman-5",
           "collection-woman-4",
-          "collection-woman-5"
+          "collection-woman-3"
         ],
         "settings": {
           "collection_name": "DONNA",

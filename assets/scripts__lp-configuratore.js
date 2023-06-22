@@ -372,7 +372,7 @@ function addOtherActivity(activity){
     }
 
     $(".others-activities").append(
-        '<div class="other-activity other-activity-' + activity + '"><input type="text" value="' + activity + '" readonly />        <div class="other-activity-btn other-activity-delete" data-value="' + activity +'" > <img class="active close-icon" src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/silverskin-configurator-remove-icon-1x.png?v=1646663426" alt=""> </div> </div >'
+        '<div class="other-activity other-activity-' + activity + '"><input type="text" value="' + activity + '" readonly />        <div class="other-activity-btn other-activity-delete" data-value="' + activity +'" > <img class="active close-icon" src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/silverskin-configurator-remove-icon-1x.png?v=1646663426" alt="silverskin"> </div> </div >'
     )
     configurator["otherActivities"].push(activity)
     

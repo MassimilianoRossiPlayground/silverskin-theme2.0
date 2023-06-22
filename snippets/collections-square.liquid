@@ -8,16 +8,15 @@
   <div class=" swiper-wrapper">
 
     <a
-      class="collection-square xwarm {% if current_tags contains "Stay X-Warm" %}active{% endif %} swiper-slide"
-      href="/collections/stay-x-warm-collection/Stay-X-Warm+{{uomodonna_link}}"
-      slide="1">
+      class="collection-square fresh {% if current_tags contains "Stay Fresh" %}active{% endif %} swiper-slide"
+      href="/collections/stay-fresh-collection/Stay-Fresh+{{uomodonna_link}}"
+      slide="4">
       <div class="collection-square__point"></div>
-      <div class="collection-square__title">Stay X-Warm</div>
+      <div class="collection-square__title">Stay Fresh</div>
       <div class="collection-square__temp">
-        da -40° a -10°</div>
-      <!--<div class="collection-square__subtitle">Lorem, ipsum dolor sit amet
-      </div>-->
-
+        da 10° a 40°</div>
+      <!-- <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet
+      </div> -->
     </a>
 
     <a
@@ -32,6 +31,19 @@
       </div>-->
     </a>
 
+    <a
+      class="collection-square xwarm {% if current_tags contains "Stay X-Warm" %}active{% endif %} swiper-slide"
+      href="/collections/stay-x-warm-collection/Stay-X-Warm+{{uomodonna_link}}"
+      slide="1">
+      <div class="collection-square__point"></div>
+      <div class="collection-square__title">Stay X-Warm</div>
+      <div class="collection-square__temp">
+        da -40° a -10°</div>
+      <!--<div class="collection-square__subtitle">Lorem, ipsum dolor sit amet
+      </div>-->
+
+    </a>
+
     <!--<a
     class="collection-square lightwarm {% if current_tags contains "Light Warm" %}active{% endif %} swiper-slide"
     href="/collections/light-warm/Light-Warm"
@@ -43,17 +55,7 @@
     <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet
     </div>
     </a>-->
-    <a
-      class="collection-square fresh {% if current_tags contains "Stay Fresh" %}active{% endif %} swiper-slide"
-      href="/collections/stay-fresh-collection/Stay-Fresh+{{uomodonna_link}}"
-      slide="4">
-      <div class="collection-square__point"></div>
-      <div class="collection-square__title">Stay Fresh</div>
-      <div class="collection-square__temp">
-        da 10° a 40°</div>
-      <!-- <div class="collection-square__subtitle">Lorem, ipsum dolor sit amet
-      </div> -->
-    </a>
+
   </div>
   <div class="swiper-pagination swiper-pagination-collections-square"></div>
 </div>
