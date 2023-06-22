@@ -9,7 +9,6 @@
     "180300a6-2f84-4cda-b590-06e2f7494ce9": {
       "type": "modulo-hero-video-cta",
       "settings": {
-        "transparent_header": true,
         "video_desk": "shopify:\/\/files\/videos\/silverskin2.mp4",
         "image_mob": "shopify:\/\/shop_images\/Screenshot_2023-06-07_alle_16.34_1.png",
         "title": "",
@@ -150,7 +149,9 @@
           "type": "cards",
           "settings": {
             "title": "Comfort",
-            "text": "Morbido e avvolgente, come una seconda pelle"
+            "text": "Morbido e avvolgente, come una seconda pelle",
+            "image_desk": "shopify:\/\/shop_images\/comfort.jpg",
+            "image_mob": "shopify:\/\/shop_images\/comfort.jpg"
           }
         }
       },
