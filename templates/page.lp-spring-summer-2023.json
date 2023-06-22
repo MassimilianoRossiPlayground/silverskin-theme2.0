@@ -9,7 +9,7 @@
     "180300a6-2f84-4cda-b590-06e2f7494ce9": {
       "type": "modulo-hero-video-cta",
       "settings": {
-        "video_desk": "",
+        "video_desk": "shopify:\/\/files\/videos\/silverskin2.mp4",
         "image_mob": "shopify:\/\/shop_images\/Screenshot_2023-06-07_alle_16.34_1.png",
         "title": "",
         "sub_title": "",
@@ -65,7 +65,7 @@
         "4cdeceb1-c28d-490e-b56b-b0763e4a172f": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_c73ecf73-6046-4d74-9757-bd5a838053ed.png",
+            "image": "shopify:\/\/shop_images\/2.png",
             "sup_title": "SILVERSKIN",
             "title": "Giacomo Regallo, aspirante guida alpina",
             "description": "<p>“Scegliendo di vivere in montagna ho fatto una scelta di libertà, soprattutto dall’idea di vivere con meno, perché è tanto quello che ha da insegnarti. Il salire in cima ad una parete che non porta a nulla, in sé, è inutile per certi versi ma fondamentale per progredire come individuo, come società. E poi è terapeutica: non sarei davvero contento senza lo stato di tranquillità e distensione in cui mi pone”<\/p>",
@@ -115,7 +115,7 @@
             "title": "Termoregolazione",
             "text": "Mantiene la temperatura corporea costante, sempre",
             "image_desk": "shopify:\/\/shop_images\/unnamed5.png",
-            "image_mob": "shopify:\/\/shop_images\/unnamed5.png"
+            "image_mob": "shopify:\/\/shop_images\/unnamed3.png"
           }
         },
         "4e529420-3b47-4c6b-a851-1429b26ae7a0": {
@@ -150,8 +150,8 @@
           "settings": {
             "title": "Comfort",
             "text": "Morbido e avvolgente, come una seconda pelle",
-            "image_desk": "shopify:\/\/shop_images\/unnamed-1_8b025f54-7c0c-44d8-a531-54cb2c5894c0.jpg",
-            "image_mob": "shopify:\/\/shop_images\/unnamed-1_8b025f54-7c0c-44d8-a531-54cb2c5894c0.jpg"
+            "image_desk": "shopify:\/\/shop_images\/silverskin-snow-focus-comfort-desk_2x_8c580efe-42f6-47d7-a28f-d207c6ff29b2.jpg",
+            "image_mob": "shopify:\/\/shop_images\/silverskin-snow-focus-comfort-desk_2x_8c580efe-42f6-47d7-a28f-d207c6ff29b2.jpg"
           }
         }
       },
@@ -174,8 +174,8 @@
           "settings": {
             "product_id_man": "manicotto-performance-anthracite-1",
             "product_id_woman": "manicotto-performance-anthracite",
-            "image_man": "shopify:\/\/shop_images\/manicotti_2_1_c83163a2-8559-4651-aa3b-68ead520a184.png",
-            "image_woman": "shopify:\/\/shop_images\/manicotti_2_1_c83163a2-8559-4651-aa3b-68ead520a184.png",
+            "image_man": "shopify:\/\/shop_images\/MANICOTTI.png",
+            "image_woman": "shopify:\/\/shop_images\/MANICOTTI.png",
             "title": "Manicotti",
             "description": "L’accessorio da avere sempre nello zaino, per affrontare repentine variazioni meteo. Elastici e leggeri, trasformano il base layer a mezza manica in manica lunga, offrendo una maggiore protezione."
           }
@@ -218,7 +218,7 @@
           "settings": {
             "product_id_man": "base-layer-termico-smanicato-grigio-perla-sk005lnf",
             "product_id_woman": "base-layer-termico-smanicato-pearlgrey",
-            "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_SMANICATA_Stay_Fresh_Maglia_termica_Manica_Corta_png_4193d50c-7e67-40fc-afad-f715dc744259.png",
+            "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_SMANICATA_Stay_Fresh_Maglia_termica_Manica_Corta_png.png",
             "image_woman": "shopify:\/\/shop_images\/DONNA_GIROCOLLO_SMANICATA_Stay_Fresh_Maglia_termica_Manica_Corta.png",
             "title": "Smanicata",
             "description": "Versatile e adatto per tutte le attività in montagna, il modello smanicato aderisce al torace senza comprimere, assicurando comfort, libertà di movimento e massima traspirabilità."
@@ -242,7 +242,7 @@
             "product_id_woman": "base-layer-termico-girocollo-manica-corta-pearlgrey-1",
             "image_man": "shopify:\/\/shop_images\/UOMO_WARM_Stay_Warm_Manica_Corta_girocollo.png",
             "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo.png",
-            "title": "Canotta Cycling",
+            "title": "Stay Warm Manica Corta girocollo",
             "description": "Ideale per l’alta quota, questo base layer preserva il calore corporeo, isolando dalle temperature più rigide dai 3.000 mt in su. Traspirante e confortevole, favorisce la dispersione del sudore per una pelle sempre asciutta."
           }
         }
@@ -272,7 +272,6 @@
         "template--19421578428729__2b57f855-38a4-425f-bbff-a6b7552977df-1686216511496eb766-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-37_1.jpg",
             "direction_vertical_from": "top",
             "direction_from": "left",
             "cord_x": 0,
@@ -286,7 +285,6 @@
         "7d068a2a-e6b1-4e33-8a8f-e53e069d5559": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_6483441_1_1.jpg",
             "direction_vertical_from": "top",
             "direction_from": "left",
             "cord_x": 20,
@@ -300,7 +298,6 @@
         "3cac1968-bc2a-4529-a110-795b772b6bc4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-39_1.jpg",
             "direction_vertical_from": "top",
             "direction_from": "right",
             "cord_x": 0,
@@ -314,7 +311,6 @@
         "2b113cb2-670c-4e11-93ba-22dc45f8972a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-31_2.jpg",
             "direction_vertical_from": "top",
             "direction_from": "right",
             "cord_x": 10,
@@ -328,7 +324,6 @@
         "52fea3ce-e836-4334-a84b-3dd13826c989": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-34_1.png",
             "direction_vertical_from": "top",
             "direction_from": "left",
             "cord_x": 5,
@@ -342,7 +337,6 @@
         "8759048f-6fa2-4cc9-ae1f-4e975046ec85": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-30_1.jpg",
             "direction_vertical_from": "top",
             "direction_from": "left",
             "cord_x": 24,
@@ -356,7 +350,6 @@
         "36b86ce1-53ff-4d2b-88aa-a2afb26144f4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_6483441_2_1.jpg",
             "direction_vertical_from": "top",
             "direction_from": "left",
             "cord_x": 0,
@@ -370,7 +363,6 @@
         "2e7a8904-1164-41d2-b760-625ad3bff02d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
             "direction_vertical_from": "top",
             "direction_from": "left",
             "cord_x": 0,
@@ -384,7 +376,6 @@
         "b1c5a302-559b-4b83-b992-77961f29c8a4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_6483441_1.jpg",
             "direction_vertical_from": "top",
             "direction_from": "left",
             "cord_x": 20,
@@ -398,7 +389,6 @@
         "bea89176-69d7-4132-831f-9908f77ec202": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-27_1.jpg",
             "direction_vertical_from": "bottom",
             "direction_from": "right",
             "cord_x": 0,
@@ -412,7 +402,6 @@
         "7004b69c-b0ed-4501-be85-508984dab9f5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-31_2_1.jpg",
             "direction_vertical_from": "top",
             "direction_from": "right",
             "cord_x": 10,
@@ -426,7 +415,6 @@
         "1c14ee12-4dec-4995-8fc7-52ed4f4d1687": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-58_3.jpg",
             "direction_vertical_from": "bottom",
             "direction_from": "right",
             "cord_x": 0,
@@ -463,7 +451,6 @@
         "sup_title": "SILVERSKIN",
         "title": "10% off se partecipi alla community e ti registri alla newsletter",
         "description": "",
-        "image": "shopify:\/\/shop_images\/4.jpg",
         "mail_placeholder": "INSERISCI LA TUA MAIL",
         "submit_text": "ISCRIVITI"
       }
