@@ -1,4 +1,4 @@
-{%- comment -%}Version 4.0.6{%- endcomment -%}
+{%- comment -%}Version 4.1.3{%- endcomment -%}
 {%- comment -%}
   !!! IMPORTANT !!!
   This file has been automatically created by Langify.
@@ -237,15 +237,24 @@
       document.getElementsByTagName('head')[0].appendChild(script);
     }
     static localizationRedirect(type, code, additionalFields, additionalParams, domain) {
+      if(domain) {
+        var newDomain = domain;
+        if(domain.indexOf('redirected=true') === -1 && type === 'language_code') {
+          if(domain.indexOf('?') >= 0) {
+            newDomain += '&redirected=true';
+          } else {
+            newDomain += '?redirected=true';
+          }
+        }
+        window.location.href = newDomain;
+        return true;
+      }
+
       if(type !== 'country_code' && type !== 'language_code') { 
         return false; 
       }
       if(!additionalParams) {
         var additionalParams = '';
-      }
-      if(domain) {
-        window.location.href = domain;
-        return true;
       }
       var params = [
         {
@@ -284,6 +293,15 @@
       form.submit();
     }
     static changeCurrency(code) {
+      let returnToUrl = window.location.pathname + window.location.search;
+      if(window.location.search.indexOf('?') >= 0) {
+        returnToUrl += '&currency_code=';
+      } else {
+        returnToUrl += '?currency_code=';
+      }
+      returnToUrl += code;
+      returnToUrl += window.location.hash;
+
       const params = [
         {
           name: 'currency_code',
@@ -291,7 +309,7 @@
         },
         {
           name: 'return_to',
-          value: window.location.pathname + window.location.search + window.location.hash
+          value: returnToUrl
         },
         {
           name: 'form_type',
@@ -354,7 +372,12 @@
           observer: {
             start: langifyObserver.init,
             stop: langifyObserver.stopObserver,
-            trigger: langifyObserver.triggerCustomContents
+            trigger: langifyObserver.triggerCustomContents,
+            translateLink: langifyObserver.translateLink,
+            translateTextNode: langifyObserver.translateTextNode,
+            translateNodeAttrs: langifyObserver.translateNodeAttrs,
+            translateImage: langifyObserver.translateImage,
+            translateCssImage: langifyObserver.translateCssImage
           }
         };
       }
@@ -519,9 +542,10 @@
           translateNodeAttrs(node);
         }
         // Links-Hook
-        if (node.nodeName  === 'A' || node.nodeName  === 'FORM') {
-          if(node.hasAttribute('href')) var attrName = 'href';
-          else var attrName = 'action';
+        if (node.nodeName  === 'A' || node.nodeName  === 'FORM' || node.nodeName  === 'IMG') {
+          if(node.hasAttribute('href')) {var attrName = 'href';}
+          else if(node.hasAttribute('data-href')) {var attrName = 'data-href';}
+          else {var attrName = 'action';}
           var url = node.getAttribute(attrName);
           translateLink(url, node);
         }
@@ -591,7 +615,7 @@
         }
       }
     
-      function translateLink(url, node) {
+      function translateLink(url, node, force) {
         if(langify.settings.observeLinks === false || isLocalizationForm(node) || node.hasAttribute('data-ly-locked') || !url || (url.indexOf('mailto:') !== -1 || url.indexOf('javascript:') !== -1 || url.indexOf('tel:') !== -1 || url.indexOf('file:') !== -1 || url.indexOf('ftp:') !== -1 || url.indexOf('sms:') !== -1 || url.indexOf('market:') !== -1 || url.indexOf('fax:') !== -1 || url.indexOf('callto:') !== -1 || url.indexOf('ts3server:') !== -1)) {
           return;
         }
@@ -608,8 +632,11 @@
         var isUrlAbsolute = (link.indexOf('://') > 0 || link.indexOf('//') === 0);
         var blacklist = ['#', '/'+ langify.locale.iso_code +'#'].concat(langify.settings.linksBlacklist);
         var isUrlBlacklisted = blacklist.find(x => url.indexOf(x) === 0);
-        if(!isLocalized && !isUrlAbsolute && !isUrlBlacklisted && langify.locale.root_url != '/') {
-          if(node.hasAttribute('href')) var attrName = 'href'; else var attrName = 'action';
+        if (!isUrlAbsolute && !isUrlBlacklisted && link.indexOf('/') != 0) {link = '/' + link;}
+        if(!isLocalized && !isUrlAbsolute && !isUrlBlacklisted && langify.locale.root_url != '/' || force) {
+          if(node.hasAttribute('href')) {var attrName = 'href';}
+          else if(node.hasAttribute('data-href')) {var attrName = 'data-href';}
+          else {var attrName = 'action';}
           if(link === '/' || link == langify.locale.root_url) link = '';
           var newLink = langify.locale.root_url + link;
           var timeStamp = Math.floor(Date.now());
@@ -812,6 +839,11 @@
         init: init,
         triggerCustomContents: triggerCustomContents,
         stopObserver: stopObserver,
+        translateLink: translateLink,
+        translateTextNode: translateTextNode,
+        translateNodeAttrs: translateNodeAttrs,
+        translateImage: translateImage,
+        translateCssImage: translateCssImage
       }
     };
   }
@@ -891,13 +923,14 @@
       var root = this;
       var links = document.getElementsByClassName('ly-languages-switcher-link');
       for(var l = 0; l < links.length; l++) {
+        
         links[l].addEventListener('click', function(event) {
           event.preventDefault();
-          if(LyHelper.isDomainFeatureEnabled() && this.getAttribute('href') !== '#') {
+          if(LyHelper.isDomainFeatureEnabled() && this.getAttribute('href') !== '#' && !this.getAttribute('data-country-code')) {
           	var domain = this.getAttribute('href');
           }
           LyHelper.setCookie('ly-lang-selected', this.getAttribute('data-language-code'), 365);
-          LyHelper.localizationRedirect('language_code', this.getAttribute('data-language-code'), null, null, domain);
+          LyHelper.localizationRedirect('language_code', this.getAttribute('data-language-code'), root._dataAttrToAdditionalFields(this), null, domain);
         });
       }
 
@@ -906,11 +939,11 @@
       for(var i = 0; i < nativeLangifySelects.length; i++) {
         nativeLangifySelects[i].onchange = function() {
           event.preventDefault();
-          if(LyHelper.isDomainFeatureEnabled() && this[this.selectedIndex].getAttribute('data-domain') !== '#') {
+          if(LyHelper.isDomainFeatureEnabled() && this[this.selectedIndex].getAttribute('data-domain') !== '#' && this[this.selectedIndex].getAttribute('data-country-code')) {
             var domain = this[this.selectedIndex].getAttribute('data-domain');
           }
           LyHelper.setCookie('ly-lang-selected', this[this.selectedIndex].getAttribute('data-language-code'), 365);
-          LyHelper.localizationRedirect('language_code', this[this.selectedIndex].getAttribute('data-language-code'), null, null, domain);
+          LyHelper.localizationRedirect('language_code', this[this.selectedIndex].getAttribute('data-language-code'), root._dataAttrToAdditionalFields(this), null, domain);
         };
       }
     }
@@ -959,6 +992,9 @@
           if(target) targets.push(target);
           for(var c = 0; c < targets.length; c++) {
             var clone = this.switcherElements[i].cloneNode(true);
+            if(this.switcherElements[i].parentNode) {
+              this.switcherElements[i].remove();
+            }
             targets[c].innerHTML = clone.outerHTML;
           }
           this.switcherElements[i].classList.add('ly-hide');
@@ -1011,6 +1047,23 @@
       }
       return countryCode;
     }
+
+    _dataAttrToAdditionalFields(elem) {
+      var additionalFields = [];
+      if(elem.hasAttribute('data-country-code')) {
+        additionalFields.push({
+          name: 'country_code',
+          value: elem.getAttribute('data-country-code')
+        });
+      }
+      if(elem.hasAttribute('data-currency-code')) {
+        additionalFields.push({
+          name: 'currency_code',
+          value: elem.getAttribute('data-currency-code')
+        });
+      }
+      return additionalFields;
+    }
   }
 
 
@@ -1027,7 +1080,11 @@
     }
 
     init() {
-      if(LyHelper.inIframe()) return null;
+      if(LyHelper.inIframe()
+      || window.location.pathname.indexOf('preview_key=') > 0) {
+        return null;
+      }
+
       var currentLang = langify.locale.iso_code.toLowerCase();
       //var localizationData = this.getLocalizationData();
       this.hreflangList = this.getHreflangList();
@@ -1124,8 +1181,14 @@
       // Cross Domain Links option
       if(LyHelper.isDomainFeatureEnabled()) {
         for(var i = 0; i < langify.locale.languages.length; i++) {
+          let newHref = 'https://' + langify.locale.languages[i].domain + window.location.pathname + window.location.search + window.location.hash;
+          // When cross-domain link is pointing to the same domain with subfolders, window.location.pathname would have to be unlocalized before it can be merged into the url
+          if(new String(langify.locale.languages[i].domain).indexOf(window.location.hostname) === 0) {
+            let unlocalizedPathname = langify.locale.root_url !== '/' ? window.location.pathname.replace(langify.locale.root_url, '') : window.location.pathname;
+            newHref = 'https://' + langify.locale.languages[i].domain + unlocalizedPathname + window.location.search + window.location.hash
+          }
           hreflangList.push({
-            href: 'https://' + langify.locale.languages[i].domain + window.location.pathname + window.location.search + window.location.hash,
+            href: newHref,
             lang: langify.locale.languages[i].iso_code,
           });
         }
