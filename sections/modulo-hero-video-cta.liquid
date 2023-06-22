@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ 'modulo-hero-video-cta.css' | asset_url }}" type="text/css">
 
-{% if section.settings.transparent_header %}
+{% if section.settings.trans_header %}
   {% assign top_margin = "-105px" %}
   <script>
       var headerWrapper = document.querySelector(".header-wrapper");
@@ -93,8 +93,9 @@
     "settings": [
         {
           "type": "checkbox",
-          "id": "transparent_header",
-          "label": "Transparent Header"
+          "id": "trans_header",
+          "label": "Transparent Header",
+          "default": true
         },
         {
             "type": "video",
