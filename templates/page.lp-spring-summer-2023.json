@@ -65,7 +65,7 @@
         "4cdeceb1-c28d-490e-b56b-b0763e4a172f": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_c73ecf73-6046-4d74-9757-bd5a838053ed.png",
+            "image": "shopify:\/\/shop_images\/2.png",
             "sup_title": "SILVERSKIN",
             "title": "Giacomo Regallo, aspirante guida alpina",
             "description": "<p>“Scegliendo di vivere in montagna ho fatto una scelta di libertà, soprattutto dall’idea di vivere con meno, perché è tanto quello che ha da insegnarti. Il salire in cima ad una parete che non porta a nulla, in sé, è inutile per certi versi ma fondamentale per progredire come individuo, come società. E poi è terapeutica: non sarei davvero contento senza lo stato di tranquillità e distensione in cui mi pone”<\/p>",
@@ -115,7 +115,7 @@
             "title": "Termoregolazione",
             "text": "Mantiene la temperatura corporea costante, sempre",
             "image_desk": "shopify:\/\/shop_images\/unnamed5.png",
-            "image_mob": "shopify:\/\/shop_images\/unnamed5.png"
+            "image_mob": "shopify:\/\/shop_images\/unnamed3.png"
           }
         },
         "4e529420-3b47-4c6b-a851-1429b26ae7a0": {
@@ -150,8 +150,8 @@
           "settings": {
             "title": "Comfort",
             "text": "Morbido e avvolgente, come una seconda pelle",
-            "image_desk": "shopify:\/\/shop_images\/unnamed-1_8b025f54-7c0c-44d8-a531-54cb2c5894c0.jpg",
-            "image_mob": "shopify:\/\/shop_images\/unnamed-1_8b025f54-7c0c-44d8-a531-54cb2c5894c0.jpg"
+            "image_desk": "shopify:\/\/shop_images\/silverskin-snow-focus-comfort-desk_2x_8c580efe-42f6-47d7-a28f-d207c6ff29b2.jpg",
+            "image_mob": "shopify:\/\/shop_images\/silverskin-snow-focus-comfort-desk_2x_8c580efe-42f6-47d7-a28f-d207c6ff29b2.jpg"
           }
         }
       },
@@ -174,8 +174,8 @@
           "settings": {
             "product_id_man": "manicotto-performance-anthracite-1",
             "product_id_woman": "manicotto-performance-anthracite",
-            "image_man": "shopify:\/\/shop_images\/manicotti_2_1_c83163a2-8559-4651-aa3b-68ead520a184.png",
-            "image_woman": "shopify:\/\/shop_images\/manicotti_2_1_c83163a2-8559-4651-aa3b-68ead520a184.png",
+            "image_man": "shopify:\/\/shop_images\/MANICOTTI.png",
+            "image_woman": "shopify:\/\/shop_images\/MANICOTTI.png",
             "title": "Manicotti",
             "description": "L’accessorio da avere sempre nello zaino, per affrontare repentine variazioni meteo. Elastici e leggeri, trasformano il base layer a mezza manica in manica lunga, offrendo una maggiore protezione."
           }
@@ -218,7 +218,7 @@
           "settings": {
             "product_id_man": "base-layer-termico-smanicato-grigio-perla-sk005lnf",
             "product_id_woman": "base-layer-termico-smanicato-pearlgrey",
-            "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_SMANICATA_Stay_Fresh_Maglia_termica_Manica_Corta_png_4193d50c-7e67-40fc-afad-f715dc744259.png",
+            "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_SMANICATA_Stay_Fresh_Maglia_termica_Manica_Corta_png.png",
             "image_woman": "shopify:\/\/shop_images\/DONNA_GIROCOLLO_SMANICATA_Stay_Fresh_Maglia_termica_Manica_Corta.png",
             "title": "Smanicata",
             "description": "Versatile e adatto per tutte le attività in montagna, il modello smanicato aderisce al torace senza comprimere, assicurando comfort, libertà di movimento e massima traspirabilità."
@@ -468,8 +468,28 @@
         "submit_text": "ISCRIVITI"
       }
     },
+    "39522a20-48c4-41dd-adaa-9cce63a50319": {
+      "type": "featured-content",
+      "settings": {
+        "title": "Seguici su Instagram",
+        "text": "",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": false,
+        "divider": false
+      }
+    },
+    "ee16903a-872d-48e1-8fa4-6536fa01874a": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
     "b77925cd-2fef-4c38-8ebd-27a6bbada3b6": {
       "type": "instagram",
+      "disabled": true,
       "settings": {
         "title": "OUR LATEST POST ON INSTAGRAM",
         "username": "",
@@ -498,6 +518,8 @@
     "1c40a134-9d83-4e92-820f-4c85f49b94c1",
     "2b57f855-38a4-425f-bbff-a6b7552977df",
     "65a04109-d795-42a5-8402-5f4e0525844a",
+    "39522a20-48c4-41dd-adaa-9cce63a50319",
+    "ee16903a-872d-48e1-8fa4-6536fa01874a",
     "b77925cd-2fef-4c38-8ebd-27a6bbada3b6",
     "8ddddf7c-0171-475c-8bf8-b1645359ab54"
   ]
