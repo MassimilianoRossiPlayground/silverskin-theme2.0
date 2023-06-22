@@ -477,7 +477,7 @@
     "39522a20-48c4-41dd-adaa-9cce63a50319": {
       "type": "featured-content",
       "custom_css": [
-        "h2 {margin-top: -60px}"
+        "h2 {margin-top: -60px;}"
       ],
       "settings": {
         "title": "Seguici su Instagram",
@@ -490,6 +490,9 @@
     },
     "ee16903a-872d-48e1-8fa4-6536fa01874a": {
       "type": "instafeed",
+      "custom_css": [
+        ".instafeed-container {margin-top: -60px;}"
+      ],
       "settings": {
         "heading_size": 20,
         "feed_width": 100,
