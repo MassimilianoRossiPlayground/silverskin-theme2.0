@@ -212,16 +212,16 @@
           "1526406521795": {
             "type": "menu",
             "settings": {
-              "show_footer_title": false,
-              "menu": "terms",
+              "show_footer_title": true,
+              "menu": "footer",
               "container_width": 15
             }
           },
           "1578404082814": {
             "type": "menu",
             "settings": {
-              "show_footer_title": false,
-              "menu": "",
+              "show_footer_title": true,
+              "menu": "donna",
               "container_width": 15
             }
           },
