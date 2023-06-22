@@ -1470,6 +1470,7 @@
           "collection-woman-0": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-product-banner-01-women-desk_2x_c78855b4-9453-45e8-ac4e-75bcca17b98c.jpg",
               "title": "MAGLIE",
               "cta_text": "VEDI TUTTE",
               "cta_link": "\/collections\/base-layer-maglie\/Donna",
@@ -1479,6 +1480,7 @@
           "collection-woman-1": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-product-banner-02-women-desk_2x_efb585be-839a-43a4-80c0-3c835e2c13ef.jpg",
               "title": "PANTALONI",
               "cta_text": "VEDI TUTTI",
               "cta_link": "\/collections\/base-layer-pantaloni\/Donna",
@@ -1488,6 +1490,7 @@
           "collection-woman-2": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-product-banner-03-men-desk_1x_2e23ea8d-7728-4a0f-993d-b78bd219f0f7.jpg",
               "title": "ACCESSORI",
               "cta_text": "VEDI TUTTI",
               "cta_link": "\/collections\/accessori\/Donna+Accessori",
@@ -1509,6 +1512,7 @@
           "collection-woman-4": {
             "type": "banner_temp",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-warm-banner-women-desk_2x_6782c2b7-7737-4336-86ed-aa572fa31677.jpg",
               "title": "STAY WARM",
               "subtitle": "DA -20° A 20°",
               "class": "stay-warm",
