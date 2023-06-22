@@ -477,7 +477,7 @@
     "39522a20-48c4-41dd-adaa-9cce63a50319": {
       "type": "featured-content",
       "custom_css": [
-        "h2 {margin-top: -60px;}"
+        "h2 {margin-top: -40px;}"
       ],
       "settings": {
         "title": "Seguici su Instagram",
