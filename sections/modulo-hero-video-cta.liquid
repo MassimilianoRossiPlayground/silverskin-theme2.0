@@ -1,5 +1,15 @@
 <link rel="stylesheet" href="{{ 'modulo-hero-video-cta.css' | asset_url }}" type="text/css">
 
+{% if section.settings.transparent_header %}
+  {% assign top_margin = "-105px" %}
+  <script>
+      var headerWrapper = document.querySelector(".header-wrapper");
+      headerWrapper.classList.add("is-light");
+  </script>
+{% else %}
+  {% assign top_margin = "0px" %}
+{% endif %}
+
 {% assign video_desk = section.settings.video_desk | video_tag: image_size: 'master', autoplay: true,  loop: true, muted: true, controls: false %}
 {% assign video_mob = section.settings.video_mob | video_tag: image_size: 'master', autoplay: true,  loop: true, muted: true, controls: false %}
 {% assign image_mob = section.settings.image_mob | img_url: 'master'%}
@@ -16,7 +26,7 @@
   {% assign show_arrow_down = "" %}
 {% endif %}
 
-<div class="super_container">
+<div class="super_container" style="margin-top:{{top_margin}};">
   <section class="hero-video-cta">
 
     <div class="only-desk">
@@ -81,6 +91,11 @@
   {
     "name": "Hero Video Cta",
     "settings": [
+        {
+          "type": "checkbox",
+          "id": "transparent_header",
+          "label": "Transparent Header"
+        },
         {
             "type": "video",
             "id": "video_desk",
