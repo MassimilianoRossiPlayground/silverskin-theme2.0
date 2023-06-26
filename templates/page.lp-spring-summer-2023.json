@@ -9,6 +9,7 @@
     "180300a6-2f84-4cda-b590-06e2f7494ce9": {
       "type": "modulo-hero-video-cta",
       "settings": {
+        "trans_header": true,
         "video_desk": "shopify:\/\/files\/videos\/silverskin2.mp4",
         "image_mob": "shopify:\/\/shop_images\/Screenshot_2023-06-07_alle_16.34_1.png",
         "title": "",
@@ -16,7 +17,7 @@
         "mob_title": "QUELLO CHE LA MONTAGNA NON MOSTRA",
         "mob_sub_title": "è ciò che ha da insegnare",
         "cta_1_text": "SCOPRI COLLEZIONI",
-        "cta_1_link": "#",
+        "cta_1_link": "\/pages\/collezioni",
         "cta_2_text": "",
         "cta_2_link": "",
         "content_position": "bottom",
