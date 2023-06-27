@@ -400,7 +400,7 @@
       "newsletter-popup": {
         "type": "newsletter-popup",
         "settings": {
-          "mode": "enabled",
+          "mode": "disabled",
           "popup_seconds": 40,
           "popup_days": 10,
           "popup_title": "",
