@@ -1305,8 +1305,8 @@
       },
       {
         "type": "textarea",
-        "id": "script_after_body_close",
-        "label": "Script After Body Close"
+        "id": "script_before_body_close",
+        "label": "Script Before Body Close"
       }
     ]
   }
