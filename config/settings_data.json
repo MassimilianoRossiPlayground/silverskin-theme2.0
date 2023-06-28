@@ -1537,6 +1537,22 @@
           "title": "I NOSTRI PRODOTTI",
           "subtitle": "LE NOSTRE COLLEZIONI"
         }
+      },
+      "scripts": {
+        "type": "scripts",
+        "blocks": {
+          "ce7f40d0-25fd-4eee-8ced-57e6f12b7adc": {
+            "type": "inside_head",
+            "settings": {
+              "script": "<script>\nconsole.log(\"script inside head\");\n<\/script>"
+            }
+          }
+        },
+        "block_order": [
+          "ce7f40d0-25fd-4eee-8ced-57e6f12b7adc"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
