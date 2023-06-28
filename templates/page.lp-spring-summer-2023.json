@@ -30,7 +30,7 @@
         "title": "MONTAGNA, MAESTRA DI VITA",
         "sub_title": "Esplora la sua dimensione più intima con i nostri base layer",
         "text": "<p>Dietro il suo profilo austero, al di là dei suoi percorsi aspri, oltre la sua imponenza: è nella parte meno visibile della montagna che risiedono i suoi più preziosi insegnamenti. Vivi il viaggio verso la vetta in armonia, restando concentrato su ciò che conta davvero. <\/p>",
-        "cta_text": "SCOPRI LE COLLEZIONI",
+        "cta_text": "SCOPRI DI PIÙ",
         "cta_link": ""
       }
     },
@@ -270,7 +270,7 @@
     "ae38e237-8eff-4b67-9d79-b6f6299e16ee": {
       "type": "modulo-custom-html",
       "settings": {
-        "html": "<style>\ndiv#trustpilot-widget-trustbox-2 {\n    background: #000;\n}\n<\/style>"
+        "html": "<style>\n.trustpilot-widget {\n    background: #000;\npadding: 50px 0;\n}\n<\/style>"
       }
     },
     "2b57f855-38a4-425f-bbff-a6b7552977df": {
