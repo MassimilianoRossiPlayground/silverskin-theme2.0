@@ -119,6 +119,7 @@
     "predictive_search_show_price": false,
     "predictive_image_size": "square",
     "show_breadcrumbs": true,
+    "script_inside_head": "<script>\nconsole.log(\"inside head\");\n<\/script>",
     "checkout_header_image": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/logotipo_horizontal_black-01_e4191685-c878-406d-b8c7-9270d218a1d3.png",
     "checkout_logo_position": "left",
@@ -400,7 +401,7 @@
       "newsletter-popup": {
         "type": "newsletter-popup",
         "settings": {
-          "mode": "enabled",
+          "mode": "disabled",
           "popup_seconds": 40,
           "popup_days": 10,
           "popup_title": "",
@@ -430,7 +431,6 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/01-Homepage-Hero-Banner-PRIMO.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -447,7 +447,6 @@
               "link_text_2": "Acquista Donna",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/79b175ce-a8c4-4a85-9475-9773cc96d026.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -465,7 +464,6 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/02-Homepage-Hero-Banner-Temperatura.jpg",
               "focal_point": "center center"
             }
           },
@@ -483,7 +481,6 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/01-HeroBanner_23abd022-a87e-4b3a-8c1d-ff940ee3f84e.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -740,7 +737,6 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/08-Homepage-Banner-Collezione-Stay-Fresh.jpg",
               "video_url": "",
               "width": "100",
               "height": 480,
@@ -764,7 +760,6 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/hp-banner-warm-desk_f479220a-cf5a-4dca-be01-b5dec608a761.jpg",
               "video_url": "",
               "width": "50",
               "height": 500,
@@ -1193,7 +1188,6 @@
               "cta_text2": "",
               "cta_text2_color": "",
               "cta_link2": "",
-              "image": "shopify:\/\/shop_images\/06-Homepage-Banner-I-nostri-layer-in-azione.jpg",
               "video_url": "",
               "width": "100",
               "height": 800,
@@ -1227,8 +1221,7 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/01-Homepage-Power-is-Precious2.jpg"
+              "cta2link": "\/pages\/technology"
             }
           },
           "ea2eb875-5bf3-4252-b3c7-041aa58abf8e": {
@@ -1239,8 +1232,7 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/03-Homepage-Power-is-Precious-Termoregolazione.jpg"
+              "cta2link": "\/pages\/technology"
             }
           },
           "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0": {
@@ -1251,8 +1243,7 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/05-Homepage-Power-is-Precious-Traspirabilita.jpg"
+              "cta2link": "\/pages\/technology"
             }
           }
         },
