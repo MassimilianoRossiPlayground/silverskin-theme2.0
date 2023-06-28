@@ -23,37 +23,12 @@
   {%- assign user_visitorLoginState = 'not-logged' -%}
 {%- endif -%}
 
-    {%- comment -%} <script>
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({
-          'pageLang': '{{ request.locale.iso_code }}',
-          'pageType': '{{ page.template_suffix }}',
-          'visitorId': '{{ customer.id }}',
-          'visitorLoginState': '{{ user_visitorLoginState }}',
-          'visitorExistingCustomer': '{{ user_visitorExistingCustomer }}',
-          'visitorLifetimeValue': '{{ customer.total_spent }}',
-          'visitorNewsletterSubscription': '{{ user_visitorNewsletterSubscription }}'
-        });
-    </script>
-    <script src="{{ 'jquery-3.5.1.min.js' | asset_url }}"></script>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KJVGQLQ');</script> {%- endcomment -%}
-    <!-- End Google Tag Manager -->
 {%- include 'kiwiSizing' -%}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="{{ settings.color_button }}">
   <meta name="google-site-verification" content="RH3esHt2mbPLJv9iELD1malxkAVtTCu4m6TdG6ggaGg" />
-
-  <!-- TrustBox script -->
-  {%- comment -%} 
-  <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" defer></script>
-  {%- endcomment -%}
-  <!-- End TrustBox script -->
   
   <link rel="alternate" hreflang="it"
        href="{{ canonical_url }}" />
@@ -215,25 +190,6 @@
   {{ settings.script_after_body_open }}
 {% endif %}
 
-<script>window.KlarnaThemeGlobals={};{%case template.name%} {%when"product"%} window.KlarnaThemeGlobals.data_purchase_amount={{product.first_available_variant.price}};window.KlarnaThemeGlobals.productVariants={{product.variants|json}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%when"cart"%} window.KlarnaThemeGlobals.data_purchase_amount={{cart.total_price}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%endcase%}</script>
-
-    {%- comment -%} <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ shop.metafields.gtm.tracking_id }}"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) --> {%- endcomment -%}
-    
-    <!-- Google Tag Manager (noscript) -->
-    {%- comment -%} <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJVGQLQ"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> {%- endcomment -%}
-    <!-- End Google Tag Manager (noscript) -->
-
-  {%- comment -%}
-    Enable below script if page transitions enabled
-  {%- endcomment -%}
-  {%- comment -%}
-  <script type="text/javascript">window.setTimeout(function() { document.body.className += " loaded"; }, 25);</script>
-  {%- endcomment -%}
-
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
   {%- comment -%} LOAD SVG {%- endcomment -%}
@@ -304,9 +260,7 @@
 
 
   {%- comment -%} END - Custom Tool JS {%- endcomment -%}
-{%- comment -%}
-{{ '//cdn.shopify.com/s/files/1/0194/1736/6592/t/1/assets/booster-page-speed-optimizer.js?23' | script_tag }}
-{%- endcomment -%}
+
 <!-- WPD Start -->
                 {%- if customer.tags.size > 0 and template != 'cart' -%}
                 <script>
