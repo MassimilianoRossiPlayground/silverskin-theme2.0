@@ -119,6 +119,7 @@
     "predictive_search_show_price": false,
     "predictive_image_size": "square",
     "show_breadcrumbs": true,
+    "script_inside_head": "<script>\nconsole.log(\"inside head\");\n<\/script>",
     "checkout_header_image": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/logotipo_horizontal_black-01_e4191685-c878-406d-b8c7-9270d218a1d3.png",
     "checkout_logo_position": "left",
@@ -1536,22 +1537,6 @@
           "collection_name": "DONNA",
           "title": "I NOSTRI PRODOTTI",
           "subtitle": "LE NOSTRE COLLEZIONI"
-        }
-      },
-      "scripts": {
-        "type": "scripts",
-        "blocks": {
-          "ce7f40d0-25fd-4eee-8ced-57e6f12b7adc": {
-            "type": "inside_head",
-            "settings": {
-              "script": "<script>\nconsole.log(\"script inside head\");\n<\/script>"
-            }
-          }
-        },
-        "block_order": [
-          "ce7f40d0-25fd-4eee-8ced-57e6f12b7adc"
-        ],
-        "settings": {
         }
       }
     },
