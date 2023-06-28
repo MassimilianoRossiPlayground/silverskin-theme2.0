@@ -177,10 +177,6 @@
 
 </head>
 
-<style>
-  script {opacity:0;height:0}
-</style>
-
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}--{{ handle }} {%- if settings.enable_currencies -%} currencies-enabled{%- endif -%}" data-transitions="false">
 
 {% if settings.script_after_body_open != blank %}
