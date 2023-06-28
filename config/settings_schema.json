@@ -1289,5 +1289,25 @@
         "label": "Show breadcrumbs"
       }
     ]
+  },
+  {
+    "name": "Scripts",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "script_inside_head",
+        "label": "Script Inside Head"
+      },
+      {
+        "type": "textarea",
+        "id": "script_after_body_open",
+        "label": "Script After Body Open"
+      },
+      {
+        "type": "textarea",
+        "id": "script_after_body_close",
+        "label": "Script After Body Close"
+      }
+    ]
   }
 ]
