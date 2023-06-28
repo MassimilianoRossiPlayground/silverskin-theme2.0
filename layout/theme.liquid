@@ -201,7 +201,11 @@
   {%- if product -%}<script>const hcVariants = {{ product.variants | json }};</script>{%- endif -%}{{ shop.metafields.saletag.hc_tag_css }}
 
 {%- include 'analyzify-gtm-body' -%}
-{%- comment -%}ly_dir_styles_begin{%- endcomment -%}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%}{{- 'ly-rtl.css' | asset_url | stylesheet_tag -}}{%- endif -%}{%- comment -%}ly_dir_styles_end{%- endcomment -%}{% comment %}ly_dir_styles_begin{% endcomment %}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%}{{- 'ly-rtl.css' | asset_url | stylesheet_tag -}}{%- endif -%}{% comment %}ly_dir_styles_end{% endcomment %}</head>
+{%- comment -%}ly_dir_styles_begin{%- endcomment -%}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%}{{- 'ly-rtl.css' | asset_url | stylesheet_tag -}}{%- endif -%}{%- comment -%}ly_dir_styles_end{%- endcomment -%}{% comment %}ly_dir_styles_begin{% endcomment %}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%}{{- 'ly-rtl.css' | asset_url | stylesheet_tag -}}{%- endif -%}{% comment %}ly_dir_styles_end{% endcomment %}
+
+{% include 'scripts' print_position: "inside_head" %}
+
+</head>
 
 
 
