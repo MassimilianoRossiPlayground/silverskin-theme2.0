@@ -270,7 +270,7 @@
     "ae38e237-8eff-4b67-9d79-b6f6299e16ee": {
       "type": "modulo-custom-html",
       "settings": {
-        "html": "<style>\ndiv#trustpilot-widget-trustbox-2 {\n    background: #000;\n}\n<\/style>"
+        "html": "<style>\n.trustpilot-widget {\n    background: #000;\n}\n<\/style>"
       }
     },
     "2b57f855-38a4-425f-bbff-a6b7552977df": {
