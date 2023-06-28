@@ -77,8 +77,8 @@
     {%- assign collectionProdUrl = collection.url -%}
     {%- break -%}
   {%- else -%}
-    {%- assign collectionProdTitle = "" -%}
-    {%- assign collectionProdUrl = "" -%}
+    {%- assign collectionProdTitle = collection.title -%}
+    {%- assign collectionProdUrl = collection.url -%}
   {%- endif -%}
 {%- endfor -%}
 <script type="application/ld+json">
