@@ -72,25 +72,25 @@
 
     //   if (window.location.hostname == "www.silverskin.it") {
 
-    const node = document.createElement("li");
-    const textnode = document.createTextNode("dk");
-    node.appendChild(textnode);
-    node.setAttribute('data-lang', 'dk');
-    node.classList.add('disclosure__item');
+    // const node = document.createElement("li");
+    // const textnode = document.createTextNode("dk");
+    // node.appendChild(textnode);
+    // node.setAttribute('data-lang', 'dk');
+    // node.classList.add('disclosure__item');
 
-        let optionDK = `
-            <li class="disclosure__item" tabindex="-1" key="dk">
-                <a href="https://www.silverskin.dk" aria-current="true" hreflang="dk" lang="dk" data-value="dk">
-                <span>dk</span>
-                </a>
-            </li>
-        `
+    //     let optionDK = `
+    //         <li class="disclosure__item" tabindex="-1" key="dk">
+    //             <a href="https://www.silverskin.dk" aria-current="true" hreflang="dk" lang="dk" data-value="dk">
+    //             <span>dk</span>
+    //             </a>
+    //         </li>
+    //     `
 
-        document.querySelector("#LanguageList").appendChild(node)
+    //     document.querySelector("#LanguageList").appendChild(node)
 
-        document.querySelector("li[data-lang='dk']").addEventListener("click", function(){
-            window.location.replace("https://www.silverskin.dk")
-        })
+    //     document.querySelector("li[data-lang='dk']").addEventListener("click", function(){
+    //         window.location.replace("https://www.silverskin.dk")
+    //     })
     // }
 
 })(document);
