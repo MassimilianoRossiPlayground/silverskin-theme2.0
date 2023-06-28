@@ -17,7 +17,7 @@
         "mob_title": "QUELLO CHE LA MONTAGNA NON MOSTRA",
         "mob_sub_title": "è ciò che ha da insegnare",
         "cta_1_text": "SCOPRI COLLEZIONI",
-        "cta_1_link": "\/collections\/mountaineering",
+        "cta_1_link": "\/pages\/collezioni",
         "cta_2_text": "",
         "cta_2_link": "",
         "content_position": "bottom",
@@ -270,7 +270,7 @@
     "ae38e237-8eff-4b67-9d79-b6f6299e16ee": {
       "type": "modulo-custom-html",
       "settings": {
-        "html": "<div style=\"background:#000;\">\n<iframe title=\"Customer reviews powered by Trustpilot\" loading=\"auto\" src=\"https:\/\/widget.trustpilot.com\/trustboxes\/53aa8807dec7e10d38f59f32\/index.html?templateId=53aa8807dec7e10d38f59f32&businessunitId=5de514fbf25ac90001046fb1#locale=it-IT&styleHeight=120px&styleWidth=100%25&theme=dark\" style=\"position: relative; height: 120px; width: 100%; border-style: none; display: block; overflow: hidden;\"><\/iframe>\n<\/div>"
+        "html": "<style>\ndiv#trustpilot-widget-trustbox-2 {\n    background: #000;\n}\n<\/style>"
       }
     },
     "2b57f855-38a4-425f-bbff-a6b7552977df": {
