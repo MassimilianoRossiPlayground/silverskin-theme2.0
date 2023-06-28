@@ -161,16 +161,9 @@
   <noscript><link rel="stylesheet" href="{{ 'custom-style-mob.liquid.scss' | asset_url }}"></noscript>
 <link rel="stylesheet" href="{{ 'modulo-double-slider.css' | asset_url }}" type="text/css">
 
-  
-
-  {%- comment -%} END - Custom Tool CSS {%- endcomment -%}
+{%- comment -%} END - Custom Tool CSS {%- endcomment -%}
 
 <meta name="facebook-domain-verification" content="6d20m9zdoot8y557o0lqer21oquzk0" />
-
-
-
-
-
 
 {%- comment -%}Added by Heartcoding from Sale & Discount Manager{%- endcomment -%}
   {%- if product -%}<script>const hcVariants = {{ product.variants | json }};</script>{%- endif -%}{{ shop.metafields.saletag.hc_tag_css }}
@@ -183,6 +176,10 @@
 {% endif %}
 
 </head>
+
+<style>
+  script {opacity:0;height:0}
+</style>
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}--{{ handle }} {%- if settings.enable_currencies -%} currencies-enabled{%- endif -%}" data-transitions="false">
 
