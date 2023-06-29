@@ -1,7 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="{{ shop.locale }}">
 <head>
-
+  {% if settings.script_inside_head != blank %}
+    {{ settings.script_inside_head }}
+  {% endif %}
   {% if customer %}
 
     {% assign user_visitorLoginState = 'logged-id' %}
@@ -34,14 +36,6 @@
         'visitorNewsletterSubscription': '{{ user_visitorNewsletterSubscription }}'
       });
   </script>
-
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-KJVGQLQ');</script>
-  <!-- End Google Tag Manager -->
-
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -76,7 +70,9 @@
 </head>
 
 <body class="template-giftcard">
-
+  {% if settings.script_after_body_open != blank %}
+    {{ settings.script_after_body_open }}
+  {% endif %}
   <div id="PageContainer">
 
     <div class="page-width">
@@ -98,6 +94,8 @@
 
   </div>
 <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5b6e39bd-2ece-46dc-9463-ccfb70627bb8" data-blockingmode="auto" type="text/javascript"></script>
-
+{% if settings.script_before_body_close != blank %}
+  {{ settings.script_before_body_close }}
+{% endif %}
 </body>
 </html>
