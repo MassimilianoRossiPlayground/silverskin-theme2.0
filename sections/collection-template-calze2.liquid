@@ -3,6 +3,8 @@
 
 {% paginate collection.products by paginate_by %}
 
+{% include 'breadcrumbs-collection' %}
+
 <div
   id="CollectionSection"
   data-section-id="{{ section.id }}"

@@ -26,6 +26,8 @@
   {% assign collection_array = "fresh,warm,xwarm" | split: ',' %}
 {% endcase %}
 
+{% include 'breadcrumbs-collection' %}
+
 <div
   id="CollectionSection"
   data-section-id="{{ section.id }}"
