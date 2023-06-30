@@ -42,11 +42,11 @@
                             </span>
                         </div>
                 
-                        {% if form.tags == "newsletter" %}
-                            <span class="input-error-message site_newsletter-error">Email già registrata oppure invalida!</span>
-                        {% endif %}
-                
+                        
                     </div>
+                    {% if form.tags == "newsletter" %}
+                        <span class="input-error-message site_newsletter-error">Email già registrata oppure invalida!</span>
+                    {% endif %}
                     <span class="form-newsletter-error-check hide">Check your email address</span>
                 
                     {% endform %}
