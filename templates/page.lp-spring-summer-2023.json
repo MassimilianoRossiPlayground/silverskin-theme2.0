@@ -14,10 +14,10 @@
         "image_mob": "shopify:\/\/shop_images\/Screenshot_2023-06-07_alle_16.34_1.png",
         "title": "",
         "sub_title": "",
-        "mob_title": "QUELLO CHE LA MONTAGNA NON MOSTRA",
-        "mob_sub_title": "è ciò che ha da insegnare",
+        "mob_title": "I base layer per il trekking estivo",
+        "mob_sub_title": "",
         "cta_1_text": "SCOPRI COLLEZIONI",
-        "cta_1_link": "\/pages\/collezioni",
+        "cta_1_link": "\/collections\/summer-mountaneering",
         "cta_2_text": "",
         "cta_2_link": "",
         "content_position": "bottom",
@@ -30,7 +30,7 @@
         "title": "MONTAGNA, MAESTRA DI VITA",
         "sub_title": "Esplora la sua dimensione più intima con i nostri base layer",
         "text": "<p>Dietro il suo profilo austero, al di là dei suoi percorsi aspri, oltre la sua imponenza: è nella parte meno visibile della montagna che risiedono i suoi più preziosi insegnamenti. Vivi il viaggio verso la vetta in armonia, restando concentrato su ciò che conta davvero. <\/p>",
-        "cta_text": "SCOPRI DI PIÙ",
+        "cta_text": "SCOPRI LE COLLEZIONI",
         "cta_link": ""
       }
     },
@@ -188,7 +188,7 @@
             "product_id_woman": "stay-fresh-maglia-termica-manica-corta-girocollo-anthracite-1",
             "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo.png",
             "image_woman": "shopify:\/\/shop_images\/DONNA_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo.png",
-            "title": "Manica Corta Girocollo",
+            "title": "Base Layer Manica Corta Girocollo",
             "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comoda e leggera, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento."
           }
         },
@@ -269,8 +269,11 @@
     },
     "ae38e237-8eff-4b67-9d79-b6f6299e16ee": {
       "type": "modulo-custom-html",
+      "custom_css": [
+        ".trustpilot-widget {background: #000; padding: 50px 0;}"
+      ],
       "settings": {
-        "html": "<style>\n.trustpilot-widget {\n    background: #000;\npadding: 50px 0;\n}\n<\/style>"
+        "html": "<!-- TrustBox widget - Mini -->\n<div class=\"trustpilot-widget\" data-locale=\"it-IT\" data-template-id=\"53aa8807dec7e10d38f59f32\" data-businessunit-id=\"5de514fbf25ac90001046fb1\" data-style-height=\"150px\" data-style-width=\"100%\" data-theme=\"dark\">\n  <a href=\"https:\/\/it.trustpilot.com\/review\/www.silverskin.it\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->"
       }
     },
     "2b57f855-38a4-425f-bbff-a6b7552977df": {
