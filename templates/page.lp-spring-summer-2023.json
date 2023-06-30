@@ -31,7 +31,7 @@
         "sub_title": "Esplora la sua dimensione più intima con i nostri base layer",
         "text": "<p>Dietro il suo profilo austero, al di là dei suoi percorsi aspri, oltre la sua imponenza: è nella parte meno visibile della montagna che risiedono i suoi più preziosi insegnamenti. Vivi il viaggio verso la vetta in armonia, restando concentrato su ciò che conta davvero. <\/p>",
         "cta_text": "SCOPRI DI PIÙ",
-        "cta_link": ""
+        "cta_link_anchor": "product-slider-1"
       }
     },
     "a596bdb9-73db-426d-bd29-a49764aede1b": {
@@ -258,6 +258,7 @@
         "8297179f-7ee8-45a8-8744-b313767bb291"
       ],
       "settings": {
+        "id_for_anchor": "product-slider-1",
         "title": "i base layer per la montagna",
         "image_man": "shopify:\/\/shop_images\/Polygon_Copy_10.png",
         "button_man": "UOMO",
