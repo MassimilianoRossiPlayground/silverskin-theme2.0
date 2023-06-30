@@ -13,7 +13,7 @@
   {% if section.settings.cta_link != blank %}
     <a class="text-cta__link" href="{{ section.settings.cta_link }}">{{ section.settings.cta_text }}</a>
   {% else %}
-    <a class="text-cta__link js-scroll-down" data-anchor="{{ section.settings.cta_link_anchor }}">{{ section.settings.cta_text }} <i class="far fa-arrow-alt-circle-down"></i></a>
+    <a class="text-cta__link js-scroll-down" data-anchor="#{{ section.settings.cta_link_anchor }}">{{ section.settings.cta_text }} <i class="far fa-arrow-alt-circle-down"></i></a>
   {% endif %}
 
 </div>
@@ -73,12 +73,12 @@ window.addEventListener("load", (event) => {
       let sectionCtaText_height = sectionCtaText.offsetTop + sectionCtaText.offsetHeight
       let scrollDown = sectionCtaText.querySelector('.js-scroll-down')
 
-      console.log(sectionCtaText_height)
       scrollDown.addEventListener("click", function(){
           let anchor = scrollDown.getAttribute("data-anchor")
 
-          
-          window.scrollTo({ left: 0, top: sectionCtaText_height, behavior: "smooth" });
+          let offset = document.querySelector(anchor).offsetTop
+
+          window.scrollTo({ left: 0, top: offset, behavior: "smooth" });
       })
 
 })
