@@ -75,6 +75,9 @@ window.addEventListener("load", (event) => {
 
       console.log(sectionCtaText_height)
       scrollDown.addEventListener("click", function(){
+          let anchor = scrollDown.getAttribute("data-anchor")
+
+          
           window.scrollTo({ left: 0, top: sectionCtaText_height, behavior: "smooth" });
       })
 

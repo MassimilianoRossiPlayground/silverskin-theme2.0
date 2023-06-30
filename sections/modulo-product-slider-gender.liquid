@@ -1,4 +1,4 @@
-<div class="section-product-slider-gender">
+<div class="section-product-slider-gender" id="{{ section.settings.id_for_anchor }}">
   <div class="product-slider-gender">
 
     <h2 class="no-desk">{{ section.settings.title }}</h2>
@@ -114,6 +114,11 @@
     "name": "Product Slider Gender",
     "max_blocks": 99,
     "settings": [
+        {
+            "type": "text",
+            "id": "id_for_anchor",
+            "label": "ID for anchor"
+        },
         {
             "type": "text",
             "id": "title",
