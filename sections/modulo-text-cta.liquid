@@ -13,7 +13,7 @@
   {% if section.settings.cta_link != blank %}
     <a class="text-cta__link" href="{{ section.settings.cta_link }}">{{ section.settings.cta_text }}</a>
   {% else %}
-    <a class="text-cta__link js-scroll-down">{{ section.settings.cta_text }} <i class="far fa-arrow-alt-circle-down"></i></a>
+    <a class="text-cta__link js-scroll-down" data-anchor="{{ section.settings.cta_link_anchor }}">{{ section.settings.cta_text }} <i class="far fa-arrow-alt-circle-down"></i></a>
   {% endif %}
 
 </div>
@@ -44,8 +44,8 @@
         },
         {
             "type": "text",
-            "id": "cta_link",
-            "label": "CTA Link"
+            "id": "cta_link_anchor",
+            "label": "CTA Anchor Link"
         }
     ],
     "presets": [
