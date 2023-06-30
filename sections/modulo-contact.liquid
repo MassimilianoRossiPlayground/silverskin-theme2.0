@@ -38,12 +38,6 @@
                       </div>
                     </div>
             
-                    {%- if form.posted_successfully? -%}
-                        <p class="form-message form-message--success" data-form-status>
-                        {{ 'contact.form.post_success' | t }}
-                        </p>
-                    {%- endif -%}
-            
                     {% comment %} <input type="hidden" id="hidden" name="contact[page]" value="{{ section.settings.hidden_text }}"> {% endcomment %}
              
                     <div class="col-12 form-send">
@@ -53,6 +47,12 @@
                         </div>
                         <input type="submit" class="btn" value="{{section.settings.btn_submit}}">
                     </div>
+
+                    {%- if form.posted_successfully? -%}
+                        <p class="form-message form-message--success" data-form-status>
+                        {{ 'contact.form.post_success' | t }}
+                        </p>
+                    {%- endif -%}
             
                   </div>
             
