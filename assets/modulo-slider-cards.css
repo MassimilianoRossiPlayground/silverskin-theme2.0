@@ -84,6 +84,7 @@
     font-family: "barlow-bold-italic" !important;
     letter-spacing: 0;
     margin-bottom: 6px;
+    margin-top: -3px;
 }
 
 .card-box__content p {
@@ -123,5 +124,13 @@
 
     .cards-slider .swiper-pagination-bullet-active {
         background: #fff !important;
+    }
+    .card-box__content p {
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .card-box__content h5 {
+        font-size: 14px;
+        margin-bottom: 0px;
     }
 }
