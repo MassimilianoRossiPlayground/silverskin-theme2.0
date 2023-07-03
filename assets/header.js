@@ -3,6 +3,7 @@
     var selectors = {
         mobileNavLangs: '.mobile-nav-tools__langs',
         siteHeader: 'header.site-header',
+        mobileNavWrapper: '#NavDrawer',
     };
   
     let siteHeader = document.querySelector(selectors.siteHeader);
