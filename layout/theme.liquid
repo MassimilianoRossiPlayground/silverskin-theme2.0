@@ -53,9 +53,9 @@
   {%- include 'seo-title' -%}
   <title>{{ seo_title }}</title>
   
-  {%- if template contains 'product' -%}
+  {% comment %} {%- if template contains 'product' -%}
     {%- include 'product-template-variables' -%}
-  {%- endif -%}
+  {%- endif -%} {% endcomment %}
 
   {%- if page_description -%}
   <meta name="description" content="{{ page_description | escape }}">
