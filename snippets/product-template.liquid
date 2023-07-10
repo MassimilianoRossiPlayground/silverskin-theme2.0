@@ -18,6 +18,7 @@
   {% assign description_style = 'full' %}
 {% endunless %}
 
+{% comment %} {% include 'product-template-variables' %} {% endcomment %}
 {% assign current_sku = current_variant.sku %}
 {% assign sku_parts = current_sku | split: "-" %}
 
@@ -90,6 +91,8 @@
   {% if isModal %}
   data-lazyload-content="true"
   {% endif %}>
+
+  {% include 'product-template-variables' %}
 
   <div class="page-content page-content--product">
     <div class="page-width">
