@@ -420,6 +420,7 @@
         "blocks": {
           "a7caeca8-bcb3-41df-be58-73a7c6b13614": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "top_subheading": "",
               "title": "MONTAGNA, MAESTRA DI VITA <br>ESPLORA LA SUA DIMENSIONE PIÙ INTIMA CON I NOSTRI BASE LAYER",
@@ -437,7 +438,6 @@
           },
           "1524768368258-0": {
             "type": "image",
-            "disabled": true,
             "settings": {
               "top_subheading": "",
               "title": "I base layer <br>per la montagna",
@@ -1178,6 +1178,30 @@
       "46775f4e-b84f-487e-af50-855a972303b5": {
         "type": "promo-grid",
         "blocks": {
+          "892c98d6-d6b9-4935-87d3-d81699e5e4e2": {
+            "type": "advanced",
+            "settings": {
+              "subheading": "",
+              "heading": "MONTAGNA, MAESTRA DI VITA",
+              "textarea": "ESPLORA LA SUA DIMENSIONE PIÙ INTIMA CON I NOSTRI BASE LAYER",
+              "cta_text1": "Scopri la collezione",
+              "cta_text1_color": "#ffffff",
+              "cta_link1": "shopify:\/\/pages\/spring-summer-2023",
+              "cta_text2": "",
+              "cta_text2_color": "",
+              "cta_link2": "",
+              "image": "shopify:\/\/shop_images\/foto-montagna-HP-BN.jpg",
+              "video_url": "",
+              "width": "100",
+              "height": 500,
+              "text_size": 120,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "center",
+              "color_accent": "rgba(0,0,0,0)",
+              "boxed": false,
+              "framed": false
+            }
+          },
           "2a07fafe-14ff-414d-b9e8-cbaddee00fa0": {
             "type": "advanced",
             "settings": {
@@ -1203,6 +1227,7 @@
           }
         },
         "block_order": [
+          "892c98d6-d6b9-4935-87d3-d81699e5e4e2",
           "2a07fafe-14ff-414d-b9e8-cbaddee00fa0"
         ],
         "settings": {
