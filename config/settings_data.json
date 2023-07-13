@@ -423,16 +423,16 @@
             "disabled": true,
             "settings": {
               "top_subheading": "",
-              "title": "Il nuovo <br>Base Layer per <br>l'alta intensità",
+              "title": "MONTAGNA, MAESTRA DI VITA <br>ESPLORA LA SUA DIMENSIONE PIÙ INTIMA CON I NOSTRI BASE LAYER",
               "title_size": 70,
-              "subheading": "And optional subtext",
-              "link": "https:\/\/www.silverskin.it\/collections\/uomo",
-              "link_text": "Scopri PRIMO",
+              "subheading": "",
+              "link": "shopify:\/\/pages\/spring-summer-2023",
+              "link_text": "Scopri la collezione",
               "link_2": "",
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/01-Homepage-Hero-Banner-PRIMO.jpg",
+              "image": "shopify:\/\/shop_images\/foto-montagna-HP-BN.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -449,7 +449,6 @@
               "link_text_2": "Acquista Donna",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/79b175ce-a8c4-4a85-9475-9773cc96d026.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -467,7 +466,6 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/02-Homepage-Hero-Banner-Temperatura.jpg",
               "focal_point": "center center"
             }
           },
@@ -485,7 +483,6 @@
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/01-HeroBanner_23abd022-a87e-4b3a-8c1d-ff940ee3f84e.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -742,7 +739,6 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/08-Homepage-Banner-Collezione-Stay-Fresh.jpg",
               "video_url": "",
               "width": "100",
               "height": 480,
@@ -766,7 +762,6 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/hp-banner-warm-desk_f479220a-cf5a-4dca-be01-b5dec608a761.jpg",
               "video_url": "",
               "width": "50",
               "height": 500,
@@ -1183,6 +1178,30 @@
       "46775f4e-b84f-487e-af50-855a972303b5": {
         "type": "promo-grid",
         "blocks": {
+          "892c98d6-d6b9-4935-87d3-d81699e5e4e2": {
+            "type": "advanced",
+            "settings": {
+              "subheading": "",
+              "heading": "MONTAGNA, MAESTRA DI VITA",
+              "textarea": "ESPLORA LA SUA DIMENSIONE PIÙ INTIMA CON I NOSTRI BASE LAYER",
+              "cta_text1": "Scopri la collezione",
+              "cta_text1_color": "#ffffff",
+              "cta_link1": "shopify:\/\/pages\/spring-summer-2023",
+              "cta_text2": "",
+              "cta_text2_color": "",
+              "cta_link2": "",
+              "image": "shopify:\/\/shop_images\/foto-montagna-HP-BN.jpg",
+              "video_url": "",
+              "width": "100",
+              "height": 800,
+              "text_size": 120,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "center",
+              "color_accent": "rgba(0,0,0,0)",
+              "boxed": false,
+              "framed": false
+            }
+          },
           "2a07fafe-14ff-414d-b9e8-cbaddee00fa0": {
             "type": "advanced",
             "settings": {
@@ -1195,7 +1214,6 @@
               "cta_text2": "",
               "cta_text2_color": "",
               "cta_link2": "",
-              "image": "shopify:\/\/shop_images\/06-Homepage-Banner-I-nostri-layer-in-azione.jpg",
               "video_url": "",
               "width": "100",
               "height": 800,
@@ -1209,6 +1227,7 @@
           }
         },
         "block_order": [
+          "892c98d6-d6b9-4935-87d3-d81699e5e4e2",
           "2a07fafe-14ff-414d-b9e8-cbaddee00fa0"
         ],
         "settings": {
@@ -1229,8 +1248,7 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/01-Homepage-Power-is-Precious2.jpg"
+              "cta2link": "\/pages\/technology"
             }
           },
           "ea2eb875-5bf3-4252-b3c7-041aa58abf8e": {
@@ -1241,8 +1259,7 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/03-Homepage-Power-is-Precious-Termoregolazione.jpg"
+              "cta2link": "\/pages\/technology"
             }
           },
           "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0": {
@@ -1253,8 +1270,7 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology",
-              "image": "shopify:\/\/shop_images\/05-Homepage-Power-is-Precious-Traspirabilita.jpg"
+              "cta2link": "\/pages\/technology"
             }
           }
         },
