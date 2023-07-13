@@ -14,7 +14,7 @@
       <div class="footer__collapsible{% unless block.settings.show_footer_title %} footer_collapsible--disabled{% endunless %}">
         <ul class="no-bullets site-footer__linklist">
           {% for link in linklists[block.settings.menu].links %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            <li><a attr="{{forloop.index}}" href="{{ link.url }}">{{ link.title }}</a></li>
             {% if forloop.index == 5 %}
               <li><a href="javascript: Cookiebot.renew()">Gestione Cookie</a></li>
             {% endif %}
