@@ -15,7 +15,7 @@
         <ul class="no-bullets site-footer__linklist">
           {% for link in linklists[block.settings.menu].links %}
             <li><a attr="{{forloop.index}}" href="{{ link.url }}">{{ link.title }}</a></li>
-            {% if forloop.index == 5 %}
+            {% if forloop.index == 8 %}
               <li><a href="javascript: Cookiebot.renew()">Gestione Cookie</a></li>
             {% endif %}
           {% endfor %}
