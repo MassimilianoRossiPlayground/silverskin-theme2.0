@@ -1888,6 +1888,9 @@ h1.h2.product-single__title {
         margin-bottom: 20px;
 
     }
+    .trustpilot-widget iframe {
+        height: auto !important;
+    }
 }
 
 .trustpilot-product-mini {

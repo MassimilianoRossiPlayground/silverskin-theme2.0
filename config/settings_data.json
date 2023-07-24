@@ -1178,7 +1178,7 @@
       "46775f4e-b84f-487e-af50-855a972303b5": {
         "type": "promo-grid",
         "blocks": {
-          "892c98d6-d6b9-4935-87d3-d81699e5e4e2": {
+          "be827a98-9d0e-43eb-bc7d-ff710a5983b2": {
             "type": "advanced",
             "settings": {
               "subheading": "",
@@ -1227,7 +1227,7 @@
           }
         },
         "block_order": [
-          "892c98d6-d6b9-4935-87d3-d81699e5e4e2",
+          "be827a98-9d0e-43eb-bc7d-ff710a5983b2",
           "2a07fafe-14ff-414d-b9e8-cbaddee00fa0"
         ],
         "settings": {
