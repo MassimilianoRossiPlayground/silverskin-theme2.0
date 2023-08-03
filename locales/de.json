@@ -161,14 +161,14 @@
         "discount_label": "Rabattcode",
         "discount_placeholder": "Rabattcode",
         "gift_card_title": "Geschenkgutschein",
-        "gift_card_label": "Geschenkkarte",
-        "gift_card_placeholder": "Geschenkkarte",
+        "gift_card_label": "Geschenkgutschein",
+        "gift_card_placeholder": "Geschenkgutschein",
         "gift_card_and_discount_title": "Geschenkkarte oder Rabattcode",
         "gift_card_and_discount_label": "Geschenkkarte oder Rabattcode",
         "gift_card_and_discount_placeholder": "Geschenkkarte oder Rabattcode",
         "remove_gift_card_label": "Geschenkkarte löschen",
         "remove_discount_label": "Rabatt entfernen",
-        "free_shipping_discount_label": "Kostenfreier Versand",
+        "free_shipping_discount_label": "Kostenloser Versand",
         "apply_discount_button_label": "Anwenden",
         "applied_discount_message": "%{amount} Rabatt auf den Gesamtpreis entfernt",
         "discount_has_been_applied": "Rabatt korrekt angewendet",
@@ -215,10 +215,10 @@
           "accessible_separator": "pro",
           "content_html": "%{price}%{accessible_separator}%{per_unit}"
         },
-        "pickup_label": "Abholen",
+        "pickup_label": "Abholungen",
         "no_pickup_location": "Deine Bestellung ist nicht zur Abholung verfügbar. Gib eine Lieferadresse ein.",
         "calculating_shipping": "Wird berechnet …",
-        "estimated_taxes_label": "Geschätzte Steuern",
+        "estimated_taxes_label": "Geschätzte Steuer",
         "gift_card_ending": "Geschenkgutschein mit Endung %{last_characters}",
         "estimated_tax_label": "Geschätzte Steuer",
         "multiple_shipping_lines_label": "Gesamtversandkosten",
@@ -237,7 +237,18 @@
           "description": "Du erhältst bei Fälligkeit deiner Zahlung eine entsprechende Erinnerungs-E-Mail."
         },
         "percent_off_shipping": "%{percent} % auf Versand",
-        "amount_off_shipping": "%{amount} Rabatt auf Versand"
+        "amount_off_shipping": "%{amount} Rabatt auf Versand",
+        "expand_component_information": {
+          "many": "%{count} Artikel anzeigen"
+        },
+        "collapse_component_information": {
+          "many": "%{count} Artikel ausblenden"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "many": "%{count} Artikel"
+          }
+        }
       },
       "shipping": {
         "title": "Versand",
