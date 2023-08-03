@@ -676,7 +676,7 @@
         "order_status_confirmed_order_with_email": "Du erhältst eine E-Mail, sobald deine Bestellung bereit ist.",
         "order_status_confirmed_order_with_phone": "Du erhältst eine SMS, sobald deine Bestellung bereit ist.",
         "order_status_confirmed_order_with_email_and_phone": "Du erhältst eine E-Mail, sobald deine Bestellung bereit ist.",
-        "order_status_updates_with_email": "Du erhältst Updates zu Versand und Lieferung per E-Mail.",
+        "order_status_updates_with_email": "Du erhältst Updates zu Versand und Lieferung per E-Mail und SMS.",
         "order_status_updates_with_phone": "Du erhältst Updates zu Versand und Lieferung per SMS.",
         "order_status_updates_with_email_and_phone": "Du erhältst Updates zu Versand und Lieferung per E-Mail und SMS.",
         "order_status_updates_with_missing": "Wähle aus, wie du Versandaktualisierungen erhalten möchtest.",
@@ -727,7 +727,7 @@
         "order_number_label": "Bestellnummer",
         "customer_validation_error": "Gib eine gültige E-Mail-Adresse oder Bestellnummer ein.",
         "customer_validation_error_phone": "Gib eine gültige Telefon- oder Bestellnummer ein.",
-        "login": "Anmelden",
+        "login": "Logge dich",
         "unfulfilled_items_title": "Vorbereitung auf den Versand",
         "unfulfilled_items_description": "Wir bereiten diese Artikel gerade für den Versand vor.",
         "marker": {
@@ -746,13 +746,13 @@
         "order_updates_subscribe_to_email_notifications": "Erhalte Versandaktualisierungen via E-Mail.",
         "order_updates_subscribe_to_email_or_phone_notifications": "Du erhältst Versandaktualisierungen per E-Mail oder SMS.",
         "order_updates_subscribe_to_phone_notifications": "Erhalte per SMS Versandaktualisierungen.",
-        "order_updates_submit_subscription": "Schicken",
+        "order_updates_submit_subscription": "Absenden",
         "track_shipment": "Sendung verfolgen",
         "shopify_pay": {
           "order_completed_html": "Bestellung mit %{shopify_pay} abgeschlossen",
           "learn_more_label": "Erfahre mehr über Shop Pay"
         },
-        "order_status_confirmed_order_with_email_pick_up": "Du erhältst eine E-Mail, sobald deine Bestellung zur Abholung bereit ist.",
+        "order_status_confirmed_order_with_email_pick_up": "Du erhältst eine E-Mail, wenn deine Bestellung zur Abholung bereit ist.",
         "order_status_confirmed_order_with_phone_pick_up": "Du erhältst eine SMS, sobald deine Bestellung zur Abholung bereit ist.",
         "order_status_confirmed_order_with_email_and_phone_pick_up": "Du erhältst eine E-Mail und eine SMS, sobald deine Bestellung zur Abholung bereit ist.",
         "pick_up_in_store_marker": {
