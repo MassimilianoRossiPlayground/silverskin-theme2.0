@@ -712,7 +712,8 @@
         "login_not_customer_html": "Not %{name}? You can %{link}",
         "login_reorder_link_text": {
           "one": "buy this product too",
-          "other": "buy these products too"
+          "other": "buy these products too",
+          "many": "buy these products too"
         },
         "customer_information_hidden_fields_message": "Log in to view all customer information.",
         "cancelled_title": "Your order has been canceled",
@@ -745,16 +746,16 @@
           "order_completed_html": "Order completed with %{shopify_pay}",
           "learn_more_label": "Learn more about Shop Pay"
         },
-        "order_status_confirmed_order_with_email_pick_up": "You’ll receive an email when your order is ready for pickup.",
+        "order_status_confirmed_order_with_email_pick_up": "You'll receive an email when your order is ready for pickup.",
         "order_status_confirmed_order_with_phone_pick_up": "You’ll receive a text when your order is ready for pickup.",
         "order_status_confirmed_order_with_email_and_phone_pick_up": "You’ll receive an email and text when your order is ready for pickup.",
         "pick_up_in_store_marker": {
           "current": "Current shipment location",
           "shipping": "Pickup location"
         },
-        "thank_you_confirmed_order_with_email_pick_up": "You’ll receive an email when your order is ready for pickup.",
+        "thank_you_confirmed_order_with_email_pick_up": "You'll receive an email when your order is ready for pickup.",
         "thank_you_confirmed_order_with_phone_pick_up": "You’ll receive a text when your order is ready for pickup.",
-        "thank_you_confirmed_order_with_email_and_phone_pick_up": "You’ll receive an email when your order is ready for pickup.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "You'll receive an email when your order is ready for pickup.",
         "ready_for_pickup_title": "Your order is ready for pickup",
         "ready_for_pickup_description": "Your order is ready for pickup. Please bring your order confirmation when you pick up your order.",
         "picked_up_title": "Your order has been picked up",
