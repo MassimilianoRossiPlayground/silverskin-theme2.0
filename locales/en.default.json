@@ -1048,6 +1048,19 @@
         "number_of_pickup_points_near_location": {
           "many": "%{count} pickup points near your location"
         }
+      },
+      "local_pickup": {
+        "location_information": {
+          "many": "There are %{count} stores with stock close to %{address}"
+        },
+        "paginator": {
+          "label": {
+            "many": "%{first} - %{last} of %{count} stores"
+          }
+        },
+        "reveal_more_label": {
+          "many": "Show %{count} more locations"
+        }
       }
     },
     "pagination": {
@@ -1056,7 +1069,7 @@
     },
     "links": {
       "powered_by_shopify": "Powered by Shopify",
-      "learn_more": "More information"
+      "learn_more": "Learn more"
     },
     "feed": {
       "more": "More"
