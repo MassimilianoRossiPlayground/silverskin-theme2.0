@@ -218,7 +218,7 @@
         "pickup_label": "Pickup",
         "no_pickup_location": "Your order isn't available for pickup. Enter a shipping address.",
         "calculating_shipping": "Calculating…",
-        "estimated_taxes_label": "Taxes (estimated)",
+        "estimated_taxes_label": "Estimated tax",
         "gift_card_ending": "Gift card ending with %{last_characters}",
         "estimated_tax_label": "Estimated tax",
         "multiple_shipping_lines_label": "Shipping total",
@@ -237,7 +237,18 @@
           "description": "You will receive a reminder email when your payment is due."
         },
         "percent_off_shipping": "%{percent}% off shipping",
-        "amount_off_shipping": "%{amount} off shipping"
+        "amount_off_shipping": "%{amount} off shipping",
+        "expand_component_information": {
+          "many": "Show %{count} items"
+        },
+        "collapse_component_information": {
+          "many": "Hide %{count} items"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "many": "%{count} items"
+          }
+        }
       },
       "shipping": {
         "title": "Shipping",
@@ -253,7 +264,8 @@
         "please_enter_your_shipping_information_notice": "Please enter your shipping information.",
         "estimated_delivery_date": {
           "one": "1 business day",
-          "other": "%{count} business days"
+          "other": "%{count} business days",
+          "many": "%{count} business days"
         },
         "estimated_delivery_date_range": "%{minimum} to %{maximum} business days",
         "shipping_line_phone_label": "Mobile phone number (required)",
