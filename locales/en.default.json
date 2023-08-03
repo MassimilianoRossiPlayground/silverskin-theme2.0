@@ -799,7 +799,25 @@
             "title": "Or send a link to your phone"
           }
         },
-        "estimated_delivery": "Estimated delivery "
+        "estimated_delivery": "Estimated delivery ",
+        "gift_card_confirmation_by_text_typ": {
+          "many": "You’ll receive a text with your gift cards in a few minutes."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "many": "You’ll receive an email with your gift cards in a few minutes."
+        },
+        "gift_card_email_title": {
+          "many": "Gift cards were sent by email"
+        },
+        "gift_card_text_title": {
+          "many": "Gift cards were sent by text message"
+        },
+        "gift_card_resent_confirmation": {
+          "many": "Gift cards were resent."
+        },
+        "gift_card_resend_failure": {
+          "many": "There was a problem resending your gift cards. Try again or contact us."
+        }
       },
       "review": {
         "title": "Review",
@@ -840,8 +858,8 @@
       },
       "shop_policies": {
         "refund_policy": "Refund policy",
-        "privacy_policy": "Privacy policy",
-        "terms_of_service": "Terms of service",
+        "privacy_policy": "Privacy Policy",
+        "terms_of_service": "Terms of Service",
         "legal_notice": "Legal notice",
         "shipping_policy": "Shipping policy",
         "terms_of_sale": "Terms of sale",
