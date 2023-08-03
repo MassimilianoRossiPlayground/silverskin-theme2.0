@@ -1729,7 +1729,7 @@
           "draft": {
             "title": "Die Zahlung ist noch nicht fällig"
           },
-          "pay_now": "Jetzt bezahlen",
+          "pay_now": "Sofort bezahlen",
           "pending": {
             "banner_overdue": {
               "many": "Deine Zahlung ist seit {{count}} Tagen überfällig"
@@ -1741,6 +1741,19 @@
             "title": "Zahlung fällig"
           }
         }
+      },
+      "orders": {
+        "draft_order_list": {
+          "pending_tab_accessibility_label": {
+            "pending_orders": {
+              "many": "Du hast {{count}} ausstehende Bestellungen"
+            }
+          }
+        }
+      },
+      "purchase_order_number": {
+        "cancel": "Abbrechen",
+        "discard": "Entfernen"
       }
     },
     "errors": {
