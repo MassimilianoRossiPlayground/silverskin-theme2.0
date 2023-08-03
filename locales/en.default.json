@@ -1540,9 +1540,9 @@
       "set_default": "Set as default address",
       "add": "Add address",
       "update": "Update address",
-      "cancel": "Cancel",
-      "edit": "Edit",
-      "delete": "Cancel",
+      "cancel": "Clear",
+      "edit": "Change",
+      "delete": "Clear",
       "delete_confirm": "Are you sure you wish to delete this address?"
     },
     "login": {
@@ -1588,7 +1588,7 @@
       "title": "Reset your password",
       "email": "Email",
       "submit": "Submit",
-      "cancel": "Cancel",
+      "cancel": "Clear",
       "subtext": "We will send you an email to reset your password.",
       "success": "We've sent you an email with a link to update your password."
     },
@@ -1645,7 +1645,7 @@
     "product": {
       "stock_label": "Only {{ count }} items in stock!",
       "sold_out": "Sold Out",
-      "unavailable": "Unavailable",
+      "unavailable": "Not available",
       "quantity": "Quantity",
       "add_to_cart": "Add to cart",
       "preorder": "Pre-order",
