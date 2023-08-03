@@ -3,7 +3,7 @@
     "sentence": {
       "words_connector": ", ",
       "two_words_connector": " and ",
-      "last_word_connector": ", and "
+      "last_word_connector": "and"
     },
     "checkout": {
       "general": {
@@ -15,7 +15,7 @@
         "complete_purchase_button_label": "Complete order",
         "pay_now_button_label": "Pay now",
         "authenticate_purchase_button_label": "Authenticate payment",
-        "edit_link_label": "Edit",
+        "edit_link_label": "Change",
         "all_rights_reserved": "All rights reserved %{shop_name}",
         "print_policies_link_label": "Print",
         "cart": "Cart",
@@ -46,7 +46,7 @@
         "checkout_context": {
           "step_one": "%{shop_name} - Checkout"
         },
-        "tooltip_accessibility_label": "More information",
+        "tooltip_accessibility_label": "Learn more",
         "errors": {
           "session_identifier_not_unique_error": "Something went wrong with your order, please try checking out again."
         }
