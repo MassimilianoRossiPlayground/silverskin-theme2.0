@@ -1678,7 +1678,22 @@
         },
         "gift_card_resend_text": {
           "many": "SMS-Nachrichten erneut senden"
+        },
+        "gift_card_resend_description_text": {
+          "many": "Falls du sie nicht erhalten hast, sende die SMS-Nachrichten erneut oder"
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "many": "Jeder Geschenkgutschein wird in einer separaten SMS versendet."
+        },
+        "gift_resend_success": {
+          "many": "Geschenkgutscheine erneut gesendet"
+        },
+        "gift_resend_failure": {
+          "many": "Beim erneuten Senden deiner Geschenkgutscheine ist ein Problem aufgetreten. Versuche es erneut oder wende dich an uns."
         }
+      },
+      "if_not_received": {
+        "many": "Falls sie nicht erhalten wurden,"
       }
     },
     "order_details": {
