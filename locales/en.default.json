@@ -1007,14 +1007,16 @@
       },
       "contextual_availability": {
         "title": {
-          "many": "Products unavailable"
+          "many": "Products unavailable",
+          "other": "Products unavailable"
         },
         "products_not_available": {
           "many": "These products will be removed from your cart because they're not available in your country\/region."
         },
         "all_products_in_cart_unavailable": {
           "many": "These products are not available in your country\/region."
-        }
+        },
+        "unavailable_label": "Not available"
       }
     },
     "pagination": {
