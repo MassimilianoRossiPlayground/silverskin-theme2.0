@@ -1740,6 +1740,9 @@
             "banner_due_today": "Payment due today"
           }
         }
+      },
+      "locations": {
+        "contact_name": "First name"
       }
     },
     "errors": {
@@ -1761,6 +1764,9 @@
       "profile_card": {
         "edit": "Change"
       }
+    },
+    "addresses": {
+      "edit_button": "Change"
     }
   }
 }
