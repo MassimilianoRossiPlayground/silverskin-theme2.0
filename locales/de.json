@@ -1729,7 +1729,7 @@
           "draft": {
             "title": "Die Zahlung ist noch nicht fällig"
           },
-          "pay_now": "Sofort bezahlen",
+          "pay_now": "Jetzt bezahlen",
           "pending": {
             "banner_overdue": {
               "many": "Deine Zahlung ist seit {{count}} Tagen überfällig"
@@ -1741,19 +1741,6 @@
             "title": "Zahlung fällig"
           }
         }
-      },
-      "orders": {
-        "draft_order_list": {
-          "pending_tab_accessibility_label": {
-            "pending_orders": {
-              "many": "Du hast {{count}} ausstehende Bestellungen"
-            }
-          }
-        }
-      },
-      "purchase_order_number": {
-        "cancel": "Abbrechen",
-        "discard": "Entfernen"
       }
     },
     "errors": {
@@ -1765,7 +1752,10 @@
       "terms_of_service": "Allgemeinen Geschäftsbedingungen (AGB)"
     },
     "payment_methods": {
-      "back_button": "Vorherige"
+      "back_button": "Zurück",
+      "payment_details": {
+        "edit_payment_method_button": "Ändern"
+      }
     }
   }
 }
