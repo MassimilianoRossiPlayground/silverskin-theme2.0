@@ -1025,19 +1025,6 @@
             "many": "Diese Artikel werden aus deinem Warenkorb entfernt, da für deine Adresse keine Zustellmethoden verfügbar sind."
           }
         }
-      },
-      "local_pickup": {
-        "location_information": {
-          "many": "Es sind %{count} Shops mit verfügbarem Lagerbestand in der Nähe von %{address}"
-        },
-        "paginator": {
-          "label": {
-            "many": "%{first}–%{last} von %{count} Shops"
-          }
-        },
-        "reveal_more_label": {
-          "many": "%{count} weitere Standorte anzeigen"
-        }
       }
     },
     "pagination": {
@@ -1052,7 +1039,7 @@
       "more": "Mehr"
     },
     "attributes": {
-      "email": "sende uns eine E-Mail",
+      "email": "E-Mail",
       "password": "Passwort",
       "password_confirmation": "Passwortbestätigung",
       "first_name": "Vorname",
