@@ -759,9 +759,9 @@
           "current": "Derzeitiger Standort der Sendung",
           "shipping": "Abholort"
         },
-        "thank_you_confirmed_order_with_email_pick_up": "Du erhältst eine E-Mail, sobald deine Bestellung zur Abholung bereit ist.",
+        "thank_you_confirmed_order_with_email_pick_up": "Du erhältst eine E-Mail, wenn deine Bestellung zur Abholung bereit ist.",
         "thank_you_confirmed_order_with_phone_pick_up": "Du erhältst eine SMS, sobald deine Bestellung zur Abholung bereit ist.",
-        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Du erhältst eine E-Mail, sobald deine Bestellung zur Abholung bereit ist.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Du erhältst eine E-Mail, wenn deine Bestellung zur Abholung bereit ist.",
         "ready_for_pickup_title": "Deine Bestellung ist zur Abholung bereit",
         "ready_for_pickup_description": "Deine Bestellung ist zur Abholung bereit. Bitte bringe deine Bestellbestätigung zur Abholung der Bestellung mit.",
         "picked_up_title": "Deine Bestellung wurde abgeholt",
@@ -777,7 +777,7 @@
         "out_for_delivery_local_description_html": "Deine Bestellung wird in Kürze ankommen.",
         "delivered_local_title": "Deine Bestellung wurde geliefert",
         "delivered_local_description_html": "Hast du deine Bestellung nicht erhalten? %{let_us_know}.",
-        "let_us_know": "Lass es uns wissen",
+        "let_us_know": "Lasse es uns wissen",
         "qr_code": {
           "title": "Auf dem Telefon verfolgen",
           "subtitle": "Scanne mit der Kamera deines Smartphones den Code für \"Track with Shop\".",
@@ -798,7 +798,7 @@
         "order_status_confirmed_order_with_email_and_phone_payment": "Du hast eine Zahlung für deine Bestellung %{date} vorgenommen.",
         "shop_qr_with_sms_upsell": {
           "qr_code": {
-            "title": "Mit deinem Smartphone scannen",
+            "title": "Mit deinem Mobiltelefon scannen",
             "description": "Der Shop sendet dir Zustellungsaktualisierungen in Echtzeit, sobald deine Bestellung versendet wurde."
           },
           "sms": {
