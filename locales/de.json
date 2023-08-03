@@ -996,18 +996,34 @@
         }
       },
       "mor_policies": {
-        "terms_and_conditions": "Geschäftsbedingungen des Vertragspartners",
-        "privacy_policy": "Datenschutzerklärung des Vertragspartners"
+        "terms_and_conditions": "Geschäftsbedingungen des eingetragenen Händlers",
+        "privacy_policy": "Datenschutzerklärung des eingetragenen Händlers"
       },
       "contextual_availability": {
         "title": {
-          "many": "Produkte nicht verfügbar"
+          "many": "Produkte nicht verfügbar",
+          "other": "Produkte nicht verfügbar"
         },
         "products_not_available": {
           "many": "Diese Produkte werden aus deinem Warenkorb entfernt, weil sie in deinem Land\/deiner Region nicht verfügbar sind."
         },
         "all_products_in_cart_unavailable": {
           "many": "Diese Produkte sind in deinem Land \/ deiner Region nicht verfügbar."
+        }
+      },
+      "throttle": {
+        "estimated_wait_time": {
+          "many": "Die geschätzte Wartezeit beträgt {{count}} Minuten"
+        }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "many": "Für %{count} Artikel ist keine Zustellung verfügbar"
+          },
+          "message": {
+            "many": "Diese Artikel werden aus deinem Warenkorb entfernt, da für deine Adresse keine Zustellmethoden verfügbar sind."
+          }
         }
       }
     },
