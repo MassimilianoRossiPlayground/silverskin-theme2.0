@@ -248,6 +248,12 @@
           "merchandise_quantity_label": {
             "many": "%{count} items"
           }
+        },
+        "discount_title_stacking": {
+          "many": "Discounts"
+        },
+        "discount_order_stacking": {
+          "many": "Order discounts"
         }
       },
       "shipping": {
