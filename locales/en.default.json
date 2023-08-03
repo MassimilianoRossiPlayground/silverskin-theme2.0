@@ -1771,7 +1771,12 @@
         "pre_authorized_payments": "Preauthorized payments",
         "edit_payment_method_button": "Change"
       },
-      "back_button": "Previous"
+      "back_button": "Back",
+      "card_fields": {
+        "tooltip": {
+          "tooltip_accessibility_label": "Learn more"
+        }
+      }
     },
     "account_information": {
       "profile_card": {
