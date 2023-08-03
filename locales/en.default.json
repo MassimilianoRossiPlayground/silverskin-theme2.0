@@ -1676,7 +1676,29 @@
     "orders": {
       "order_status": {
         "canceled_label": "Voided",
-        "preparing_for_shipping_label": "Preparing for shipment"
+        "preparing_for_shipping_label": "Preparing for shipment",
+        "delivered_description_gift_card": {
+          "many": "Gift cards were sent by email."
+        },
+        "gift_card_label": {
+          "many": "Gift cards"
+        },
+        "gift_card_resend": {
+          "other": "Resend email",
+          "many": "Resend email"
+        },
+        "gift_card_resend_description": {
+          "many": "If they weren't received, resend the emails or"
+        },
+        "confirmed_gift_card_additional_description": {
+          "many": "Each gift card will be sent in a separate email."
+        },
+        "delivered_description_gift_card_text": {
+          "many": "Gift cards were sent by text."
+        },
+        "gift_card_resend_text": {
+          "many": "Resend texts"
+        }
       },
       "order_list": {
         "items": {
