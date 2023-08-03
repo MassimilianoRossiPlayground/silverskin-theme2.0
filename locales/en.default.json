@@ -397,9 +397,10 @@
         "card_fields_container_prefix": "Field container for:",
         "card_fields_unavailable_html": {
           "one": "Credit and debit card payments aren’t available right now.<br><a href=\"%{current_url}\">Refresh this page<\/a> or try again later.",
-          "other": "Credit and debit card payments aren’t available right now.<br><a href=\"%{current_url}\">Refresh this page<\/a> or try a different payment method."
+          "other": "Credit and debit card payments aren’t available right now.<br><a href=\"%{current_url}\">Refresh this page<\/a> or try a different payment method.",
+          "many": "Credit and debit card payments aren’t available right now.<br><a href=\"%{current_url}\">Refresh this page<\/a> or try a different payment method."
         },
-        "card_fields_processing_error": "There was a problem processing the payment. Try refreshing this page or check your internet connection.",
+        "card_fields_processing_error": "There was a problem processing your payment. Try refreshing this page or check your internet connection.",
         "technical_error": "Payments can’t be processed right now because of a technical issue. Try again in a few minutes.",
         "no_method_error": "There was a problem with our payments. Contact us to complete your order.",
         "not_configured_error": "There was a problem with our payments. Contact us to complete your order.",
@@ -459,7 +460,10 @@
           "connect": "Click to connect with your Google Pay account",
           "error_authorizing": "Error authorizing payment"
         },
-        "email_connected": "Account connected: "
+        "email_connected": "Account connected: ",
+        "expired_cards_info": {
+          "many": "There are %{count} expired cards, which you can view and edit in your account."
+        }
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Current balance %{amount}",
