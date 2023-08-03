@@ -273,7 +273,8 @@
         "other_method": {
           "zero": "No other methods available",
           "one": "1 other method available at ",
-          "other": "%{count} other methods available starting at "
+          "other": "%{count} other methods available starting at ",
+          "many": "%{count} other methods available starting at "
         },
         "shipping_rate_discounted_amount": "Was: %{original_amount}. Now: %{amount}",
         "shipping_line_delivery_phone": "We may use this number to call or text you about your delivery.",
@@ -326,11 +327,13 @@
           "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} per delivery), followed by %{recurring_order_shipping_price}",
           "first_n_order_free": {
             "one": "First order free",
-            "other": "First %{count} orders free"
+            "other": "First %{count} orders free",
+            "many": "First %{count} orders free"
           },
           "free_for_first_n_order": {
             "one": "For first order",
-            "other": "For first %{count} orders"
+            "other": "For first %{count} orders",
+            "many": "For first %{count} orders"
           }
         },
         "estimated_delivery_time": "Estimated delivery %{time}",
@@ -382,7 +385,8 @@
         "express_checkout_free_order": "You won't be charged for a free order",
         "order_covered_by_gift_cards_notice": {
           "one": "Your order is covered by your gift card.",
-          "other": "Your order is covered by your gift cards."
+          "other": "Your order is covered by your gift cards.",
+          "many": "Your order is covered by your gift cards."
         },
         "offsite_gateway_redirect_hint": "After clicking “%{button_label}”, you will be redirected to %{gateway_label} to complete your purchase securely.",
         "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} total %{total_shop_price}",
