@@ -1332,7 +1332,7 @@
     "password_page": {
       "login_form_heading": "Shop mit Passwort betreten:",
       "login_form_password_placeholder": "Dein Passwort",
-      "login_form_submit": "Schicken",
+      "login_form_submit": "Absenden",
       "signup_form_success": "Wir senden dir eine E-Mail, kurz bevor wir eröffnen!",
       "login_form_password_label": "Passwort",
       "signup_form_email_label": "E-Mail",
@@ -1397,7 +1397,7 @@
       "email": "E-Mail",
       "phone": "Telefonnummer",
       "message": "Nachricht",
-      "send": "Schicken",
+      "send": "Absenden",
       "post_success": "Danke, dass du uns kontaktiert hast. Wir werden uns so schnell wie möglich bei dir melden."
     }
   },
