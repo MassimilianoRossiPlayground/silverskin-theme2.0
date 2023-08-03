@@ -1237,7 +1237,7 @@
     },
     "page_titles": {
       "products": "Products",
-      "shopping_cart": "Your Shopping Cart",
+      "shopping_cart": "Your cart",
       "account": "Account",
       "create_account": "Create Account",
       "reset_account": "Reset Account",
@@ -1324,8 +1324,8 @@
     "filters": {
       "availability": {
         "value": {
-          "in_stock": "In stock",
-          "out_of_stock": "Out of stock"
+          "in_stock": "Available",
+          "out_of_stock": "Sold Out"
         }
       },
       "boolean": {
@@ -1708,6 +1708,11 @@
         "pre_authorized_payments": "Preauthorized payments"
       },
       "back_button": "Previous"
+    },
+    "account_information": {
+      "profile_card": {
+        "edit": "Change"
+      }
     }
   }
 }
