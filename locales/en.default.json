@@ -56,7 +56,7 @@
         "address_title": "Address",
         "shipping_address_title": "Shipping address",
         "delivery_option_title": "Delivery method",
-        "contact_method_title": "Contact information",
+        "contact_method_title": "Contact",
         "email_label": "Email",
         "email_placeholder": "Email",
         "email_or_phone_label": "Email or mobile phone number",
@@ -131,7 +131,7 @@
       },
       "stock": {
         "page_title": "Inventory issues",
-        "title": "Out of stock",
+        "title": "Sold Out",
         "items_unavailable_notice": "Some items are no longer available. Your cart has been updated.",
         "product_column_header": "Products",
         "quantity_column_header": "Quantity",
