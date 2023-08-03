@@ -1743,6 +1743,18 @@
       },
       "locations": {
         "contact_name": "First name"
+      },
+      "orders": {
+        "draft_order_list": {
+          "pending_tab_accessibility_label": {
+            "pending_orders": {
+              "many": "You have {{count}} pending orders"
+            }
+          }
+        }
+      },
+      "purchase_order_number": {
+        "discard": "Remove"
       }
     },
     "errors": {
@@ -1756,7 +1768,8 @@
     },
     "payment_methods": {
       "payment_details": {
-        "pre_authorized_payments": "Preauthorized payments"
+        "pre_authorized_payments": "Preauthorized payments",
+        "edit_payment_method_button": "Change"
       },
       "back_button": "Previous"
     },
