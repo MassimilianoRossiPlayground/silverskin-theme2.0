@@ -1703,10 +1703,12 @@
       "summary_title": "Zusammenfassung deiner Bestellung",
       "total": "Gesamtsumme",
       "show_order_summary": "Bestellzusammenfassung anzeigen",
-      "hide_order_summary": "Bestellzusammenfassung verbergen"
+      "hide_order_summary": "Bestellzusammenfassung verbergen",
+      "log_in": "Logge dich"
     },
     "addresses": {
-      "cancel_deletion_button": "Schließen"
+      "cancel_deletion_button": "Abbrechen",
+      "edit_button": "Ändern"
     },
     "address_form": {
       "cancel": "Schließen"
