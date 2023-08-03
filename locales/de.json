@@ -1505,7 +1505,7 @@
       "add": "Adresse hinzufügen",
       "update": "Adresse aktualisieren",
       "cancel": "Löschen",
-      "edit": "Bearbeiten",
+      "edit": "Ändern",
       "delete": "Löschen",
       "delete_confirm": "Bist Du sicher, dass Du diese Adresse löschen möchtest?"
     },
@@ -1551,7 +1551,7 @@
     "recover_password": {
       "title": "Passwort zurücksetzen",
       "email": "E-Mail",
-      "submit": "Schicken",
+      "submit": "Absenden",
       "cancel": "Löschen",
       "subtext": "Wir werden dir eine E-Mail zum Zurücksetzen des Passworts schicken.",
       "success": "Wir haben dir eine E-Mail mit einem Link zum Aktualisieren des Passworts geschickt."
