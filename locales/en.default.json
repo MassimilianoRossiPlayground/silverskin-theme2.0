@@ -1677,6 +1677,17 @@
       "order_status": {
         "canceled_label": "Voided",
         "preparing_for_shipping_label": "Preparing for shipment"
+      },
+      "order_list": {
+        "items": {
+          "many": "{{count}} items"
+        },
+        "pagination": {
+          "previous": "Previous"
+        },
+        "carousel": {
+          "previous": "Back"
+        }
       }
     },
     "B2B": {
