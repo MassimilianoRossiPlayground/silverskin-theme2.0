@@ -853,7 +853,7 @@
         "shipping_policy": "Versandbedingungen",
         "terms_of_sale": "Verkaufsbedingungen",
         "subscription_policy": "Abonnement-Richtlinien",
-        "contact_information": "Kontakdetails"
+        "contact_information": "Kontaktinformationen"
       },
       "remember_me": {
         "shopify_pay_label": "Shop Pay",
@@ -885,7 +885,8 @@
         "changes_summary": {
           "added": {
             "one": "Hinzugefügt",
-            "other": "%{count} hinzugefügt"
+            "other": "%{count} hinzugefügt",
+            "many": "%{count} hinzugefügt"
           },
           "removed": "Entfernt",
           "subtracted": "%{count} entfernt"
@@ -894,7 +895,7 @@
         "checkout_review_and_pay": "Deine Bestellung %{order_name} wurde aktualisiert. Überprüfe diese Änderungen und bezahle anschließend, um deine Bestellung zu bestätigen.",
         "order_updated_on": "Deine Bestellung wurde am %{last_edited_at} aktualisiert.",
         "order_review_and_pay": "Deine Bestellung wurde aktualisiert. Bitte überprüfe und zahle den Betrag, um deine Bestellung zu bestätigen.",
-        "pay_now": "Jetzt bezahlen"
+        "pay_now": "Sofort bezahlen"
       },
       "change_currency": {
         "currency_button_label": "%{currency} (%{currency_symbol})",
@@ -938,7 +939,7 @@
           "close": "Schließen",
           "expand": "Mehr anzeigen",
           "processing": "Wird bearbeitet ...",
-          "submit": "Schicken"
+          "submit": "Absenden"
         }
       },
       "change_country": {
