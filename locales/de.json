@@ -402,7 +402,7 @@
           "other": "Kredit- und Debitkartenzahlungen sind momentan nicht verfügbar.<br>Bitte <a href=\"%{current_url}\">lade diese Seite neu<\/a> oder probiere eine andere Zahlungsmethode.",
           "many": "Kredit- und Debitkartenzahlungen sind momentan nicht verfügbar.<br>Bitte <a href=\"%{current_url}\">lade diese Seite neu<\/a> oder probiere eine andere Zahlungsmethode."
         },
-        "card_fields_processing_error": "Bei der Verarbeitung der Zahlung ist ein Problem aufgetreten. Versuche, diese Seite zu aktualisieren oder überprüfe deine Internetverbindung.",
+        "card_fields_processing_error": "Bei der Verarbeitung deiner Zahlung ist ein Problem aufgetreten. Versuche, diese Seite zu aktualisieren oder überprüfe deine Internetverbindung.",
         "technical_error": "Zahlungen können derzeit aus technischen Gründen nicht bearbeitet werden. Versuche es in ein paar Minuten noch einmal.",
         "no_method_error": "Dieser Shop kann zurzeit keine Zahlungen akzeptieren.",
         "not_configured_error": "Dieser Shop kann zurzeit keine Zahlungen akzeptieren.",
@@ -451,10 +451,10 @@
         "delete_customer_mandate_modal_title": "Diese Zahlungskarte entfernen?",
         "delete_customer_mandate_modal_body": "Wenn du diese Karte entfernst, musst du sie erneut hinzufügen, bevor du sie für Zahlungen verwendest.",
         "delete_customer_mandate_modal_confirm": "Karte entfernen",
-        "delete_customer_mandate_modal_cancel": "Schließen",
+        "delete_customer_mandate_modal_cancel": "Abbrechen",
         "credit_card_vaulting_sign_in_banner_title": "Speichere deine Kreditkarte",
         "credit_card_vaulting_sign_in_banner_info": "Logge dich ein oder erstelle ein Konto, um deine Kreditkarteninformationen für zukünftige Käufe zu speichern.",
-        "credit_card_vaulting_sign_in_banner_button_label": "Anmelden",
+        "credit_card_vaulting_sign_in_banner_button_label": "Logge dich",
         "expiry_long": "(Läuft ab: %{month}\/%{year})",
         "expiry_short": "(Läuft ab: %{month}\/%{year})",
         "paypal_label": "PayPal",
@@ -464,7 +464,13 @@
         },
         "email_connected": "Konto verbunden: ",
         "klarna_label": "Klarna",
-        "mor_disclaimer_html": "Indem du unten klickst und deine Bestellung abschließt, stimmst du dem Kauf eines Artikels (von Artikeln) von Flow I.O als Vertragspartner \nfür diese Transaktion mit den <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Geschäftsbedingungen<\/a>\nund der <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Datenschutzerklärung<\/a> von Flow I.O. zu. Flow I.O ist ein internationaler \nFulfillmentdienstanbieter für %{shop_name}\n"
+        "mor_disclaimer_html": "Indem du unten klickst und deine Bestellung abschließt, stimmst du dem Kauf eines Artikels (von Artikeln) von Flow I.O als Vertragspartner \nfür diese Transaktion mit den <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Geschäftsbedingungen<\/a>\nund der <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Datenschutzerklärung<\/a> von Flow I.O. zu. Flow I.O ist ein internationaler \nFulfillmentdienstanbieter für %{shop_name}\n",
+        "saved_credit_cards_modal": {
+          "cancel": "Abbrechen"
+        },
+        "expired_cards_info": {
+          "many": "Es gibt %{count} abgelaufene Karten, die du anzeigen und in deinem Konto bearbeiten kannst."
+        }
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Aktuelles Kontostand: %{amount}",
