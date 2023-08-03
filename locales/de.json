@@ -514,7 +514,7 @@
         "reduction_code_gift_card_code_invalid": "Gib einen gültigen Geschenkgutschein ein",
         "reduction_code_gift_card_unusable": "Du kannst einen Geschenkgutschein nicht zum Kauf eines anderen Geschenkgutscheins verwenden",
         "shipping_line_phone_blank": "Gib eine Telefonnummer ein, um diese Zustellmethode zu verwenden",
-        "shipping_line_phone_invalid": "Gib eine gültige Telefonnummer ein, um diese Zustellmethode zu verwenden",
+        "shipping_line_phone_invalid": "Gib eine gültige Telefonnummer ein",
         "gift_card_already_applied": "Dieser Geschenkgutschein wurde bereits zu deiner Bestellung hinzugefügt",
         "gift_card_disabled": "Dieser Geschenkgutschein ist nicht mehr verfügbar",
         "gift_card_expired": "Dieser Geschenkgutschein ist abgelaufen",
@@ -583,7 +583,8 @@
         "shipping_method_not_available": "Dein Einkaufswagen wurde aktualisiert und die von dir hinzugefügten Artikel können nicht an deine Adresse geliefert werden. Entferne die Artikel, um deine Bestellung abzuschließen.",
         "shipping_method_not_available_generic": {
           "one": "Diese Bestellung kann nicht an die von dir angegebene Adresse versendet werden. Überprüfe deine Adresse, um sicherzustellen, dass alle Felder richtig eingegeben wurden, und versuche es erneut.",
-          "other": "Einige Artikel in deinem Warenkorb können nicht an die von dir angegebene Adresse versendet werden. Überprüfe deine Adresse, um sicherzustellen, dass alle Felder richtig eingegeben wurden, und versuche es erneut."
+          "other": "Einige Artikel in deinem Warenkorb können nicht an die von dir angegebene Adresse versendet werden. Überprüfe deine Adresse, um sicherzustellen, dass alle Felder richtig eingegeben wurden, und versuche es erneut.",
+          "many": "Einige Artikel in deinem Warenkorb können nicht an die von dir angegebene Adresse versendet werden. Überprüfe deine Adresse, um sicherzustellen, dass alle Felder richtig eingegeben wurden, und versuche es erneut."
         },
         "shipping_method_not_available_updated": {
           "one": "Der von dir hinzugefügte Artikel wird nicht an deinen Standort versendet. Entferne ihn vor der Zahlung, oder kontaktiere den Shop.",
@@ -637,7 +638,7 @@
         "title": "Zahlung konnte nicht verarbeitet werden",
         "payment_not_processed_title": "Zahlung konnte nicht verarbeitet werden",
         "payment_not_processed_text": "Dir wurde nichts berechnet. Kehre zu deinem Einkaufswagen zurück, um deinen Einkauf abzuschließen.",
-        "return_to_cart_button_label": "Zurück zum Warenkorb"
+        "return_to_cart_button_label": "Kehre zum Warenkorb zurück"
       },
       "payment_gateway": {
         "credit_card_label": "Kreditkarte",
