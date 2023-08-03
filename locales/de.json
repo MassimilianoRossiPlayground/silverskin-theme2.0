@@ -842,7 +842,7 @@
             "description_transactional_html": "Wir senden dir einen Bestellbeleg und wiederkehrende Versandaktualisierungen per Textnachricht. Antworte mit dem Wort STOP, um das Abo abzubestellen. Antworte mit dem Wort HELP, um Unterstützung anzufordern. Die Häufigkeit der Nachrichten variiert. Es fallen u. U. Gebühren für die Nachrichten und Datennutzung an. Schau dir unsere %{privacy_policy_modal_link} und %{terms_of_service_modal_link} an."
           }
         },
-        "post_accept_marketing_checkbox_label": "Du hast ein Abonnement für Neuigkeiten und Angebote per E-Mail abgeschlossen",
+        "post_accept_marketing_checkbox_label": "Du hast ein Abonnement zum Erhalt von Neuigkeiten und Angebote per E-Mail abgeschlossen",
         "pending_accept_marketing_checkbox_label": "Überprüfe deine E-Mails, um dein Abonnement für Neuigkeiten und Angebote zu bestätigen"
       },
       "shop_policies": {
