@@ -138,12 +138,20 @@
         "price_column_header": "Price",
         "status_column_header": "State",
         "removed_from_cart_notice": "Removed from cart",
-        "sold_out_label": "Out of stock",
+        "sold_out_label": "Sold Out",
         "reduced_label": "Reduced",
         "reduced_with_quantity_label": "Only %{quantity_available} left",
         "remove_from_cart_button_label": "Remove from cart",
         "continue_shopping_button_label": "Continue",
-        "go_back_to_cart_button_label": "Go back to my cart"
+        "go_back_to_cart_button_label": "Go back to my cart",
+        "unshippable_product": {
+          "header": {
+            "many": "No delivery available for %{count} items"
+          },
+          "message": {
+            "many": "These items will be removed from your cart because there are no delivery methods available for your address."
+          }
+        }
       },
       "order_summary": {
         "title": "Order summary",
@@ -160,7 +168,7 @@
         "gift_card_and_discount_placeholder": "Gift card or discount code",
         "remove_gift_card_label": "Clear gift card",
         "remove_discount_label": "Remove discount",
-        "free_shipping_discount_label": "Free shipping",
+        "free_shipping_discount_label": "Free Shipping",
         "apply_discount_button_label": "Apply",
         "applied_discount_message": "%{amount} off total order price",
         "discount_has_been_applied": "Discount has been applied",
