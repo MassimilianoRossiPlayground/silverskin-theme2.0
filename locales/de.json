@@ -264,7 +264,8 @@
         "please_enter_your_shipping_information_notice": "Bitte gib deine Lieferdaten ein.",
         "estimated_delivery_date": {
           "one": "%{count} Werktag",
-          "other": "%{count} Werktage"
+          "other": "%{count} Werktage",
+          "many": "%{count} Werktage"
         },
         "estimated_delivery_date_range": "%{minimum} bis %{maximum} Werktage",
         "shipping_line_phone_label": "Handynummer (erforderlich)",
@@ -272,12 +273,13 @@
         "other_method": {
           "zero": "Keine anderen Methoden verfügbar",
           "one": "%{count} andere Methode verfügbar",
-          "other": "%{count} andere Methoden verfügbar ab"
+          "other": "%{count} andere Methoden verfügbar ab",
+          "many": "%{count} andere Methoden verfügbar ab"
         },
         "shipping_rate_discounted_amount": "Früher: %{original_amount}. Jetzt: %{amount}",
         "shipping_line_delivery_phone": "Wir werden diese Nummer eventuell verwenden, um dich telefonisch oder per SMS bezüglich deiner Zustellung zu kontaktieren.",
         "optional_shipping_line_delivery_instructions_label": "Zustellungsanweisungen (optional)",
-        "shipping_line_delivery_phone_label": "Handynummer",
+        "shipping_line_delivery_phone_label": "Mobiltelefonnummer",
         "shipping_line_delivery_instructions": "Gib erforderliche Informationen wie Türcodes oder Anweisungen zur Lieferung ein.",
         "local_delivery": "Lokale Lieferung",
         "subscription_shipping": "Abonnement-Versandkosten",
@@ -370,8 +372,8 @@
         "card_verification_value_explanation": "Ein dreistelliger Sicherheitscode, der sich in der Regel auf der Rückseite deiner Karte befindet. American Express-Karten haben einen vierstelligen Code auf der Vorderseite.",
         "card_verification_value_explanation_amex": "4-stelliger Sicherheitscode auf der Vorderseite deiner Karte",
         "card_verification_value_explanation_other": "3-stelliger Sicherheitscode auf der Rückseite deiner Karte",
-        "card_start_label": "Ausstellungsdatum (MM \/ JJ)",
-        "card_start_placeholder": "Ausstellungsdatum (MM\/JJ)",
+        "card_start_label": "Ausstellungszeitpunkt (MM \/ JJ)",
+        "card_start_placeholder": "Ausstellungszeitpunkt (MM \/ JJ)",
         "card_issue_number_label": "Kartenummer",
         "card_issue_number_placeholder": "Kartenummer",
         "card_change_label": "Ändern",
