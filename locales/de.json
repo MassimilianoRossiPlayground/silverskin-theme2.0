@@ -1639,7 +1639,7 @@
   "customer_accounts": {
     "navigation_and_structure": {
       "delete_confirmation": {
-        "cancel": "Schließen"
+        "cancel": "Abbrechen"
       },
       "login_prompt": {
         "continue": "Weiter"
@@ -1647,7 +1647,8 @@
     },
     "account_information": {
       "profile_card": {
-        "cancel": "Schließen"
+        "cancel": "Abbrechen",
+        "edit": "Ändern"
       }
     },
     "orders": {
@@ -1661,6 +1662,9 @@
         "pagination": {
           "next": "Nächste",
           "previous": "Vorherige"
+        },
+        "carousel": {
+          "previous": "Zurück"
         }
       },
       "order_status": {
