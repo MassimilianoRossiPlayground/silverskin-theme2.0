@@ -1025,6 +1025,11 @@
             "many": "Diese Artikel werden aus deinem Warenkorb entfernt, da für deine Adresse keine Zustellmethoden verfügbar sind."
           }
         }
+      },
+      "local_pickup": {
+        "location_information": {
+          "many": "Es sind %{count} Shops mit verfügbarem Lagerbestand in der Nähe von %{address}"
+        }
       }
     },
     "pagination": {
