@@ -1698,6 +1698,18 @@
         },
         "gift_card_resend_text": {
           "many": "Resend texts"
+        },
+        "gift_card_resend_description_text": {
+          "many": "If they weren't received, resend the texts or"
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "many": "Each gift card will be sent in a separate text."
+        },
+        "gift_resend_success": {
+          "many": "Gift cards resent"
+        },
+        "gift_resend_failure": {
+          "many": "There was a problem resending your gift cards. Try again or contact us."
         }
       },
       "order_list": {
@@ -1710,6 +1722,9 @@
         "carousel": {
           "previous": "Back"
         }
+      },
+      "if_not_received": {
+        "many": "If they weren't received,"
       }
     },
     "B2B": {
