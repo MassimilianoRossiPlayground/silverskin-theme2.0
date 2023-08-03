@@ -248,6 +248,12 @@
           "merchandise_quantity_label": {
             "many": "%{count} Artikel"
           }
+        },
+        "discount_title_stacking": {
+          "many": "Rabatte"
+        },
+        "discount_order_stacking": {
+          "many": "Bestellungsrabatte"
         }
       },
       "shipping": {
