@@ -125,7 +125,7 @@
       "customer_account": {
         "not_user_label": "Nicht %{first_name}?",
         "have_an_account_label": "Hast du bereits ein Konto?",
-        "sign_in_link_label": "Anmelden",
+        "sign_in_link_label": "Logge dich",
         "sign_out_link_label": "Ausloggen",
         "save_my_information_label": "Meine Informationen speichern und nächstes Mal schneller bezahlen"
       },
@@ -143,7 +143,15 @@
         "reduced_with_quantity_label": "Nur %{quantity_available} verfügbar",
         "remove_from_cart_button_label": "Aus dem Einkaufswagen entfernen",
         "continue_shopping_button_label": "Weiter",
-        "go_back_to_cart_button_label": "Zurück zu meinem Einkaufswagen"
+        "go_back_to_cart_button_label": "Zurück zu meinem Einkaufswagen",
+        "unshippable_product": {
+          "header": {
+            "many": "Für %{count} Artikel ist keine Zustellung verfügbar"
+          },
+          "message": {
+            "many": "Diese Artikel werden aus deinem Warenkorb entfernt, da für deine Adresse keine Zustellmethoden verfügbar sind."
+          }
+        }
       },
       "order_summary": {
         "title": "Zusammenfassung deiner Bestellung",
@@ -152,7 +160,7 @@
         "discount_title": "Rabatt",
         "discount_label": "Rabattcode",
         "discount_placeholder": "Rabattcode",
-        "gift_card_title": "Geschenkkarte",
+        "gift_card_title": "Geschenkgutschein",
         "gift_card_label": "Geschenkkarte",
         "gift_card_placeholder": "Geschenkkarte",
         "gift_card_and_discount_title": "Geschenkkarte oder Rabattcode",
