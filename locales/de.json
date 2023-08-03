@@ -1669,7 +1669,16 @@
       },
       "order_status": {
         "delivered_label": "Geliefert",
-        "attempted_delivery_label": "Lieferversuch"
+        "attempted_delivery_label": "Lieferversuch",
+        "confirmed_gift_card_additional_description": {
+          "many": "Jeder Geschenkgutschein wird in einer separaten E-Mail versendet."
+        },
+        "delivered_description_gift_card_text": {
+          "many": "Geschenkgutscheine wurden per SMS gesendet."
+        },
+        "gift_card_resend_text": {
+          "many": "SMS-Nachrichten erneut senden"
+        }
       }
     },
     "order_details": {
