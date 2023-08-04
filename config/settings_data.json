@@ -1044,15 +1044,16 @@
           "295f0f1f-046d-41bc-af22-95d89657d2d3": {
             "type": "cards",
             "settings": {
-              "card_image": "shopify:\/\/shop_images\/silverskin-snow-overlay-socks-02-wmn-mob_2x_2342f117-3658-4ba4-9098-d0ccef285087.jpg",
-              "card_title": "Section 2",
-              "card_subtitle": "Lurem ipsum..Lurem ipsum..Lurem ipsum..Lurem ipsum..Lurem ipsum..",
-              "card_link": "#",
-              "card_cta": "VIEW ARTICLE"
+              "card_image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-30_2-min.jpg",
+              "card_title": "EXPLORING THE UNSEEN",
+              "card_subtitle": "Consigli su tracciati e percorsi. Tips and tricks di esperti ed atleti.",
+              "card_link": "\/blogs\/exploring-the-unseen",
+              "card_cta": "Leggi"
             }
           },
           "2f9c4963-2f3b-4d67-8094-7270c6dbabf2": {
             "type": "cards",
+            "disabled": true,
             "settings": {
               "card_image": "shopify:\/\/shop_images\/silverskin-snow-overlay-socks-01-wmn-mob_2x_c5bef4e1-7962-4fc9-bb14-3784b8a39cdf.jpg",
               "card_title": "Section 3",
