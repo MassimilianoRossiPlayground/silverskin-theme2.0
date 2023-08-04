@@ -206,6 +206,12 @@ span.quote-icon img {
     filter: invert(100%);
 }
 
+.template-article h4,
+.template-article h5,
+.template-article h6 {
+    margin-top: 0;
+} 
+
 .template-index .site-header--opening .language-switcher-header svg {
     filter: invert(100%);
 }
