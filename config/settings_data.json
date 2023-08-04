@@ -1034,11 +1034,11 @@
           "59a214e1-826c-4c23-89ee-12132f94d553": {
             "type": "cards",
             "settings": {
-              "card_image": "shopify:\/\/shop_images\/silverskin-snow-overlay-trousers-02-wmn-mob_2x_40f6ff4d-7e78-4e3f-94e3-468c0d399a24.jpg",
-              "card_title": "Section 1",
-              "card_subtitle": "Lurem ipsum..Lurem ipsum..Lurem ipsum..Lurem ipsum..Lurem ipsum..",
-              "card_link": "#",
-              "card_cta": "VIEW ARTICLE"
+              "card_image": "shopify:\/\/shop_images\/1.jpg",
+              "card_title": "UNTOLD STORIES",
+              "card_subtitle": "Storie di atleti, imprese e grandi sogni",
+              "card_link": "\/blogs\/untold-stories",
+              "card_cta": "Leggi"
             }
           },
           "295f0f1f-046d-41bc-af22-95d89657d2d3": {
@@ -1070,7 +1070,7 @@
         "settings": {
           "page_title": "BLOG",
           "page_sub_title": "La pagina di introduzione serve per mostrare i 3 differenti argomenti trattati nel blog",
-          "blog_1_title": "Explore blog 1 articles",
+          "blog_1_title": "UNTOLD STORIES",
           "blog_1": "prova-blog",
           "blog_2_title": "Explore blog 2 articles",
           "blog_2": "",
