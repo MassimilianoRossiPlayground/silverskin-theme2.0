@@ -1,0 +1,106 @@
+<div class="athletes-page">
+
+</div>
+
+{% schema %}
+  {
+    "name": "Athletes Page",
+    "settings": [
+      {
+        "type": "text",
+        "id": "sup_title",
+        "label": "Sup Title"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "right_text",
+        "label": "Right text"
+      },
+      {
+        "type": "text",
+        "id": "sup_title_project",
+        "label": "Sup title Project"
+      },
+      {
+        "type": "text",
+        "id": "title_project",
+        "label": "title Project"
+      },
+      {
+        "type": "text",
+        "id": "title_favourites",
+        "label": "title Favourites"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "card_athlete",
+        "name": "Card Athlete",
+        "settings": [
+          {
+            "type": "text",
+            "id": "name",
+            "label": "Name"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video"
+          },
+          {
+            "type": "url",
+            "id": "Link",
+            "label": "Link"
+          },
+          {
+            "type": "select",
+            "id": "list_tag",
+            "label": "List Tag",
+            "options": [
+              {
+                "value": "trail",
+                "label": "Trail",
+                "group": "Trail"
+              },
+              {
+                "value": "bike",
+                "label": "Bike"
+              },
+              {
+                "value": "snowsport",
+                "label": "Snowsport"
+              },
+              {
+                "value": "running",
+                "label": "Running"
+              },
+              {
+                "value": "mountaineering",
+                "label": "Mountaineering"
+              },
+              {
+                "value": "other",
+                "label": "Other"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Athletes Page"
+      }
+    ]
+  }
+{% endschema %}
