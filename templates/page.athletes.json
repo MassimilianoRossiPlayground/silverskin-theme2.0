@@ -14,7 +14,12 @@
           "settings": {
             "name": "",
             "Link": "",
-            "list_tag": "trail"
+            "tag_trail": false,
+            "tag_bike": false,
+            "tag_snowsport": false,
+            "tag_running": false,
+            "tag_mountaineering": false,
+            "tag_other": false
           }
         }
       },
@@ -22,12 +27,12 @@
         "73ef8ff0-276c-495a-b36e-b7fb2aff4ce1"
       ],
       "settings": {
-        "sup_title": "",
-        "title": "",
-        "right_text": "",
-        "sup_title_project": "",
-        "title_project": "",
-        "title_favourites": ""
+        "sup_title": "Athletes",
+        "title": "Our silverStars",
+        "right_text": "Discover the Power and Grit of Silverskin Athletes",
+        "sup_title_project": "Latest Project",
+        "title_project": "Locker Rook",
+        "title_favourites": "Athletes Favourites"
       }
     }
   },
