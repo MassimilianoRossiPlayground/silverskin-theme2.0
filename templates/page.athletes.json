@@ -5,9 +5,34 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "993317fa-433a-47de-964b-0111d911eb00": {
+      "type": "page-athletes",
+      "blocks": {
+        "73ef8ff0-276c-495a-b36e-b7fb2aff4ce1": {
+          "type": "card_athlete",
+          "settings": {
+            "name": "",
+            "Link": "",
+            "list_tag": "trail"
+          }
+        }
+      },
+      "block_order": [
+        "73ef8ff0-276c-495a-b36e-b7fb2aff4ce1"
+      ],
+      "settings": {
+        "sup_title": "",
+        "title": "",
+        "right_text": "",
+        "sup_title_project": "",
+        "title_project": "",
+        "title_favourites": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "993317fa-433a-47de-964b-0111d911eb00"
   ]
 }
