@@ -1,5 +1,119 @@
 <div class="athletes-page">
 
+  <div class="athletes-page__head">
+    <div class="athletes-page__head__left">
+      <h5>{{ section.setting.sup_title }}</h5>
+      <h1>{{ section.setting.sup_title }}</h1>
+    </div>
+    <div class="athletes-page__head__right">
+      <span>{{ section.setting.right_text }}</span>
+      <a>Scroll to discover</a>
+    </div>
+  </div>
+  
+  <div class="athletes-page__list">
+    <div class="athletes-page__list__filters">
+      
+      <span data-filter="all">All
+        <sup attr-filter-count></sup>
+      </span>
+      
+      <span data-filter="trail">Trail
+        <sup attr-filter-count></sup>
+      </span>
+      
+      <span data-filter="bike">Bike
+        <sup attr-filter-count></sup>
+      </span>
+      
+      <span data-filter="snowsport">Snowsport
+        <sup attr-filter-count></sup>
+      </span>
+      
+      <span data-filter="running">Running
+        <sup attr-filter-count></sup>
+      </span>
+      
+      <span data-filter="mountaineering">Mountaineering
+        <sup attr-filter-count></sup>
+      </span>
+      
+      <span data-filter="other">Other
+        <sup attr-filter-count></sup>
+      </span>
+
+    </div>
+    <div class="athletes-page__list__cards">
+
+      {% for block in section.blocks %}
+        <div class="athlete-card">
+          <div class="athlete-card__media">
+            <img>
+            <video>
+          </div>
+          <div class="athlete-card__content">
+            <div class="athlete-card__content__top">
+              <span>NAME</span>
+              <span>{{ block.settings.name }}</span>
+            </div>
+            <div class="athlete-card__content__bottom">
+              <a href="{{ block.settings.link }}">MORE</a>
+              <div class="athlete-card__content__bottom__tag-list">
+                
+                {% if block.settings.tag_trail %}
+                  <span>Trail</span>
+                {% endif %}
+                {% if block.settings.tag_bike %}
+                  <span>Bike</span>
+                {% endif %}
+                {% if block.settings.tag_snowsport %}
+                  <span>Snowsport</span>
+                {% endif %}
+                {% if block.settings.tag_running %}
+                  <span>Running</span>
+                {% endif %}
+                {% if block.settings.tag_mountaineering %}
+                  <span>Mountaineering</span>
+                {% endif %}
+                {% if block.settings.tag_other %}
+                  <span>Other</span>
+                {% endif %}
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>
+
+  <div class="athletes-page__projects">
+
+      <div class="athletes-page__projects__head">
+        <h5>{{ section.setting.sup_title_project }}</h5>
+        <h2>{{ section.setting.title_project }}</h2>
+      </div>
+
+      <div class="athletes-page__projects__content">
+
+      </div>
+
+  </div>
+
+  <div class="athletes-page__favourites">
+
+    <div class="athletes-page__favourites__head">
+      <h5>{{ section.setting.title_favourites }}</h5>
+      <a href="#">view all</a>
+    </div>
+
+    <div class="athletes-page__favourites__content">
+
+    </div>
+
+  </div>
+
 </div>
 
 {% schema %}
@@ -59,7 +173,7 @@
           },
           {
             "type": "url",
-            "id": "Link",
+            "id": "link",
             "label": "Link"
           },
           {
