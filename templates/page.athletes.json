@@ -12,19 +12,65 @@
         "73ef8ff0-276c-495a-b36e-b7fb2aff4ce1": {
           "type": "card_athlete",
           "settings": {
-            "name": "",
-            "Link": "",
+            "name": "Roberto Rossi",
+            "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
+            "Link": "#",
+            "tag_trail": true,
+            "tag_bike": true,
+            "tag_snowsport": true,
+            "tag_running": true,
+            "tag_mountaineering": false,
+            "tag_other": false
+          }
+        },
+        "85c47e99-219b-41e2-b3a0-31d7465a8332": {
+          "type": "card_athlete",
+          "settings": {
+            "name": "Viviana Verdi",
+            "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
+            "Link": "#",
             "tag_trail": false,
             "tag_bike": false,
             "tag_snowsport": false,
+            "tag_running": true,
+            "tag_mountaineering": true,
+            "tag_other": true
+          }
+        },
+        "b995bf3d-0151-42ca-98a8-f020202eea3c": {
+          "type": "card_athlete",
+          "settings": {
+            "name": "Marcello Bianchi",
+            "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
+            "Link": "#",
+            "tag_trail": false,
+            "tag_bike": false,
+            "tag_snowsport": true,
             "tag_running": false,
+            "tag_mountaineering": true,
+            "tag_other": false
+          }
+        },
+        "74ea7505-9a86-4b73-a423-a3cb2549b911": {
+          "type": "card_athlete",
+          "settings": {
+            "name": "Mario Blu",
+            "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
+            "Link": "#",
+            "tag_trail": true,
+            "tag_bike": false,
+            "tag_snowsport": false,
+            "tag_running": true,
             "tag_mountaineering": false,
             "tag_other": false
           }
         }
       },
       "block_order": [
-        "73ef8ff0-276c-495a-b36e-b7fb2aff4ce1"
+        "73ef8ff0-276c-495a-b36e-b7fb2aff4ce1",
+        "85c47e99-219b-41e2-b3a0-31d7465a8332",
+        "b995bf3d-0151-42ca-98a8-f020202eea3c",
+        "74ea7505-9a86-4b73-a423-a3cb2549b911"
       ],
       "settings": {
         "sup_title": "Athletes",
