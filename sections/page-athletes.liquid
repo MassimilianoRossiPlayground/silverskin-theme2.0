@@ -1,13 +1,15 @@
 <div class="athletes-page">
 
   <div class="athletes-page__head">
-    <div class="athletes-page__head__left">
-      <h5>{{ section.settings.sup_title }}</h5>
-      <h1>{{ section.settings.sup_title }}</h1>
-    </div>
-    <div class="athletes-page__head__right">
-      <span>{{ section.settings.right_text }}</span>
-      <a>Scroll to discover</a>
+    <div class="boxed">
+      <div class="athletes-page__head__left">
+        <h5>{{ section.settings.sup_title }}</h5>
+        <h1>{{ section.settings.title }}</h1>
+      </div>
+      <div class="athletes-page__head__right">
+        <span>{{ section.settings.right_text }}</span>
+        <a>Scroll to discover</a>
+      </div>
     </div>
   </div>
   
@@ -126,12 +128,12 @@
         "label": "Sup Title"
       },
       {
-        "type": "text",
+        "type": "html",
         "id": "title",
         "label": "Title"
       },
       {
-        "type": "text",
+        "type": "html",
         "id": "right_text",
         "label": "Right text"
       },
@@ -216,3 +218,42 @@
     ]
   }
 {% endschema %}
+
+
+{% style %}
+
+  .athletes-page__head {
+    background: #000;
+    color: #fff;
+    padding: 100px 20px;
+  }
+  .athletes-page__head .boxed {
+    margin: 0 auto;
+    max-width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h1 {
+    font-family: "barlow-bold-italic" !important;
+    font-size: 70px;
+    margin-bottom: 0;
+  }
+  h5 {
+    font-family: "barlow" !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+  }
+  .athletes-page__head__left {
+    width: 70%;
+  }
+  .athletes-page__head__right {
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+  }
+
+
+{% endstyle %}
