@@ -14,7 +14,7 @@
           "settings": {
             "name": "Roberto Rossi",
             "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
-            "Link": "#",
+            "link": "",
             "tag_trail": true,
             "tag_bike": true,
             "tag_snowsport": true,
@@ -28,7 +28,7 @@
           "settings": {
             "name": "Viviana Verdi",
             "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
-            "Link": "#",
+            "link": "",
             "tag_trail": false,
             "tag_bike": false,
             "tag_snowsport": false,
@@ -42,7 +42,7 @@
           "settings": {
             "name": "Marcello Bianchi",
             "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
-            "Link": "#",
+            "link": "",
             "tag_trail": false,
             "tag_bike": false,
             "tag_snowsport": true,
@@ -56,7 +56,7 @@
           "settings": {
             "name": "Mario Blu",
             "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
-            "Link": "#",
+            "link": "",
             "tag_trail": true,
             "tag_bike": false,
             "tag_snowsport": false,
@@ -74,7 +74,7 @@
       ],
       "settings": {
         "sup_title": "Athletes",
-        "title": "Our silverStars",
+        "title": "Our silver<br>Stars",
         "right_text": "Discover the Power and Grit of Silverskin Athletes",
         "sup_title_project": "Latest Project",
         "title_project": "Locker Rook",
