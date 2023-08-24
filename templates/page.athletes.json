@@ -12,8 +12,8 @@
         "73ef8ff0-276c-495a-b36e-b7fb2aff4ce1": {
           "type": "card_athlete",
           "settings": {
-            "first_name": "",
-            "last_name": "",
+            "first_name": "Marco",
+            "last_name": "Verdi",
             "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
             "link": "",
             "tag_trail": true,
@@ -27,8 +27,8 @@
         "85c47e99-219b-41e2-b3a0-31d7465a8332": {
           "type": "card_athlete",
           "settings": {
-            "first_name": "",
-            "last_name": "",
+            "first_name": "Massimo",
+            "last_name": "Bianchi",
             "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
             "link": "",
             "tag_trail": false,
