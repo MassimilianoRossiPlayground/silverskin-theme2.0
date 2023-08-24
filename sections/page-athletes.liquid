@@ -56,31 +56,31 @@
 
         -%}
 
-        <span class="selected" data-filter="all">All
+        <span class="js-athlete-filter selected" data-filter="all">All
           <sup attr-filter-count>({{ section.blocks.size }})</sup>
         </span>
         
-        <span data-filter="trail">Trail
+        <span class="js-athlete-filter" data-filter="trail">Trail
           <sup attr-filter-count>({{tag_trail_count}})</sup>
         </span>
         
-        <span data-filter="bike">Bike
+        <span class="js-athlete-filter" data-filter="bike">Bike
           <sup attr-filter-count>({{tag_bike_count}})</sup>
         </span>
         
-        <span data-filter="snowsport">Snowsport
+        <span class="js-athlete-filter" data-filter="snowsport">Snowsport
           <sup attr-filter-count>({{tag_snowsport_count}})</sup>
         </span>
         
-        <span data-filter="running">Running
+        <span class="js-athlete-filter" data-filter="running">Running
           <sup attr-filter-count>({{tag_running_count}})</sup>
         </span>
         
-        <span data-filter="mountaineering">Mountaineering
+        <span class="js-athlete-filter" data-filter="mountaineering">Mountaineering
           <sup attr-filter-count>({{tag_mountaineering_count}})</sup>
         </span>
         
-        <span data-filter="other">Other
+        <span class="js-athlete-filter" data-filter="other">Other
           <sup attr-filter-count>({{tag_other_count}})</sup>
         </span>
 
@@ -89,7 +89,31 @@
     <div class="athletes-page__list__cards">
 
       {% for block in section.blocks %}
-        <div class="athlete-card">
+
+        {%-liquid 
+            assign list_tags = ""
+          
+            if block.settings.tag_trail
+              assign list_tags = list_tags | append: "trail|"
+            endif
+            if block.settings.tag_bike
+              assign list_tags = list_tags | append: "bike|"
+            endif
+            if block.settings.tag_snowsport
+              assign list_tags = list_tags | append: "snowsport|"
+            endif
+            if block.settings.tag_running
+              assign list_tags = list_tags | append: "running|"
+            endif
+            if block.settings.tag_mountaineering
+              assign list_tags = list_tags | append: "mountaineering|"
+            endif
+            if block.settings.tag_other
+              assign list_tags = list_tags | append: "other|"
+            endif
+          -%}
+
+        <div class="athlete-card js-athlete-card" data-tags="{{list_tags}}">
           <div class="athlete-card__media">
             {% if block.settings.video %}
               {% assign video = section.settings.video | video_tag: image_size: 'master', autoplay: true,  loop: true, muted: true, controls: false %}
@@ -100,9 +124,9 @@
           </div>
           <div class="athlete-card__content">
             <div class="athlete-card__content__top">
-              <span>NAME</span>
+              <span class="athlete-card__content__top__sup">NAME</span>
               <br/>
-              <h6><span class="athlete-first-name">{{ block.settings.first_name }}</span> <span class="athlete-first-name">{{ block.settings.last_name }}</span></h6>
+              <h6><span class="athlete-first-name">{{ block.settings.first_name }}</span> <span class="athlete-last-name">{{ block.settings.last_name }}</span></h6>
             </div>
             <div class="athlete-card__content__bottom">
               <a href="{{ block.settings.link }}">MORE</a>
@@ -139,8 +163,8 @@
   <div class="athletes-page__projects">
 
       <div class="athletes-page__projects__head">
-        <h5>{{ section.setting.sup_title_project }}</h5>
-        <h2>{{ section.setting.title_project }}</h2>
+        <h5>{{ section.settings.sup_title_project }}</h5>
+        <h2>{{ section.settings.title_project }}</h2>
       </div>
 
       <div class="athletes-page__projects__content">
@@ -152,7 +176,7 @@
   <div class="athletes-page__favourites">
 
     <div class="athletes-page__favourites__head">
-      <h5>{{ section.setting.title_favourites }}</h5>
+      <h5>{{ section.settings.title_favourites }}</h5>
       <a href="#">view all</a>
     </div>
 
@@ -186,12 +210,22 @@
       {
         "type": "text",
         "id": "sup_title_project",
-        "label": "Sup title Project"
+        "label": "Sup Title Project"
       },
       {
         "type": "text",
         "id": "title_project",
-        "label": "title Project"
+        "label": "Title Project"
+      },
+      {
+        "type": "article",
+        "id": "article_1",
+        "label": "Article 1"
+      },
+      {
+        "type": "article",
+        "id": "article_2",
+        "label": "Article 2"
       },
       {
         "type": "text",
@@ -286,7 +320,7 @@
   }
   .athletes-page__head .boxed {
     margin: 0 auto;
-    max-width: 1600px;
+    max-width: 1260px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -324,6 +358,8 @@
     scroll-behavior: smooth;
     display: flex;
     justify-content: end;
+    max-width: 1420px;
+    margin: 0 auto 120px auto;
   }
   .athletes-page__list {
     color: #fff;
@@ -335,13 +371,16 @@
     text-transform: uppercase;
     color: #757382;
   }
+  .athletes-page__list__filters span {
+    cursor: pointer;
+  }
   .athletes-page__list__filters span.selected {
     color: #fff;
   }
   .athletes-page__list__filters {
     position: absolute;
     width: 100%;
-    max-width: 1600px;
+    max-width: 1260px;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -353,10 +392,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-right: 20px;
   }
   .athlete-card {
-    width: calc(50% - 20px);
+    width: calc(50% - 15px);
     position: relative;
+    margin-bottom: 30px;
+  }
+  .athlete-card.hide {
+    display: none;
   }
   .athlete-card__content {
     position: absolute;
@@ -366,17 +410,109 @@
     width: 100%;
     padding: 30px 20px;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .athlete-card__content a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    letter-spacing: 1px;
   }
   .athlete-card__content__top {
     text-transform: uppercase;
   }
-  .athlete-card__content__top span {
-    opacity: 0.5;
+  .athlete-card__content__top__sup {
+    opacity: 0.4;
   }
-  .athlete-first-name {
-    font-weight: 500;
+  .athlete-last-name {
+    /* font-family: 'barlow-semibold'; */
+    opacity: 0.7;
   }
   .athlete-card__content__top h6 {
-    font-family: 'Barlow';
+    font-size: 16px;
+    letter-spacing: normal;
   }
+  .athlete-card__content__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .athlete-card__content__bottom__tag-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-transform: uppercase;
+  }
+  .athlete-card__media, 
+  .athlete-card__media img {
+    display: block;
+    height: 100%;
+  }
+  .athletes-page__projects {
+    background: #fff;
+    padding: 240px 0 120px 0;
+  }
+  .athletes-page__projects__head {
+    text-align: center;
+    margin-bottom: 120px;
+}
+.athletes-page__projects__head h2 {
+    font-size: 120px;
+}
+
+
 {% endstyle %}
+
+{% javascript %}
+
+(function() {
+
+    let selectors = {
+      athleteFilters: '.js-athlete-filter',
+      athleteCards: '.js-athlete-card',
+
+    };
+
+    let athleteFilters = document.querySelectorAll(selectors.athleteFilters);
+    let athleteCards = document.querySelectorAll(selectors.athleteCards);
+
+    athleteFilters.forEach(athleteFilter => {
+      
+      athleteFilter.addEventListener("click", function(){
+        if (!athleteFilter.classList.contains("selected")) {
+          let athleteFilter__type = athleteFilter.getAttribute("data-filter")
+
+          athleteFilters.forEach(athleteFilter_clean => {
+            athleteFilter_clean.classList.remove("selected")
+          })
+          athleteFilter.classList.add("selected")
+
+          console.log(athleteFilter__type)
+
+          athleteCards.forEach(athleteCard => {
+            if (athleteFilter__type == "all") {
+              athleteCard.classList.remove("hide")
+            } else {
+              let athleteCard__tags = athleteCard.getAttribute("data-tags")
+              if (athleteCard__tags.includes(athleteFilter__type)) {
+                athleteCard.classList.remove("hide")
+              } else {
+                athleteCard.classList.add("hide")
+              }
+            }
+          })
+
+        }
+      })
+    });
+    
+
+
+  
+})();
+  
+
+{% endjavascript %}
+
