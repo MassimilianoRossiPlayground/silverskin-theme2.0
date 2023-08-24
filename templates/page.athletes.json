@@ -12,6 +12,8 @@
         "73ef8ff0-276c-495a-b36e-b7fb2aff4ce1": {
           "type": "card_athlete",
           "settings": {
+            "first_name": "",
+            "last_name": "",
             "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
             "link": "",
             "tag_trail": true,
@@ -25,6 +27,8 @@
         "85c47e99-219b-41e2-b3a0-31d7465a8332": {
           "type": "card_athlete",
           "settings": {
+            "first_name": "",
+            "last_name": "",
             "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
             "link": "",
             "tag_trail": false,
@@ -38,6 +42,8 @@
         "b995bf3d-0151-42ca-98a8-f020202eea3c": {
           "type": "card_athlete",
           "settings": {
+            "first_name": "Luca",
+            "last_name": "Bho",
             "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
             "link": "",
             "tag_trail": false,
@@ -51,6 +57,8 @@
         "74ea7505-9a86-4b73-a423-a3cb2549b911": {
           "type": "card_athlete",
           "settings": {
+            "first_name": "Nome",
+            "last_name": "Cognome",
             "image": "shopify:\/\/shop_images\/Camilla_Pizzini_Ph-37_1.jpg",
             "link": "",
             "tag_trail": true,
