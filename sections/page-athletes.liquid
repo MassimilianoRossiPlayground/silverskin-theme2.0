@@ -403,18 +403,19 @@ html {
     color: #fff;
   }
   .athletes-page__list__filters {
-    width: 33%;
+    width: calc(100% / 3);
     top: 0;
     padding: 0 20px;
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
     color: #757382;
-    position: sticky;
-    top: 0;
+    position: sticky;    
+    top: 150px;    
+    align-self: self-start;
   }
   .athletes-page__list__cards {
-    width: 66%;
+    width: calc(100% / 3 * 2);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
