@@ -121,7 +121,8 @@
         "1f45ba71-107e-4ba1-9554-f2e535a9d453"
       ],
       "settings": {
-        "title": "ATHLETES FAVOURITES"
+        "title": "ATHLETES FAVOURITES",
+        "link_view_all": "shopify:\/\/collections\/stay-fresh-collection"
       }
     }
   },
