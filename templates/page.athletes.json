@@ -92,12 +92,33 @@
         "template--20544038338873__cea59144-5276-48e0-a805-b6fb93c59752-cards-1": {
           "type": "cards",
           "settings": {
-            "product": ""
+            "product": "stay-fresh-canotta-termica-anthracite"
+          }
+        },
+        "8755f33c-95e7-423a-b25e-22862b98072e": {
+          "type": "cards",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-corta-grigio-perla"
+          }
+        },
+        "cb5fff31-0819-4ecb-badc-ad89f4f42724": {
+          "type": "cards",
+          "settings": {
+            "product": "stay-fresh-canotta-ciclismo-anthracite-1"
+          }
+        },
+        "1f45ba71-107e-4ba1-9554-f2e535a9d453": {
+          "type": "cards",
+          "settings": {
+            "product": "copia-del-stay-fresh-canotta-termica-pearlgrey"
           }
         }
       },
       "block_order": [
-        "template--20544038338873__cea59144-5276-48e0-a805-b6fb93c59752-cards-1"
+        "template--20544038338873__cea59144-5276-48e0-a805-b6fb93c59752-cards-1",
+        "8755f33c-95e7-423a-b25e-22862b98072e",
+        "cb5fff31-0819-4ecb-badc-ad89f4f42724",
+        "1f45ba71-107e-4ba1-9554-f2e535a9d453"
       ],
       "settings": {
         "title": "ATHLETES FAVOURITES"
