@@ -169,48 +169,52 @@
       <div class="athletes-page__projects__content">
 
         <div class="athletes-articles">
+
           <div class="athletes-articles__single">
-            <img src="" alt="">
+            <img src="{{ section.settings.article_1.image | img_url: 'master' }}" alt="{{ section.settings.article_1.title | strip_html }}">
             <div class="athletes-articles__single__content">
               <div class="athletes-articles__single__content__left">
-                <h6></h6>
-                <h5></h5>
+
+                {%-liquid
+                  assign artilce_1_blog_handle = section.settings.article_1.handle | split: "/" | first
+                  assign artilce_1_blog_name = blogs[artilce_1_blog_handle].title
+                -%}
+
+                <h6>{{ artilce_1_blog_name }}</h6>
+                <h5>{{ section.settings.article_1.title }}</h5>
               </div>
               <div class="athletes-articles__single__content__right">
-                <a href="">READ THE STORY</a>
+                <a href="{{ section.settings.article_1.url }}">READ THE STORY</a>
               </div>
             </div>
           </div>
+
           <div class="athletes-articles__single">
-            <img src="" alt="">
+            <img src="{{ section.settings.article_2.image | img_url: 'master' }}" alt="{{ section.settings.article_2.title | strip_html }}">
             <div class="athletes-articles__single__content">
               <div class="athletes-articles__single__content__left">
-                <h6></h6>
-                <h5></h5>
+
+                {%-liquid
+                  assign artilce_2_blog_handle = section.settings.article_2.handle | split: "/" | first
+                  assign artilce_2_blog_name = blogs[artilce_2_blog_handle].title
+                -%}
+
+                <h6>{{ artilce_2_blog_name }}</h6>
+                <h5>{{ section.settings.article_2.title }}</h5>
               </div>
               <div class="athletes-articles__single__content__right">
-                <a href="">READ THE STORY</a>
+                <a href="{{ section.settings.article_2.url }}">READ THE STORY</a>
               </div>
             </div>
           </div>
+
         </div>
 
-        <a href="">VIEW ALL</a>
+        <div class="btn-view-all">
+          <a href="/blogs/news">VIEW ALL</a>
+        </div>
 
       </div>
-
-  </div>
-
-  <div class="athletes-page__favourites">
-
-    <div class="athletes-page__favourites__head">
-      <h5>{{ section.settings.title_favourites }}</h5>
-      <a href="#">view all</a>
-    </div>
-
-    <div class="athletes-page__favourites__content">
-
-    </div>
 
   </div>
 
@@ -254,11 +258,6 @@
         "type": "article",
         "id": "article_2",
         "label": "Article 2"
-      },
-      {
-        "type": "text",
-        "id": "title_favourites",
-        "label": "title Favourites"
       }
     ],
     "blocks": [
@@ -492,6 +491,52 @@ html {
     max-width: 1420px;
     margin: 0 auto;
 }
+.athletes-articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1420px;
+    margin: 0 auto;
+}
+.athletes-articles__single {
+  width: calc(50% - 10px);
+}
+.athletes-articles__single img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.athletes-articles__single__content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: end;
+}
+.athletes-articles__single__content__left h6,
+.athletes-articles__single__content__left h5 {
+  letter-spacing: normal;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.athletes-articles__single__content__left h6 {
+  opacity: 0.5;
+  font-family: 'barlow-light'!important;
+}
+.athletes-articles__single__content__right {
+    text-align: right;
+}
+.athletes-articles__single__content__right a {
+  text-decoration: underline;
+  font-family: 'barlow-semibold';
+}
+.btn-view-all {
+  text-align: center;
+  margin: 100px 0;
+}
+.btn-view-all a {
+  color: #000;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+}
 
 
 {% endstyle %}
@@ -538,8 +583,6 @@ html {
         }
       })
     });
-    
-
 
   
 })();

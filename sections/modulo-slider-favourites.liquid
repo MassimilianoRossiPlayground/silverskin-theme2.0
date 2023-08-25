@@ -1,0 +1,130 @@
+<div class="slider-favourites">
+
+  <div class="slider-favourites__head">
+    <h5>{{ section.settings.title }}</h5>
+    <a href="#">view all</a>
+  </div>
+
+  <div class="slider-favourites__content">
+
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide">
+            <div class="favourite-card">
+              <img src=""alt="">
+              <div class="favourite-card__content">
+                <div class="favourite-card__content__left">
+                  <h6>Stay Fresh</h6>
+                  </h5>Title</h5>
+                </div>
+                <div class="favourite-card__content__right">
+                  <span class="favourite-card-price">89,90€</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+{% schema %}
+  {
+    "name": "Slider Favourites",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "cards",
+        "name": "Cards",
+        "settings": [
+            {
+              "type": "product",
+              "id": "product",
+              "label": "Product"
+            }
+        ]
+      }
+    ],
+    "presets": [
+        {
+            "name": "Slider Favourites",
+            "blocks": [
+              {
+              "type": "cards"
+              }
+          ]
+        }
+    ]
+  }
+{% endschema %}
+
+
+{% style %}
+
+.slider-favourites {
+    background-color: #fff;
+}
+.slider-favourites__head {
+    max-width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.slider-favourites__head h5 {
+  font-family: "barlow-semibold-italic" !important;
+  font-size: 48px;
+  letter-spacing: normal;
+  margin-bottom: 0;
+  line-height: 1;
+}
+.slider-favourites__head a {
+  color: #000;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  align-items: flex-end;
+}
+
+{% endstyle %}
+
+{% javascript %}
+
+(function() {
+
+    let selectors = {
+      swiperFavourites: '.slider-favourites__content .swiper',
+
+    };
+    
+
+    const sliderFavourites = new Swiper(swiperFavourites, {
+        slidesPerView: 4.7,
+        spaceBetween: 30,
+        breakpoints: {
+            310: {
+              slidesPerView: 1.3,
+              spaceBetween: 10,
+            },
+            1024: {
+              slidesPerView: 4.7,
+              spaceBetween: 30,
+            }
+        }
+    }) 
+
+
+  
+})();
+
+{% endjavascript %}
