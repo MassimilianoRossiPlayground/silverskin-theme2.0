@@ -83,13 +83,30 @@
         "sup_title_project": "Latest Project",
         "title_project": "Locker Rook",
         "article_1": "news\/maglie-termiche-perfette",
-        "article_2": "news\/la-montagna-di-silverskin",
-        "title_favourites": "Athletes Favourites"
+        "article_2": "news\/la-montagna-di-silverskin"
+      }
+    },
+    "cea59144-5276-48e0-a805-b6fb93c59752": {
+      "type": "modulo-slider-favourites",
+      "blocks": {
+        "template--20544038338873__cea59144-5276-48e0-a805-b6fb93c59752-cards-1": {
+          "type": "cards",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20544038338873__cea59144-5276-48e0-a805-b6fb93c59752-cards-1"
+      ],
+      "settings": {
+        "title": "ATHLETES FAVOURITES"
       }
     }
   },
   "order": [
     "main",
-    "993317fa-433a-47de-964b-0111d911eb00"
+    "993317fa-433a-47de-964b-0111d911eb00",
+    "cea59144-5276-48e0-a805-b6fb93c59752"
   ]
 }
