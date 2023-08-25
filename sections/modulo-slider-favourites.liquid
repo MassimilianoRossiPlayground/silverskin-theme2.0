@@ -2,7 +2,7 @@
 
   <div class="slider-favourites__head">
     <h5>{{ section.settings.title }}</h5>
-    <a href="#">view all</a>
+    <a href="{{ section.settings.link_view_all }}">view all</a>
   </div>
 
   <div class="slider-favourites__content">
@@ -12,11 +12,11 @@
         {% for block in section.blocks %}
           <div class="swiper-slide">
             <div class="favourite-card">
-              <img src=""alt="">
+              <img src="{{ block.product.image | img_url: 'master' }}" alt="{{ block.product.title | strip_html }}">
               <div class="favourite-card__content">
                 <div class="favourite-card__content__left">
                   <h6>Stay Fresh</h6>
-                  </h5>Title</h5>
+                  </h5>{{ block.product.title }}</h5>
                 </div>
                 <div class="favourite-card__content__right">
                   <span class="favourite-card-price">89,90€</span>
@@ -40,6 +40,11 @@
         "type": "text",
         "id": "title",
         "label": "Title"
+      },
+      {
+        "type": "url",
+        "id": "link_view_all",
+        "label": "Link view all"
       }
     ],
     "blocks": [
