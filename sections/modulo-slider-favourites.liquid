@@ -12,11 +12,11 @@
         {% for block in section.blocks %}
           <div class="swiper-slide">
             <div class="favourite-card">
-              <img src="{{ block.product.image | img_url: 'master' }}" alt="{{ block.product.title | strip_html }}">
+              <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.title | strip_html }}">
               <div class="favourite-card__content">
                 <div class="favourite-card__content__left">
                   <h6>Stay Fresh</h6>
-                  </h5>{{ block.product.title }}</h5>
+                  </h5>{{ block.settings.title }}</h5>
                 </div>
                 <div class="favourite-card__content__right">
                   <span class="favourite-card-price">89,90€</span>
