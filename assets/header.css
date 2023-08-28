@@ -41,3 +41,9 @@ html[lang="en"] li.site-nav__item[data-link="journal"],
 html[lang="de"] li.site-nav__item[data-link="journal"] {
     display: none;
 }
+.template-page--journal .language-switcher-header,
+.template-article .language-switcher-header,
+.template-blog .language-switcher-header {
+    visibility: hidden;
+    opacity: 0;
+}
