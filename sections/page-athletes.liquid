@@ -576,13 +576,59 @@ html {
     margin-bottom: 30px;
   }
   .athletes-articles__single__content__left h6,
-  .athletes-articles__single__content__left h5 {
-    text-align: left;
+  .athletes-articles__single__content__left h5,
+  .slider-favourites__head h5 {
+    text-align: left !important;
+    letter-spacing: normal !important;
+    line-height: 1 !important;
   }
-
-
+  .athletes-page__projects__head h2 {
+    font-size: 48px;
+}
+.athletes-page__projects__head {
+    margin-bottom: 40px;
+}
+.btn-view-all {
+    text-align: center;
+    margin: 40px 0;
+}
+.athletes-page__list__filters,
+.athletes-page__list__cards {
+  width: 100%;
+  position: relative;
+  top: unset;
+}
+#athlete-list {
+    flex-wrap: wrap;
+}
+.athletes-page__list__filters {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+.athletes-page__list__filters span {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.athletes-page__list__cards {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    margin-right: unset;
+    flex-wrap: nowrap;
+}
+.athlete-card.js-athlete-card {
+  min-width: 90vw;
+    width: 100%;
+    margin-right: 10px;
 }
 
+}
 {% endstyle %}
 
 {% javascript %}
