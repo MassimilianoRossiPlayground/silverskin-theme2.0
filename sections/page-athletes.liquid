@@ -12,7 +12,7 @@
         <h1>{{ section.settings.title }}</h1>
       </div>
       <div class="athletes-page__head__right">
-        <div>{{ section.settings.right_text }}</div>
+        <div class="athletes-page__head__right__text">{{ section.settings.right_text }}</div>
         <a href="#athlete-list-anchor" class="scroll-down" attr-scroll>Scroll to discover</a>
         <span id="athlete-list-anchor" ></span>
       </div>
@@ -478,7 +478,7 @@ html {
   }
   .athletes-page__projects {
     background: #fff;
-    padding: 240px 0 120px 0;
+    padding: 240px 20px 120px 20px;
   }
   .athletes-page__projects__head {
     text-align: center;
@@ -538,6 +538,42 @@ html {
   letter-spacing: 1px;
 }
 
+@media screen and (max-width: 768px) {
+  .athletes-page__head h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+  .athletes-page__head h5 {
+    margin-bottom: 30px;
+  }
+  .athletes-page__head__left,
+  .athletes-page__head__right {
+    width: 100%;
+  }
+  .athletes-page__head__right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .athletes-page__head__right__text {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .athletes-page__head__right__text br {
+    display: none;
+  }
+  .athletes-page__head {
+    padding: 130px 20px 0 20px;
+    height: 90vh;
+  }
+  .athletes-page__head .boxed {
+    height: 100%;
+  }
+
+
+}
 
 {% endstyle %}
 

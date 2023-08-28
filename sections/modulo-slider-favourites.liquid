@@ -12,14 +12,14 @@
         {% for block in section.blocks %}
           <div class="swiper-slide">
             <div class="favourite-card">
-              <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.title | strip_html }}">
+              <img src="{{ block.settings.product.featured_media | img_url: 'master' }}" alt="{{ block.settings.title | strip_html }}">
               <div class="favourite-card__content">
                 <div class="favourite-card__content__left">
                   <h6>Stay Fresh</h6>
-                  </h5>{{ block.settings.title }}</h5>
+                  </h5>{{ block.settings.product.title }}</h5>
                 </div>
                 <div class="favourite-card__content__right">
-                  <span class="favourite-card-price">89,90€</span>
+                  <span class="favourite-card-price">{{ block.settings.product.price | money }}</span>
                 </div>
               </div>
             </div>
@@ -27,9 +27,9 @@
         {% endfor %}
       </div>
     </div>
-
+    <div class="swiper-scrollbar"></div>
   </div>
-
+  <div class="line-scrollbar"></div>
 </div>
 
 {% schema %}
@@ -78,10 +78,11 @@
 
 .slider-favourites {
     background-color: #fff;
+    padding: 0 20px 200px 20px;
 }
 .slider-favourites__head {
     max-width: 1420px;
-    margin: 0 auto;
+    margin: 0 auto 60px auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -100,7 +101,19 @@
   letter-spacing: 1px;
   align-items: flex-end;
 }
-
+.slider-favourites__content .swiper-scrollbar {
+  margin-top: 60px;
+  background: transparent;
+}
+.slider-favourites__content .swiper-scrollbar .swiper-scrollbar-drag {
+    height: 3px;
+}
+.line-scrollbar {
+    width: 100%;
+    height: 1px;
+    background: #757382;
+    margin-top: -2px;
+}
 {% endstyle %}
 
 {% javascript %}
@@ -108,25 +121,47 @@
 (function() {
 
     let selectors = {
-      swiperFavourites: '.slider-favourites__content .swiper',
-
+      favouritesContainer: '.slider-favourites__content',
+      swiperFavourites: '.slider-favourites__content .swiper-container',
+      favouritesTitle: '.slider-favourites__head h5',
     };
     
+    let favouritesContainer = document.querySelector(selectors.favouritesContainer);
+    let swiperFavourites = document.querySelector(selectors.swiperFavourites);
+    let favouritesTitle = document.querySelector(selectors.favouritesTitle);
 
-    const sliderFavourites = new Swiper(swiperFavourites, {
-        slidesPerView: 4.7,
-        spaceBetween: 30,
-        breakpoints: {
-            310: {
-              slidesPerView: 1.3,
-              spaceBetween: 10,
-            },
-            1024: {
-              slidesPerView: 4.7,
-              spaceBetween: 30,
-            }
-        }
-    }) 
+    function positionFavouritesContainer() {
+      let favouritesTitle__left = favouritesTitle.offsetLeft
+      favouritesContainer.style.marginLeft = favouritesTitle__left + "px";
+    }
+
+    window.addEventListener('resize', function() {
+      positionFavouritesContainer()
+    })
+
+    window.addEventListener('load', function() {
+
+      positionFavouritesContainer()
+
+      const sliderFavourites = new Swiper(swiperFavourites, {
+          slidesPerView: 3.7,
+          spaceBetween: 30,
+          breakpoints: {
+              310: {
+                slidesPerView: 1.1,
+                spaceBetween: 10,
+              },
+              1024: {
+                slidesPerView: 3.7,
+                spaceBetween: 30,
+              }
+          },
+          scrollbar: {
+            el: ".slider-favourites__content .swiper-scrollbar",
+            hide: false,
+          },
+      }) 
+    })
 
 
   
