@@ -36,3 +36,8 @@ li.disclosure__item a {
     transform: rotate(180deg);
     transition-duration: 0.2s;
 }
+
+html[lang="en"] .li.site-nav__item[data-link="journal"],
+html[lang="de"] .li.site-nav__item[data-link="journal"] {
+    display: none;
+}
