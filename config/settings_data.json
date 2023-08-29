@@ -449,6 +449,7 @@
               "link_text_2": "Acquista Donna",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/UTMB-Training-Camp.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -739,6 +740,7 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
+              "image": "shopify:\/\/shop_images\/08-Homepage-Banner-Collezione-Stay-Fresh.jpg",
               "video_url": "",
               "width": "100",
               "height": 480,
@@ -762,6 +764,7 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna",
+              "image": "shopify:\/\/shop_images\/hp-banner-warm-desk_f479220a-cf5a-4dca-be01-b5dec608a761.jpg",
               "video_url": "",
               "width": "50",
               "height": 500,
@@ -1215,6 +1218,7 @@
               "cta_text2": "",
               "cta_text2_color": "",
               "cta_link2": "",
+              "image": "shopify:\/\/shop_images\/06-Homepage-Banner-I-nostri-layer-in-azione.jpg",
               "video_url": "",
               "width": "100",
               "height": 800,
@@ -1249,7 +1253,8 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology"
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/Pelle_sempre_asciutta_8b3e96a1-5fab-4d31-97ed-9aad722e9dbf.jpg"
             }
           },
           "ea2eb875-5bf3-4252-b3c7-041aa58abf8e": {
@@ -1260,7 +1265,8 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology"
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/05-Homepage-Power-is-Precious-Traspirabilita.jpg"
             }
           },
           "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0": {
@@ -1271,7 +1277,8 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology"
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/03-Homepage-Power-is-Precious-Termoregolazione.jpg"
             }
           }
         },
