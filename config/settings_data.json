@@ -423,16 +423,16 @@
             "disabled": true,
             "settings": {
               "top_subheading": "",
-              "title": "MONTAGNA, MAESTRA DI VITA <br>ESPLORA LA SUA DIMENSIONE PIÙ INTIMA CON I NOSTRI BASE LAYER",
+              "title": "Il nuovo <br>Base Layer per <br>l'alta intensità",
               "title_size": 70,
               "subheading": "",
-              "link": "shopify:\/\/pages\/spring-summer-2023",
-              "link_text": "Scopri la collezione",
+              "link": "shopify:\/\/collections\/uomo",
+              "link_text": "Scopri PRIMO",
               "link_2": "",
               "link_text_2": "",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/foto-montagna-HP-BN.jpg",
+              "image": "shopify:\/\/shop_images\/01-Homepage-Hero-Banner-PRIMO.jpg",
               "focal_point": "80% 50%"
             }
           },
