@@ -182,7 +182,7 @@
 </head>
 
 
-<body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}--{{ handle }} {%- if settings.enable_currencies -%} currencies-enabled{%- endif -%}" data-transitions="false">
+<body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}--{{ handle }} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}--{{ template.suffix }} {%- if settings.enable_currencies -%} currencies-enabled{%- endif -%}" data-transitions="false">
 
 {% if settings.script_after_body_open != blank %}
   {{ settings.script_after_body_open }}
