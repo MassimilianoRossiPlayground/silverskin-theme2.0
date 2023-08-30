@@ -4,9 +4,16 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "c7fa9333-374b-4e5d-b442-8fc30697fb98": {
+      "type": "page-athlete",
+      "settings": {
+        "sup_title": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "c7fa9333-374b-4e5d-b442-8fc30697fb98"
   ]
 }
