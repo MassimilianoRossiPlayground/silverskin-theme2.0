@@ -20,19 +20,22 @@
             <div class="athlete-table__title">ACTIVITY</div>
             <div class="athlete-table__value">
                   {% if section.settings.tag_trail %}
-                    <span>{{ section.settings.tag_trail }}</span>
+                    <span>Trail</span>
+                  {% endif %}
+                  {% if section.settings.tag_bike %}
+                    <span>Bike</span>
                   {% endif %}
                   {% if section.settings.tag_snowsport %}
-                    <span>{{ section.settings.tag_snowsport }}</span>
+                    <span>Snowsport</span>
                   {% endif %}
                   {% if section.settings.tag_running %}
-                    <span>{{ section.settings.tag_running }}</span>
+                    <span>Running</span>
                   {% endif %}
                   {% if section.settings.tag_mountaineering %}
-                    <span>{{ section.settings.tag_mountaineering }}</span>
+                    <span>Mountaineering</span>
                   {% endif %}
                   {% if section.settings.tag_other %}
-                    <span>{{ section.settings.tag_other }}</span>
+                    <span>Other</span>
                   {% endif %}
             </div>
           </div>
@@ -148,6 +151,7 @@ html {
     font-family: "barlow-italic" !important;
     font-size: 48px;
     margin-bottom: 0;
+    margin-bottom: 60px;
 }
 .athlete-page__head h1 strong {
     font-family: "barlow-bold-italic" !important;
@@ -160,7 +164,7 @@ html {
   margin-bottom: 50px;
 }
 .athlete-breadcrumbs {
-    margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 .athlete-breadcrumbs svg {
   width: 50px;
@@ -183,8 +187,22 @@ html {
 .athlete-row {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
-
+.athlete-table__title {
+    opacity: 0.5;
+}
+.athlete-table__value {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-transform: uppercase;
+}
+.athlete-page__head__right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
 
 {% endstyle %}
 
