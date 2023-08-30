@@ -80,12 +80,12 @@
 
   </div>
 
-  <div class="athlete-page__banner">
+  <div class="athlete-page__banner" style="background-image:url({{ section.settings.image_banner | img_url: "master" }})">
     <div class="athlete-page__banner__content-top">
-
+      <h3>{{ section.settings.banner_top }}</h3>
     </div>
     <div class="athlete-page__banner__content-bottom">
-
+      <h6>{{ section.settings.banner_bottom }}</h6>
     </div>
   </div>
 
@@ -337,6 +337,39 @@ html {
   margin: 0 auto;
   grid-template-columns: 49% 49%;
   justify-content: space-between;
+}
+.athlete-page__banner {
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+.athlete-page__banner__content-top {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    max-width: 900px;
+    font-size: 56px;
+}
+.athlete-page__banner__content-top h3 {
+  font-family: 'barlow-semibold-italic' !important;
+    text-transform: none;
+}
+.athlete-page__banner__content-bottom {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    font-size: 16px;
+    max-width: 320px;
+    text-align: right;
+}
+.athlete-page__banner__content-bottom h6 {
+  font-family: 'barlow-bold' !important;
+    text-transform: none;
+    line-height: 24px;
+    letter-spacing: normal;
+    font-size: 16px;
 }
 
 
