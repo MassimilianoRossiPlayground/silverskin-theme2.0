@@ -8,7 +8,16 @@
     "c7fa9333-374b-4e5d-b442-8fc30697fb98": {
       "type": "page-athlete",
       "settings": {
-        "sup_title": ""
+        "firstname": "STEFANO",
+        "lastname": "LA MASTRA",
+        "year": "1988",
+        "tag_trail": true,
+        "tag_bike": true,
+        "tag_snowsport": true,
+        "tag_running": false,
+        "tag_mountaineering": true,
+        "tag_other": false,
+        "other_infos": "LOREM ISPUM,LOREM IPSUM,LOREM IPSUM"
       }
     }
   },
