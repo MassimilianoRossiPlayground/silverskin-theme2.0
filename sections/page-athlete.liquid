@@ -52,7 +52,27 @@
     
   </div>
   
-    
+  <div class="athlete-page__text-images">
+
+    <div class="athlete-page__text-images__paragraph">
+      {{ section.settings.paragraph_top }}
+    </div>
+
+    <div class="athlete-page__text-images__image-text">
+      <img src="{{ section.settings.image_1 | img_url: "master" }}" alt="athlete silverskin">
+      {{ section.settings.paragraph_right }}
+    </div>
+
+    <div class="athlete-page__text-images__images">
+      <img src="{{ section.settings.image_2 | img_url: "master" }}" alt="athlete silverskin">
+      <img src="{{ section.settings.image_3 | img_url: "master" }}" alt="athlete silverskin">
+    </div>
+
+    <div class="athlete-page__text-images__paragraph-bottom">
+      {{ section.settings.paragraph_two_columns }}
+    </div>
+
+  </div>
 </div>
 
 {% schema %}
@@ -112,7 +132,42 @@
       {
         "type": "image_picker",
         "id": "image",
-        "label": "Image"
+        "label": "Image Desk"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mob",
+        "label": "Image Mob"
+      },
+      {
+        "type": "richtext",
+        "id": "paragraph_top",
+        "label": "Paragraph top"
+      },
+      {
+        "type": "richtext",
+        "id": "paragraph_right",
+        "label": "Paragraph right"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_1",
+        "label": "Image 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_2",
+        "label": "Image 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_3",
+        "label": "Image 3"
+      },
+      {
+        "type": "richtext",
+        "id": "paragraph_two_columns",
+        "label": "Paragraph two_columns"
       }
     ],
     "presets": [
@@ -131,11 +186,11 @@ html {
 }
 .athlete-page__head {
   color: #fff;
-    padding: 200px 20px;
-    background: #000;
-    margin-top: -120px;
-    display: grid;
-    grid-template-columns: 50% 50%;
+  padding: 200px 20px 0 20px;
+  background: #000;
+  margin-top: -120px;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 .athlete-page__head a {
   color: #fff;
@@ -148,13 +203,13 @@ html {
   flex-wrap: wrap;
 }
 .athlete-page__head h1 {
-    font-family: "barlow-italic" !important;
-    font-size: 48px;
-    margin-bottom: 0;
-    margin-bottom: 60px;
+  font-family: "barlow-italic" !important;
+  font-size: 48px;
+  margin-bottom: 0;
+  margin-bottom: 60px;
 }
 .athlete-page__head h1 strong {
-    font-family: "barlow-bold-italic" !important;
+  font-family: "barlow-bold-italic" !important;
 }
 .athlete-page__head h5 {
   font-family: "barlow" !important;
@@ -172,12 +227,12 @@ html {
   margin-right: 15px;
 }
 .athlete-breadcrumbs a {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .athlete-page__head__left {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .athlete-page__head__left__content {
