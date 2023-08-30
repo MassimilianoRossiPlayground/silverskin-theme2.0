@@ -52,6 +52,7 @@
     
   </div>
   
+
   <div class="athlete-page__text-images">
 
     <div class="athlete-page__text-images__paragraph">
@@ -78,6 +79,16 @@
     </div>
 
   </div>
+
+  <div class="athlete-page__banner">
+    <div class="athlete-page__banner__content-top">
+
+    </div>
+    <div class="athlete-page__banner__content-bottom">
+
+    </div>
+  </div>
+
 </div>
 
 {% schema %}
@@ -178,6 +189,21 @@
         "type": "richtext",
         "id": "paragraph_two_columns_2",
         "label": "Paragraph col 2"
+      },
+      {
+        "type": "text",
+        "id": "banner_top",
+        "label": "Banner Top"
+      },
+      {
+        "type": "text",
+        "id": "banner_bottom",
+        "label": "Banner Bottom"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_banner",
+        "label": "Image Banner"
       }
     ],
     "presets": [
