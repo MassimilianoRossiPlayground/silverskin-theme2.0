@@ -19,7 +19,10 @@
         "tag_mountaineering": true,
         "tag_other": false,
         "other_infos": "LOREM ISPUM<br>LOREM ISPUM<br>LOREM ISPUM<br>LOREM ISPUM<br>LOREM ISPUM",
-        "image": "shopify:\/\/shop_images\/Place_Holder.png"
+        "image": "shopify:\/\/shop_images\/Place_Holder.png",
+        "paragraph_top": "<p>Lorem ipsum dolor sit amet consectetur. Non iaculis nullam pellentesque diam. Mi arcu ut commodo nulla. Pulvinar turpis praesent a ut tellus in condimentum. Faucibus quam ornare tellus sed purus.<\/p>",
+        "paragraph_right": "<p><strong>Lorem ipsum dolor sit amet consectetur. Purus porta vel donec vitae sit mauris dolor. <\/strong><\/p><p>Interdum consequat sem suspendisse non.Viverra elementum commodo fusce ornare at. Hendrerit nec sed turpis pharetra fermentum sodales. Suspendisse purus posuere et elementum elit purus nisi malesuada. Quisque tellus tristique eget sagittis aliquam.<\/p><p>Eleifend nunc lorem platea sollicitudin viverra nascetur. Massa ultricies venenatis habitant vulputate scelerisque. Magna integer donec tristique ut sed. Habitant ac arcu etiam dignissim elit.<\/p>",
+        "paragraph_two_columns": ""
       }
     }
   },
