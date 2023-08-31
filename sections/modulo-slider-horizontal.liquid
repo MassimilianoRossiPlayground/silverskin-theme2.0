@@ -1,23 +1,31 @@
 <div class="slider-horizontal">
 
     <div class="slider-horizontal__years">
-        {% assign years_list = section.settings.years_list | split: "|" %}
-        {% for year in years_list %}
-            <span class="big-year">{{ year }}</span>
-        {% endfor %}
+        <div class="swiper-container swiper-horizontal">
+            <div class="swiper-wrapper">
+                {% assign years_list = section.settings.years_list | split: "|" %}
+                {% for year in years_list %}
+                    <div class="swiper-slide">
+                        <span class="big-year">{{ year }}</span>
+                        <div class="slider-horizontal__slides">
+                            {% for slide in section.blocks %}
+                                {% if slide.settings.ref_year == year %}
+                                    <div class="horizontal-card" style="left:{{ slide.settings.horizontal_position }}%;">
+                                        <div class="horizontal-card__content">
+                                            <h5>{{ slide.settings.title }}</h5>
+                                            <h6>{{ slide.settings.sub_title }}</h6>
+                                            <span>{{ slide.settings.date }}</span>
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
     </div>
 
-    <div class="slider-horizontal__slides">
-        {% for slide in section.blocks %}
-            <div class="horizontal-card {% cycle 'card-odd', 'card-even' %}" style="left:{{ slide.settings.horizontal_position }}%;">
-                <div class="horizontal-card__content">
-                    <h5>{{ slide.settings.title }}</h5>
-                    <h6>{{ slide.settings.sub_title }}</h6>
-                    <span>{{ slide.settings.date }}</span>
-                </div>
-            </div>
-        {% endfor %}
-    </div>
 </div>
 
 
@@ -59,7 +67,29 @@
                 "id": "horizontal_position",
                 "label": "Horizontal Position",
                 "info": "From 0 to 100 like %"
-            }
+            },
+            {
+                "type": "text",
+                "id": "ref_year",
+                "label": "Ref Year",
+                "info": "Inser only year number"
+            },
+            {
+                "type": "select",
+                "id": "vertical_alignment",
+                "label": "Vertical alignment",
+                "options": [
+                  {
+                    "value": "top",
+                    "label": "Top"
+                  },
+                  {
+                    "value": "bottom",
+                    "label": "Bottom"
+                  }
+                ],
+                "default": "top"
+              }
         ]
       }
     ],
@@ -82,9 +112,18 @@
     color: white;
     background-color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    font-size: 200px;
-    font-family: "barlow-thin-italic" !important;
+    font-size: 400px;
+    font-family: "barlow-light-italic" !important;
+    opacity: 0.08;
+    margin-right: 100px;
 }
+.swiper-horizontal .swiper-slide {
+    width: max-content;
+}
+.slider-horizontal__years {
+    margin-left: 40px;
+}
+
 {% endstyle %}
 
 
@@ -94,25 +133,38 @@
 (function(document) {
 
     let selectors = {
-        containerSlideImages: '.slider-box-text__images .swiper-container',
+        swiperHorizontal: '.swiper-horizontal',
     };
   
-    // let containerSlideImages = document.querySelector(selectors.containerSlideImages)
+    let swiperHorizontal = document.querySelector(selectors.swiperHorizontal)
 
-    // window.addEventListener('load', function() {
+    window.addEventListener('load', function() {
 
-    //     let swiper_images = new Swiper(containerSlideImages, {
-    //         touchRatio: 0.1,
-    //         fadeEffect: {
-    //             crossFade: true
-    //         },
-    //         navigation: {
-    //             nextEl: containerSlideImagesNext,
-    //             prevEl: containerSlideImagesPrev
-    //         },
-    //     });
+        let swiper_images = new Swiper(swiperHorizontal, {
+            slidesPerView: 'auto',
+            spaceBetween: 100,
+            freeMode: true,
+            // breakpoints: {
+            //     320: {
+            //     slidesPerView: 1.1,
+            //     spaceBetween: 20
+            //     },
+            //     1900: {
+            //     slidesPerView: 2,
+            //     spaceBetween: 30
+            //     },
+            //     2300: {
+            //     slidesPerView: 1.9,
+            //     spaceBetween: 30
+            //     },
+            //     2700: {
+            //     slidesPerView: 2.5,
+            //     spaceBetween: 30
+            //     }
+            // }
+        });
 
-    // })
+    })
 
     
 
