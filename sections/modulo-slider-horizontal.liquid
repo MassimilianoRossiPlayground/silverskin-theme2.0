@@ -6,11 +6,20 @@
                 {% assign years_list = section.settings.years_list | split: "|" %}
                 {% for year in years_list %}
                     <div class="swiper-slide">
+                        <div class="line-horizontal"></div>
                         <span class="big-year">{{ year }}</span>
                         <div class="slider-horizontal__slides">
                             {% for slide in section.blocks %}
                                 {% if slide.settings.ref_year == year %}
-                                    <div class="horizontal-card" style="left:{{ slide.settings.horizontal_position }}%;">
+                                    {%- liquid 
+                                        if slide.settings.vertical_alignment == "top" 
+                                            assign vertical_alignment = "22%"
+                                        else 
+                                            assign vertical_alignment = "63%"
+                                        endif
+                                    -%}
+                                    <span class="horizontal-card__dot" data-dot--year="{{ year }}" data-dot--num="{{ forloop.index }}" style="left:{{ slide.settings.horizontal_position }}%;"></span>
+                                    <div class="horizontal-card" style="left:{{ slide.settings.horizontal_position }}%;top:{{ vertical_alignment }};">
                                         <div class="horizontal-card__content">
                                             <h5>{{ slide.settings.title }}</h5>
                                             <h6>{{ slide.settings.sub_title }}</h6>
@@ -89,7 +98,7 @@
                   }
                 ],
                 "default": "top"
-              }
+            }
         ]
       }
     ],
@@ -115,15 +124,37 @@
     font-size: 400px;
     font-family: "barlow-light-italic" !important;
     opacity: 0.08;
-    margin-right: 100px;
+    line-height: 1;
 }
 .swiper-horizontal .swiper-slide {
     width: max-content;
+    padding-right: 140px;
 }
 .slider-horizontal__years {
     margin-left: 40px;
 }
-
+.horizontal-card {
+    position: absolute;
+}
+span.horizontal-card__dot {
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background: #fff;
+}
+span.horizontal-card__dot.selected {
+    background: #000;
+}
+.line-horizontal {
+    width: 100%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 51.2%;
+}
 {% endstyle %}
 
 
@@ -142,26 +173,7 @@
 
         let swiper_images = new Swiper(swiperHorizontal, {
             slidesPerView: 'auto',
-            spaceBetween: 100,
             freeMode: true,
-            // breakpoints: {
-            //     320: {
-            //     slidesPerView: 1.1,
-            //     spaceBetween: 20
-            //     },
-            //     1900: {
-            //     slidesPerView: 2,
-            //     spaceBetween: 30
-            //     },
-            //     2300: {
-            //     slidesPerView: 1.9,
-            //     spaceBetween: 30
-            //     },
-            //     2700: {
-            //     slidesPerView: 2.5,
-            //     spaceBetween: 30
-            //     }
-            // }
         });
 
     })
