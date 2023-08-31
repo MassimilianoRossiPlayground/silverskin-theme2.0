@@ -1,0 +1,103 @@
+<div class="slider-horizontal">
+
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Slider Horizontal",
+    "max_blocks": 99,
+    "settings": [
+        {
+            "type": "text",
+            "id": "years_list",
+            "label": "Year List",
+            "default": "2018|2019|2020|2021|2022|2023"
+        }
+    ],
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Slide",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
+            },
+            {
+                "type": "text",
+                "id": "sub_title",
+                "label": "Sub Title"
+            },
+            {
+                "type": "text",
+                "id": "date",
+                "label": "Date"
+            },
+            {
+                "type": "range",
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "id": "horizontal_position",
+                "label": "Horizontal Position",
+                "info": "From 0 to 100 like %",
+                "default": 0
+            }
+        ]
+      }
+    ],
+    "presets": [
+        {
+            "name": "Slider Horizontal",
+            "blocks": [
+                {
+                "type": "slide"
+                }
+            ]
+        }
+    ]
+  }
+{% endschema %}
+
+
+{% style %}
+
+{% endstyle %}
+
+
+
+{% javascript %}
+
+(function(document) {
+
+    let selectors = {
+        containerSlideImages: '.slider-box-text__images .swiper-container',
+    };
+  
+    // let containerSlideImages = document.querySelector(selectors.containerSlideImages)
+
+    // window.addEventListener('load', function() {
+
+    //     let swiper_images = new Swiper(containerSlideImages, {
+    //         touchRatio: 0.1,
+    //         fadeEffect: {
+    //             crossFade: true
+    //         },
+    //         navigation: {
+    //             nextEl: containerSlideImagesNext,
+    //             prevEl: containerSlideImagesPrev
+    //         },
+    //     });
+
+    // })
+
+    
+
+
+})(document);
+  
+
+{% endjavascript %}
