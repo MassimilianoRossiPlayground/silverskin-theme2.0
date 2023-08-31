@@ -62,12 +62,22 @@
             "date": "02.02.2018",
             "horizontal_position": "20"
           }
+        },
+        "99183939-1478-4bc7-ba62-bd04e857da8e": {
+          "type": "slide",
+          "settings": {
+            "title": "VERTICAL LINE",
+            "sub_title": "LOREM IPSUM DOLOR",
+            "date": "02.02.2018",
+            "horizontal_position": "80"
+          }
         }
       },
       "block_order": [
         "template--20879924265273__b07a977a-e3bf-4351-8992-c2ac8e3f9eaa-slide-1",
         "64513ebd-655a-4398-9142-cb49b732057a",
-        "b49ba4c4-5a99-47d6-8531-aef44a681b30"
+        "b49ba4c4-5a99-47d6-8531-aef44a681b30",
+        "99183939-1478-4bc7-ba62-bd04e857da8e"
       ],
       "settings": {
         "years_list": "2018|2019|2020|2021|2022|2023"
