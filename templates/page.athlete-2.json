@@ -32,10 +32,31 @@
         "banner_bottom": "Lorem ipsum dolor sit amet consectetur. Purus porta vel donec vitae sit mauris dolor. Interdum consequat sem suspendisse non.",
         "image_banner": "shopify:\/\/shop_images\/Rectangle_113.jpg"
       }
+    },
+    "b07a977a-e3bf-4351-8992-c2ac8e3f9eaa": {
+      "type": "modulo-slider-horizontal",
+      "blocks": {
+        "template--20879924265273__b07a977a-e3bf-4351-8992-c2ac8e3f9eaa-slide-1": {
+          "type": "slide",
+          "settings": {
+            "title": "VERTICAL LINE",
+            "sub_title": "LOREM IPSUM DOLOR",
+            "date": "02.02.2018",
+            "horizontal_position": "0"
+          }
+        }
+      },
+      "block_order": [
+        "template--20879924265273__b07a977a-e3bf-4351-8992-c2ac8e3f9eaa-slide-1"
+      ],
+      "settings": {
+        "years_list": "2018|2019|2020|2021|2022|2023"
+      }
     }
   },
   "order": [
     "main",
-    "c7fa9333-374b-4e5d-b442-8fc30697fb98"
+    "c7fa9333-374b-4e5d-b442-8fc30697fb98",
+    "b07a977a-e3bf-4351-8992-c2ac8e3f9eaa"
   ]
 }
