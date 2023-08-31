@@ -1,5 +1,23 @@
 <div class="slider-horizontal">
 
+    <div class="slider-horizontal__years">
+        {% assign years_list = section.settings.years_list | split: "|" %}
+        {% for year in years_list %}
+            <span class="big-year">{{ year }}</span>
+        {% endfor %}
+    </div>
+
+    <div class="slider-horizontal__slides">
+        {% for slide in section.blocks %}
+            <div class="horizontal-card {% cycle 'card-odd', 'card-even' %}" style="left:{{ slide.settings.horizontal_position }}%;">
+                <div class="horizontal-card__content">
+                    <h5>{{ slide.settings.title }}</h5>
+                    <h6>{{ slide.settings.sub_title }}</h6>
+                    <span>{{ slide.settings.date }}</span>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 </div>
 
 
