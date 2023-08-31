@@ -42,7 +42,9 @@
             "title": "VERTICAL LINE",
             "sub_title": "LOREM IPSUM DOLOR",
             "date": "02.02.2018",
-            "horizontal_position": "0"
+            "horizontal_position": "25",
+            "ref_year": "2018",
+            "vertical_alignment": "top"
           }
         },
         "64513ebd-655a-4398-9142-cb49b732057a": {
@@ -51,7 +53,9 @@
             "title": "VERTICAL LINE",
             "sub_title": "LOREM IPSUM DOLOR",
             "date": "02.02.2018",
-            "horizontal_position": "10"
+            "horizontal_position": "75",
+            "ref_year": "2018",
+            "vertical_alignment": "bottom"
           }
         },
         "b49ba4c4-5a99-47d6-8531-aef44a681b30": {
@@ -59,8 +63,10 @@
           "settings": {
             "title": "VERTICAL LINE",
             "sub_title": "LOREM IPSUM DOLOR",
-            "date": "02.02.2018",
-            "horizontal_position": "20"
+            "date": "02.02.2019",
+            "horizontal_position": "10",
+            "ref_year": "2019",
+            "vertical_alignment": "top"
           }
         },
         "99183939-1478-4bc7-ba62-bd04e857da8e": {
@@ -68,8 +74,10 @@
           "settings": {
             "title": "VERTICAL LINE",
             "sub_title": "LOREM IPSUM DOLOR",
-            "date": "02.02.2018",
-            "horizontal_position": "80"
+            "date": "02.02.2019",
+            "horizontal_position": "80",
+            "ref_year": "2019",
+            "vertical_alignment": "bottom"
           }
         }
       },
