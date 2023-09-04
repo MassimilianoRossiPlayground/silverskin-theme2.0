@@ -1,40 +1,40 @@
 <div class="slider-horizontal">
-
-    <div class="slider-horizontal__years">
-        <div class="swiper-container swiper-horizontal">
-            <div class="swiper-wrapper">
-                {% assign years_list = section.settings.years_list | split: "|" %}
-                {% for year in years_list %}
-                    <div class="swiper-slide">
-                        <div class="line-horizontal"></div>
-                        <span class="big-year">{{ year }}</span>
-                        <div class="slider-horizontal__slides">
-                            {% for slide in section.blocks %}
-                                {% if slide.settings.ref_year == year %}
-                                    {%- liquid 
-                                        if slide.settings.vertical_alignment == "top" 
-                                            assign vertical_alignment = "22%"
-                                        else 
-                                            assign vertical_alignment = "63%"
-                                        endif
-                                    -%}
-                                    <span class="horizontal-card__dot" data-dot--year="{{ year }}" data-dot--num="{{ forloop.index }}" style="left:{{ slide.settings.horizontal_position }}%;"></span>
-                                    <div class="horizontal-card" style="left:{{ slide.settings.horizontal_position }}%;top:{{ vertical_alignment }};">
-                                        <div class="horizontal-card__content">
-                                            <h5>{{ slide.settings.title }}</h5>
-                                            <h6>{{ slide.settings.sub_title }}</h6>
-                                            <span>{{ slide.settings.date }}</span>
+    <div class="page-width">
+        <div class="slider-horizontal__years">
+            <div class="swiper-container swiper-horizontal">
+                <div class="swiper-wrapper">
+                    {% assign years_list = section.settings.years_list | split: "|" %}
+                    {% for year in years_list %}
+                        <div class="swiper-slide">
+                            <div class="line-horizontal"></div>
+                            <span class="big-year">{{ year }}</span>
+                            <div class="slider-horizontal__slides">
+                                {% for slide in section.blocks %}
+                                    {% if slide.settings.ref_year == year %}
+                                        {%- liquid 
+                                            if slide.settings.vertical_alignment == "top" 
+                                                assign vertical_alignment = "22%"
+                                            else 
+                                                assign vertical_alignment = "63%"
+                                            endif
+                                        -%}
+                                        <span class="horizontal-card__dot" data-dot--year="{{ year }}" data-dot--num="{{ forloop.index }}" style="left:{{ slide.settings.horizontal_position }}%;"></span>
+                                        <div class="horizontal-card" style="left:{{ slide.settings.horizontal_position }}%;top:{{ vertical_alignment }};">
+                                            <div class="horizontal-card__content">
+                                                <h5>{{ slide.settings.title }}</h5>
+                                                <h6>{{ slide.settings.sub_title }}</h6>
+                                                <span>{{ slide.settings.date }}</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                {% endif %}
-                            {% endfor %}
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
                         </div>
-                    </div>
-                {% endfor %}
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
-
 </div>
 
 
@@ -117,6 +117,10 @@
 
 
 {% style %}
+.slider-horizontal {
+    overflow: hidden;
+    margin: 120px 0;
+}
 .big-year {
     color: white;
     background-color: white;
@@ -126,12 +130,14 @@
     opacity: 0.08;
     line-height: 1;
 }
+.swiper-horizontal {
+    overflow: visible;
+}
 .swiper-horizontal .swiper-slide {
     width: max-content;
     padding-right: 140px;
 }
 .slider-horizontal__years {
-    margin-left: 40px;
     cursor: pointer;
 }
 .horizontal-card {

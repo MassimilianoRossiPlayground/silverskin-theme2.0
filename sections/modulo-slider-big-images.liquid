@@ -1,14 +1,19 @@
 <div class="slider-big-images">
-    <div class="swiper-container swiper-big-images">
-        <div class="swiper-wrapper">
-            {% for slide in section.blocks %}
-                <div class="swiper-slide">
-                    <img src="{{ slide.settings.image | img_url: 'master' }}" alt="silverskin">
+    <div class="page-width">
+        <div class="slider-big-images__content">
+            <div class="swiper-container swiper-big-images">
+                <div class="swiper-wrapper">
+                    {% for slide in section.blocks %}
+                        <div class="swiper-slide">
+                            <img src="{{ slide.settings.image | img_url: 'master' }}" alt="silverskin">
+                        </div>
+                    {% endfor %}
                 </div>
-            {% endfor %}
+                <div class="swiper-scrollbar"></div>
+            </div>
         </div>
     </div>
-    <div class="swiper-scrollbar"></div>
+    <div class="line-scrollbar"></div>
 </div>
 
 
@@ -47,10 +52,15 @@
 {% style %}
 
 .slider-big-images {
-    margin: 120px 0;
+    margin: 120px auto;
+    overflow: hidden;
+}
+.slider-big-images__content {
+    margin: 0 auto;
+    max-width: 1420px;
 }
 .swiper-big-images {
-    padding-left: 40px;
+    overflow: visible;
 }
 .slider-big-images .swiper-slide {
     width: max-content;
@@ -59,16 +69,18 @@
     max-height: 70vh;
 }
 .slider-big-images .swiper-scrollbar {
-    margin-top: 50px;
+  margin: 60px 0 0 0;
+  background: transparent;
+  border-top: unset;
 }
-.slider-big-images .swiper-scrollbar-drag {
+.slider-big-images .swiper-scrollbar .swiper-scrollbar-drag {
     height: 3px;
-    top: -1px;
 }
-.slider-big-images .swiper-scrollbar {
+.slider-big-images .line-scrollbar {
+    width: 100%;
     height: 1px;
-    background: rgb(157 157 157);
-    padding-left: 40px;
+    background: #757382;
+    margin-top: -4px;
 }
 {% endstyle %}
 
