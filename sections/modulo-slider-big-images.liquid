@@ -3,7 +3,7 @@
         <div class="swiper-wrapper">
             {% for slide in section.blocks %}
                 <div class="swiper-slide">
-                    <img src="{{ slide.settings.image }}" alt="silverskin">
+                    <img src="{{ slide.settings.image | img_url: 'master' }}" alt="silverskin">
                 </div>
             {% endfor %}
         </div>
@@ -47,8 +47,17 @@
 
 {% style %}
 
-{% endstyle %}
+.slider-big-images {
+    margin: 120px 0;
+}
+.swiper-big-images {
+    padding-left: 40px;
+}
+.slider-big-images .swiper-slide {
+    width: max-content;
+}
 
+{% endstyle %}
 
 
 {% javascript %}
@@ -64,7 +73,8 @@
     window.addEventListener('load', function() {
 
         let swiper_images = new Swiper(swiperBigimages, {
-            slidesPerView: 1.1,
+            slidesPerView: "auto",
+            spaceBetween: 30,
             freeMode: true,
             pagination: {
                 el: ".swiper-pagination",
