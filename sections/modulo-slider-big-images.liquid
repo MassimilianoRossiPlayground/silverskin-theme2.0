@@ -1,0 +1,83 @@
+<div class="slider-big-images">
+    <div class="swiper-container swiper-big-images">
+        <div class="swiper-wrapper">
+            {% for slide in section.blocks %}
+                <div class="swiper-slide">
+                    <img src="{{ slide.settings.image }}" alt="silverskin">
+                </div>
+            {% endfor %}
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <span class="long-line"></span>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Slider Big Images",
+    "max_blocks": 99,
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Slide",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            }
+        ]
+      }
+    ],
+    "presets": [
+        {
+            "name": "Slider Big Images",
+            "blocks": [
+                {
+                "type": "slide"
+                }
+            ]
+        }
+    ]
+  }
+{% endschema %}
+
+
+{% style %}
+
+{% endstyle %}
+
+
+
+{% javascript %}
+
+(function(document) {
+
+    let selectors = {
+        swiperBigimages: '.swiper-big-images',
+    };
+  
+    let swiperBigimages = document.querySelector(selectors.swiperBigimages)
+
+    window.addEventListener('load', function() {
+
+        let swiper_images = new Swiper(swiperBigimages, {
+            slidesPerView: 1.1,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                type: "progressbar",
+            },
+        });
+
+    })
+
+    
+
+
+})(document);
+  
+
+{% endjavascript %}

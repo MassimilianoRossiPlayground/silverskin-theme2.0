@@ -132,6 +132,7 @@
 }
 .slider-horizontal__years {
     margin-left: 40px;
+    cursor: pointer;
 }
 .horizontal-card {
     position: absolute;
@@ -170,14 +171,10 @@ span.horizontal-card__dot.selected {
     let swiperHorizontal = document.querySelector(selectors.swiperHorizontal)
 
     window.addEventListener('load', function() {
-
-        console.log(swiperHorizontal)
         let swiper_images = new Swiper(swiperHorizontal, {
             slidesPerView: 'auto',
             freeMode: true,
         });
-
-        console.log(swiper_images)
     })
 
     
