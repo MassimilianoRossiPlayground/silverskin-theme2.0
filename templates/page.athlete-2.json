@@ -127,12 +127,47 @@
       ],
       "settings": {
       }
+    },
+    "ede282c7-05a6-4d1f-9bd1-f5d0d069cc2e": {
+      "type": "modulo-blog-slider",
+      "blocks": {
+        "template--20879924265273__ede282c7-05a6-4d1f-9bd1-f5d0d069cc2e-slide-1": {
+          "type": "slide",
+          "settings": {
+            "article": "news\/un-altro-articolo"
+          }
+        },
+        "8d5415ac-c8fa-4da9-a2e5-dfe25eb65943": {
+          "type": "slide",
+          "settings": {
+            "article": "news\/maglie-termiche-perfette"
+          }
+        },
+        "249faae4-3744-4b11-8b7f-540e4229e490": {
+          "type": "slide",
+          "settings": {
+            "article": "news\/cycling-con-atleti-silverksin"
+          }
+        }
+      },
+      "block_order": [
+        "template--20879924265273__ede282c7-05a6-4d1f-9bd1-f5d0d069cc2e-slide-1",
+        "8d5415ac-c8fa-4da9-a2e5-dfe25eb65943",
+        "249faae4-3744-4b11-8b7f-540e4229e490"
+      ],
+      "settings": {
+        "sup_title": "",
+        "title": "",
+        "cta_link": "",
+        "sta_text": ""
+      }
     }
   },
   "order": [
     "main",
     "c7fa9333-374b-4e5d-b442-8fc30697fb98",
     "b07a977a-e3bf-4351-8992-c2ac8e3f9eaa",
-    "73315e4b-8476-4924-b485-d88ebb5e60e9"
+    "73315e4b-8476-4924-b485-d88ebb5e60e9",
+    "ede282c7-05a6-4d1f-9bd1-f5d0d069cc2e"
   ]
 }
