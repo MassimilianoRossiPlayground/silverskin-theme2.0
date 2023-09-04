@@ -7,7 +7,7 @@
                 </div>
             {% endfor %}
         </div>
-        <div class="swiper-pagination"></div>
+        <div class="swiper-scrollbar"></div>
     </div>
     <span class="long-line"></span>
 </div>
@@ -76,9 +76,9 @@
             slidesPerView: "auto",
             spaceBetween: 30,
             freeMode: true,
-            pagination: {
-                el: ".swiper-pagination",
-                type: "progressbar",
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                hide: true,
             },
         });
 
