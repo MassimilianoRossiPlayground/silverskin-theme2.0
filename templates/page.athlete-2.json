@@ -42,7 +42,7 @@
             "title": "VERTICAL LINE",
             "sub_title": "LOREM IPSUM DOLOR",
             "date": "02.02.2018",
-            "horizontal_position": "25",
+            "horizontal_position": "0",
             "ref_year": "2018",
             "vertical_alignment": "top"
           }
@@ -53,7 +53,7 @@
             "title": "VERTICAL LINE",
             "sub_title": "LOREM IPSUM DOLOR",
             "date": "02.02.2018",
-            "horizontal_position": "75",
+            "horizontal_position": "35",
             "ref_year": "2018",
             "vertical_alignment": "bottom"
           }
