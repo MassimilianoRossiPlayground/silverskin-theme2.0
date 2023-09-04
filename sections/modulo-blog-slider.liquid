@@ -5,7 +5,7 @@
             <h5>{{ section.settings.sup_title }}</h5>
             <h3>{{ section.settings.title }}</h3>
         </div>
-        <a class="slider-blog-slider__head__cta" href="{{ section.settings.cta_link }}">{{ section.settings.cta_text }}</a>
+        <a class="slider-blog-slider__head__cta" href="{{ section.settings.cta_link }}">{{ section.settings.title }}</a>
     </div>
 
     <div class="swiper-container swiper-blog-slider">
@@ -17,9 +17,9 @@
                         <img src="{{ slide.settings.article.image | img_url: 'master' }}" alt="{{ slide.settings.article.title | strip_html }}">
                         <div class="blog-slider-card__content">
                             <span class="blog-slider-card__content__sup">{{ blogs[blog_handle].title }}</span>
-                            <span class="blog-slider-card__content__title">{{ slide.title }}</span>
+                            <span class="blog-slider-card__content__title">{{ slide.settings.article.title }}</span>
+                            <a class="blog-slider-card__cta" href="{{ slide.settings.article.url }}">READ THE STORY</a>
                         </div>
-                        <a class="blog-slider-card__cta" href="{{ slide.settings.article.url }}">{{ slide.settings.article.title }}</a>
                     </div>
                 </div>
             {% endfor %}
@@ -107,6 +107,7 @@
 .slider-blog-slider .swiper-scrollbar {
     height: 1px;
     background: rgb(157 157 157);
+    padding-left: 40px;
 }
 .slider-blog-slider__head__texts {
     margin-left: 40px;
@@ -114,6 +115,50 @@
 .slider-blog-slider__head__texts h3 {
     font-size: 48px;
     font-family: 'barlow-semibold-italic' !important;
+}
+.slider-blog-slider__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 1420px;
+    padding: 0 20px;
+    margin: 0 auto 60px auto;
+}
+.slider-blog-slider__head__cta {
+    padding: 10px 20px;
+    border: 1px solid #404040;
+    font-size: 14px;
+    font-family: 'barlow-semibold';
+}
+.blog-slider-card__content__sup {
+    grid-area: sup_title;
+    font-family: 'barlow-light';
+}
+.blog-slider-card__content__title {
+    grid-area: title;
+    font-family: 'barlow-semibold';
+}
+.blog-slider-card__cta {
+    grid-area: link;
+    text-align: right;
+    text-decoration: underline;
+    font-family: 'barlow-semibold';
+}
+.blog-slider-card__content {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "sup_title ."
+    "title link";
+    text-transform: uppercase;
+    padding: 10px 3px;
+}
+.blog-slider-card img {
+    aspect-ratio: 1 / 1;
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
 {% endstyle %}
 
