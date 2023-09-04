@@ -1,0 +1,144 @@
+<div class="slider-blog-slider">
+
+    <div class="slider-blog-slider__head">
+        <div class="slider-blog-slider__head__texts">
+            <h5>{{ section.settings.sup_title }}</h5>
+            <h3>{{ section.settings.title }}</h3>
+        </div>
+        <a class="slider-blog-slider__head__cta" href="{{ section.settings.cta_link }}">{{ section.settings.cta_text }}</a>
+    </div>
+
+    <div class="swiper-container swiper-blog-slider">
+        <div class="swiper-wrapper">
+            {% for slide in section.blocks %}
+                {% assign blog_handle = slide.settings.article.handle | split: "/" | first %}
+                <div class="swiper-slide">
+                    <div class="blog-slider-card">
+                        <img src="{{ slide.settings.article.image | img_url: 'master' }}" alt="{{ slide.title | strip_html }}">
+                        <div class="blog-slider-card__content">
+                            <span class="blog-slider-card__content__sup">{{ blogs[blog_handle].title }}</span>
+                            <span class="blog-slider-card__content__title">{{ blogs[blog_handle].title }}</span>
+                        </div>
+                        <a class="blog-slider-card__cta" href="{{ slide.url }}">{{ slide.title }}</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Slider Blog Slider",
+    "max_blocks": 99,
+    "settings": [
+        {
+            "type": "text",
+            "id": "sup_title",
+            "label": "Sup Title"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "url",
+            "id": "cta_link",
+            "label": "CTA Link"
+        },
+        {
+            "type": "text",
+            "id": "sta_text",
+            "label": "CTA Text"
+        }
+    ],
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Slide",
+        "settings": [
+            {
+                "type": "article",
+                "id": "article",
+                "label": "Article"
+            }
+        ]
+      }
+    ],
+    "presets": [
+        {
+            "name": "Slider Blog Slider",
+            "blocks": [
+                {
+                "type": "slide"
+                }
+            ]
+        }
+    ]
+  }
+{% endschema %}
+
+
+{% style %}
+
+.slider-blog-slider {
+    margin: 120px 0;
+}
+.swiper-blog-slider {
+    padding-left: 40px;
+}
+.slider-blog-slider .swiper-slide {
+    width: max-content;
+}
+.swiper-blog-slider img {
+    max-height: 70vh;
+}
+.slider-blog-slider .swiper-scrollbar {
+    margin-top: 50px;
+}
+.slider-blog-slider .swiper-scrollbar-drag {
+    height: 3px;
+    top: -1px;
+}
+.slider-blog-slider .swiper-scrollbar {
+    height: 1px;
+    background: rgb(157 157 157);
+}
+{% endstyle %}
+
+
+{% javascript %}
+
+(function(document) {
+
+    let selectors = {
+        swiperBigimages: '.swiper-blog-slider',
+    };
+  
+    let swiperBigimages = document.querySelector(selectors.swiperBigimages)
+
+    window.addEventListener('load', function() {
+
+        let swiper_images = new Swiper(swiperBigimages, {
+            slidesPerView: "auto",
+            spaceBetween: 30,
+            freeMode: true,
+            scrollbar: {
+                el: ".slider-blog-slider .swiper-scrollbar",
+                hide: false,
+            },
+        });
+
+    })
+
+    
+
+
+})(document);
+  
+
+{% endjavascript %}

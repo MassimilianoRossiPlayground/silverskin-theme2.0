@@ -7,9 +7,8 @@
                 </div>
             {% endfor %}
         </div>
-        <div class="swiper-scrollbar"></div>
     </div>
-    <span class="long-line"></span>
+    <div class="swiper-scrollbar"></div>
 </div>
 
 
@@ -56,7 +55,20 @@
 .slider-big-images .swiper-slide {
     width: max-content;
 }
-
+.swiper-big-images img {
+    max-height: 70vh;
+}
+.slider-big-images .swiper-scrollbar {
+    margin-top: 50px;
+}
+.slider-big-images .swiper-scrollbar-drag {
+    height: 3px;
+    top: -1px;
+}
+.slider-big-images .swiper-scrollbar {
+    height: 1px;
+    background: rgb(157 157 157);
+}
 {% endstyle %}
 
 
@@ -77,8 +89,8 @@
             spaceBetween: 30,
             freeMode: true,
             scrollbar: {
-                el: ".swiper-scrollbar",
-                hide: true,
+                el: ".slider-big-images .swiper-scrollbar",
+                hide: false,
             },
         });
 
