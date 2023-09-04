@@ -14,12 +14,12 @@
                 {% assign blog_handle = slide.settings.article.handle | split: "/" | first %}
                 <div class="swiper-slide">
                     <div class="blog-slider-card">
-                        <img src="{{ slide.settings.article.image | img_url: 'master' }}" alt="{{ slide.title | strip_html }}">
+                        <img src="{{ slide.settings.article.image | img_url: 'master' }}" alt="{{ slide.settings.article.title | strip_html }}">
                         <div class="blog-slider-card__content">
                             <span class="blog-slider-card__content__sup">{{ blogs[blog_handle].title }}</span>
-                            <span class="blog-slider-card__content__title">{{ blogs[blog_handle].title }}</span>
+                            <span class="blog-slider-card__content__title">{{ slide.title }}</span>
                         </div>
-                        <a class="blog-slider-card__cta" href="{{ slide.url }}">{{ slide.title }}</a>
+                        <a class="blog-slider-card__cta" href="{{ slide.settings.article.url }}">{{ slide.settings.article.title }}</a>
                     </div>
                 </div>
             {% endfor %}
@@ -52,7 +52,7 @@
         },
         {
             "type": "text",
-            "id": "sta_text",
+            "id": "cta_text",
             "label": "CTA Text"
         }
     ],
