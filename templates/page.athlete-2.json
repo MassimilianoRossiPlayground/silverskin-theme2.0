@@ -182,12 +182,19 @@
           "settings": {
             "product": "base-layer-termico-girocollo-manica-corta-grigio-perla"
           }
+        },
+        "3037299a-edc7-4d78-86f2-5233b2d7e560": {
+          "type": "cards",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-corta-anthracite"
+          }
         }
       },
       "block_order": [
         "template--20879924265273__a7385056-97cf-42a9-b2b5-30e903b4afb3-cards-1",
         "55fabc64-d97b-4ee8-9784-4245a56f0463",
-        "0e096832-2ec6-4fad-a808-8baf31926d37"
+        "0e096832-2ec6-4fad-a808-8baf31926d37",
+        "3037299a-edc7-4d78-86f2-5233b2d7e560"
       ],
       "settings": {
         "title": "STEFANO'S FAVOURITES",
