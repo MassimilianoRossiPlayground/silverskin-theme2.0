@@ -174,8 +174,7 @@
 {%- include 'analyzify-gtm-body' -%}
 {%- comment -%}ly_dir_styles_begin{%- endcomment -%}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%}{{- 'ly-rtl.css' | asset_url | stylesheet_tag -}}{%- endif -%}{%- comment -%}ly_dir_styles_end{%- endcomment -%}{% comment %}ly_dir_styles_begin{% endcomment %}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%}{{- 'ly-rtl.css' | asset_url | stylesheet_tag -}}{%- endif -%}{% comment %}ly_dir_styles_end{% endcomment %}
 
-
-{% if request.host == "silverskin-it.myshopify.com" %}
+{% if request.host == "silverskin-it.myshopify.com" or request.host == "silverskin.it" %}
   {% include 'dataLayer-allPages' %}
 {% endif %}
 
@@ -183,7 +182,7 @@
 </head>
 
 
-<body data-host="{{request.host}}" class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}--{{ handle }} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}--{{ template.suffix }} {%- if settings.enable_currencies -%} currencies-enabled{%- endif -%}" data-transitions="false">
+<body data-host="{{request.host}}" class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}--{{ handle }} {%- if settings.enable_currencies -%} currencies-enabled{%- endif -%}" data-transitions="false">
 
 {% if settings.script_after_body_open != blank %}
   {{ settings.script_after_body_open }}
