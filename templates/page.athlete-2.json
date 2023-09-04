@@ -158,7 +158,40 @@
       "settings": {
         "sup_title": "test",
         "title": "TITLE",
-        "cta_link": "shopify:\/\/blogs\/news"
+        "cta_link": "shopify:\/\/blogs\/news",
+        "cta_text": ""
+      }
+    },
+    "a7385056-97cf-42a9-b2b5-30e903b4afb3": {
+      "type": "modulo-slider-favourites",
+      "blocks": {
+        "template--20879924265273__a7385056-97cf-42a9-b2b5-30e903b4afb3-cards-1": {
+          "type": "cards",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-corta-anthracite"
+          }
+        },
+        "55fabc64-d97b-4ee8-9784-4245a56f0463": {
+          "type": "cards",
+          "settings": {
+            "product": "stay-fresh-maglia-ciclismo-pearlgrey-1"
+          }
+        },
+        "0e096832-2ec6-4fad-a808-8baf31926d37": {
+          "type": "cards",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-corta-grigio-perla"
+          }
+        }
+      },
+      "block_order": [
+        "template--20879924265273__a7385056-97cf-42a9-b2b5-30e903b4afb3-cards-1",
+        "55fabc64-d97b-4ee8-9784-4245a56f0463",
+        "0e096832-2ec6-4fad-a808-8baf31926d37"
+      ],
+      "settings": {
+        "title": "",
+        "link_view_all": ""
       }
     }
   },
@@ -167,6 +200,7 @@
     "c7fa9333-374b-4e5d-b442-8fc30697fb98",
     "b07a977a-e3bf-4351-8992-c2ac8e3f9eaa",
     "73315e4b-8476-4924-b485-d88ebb5e60e9",
-    "ede282c7-05a6-4d1f-9bd1-f5d0d069cc2e"
+    "ede282c7-05a6-4d1f-9bd1-f5d0d069cc2e",
+    "a7385056-97cf-42a9-b2b5-30e903b4afb3"
   ]
 }
