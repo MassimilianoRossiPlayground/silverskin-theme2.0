@@ -156,10 +156,10 @@
         "249faae4-3744-4b11-8b7f-540e4229e490"
       ],
       "settings": {
-        "sup_title": "",
-        "title": "",
-        "cta_link": "",
-        "sta_text": ""
+        "sup_title": "test",
+        "title": "TITLE",
+        "cta_link": "shopify:\/\/blogs\/news",
+        "sta_text": "VIEW ALL"
       }
     }
   },
