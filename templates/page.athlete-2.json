@@ -90,11 +90,35 @@
       "settings": {
         "years_list": "2018|2019|2020|2021|2022|2023"
       }
+    },
+    "73315e4b-8476-4924-b485-d88ebb5e60e9": {
+      "type": "modulo-slider-big-images",
+      "blocks": {
+        "template--20879924265273__73315e4b-8476-4924-b485-d88ebb5e60e9-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-31_2_1.jpg"
+          }
+        },
+        "26ea61ea-0c38-40be-a0c3-a1eccc43545e": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-27_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--20879924265273__73315e4b-8476-4924-b485-d88ebb5e60e9-slide-1",
+        "26ea61ea-0c38-40be-a0c3-a1eccc43545e"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "c7fa9333-374b-4e5d-b442-8fc30697fb98",
-    "b07a977a-e3bf-4351-8992-c2ac8e3f9eaa"
+    "b07a977a-e3bf-4351-8992-c2ac8e3f9eaa",
+    "73315e4b-8476-4924-b485-d88ebb5e60e9"
   ]
 }
