@@ -97,33 +97,26 @@
         "template--20879924265273__73315e4b-8476-4924-b485-d88ebb5e60e9-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-31_2_1.jpg"
+            "image": "shopify:\/\/shop_images\/Rectangle_114.jpg"
           }
         },
         "26ea61ea-0c38-40be-a0c3-a1eccc43545e": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-27_1.jpg"
+            "image": "shopify:\/\/shop_images\/Rectangle_114_2f360e95-28a0-4849-9f0c-0670607a533a.jpg"
           }
         },
         "6e2dd058-7e26-4eb9-8356-424582f861a2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_113.jpg"
-          }
-        },
-        "f512cc9c-c166-47b3-a97a-e17472a9985d": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/20---Donna---Stay-X-Warm---Maglie.jpg"
+            "image": "shopify:\/\/shop_images\/Rectangle_114_a8327363-9332-43c4-86e0-65a0f69a3c40.jpg"
           }
         }
       },
       "block_order": [
         "template--20879924265273__73315e4b-8476-4924-b485-d88ebb5e60e9-slide-1",
         "26ea61ea-0c38-40be-a0c3-a1eccc43545e",
-        "6e2dd058-7e26-4eb9-8356-424582f861a2",
-        "f512cc9c-c166-47b3-a97a-e17472a9985d"
+        "6e2dd058-7e26-4eb9-8356-424582f861a2"
       ],
       "settings": {
       }
