@@ -469,9 +469,13 @@
     text-transform: uppercase;
   }
   .athlete-card__media,
-  .athlete-card__media img {
+  .athlete-card__media img,
+  .athlete-card__media video {
     display: block;
     height: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    width: 100%;
   }
   .athletes-page__projects {
     background: #fff;
