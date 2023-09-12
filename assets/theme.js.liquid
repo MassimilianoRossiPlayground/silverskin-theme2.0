@@ -3757,7 +3757,8 @@ lazySizesConfig.expFactor = 4;
   
         let addToCartBtn = document.querySelector(".add-to-cart")
         let addToCartBtn__attr_coming_soon = addToCartBtn.getAttribute("attr-coming-soon")
-
+        console.log("status: "+addToCartBtn__attr_coming_soon)
+        
         if (variant) {
           if (variant.available) {
             // Available, enable the submit button and change text
