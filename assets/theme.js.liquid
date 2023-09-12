@@ -3755,6 +3755,9 @@ lazySizesConfig.expFactor = 4;
       updateCartButton: function(evt) {
         var variant = evt.variant;
   
+        let addToCartBtn = document.querySelector(".add-to-cart")
+        let addToCartBtn__attr_coming_soon = addToCartBtn.getAttribute("attr-coming-soon")
+
         if (variant) {
           if (variant.available) {
             // Available, enable the submit button and change text
@@ -3763,7 +3766,11 @@ lazySizesConfig.expFactor = 4;
           } else {
             // Sold out, disable the submit button and change text
             $(this.selectors.addToCart).addClass(classes.disabled).prop('disabled', true);
-            $(this.selectors.addToCartText).html(theme.strings.soldOut);
+            if (addToCartBtn__attr_coming_soon == "true") {
+              $(this.selectors.addToCartText).html("COMING SOON");
+            } else {
+              $(this.selectors.addToCartText).html(theme.strings.soldOut);
+            }
           }
         } else {
           // The variant doesn't exist, disable submit button
