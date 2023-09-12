@@ -3758,7 +3758,7 @@ lazySizesConfig.expFactor = 4;
         let addToCartBtn = document.querySelector(".add-to-cart")
         let addToCartBtn__attr_coming_soon = addToCartBtn.getAttribute("attr-coming-soon")
         console.log("status: "+addToCartBtn__attr_coming_soon)
-        
+
         if (variant) {
           if (variant.available) {
             // Available, enable the submit button and change text
@@ -3767,7 +3767,7 @@ lazySizesConfig.expFactor = 4;
           } else {
             // Sold out, disable the submit button and change text
             $(this.selectors.addToCart).addClass(classes.disabled).prop('disabled', true);
-            if (addToCartBtn__attr_coming_soon == 'true') {
+            if ((addToCartBtn__attr_coming_soon == 'true') || (addToCartBtn__attr_coming_soon == true)) {
               $(this.selectors.addToCartText).html("COMING SOON");
             } else {
               $(this.selectors.addToCartText).html(theme.strings.soldOut);
