@@ -209,7 +209,11 @@
             {{ 'products.product.add_to_cart' | t }}
           {% endif %}
         {% else %}
-          {{ 'products.product.sold_out' | t }}
+          {% if product.metafields.custom.coming_soon %}
+              COMING SOON
+            {% else %}
+              {{ 'products.product.sold_out' | t }}
+          {% endif %}
         {% endif %}
       </span>
     </button>
