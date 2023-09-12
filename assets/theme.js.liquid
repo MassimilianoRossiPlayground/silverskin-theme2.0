@@ -3768,8 +3768,10 @@ lazySizesConfig.expFactor = 4;
             // Sold out, disable the submit button and change text
             $(this.selectors.addToCart).addClass(classes.disabled).prop('disabled', true);
             if ((addToCartBtn__attr_coming_soon == 'true') || (addToCartBtn__attr_coming_soon == true)) {
+              console.log("truuue")
               $(this.selectors.addToCartText).html("COMING SOON");
             } else {
+              console.log("faaalse")
               $(this.selectors.addToCartText).html(theme.strings.soldOut);
             }
           }
