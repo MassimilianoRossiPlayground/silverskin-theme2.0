@@ -45,9 +45,15 @@
       </div>
     {%- else -%}
       {%- if sold_out -%}
-        <div class="grid-product__tag grid-product__tag--sold-out">
-          {{ 'products.product.sold_out' | t }}
-        </div>
+        {% if product.metafields.custom.coming_soon %}
+          <div class="grid-product__tag grid-product__tag--sold-out grid-product__tag--coming-soon">
+            COMING SOON
+          </div>
+          {% else %}
+          <div class="grid-product__tag grid-product__tag--sold-out">
+            {{ 'products.product.sold_out' | t }}
+          </div>
+        {% endif %}
       {%- endif -%}
       {%- if on_sale and sold_out == false -%}
         <div class="grid-product__tag grid-product__tag--sale">
