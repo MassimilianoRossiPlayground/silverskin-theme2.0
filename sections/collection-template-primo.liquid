@@ -1,19 +1,6 @@
 {%- assign per_row = section.settings.per_row -%}
 {%- assign paginate_by = per_row | times: section.settings.rows_per_page -%}
 
-{% if current_tags contains "Stay X-Warm" %}
-  {%- assign class_rte ="stay-x-warm"-%}
-{%endif%}
-{% if current_tags contains "Stay Warm" %}
-  {%- assign class_rte ="stay-warm"-%}
-{%endif%}
-{% if current_tags contains "Stay Fresh" %}
-  {%- assign class_rte ="stay-fresh"-%}
-{%endif%}
-{% if current_tags contains "Light Warm" %}
-  {%- assign class_rte ="light-warm"-%}
-{%endif%}
-
 {%- assign collection_tag = collection.title -%}
 
 {% include 'breadcrumbs-collection' %}
@@ -25,7 +12,7 @@
 
   {%- if section.settings.description_position == 'top' -%}
     {% if collection.description != blank %}
-      <div class="rte {{class_rte}}">
+      <div class="rte">
         {{ collection.description }}
       </div>
       <hr class="hr--clear hr--small">
@@ -35,8 +22,6 @@
   {%- if section.settings.subcollection_style == 'above' -%}
     {%- include 'subcollections', per_row: section.settings.subcollections_per_row -%}
   {%- endif -%}
-
-  
 
   <div class="collection-filter">
     {%- assign current_filter_size = current_tags | size -%}
