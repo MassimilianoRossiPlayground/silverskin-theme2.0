@@ -2139,7 +2139,7 @@ function deferBisProductPageButton (callback) {
         "fb_page_id" : "",
         "newsletter_permission_enabled": true,
         "show_terms_and_conditions": false,
-        "newsletter_permission_default_checked": true,
+        "newsletter_permission_default_checked": false,
         "newsletter_permission_text": "Desidero iscrivermi alla Newsletter",
         "popup_theme": {
                      "text_font_name": "Helvetica",
