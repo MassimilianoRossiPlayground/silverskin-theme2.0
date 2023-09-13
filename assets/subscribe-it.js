@@ -327,7 +327,7 @@ function deferBisProductPageButton (callback) {
                         <!-- Default unchecked -->
                         {{#newsletter_permission_enabled}}
                         <div class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" name="customer_accepts_marketing"  id="customer_accepts_marketing" {{#newsletter_permission_default_checked}}checked{{/newsletter_permission_default_checked}}>
+                          <input type="checkbox" class="custom-control-input" name="customer_accepts_marketing"  id="customer_accepts_marketing" {{#newsletter_permission_default_checked}}{{/newsletter_permission_default_checked}}>
                           <label class="custom-control-label" for="customer_accepts_marketing">{{{newsletter_permission_text}}}</label>
                         </div>
                         {{/newsletter_permission_enabled}}
