@@ -1165,6 +1165,31 @@
             "type": "advanced",
             "settings": {
               "subheading": "",
+              "heading": "Scopri il base layer<br>per le passioni più intense",
+              "textarea": "",
+              "cta_text1": "Scopri la collezione",
+              "cta_text1_color": "#ffffff",
+              "cta_link1": "https:\/\/primo-thermodry-pro.silverskin.it",
+              "cta_text2": "",
+              "cta_text2_color": "",
+              "cta_link2": "",
+              "image": "shopify:\/\/shop_images\/Fascia_Campagna.jpg",
+              "video_url": "",
+              "width": "100",
+              "height": 800,
+              "text_size": 120,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "center",
+              "color_accent": "rgba(0,0,0,0)",
+              "boxed": false,
+              "framed": false
+            }
+          },
+          "461e0341-1126-4b85-b821-77373e0aa557": {
+            "type": "advanced",
+            "disabled": true,
+            "settings": {
+              "subheading": "",
               "heading": "MONTAGNA, MAESTRA DI VITA",
               "textarea": "ESPLORA LA SUA DIMENSIONE PIÙ INTIMA CON I NOSTRI BASE LAYER",
               "cta_text1": "Scopri la collezione",
@@ -1211,6 +1236,7 @@
         },
         "block_order": [
           "be827a98-9d0e-43eb-bc7d-ff710a5983b2",
+          "461e0341-1126-4b85-b821-77373e0aa557",
           "2a07fafe-14ff-414d-b9e8-cbaddee00fa0"
         ],
         "settings": {
