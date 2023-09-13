@@ -327,7 +327,7 @@ function deferBisProductPageButton (callback) {
                         <!-- Default unchecked -->
                         {{#newsletter_permission_enabled}}
                         <div class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" name="customer_accepts_marketing"  id="customer_accepts_marketing" {{#newsletter_permission_default_checked}}{{/newsletter_permission_default_checked}}>
+                          <input type="checkbox" class="custom-control-input" name="customer_accepts_marketing"  id="customer_accepts_marketing" {{#newsletter_permission_default_checked}}checked{{/newsletter_permission_default_checked}}>
                           <label class="custom-control-label" for="customer_accepts_marketing">{{{newsletter_permission_text}}}</label>
                         </div>
                         {{/newsletter_permission_enabled}}
@@ -2104,7 +2104,7 @@ function deferBisProductPageButton (callback) {
       "generic_trigger_handler": true,
       "quantity_field_enabled": false,
       "labels": {
-                "headline": "AVVISAMI QUANDO TORNA DISPONIBILE",
+                "headline": "AVVISAMI QUANDO DISPONIBILE",
                 "email_address_label": "Inserisci la tua Email ",
                 "product_field_label": "Select product",
                 "button_label": "Avvisami",
@@ -2139,7 +2139,7 @@ function deferBisProductPageButton (callback) {
         "fb_page_id" : "",
         "newsletter_permission_enabled": true,
         "show_terms_and_conditions": false,
-        "newsletter_permission_default_checked": true,
+        "newsletter_permission_default_checked": false,
         "newsletter_permission_text": "Desidero iscrivermi alla Newsletter",
         "popup_theme": {
                      "text_font_name": "Helvetica",
@@ -2189,7 +2189,7 @@ function deferBisProductPageButton (callback) {
                 "countdown_timer_products": "[]"
       },
       "main_button": {
-            "main_caption": "AVVISAMI QUANDO TORNA DISPONIBILE",
+            "main_caption": "AVVISAMI QUANDO DISPONIBILE",
             "main_css_classes": "",
             "main_button_width": "",
             "main_button_height": "",
