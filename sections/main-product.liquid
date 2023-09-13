@@ -177,106 +177,107 @@
   {% endfor %}
 
 
+  {% if collection_banner != blank %}
+    <div class="pdp-banner {{collection_banner}}__banner">
+      <div class="pdp-banner__box">
+        <div class="pdp-banner__box__col">
 
-  <div class="pdp-banner {{collection_banner}}__banner">
-    <div class="pdp-banner__box">
-      <div class="pdp-banner__box__col">
+          <h2>{{ title_banner }}</h2>
 
-        <h2>{{ title_banner }}</h2>
-
-        <div class="custom-field__banner-description">
-          {{ collections[collection_banner].metafields.custom_fields["banner_description"] }}
-        </div>
-
-        {% assign cta_link = collections[collection_banner].metafields.custom_fields["cta_link"] %}
-        <a class="pdp-banner__cta pdp-banner__cta-desk" href="{{cta_link}}">{{ collections[collection_banner].metafields.custom_fields["cta_text"] }}</a>
-
-        {% assign cta_link_2 = collections[collection_banner].metafields.custom_fields["cta_link_2"] %}
-        <a class="pdp-banner__cta pdp-banner__cta-desk" href="{{cta_link_2}}">{{ collections[collection_banner].metafields.custom_fields["cta_text_2"] }}</a>
-
-      </div>
-      <div class="pdp-banner__box__col">
-
-        {% assign img_banner = collections[collection_banner].metafields.custom_fields["url_image"] %}
-        <img
-          data-src="{{ img_banner }}"
-          src=""
-          class="lazyload"
-          alt="silverskin banner">
-
-      </div>
-      <div class="pdp-banner__box__col">
-
-        <div class="custom-field custom-field__banner_description_secondary custom-field__type--text">
-          <div class="custom-field--value">
-            {{ collections[collection_banner].metafields.custom_fields["banner_description_secondary"] }}
+          <div class="custom-field__banner-description">
+            {{ collections[collection_banner].metafields.custom_fields["banner_description"] }}
           </div>
-        </div>
 
-        <div class="hexagon__group">
-          <div class="hexagon__single">
-            {{ '10_ENHANCED_SILVER_FIBER_TECHNOLOGY_Esagono.png' | asset_url | img_tag: 'apice silverskin' }}
-            <span class="feature_text">{{ collections[collection_banner].metafields.custom_fields["banner_secondary_feature2"] }}</span>
-          </div>
-          <div class="hexagon__single">
-            {{ '9_THERMO_BUFFERING_SYSTEM_Esagono.png' | asset_url | img_tag: 'apice silverskin' }}
-            <span class="feature_text">{{ collections[collection_banner].metafields.custom_fields["banner_secondary_feature1"] }}</span>
-          </div>
-          <div class="hexagon__single">
-            {{ '11_STRUTTURA_OTTIMIZZATA_DEL_FILATO_Esagono.png' | asset_url | img_tag: 'apice silverskin' }}
-            <span class="feature_text">{{ collections[collection_banner].metafields.custom_fields["banner_secondary_feature3"] }}</span>
-          </div>
-        </div>
-        <div>
+          {% assign cta_link = collections[collection_banner].metafields.custom_fields["cta_link"] %}
+          <a class="pdp-banner__cta pdp-banner__cta-desk" href="{{cta_link}}">{{ collections[collection_banner].metafields.custom_fields["cta_text"] }}</a>
 
-          <a class="pdp-banner__cta pdp-banner__cta-mob" href="{{cta_link}}">{{ collections[collection_banner].metafields.custom_fields["cta_text"] }}</a>
-          <a class="pdp-banner__cta pdp-banner__cta-mob" href="{{cta_link_2}}">{{ collections[collection_banner].metafields.custom_fields["cta_text_2"] }}</a>
-        </div>
+          {% assign cta_link_2 = collections[collection_banner].metafields.custom_fields["cta_link_2"] %}
+          <a class="pdp-banner__cta pdp-banner__cta-desk" href="{{cta_link_2}}">{{ collections[collection_banner].metafields.custom_fields["cta_text_2"] }}</a>
 
+        </div>
+        <div class="pdp-banner__box__col">
+
+          {% assign img_banner = collections[collection_banner].metafields.custom_fields["url_image"] %}
+          <img
+            data-src="{{ img_banner }}"
+            src=""
+            class="lazyload"
+            alt="silverskin banner">
+
+        </div>
+        <div class="pdp-banner__box__col">
+
+          <div class="custom-field custom-field__banner_description_secondary custom-field__type--text">
+            <div class="custom-field--value">
+              {{ collections[collection_banner].metafields.custom_fields["banner_description_secondary"] }}
+            </div>
+          </div>
+
+          <div class="hexagon__group">
+            <div class="hexagon__single">
+              {{ '10_ENHANCED_SILVER_FIBER_TECHNOLOGY_Esagono.png' | asset_url | img_tag: 'apice silverskin' }}
+              <span class="feature_text">{{ collections[collection_banner].metafields.custom_fields["banner_secondary_feature2"] }}</span>
+            </div>
+            <div class="hexagon__single">
+              {{ '9_THERMO_BUFFERING_SYSTEM_Esagono.png' | asset_url | img_tag: 'apice silverskin' }}
+              <span class="feature_text">{{ collections[collection_banner].metafields.custom_fields["banner_secondary_feature1"] }}</span>
+            </div>
+            <div class="hexagon__single">
+              {{ '11_STRUTTURA_OTTIMIZZATA_DEL_FILATO_Esagono.png' | asset_url | img_tag: 'apice silverskin' }}
+              <span class="feature_text">{{ collections[collection_banner].metafields.custom_fields["banner_secondary_feature3"] }}</span>
+            </div>
+          </div>
+          <div>
+
+            <a class="pdp-banner__cta pdp-banner__cta-mob" href="{{cta_link}}">{{ collections[collection_banner].metafields.custom_fields["cta_text"] }}</a>
+            <a class="pdp-banner__cta pdp-banner__cta-mob" href="{{cta_link_2}}">{{ collections[collection_banner].metafields.custom_fields["cta_text_2"] }}</a>
+          </div>
+
+        </div>
       </div>
     </div>
-  </div>
+  {% endif %}
 
 
+  {% if secondary_handle_banner_1 != blank or secondary_handle_banner_2 != blank %}
+    {% comment %}
+    SECONDARY BANNERS
+    {% endcomment %}<h3 class="title-secondary-banner">SCOPRI LA NOSTRA COLLEZIONE</h3>
 
-  {% comment %}
-  SECONDARY BANNERS
-  {% endcomment %}<h3 class="title-secondary-banner">SCOPRI LA NOSTRA COLLEZIONE</h3>
+    <div class="secondary-banner">
 
-  <div class="secondary-banner">
+      <div
+        class="secondary-banner__box {{secondary_handle_banner_1}}__banner lazyload"
+        data-bgset="{{secondary_img_banner_1}}"
+        data-size="auto">
 
-    <div
-      class="secondary-banner__box {{secondary_handle_banner_1}}__banner lazyload"
-      data-bgset="{{secondary_img_banner_1}}"
-      data-size="auto">
+        <h2>
+          {{ secondary_title_banner_1 }}
+        </h2>
 
-      <h2>
-        {{ secondary_title_banner_1 }}
-      </h2>
+        <p>{{ collections[secondary_handle_banner_1].metafields.custom_fields["banner_description_like_second"] }}</p>
 
-      <p>{{ collections[secondary_handle_banner_1].metafields.custom_fields["banner_description_like_second"] }}</p>
+        <a class="secondary-banner__cta" href="{{secondary_link_banner_1}}">SCOPRI LA COLLEZIONE</a>
 
-      <a class="secondary-banner__cta" href="{{secondary_link_banner_1}}">SCOPRI LA COLLEZIONE</a>
+      </div>
+
+      <div
+        class="secondary-banner__box {{secondary_handle_banner_2}}__banner lazyload"
+        data-bgset="{{secondary_img_banner_2}}"
+        data-size="auto">
+
+        <h2>
+          {{ secondary_title_banner_2 }}
+        </h2>
+
+        <p>{{ collections[secondary_handle_banner_2].metafields.custom_fields["banner_description_like_second"] }}</p>
+
+        <a class="secondary-banner__cta" href="{{secondary_link_banner_2}}">SCOPRI LA COLLEZIONE</a>
+
+      </div>
 
     </div>
-
-    <div
-      class="secondary-banner__box {{secondary_handle_banner_2}}__banner lazyload"
-      data-bgset="{{secondary_img_banner_2}}"
-      data-size="auto">
-
-      <h2>
-        {{ secondary_title_banner_2 }}
-      </h2>
-
-      <p>{{ collections[secondary_handle_banner_2].metafields.custom_fields["banner_description_like_second"] }}</p>
-
-      <a class="secondary-banner__cta" href="{{secondary_link_banner_2}}">SCOPRI LA COLLEZIONE</a>
-
-    </div>
-
-  </div>
-
+  {% endif %}
 
 
   {% comment %}
