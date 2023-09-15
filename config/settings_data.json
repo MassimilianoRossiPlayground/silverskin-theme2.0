@@ -1544,6 +1544,19 @@
               "half": "full"
             }
           },
+          "1b31bfde-2b9a-4f72-9d72-65ced2df5c48": {
+            "type": "banner_temp",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Hero_Banner.jpg",
+              "title": "PRIMO THERMO DRY PRO",
+              "subtitle": "HIGH INTENSITY",
+              "class": "",
+              "cta_text": "SCOPRI PRIMO",
+              "cta_link": "https:\/\/www.silverskin.it\/collections\/primo-thermo-dry-pro\/donna",
+              "half": "full"
+            }
+          },
           "collection-woman-5": {
             "type": "banner_temp",
             "settings": {
@@ -1585,6 +1598,7 @@
           "collection-woman-0",
           "collection-woman-1",
           "collection-woman-2",
+          "1b31bfde-2b9a-4f72-9d72-65ced2df5c48",
           "collection-woman-5",
           "collection-woman-4",
           "collection-woman-3"
