@@ -1482,6 +1482,19 @@
               "cta_link": "\/collections\/stay-x-warm-collection\/Uomo+Stay-X-Warm",
               "half": "half"
             }
+          },
+          "981b43c4-7ec1-46b9-8bc0-8baa0c7750aa": {
+            "type": "banner_temp",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Hero_Banner.jpg",
+              "title": "PRIMO THERMO DRY PRO",
+              "subtitle": "",
+              "class": "",
+              "cta_text": "SCOPRI TUTTI I PRODOTTI",
+              "cta_link": "",
+              "half": "half"
+            }
           }
         },
         "block_order": [
@@ -1490,7 +1503,8 @@
           "collection-man-2",
           "collection-man-5",
           "collection-man-4",
-          "collection-man-3"
+          "collection-man-3",
+          "981b43c4-7ec1-46b9-8bc0-8baa0c7750aa"
         ],
         "settings": {
           "collection_name": "UOMO",
