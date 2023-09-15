@@ -1212,6 +1212,7 @@
           },
           "2a07fafe-14ff-414d-b9e8-cbaddee00fa0": {
             "type": "advanced",
+            "disabled": true,
             "settings": {
               "subheading": "",
               "heading": "I nostri layer in azione",
@@ -1601,6 +1602,95 @@
           "rows_per_page": 7,
           "mobile_flush_grid": false
         }
+      },
+      "366a62e5-8bd9-49e3-888e-50319ce978ec": {
+        "type": "promo-grid",
+        "blocks": {
+          "f2b67a04-65d0-43ba-950c-eacf9aabeb4a": {
+            "type": "advanced",
+            "disabled": true,
+            "settings": {
+              "subheading": "",
+              "heading": "Scopri il base layer<br>per le passioni più intense",
+              "textarea": "",
+              "cta_text1": "PRIMO",
+              "cta_text1_color": "#ffffff",
+              "cta_link1": "https:\/\/primo-thermodry-pro.silverskin.it",
+              "cta_text2": "",
+              "cta_text2_color": "",
+              "cta_link2": "",
+              "image": "shopify:\/\/shop_images\/Fascia_Campagna.jpg",
+              "video_url": "",
+              "width": "100",
+              "height": 800,
+              "text_size": 120,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "center",
+              "color_accent": "rgba(0,0,0,0)",
+              "boxed": false,
+              "framed": false
+            }
+          },
+          "d9eb4ae7-fd24-465f-85d4-a6944b7cfde7": {
+            "type": "advanced",
+            "disabled": true,
+            "settings": {
+              "subheading": "",
+              "heading": "MONTAGNA, MAESTRA DI VITA",
+              "textarea": "ESPLORA LA SUA DIMENSIONE PIÙ INTIMA CON I NOSTRI BASE LAYER",
+              "cta_text1": "Scopri la collezione",
+              "cta_text1_color": "#ffffff",
+              "cta_link1": "shopify:\/\/pages\/spring-summer-2023",
+              "cta_text2": "",
+              "cta_text2_color": "",
+              "cta_link2": "",
+              "image": "shopify:\/\/shop_images\/foto-montagna-HP-BN.jpg",
+              "video_url": "",
+              "width": "100",
+              "height": 800,
+              "text_size": 120,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "center",
+              "color_accent": "rgba(0,0,0,0)",
+              "boxed": false,
+              "framed": false
+            }
+          },
+          "c7b44e20-4f81-4445-8930-9e492a6128e3": {
+            "type": "advanced",
+            "settings": {
+              "subheading": "",
+              "heading": "I nostri layer in azione",
+              "textarea": "Che tu sia in viaggio alla  scoperta di un nuovo trail o in partenza per un weekend sulla neve, <br>scopri il base layer perfetto per le tue attività.",
+              "cta_text1": "Trova il tuo base layer",
+              "cta_text1_color": "#ffffff",
+              "cta_link1": "shopify:\/\/pages\/attivita",
+              "cta_text2": "",
+              "cta_text2_color": "",
+              "cta_link2": "",
+              "video_url": "",
+              "width": "100",
+              "height": 800,
+              "text_size": 120,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "center",
+              "color_accent": "rgba(0,0,0,0)",
+              "boxed": false,
+              "framed": false
+            }
+          }
+        },
+        "block_order": [
+          "f2b67a04-65d0-43ba-950c-eacf9aabeb4a",
+          "d9eb4ae7-fd24-465f-85d4-a6944b7cfde7",
+          "c7b44e20-4f81-4445-8930-9e492a6128e3"
+        ],
+        "settings": {
+          "full_width": true,
+          "gutter_size": 0,
+          "space_above": false,
+          "space_below": false
+        }
       }
     },
     "content_for_index": [
@@ -1611,6 +1701,7 @@
       "1586f3e6-8b23-4c14-b513-ab776b94b9fe",
       "46775f4e-b84f-487e-af50-855a972303b5",
       "16057820817ca1b14f",
+      "366a62e5-8bd9-49e3-888e-50319ce978ec",
       "16ecb858-aa84-4da4-a25a-0d4b36124c28",
       "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
       "1594645290306",
