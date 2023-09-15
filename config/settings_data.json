@@ -1163,36 +1163,11 @@
         "blocks": {
           "be827a98-9d0e-43eb-bc7d-ff710a5983b2": {
             "type": "advanced",
-            "disabled": true,
             "settings": {
               "subheading": "",
               "heading": "Scopri il base layer<br>per le passioni più intense",
               "textarea": "",
               "cta_text1": "PRIMO",
-              "cta_text1_color": "#ffffff",
-              "cta_link1": "https:\/\/primo-thermodry-pro.silverskin.it",
-              "cta_text2": "",
-              "cta_text2_color": "",
-              "cta_link2": "",
-              "image": "shopify:\/\/shop_images\/Fascia_Campagna.jpg",
-              "video_url": "",
-              "width": "100",
-              "height": 800,
-              "text_size": 120,
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "center",
-              "color_accent": "rgba(0,0,0,0)",
-              "boxed": false,
-              "framed": false
-            }
-          },
-          "0cec81fe-d938-4e5e-af01-00753839703c": {
-            "type": "advanced",
-            "settings": {
-              "subheading": "",
-              "heading": "Scopri il base layer<br>per le passioni più intense",
-              "textarea": "",
-              "cta_text1": "Scopri la collezione",
               "cta_text1_color": "#ffffff",
               "cta_link1": "https:\/\/primo-thermodry-pro.silverskin.it",
               "cta_text2": "",
@@ -1498,7 +1473,6 @@
           },
           "981b43c4-7ec1-46b9-8bc0-8baa0c7750aa": {
             "type": "banner_temp",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Hero_Banner.jpg",
               "title": "PRIMO THERMO DRY PRO",
@@ -1590,7 +1564,6 @@
           },
           "1b31bfde-2b9a-4f72-9d72-65ced2df5c48": {
             "type": "banner_temp",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Hero_Banner.jpg",
               "title": "PRIMO THERMO DRY PRO",
