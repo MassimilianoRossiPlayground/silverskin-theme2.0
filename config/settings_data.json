@@ -1465,7 +1465,6 @@
           },
           "981b43c4-7ec1-46b9-8bc0-8baa0c7750aa": {
             "type": "banner_temp",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Hero_Banner.jpg",
               "title": "PRIMO THERMO DRY PRO",
