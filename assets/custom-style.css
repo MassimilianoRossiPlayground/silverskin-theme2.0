@@ -3087,14 +3087,16 @@ h1.section-header__title {
 .template-page .site-nav__icons__black,
 .template-blog .site-nav__icons__black,
 .template-collection--uomo .site-nav__icons__black,
-.template-collection--donna .site-nav__icons__black {
+.template-collection--donna .site-nav__icons__black,
+.template-collection--primo-thermo-dry-pro .site-nav__icons__black {
     display: block;
 }
 
 .template-page .site-nav__icons__white,
 .template-blog .site-nav__icons__white,
 .template-collection--uomo .site-nav__icons__white,
-.template-collection--donna .site-nav__icons__white {
+.template-collection--donna .site-nav__icons__white,
+.template-collection--primo-thermo-dry-pro .site-nav__icons__white {
     display: none;
 }
 
