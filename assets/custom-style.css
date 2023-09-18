@@ -2588,7 +2588,11 @@ label.variant__button-label.color-swatch {
     display: flex;
     flex-wrap: wrap;
 }
-
+@media screen and (max-width:768px) {
+    .collection-division .grid {
+        flex-wrap: nowrap;
+    }
+}
 .grid-product__title--heading {
     text-transform: none;
 }
