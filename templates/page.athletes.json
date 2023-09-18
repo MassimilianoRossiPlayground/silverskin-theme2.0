@@ -14,7 +14,6 @@
           "settings": {
             "first_name": "Marco",
             "last_name": "Verdi",
-            "image": "shopify:\/\/shop_images\/Rectangle_7.png",
             "link": "",
             "tag_trail": true,
             "tag_bike": true,
@@ -29,8 +28,7 @@
           "settings": {
             "first_name": "Massimo",
             "last_name": "Bianchi",
-            "image": "shopify:\/\/shop_images\/BG_Card_61fc7f81-9745-46d7-a16d-cb3d2109eede.jpg",
-            "video": "shopify:\/\/files\/videos\/20066a2377f44210b83c417a3b7cb1c9.mp4",
+            "video": "shopify:\/\/files\/videos\/af6d95293a244c2885a65087a17faed8.mp4",
             "link": "",
             "tag_trail": false,
             "tag_bike": false,
@@ -45,7 +43,6 @@
           "settings": {
             "first_name": "Luca",
             "last_name": "Bho",
-            "image": "shopify:\/\/shop_images\/Rectangle_7.png",
             "link": "",
             "tag_trail": false,
             "tag_bike": false,
@@ -60,7 +57,6 @@
           "settings": {
             "first_name": "Nome",
             "last_name": "Cognome",
-            "image": "shopify:\/\/shop_images\/Rectangle_7.png",
             "link": "",
             "tag_trail": true,
             "tag_bike": false,

@@ -2590,7 +2590,14 @@ label.variant__button-label.color-swatch {
     display: flex;
     flex-wrap: wrap;
 }
-
+@media screen and (max-width:768px) {
+    .grid-overflow-wrapper .grid.grid--uniform {
+        flex-wrap: nowrap;
+    }
+    .grid-overflow-wrapper .collection-division .grid {
+        flex-wrap: nowrap;
+    }
+}
 .grid-product__title--heading {
     text-transform: none;
 }
@@ -3089,14 +3096,16 @@ h1.section-header__title {
 .template-page .site-nav__icons__black,
 .template-blog .site-nav__icons__black,
 .template-collection--uomo .site-nav__icons__black,
-.template-collection--donna .site-nav__icons__black {
+.template-collection--donna .site-nav__icons__black,
+.template-collection--primo-thermo-dry-pro .site-nav__icons__black {
     display: block;
 }
 
 .template-page .site-nav__icons__white,
 .template-blog .site-nav__icons__white,
 .template-collection--uomo .site-nav__icons__white,
-.template-collection--donna .site-nav__icons__white {
+.template-collection--donna .site-nav__icons__white,
+.template-collection--primo-thermo-dry-pro .site-nav__icons__white {
     display: none;
 }
 
@@ -5449,6 +5458,9 @@ h1.section-header__title {
 
 
     /* home mob */
+    .flex-grid__item.flex-grid__item--100.flex-grid__item--d17de3f9-4b74-4609-ae62-1d8646e6d6a8.type-advanced img {
+        object-position: 90%;
+    }
     img.image-fit.hero__image.hero__image--1578407199975.lazyautosizes.lazyloaded {
         object-position: center;
     }

@@ -425,9 +425,9 @@
               "title": "PRIMO Thermo Dry Pro,<br> il base layer per l'alta intensità",
               "title_size": 70,
               "subheading": "",
-              "link": "\/collections\/primo-thermo-dry-pro\/uomo",
+              "link": "https:\/\/www.silverskin.it\/collections\/primo-thermo-dry-pro\/uomo",
               "link_text": "Acquista uomo",
-              "link_2": "\/collections\/primo-thermo-dry-pro\/donna",
+              "link_2": "https:\/\/www.silverskin.it\/collections\/primo-thermo-dry-pro\/donna",
               "link_text_2": "Acquista donna",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
@@ -721,6 +721,7 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
+              "image": "shopify:\/\/shop_images\/08-Homepage-Banner-Collezione-Stay-Fresh.jpg",
               "video_url": "",
               "width": "100",
               "height": 480,
@@ -744,6 +745,7 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna",
+              "image": "shopify:\/\/shop_images\/hp-banner-warm-desk_f479220a-cf5a-4dca-be01-b5dec608a761.jpg",
               "video_url": "",
               "width": "50",
               "height": 500,
@@ -1167,7 +1169,7 @@
               "subheading": "",
               "heading": "Scopri il base layer<br>per le passioni più intense",
               "textarea": "",
-              "cta_text1": "PRIMO",
+              "cta_text1": "SCOPRI PRIMO",
               "cta_text1_color": "#ffffff",
               "cta_link1": "https:\/\/primo-thermodry-pro.silverskin.it",
               "cta_text2": "",
@@ -1415,6 +1417,7 @@
           "collection-man-0": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-product-banner-01-men-desk_2x_40660827-63b2-457d-afbe-ab02b960a269.jpg",
               "title": "MAGLIE",
               "cta_text": "VEDI TUTTI",
               "cta_link": "\/collections\/base-layer-maglie\/Uomo",
@@ -1424,6 +1427,7 @@
           "collection-man-1": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-product-banner-02-men-desk_2x_94593c72-5ed7-4db6-9639-3ff87386f2f9.jpg",
               "title": "PANTALONI",
               "cta_text": "VEDI TUTTI",
               "cta_link": "\/collections\/base-layer-pantaloni\/Uomo",
@@ -1433,6 +1437,7 @@
           "collection-man-2": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-product-banner-03-men-desk_1x_2e23ea8d-7728-4a0f-993d-b78bd219f0f7.jpg",
               "title": "ACCESSORI",
               "cta_text": "VEDI TUTTI",
               "cta_link": "\/collections\/accessori\/Uomo+Accessori",
@@ -1442,6 +1447,7 @@
           "collection-man-5": {
             "type": "banner_temp",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-fresh-banner-men-desk_2x_a814bf85-49d4-49b7-9fb8-b9923da11f0b.jpg",
               "title": "STAY FRESH",
               "subtitle": "DA 10° A 40°",
               "class": "stay-fresh",
@@ -1453,6 +1459,7 @@
           "collection-man-4": {
             "type": "banner_temp",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-warm-banner-men-desk_2x_f7a7a7d1-55bc-4a07-95cf-a8b6286a2273.jpg",
               "title": "STAY WARM",
               "subtitle": "DA -20° A 20°",
               "class": "stay-warm",
@@ -1464,6 +1471,7 @@
           "collection-man-3": {
             "type": "banner_temp",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-x-warm-banner-men-desk_2x_d9398c6f-e118-4168-99fc-b4e2ad74caf4.jpg",
               "title": "STAY X-WARM",
               "subtitle": "DA -40° A -10°",
               "class": "stay-xwarm",
@@ -1600,13 +1608,13 @@
           "enable_collection_count": true,
           "per_row": 3,
           "rows_per_page": 7,
-          "mobile_flush_grid": false
+          "mobile_flush_grid": true
         }
       },
-      "366a62e5-8bd9-49e3-888e-50319ce978ec": {
+      "907aa47b-4398-4a40-b26d-b02ec2ff66c7": {
         "type": "promo-grid",
         "blocks": {
-          "f2b67a04-65d0-43ba-950c-eacf9aabeb4a": {
+          "87fef3c1-efdb-4188-bdf0-254639f55cca": {
             "type": "advanced",
             "disabled": true,
             "settings": {
@@ -1631,7 +1639,7 @@
               "framed": false
             }
           },
-          "d9eb4ae7-fd24-465f-85d4-a6944b7cfde7": {
+          "156d3bb7-0f95-434c-9584-1233d79e11b2": {
             "type": "advanced",
             "disabled": true,
             "settings": {
@@ -1656,7 +1664,7 @@
               "framed": false
             }
           },
-          "c7b44e20-4f81-4445-8930-9e492a6128e3": {
+          "881ff7ab-1c0c-4c9d-901b-5cd2efe12d37": {
             "type": "advanced",
             "settings": {
               "subheading": "",
@@ -1668,6 +1676,7 @@
               "cta_text2": "",
               "cta_text2_color": "",
               "cta_link2": "",
+              "image": "shopify:\/\/shop_images\/06-Homepage-Banner-I-nostri-layer-in-azione.jpg",
               "video_url": "",
               "width": "100",
               "height": 800,
@@ -1681,9 +1690,9 @@
           }
         },
         "block_order": [
-          "f2b67a04-65d0-43ba-950c-eacf9aabeb4a",
-          "d9eb4ae7-fd24-465f-85d4-a6944b7cfde7",
-          "c7b44e20-4f81-4445-8930-9e492a6128e3"
+          "87fef3c1-efdb-4188-bdf0-254639f55cca",
+          "156d3bb7-0f95-434c-9584-1233d79e11b2",
+          "881ff7ab-1c0c-4c9d-901b-5cd2efe12d37"
         ],
         "settings": {
           "full_width": true,
@@ -1701,7 +1710,7 @@
       "1586f3e6-8b23-4c14-b513-ab776b94b9fe",
       "46775f4e-b84f-487e-af50-855a972303b5",
       "16057820817ca1b14f",
-      "366a62e5-8bd9-49e3-888e-50319ce978ec",
+      "907aa47b-4398-4a40-b26d-b02ec2ff66c7",
       "16ecb858-aa84-4da4-a25a-0d4b36124c28",
       "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
       "1594645290306",
