@@ -6554,3 +6554,7 @@ div#shopify-section-template--17675682939201__837eff25-8318-4f0f-b6c9-cbb0be57e6
 .main-template-buono-regalo .secondary-banner {
     display: none;
 }
+
+html[lang="de"] .footer__top__col__title {
+    font-size: 8px;
+}
