@@ -1,0 +1,206 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "c7fa9333-374b-4e5d-b442-8fc30697fb98": {
+      "type": "page-athlete",
+      "settings": {
+        "firstname": "STEFANO",
+        "lastname": "LA MASTRA",
+        "year": "1988",
+        "tag_trail": true,
+        "tag_bike": true,
+        "tag_snowsport": true,
+        "tag_running": false,
+        "tag_mountaineering": true,
+        "tag_other": false,
+        "other_infos": "LOREM ISPUM<br>LOREM ISPUM<br>LOREM ISPUM<br>LOREM ISPUM<br>LOREM ISPUM",
+        "image": "shopify:\/\/shop_images\/Place_Holder.png",
+        "image_mob": "shopify:\/\/shop_images\/placeholder_mob.png",
+        "paragraph_top": "<p>Lorem ipsum dolor sit amet consectetur. Non iaculis nullam pellentesque diam. Mi arcu ut commodo nulla. Pulvinar turpis praesent a ut tellus in condimentum. Faucibus quam ornare tellus sed purus.<\/p>",
+        "paragraph_right": "<p><strong>Lorem ipsum dolor sit amet consectetur. Purus porta vel donec vitae sit mauris dolor. <\/strong><\/p><p>Interdum consequat sem suspendisse non.Viverra elementum commodo fusce ornare at. Hendrerit nec sed turpis pharetra fermentum sodales. Suspendisse purus posuere et elementum elit purus nisi malesuada. Quisque tellus tristique eget sagittis aliquam.<\/p><p>Eleifend nunc lorem platea sollicitudin viverra nascetur. Massa ultricies venenatis habitant vulputate scelerisque. Magna integer donec tristique ut sed. Habitant ac arcu etiam dignissim elit.<\/p>",
+        "image_1": "shopify:\/\/shop_images\/Rectangle_50.jpg",
+        "image_2": "shopify:\/\/shop_images\/Rectangle_112.jpg",
+        "image_3": "shopify:\/\/shop_images\/Rectangle_111.jpg",
+        "paragraph_two_columns_1": "<p>Lorem ipsum dolor sit amet consectetur. Elementum proin at elit ligula ut integer massa ut. Viverra risus placerat adipiscing lacus tempus. Nisl ullamcorper eros in a. Suspendisse penatibus tempor laoreet sollicitudin dui donec scelerisque.Adipiscing sit placerat pretium facilisis netus. A ac pretium ut ut blandit leo. Lectus elementum iaculis nibh posuere venenatis elementum diam. Ultrices augue lobortis velit commodo diam. Cursus semper et varius consectetur id ut sed eget.Cursus vel enim mauris semper ullamcorper dignissim. Tortor est ornare urna eu nunc purus in turpis lectus. Et hendrerit nullam semper feugiat tellus. Enim adipiscing dui sit neque nulla. Neque sed est ac ullamcorper ornare semper. At mi est vulputate facilisi faucibus id vivamus purus nec. Est risus neque vitae augue lorem donec. Id tellus ullamcorper ullamcorper vel sed feugiat. Scelerisque eu molestie sed elementum malesuada commodo dictum. Pharetra augue elit hac blandit pharetra sagittis.Ut lorem dolor ut amet leo eget. Netus tellus vestibulum blandit hendrerit vitae est. Faucibus laoreet nibh sed urna urna turpis a tellus massa. Pulvinar varius orci lacus tempus et fermentum.<\/p>",
+        "paragraph_two_columns_2": "<p>Lorem ipsum dolor sit amet consectetur. Sed ipsum diam vestibulum et tristique. Felis tristique tellus nibh sit quam turpis malesuada tempus. Malesuada facilisis turpis justo amet amet ut. Pellentesque nunc vivamus nibh et ac ridiculus. Eget dignissim tristique eget eu blandit tincidunt sagittis. In in consectetur magna nibh eget. Ultricies mauris id consectetur aliquam lectus metus fermentum.Scelerisque ornare vitae volutpat lorem eget faucibus. Gravida cursus lectus aliquet morbi nam dictum urna lorem vitae. Euismod volutpat ut vulputate nibh adipiscing. Convallis vel congue commodo ultrices ipsum. Dui viverra id id vestibulum a. Viverra adipiscing ut mattis varius pellentesque. Aliquam lacus nec metus in sed mauris massa. Commodo mi maecenas senectus ac. Et purus felis nec lorem iaculis semper sapien non velit. Ac eget dolor ac rhoncus at magna commodo facilisi.Metus urna gravida nulla molestie cum. Mauris nisl enim aenean lacus enim etiam netus. Nibh nunc aliquet magna gravida.<\/p>",
+        "banner_top": "“ Lorem ipsum dolor sit amet consectetur. Non iaculis nullam pellentesque diam. Mi arcu ut commodo nulla.”",
+        "banner_bottom": "Lorem ipsum dolor sit amet consectetur. Purus porta vel donec vitae sit mauris dolor. Interdum consequat sem suspendisse non.",
+        "image_banner": "shopify:\/\/shop_images\/Rectangle_113.jpg"
+      }
+    },
+    "b07a977a-e3bf-4351-8992-c2ac8e3f9eaa": {
+      "type": "modulo-slider-horizontal",
+      "blocks": {
+        "template--20879924265273__b07a977a-e3bf-4351-8992-c2ac8e3f9eaa-slide-1": {
+          "type": "slide",
+          "settings": {
+            "title": "VERTICAL LINE",
+            "sub_title": "LOREM IPSUM DOLOR",
+            "date": "02.02.2018",
+            "horizontal_position": "0",
+            "ref_year": "2018",
+            "vertical_alignment": "top"
+          }
+        },
+        "64513ebd-655a-4398-9142-cb49b732057a": {
+          "type": "slide",
+          "settings": {
+            "title": "VERTICAL LINE",
+            "sub_title": "LOREM IPSUM DOLOR",
+            "date": "02.02.2018",
+            "horizontal_position": "35",
+            "ref_year": "2018",
+            "vertical_alignment": "bottom"
+          }
+        },
+        "b49ba4c4-5a99-47d6-8531-aef44a681b30": {
+          "type": "slide",
+          "settings": {
+            "title": "VERTICAL LINE",
+            "sub_title": "LOREM IPSUM DOLOR",
+            "date": "02.02.2019",
+            "horizontal_position": "10",
+            "ref_year": "2019",
+            "vertical_alignment": "top"
+          }
+        },
+        "99183939-1478-4bc7-ba62-bd04e857da8e": {
+          "type": "slide",
+          "settings": {
+            "title": "VERTICAL LINE",
+            "sub_title": "LOREM IPSUM DOLOR",
+            "date": "02.02.2019",
+            "horizontal_position": "80",
+            "ref_year": "2019",
+            "vertical_alignment": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "template--20879924265273__b07a977a-e3bf-4351-8992-c2ac8e3f9eaa-slide-1",
+        "64513ebd-655a-4398-9142-cb49b732057a",
+        "b49ba4c4-5a99-47d6-8531-aef44a681b30",
+        "99183939-1478-4bc7-ba62-bd04e857da8e"
+      ],
+      "settings": {
+        "years_list": "2018|2019|2020|2021|2022|2023"
+      }
+    },
+    "73315e4b-8476-4924-b485-d88ebb5e60e9": {
+      "type": "modulo-slider-big-images",
+      "blocks": {
+        "template--20879924265273__73315e4b-8476-4924-b485-d88ebb5e60e9-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_114.jpg"
+          }
+        },
+        "26ea61ea-0c38-40be-a0c3-a1eccc43545e": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_114_2f360e95-28a0-4849-9f0c-0670607a533a.jpg"
+          }
+        },
+        "6e2dd058-7e26-4eb9-8356-424582f861a2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_114_a8327363-9332-43c4-86e0-65a0f69a3c40.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--20879924265273__73315e4b-8476-4924-b485-d88ebb5e60e9-slide-1",
+        "26ea61ea-0c38-40be-a0c3-a1eccc43545e",
+        "6e2dd058-7e26-4eb9-8356-424582f861a2"
+      ],
+      "settings": {
+      }
+    },
+    "ede282c7-05a6-4d1f-9bd1-f5d0d069cc2e": {
+      "type": "modulo-blog-slider",
+      "blocks": {
+        "template--20879924265273__ede282c7-05a6-4d1f-9bd1-f5d0d069cc2e-slide-1": {
+          "type": "slide",
+          "settings": {
+            "article": "news\/un-altro-articolo"
+          }
+        },
+        "8d5415ac-c8fa-4da9-a2e5-dfe25eb65943": {
+          "type": "slide",
+          "settings": {
+            "article": "news\/maglie-termiche-perfette"
+          }
+        },
+        "249faae4-3744-4b11-8b7f-540e4229e490": {
+          "type": "slide",
+          "settings": {
+            "article": "news\/cycling-con-atleti-silverksin"
+          }
+        }
+      },
+      "block_order": [
+        "template--20879924265273__ede282c7-05a6-4d1f-9bd1-f5d0d069cc2e-slide-1",
+        "8d5415ac-c8fa-4da9-a2e5-dfe25eb65943",
+        "249faae4-3744-4b11-8b7f-540e4229e490"
+      ],
+      "settings": {
+        "sup_title": "test",
+        "title": "TITLE",
+        "cta_link": "shopify:\/\/blogs\/news",
+        "cta_text": ""
+      }
+    },
+    "a7385056-97cf-42a9-b2b5-30e903b4afb3": {
+      "type": "modulo-slider-favourites",
+      "blocks": {
+        "template--20879924265273__a7385056-97cf-42a9-b2b5-30e903b4afb3-cards-1": {
+          "type": "cards",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-corta-anthracite"
+          }
+        },
+        "55fabc64-d97b-4ee8-9784-4245a56f0463": {
+          "type": "cards",
+          "settings": {
+            "product": "stay-fresh-maglia-ciclismo-pearlgrey-1"
+          }
+        },
+        "0e096832-2ec6-4fad-a808-8baf31926d37": {
+          "type": "cards",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-corta-grigio-perla"
+          }
+        },
+        "3037299a-edc7-4d78-86f2-5233b2d7e560": {
+          "type": "cards",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-corta-anthracite"
+          }
+        }
+      },
+      "block_order": [
+        "template--20879924265273__a7385056-97cf-42a9-b2b5-30e903b4afb3-cards-1",
+        "55fabc64-d97b-4ee8-9784-4245a56f0463",
+        "0e096832-2ec6-4fad-a808-8baf31926d37",
+        "3037299a-edc7-4d78-86f2-5233b2d7e560"
+      ],
+      "settings": {
+        "title": "STEFANO'S FAVOURITES",
+        "link_view_all": "shopify:\/\/collections\/accessori"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c7fa9333-374b-4e5d-b442-8fc30697fb98",
+    "b07a977a-e3bf-4351-8992-c2ac8e3f9eaa",
+    "73315e4b-8476-4924-b485-d88ebb5e60e9",
+    "ede282c7-05a6-4d1f-9bd1-f5d0d069cc2e",
+    "a7385056-97cf-42a9-b2b5-30e903b4afb3"
+  ]
+}

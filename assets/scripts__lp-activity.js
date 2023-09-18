@@ -30,7 +30,7 @@ if ($activityTemplate.length || $snowTemplate.length) {
 
         $paneSelector.on("click", function () {
             let activity = $(this).attr("data-pane")
-            
+
             activePane(activity)
             updateBar()
         })
@@ -122,7 +122,11 @@ function activeCollection(collectionSelectedEle, scroll=true){
     $tempSelector.removeClass("active")
     $collectionContainer.removeClass("active")
 
-    $(".collection-container[data-collection=" + selectedActivity + "-stay-" + selectedTemp  +"]").addClass("active")
+    if (selectedTemp == "primo") {
+        $(".collection-container[data-collection=" + selectedActivity + "-" + selectedTemp  +"]").addClass("active")
+    } else {
+        $(".collection-container[data-collection=" + selectedActivity + "-stay-" + selectedTemp  +"]").addClass("active")
+    }
     $(".activity-page__pane-selector." + selectedTemp).addClass("active")
 
     initSlider()

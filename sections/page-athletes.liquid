@@ -1,10 +1,9 @@
 <script>
-  var headerWrapper = document.querySelector(".header-wrapper");
-  headerWrapper.classList.add("is-light");
+  var headerWrapper = document.querySelector('.header-wrapper');
+  headerWrapper.classList.add('is-light');
 </script>
 
 <div class="athletes-page">
-
   <div class="athletes-page__head">
     <div class="boxed">
       <div class="athletes-page__head__left">
@@ -15,16 +14,14 @@
       <div class="athletes-page__head__right">
         <div class="athletes-page__head__right__text only-desk">{{ section.settings.right_text }}</div>
         <a href="#athlete-list-anchor" class="scroll-down" attr-scroll>Scroll to discover</a>
-        <span id="athlete-list-anchor" ></span>
+        <span id="athlete-list-anchor"></span>
       </div>
     </div>
   </div>
-  
+
   <div id="athlete-list" class="athletes-page__list">
     <div class="athletes-page__list__filters">
-
       {%- liquid
-
         assign tag_trail_count = 0
         assign tag_bike_count = 0
         assign tag_snowsport_count = 0
@@ -33,90 +30,93 @@
         assign tag_other_count = 0
 
         for block in section.blocks
-
           if block.settings.tag_trail
-            assign tag_trail_count = tag_trail_count | plus: 1 
+            assign tag_trail_count = tag_trail_count | plus: 1
           endif
           if block.settings.tag_bike
-            assign tag_bike_count = tag_bike_count | plus: 1 
+            assign tag_bike_count = tag_bike_count | plus: 1
           endif
           if block.settings.tag_snowsport
-            assign tag_snowsport_count = tag_snowsport_count | plus: 1 
+            assign tag_snowsport_count = tag_snowsport_count | plus: 1
           endif
           if block.settings.tag_running
-            assign tag_running_count = tag_running_count | plus: 1 
+            assign tag_running_count = tag_running_count | plus: 1
           endif
           if block.settings.tag_mountaineering
-            assign tag_mountaineering_count = tag_mountaineering_count | plus: 1 
+            assign tag_mountaineering_count = tag_mountaineering_count | plus: 1
           endif
           if block.settings.tag_other
-            assign tag_other_count = tag_other_count | plus: 1 
+            assign tag_other_count = tag_other_count | plus: 1
           endif
-
         endfor
-
       -%}
 
-      <span class="js-athlete-filter selected" data-filter="all">All
+      <span class="js-athlete-filter selected" data-filter="all"
+        >All
         <sup attr-filter-count>({{ section.blocks.size }})</sup>
       </span>
-      
-      <span class="js-athlete-filter" data-filter="trail">Trail
-        <sup attr-filter-count>({{tag_trail_count}})</sup>
-      </span>
-      
-      <span class="js-athlete-filter" data-filter="bike">Bike
-        <sup attr-filter-count>({{tag_bike_count}})</sup>
-      </span>
-      
-      <span class="js-athlete-filter" data-filter="snowsport">Snowsport
-        <sup attr-filter-count>({{tag_snowsport_count}})</sup>
-      </span>
-      
-      <span class="js-athlete-filter" data-filter="running">Running
-        <sup attr-filter-count>({{tag_running_count}})</sup>
-      </span>
-      
-      <span class="js-athlete-filter" data-filter="mountaineering">Mountaineering
-        <sup attr-filter-count>({{tag_mountaineering_count}})</sup>
-      </span>
-      
-      <span class="js-athlete-filter" data-filter="other">Other
-        <sup attr-filter-count>({{tag_other_count}})</sup>
+
+      <span class="js-athlete-filter" data-filter="trail"
+        >Trail
+        <sup attr-filter-count>({{ tag_trail_count }})</sup>
       </span>
 
+      <span class="js-athlete-filter" data-filter="bike"
+        >Bike
+        <sup attr-filter-count>({{ tag_bike_count }})</sup>
+      </span>
+
+      <span class="js-athlete-filter" data-filter="snowsport"
+        >Snowsport
+        <sup attr-filter-count>({{ tag_snowsport_count }})</sup>
+      </span>
+
+      <span class="js-athlete-filter" data-filter="running"
+        >Running
+        <sup attr-filter-count>({{ tag_running_count }})</sup>
+      </span>
+
+      <span class="js-athlete-filter" data-filter="mountaineering"
+        >Mountaineering
+        <sup attr-filter-count>({{ tag_mountaineering_count }})</sup>
+      </span>
+
+      <span class="js-athlete-filter" data-filter="other"
+        >Other
+        <sup attr-filter-count>({{ tag_other_count }})</sup>
+      </span>
     </div>
     <div class="athletes-page__list__cards">
-
       {% for block in section.blocks %}
+        {%- liquid
+          assign list_tags = ''
 
-        {%-liquid 
-            assign list_tags = ""
-          
-            if block.settings.tag_trail
-              assign list_tags = list_tags | append: "trail|"
-            endif
-            if block.settings.tag_bike
-              assign list_tags = list_tags | append: "bike|"
-            endif
-            if block.settings.tag_snowsport
-              assign list_tags = list_tags | append: "snowsport|"
-            endif
-            if block.settings.tag_running
-              assign list_tags = list_tags | append: "running|"
-            endif
-            if block.settings.tag_mountaineering
-              assign list_tags = list_tags | append: "mountaineering|"
-            endif
-            if block.settings.tag_other
-              assign list_tags = list_tags | append: "other|"
-            endif
-          -%}
+          if block.settings.tag_trail
+            assign list_tags = list_tags | append: 'trail|'
+          endif
+          if block.settings.tag_bike
+            assign list_tags = list_tags | append: 'bike|'
+          endif
+          if block.settings.tag_snowsport
+            assign list_tags = list_tags | append: 'snowsport|'
+          endif
+          if block.settings.tag_running
+            assign list_tags = list_tags | append: 'running|'
+          endif
+          if block.settings.tag_mountaineering
+            assign list_tags = list_tags | append: 'mountaineering|'
+          endif
+          if block.settings.tag_other
+            assign list_tags = list_tags | append: 'other|'
+          endif
+        -%}
 
         <div class="athlete-card js-athlete-card" data-tags="{{list_tags}}">
           <div class="athlete-card__media">
             {% if block.settings.video %}
-              {% assign video = section.settings.video | video_tag: image_size: 'master', autoplay: true,  loop: true, muted: true, controls: false %}
+              {% assign video = block.settings.video
+                | video_tag: image_size: 'master', autoplay: true, loop: true, muted: true, controls: false
+              %}
               {{ video }}
             {% else %}
               <img src="{{ block.settings.image | img_url: "master" }}" alt="{{ block.settings.name | strip_html }}">
@@ -125,13 +125,15 @@
           <div class="athlete-card__content">
             <div class="athlete-card__content__top">
               <span class="athlete-card__content__top__sup">NAME</span>
-              <br/>
-              <h6><span class="athlete-first-name">{{ block.settings.first_name }}</span> <span class="athlete-last-name">{{ block.settings.last_name }}</span></h6>
+              <br>
+              <h6>
+                <span class="athlete-first-name">{{ block.settings.first_name }}</span>
+                <span class="athlete-last-name">{{ block.settings.last_name }}</span>
+              </h6>
             </div>
             <div class="athlete-card__content__bottom">
               <a href="{{ block.settings.link }}">MORE</a>
               <div class="athlete-card__content__bottom__tag-list">
-                
                 {% if block.settings.tag_trail %}
                   <span>Trail</span>
                 {% endif %}
@@ -150,194 +152,187 @@
                 {% if block.settings.tag_other %}
                   <span>Other</span>
                 {% endif %}
-                
               </div>
             </div>
           </div>
         </div>
       {% endfor %}
-
     </div>
   </div>
 
   <div class="athletes-page__projects">
+    <div class="athletes-page__projects__head">
+      <h5>{{ section.settings.sup_title_project }}</h5>
+      <h2>{{ section.settings.title_project }}</h2>
+    </div>
 
-      <div class="athletes-page__projects__head">
-        <h5>{{ section.settings.sup_title_project }}</h5>
-        <h2>{{ section.settings.title_project }}</h2>
-      </div>
+    <div class="athletes-page__projects__content">
+      <div class="athletes-articles">
+        <div class="athletes-articles__single">
+          <img
+            src="{{ section.settings.article_1.image | img_url: 'master' }}"
+            alt="{{ section.settings.article_1.title | strip_html }}"
+          >
+          <div class="athletes-articles__single__content">
+            <div class="athletes-articles__single__content__left">
+              {%- liquid
+                assign artilce_1_blog_handle = section.settings.article_1.handle | split: '/' | first
+                assign artilce_1_blog_name = blogs[artilce_1_blog_handle].title
+              -%}
 
-      <div class="athletes-page__projects__content">
-
-        <div class="athletes-articles">
-
-          <div class="athletes-articles__single">
-            <img src="{{ section.settings.article_1.image | img_url: 'master' }}" alt="{{ section.settings.article_1.title | strip_html }}">
-            <div class="athletes-articles__single__content">
-              <div class="athletes-articles__single__content__left">
-
-                {%-liquid
-                  assign artilce_1_blog_handle = section.settings.article_1.handle | split: "/" | first
-                  assign artilce_1_blog_name = blogs[artilce_1_blog_handle].title
-                -%}
-
-                <h6>{{ artilce_1_blog_name }}</h6>
-                <h5>{{ section.settings.article_1.title }}</h5>
-              </div>
-              <div class="athletes-articles__single__content__right">
-                <a href="{{ section.settings.article_1.url }}">READ THE STORY</a>
-              </div>
+              <h6>{{ artilce_1_blog_name }}</h6>
+              <h5>{{ section.settings.article_1.title }}</h5>
+            </div>
+            <div class="athletes-articles__single__content__right">
+              <a href="{{ section.settings.article_1.url }}">READ THE STORY</a>
             </div>
           </div>
-
-          <div class="athletes-articles__single">
-            <img src="{{ section.settings.article_2.image | img_url: 'master' }}" alt="{{ section.settings.article_2.title | strip_html }}">
-            <div class="athletes-articles__single__content">
-              <div class="athletes-articles__single__content__left">
-
-                {%-liquid
-                  assign artilce_2_blog_handle = section.settings.article_2.handle | split: "/" | first
-                  assign artilce_2_blog_name = blogs[artilce_2_blog_handle].title
-                -%}
-
-                <h6>{{ artilce_2_blog_name }}</h6>
-                <h5>{{ section.settings.article_2.title }}</h5>
-              </div>
-              <div class="athletes-articles__single__content__right">
-                <a href="{{ section.settings.article_2.url }}">READ THE STORY</a>
-              </div>
-            </div>
-          </div>
-
         </div>
 
-        
-      </div>
-      
-      <div class="btn-view-all">
-        <a href="/blogs/news">VIEW ALL</a>
+        <div class="athletes-articles__single">
+          <img
+            src="{{ section.settings.article_2.image | img_url: 'master' }}"
+            alt="{{ section.settings.article_2.title | strip_html }}"
+          >
+          <div class="athletes-articles__single__content">
+            <div class="athletes-articles__single__content__left">
+              {%- liquid
+                assign artilce_2_blog_handle = section.settings.article_2.handle | split: '/' | first
+                assign artilce_2_blog_name = blogs[artilce_2_blog_handle].title
+              -%}
+
+              <h6>{{ artilce_2_blog_name }}</h6>
+              <h5>{{ section.settings.article_2.title }}</h5>
+            </div>
+            <div class="athletes-articles__single__content__right">
+              <a href="{{ section.settings.article_2.url }}">READ THE STORY</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    
+
+    <div class="btn-view-all">
+      <a href="/blogs/news">VIEW ALL</a>
+    </div>
+  </div>
 </div>
 
 {% schema %}
-  {
-    "name": "Athletes Page",
-    "settings": [
-      {
-        "type": "text",
-        "id": "sup_title",
-        "label": "Sup Title"
-      },
-      {
-        "type": "html",
-        "id": "title",
-        "label": "Title"
-      },
-      {
-        "type": "html",
-        "id": "right_text",
-        "label": "Right text"
-      },
-      {
-        "type": "text",
-        "id": "sup_title_project",
-        "label": "Sup Title Project"
-      },
-      {
-        "type": "text",
-        "id": "title_project",
-        "label": "Title Project"
-      },
-      {
-        "type": "article",
-        "id": "article_1",
-        "label": "Article 1"
-      },
-      {
-        "type": "article",
-        "id": "article_2",
-        "label": "Article 2"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "card_athlete",
-        "name": "Card Athlete",
-        "settings": [
-          {
-            "type": "text",
-            "id": "first_name",
-            "label": "First Name"
-          },
-          {
-            "type": "text",
-            "id": "last_name",
-            "label": "Last Name"
-          },
-          {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Image"
-          },
-          {
-            "type": "video",
-            "id": "video",
-            "label": "Video"
-          },
-          {
-            "type": "url",
-            "id": "link",
-            "label": "Link"
-          },
-          {
-            "type": "checkbox",
-            "id": "tag_trail",
-            "label": "Trail"
-          },
-          {
-            "type": "checkbox",
-            "id": "tag_bike",
-            "label": "Bike"
-          },
-          {
-            "type": "checkbox",
-            "id": "tag_snowsport",
-            "label": "Snowsport"
-          },
-          {
-            "type": "checkbox",
-            "id": "tag_running",
-            "label": "Running"
-          },
-          {
-            "type": "checkbox",
-            "id": "tag_mountaineering",
-            "label": "Mountaineering"
-          },
-          {
-            "type": "checkbox",
-            "id": "tag_other",
-            "label": "Other"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Athletes Page"
-      }
-    ]
-  }
+{
+  "name": "Athletes Page",
+  "settings": [
+    {
+      "type": "text",
+      "id": "sup_title",
+      "label": "Sup Title"
+    },
+    {
+      "type": "html",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "html",
+      "id": "right_text",
+      "label": "Right text"
+    },
+    {
+      "type": "text",
+      "id": "sup_title_project",
+      "label": "Sup Title Project"
+    },
+    {
+      "type": "text",
+      "id": "title_project",
+      "label": "Title Project"
+    },
+    {
+      "type": "article",
+      "id": "article_1",
+      "label": "Article 1"
+    },
+    {
+      "type": "article",
+      "id": "article_2",
+      "label": "Article 2"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card_athlete",
+      "name": "Card Athlete",
+      "settings": [
+        {
+          "type": "text",
+          "id": "first_name",
+          "label": "First Name"
+        },
+        {
+          "type": "text",
+          "id": "last_name",
+          "label": "Last Name"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Video"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "tag_trail",
+          "label": "Trail"
+        },
+        {
+          "type": "checkbox",
+          "id": "tag_bike",
+          "label": "Bike"
+        },
+        {
+          "type": "checkbox",
+          "id": "tag_snowsport",
+          "label": "Snowsport"
+        },
+        {
+          "type": "checkbox",
+          "id": "tag_running",
+          "label": "Running"
+        },
+        {
+          "type": "checkbox",
+          "id": "tag_mountaineering",
+          "label": "Mountaineering"
+        },
+        {
+          "type": "checkbox",
+          "id": "tag_other",
+          "label": "Other"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Athletes Page"
+    }
+  ]
+}
 {% endschema %}
 
-
 {% style %}
-
-html {
-  scroll-behavior: smooth;
-}
+  html {
+    scroll-behavior: smooth;
+  }
   body.template-page.template-page--athletes {
     background: #000;
   }
@@ -351,20 +346,20 @@ html {
   }
   .athletes-page__head .boxed {
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
   }
   .athletes-page__head h1 {
-    font-family: "barlow-bold-italic" !important;
+    font-family: 'barlow-bold-italic' !important;
     font-size: 120px;
     margin-bottom: 0;
   }
   .athletes-page__head h5 {
-    font-family: "barlow" !important;
+    font-family: 'barlow' !important;
     font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: .3em;
+    letter-spacing: 0.3em;
     margin-bottom: 50px;
   }
   .athletes-page__head__left {
@@ -403,15 +398,15 @@ html {
     color: #fff;
   }
   .athletes-page__list__filters {
-    width: calc(100% / 3);
+    width: calc(100% / 4);
     top: 0;
     padding: 0 20px;
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
     color: #757382;
-    position: sticky;    
-    top: 150px;    
+    position: sticky;
+    top: 150px;
     align-self: self-start;
   }
   .athletes-page__list__cards {
@@ -425,6 +420,7 @@ html {
     width: calc(50% - 15px);
     position: relative;
     margin-bottom: 30px;
+    background: #181a1e;
   }
   .athlete-card.hide {
     display: none;
@@ -472,10 +468,14 @@ html {
     align-items: flex-end;
     text-transform: uppercase;
   }
-  .athlete-card__media, 
-  .athlete-card__media img {
+  .athlete-card__media,
+  .athlete-card__media img,
+  .athlete-card__media video {
     display: block;
     height: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    width: 100%;
   }
   .athletes-page__projects {
     background: #fff;
@@ -484,148 +484,150 @@ html {
   .athletes-page__projects__head {
     text-align: center;
     margin-bottom: 120px;
-}
-.athletes-page__projects__head h2 {
+  }
+  .athletes-page__projects__head h2 {
     font-size: 120px;
-}
-.athletes-page__projects__content {
+  }
+  .athletes-page__projects__content {
     max-width: 1420px;
     margin: 0 auto;
-}
-.athletes-articles {
+  }
+  .athletes-articles {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1420px;
     margin: 0 auto;
-}
-.athletes-articles__single {
-  width: calc(50% - 10px);
-}
-.athletes-articles__single img {
-  aspect-ratio: 1/1;
-  object-fit: cover;
-}
-.athletes-articles__single__content {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  align-items: end;
-}
-.athletes-articles__single__content__left h6,
-.athletes-articles__single__content__left h5 {
-  letter-spacing: normal;
-  font-size: 16px;
-  margin-bottom: 0;
-}
-.athletes-articles__single__content__left h6 {
-  opacity: 0.5;
-  font-family: 'barlow-light'!important;
-}
-.athletes-articles__single__content__right {
-    text-align: right;
-}
-.athletes-articles__single__content__right a {
-  text-decoration: underline;
-  font-family: 'barlow-semibold';
-}
-.btn-view-all {
-  text-align: center;
-  margin: 100px 0;
-}
-.btn-view-all a {
-  color: #000;
-  border: 1px solid #000;
-  padding: 10px 20px;
-  letter-spacing: 1px;
-}
-
-@media screen and (max-width: 768px) {
-  .athletes-page__head__right .scroll-down {
-    color: #fff;
-    font-size: 12px;
   }
-  .athletes-page__head h1 {
-    font-size: 48px;
-    text-align: center;
+  .athletes-articles__single {
+    width: calc(50% - 10px);
   }
-  .athletes-page__head h5 {
-    margin-bottom: 10px;
-    font-size: 12px;
+  .athletes-articles__single img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
   }
-  .athletes-page__head__left,
-  .athletes-page__head__right {
-    width: 100%;
-  }
-  .athletes-page__head__right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .athletes-page__head__right__text {
-    margin-top: 30px;
+  .athletes-articles__single__content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: end;
+    margin-top: 10px;
     font-size: 14px;
   }
-  .athletes-page__head__right__text br {
-    display: none;
+  .athletes-articles__single__content__left h6,
+  .athletes-articles__single__content__left h5 {
+    letter-spacing: normal;
+    font-size: 14px;
+    margin-bottom: 0;
   }
-  .athletes-page__head {
-    padding: 170px 20px 0px 20px;
-    height: 87vh;
-    margin-top: -120px;
+  .athletes-articles__single__content__left h6 {
+    opacity: 0.5;
+    font-family: 'barlow-light' !important;
   }
-  .athletes-page__head .boxed {
-    height: 100%;
+  .athletes-articles__single__content__right {
+    text-align: right;
   }
-  .athletes-page__projects__content {
-    overflow-x: auto;
-  }
-  .athletes-articles {
-    flex-wrap: nowrap;
-    max-width: unset;
-}
-  .athletes-articles__single {
-    width: 84vw;
-    min-width: 84vw;
-    margin-bottom: 30px;
-    margin-right: 10px;
-}
-  .athletes-page__projects__head h2 {
-    font-size: 48px;
-  }
-  .athletes-page__projects__head {
-      margin-bottom: 40px;
-  }
-  .athletes-page__projects__head h5 {
-    margin-bottom: 10px;
+  .athletes-articles__single__content__right a {
+    text-decoration: underline;
+    font-family: 'barlow-semibold';
   }
   .btn-view-all {
+    text-align: center;
+    margin: 100px 0;
+  }
+  .btn-view-all a {
+    color: #000;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .athletes-page__head__right .scroll-down {
+      color: #fff;
+      font-size: 12px;
+    }
+    .athletes-page__head h1 {
+      font-size: 48px;
+      text-align: center;
+    }
+    .athletes-page__head h5 {
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+    .athletes-page__head__left,
+    .athletes-page__head__right {
+      width: 100%;
+    }
+    .athletes-page__head__right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .athletes-page__head__right__text {
+      margin-top: 30px;
+      font-size: 14px;
+    }
+    .athletes-page__head__right__text br {
+      display: none;
+    }
+    .athletes-page__head {
+      padding: 170px 20px 0px 20px;
+      height: 87vh;
+      margin-top: -120px;
+    }
+    .athletes-page__head .boxed {
+      height: 100%;
+    }
+    .athletes-page__projects__content {
+      overflow-x: auto;
+    }
+    .athletes-articles {
+      flex-wrap: nowrap;
+      max-width: unset;
+    }
+    .athletes-articles__single {
+      width: 84vw;
+      min-width: 84vw;
+      margin-bottom: 30px;
+      margin-right: 10px;
+    }
+    .athletes-page__projects__head h2 {
+      font-size: 48px;
+    }
+    .athletes-page__projects__head {
+      margin-bottom: 40px;
+    }
+    .athletes-page__projects__head h5 {
+      margin-bottom: 10px;
+    }
+    .btn-view-all {
       text-align: center;
       margin: 40px 0;
-  }
-  .athletes-page__list__filters,
-  .athletes-page__list__cards {
-    width: 100%;
-    position: relative;
-    top: unset;
-  }
-  #athlete-list {
+    }
+    .athletes-page__list__filters,
+    .athletes-page__list__cards {
+      width: 100%;
+      position: relative;
+      top: unset;
+    }
+    #athlete-list {
       flex-wrap: wrap;
       margin: 50px auto 20px auto;
-  }
-  .athletes-page__list__filters {
+    }
+    .athletes-page__list__filters {
       display: flex;
       flex-direction: row;
       width: max-content;
       overflow-x: auto;
       margin-bottom: 20px;
-  }
-  .athletes-page__list__filters span {
+    }
+    .athletes-page__list__filters span {
       display: flex;
       margin-right: 20px;
       margin-bottom: 15px;
-  }
-  .athletes-page__list__cards {
+    }
+    .athletes-page__list__cards {
       display: flex;
       flex-direction: row;
       width: max-content;
@@ -633,107 +635,97 @@ html {
       margin-bottom: 20px;
       padding-left: 20px;
       flex-wrap: nowrap;
-  }
-  .athlete-card.js-athlete-card {
-    min-width: 80vw;
+    }
+    .athlete-card.js-athlete-card {
+      min-width: 80vw;
       width: 100%;
       margin-right: 10px;
-  }
-  .athletes-page__projects {
-    background: #d9d9d9;
+    }
+    .athletes-page__projects {
+      background: #d9d9d9;
       padding: 50px 20px 50px 20px;
-  }
-  .athletes-articles__single__content {
+    }
+    .athletes-articles__single__content {
       display: flex;
       flex-direction: column;
       text-align: center;
       align-items: center;
-  }
-  .athletes-articles__single__content__right {
-    margin-top: 20px;
-  }
-  .slider-favourites__head h5 {
-    font-size: 48px;
-    letter-spacing: normal !important;
-    line-height: 1 !important;
-    text-align: left;
-  }
-  .slider-favourites__head a {
-    display: none;
-  }
-  .slider-favourites {
+    }
+    .athletes-articles__single__content__right {
+      margin-top: 20px;
+    }
+    .slider-favourites__head h5 {
+      font-size: 48px;
+      letter-spacing: normal !important;
+      line-height: 1 !important;
+      text-align: left;
+    }
+    .slider-favourites__head a {
+      display: none;
+      text-transform: uppercase;
+    }
+    .slider-favourites {
       margin-top: -1px;
       background: #d9d9d9 !important;
-  }
-  span#athlete-list-anchor {
+    }
+    span#athlete-list-anchor {
       position: absolute;
       bottom: 110px;
-  }
-  .athletes-page__head__left__text {
-    text-align: center;
+    }
+    .athletes-page__head__left__text {
+      text-align: center;
       font-size: 12px;
       margin-top: 20px;
-  }
-  .athletes-page__head__left__text br {
+    }
+    .athletes-page__head__left__text br {
       display: none;
+    }
+    .athletes-articles__single__content__left h6 {
+      font-size: 12px;
+      margin-top: 10px;
+    }
+    .athletes-articles__single__content__left h5 {
+      font-size: 12px;
+    }
   }
-  .athletes-articles__single__content__left h6 {
-    font-size: 12px;
-    margin-top:10px;
-  }
-  .athletes-articles__single__content__left h5 {
-    font-size: 12px;
-  }
-
-}
 {% endstyle %}
 
 {% javascript %}
-
-(function() {
-
+  (function () {
     let selectors = {
       athleteFilters: '.js-athlete-filter',
       athleteCards: '.js-athlete-card',
-
     };
 
     let athleteFilters = document.querySelectorAll(selectors.athleteFilters);
     let athleteCards = document.querySelectorAll(selectors.athleteCards);
 
-    athleteFilters.forEach(athleteFilter => {
-      
-      athleteFilter.addEventListener("click", function(){
-        if (!athleteFilter.classList.contains("selected")) {
-          let athleteFilter__type = athleteFilter.getAttribute("data-filter")
+    athleteFilters.forEach((athleteFilter) => {
+      athleteFilter.addEventListener('click', function () {
+        if (!athleteFilter.classList.contains('selected')) {
+          let athleteFilter__type = athleteFilter.getAttribute('data-filter');
 
-          athleteFilters.forEach(athleteFilter_clean => {
-            athleteFilter_clean.classList.remove("selected")
-          })
-          athleteFilter.classList.add("selected")
+          athleteFilters.forEach((athleteFilter_clean) => {
+            athleteFilter_clean.classList.remove('selected');
+          });
+          athleteFilter.classList.add('selected');
 
-          console.log(athleteFilter__type)
+          console.log(athleteFilter__type);
 
-          athleteCards.forEach(athleteCard => {
-            if (athleteFilter__type == "all") {
-              athleteCard.classList.remove("hide")
+          athleteCards.forEach((athleteCard) => {
+            if (athleteFilter__type == 'all') {
+              athleteCard.classList.remove('hide');
             } else {
-              let athleteCard__tags = athleteCard.getAttribute("data-tags")
+              let athleteCard__tags = athleteCard.getAttribute('data-tags');
               if (athleteCard__tags.includes(athleteFilter__type)) {
-                athleteCard.classList.remove("hide")
+                athleteCard.classList.remove('hide');
               } else {
-                athleteCard.classList.add("hide")
+                athleteCard.classList.add('hide');
               }
             }
-          })
-
+          });
         }
-      })
+      });
     });
-
-  
-})();
-  
-
+  })();
 {% endjavascript %}
-

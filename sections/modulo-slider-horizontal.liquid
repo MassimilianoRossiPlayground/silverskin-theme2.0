@@ -1,0 +1,211 @@
+<div class="slider-horizontal">
+    <div class="page-width">
+        <div class="slider-horizontal__years">
+            <div class="swiper-container swiper-horizontal">
+                <div class="swiper-wrapper">
+                    {% assign years_list = section.settings.years_list | split: "|" %}
+                    {% for year in years_list %}
+                        <div class="swiper-slide">
+                            <div class="line-horizontal"></div>
+                            <span class="big-year">{{ year }}</span>
+                            <div class="slider-horizontal__slides">
+                                {% for slide in section.blocks %}
+                                    {% if slide.settings.ref_year == year %}
+                                        {%- liquid 
+                                            if slide.settings.vertical_alignment == "top" 
+                                                assign vertical_alignment = "22%"
+                                            else 
+                                                assign vertical_alignment = "63%"
+                                            endif
+                                        -%}
+                                        <span class="horizontal-card__dot" data-dot--year="{{ year }}" data-dot--num="{{ forloop.index }}" style="left:{{ slide.settings.horizontal_position }}%;"></span>
+                                        <div class="horizontal-card" style="left:{{ slide.settings.horizontal_position }}%;top:{{ vertical_alignment }};">
+                                            <div class="horizontal-card__content">
+                                                <h5>{{ slide.settings.title }}</h5>
+                                                <h6>{{ slide.settings.sub_title }}</h6>
+                                                <span>{{ slide.settings.date }}</span>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Slider Horizontal",
+    "max_blocks": 99,
+    "settings": [
+        {
+            "type": "text",
+            "id": "years_list",
+            "label": "Year List",
+            "default": "2018|2019|2020|2021|2022|2023"
+        }
+    ],
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Slide",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
+            },
+            {
+                "type": "text",
+                "id": "sub_title",
+                "label": "Sub Title"
+            },
+            {
+                "type": "text",
+                "id": "date",
+                "label": "Date"
+            },
+            {
+                "type": "text",
+                "id": "horizontal_position",
+                "label": "Horizontal Position",
+                "info": "From 0 to 100 like %"
+            },
+            {
+                "type": "text",
+                "id": "ref_year",
+                "label": "Ref Year",
+                "info": "Inser only year number"
+            },
+            {
+                "type": "select",
+                "id": "vertical_alignment",
+                "label": "Vertical alignment",
+                "options": [
+                  {
+                    "value": "top",
+                    "label": "Top"
+                  },
+                  {
+                    "value": "bottom",
+                    "label": "Bottom"
+                  }
+                ],
+                "default": "top"
+            }
+        ]
+      }
+    ],
+    "presets": [
+        {
+            "name": "Slider Horizontal",
+            "blocks": [
+                {
+                "type": "slide"
+                }
+            ]
+        }
+    ]
+  }
+{% endschema %}
+
+
+{% style %}
+.slider-horizontal {
+    overflow: hidden;
+    margin: 120px 0;
+}
+.big-year {
+    color: white;
+    background-color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 400px;
+    font-family: "barlow-light-italic" !important;
+    opacity: 0.08;
+    line-height: 1;
+}
+.swiper-horizontal {
+    overflow: visible;
+}
+.swiper-horizontal .swiper-slide {
+    width: max-content;
+    padding-right: 140px;
+}
+.slider-horizontal__years {
+    cursor: pointer;
+}
+.horizontal-card {
+    position: absolute;
+}
+span.horizontal-card__dot {
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background: #fff;
+}
+span.horizontal-card__dot.selected {
+    background: #000;
+}
+span.horizontal-card__dot[data-dot--num="1"] {
+    background: #000;
+}
+.line-horizontal {
+    width: 100%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 51.2%;
+}
+.horizontal-card__content h5 {
+    letter-spacing: normal;
+    font-family: 'barlow-bold-italic' !important;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.horizontal-card__content h6 {
+    letter-spacing: normal;
+    font-family: 'barlow' !important;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.horizontal-card__content {
+    font-size: 14px;
+}
+
+{% endstyle %}
+
+
+
+{% javascript %}
+
+(function(document) {
+
+    let selectors = {
+        swiperHorizontal: '.swiper-horizontal',
+    };
+  
+    let swiperHorizontal = document.querySelector(selectors.swiperHorizontal)
+
+    window.addEventListener('load', function() {
+        let swiper_images = new Swiper(swiperHorizontal, {
+            slidesPerView: 'auto',
+            freeMode: true,
+        });
+    })
+
+    
+
+
+})(document);
+  
+
+{% endjavascript %}

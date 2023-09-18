@@ -99,14 +99,14 @@
                     <li class="mobile-nav__item">
                       <div class="mobile-nav__child-item">
                         {% if childlink.url == '#' and has_sub_dropdown %}
-                          <button
+                          {% comment %} <button
                             type="button"
                             aria-controls="Sublinklist-{{ child_list_handle }}-{{ grand_child_list_handle }}"
                             {% if childlink.active or childlink.child_active %}aria-open="true"{% endif %}
                             class="mobile-nav__link--button collapsible-trigger {% if childlink.active or childlink.child_active %}is-open{% endif %}">
                             <span class="mobile-nav__faux-link" {% if childlink.active %}data-active="true"{% endif %}>{{ childlink.title | escape }}</span>
                             {% include 'collapsible-icons-alt' %}
-                          </button>
+                          </button> {% endcomment %}
                         {% else %}
                           <a
                             href="{{ childlink.url }}"

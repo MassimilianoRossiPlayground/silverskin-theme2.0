@@ -443,17 +443,19 @@ span.quote-icon img {
 
 /*menu v2*/
 
-.medium-up--one-half--custom{
+.medium-up--one-half--custom {
     width: 49%;
     text-align: center!important;
 }
 
-.medium-up--one-half--custom-first{
+.medium-up--one-half--custom-first {
     border-right: 1px solid grey;
 }
+.medium-up--one-half--custom-first.size-mega-menu-col-1 {
+    border-right: unset;
+}
 
-.site-nav__dropdown-link--top-level--custom
-{
+.site-nav__dropdown-link--top-level--custom {
     animation: none;
     text-decoration: none;
     font-size: 30px;

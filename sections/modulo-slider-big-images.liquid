@@ -1,0 +1,119 @@
+<div class="slider-big-images">
+    <div class="page-width">
+        <div class="slider-big-images__content">
+            <div class="swiper-container swiper-big-images">
+                <div class="swiper-wrapper">
+                    {% for slide in section.blocks %}
+                        <div class="swiper-slide">
+                            <img src="{{ slide.settings.image | img_url: 'master' }}" alt="silverskin">
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </div>
+    <div class="line-scrollbar"></div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Slider Big Images",
+    "max_blocks": 99,
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Slide",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            }
+        ]
+      }
+    ],
+    "presets": [
+        {
+            "name": "Slider Big Images",
+            "blocks": [
+                {
+                "type": "slide"
+                }
+            ]
+        }
+    ]
+  }
+{% endschema %}
+
+
+{% style %}
+
+.slider-big-images {
+    margin: 120px auto;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.slider-big-images__content {
+    margin: 0 auto;
+    max-width: 1420px;
+}
+.swiper-big-images {
+    overflow: visible;
+}
+.slider-big-images .swiper-slide {
+    width: max-content;
+}
+.swiper-big-images img {
+    max-height: 70vh;
+}
+.slider-big-images .swiper-scrollbar {
+  margin: 60px 0 0 0;
+  background: transparent;
+  border-top: unset;
+}
+.slider-big-images .swiper-scrollbar .swiper-scrollbar-drag {
+    height: 3px;
+}
+.slider-big-images .line-scrollbar {
+    width: 100%;
+    height: 1px;
+    background: #757382;
+    margin-top: -4px;
+}
+{% endstyle %}
+
+
+{% javascript %}
+
+(function(document) {
+
+    let selectors = {
+        swiperBigimages: '.swiper-big-images',
+    };
+  
+    let swiperBigimages = document.querySelector(selectors.swiperBigimages)
+
+    window.addEventListener('load', function() {
+
+        let swiper_images = new Swiper(swiperBigimages, {
+            slidesPerView: "auto",
+            spaceBetween: 30,
+            freeMode: true,
+            scrollbar: {
+                el: ".slider-big-images .swiper-scrollbar",
+                hide: false,
+            },
+        });
+
+    })
+
+    
+
+
+})(document);
+  
+
+{% endjavascript %}

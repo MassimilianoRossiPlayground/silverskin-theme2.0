@@ -36,7 +36,7 @@
         <div class="site-nav__dropdown megamenu text-left">
           <div class="page-width">
             <div class="grid{% if dropdown_alignment == 'center' %} grid--center{% endif %}">
-              <div class="grid__item medium-up--one-half  appear-animation appear-delay-{{ animation_column }}  medium-up--one-half--custom medium-up--one-half--custom-first ">
+              <div class="grid__item medium-up--one-half  appear-animation appear-delay-{{ animation_column }}  medium-up--one-half--custom medium-up--one-half--custom-first size-mega-menu-col-{{link.links.size}}">
                 {%- assign animation_column = animation_column | plus: 1 -%}
 
                 {% for childlink in link.links %}
@@ -68,9 +68,11 @@
                     {% endif %}
                   {% endif %}
 
-                  <div class="h5">
-                    <div class="site-nav__dropdown-link site-nav__dropdown-link--top-level site-nav__dropdown-link--top-level--custom">{{ childlink.title }}</div>
-                  </div>
+                  {% if childlink.title != "#" %}
+                    <div class="h5">
+                      <div class="site-nav__dropdown-link site-nav__dropdown-link--top-level site-nav__dropdown-link--top-level--custom">{{ childlink.title }}</div>
+                    </div>
+                  {% endif %}
 
                   {% if childlink.levels > 0 %}
                     {%- assign previous_column_type = 'full' -%}

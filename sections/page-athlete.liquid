@@ -1,0 +1,396 @@
+<script>
+  var headerWrapper = document.querySelector(".header-wrapper");
+  headerWrapper.classList.add("is-light");
+</script>
+
+<div class="athlete-page">
+
+  <div class="athlete-page__head">
+
+    <div class="athlete-page__head__left">
+      <div class="athlete-page__head__left__content">
+        <div class="athlete-breadcrumbs"><a href="/pages/athletes">{% include 'icon-exagon-arrow' %} <span>ALL ATHLETES</span></a></div>
+        <h1><strong>{{ section.settings.firstname }}</strong><br/> {{ section.settings.lastname }}</h1>
+        <div class="athlete-table">
+          <div class="athlete-row">
+            <div class="athlete-table__title">CLASS</div>
+            <div class="athlete-table__value">{{ section.settings.year }}</div>
+          </div>
+          <div class="athlete-row">
+            <div class="athlete-table__title">ACTIVITY</div>
+            <div class="athlete-table__value">
+                  {% if section.settings.tag_trail %}
+                    <span>Trail</span>
+                  {% endif %}
+                  {% if section.settings.tag_bike %}
+                    <span>Bike</span>
+                  {% endif %}
+                  {% if section.settings.tag_snowsport %}
+                    <span>Snowsport</span>
+                  {% endif %}
+                  {% if section.settings.tag_running %}
+                    <span>Running</span>
+                  {% endif %}
+                  {% if section.settings.tag_mountaineering %}
+                    <span>Mountaineering</span>
+                  {% endif %}
+                  {% if section.settings.tag_other %}
+                    <span>Other</span>
+                  {% endif %}
+            </div>
+          </div>
+          <div class="athlete-row">
+            <div class="athlete-table__title">LOREM IPSUM</div>
+            <div class="athlete-table__value">{{ section.settings.other_infos }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="athlete-page__head__right">
+      <img src="{{ section.settings.image | img_url: "master" }}" alt="{{ block.settings.firstname | strip_html }}">
+    </div>
+    
+  </div>
+  
+
+  <div class="athlete-page__text-images">
+
+    <div class="athlete-page__text-images__paragraph">
+      <div class="athlete-page__text-images__paragraph__content">
+        {{ section.settings.paragraph_top }}
+      </div>
+      
+      <div class="athlete-page__text-images__image-text">
+        <img src="{{ section.settings.image_1 | img_url: "master" }}" alt="athlete silverskin">
+        <div class="athlete-page__text-images__image-text__paragraph">
+          {{ section.settings.paragraph_right }}
+        </div>
+      </div>
+    </div>
+
+    <div class="athlete-page__text-images__images">
+      <img src="{{ section.settings.image_2 | img_url: "master" }}" alt="athlete silverskin">
+      <img src="{{ section.settings.image_3 | img_url: "master" }}" alt="athlete silverskin">
+    </div>
+
+    <div class="athlete-page__text-images__paragraph-bottom">
+      {{ section.settings.paragraph_two_columns_1 }}
+      {{ section.settings.paragraph_two_columns_2 }}
+    </div>
+
+  </div>
+
+  <div class="athlete-page__banner" style="background-image:url({{ section.settings.image_banner | img_url: "master" }})">
+    <div class="athlete-page__banner__content-top">
+      <h3>{{ section.settings.banner_top }}</h3>
+    </div>
+    <div class="athlete-page__banner__content-bottom">
+      <h6>{{ section.settings.banner_bottom }}</h6>
+    </div>
+  </div>
+
+</div>
+
+{% schema %}
+  {
+    "name": "Athlete Page",
+    "settings": [
+      {
+        "type": "text",
+        "id": "firstname",
+        "label": "First Name"
+      },
+      {
+        "type": "text",
+        "id": "lastname",
+        "label": "Last Name"
+      },
+      {
+        "type": "text",
+        "id": "year",
+        "label": "Year"
+      },
+      {
+        "type": "checkbox",
+        "id": "tag_trail",
+        "label": "Trail"
+      },
+      {
+        "type": "checkbox",
+        "id": "tag_bike",
+        "label": "Bike"
+      },
+      {
+        "type": "checkbox",
+        "id": "tag_snowsport",
+        "label": "Snowsport"
+      },
+      {
+        "type": "checkbox",
+        "id": "tag_running",
+        "label": "Running"
+      },
+      {
+        "type": "checkbox",
+        "id": "tag_mountaineering",
+        "label": "Mountaineering"
+      },
+      {
+        "type": "checkbox",
+        "id": "tag_other",
+        "label": "Other"
+      },
+      {
+        "type": "html",
+        "id": "other_infos",
+        "label": "Other Infos"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image Desk"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mob",
+        "label": "Image Mob"
+      },
+      {
+        "type": "richtext",
+        "id": "paragraph_top",
+        "label": "Paragraph top"
+      },
+      {
+        "type": "richtext",
+        "id": "paragraph_right",
+        "label": "Paragraph right"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_1",
+        "label": "Image 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_2",
+        "label": "Image 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_3",
+        "label": "Image 3"
+      },
+      {
+        "type": "richtext",
+        "id": "paragraph_two_columns_1",
+        "label": "Paragraph col 1"
+      },
+      {
+        "type": "richtext",
+        "id": "paragraph_two_columns_2",
+        "label": "Paragraph col 2"
+      },
+      {
+        "type": "text",
+        "id": "banner_top",
+        "label": "Banner Top"
+      },
+      {
+        "type": "text",
+        "id": "banner_bottom",
+        "label": "Banner Bottom"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_banner",
+        "label": "Image Banner"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Athlete Page"
+      }
+    ]
+  }
+{% endschema %}
+
+
+{% style %}
+
+html {
+  scroll-behavior: smooth;
+}
+.athlete-page__head {
+  color: #fff;
+  padding: 200px 20px 0 20px;
+  background: #000;
+  margin-top: -120px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.athlete-page__head a {
+  color: #fff;
+  display: block;
+}
+.athlete-page__head .boxed {
+  margin: 0 auto;
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.athlete-page__head h1 {
+  font-family: "barlow-italic" !important;
+  font-size: 48px;
+  margin-bottom: 0;
+  margin-bottom: 60px;
+}
+.athlete-page__head h1 strong {
+  font-family: "barlow-bold-italic" !important;
+}
+.athlete-page__head h5 {
+  font-family: "barlow" !important;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  margin-bottom: 50px;
+}
+.athlete-breadcrumbs {
+  margin-bottom: 60px;
+}
+.athlete-breadcrumbs svg {
+  width: 50px;
+  height: 44px;
+  margin-right: 15px;
+}
+.athlete-breadcrumbs a {
+  display: flex;
+  align-items: center;
+}
+.athlete-page__head__left {
+  display: flex;
+  justify-content: center;
+}
+
+.athlete-page__head__left__content {
+    width: 100%;
+    max-width: 400px;
+}
+.athlete-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.athlete-table__title {
+    opacity: 0.5;
+}
+.athlete-table__value {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-transform: uppercase;
+}
+.athlete-page__head__right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.athlete-page__text-images {
+  color: #000;
+  padding: 120px 0;
+}
+.athlete-page__text-images__paragraph {
+  max-width: 1420px;
+  font-size: 32px;
+  margin: 0 auto 90px auto;
+  padding: 0 20px;
+}
+.athlete-page__text-images__paragraph__content {
+    max-width: 800px;
+    margin-bottom: 80px;
+}
+.athlete-page__text-images__image-text {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 80px;
+}
+.athlete-page__text-images__image-text__paragraph {
+    align-self: center;
+    max-width: 500px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.athlete-page__text-images__images {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+  }
+.athlete-page__text-images__images img {
+    /* max-height: 826px; */
+    padding-left: 20px;
+    width: 100%;
+    max-width: 47vw;
+}
+.athlete-page__text-images__paragraph-bottom {
+  display: grid;
+  max-width: 920px;
+  margin: 0 auto;
+  grid-template-columns: 49% 49%;
+  justify-content: space-between;
+}
+.athlete-page__banner {
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+.athlete-page__banner__content-top {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  max-width: 900px;
+  font-size: 56px;
+  transform: translateX(-80%);
+}
+.athlete-page__banner__content-top h3 {
+  font-family: 'barlow-semibold-italic' !important;
+  text-transform: none;
+  font-size: 56px;
+}
+.athlete-page__banner__content-bottom {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    font-size: 16px;
+    max-width: 320px;
+    text-align: right;
+}
+.athlete-page__banner__content-bottom h6 {
+  font-family: 'barlow-bold' !important;
+    text-transform: none;
+    line-height: 24px;
+    letter-spacing: normal;
+    font-size: 16px;
+}
+
+
+{% endstyle %}
+
+{% javascript %}
+
+(function() {
+
+    let selectors = {
+
+
+    };
+
+
+  
+})();
+  
+
+{% endjavascript %}
+
