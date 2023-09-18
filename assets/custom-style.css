@@ -5456,6 +5456,9 @@ h1.section-header__title {
 
 
     /* home mob */
+    .flex-grid__item.flex-grid__item--100.flex-grid__item--d17de3f9-4b74-4609-ae62-1d8646e6d6a8.type-advanced img {
+        object-position: 90%;
+    }
     img.image-fit.hero__image.hero__image--1578407199975.lazyautosizes.lazyloaded {
         object-position: center;
     }
