@@ -2589,10 +2589,10 @@ label.variant__button-label.color-swatch {
     flex-wrap: wrap;
 }
 @media screen and (max-width:768px) {
-    .grid.grid--uniform {
+    .grid-overflow-wrapper .grid.grid--uniform {
         flex-wrap: nowrap;
     }
-    .collection-division .grid {
+    .grid-overflow-wrapper .collection-division .grid {
         flex-wrap: nowrap;
     }
 }
