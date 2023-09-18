@@ -1417,6 +1417,7 @@
           "collection-man-0": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-product-banner-01-men-desk_2x_40660827-63b2-457d-afbe-ab02b960a269.jpg",
               "title": "MAGLIE",
               "cta_text": "VEDI TUTTI",
               "cta_link": "\/collections\/base-layer-maglie\/Uomo",
@@ -1426,6 +1427,7 @@
           "collection-man-1": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-product-banner-02-men-desk_2x_94593c72-5ed7-4db6-9639-3ff87386f2f9.jpg",
               "title": "PANTALONI",
               "cta_text": "VEDI TUTTI",
               "cta_link": "\/collections\/base-layer-pantaloni\/Uomo",
@@ -1435,6 +1437,7 @@
           "collection-man-2": {
             "type": "banner",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-product-banner-03-men-desk_1x_2e23ea8d-7728-4a0f-993d-b78bd219f0f7.jpg",
               "title": "ACCESSORI",
               "cta_text": "VEDI TUTTI",
               "cta_link": "\/collections\/accessori\/Uomo+Accessori",
@@ -1444,6 +1447,7 @@
           "collection-man-5": {
             "type": "banner_temp",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-fresh-banner-men-desk_2x_a814bf85-49d4-49b7-9fb8-b9923da11f0b.jpg",
               "title": "STAY FRESH",
               "subtitle": "DA 10° A 40°",
               "class": "stay-fresh",
@@ -1455,6 +1459,7 @@
           "collection-man-4": {
             "type": "banner_temp",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-warm-banner-men-desk_2x_f7a7a7d1-55bc-4a07-95cf-a8b6286a2273.jpg",
               "title": "STAY WARM",
               "subtitle": "DA -20° A 20°",
               "class": "stay-warm",
@@ -1466,6 +1471,7 @@
           "collection-man-3": {
             "type": "banner_temp",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ss-x-warm-banner-men-desk_2x_d9398c6f-e118-4168-99fc-b4e2ad74caf4.jpg",
               "title": "STAY X-WARM",
               "subtitle": "DA -40° A -10°",
               "class": "stay-xwarm",
@@ -1476,7 +1482,6 @@
           },
           "981b43c4-7ec1-46b9-8bc0-8baa0c7750aa": {
             "type": "banner_temp",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Hero_Banner.jpg",
               "title": "PRIMO THERMO DRY PRO",
