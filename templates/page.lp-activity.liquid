@@ -1,4 +1,4 @@
-{% assign collectionsActivitiesTemperatures = "running-primo,running-stay-fresh,running-stay-warm,running-stay-x-warm,cycling-primo,cycling-stay-fresh,cycling-stay-warm,cycling-stay-x-warm,snowsports-primo,snowsport-stay-warm,snowsport-stay-x-warm,mountaineering-primo,mountaineering-stay-fresh,mountaineering-stay-warm,mountaineering-stay-x-warm" | split: ',' %}
+{% assign collectionsActivitiesTemperatures = "running-primo,running-stay-fresh,running-stay-warm,running-stay-x-warm,cycling-primo,cycling-stay-fresh,cycling-stay-warm,cycling-stay-x-warm,snowsport-primo,snowsport-stay-warm,snowsport-stay-x-warm,mountaineering-primo,mountaineering-stay-fresh,mountaineering-stay-warm,mountaineering-stay-x-warm" | split: ',' %}
 
 <script>
   var headerWrapper = document.querySelector(".header-wrapper");
@@ -302,7 +302,7 @@
           </button>
         </div>
         <div class="activity-page__products--mob">
-          {% render 'page-activity_slider-products-item' , products_collection:"snowsports-primo" %}
+          {% render 'page-activity_slider-products-item' , products_collection:"snowsport-primo" %}
         </div>
 
         <div class="activity-page__pane-selector warm js-select-collection" data-temp="warm">
