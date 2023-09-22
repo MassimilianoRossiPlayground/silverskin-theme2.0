@@ -211,8 +211,12 @@
           {% endif %}
         {% else %}
           {% if product.metafields.custom.coming_soon %}
-              COMING SOON
+            {% if product.metafields.custom.coming_soon_text != blank %}
+              {{ product.metafields.custom.coming_soon_text }}
             {% else %}
+              COMING SOON
+            {% endif %}
+          {% else %}
               {{ 'products.product.sold_out' | t }}
           {% endif %}
         {% endif %}
