@@ -59,7 +59,11 @@
       {%- if sold_out -%}
         {% if product.metafields.custom.coming_soon %}
           <div class="grid-product__tag grid-product__tag--sold-out grid-product__tag--coming-soon">
-            COMING SOON
+            {% if product.metafields.custom.coming_soon_text != blank %}
+              {{ product.metafields.custom.coming_soon_text }}
+            {% else %}
+              COMING SOON
+            {% endif %}
           </div>
           {% else %}
           <div class="grid-product__tag grid-product__tag--sold-out">
