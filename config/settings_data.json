@@ -1015,7 +1015,7 @@
             "settings": {
               "card_image": "shopify:\/\/shop_images\/1.jpg",
               "card_title": "UNTOLD STORIES",
-              "card_subtitle": "Storie di atleti, imprese e grandi sogni",
+              "card_subtitle": "Storie di atleti, imprese e grandi sogni.",
               "card_link": "\/blogs\/untold-stories",
               "card_cta": "Leggi"
             }
@@ -1035,7 +1035,7 @@
             "settings": {
               "card_image": "shopify:\/\/shop_images\/Camilla-Pizzini-69.jpg",
               "card_title": "BACK AT THE BASE",
-              "card_subtitle": "",
+              "card_subtitle": "Tutto quello che c'è da sapere sul prodotto,<br>sulla tecnologia e sulla ricerca e sviluppo.",
               "card_link": "https:\/\/www.silverskin.it\/blogs\/back-at-the-base",
               "card_cta": "LEGGI"
             }
