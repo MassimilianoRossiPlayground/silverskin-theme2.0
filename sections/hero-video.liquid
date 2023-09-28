@@ -93,13 +93,13 @@
             </h2>
           {% endunless %}
           {% if section.settings.subheading or section.settings.link %}
-            {% unless section.settings.subheading == blank %}
+            {% if section.settings.subheading != blank %}
               <div class="hero__subtitle">
                 <div class="animation-cropper"><div class="animation-contents">
                   {{ section.settings.subheading | escape }}
                 </div></div>
               </div>
-            {% endunless %}
+            {% endif %}
             <div class="hero-group-links">
               {% if section.settings.link_text != blank %}
                 {%- assign link_href = section.settings.link -%}
