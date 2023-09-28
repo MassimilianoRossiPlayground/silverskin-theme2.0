@@ -1710,7 +1710,7 @@
           "color_accent": "#ffffff",
           "text_align": "vertical-center horizontal-left",
           "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fc9da1d90429479887cc06e62b38fa85.mp4",
-          "section_height": "650px",
+          "section_height": "100vh",
           "mobile_height": "auto"
         }
       }
