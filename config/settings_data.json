@@ -1702,9 +1702,9 @@
       "c6c1d877-398b-4b02-9c92-015346870070": {
         "type": "hero-video",
         "settings": {
-          "title": "Discover our new <br>base layer.",
+          "title": "Primo has landed\nDiscover our new base layer",
           "title_size": 80,
-          "subheading": "Primo has landed",
+          "subheading": "",
           "link_text": "EXPLORE THE COLLECTION",
           "link": "shopify:\/\/collections\/primo",
           "color_accent": "#ffffff",
