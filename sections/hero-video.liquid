@@ -312,5 +312,13 @@
 {% style %}
 .hero-group-links {
     display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  .hero__link,
+  .hero__link .animation-cropper,
+  .hero__link a {
+    width: 100%;
+  }
 }
 {% endstyle %}
