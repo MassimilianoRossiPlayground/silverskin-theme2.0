@@ -1702,12 +1702,12 @@
       "c6c1d877-398b-4b02-9c92-015346870070": {
         "type": "hero-video",
         "settings": {
-          "title": "Primo has landed",
+          "title": "Vi presentiamo PRIMO",
           "title_size": 80,
-          "subheading": "Discover our new base layer",
-          "link_text": "EXPLORE THE COLLECTION",
+          "subheading": "Scopri il nostro nuovo base layer",
+          "link_text": "ESPLORA LA COLLEZIONE",
           "link": "shopify:\/\/collections\/primo",
-          "link_text_2": "DISCOVER PRIMO",
+          "link_text_2": "SCOPRI PRIMO",
           "link_2": "https:\/\/primo-thermodry-pro.silverskin.it\/",
           "color_accent": "#ffffff",
           "text_align": "vertical-center horizontal-left",
