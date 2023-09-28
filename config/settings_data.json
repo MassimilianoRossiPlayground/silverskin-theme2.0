@@ -493,6 +493,7 @@
           "1578064016256",
           "69513a8e-34b0-4ddc-b904-53cb0daa0cb9"
         ],
+        "disabled": true,
         "settings": {
           "section_height": "100vh",
           "mobile_height": "500px",
@@ -721,7 +722,6 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/08-Homepage-Banner-Collezione-Stay-Fresh.jpg",
               "video_url": "",
               "width": "100",
               "height": 480,
@@ -745,7 +745,6 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/hp-banner-warm-desk_f479220a-cf5a-4dca-be01-b5dec608a761.jpg",
               "video_url": "",
               "width": "50",
               "height": 500,
@@ -1676,7 +1675,6 @@
               "cta_text2": "",
               "cta_text2_color": "",
               "cta_link2": "",
-              "image": "shopify:\/\/shop_images\/06-Homepage-Banner-I-nostri-layer-in-azione.jpg",
               "video_url": "",
               "width": "100",
               "height": 800,
@@ -1700,9 +1698,25 @@
           "space_above": false,
           "space_below": false
         }
+      },
+      "c6c1d877-398b-4b02-9c92-015346870070": {
+        "type": "hero-video",
+        "settings": {
+          "title": "Primo has landed\nDiscover our new base layer",
+          "title_size": 80,
+          "subheading": "",
+          "link_text": "EXPLORE THE COLLECTION",
+          "link": "shopify:\/\/collections\/primo",
+          "color_accent": "#ffffff",
+          "text_align": "vertical-center horizontal-left",
+          "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fc9da1d90429479887cc06e62b38fa85.mp4",
+          "section_height": "100vh",
+          "mobile_height": "auto"
+        }
       }
     },
     "content_for_index": [
+      "c6c1d877-398b-4b02-9c92-015346870070",
       "1524768368258",
       "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
       "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
