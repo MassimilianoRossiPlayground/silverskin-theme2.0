@@ -1015,7 +1015,7 @@
             "settings": {
               "card_image": "shopify:\/\/shop_images\/1.jpg",
               "card_title": "UNTOLD STORIES",
-              "card_subtitle": "Storie di atleti, imprese e grandi sogni",
+              "card_subtitle": "Storie di atleti, imprese<br>e grandi sogni.",
               "card_link": "\/blogs\/untold-stories",
               "card_cta": "Leggi"
             }
@@ -1035,7 +1035,7 @@
             "settings": {
               "card_image": "shopify:\/\/shop_images\/Camilla-Pizzini-69.jpg",
               "card_title": "BACK AT THE BASE",
-              "card_subtitle": "",
+              "card_subtitle": "Tutto quello che c'è da sapere sul prodotto,<br>sulla tecnologia e sulla ricerca e sviluppo.",
               "card_link": "https:\/\/www.silverskin.it\/blogs\/back-at-the-base",
               "card_cta": "LEGGI"
             }
@@ -1271,7 +1271,8 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology"
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/05-Homepage-Power-is-Precious-Traspirabilita.jpg"
             }
           },
           "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0": {
@@ -1282,7 +1283,8 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology"
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/Termoregolazione_perfetta_f58f2796-9718-4700-b5f7-684d3016a1e3.jpg"
             }
           }
         },
@@ -1705,9 +1707,26 @@
           "space_above": false,
           "space_below": false
         }
+      },
+      "6a3a252a-f724-42c8-866c-3338ea073fa8": {
+        "type": "hero-video",
+        "disabled": true,
+        "settings": {
+          "title": "Discover our new <br>base layer.",
+          "title_size": 80,
+          "subheading": "Primo has landed",
+          "link_text": "EXPLORE THE COLLECTION",
+          "link": "shopify:\/\/collections\/primo-thermo-dry-pro",
+          "color_accent": "#ffffff",
+          "text_align": "vertical-center horizontal-left",
+          "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fc9da1d90429479887cc06e62b38fa85.mp4",
+          "section_height": "100vh",
+          "mobile_height": "auto"
+        }
       }
     },
     "content_for_index": [
+      "6a3a252a-f724-42c8-866c-3338ea073fa8",
       "1524768368258",
       "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
       "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
