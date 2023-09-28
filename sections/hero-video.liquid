@@ -314,6 +314,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.hero__link a {
+    min-width: 350px !important;
+}
 @media screen and (max-width: 768px) {
   .hero-group-links {
     margin-top: 15px;
@@ -326,6 +329,7 @@
   .hero__link .animation-contents,
   .hero__link a {
     width: 100% !important;
+    min-width: unset !important;
   }
 }
 {% endstyle %}
