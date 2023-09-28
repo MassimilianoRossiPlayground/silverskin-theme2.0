@@ -493,6 +493,7 @@
           "1578064016256",
           "69513a8e-34b0-4ddc-b904-53cb0daa0cb9"
         ],
+        "disabled": true,
         "settings": {
           "section_height": "100vh",
           "mobile_height": "500px",
@@ -1710,7 +1711,6 @@
       },
       "6a3a252a-f724-42c8-866c-3338ea073fa8": {
         "type": "hero-video",
-        "disabled": true,
         "settings": {
           "title": "Vi presentiamo PRIMO",
           "title_size": 80,
