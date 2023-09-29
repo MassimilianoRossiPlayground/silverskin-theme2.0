@@ -1014,7 +1014,7 @@
             "settings": {
               "card_image": "shopify:\/\/shop_images\/1.jpg",
               "card_title": "UNTOLD STORIES",
-              "card_subtitle": "Storie di atleti, imprese e grandi sogni",
+              "card_subtitle": "Storie di atleti, imprese<br>e grandi sogni.",
               "card_link": "\/blogs\/untold-stories",
               "card_cta": "Leggi"
             }
@@ -1024,20 +1024,19 @@
             "settings": {
               "card_image": "shopify:\/\/shop_images\/PHOTO-2023-05-21-22-59-30_2-min.jpg",
               "card_title": "EXPLORING THE UNSEEN",
-              "card_subtitle": "Consigli su tracciati e percorsi. Tips and tricks di esperti ed atleti.",
+              "card_subtitle": "Consigli su tracciati e percorsi. <br>Tips and tricks di esperti ed atleti.",
               "card_link": "\/blogs\/exploring-the-unseen",
               "card_cta": "Leggi"
             }
           },
           "2f9c4963-2f3b-4d67-8094-7270c6dbabf2": {
             "type": "cards",
-            "disabled": true,
             "settings": {
-              "card_image": "shopify:\/\/shop_images\/silverskin-snow-overlay-socks-01-wmn-mob_2x_c5bef4e1-7962-4fc9-bb14-3784b8a39cdf.jpg",
-              "card_title": "Section 3",
-              "card_subtitle": "Lurem ipsum..Lurem ipsum..Lurem ipsum..Lurem ipsum..Lurem ipsum..",
-              "card_link": "#",
-              "card_cta": "VIEW ARTICLE"
+              "card_image": "shopify:\/\/shop_images\/Camilla-Pizzini-69.jpg",
+              "card_title": "BACK AT THE BASE",
+              "card_subtitle": "Tutto quello che c'è da sapere sul prodotto,<br>sulla tecnologia e sulla ricerca e sviluppo.",
+              "card_link": "https:\/\/www.silverskin.it\/blogs\/back-at-the-base",
+              "card_cta": "LEGGI"
             }
           }
         },
@@ -1271,7 +1270,8 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology"
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/05-Homepage-Power-is-Precious-Traspirabilita.jpg"
             }
           },
           "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0": {
@@ -1282,7 +1282,8 @@
               "cta1text": "SCOPRI LE COLLEZIONI",
               "cta1link": "\/pages\/collezioni",
               "cta2text": "SCOPRI LA TECNOLOGIA",
-              "cta2link": "\/pages\/technology"
+              "cta2link": "\/pages\/technology",
+              "image": "shopify:\/\/shop_images\/Termoregolazione_perfetta_f58f2796-9718-4700-b5f7-684d3016a1e3.jpg"
             }
           }
         },
@@ -1699,14 +1700,14 @@
           "space_below": false
         }
       },
-      "c6c1d877-398b-4b02-9c92-015346870070": {
+      "6a3a252a-f724-42c8-866c-3338ea073fa8": {
         "type": "hero-video",
         "settings": {
           "title": "Vi presentiamo PRIMO",
           "title_size": 80,
           "subheading": "Scopri il nostro nuovo base layer",
           "link_text": "ESPLORA LA COLLEZIONE",
-          "link": "shopify:\/\/collections\/primo",
+          "link": "shopify:\/\/collections\/primo-thermo-dry-pro",
           "link_text_2": "SCOPRI PRIMO",
           "link_2": "https:\/\/primo-thermodry-pro.silverskin.it\/",
           "color_accent": "#ffffff",
@@ -1718,7 +1719,7 @@
       }
     },
     "content_for_index": [
-      "c6c1d877-398b-4b02-9c92-015346870070",
+      "6a3a252a-f724-42c8-866c-3338ea073fa8",
       "1524768368258",
       "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
       "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
