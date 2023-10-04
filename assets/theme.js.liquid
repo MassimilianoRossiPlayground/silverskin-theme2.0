@@ -3756,7 +3756,7 @@ lazySizesConfig.expFactor = 4;
         var variant = evt.variant;
   
         let addToCartBtn = document.querySelector(".add-to-cart")
-        let addToCartBtn__attr_coming_soon = addToCartBtn.getAttribute("attr-coming-soon")
+        let addToCartBtn__attr_coming_soon = addToCartBtn.attr("attr-coming-soon")
         console.log("status: "+addToCartBtn__attr_coming_soon)
 
         if (variant) {
@@ -3768,8 +3768,8 @@ lazySizesConfig.expFactor = 4;
             // Sold out, disable the submit button and change text
             $(this.selectors.addToCart).addClass(classes.disabled).prop('disabled', true);
             if ((addToCartBtn__attr_coming_soon == 'true') || (addToCartBtn__attr_coming_soon == true)) {
-              if (this.selectors.addToCart.getAttribute("attr-coming-soon-custom") != "" ) {
-                $(this.selectors.addToCartText).html(this.selectors.addToCart.getAttribute("attr-coming-soon-custom"));
+              if (this.selectors.addToCart.attr("attr-coming-soon-custom") != "" ) {
+                $(this.selectors.addToCartText).html(this.selectors.addToCart.attr("attr-coming-soon-custom"));
               } else {
                 $(this.selectors.addToCartText).html("COMING SOON");
               }
