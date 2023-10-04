@@ -197,7 +197,8 @@
       attr-price="{{ product.price | money | remove: '€ ' | replace: ',' , '.'  }}"
       attr-handle="{{ product.handle }}"
       attr-type="{{ product.type }}" 
-      attr-coming-soon="{% if product.metafields.custom.coming_soon %}true{% else %}false{% endif %}"
+      attr-coming-soon="{% if product.metafields.custom.coming_soon %}true{% else %}false{% endif %}" 
+      attr-coming-soon-custom="{{product.metafields.custom.coming_soon_text}}" 
       class="btn btn--full add-to-cart{% if enable_dynamic_buttons %} btn--secondary{% endif %} {% unless current_variant.available %}sold-out-btn{% endunless %}"
       {% unless current_variant.available %}
       disabled="disabled"

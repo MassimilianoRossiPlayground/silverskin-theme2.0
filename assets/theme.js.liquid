@@ -3768,7 +3768,11 @@ lazySizesConfig.expFactor = 4;
             // Sold out, disable the submit button and change text
             $(this.selectors.addToCart).addClass(classes.disabled).prop('disabled', true);
             if ((addToCartBtn__attr_coming_soon == 'true') || (addToCartBtn__attr_coming_soon == true)) {
-              $(this.selectors.addToCartText).html("COMING SOON");
+              if (this.selectors.addToCart.getAttribute("attr-coming-soon-custom") != "" ) {
+                $(this.selectors.addToCartText).html(this.selectors.addToCart.getAttribute("attr-coming-soon-custom"));
+              } else {
+                $(this.selectors.addToCartText).html("COMING SOON");
+              }
             } else {
               $(this.selectors.addToCartText).html(theme.strings.soldOut);
             }
