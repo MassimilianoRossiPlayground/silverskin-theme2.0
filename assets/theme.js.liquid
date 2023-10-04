@@ -3768,7 +3768,7 @@ lazySizesConfig.expFactor = 4;
             $(this.selectors.addToCart).addClass(classes.disabled).prop('disabled', true);
             if ((addToCartBtn__attr_coming_soon == 'true') || (addToCartBtn__attr_coming_soon == true)) {
               if (this.selectors.addToCart.getAttribute("attr-coming-soon-custom") != "" ) {
-                $(this.selectors.addToCartText).html(this.selectors.addToCart.attr("attr-coming-soon-custom"));
+                $(this.selectors.addToCartText).html(this.selectors.addToCart.getAttribute("attr-coming-soon-custom"));
               } else {
                 $(this.selectors.addToCartText).html("COMING SOON");
               }
