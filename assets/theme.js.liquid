@@ -3755,8 +3755,7 @@ lazySizesConfig.expFactor = 4;
       updateCartButton: function(evt) {
         var variant = evt.variant;
   
-        let addToCartBtn = document.querySelector(".add-to-cart")
-        let addToCartBtn__attr_coming_soon = addToCartBtn.attr("attr-coming-soon")
+        let addToCartBtn__attr_coming_soon = document.querySelector(".add-to-cart").getAttribute("attr-coming-soon")
         console.log("status: "+addToCartBtn__attr_coming_soon)
 
         if (variant) {
