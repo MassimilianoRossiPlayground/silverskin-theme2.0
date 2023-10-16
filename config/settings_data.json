@@ -420,6 +420,7 @@
         "blocks": {
           "a7caeca8-bcb3-41df-be58-73a7c6b13614": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "top_subheading": "",
               "title": "PRIMO Thermo Dry Pro,<br> il base layer per l'alta intensità",
@@ -437,7 +438,6 @@
           },
           "1524768368258-0": {
             "type": "image",
-            "disabled": true,
             "settings": {
               "top_subheading": "",
               "title": "I base layer <br>per la montagna",
@@ -449,6 +449,7 @@
               "link_text_2": "Acquista Donna",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/foto-montagna-HP-BN.jpg",
               "focal_point": "80% 50%"
             }
           },
