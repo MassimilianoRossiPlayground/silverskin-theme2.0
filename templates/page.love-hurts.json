@@ -110,6 +110,18 @@
         "cta_text_man": "ACQUISTA UOMO",
         "cta_text_woman": "ACQUISTA DONNA"
       }
+    },
+    "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6": {
+      "type": "modulo-newsletter-image",
+      "settings": {
+        "id_for_anchor": "",
+        "sup_title": "SILVERSKIN",
+        "title": "10% di sconto sul tuo primo ordine!",
+        "description": "<p>Iscriviti alla newsletter e ricevi un codice sconto del 10% da utilizzare sul tuo primo ordine.<\/p><p>Resta sempre aggiornato sulle ultime novità, sulle info dal mondo Silverskin e su promozioni imperdibili!<\/p>",
+        "image": "shopify:\/\/shop_images\/MG_4026_1.jpg",
+        "mail_placeholder": "INSERISCI LA TUA MAIL",
+        "submit_text": "ISCRIVITI"
+      }
     }
   },
   "order": [
@@ -117,6 +129,7 @@
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
     "fafb4f37-f234-4877-ac3b-1e1924791295",
     "53264063-4afe-4fbc-a7bb-503cb0eb317e",
-    "6d90f70f-ae27-4399-a7d1-463f71e74b24"
+    "6d90f70f-ae27-4399-a7d1-463f71e74b24",
+    "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6"
   ]
 }
