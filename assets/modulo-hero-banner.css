@@ -35,10 +35,11 @@
 
 .section-hero-banner .hero-scroll-down {
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     transform: translateX(-50%);
     left: 50%;
     color: #fff;
+    cursor: pointer;
 }
 .section-hero-banner .hero-scroll-down svg {
     transform: rotate(-90deg);
