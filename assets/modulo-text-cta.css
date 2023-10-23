@@ -31,6 +31,9 @@
     font-size: 16px;
     font-family: "barlow";
 }
+.text-cta.large-content .text-cta__content {
+    max-width: 1240px;
+}
 
 .text-cta .text-cta__content h2 {
     font-family: "barlow-italic";
