@@ -21,8 +21,15 @@
   <div class="overlay-dark"></div>
   <img class="hero-banner__image"src="{{ img_url }}" alt="silverskin technology" width="100%">
   <div class="hero-banner__content">
-    <h1>{{ section.settings.herotitle }}</h1>
-    <h4>{{ section.settings.herosubtitle }}</h4>
+    {% if section.settings.herotitle != blank %}
+        <h1>{{ section.settings.herotitle }}</h1>
+    {% endif %}
+    {% if section.settings.herosubtitle != blank %}
+        <h4>{{ section.settings.herosubtitle }}</h4>
+    {% endif %}
+    {% if section.settings.heroparagraph != blank %}
+        <p class="hero-banner__content__paragraph">{{ section.settings.heroparagraph }}</p>
+    {% endif %}
     <div class="hero-banner-cta">
         {% if section.settings.cta1link != blank %}
             <a class="banner-cta__link" href="{{ section.settings.cta1link }}">{{ section.settings.cta1text }}</a>
@@ -63,6 +70,11 @@
             "type": "text",
             "id": "herosubtitle",
             "label": "Hero SubTitle"
+        },
+        {
+            "type": "text",
+            "id": "heroparagraph",
+            "label": "Hero Paragraph"
         },
         {
             "type": "image_picker",
