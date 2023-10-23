@@ -40,8 +40,96 @@
     },
     "53264063-4afe-4fbc-a7bb-503cb0eb317e": {
       "type": "modulo-float-products",
+      "blocks": {
+        "33812b01-5fa7-460e-8051-7fd49b72cdab": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Luca_Matassoni-188_2.jpg",
+            "direction_vertical_from": "top",
+            "direction_from": "left",
+            "direction_from_mob": "left"
+          }
+        }
+      },
+      "block_order": [
+        "33812b01-5fa7-460e-8051-7fd49b72cdab"
+      ],
       "settings": {
         "title": "i preferiti dei nostri<br>atleti"
+      }
+    },
+    "6d90f70f-ae27-4399-a7d1-463f71e74b24": {
+      "type": "modulo-product-slider-gender",
+      "blocks": {
+        "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
+            "product_id_woman": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
+            "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo_cdb2f3ee-c89c-409c-a3be-83f59fadcf3a.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo_53691865-817b-4c91-8d33-a790a9c4ffe5.png",
+            "title": "Base Layer Manica Corta Girocollo",
+            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comoda e leggera, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento."
+          }
+        },
+        "05b43ffa-da34-4a8e-8892-d943a3d085f0": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
+            "product_id_woman": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
+            "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo_cdb2f3ee-c89c-409c-a3be-83f59fadcf3a.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo_53691865-817b-4c91-8d33-a790a9c4ffe5.png",
+            "title": "Base Layer Manica Corta Girocollo",
+            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comoda e leggera, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento."
+          }
+        },
+        "d5f8be0d-6f44-4013-b578-8fe6df0ef332": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
+            "product_id_woman": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
+            "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo_cdb2f3ee-c89c-409c-a3be-83f59fadcf3a.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo_53691865-817b-4c91-8d33-a790a9c4ffe5.png",
+            "title": "Base Layer Manica Corta Girocollo",
+            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comoda e leggera, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento."
+          }
+        }
+      },
+      "block_order": [
+        "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1",
+        "05b43ffa-da34-4a8e-8892-d943a3d085f0",
+        "d5f8be0d-6f44-4013-b578-8fe6df0ef332"
+      ],
+      "settings": {
+        "id_for_anchor": "",
+        "title": "SCOPRI I NOSTRI BEST SELLER",
+        "image_man": "shopify:\/\/shop_images\/Polygon_Copy_10_f4396355-7d4a-4348-bd4a-ee0ff011c1d7.png",
+        "button_man": "UOMO",
+        "image_woman": "shopify:\/\/shop_images\/Polygon_Copy_11_3ad5cb23-a399-4ebe-a4d0-e4a2b94351f4.png",
+        "button_woman": "DONNA",
+        "cta_text_man": "ACQUISTA UOMO",
+        "cta_text_woman": "ACQUISTA DONNA"
+      }
+    },
+    "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6": {
+      "type": "modulo-newsletter-image",
+      "settings": {
+        "id_for_anchor": "",
+        "sup_title": "SILVERSKIN",
+        "title": "10% di sconto sul tuo primo ordine!",
+        "description": "<p>Iscriviti alla newsletter e ricevi un codice sconto del 10% da utilizzare sul tuo primo ordine.<\/p><p>Resta sempre aggiornato sulle ultime novità, sulle info dal mondo Silverskin e su promozioni imperdibili!<\/p>",
+        "image": "shopify:\/\/shop_images\/MG_4026_1.jpg",
+        "mail_placeholder": "INSERISCI LA TUA MAIL",
+        "submit_text": "ISCRIVITI"
+      }
+    },
+    "0f7c78b0-f99d-4b98-95b6-637ee22b4119": {
+      "type": "modulo-contact",
+      "settings": {
+        "title": "SE HAI DOMANDE, CONTATTACI",
+        "form_title": "MESSAGGIO",
+        "privacy": "<p>Confermo di aver letto e compreso la dichiarazione sulla <a href=\"https:\/\/www.silverskin.it\/pages\/privacy\" target=\"_blank\" title=\"\/pages\/privacy\">privacy<\/a> e acconsento al trattamento dei miei dati personali a scopi di marketing.<\/p>",
+        "btn_submit": "INVIA"
       }
     }
   },
@@ -49,6 +137,9 @@
     "main",
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
     "fafb4f37-f234-4877-ac3b-1e1924791295",
-    "53264063-4afe-4fbc-a7bb-503cb0eb317e"
+    "53264063-4afe-4fbc-a7bb-503cb0eb317e",
+    "6d90f70f-ae27-4399-a7d1-463f71e74b24",
+    "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
+    "0f7c78b0-f99d-4b98-95b6-637ee22b4119"
   ]
 }
