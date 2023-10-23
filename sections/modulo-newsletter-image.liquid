@@ -1,5 +1,5 @@
 <div class="section-newsletter-image {% if section.settings.black_style %}black-style{% else %}white-style{% endif %}" id="{{ section.settings.id_for_anchor }}">
-    <div class="newsletter-image">
+    <div class="newsletter-image" {% if section.settings.texture != blank %}style="background:url({{section.settings.texture}})" {% endif %}>
         <div class="newsletter-image__form">
             <div class="newsletter-image__form__content">
                 <h5>{{ section.settings.sup_title }}</h5>
@@ -77,6 +77,11 @@
             "default": true
         },
         {
+            "type": "image_picker",
+            "id": "texture",
+            "label": "Texture"
+        },
+        {
             "type": "text",
             "id": "sup_title",
             "label": "Sup Title",
@@ -124,6 +129,10 @@
 .section-newsletter-image {
     background: #000;
     color: #fff;
+}
+.section-newsletter-image.white-style {
+    background: #fff;
+    color: #000;
 }
 .newsletter-image {
     display: flex;
