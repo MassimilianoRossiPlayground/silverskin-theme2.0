@@ -270,8 +270,8 @@ __DL__jQueryinterval = setInterval(function(){
                                     collection_cartIDs = [];
                                     collection_matchIDs = [];
                                     collection_addtocart = [];
-                                    for (var i = __DL__.cart.products.length - 1; i >= 0; i--) {
-                                        var x = parseFloat(__DL__.cart.products[i].variant);
+                                    for (var i = __DL__.cart.items.length - 1; i >= 0; i--) {
+                                        var x = parseFloat(__DL__.cart.items[i].variant);
                                         collection_cartIDs.push(x);
                                     }
                                 });
