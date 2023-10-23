@@ -1,0 +1,29 @@
+<div class="float-products">
+
+  <div class="float-products__head">
+    <h2>{{ section.settings.title }}</h2>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Float Products",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        }
+        
+    ],
+    "presets": [
+        {
+            "name": "Float Products"
+        }
+    ]
+  }
+{% endschema %}
+
+{% style %}
+
+{% endstyle %}
