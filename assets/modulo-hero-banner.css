@@ -38,8 +38,7 @@
 }
 .section-hero-banner .hero-scroll-down svg {
     transform: rotate(-90deg);
-    width: 35px;
-    height: 35px;
+    width: 22px;
     margin: 0 auto;
     display: block;
 }
@@ -76,6 +75,11 @@
 
 .banner-cta__link:hover {
     color: #fff;
+}
+
+.hero-scroll-down__text {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 
