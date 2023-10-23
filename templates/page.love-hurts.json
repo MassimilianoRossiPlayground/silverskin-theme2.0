@@ -37,11 +37,18 @@
         "cta_link": "\/collections\/test",
         "cta_link_anchor": ""
       }
+    },
+    "53264063-4afe-4fbc-a7bb-503cb0eb317e": {
+      "type": "modulo-float-products",
+      "settings": {
+        "title": "i preferiti dei nostri<br>atleti"
+      }
     }
   },
   "order": [
     "main",
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
-    "fafb4f37-f234-4877-ac3b-1e1924791295"
+    "fafb4f37-f234-4877-ac3b-1e1924791295",
+    "53264063-4afe-4fbc-a7bb-503cb0eb317e"
   ]
 }
