@@ -25,10 +25,21 @@
         "link_video": "",
         "scroll_down_text": "SCOPRI"
       }
+    },
+    "fafb4f37-f234-4877-ac3b-1e1924791295": {
+      "type": "modulo-text-cta",
+      "settings": {
+        "title": "NOI SIAMO SILVERSKIN E LO FACCIAMO CON PASSIONE",
+        "sub_title": "LOREM IPSUM DOLOR SIT per raggiungere le proprie vette E saperne avere tanta, quando c’è da attendere. LOREM IPSUM DOLOR SIT per raggiungere le proprie vette E saperne avere tanta, quando c’è da attendere. LOREM IPSUM DOLOR SIT per raggiungere le proprie vette E saperne avere tanta, quando c’è da attendere.",
+        "text": "",
+        "cta_text": "SCOPRI I NOSTRI PRODOTTI",
+        "cta_link_anchor": "#"
+      }
     }
   },
   "order": [
     "main",
-    "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9"
+    "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
+    "fafb4f37-f234-4877-ac3b-1e1924791295"
   ]
 }
