@@ -113,7 +113,6 @@
                         {% else %}
                         var isLoggedIn = false;
                         {% endif %}
-
                         if (!isLoggedIn) {
                             $.cookie('logState', unescape);
                             $.removeCookie('logState', {path: '/'});
