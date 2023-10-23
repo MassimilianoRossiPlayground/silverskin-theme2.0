@@ -2,11 +2,26 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9": {
+      "type": "modulo-hero-banner",
+      "settings": {
+        "transparent_header": true,
+        "herotitle": "",
+        "herosubtitle": "Il Baselayer Silverskin è l’intimo tecnico pensato e testato dagli sportivi per gli sportivi.",
+        "image": "shopify:\/\/shop_images\/ss-activity-hero-mountaineering-desk_1x_5255cf79-f132-4924-a4f3-038253cdf316.jpg",
+        "cta1text": "ACQUISTA UOMO",
+        "cta1link": "\/collections\/uomo",
+        "cta2text": "",
+        "cta2link": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9"
   ]
 }
