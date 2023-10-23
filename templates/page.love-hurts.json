@@ -122,6 +122,15 @@
         "mail_placeholder": "INSERISCI LA TUA MAIL",
         "submit_text": "ISCRIVITI"
       }
+    },
+    "0f7c78b0-f99d-4b98-95b6-637ee22b4119": {
+      "type": "modulo-contact",
+      "settings": {
+        "title": "SE HAI DOMANDE, CONTATTACI",
+        "form_title": "MESSAGGIO",
+        "privacy": "<p>Confermo di aver letto e compreso la dichiarazione sulla <a href=\"https:\/\/www.silverskin.it\/pages\/privacy\" target=\"_blank\" title=\"\/pages\/privacy\">privacy<\/a> e acconsento al trattamento dei miei dati personali a scopi di marketing.<\/p>",
+        "btn_submit": "INVIA"
+      }
     }
   },
   "order": [
@@ -130,6 +139,7 @@
     "fafb4f37-f234-4877-ac3b-1e1924791295",
     "53264063-4afe-4fbc-a7bb-503cb0eb317e",
     "6d90f70f-ae27-4399-a7d1-463f71e74b24",
-    "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6"
+    "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
+    "0f7c78b0-f99d-4b98-95b6-637ee22b4119"
   ]
 }
