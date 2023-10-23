@@ -33,7 +33,8 @@
         "sub_title": "LOREM IPSUM DOLOR SIT per raggiungere le proprie vette E saperne avere tanta, quando c’è da attendere. LOREM IPSUM DOLOR SIT per raggiungere le proprie vette E saperne avere tanta, quando c’è da attendere. LOREM IPSUM DOLOR SIT per raggiungere le proprie vette E saperne avere tanta, quando c’è da attendere.",
         "text": "",
         "cta_text": "SCOPRI I NOSTRI PRODOTTI",
-        "cta_link_anchor": "#"
+        "cta_link": "\/collections\/test",
+        "cta_link_anchor": ""
       }
     }
   },
