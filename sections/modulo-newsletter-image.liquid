@@ -1,5 +1,5 @@
 <div class="section-newsletter-image {% if section.settings.black_style %}black-style{% else %}white-style{% endif %}" id="{{ section.settings.id_for_anchor }}">
-    <div class="newsletter-image" {% if section.settings.texture != blank %}style="background:url({{section.settings.texture | img_url: 'master'}})" {% endif %}>
+    <div class="newsletter-image" {% if section.settings.texture %}style="background:url({{section.settings.texture | img_url: 'master'}}) repeat-x" {% endif %}>
         <div class="newsletter-image__form">
             <div class="newsletter-image__form__content">
                 <h5>{{ section.settings.sup_title }}</h5>
