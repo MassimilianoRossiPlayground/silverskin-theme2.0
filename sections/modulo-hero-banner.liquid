@@ -37,6 +37,9 @@
         {% if section.settings.cta2text != blank %}
             <a class="banner-cta__link" href="{{ section.settings.cta2link }}">{{ section.settings.cta2text }}</a>
         {% endif %}
+        {% if section.settings.cta_video != blank %}
+            <a class="banner-cta__link banner-cta__link--video" href="{{ section.settings.link_video }}">{{ section.settings.cta_video }}</a>
+        {% endif %}
     </div>
   </div>
     <div class="hero-scroll-down">
@@ -109,6 +112,17 @@
             "id": "cta2link",
             "label": "CTA 2 Link",
             "default": "/collections/donna"
+        },
+        {
+            "type": "text",
+            "id": "cta_video",
+            "label": "CTA Video",
+            "default": "GUARDA IL VIDEO"
+        },
+        {
+            "type": "text",
+            "id": "link_video",
+            "label": "Link Video"
         },
         {
             "type": "text",
