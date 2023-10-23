@@ -10,6 +10,7 @@
       "type": "modulo-hero-banner",
       "settings": {
         "transparent_header": true,
+        "overlay_dark": false,
         "content_bottom": true,
         "herotitle": "",
         "herosubtitle": "",
@@ -20,6 +21,8 @@
         "cta1link": "\/collections\/uomo",
         "cta2text": "",
         "cta2link": "",
+        "cta_video": "GUARDA IL VIDEO",
+        "link_video": "",
         "scroll_down_text": "SCOPRI"
       }
     }
