@@ -1,4 +1,4 @@
-<div class="section-newsletter-image" id="{{ section.settings.id_for_anchor }}">
+<div class="section-newsletter-image {% if section.settings.black_style %}black-style{% else %}white-style{% endif %}" id="{{ section.settings.id_for_anchor }}">
     <div class="newsletter-image">
         <div class="newsletter-image__form">
             <div class="newsletter-image__form__content">
@@ -69,6 +69,12 @@
             "type": "text",
             "id": "id_for_anchor",
             "label": "ID for anchor"
+        },
+        {
+            "type": "checkbox",
+            "id": "black_style",
+            "label": "Black Style",
+            "default": true
         },
         {
             "type": "text",
