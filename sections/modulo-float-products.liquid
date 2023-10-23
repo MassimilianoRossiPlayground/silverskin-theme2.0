@@ -3,6 +3,11 @@
   <div class="float-products__head">
     <h2>{{ section.settings.title }}</h2>
   </div>
+
+  <div class="">
+  </div>
+
+
 </div>
 
 {% schema %}
@@ -16,6 +21,94 @@
         }
         
     ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "select",
+                "id": "direction_vertical_from",
+                "label": "Direction vertical from",
+                "options": [
+                    {
+                    "value": "top",
+                    "label": "Top"
+                    },
+                    {
+                    "value": "bottom",
+                    "label": "Bottom"
+                    }
+                ],
+                "default": "top",
+                "info": "Use from bottom for last images."
+            },
+            {
+                "type": "select",
+                "id": "direction_from",
+                "label": "Direction orizontal from",
+                "options": [
+                    {
+                    "value": "left",
+                    "label": "Left"
+                    },
+                    {
+                    "value": "right",
+                    "label": "Right"
+                    }
+                ],
+                "default": "left"
+            },
+            {
+                "type": "number",
+                "id": "cord_x",
+                "label": "Coordinata X in % da 0 a 100"
+            },
+            {
+                "type": "number",
+                "id": "cord_y",
+                "label": "Coordinata Y in px"
+            },
+            {
+                "type": "select",
+                "id": "direction_from_mob",
+                "label": "Direction Mobile orizontal from",
+                "options": [
+                    {
+                    "value": "left",
+                    "label": "Left"
+                    },
+                    {
+                    "value": "right",
+                    "label": "Right"
+                    }
+                ],
+                "default": "left"
+            },
+            {
+                "type": "number",
+                "id": "cord_x_mob",
+                "label": "Coordinata Mobile X in % da 0 a 100"
+            },
+            {
+                "type": "number",
+                "id": "cord_y_mob",
+                "label": "Coordinata Mobile Y in px"
+            },
+            {
+                "type": "number",
+                "id": "scale_image_mobile",
+                "label": "Scale image mobile",
+                "default": 50
+            }
+        ]
+      }
+    ],
     "presets": [
         {
             "name": "Float Products"
@@ -25,5 +118,16 @@
 {% endschema %}
 
 {% style %}
+
+.float-products {
+  padding: 100px 0;
+}
+.float-products__head {
+  text-align: center;
+}
+.float-products__head h2 {
+  font-size: 62px;
+}
+
 
 {% endstyle %}
