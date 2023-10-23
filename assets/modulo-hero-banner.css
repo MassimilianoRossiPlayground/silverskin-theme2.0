@@ -29,14 +29,19 @@
     z-index: 1;
 }
 
-.section-hero-banner svg {
+.section-hero-banner .hero-scroll-down {
     position: absolute;
     bottom: 10%;
+    transform: translateX(-50%);
     left: 50%;
-    transform: translateX(-50%) rotate(-90deg);
     color: #fff;
+}
+.section-hero-banner .hero-scroll-down svg {
+    transform: rotate(-90deg);
     width: 35px;
     height: 35px;
+    margin: 0 auto;
+    display: block;
 }
 
 .section-hero-banner h1 {
