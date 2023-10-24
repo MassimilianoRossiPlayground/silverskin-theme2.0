@@ -729,29 +729,6 @@
       "16057820817ca1b14f": {
         "type": "promo-grid",
         "blocks": {
-          "d17de3f9-4b74-4609-ae62-1d8646e6d6a8": {
-            "type": "advanced",
-            "settings": {
-              "subheading": "DA 10° A 40°",
-              "heading": "STAY FRESH",
-              "textarea": "Mantiene la tua temperatura corporea durante attività ad alta intensità o quando fa caldo.<br> <a href=\"\/pages\/collezioni#section-fresh-collection\">Scopri di più.<\/a>",
-              "cta_text1": "Acquista Uomo",
-              "cta_text1_color": "",
-              "cta_link1": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Uomo",
-              "cta_text2": "Acquista Donna",
-              "cta_text2_color": "",
-              "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
-              "video_url": "",
-              "width": "100",
-              "height": 480,
-              "text_size": 100,
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "center",
-              "color_accent": "#ffffff",
-              "boxed": false,
-              "framed": false
-            }
-          },
           "370735d6-5393-441e-9741-006508fa2b76": {
             "type": "advanced",
             "settings": {
@@ -764,9 +741,35 @@
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna",
+              "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img01.jpg",
               "video_url": "",
               "width": "50",
               "height": 500,
+              "text_size": 100,
+              "text_align": "vertical-bottom horizontal-center",
+              "focal_point": "center",
+              "color_accent": "#ffffff",
+              "boxed": false,
+              "framed": false
+            }
+          },
+          "de3f9899-b573-4d20-89f9-bfd1850a485c": {
+            "type": "advanced",
+            "settings": {
+              "top_image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img02-Logo.png",
+              "subheading": "",
+              "heading": "",
+              "textarea": "Il nuovo baselayer prodotto da Silverskin trasversale alle temperature. Permette di mantenere la temperatura corporea costante durante l'allenamento, indipendentemente dalla condizione climatica.\nScopri di più.",
+              "cta_text1": "Acquista Uomo",
+              "cta_text1_color": "",
+              "cta_link1": "https:\/\/www.silverskin.it\/collections\/stay-x-warm-collection\/Uomo",
+              "cta_text2": "Acquista Donna",
+              "cta_text2_color": "",
+              "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-x-warm-collection\/Donna",
+              "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img02.jpg",
+              "video_url": "",
+              "width": "50",
+              "height": 600,
               "text_size": 100,
               "text_align": "vertical-bottom horizontal-center",
               "focal_point": "center",
@@ -780,14 +783,14 @@
             "settings": {
               "subheading": "DA -40° A -10°",
               "heading": "STAY X-WARM",
-              "textarea": "Preserva il tuo calore corporeo in condizioni climatiche estreme.<br> <a href=\"\/pages\/collezioni#section-xwarm-collection\">Scopri di più.<\/a>",
+              "textarea": "Una collezione versatile, creata per mantenere la tua temperatura ottimale durante le attività praticate in climi freddi.<br> <a href=\"\/pages\/collezioni#section-xwarm-collection\">Scopri di più.<\/a>",
               "cta_text1": "Acquista Uomo",
               "cta_text1_color": "",
               "cta_link1": "https:\/\/www.silverskin.it\/collections\/stay-x-warm-collection\/Uomo",
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
               "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-x-warm-collection\/Donna",
-              "image": "shopify:\/\/shop_images\/Stay_X-Warm_Collection.jpg",
+              "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img03.jpg",
               "video_url": "",
               "width": "50",
               "height": 600,
@@ -798,12 +801,37 @@
               "boxed": false,
               "framed": false
             }
+          },
+          "d17de3f9-4b74-4609-ae62-1d8646e6d6a8": {
+            "type": "advanced",
+            "settings": {
+              "subheading": "DA 10° A 40°",
+              "heading": "STAY FRESH",
+              "textarea": "Una collezione versatile, creata per mantenere la tua temperatura ottimale durante le attività praticate in climi freddi.<br> <a href=\"\/pages\/collezioni#section-fresh-collection\">Scopri di più.<\/a>",
+              "cta_text1": "Acquista Uomo",
+              "cta_text1_color": "",
+              "cta_link1": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Uomo",
+              "cta_text2": "Acquista Donna",
+              "cta_text2_color": "",
+              "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
+              "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img04-1.jpg",
+              "video_url": "",
+              "width": "50",
+              "height": 480,
+              "text_size": 100,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "center",
+              "color_accent": "#ffffff",
+              "boxed": false,
+              "framed": false
+            }
           }
         },
         "block_order": [
-          "d17de3f9-4b74-4609-ae62-1d8646e6d6a8",
           "370735d6-5393-441e-9741-006508fa2b76",
-          "ca8bd397-bd39-49ef-a5aa-d911e692bc8e"
+          "de3f9899-b573-4d20-89f9-bfd1850a485c",
+          "ca8bd397-bd39-49ef-a5aa-d911e692bc8e",
+          "d17de3f9-4b74-4609-ae62-1d8646e6d6a8"
         ],
         "settings": {
           "full_width": true,
@@ -1258,6 +1286,7 @@
           "461e0341-1126-4b85-b821-77373e0aa557",
           "2a07fafe-14ff-414d-b9e8-cbaddee00fa0"
         ],
+        "disabled": true,
         "settings": {
           "full_width": true,
           "gutter_size": 0,
