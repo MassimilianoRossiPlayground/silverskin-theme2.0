@@ -63,12 +63,12 @@
         "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1": {
           "type": "product_block",
           "settings": {
-            "product_id_man": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
-            "product_id_woman": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
-            "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo_cdb2f3ee-c89c-409c-a3be-83f59fadcf3a.png",
-            "image_woman": "shopify:\/\/shop_images\/DONNA_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo_53691865-817b-4c91-8d33-a790a9c4ffe5.png",
-            "title": "Base Layer Manica Corta Girocollo",
-            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comoda e leggera, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento."
+            "product_id_man": "base-layer-termico-girocollo-manica-corta-pearlgrey",
+            "product_id_woman": "base-layer-termico-girocollo-manica-corta-pearlgrey-1",
+            "image_man": "shopify:\/\/shop_images\/UOMO_WARM_Stay_Warm_Manica_Corta_girocollo_2c28fa04-98fd-4973-869b-f1c6c80c468c.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo_2b10fe2c-6e14-4c79-90ef-dfa20740e07f.png",
+            "title": "Stay Warm Manica Corta girocollo",
+            "description": "Ideale per l’alta quota, questo base layer preserva il calore corporeo, isolando dalle temperature più rigide dai 3.000 mt in su. Traspirante e confortevole, favorisce la dispersione del sudore per una pelle sempre asciutta."
           }
         },
         "05b43ffa-da34-4a8e-8892-d943a3d085f0": {
@@ -101,7 +101,7 @@
       ],
       "settings": {
         "id_for_anchor": "",
-        "title": "SCOPRI I NOSTRI BEST SELLER",
+        "title": "i preferiti dei nostri atleti",
         "image_man": "shopify:\/\/shop_images\/Polygon_Copy_10_f4396355-7d4a-4348-bd4a-ee0ff011c1d7.png",
         "button_man": "UOMO",
         "image_woman": "shopify:\/\/shop_images\/Polygon_Copy_11_3ad5cb23-a399-4ebe-a4d0-e4a2b94351f4.png",
@@ -115,7 +115,6 @@
       "settings": {
         "id_for_anchor": "",
         "black_style": false,
-        "texture": "shopify:\/\/shop_images\/Texture.png",
         "sup_title": "SILVERSKIN",
         "title": "10% di sconto sul tuo primo ordine!",
         "description": "<p>Iscriviti alla newsletter e ricevi un codice sconto del 10% da utilizzare sul tuo primo ordine.<\/p><p>Resta sempre aggiornato sulle ultime novità, sulle info dal mondo Silverskin e su promozioni imperdibili!<\/p>",
