@@ -78,7 +78,7 @@
           {% for block in section.blocks %}
             <div
               {{ block.shopify_attributes }}
-              class="slideshow__slide slideshow__slide--{{ block.id }}"
+              class="slideshow__slide slideshow__slide--{{ block.id }} slide-{{ block.settings.title | strip_html | replace: " ", "-" | downcase }}"
               data-id="{{ block.id }}">
 
               {% style %}

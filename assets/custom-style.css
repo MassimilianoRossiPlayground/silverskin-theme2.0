@@ -1136,6 +1136,15 @@ label[for] {
     text-transform: uppercase;
     margin: 30px 0 0 0;
 }
+@media screen and (max-width:768px) {
+    .index-section--hero .hero__subtitle {
+        font-size: 18px;
+    }
+    .slide-enjoy-the-cold .hero__text-content.vertical-center {
+        vertical-align: bottom;
+        padding-bottom: 40px;
+    }
+}
 
 .video-yt-home-cover {
     position: relative;
