@@ -1140,6 +1140,9 @@ label[for] {
     .index-section--hero .hero__subtitle {
         font-size: 18px;
     }
+    .index-section--hero .hero__subtitle br {
+        display: none;
+    }
     .slide-enjoy-the-cold .hero__text-content.vertical-center {
         vertical-align: bottom;
         padding-bottom: 40px;
