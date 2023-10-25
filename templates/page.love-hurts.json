@@ -85,8 +85,9 @@
         "dafd04d2-c970-4097-b844-2e839b027796"
       ],
       "settings": {
+        "mob_arrows_left": true,
         "enable_text_slider": "yes",
-        "enable_line": true,
+        "enable_line": false,
         "sup_title": "",
         "title": "",
         "description": "",
