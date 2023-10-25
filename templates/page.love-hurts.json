@@ -41,6 +41,15 @@
     "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
       "type": "modulo-slider-box-text",
       "blocks": {
+        "23835e58-d7ea-4686-b828-0f265ca09eb8": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-4.png",
+            "title": "Stefano La Mastra",
+            "sub_title": "CICLISTA & ALPINISTA",
+            "description": "<p>Per le sue imprese invernali, Stefano si affida ai base layer della collezione Stay Warm per regolare la sua temperatura corporea, espellere rapidamente il sudore e proteggersi dal freddo.<\/p>"
+          }
+        },
         "ca43cc06-2683-432f-adc1-848ebc5abf8b": {
           "type": "slide_rock_salt",
           "settings": {
@@ -50,10 +59,10 @@
             "description": "<p>Quando l’intensità sale, PRIMO è il base layer che aiuta Alessio a restare perfettamente asciutti.<\/p>"
           }
         },
-        "23835e58-d7ea-4686-b828-0f265ca09eb8": {
+        "41734b2d-bc97-42b9-9f30-0803a59ec754": {
           "type": "slide_rock_salt",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group-4.png",
+            "image": "shopify:\/\/shop_images\/eynard.png",
             "title": "Dario Eynard",
             "sub_title": "ALPINISTA",
             "description": "<p>Quando mantenersi caldo diventa indispensabile, Dario sceglie i base layer della collezione Stay X-Warm, più spessi ma ugualmente traspiranti e capaci di trattenere il calore corporeo più a lungo.<\/p>"
@@ -79,8 +88,9 @@
         }
       },
       "block_order": [
-        "ca43cc06-2683-432f-adc1-848ebc5abf8b",
         "23835e58-d7ea-4686-b828-0f265ca09eb8",
+        "ca43cc06-2683-432f-adc1-848ebc5abf8b",
+        "41734b2d-bc97-42b9-9f30-0803a59ec754",
         "30de92f1-f59c-4153-bc9b-37441dd4167e",
         "dafd04d2-c970-4097-b844-2e839b027796"
       ],
