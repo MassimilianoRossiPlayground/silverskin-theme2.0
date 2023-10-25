@@ -105,6 +105,14 @@
     }
     .hero-banner__image.hero-banner__image--mob {
         display:block;
-        height: 90vh;
+        padding-bottom: 200px;
+        background: #000;
     }
+    .hero-banner__content__paragraph {
+        display: none;
+    }
+    .section-hero-banner .banner-cta__link {
+        width: 160px;
+    }
+
 }

@@ -51,13 +51,14 @@
 @media screen and (max-width: 768px) {
     .text-cta .text-cta__content {
         padding: 0 30px;
-        text-align: left;
+        text-align: center;
     }
     .text-cta .text-cta__content h5 {
-        text-align: left !important;
+        text-align: center !important;
+        font-size: 18px;
     }
     .text-cta .text-cta__link {
-        margin: 30px;
+        margin: 0 auto;
     }
     .text-cta {
         padding: 40px 0;
