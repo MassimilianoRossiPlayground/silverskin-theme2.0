@@ -45,6 +45,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group-1.png",
+            "enable_line": false,
             "sup_title": "",
             "title": "",
             "description": "",
@@ -58,6 +59,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group-3.png",
+            "enable_line": false,
             "sup_title": "",
             "title": "",
             "description": "",
@@ -71,6 +73,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group-2.png",
+            "enable_line": false,
             "sup_title": "",
             "title": "",
             "description": "",
@@ -84,6 +87,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group-4.png",
+            "enable_line": false,
             "sup_title": "",
             "title": "",
             "description": "",
