@@ -708,7 +708,9 @@ image-banner
   .snippet_collection_banner.stay-fresh .title::before {
     background-color: #1D89FF;
   }
-
+  .snippet_collection_banner.primo .title::before {
+    background-color: #c0c0c0;
+  }
 
 
   .snippet_collection_banner .banner-caption {
@@ -1128,7 +1130,23 @@ label[for] {
 }
 
 .index-section--hero .hero__subtitle {
-    display: none
+    color: #fff;
+    font-size: 28px;
+    font-family: "barlow-bold-italic" !important;
+    text-transform: uppercase;
+    margin: 30px 0 0 0;
+}
+@media screen and (max-width:768px) {
+    .index-section--hero .hero__subtitle {
+        font-size: 18px;
+    }
+    .index-section--hero .hero__subtitle br {
+        display: none;
+    }
+    .slide-enjoy-the-cold .hero__text-content.vertical-center {
+        vertical-align: bottom;
+        padding-bottom: 40px;
+    }
 }
 
 .video-yt-home-cover {
@@ -1418,15 +1436,19 @@ label[for] {
 }
 
 .top-image-promo img {
-    max-width: 350px;
+    max-width: 200px;
     width: 100%;
     object-fit: contain;
     object-position: center;
     margin-bottom: 10px;
 }
+.flex-grid__item--100 .top-image-promo img {
+    max-width: 600px;
+    margin-bottom: 30px;
+}
 
 @media screen and (max-width: 768px) {
-    .top-image-promo img {
+    .flex-grid__item--100 .top-image-promo img {
         max-width: 200px;
     }
 
