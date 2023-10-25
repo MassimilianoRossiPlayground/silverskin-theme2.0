@@ -37,7 +37,9 @@
         <div class="slider-box-text__content__text">
             <h5>{{ section.settings.sup_title }}</h5>
             <h2>{{ section.settings.title }}</h2>
-            <span class="line-copy"></span>
+            {% if section.settings.enable_line %}
+                <span class="line-copy"></span>
+            {% endif %}
             <div class="slider-box-text__content__text__descr">{{ section.settings.description }}</div>
             <div class="slider-box-text-ctas">
                 {% if section.settings.cta_1_text != blank %}           
@@ -60,34 +62,53 @@
 
                 {% for block in section.blocks %}
 
-                    <div class="swiper-slide">
-                        <div class="slider-box-text__content__text">
-                            {% if block.settings.sup_title %}
-                                <h5>{{ block.settings.sup_title }}</h5>
-                            {% endif %}
-                            {% if block.settings.title %}
-                                <h2>{{ block.settings.title }}</h2>
-                            {% endif %}
-                            {% if block.settings.enable_line %}
-                                <span class="line-copy"></span>
-                            {% endif %}
-                            {% if block.settings.description %}
-                                <div class="slider-box-text__content__text__descr">{{ block.settings.description }}</div>
-                            {% endif %}
-                            <div class="slider-box-text-ctas">
-                                {% if block.settings.cta_1_text != blank %}           
-                                <a class="btn btn-grey" href="{{ block.settings.cta_1_link }}">
-                                {{ block.settings.cta_1_text }}
-                                </a>
-                            {% endif %}
-                            {% if block.settings.cta_2_text != blank %}
-                                <a class="btn btn-grey" href="{{ block.settings.cta_2_link }}">
-                                {{ block.settings.cta_2_text }}
-                                </a>
-                            {% endif %}
+                    {% if block.type == "slide" %}
+                        <div class="swiper-slide">
+                            <div class="slider-box-text__content__text">
+                                {% if block.settings.sup_title %}
+                                    <h5>{{ block.settings.sup_title }}</h5>
+                                {% endif %}
+                                {% if block.settings.title %}
+                                    <h2>{{ block.settings.title }}</h2>
+                                {% endif %}
+                                {% if block.settings.enable_line %}
+                                    <span class="line-copy"></span>
+                                {% endif %}
+                                {% if block.settings.description %}
+                                    <div class="slider-box-text__content__text__descr">{{ block.settings.description }}</div>
+                                {% endif %}
+                                <div class="slider-box-text-ctas">
+                                    {% if block.settings.cta_1_text != blank %}           
+                                    <a class="btn btn-grey" href="{{ block.settings.cta_1_link }}">
+                                    {{ block.settings.cta_1_text }}
+                                    </a>
+                                {% endif %}
+                                {% if block.settings.cta_2_text != blank %}
+                                    <a class="btn btn-grey" href="{{ block.settings.cta_2_link }}">
+                                    {{ block.settings.cta_2_text }}
+                                    </a>
+                                {% endif %}
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    {% elsif block.type == "slide_rock_salt" %}
+                        <div class="swiper-slide">
+                            <div class="slider-box-text__content__text slider-box-text__content__text--rock-salt">
+
+                                {% if block.settings.title %}
+                                    <h2>{{ block.settings.title }}</h2>
+                                {% endif %}
+                                {% if block.settings.sup_title %}
+                                    <h4>{{ block.settings.sup_title }}</h5>
+                                {% endif %}
+
+                                {% if block.settings.description %}
+                                    <div class="slider-box-text__content__text__descr">{{ block.settings.description }}</div>
+                                {% endif %}
+
+                            </div>
+                        </div>
+                    {% endif %}
                     
                 {% endfor %}
                 
@@ -121,6 +142,12 @@
             ],
             "default": "no",
             "info": "If yes, those settings will be replaced with boxes texts."
+        },
+        {
+            "type": "checkbox",
+            "id": "enable_line",
+            "label": "Enable Line",
+            "default": true
         },
         {
             "type": "text",
@@ -214,6 +241,35 @@
                 "type": "text",
                 "id": "cta_2_link",
                 "label": "CTA 2 Link"
+            }
+        ]
+      },
+      {
+        "type": "slide_rock_salt",
+        "name": "Slide Rock Salt",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "Stefano la Mastra"
+            },
+            {
+                "type": "text",
+                "id": "sub_title",
+                "label": "Sub Title",
+                "default": "CICLISTA E ALPINISTA"
+            },
+            {
+                "type": "richtext",
+                "id": "description",
+                "label": "Description",
+                "default": "<p>This Short Sleeve Round Neck Base Layer keeps you fresh and dry when you're working out in warm environments.</p>"
             }
         ]
       }
@@ -457,6 +513,21 @@
 .slider-box-text__images .swiper-button-next:focus,
 .slider-box-text__images .swiper-button-prev:focus {
     outline: -webkit-focus-ring-color auto 0px;
+}
+
+
+.slider-box-text__content__text--rock-salt h2 {
+    font-family: "RockSalt";
+    font-size: 72px;
+}
+.slider-box-text__content__text--rock-salt h4 {
+    font-family: "Barlow";
+    font-size: 40px;
+    color: #8E8EA1;
+    text-shadow: 0 0 0 5px #8E8EA1;
+}
+.slider-box-text__content__text--rock-salt .slider-box-text__content__text__descr {
+    font-size: 36px;
 }
 
 @media screen and (max-width: 768px) {
