@@ -38,24 +38,77 @@
         "cta_link_anchor": ""
       }
     },
-    "53264063-4afe-4fbc-a7bb-503cb0eb317e": {
-      "type": "modulo-float-products",
+    "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
+      "type": "modulo-slider-box-text",
       "blocks": {
-        "33812b01-5fa7-460e-8051-7fd49b72cdab": {
-          "type": "product",
+        "template--21526044999993__04254e91-771e-4db6-8cc4-4fd9bb684b13-slide-1": {
+          "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Luca_Matassoni-188_2.jpg",
-            "direction_vertical_from": "top",
-            "direction_from": "left"
+            "image": "shopify:\/\/shop_images\/Mask_group-1.png",
+            "sup_title": "",
+            "title": "",
+            "description": "",
+            "cta_1_text": "",
+            "cta_1_link": "",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        },
+        "15fdf460-b4c4-4764-81d4-e27fb944e1de": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-3.png",
+            "sup_title": "",
+            "title": "",
+            "description": "",
+            "cta_1_text": "",
+            "cta_1_link": "",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        },
+        "87183402-6699-4759-a70d-db2256fe0933": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-2.png",
+            "sup_title": "",
+            "title": "",
+            "description": "",
+            "cta_1_text": "",
+            "cta_1_link": "",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        },
+        "b0e6a7fe-3dab-4d46-b15b-91f746afe83a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-4.png",
+            "sup_title": "",
+            "title": "",
+            "description": "",
+            "cta_1_text": "",
+            "cta_1_link": "",
+            "cta_2_text": "",
+            "cta_2_link": ""
           }
         }
       },
       "block_order": [
-        "33812b01-5fa7-460e-8051-7fd49b72cdab"
+        "template--21526044999993__04254e91-771e-4db6-8cc4-4fd9bb684b13-slide-1",
+        "15fdf460-b4c4-4764-81d4-e27fb944e1de",
+        "87183402-6699-4759-a70d-db2256fe0933",
+        "b0e6a7fe-3dab-4d46-b15b-91f746afe83a"
       ],
-      "disabled": true,
       "settings": {
-        "title": "i preferiti dei nostri<br>atleti"
+        "enable_text_slider": "no",
+        "sup_title": "",
+        "title": "",
+        "description": "",
+        "cta_1_text": "",
+        "cta_1_link": "",
+        "cta_2_text": "",
+        "cta_2_link": ""
       }
     },
     "6d90f70f-ae27-4399-a7d1-463f71e74b24": {
@@ -138,7 +191,7 @@
     "main",
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
     "fafb4f37-f234-4877-ac3b-1e1924791295",
-    "53264063-4afe-4fbc-a7bb-503cb0eb317e",
+    "04254e91-771e-4db6-8cc4-4fd9bb684b13",
     "6d90f70f-ae27-4399-a7d1-463f71e74b24",
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
     "0f7c78b0-f99d-4b98-95b6-637ee22b4119"
