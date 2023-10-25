@@ -131,11 +131,23 @@
             "title": "Base Layer Manica Corta Girocollo",
             "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comoda e leggera, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento."
           }
+        },
+        "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "stay-fresh-canotta-ciclismo-anthracite-1",
+            "product_id_woman": "stay-fresh-canotta-ciclismo-anthracite",
+            "image_man": "shopify:\/\/shop_images\/UOMO_CICLISMO_Stay_Fresh_-_Canotta_Ciclismo_cd9192e4-c9c3-465b-847d-7d91ad891ef4.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_CICLISMO_Stay_Fresh_-_Canotta_Ciclismo_7d325ebb-5f68-43f7-89c9-d62f1e3d3dca.png",
+            "title": "",
+            "description": ""
+          }
         }
       },
       "block_order": [
         "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1",
-        "05b43ffa-da34-4a8e-8892-d943a3d085f0"
+        "05b43ffa-da34-4a8e-8892-d943a3d085f0",
+        "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a"
       ],
       "settings": {
         "id_for_anchor": "",
