@@ -17,6 +17,9 @@
     object-fit: cover;
     display: block;
 }
+.hero-banner__image.hero-banner__image--mob {
+    display:none;
+}
 
 .section-hero-banner .hero-banner__content {
     max-width: 730px;
@@ -98,7 +101,10 @@
 
 @media screen and (max-width: 768px) {
     .hero-banner__image {
+        display:none;
+    }
+    .hero-banner__image.hero-banner__image--mob {
+        display:block;
         height: 90vh;
-        object-position: 65%;
     }
 }

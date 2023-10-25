@@ -2,6 +2,7 @@
 <script src="{{ 'modulo-hero-banner.js' | asset_url }}" defer="defer"></script>
 
 {%- assign img_url = section.settings.image | img_url: 'master' -%}
+{%- assign img_url_mob = section.settings.image_mob | img_url: 'master' -%}
 
 {% if section.settings.transparent_header %}
     {% assign top_margin = "-105px" %}
@@ -22,6 +23,7 @@
     <div class="overlay-dark"></div>
   {% endif %}
   <img class="hero-banner__image"src="{{ img_url }}" alt="silverskin technology" width="100%">
+  <img class="hero-banner__image hero-banner__image--mob"src="{{ img_url_mob }}" alt="silverskin technology" width="100%">
   <div class="hero-banner__content">
     {% if section.settings.herotitle != blank %}
         <h1>{{ section.settings.herotitle }}</h1>
