@@ -131,23 +131,11 @@
             "title": "Base Layer Manica Corta Girocollo",
             "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comoda e leggera, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento."
           }
-        },
-        "d5f8be0d-6f44-4013-b578-8fe6df0ef332": {
-          "type": "product_block",
-          "settings": {
-            "product_id_man": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
-            "product_id_woman": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
-            "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo_cdb2f3ee-c89c-409c-a3be-83f59fadcf3a.png",
-            "image_woman": "shopify:\/\/shop_images\/DONNA_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo_53691865-817b-4c91-8d33-a790a9c4ffe5.png",
-            "title": "Base Layer Manica Corta Girocollo",
-            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comoda e leggera, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento."
-          }
         }
       },
       "block_order": [
         "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1",
-        "05b43ffa-da34-4a8e-8892-d943a3d085f0",
-        "d5f8be0d-6f44-4013-b578-8fe6df0ef332"
+        "05b43ffa-da34-4a8e-8892-d943a3d085f0"
       ],
       "settings": {
         "id_for_anchor": "",
