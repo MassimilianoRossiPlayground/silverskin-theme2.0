@@ -41,19 +41,10 @@
     "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
       "type": "modulo-slider-box-text",
       "blocks": {
-        "23835e58-d7ea-4686-b828-0f265ca09eb8": {
+        "dafd04d2-c970-4097-b844-2e839b027796": {
           "type": "slide_rock_salt",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group-1.png",
-            "title": "Stefano la Mastra",
-            "sub_title": "CICLISTA E ALPINISTA",
-            "description": "<p>This Short Sleeve Round Neck Base Layer keeps you fresh and dry when you're working out in warm environments.<\/p>"
-          }
-        },
-        "ca43cc06-2683-432f-adc1-848ebc5abf8b": {
-          "type": "slide_rock_salt",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group-3.png",
             "title": "Stefano la Mastra",
             "sub_title": "CICLISTA E ALPINISTA",
             "description": "<p>This Short Sleeve Round Neck Base Layer keeps you fresh and dry when you're working out in warm environments.<\/p>"
@@ -63,26 +54,35 @@
           "type": "slide_rock_salt",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group-2.png",
-            "title": "Stefano la Mastra",
-            "sub_title": "CICLISTA E ALPINISTA",
+            "title": "Eydallin",
+            "sub_title": "skimo",
             "description": "<p>This Short Sleeve Round Neck Base Layer keeps you fresh and dry when you're working out in warm environments.<\/p>"
           }
         },
-        "dafd04d2-c970-4097-b844-2e839b027796": {
+        "ca43cc06-2683-432f-adc1-848ebc5abf8b": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-3.png",
+            "title": "Ale e Robi",
+            "sub_title": "TRAIL RUNNING",
+            "description": "<p>This Short Sleeve Round Neck Base Layer keeps you fresh and dry when you're working out in warm environments.<\/p>"
+          }
+        },
+        "23835e58-d7ea-4686-b828-0f265ca09eb8": {
           "type": "slide_rock_salt",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group-4.png",
-            "title": "Stefano la Mastra",
-            "sub_title": "CICLISTA E ALPINISTA",
+            "title": "Eynard",
+            "sub_title": "alpinismo",
             "description": "<p>This Short Sleeve Round Neck Base Layer keeps you fresh and dry when you're working out in warm environments.<\/p>"
           }
         }
       },
       "block_order": [
-        "23835e58-d7ea-4686-b828-0f265ca09eb8",
-        "ca43cc06-2683-432f-adc1-848ebc5abf8b",
+        "dafd04d2-c970-4097-b844-2e839b027796",
         "30de92f1-f59c-4153-bc9b-37441dd4167e",
-        "dafd04d2-c970-4097-b844-2e839b027796"
+        "ca43cc06-2683-432f-adc1-848ebc5abf8b",
+        "23835e58-d7ea-4686-b828-0f265ca09eb8"
       ],
       "settings": {
         "mob_arrows_left": true,
