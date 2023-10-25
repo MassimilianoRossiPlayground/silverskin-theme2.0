@@ -113,6 +113,19 @@
                                     <div class="slider-box-text__content__text__descr">{{ block.settings.description }}</div>
                                 {% endif %}
 
+                                <div class="slider-box-text-ctas">
+                                    {% if block.settings.cta_1_text != blank %}           
+                                    <a class="btn btn-grey" href="{{ block.settings.cta_1_link }}">
+                                    {{ block.settings.cta_1_text }}
+                                    </a>
+                                {% endif %}
+                                {% if block.settings.cta_2_text != blank %}
+                                    <a class="btn btn-grey" href="{{ block.settings.cta_2_link }}">
+                                    {{ block.settings.cta_2_text }}
+                                    </a>
+                                {% endif %}
+                                </div>
+
                             </div>
                         </div>
                     {% endif %}
@@ -283,6 +296,26 @@
                 "id": "description",
                 "label": "Description",
                 "default": "<p>This Short Sleeve Round Neck Base Layer keeps you fresh and dry when you're working out in warm environments.</p>"
+            },
+            {
+                "type": "text",
+                "id": "cta_1_text",
+                "label": "CTA 1 Text"
+            },
+            {
+                "type": "text",
+                "id": "cta_1_link",
+                "label": "CTA 1 Link"
+            },
+            {
+                "type": "text",
+                "id": "cta_2_text",
+                "label": "CTA 2 Text"
+            },
+            {
+                "type": "text",
+                "id": "cta_2_link",
+                "label": "CTA 2 Link"
             }
         ]
       }
