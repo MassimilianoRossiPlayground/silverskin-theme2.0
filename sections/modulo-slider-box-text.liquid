@@ -12,16 +12,23 @@
     
                     {%- assign img_url = block.settings.image | img_url: 'master' -%}
     
-                    <div class="swiper-slide">
-                        <img class="slider-image" src="{{img_url}}" alt="silverskin {{ section.settings.title }}">
-                    </div>
-    
+                    {% if block.type == "slide" %}
+
+                        <div class="swiper-slide">
+                            <img class="slider-image" src="{{img_url}}" alt="silverskin {{ section.settings.title }}">
+                        </div>
+                    {% elsif block.type == "slide_rock_salt" %}
+                        <div class="swiper-slide">
+                            <img class="slider-image slider-image--rock-salt" src="{{img_url}}" alt="silverskin {{ section.settings.title }}">
+                        </div>
+                    {% endif %}
+
                 {% endfor %}
     
             </div>
         </div>
     
-        <div class="slider-navigation-specs">
+        <div class="slider-navigation-specs {% if section.settings.mob_arrows_left %} arrows-left {% endif %}">
             <div class="swiper-button-next">
                 <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-right" viewbox="0 0 284.49 498.98"><path d="M35 498.98a35 35 0 0 1-24.75-59.75l189.74-189.74L10.25 59.75a35.002 35.002 0 0 1 49.5-49.5l214.49 214.49a35 35 0 0 1 0 49.5L59.75 488.73A34.89 34.89 0 0 1 35 498.98z"></path></svg>
             </div>
@@ -37,7 +44,9 @@
         <div class="slider-box-text__content__text">
             <h5>{{ section.settings.sup_title }}</h5>
             <h2>{{ section.settings.title }}</h2>
-            <span class="line-copy"></span>
+            {% if section.settings.enable_line %}
+                <span class="line-copy"></span>
+            {% endif %}
             <div class="slider-box-text__content__text__descr">{{ section.settings.description }}</div>
             <div class="slider-box-text-ctas">
                 {% if section.settings.cta_1_text != blank %}           
@@ -60,26 +69,66 @@
 
                 {% for block in section.blocks %}
 
-                    <div class="swiper-slide">
-                        <div class="slider-box-text__content__text">
-                            <h5>{{ block.settings.sup_title }}</h5>
-                            <h2>{{ block.settings.title }}</h2>
-                            <span class="line-copy"></span>
-                            <div class="slider-box-text__content__text__descr">{{ block.settings.description }}</div>
-                            <div class="slider-box-text-ctas">
-                                {% if block.settings.cta_1_text != blank %}           
-                                <a class="btn btn-grey" href="{{block.settings.cta_1_link}}">
-                                {{block.settings.cta_1_text}}
-                                </a>
-                            {% endif %}
-                            {% if block.settings.cta_2_text != blank %}
-                                <a class="btn btn-grey" href="{{block.settings.cta_2_link}}">
-                                {{block.settings.cta_2_text}}
-                                </a>
-                            {% endif %}
+                    {% if block.type == "slide" %}
+                        <div class="swiper-slide">
+                            <div class="slider-box-text__content__text">
+                                {% if block.settings.sup_title %}
+                                    <h5>{{ block.settings.sup_title }}</h5>
+                                {% endif %}
+                                {% if block.settings.title %}
+                                    <h2>{{ block.settings.title }}</h2>
+                                {% endif %}
+                                {% if block.settings.enable_line %}
+                                    <span class="line-copy"></span>
+                                {% endif %}
+                                {% if block.settings.description %}
+                                    <div class="slider-box-text__content__text__descr">{{ block.settings.description }}</div>
+                                {% endif %}
+                                <div class="slider-box-text-ctas">
+                                    {% if block.settings.cta_1_text != blank %}           
+                                    <a class="btn btn-grey" href="{{ block.settings.cta_1_link }}">
+                                    {{ block.settings.cta_1_text }}
+                                    </a>
+                                {% endif %}
+                                {% if block.settings.cta_2_text != blank %}
+                                    <a class="btn btn-grey" href="{{ block.settings.cta_2_link }}">
+                                    {{ block.settings.cta_2_text }}
+                                    </a>
+                                {% endif %}
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    {% elsif block.type == "slide_rock_salt" %}
+                        <div class="swiper-slide">
+                            <div class="slider-box-text__content__text slider-box-text__content__text--rock-salt">
+
+                                {% if block.settings.title %}
+                                    <h2>{{ block.settings.title }}</h2>
+                                {% endif %}
+                                {% if block.settings.sub_title %}
+                                    <h4>{{ block.settings.sub_title }}</h5>
+                                {% endif %}
+
+                                {% if block.settings.description %}
+                                    <div class="slider-box-text__content__text__descr">{{ block.settings.description }}</div>
+                                {% endif %}
+
+                                <div class="slider-box-text-ctas">
+                                    {% if block.settings.cta_1_text != blank %}           
+                                    <a class="btn btn-grey" href="{{ block.settings.cta_1_link }}">
+                                    {{ block.settings.cta_1_text }}
+                                    </a>
+                                {% endif %}
+                                {% if block.settings.cta_2_text != blank %}
+                                    <a class="btn btn-grey" href="{{ block.settings.cta_2_link }}">
+                                    {{ block.settings.cta_2_text }}
+                                    </a>
+                                {% endif %}
+                                </div>
+
+                            </div>
+                        </div>
+                    {% endif %}
                     
                 {% endfor %}
                 
@@ -98,6 +147,12 @@
     "max_blocks": 99,
     "settings": [
         {
+            "type": "checkbox",
+            "id": "mob_arrows_left",
+            "label": "Mobile Arrow Position Left",
+            "default": false
+        },
+        {
             "type": "select",
             "id": "enable_text_slider",
             "label": "Enable text slider",
@@ -113,6 +168,12 @@
             ],
             "default": "no",
             "info": "If yes, those settings will be replaced with boxes texts."
+        },
+        {
+            "type": "checkbox",
+            "id": "enable_line",
+            "label": "Enable Line",
+            "default": true
         },
         {
             "type": "text",
@@ -164,6 +225,12 @@
                 "label": "Image"
             },
             {
+                "type": "checkbox",
+                "id": "enable_line",
+                "label": "Enable Line",
+                "default": true
+            },
+            {
                 "type": "text",
                 "id": "sup_title",
                 "label": "Sup Title",
@@ -180,6 +247,55 @@
                 "id": "description",
                 "label": "Description",
                 "default": "<p>La tua forza è preziosa. Per questo integriamo <b>l'argento</b> nel nostro rivoluzionario intimo termico. Il risultato è una linea di prodotti <b>senza cuciture</b> che portano <b>comfort, traspirabilità e termoregolazione</b> a un livello superiore.</p>"
+            },
+            {
+                "type": "text",
+                "id": "cta_1_text",
+                "label": "CTA 1 Text"
+            },
+            {
+                "type": "text",
+                "id": "cta_1_link",
+                "label": "CTA 1 Link"
+            },
+            {
+                "type": "text",
+                "id": "cta_2_text",
+                "label": "CTA 2 Text"
+            },
+            {
+                "type": "text",
+                "id": "cta_2_link",
+                "label": "CTA 2 Link"
+            }
+        ]
+      },
+      {
+        "type": "slide_rock_salt",
+        "name": "Slide Rock Salt",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "Stefano la Mastra"
+            },
+            {
+                "type": "text",
+                "id": "sub_title",
+                "label": "Sub Title",
+                "default": "CICLISTA E ALPINISTA"
+            },
+            {
+                "type": "richtext",
+                "id": "description",
+                "label": "Description",
+                "default": "<p>This Short Sleeve Round Neck Base Layer keeps you fresh and dry when you're working out in warm environments.</p>"
             },
             {
                 "type": "text",
@@ -445,6 +561,35 @@
     outline: -webkit-focus-ring-color auto 0px;
 }
 
+
+.slider-box-text__content__text--rock-salt h2 {
+    font-family: "RockSalt" !important;
+    font-size: 42px;
+    line-height: 50px !important;
+    padding-left: 5px;
+    text-transform: none;
+}
+.slider-box-text__content__text--rock-salt h4 {
+    font-family: "Barlow" !important;
+    font-size: 26px;
+    color: #8E8EA1;
+    letter-spacing: normal;
+    text-shadow: 0px 1px 12px #AEACBD;
+}
+.slider-box-text__content__text--rock-salt .slider-box-text__content__text__descr {
+    font-size: 26px;
+}
+.slider-box-text__images .slider-image.slider-image--rock-salt {
+    aspect-ratio: 96 / 80;
+}
+
+.slider-box-text__content__text--rock-salt .slider-box-text__content a.btn.btn-grey, 
+.slider-box-text__content__text--rock-salt .slider-box-text__content a.btn.btn-grey:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+
 @media screen and (max-width: 768px) {
     .slider-box-text__images,
     .slider-box-text__content {
@@ -499,6 +644,12 @@
     .slider-box-text__content__text__descr {
         font-size: 16px;
         line-height: 1.8;
+    }
+    .slider-box-text__images .slider-navigation-specs.arrows-left {
+        right: unset;
+    }
+    .slider-box-text__content__text--rock-salt .slider-box-text__content__text__descr {
+        margin-top: 20px;
     }
 } 
 {% endstyle %}

@@ -29,14 +29,26 @@
     z-index: 1;
 }
 
-.section-hero-banner svg {
+.section-hero-banner.content-bottom .hero-banner__content {
+    top: 75%;
+}
+.section-hero-banner.content-bottom .hero-banner__content .hero-banner-cta {
+    margin-top: 30px;
+}
+
+.section-hero-banner .hero-scroll-down {
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
+    transform: translateX(-50%);
     left: 50%;
-    transform: translateX(-50%) rotate(-90deg);
     color: #fff;
-    width: 35px;
-    height: 35px;
+    cursor: pointer;
+}
+.section-hero-banner .hero-scroll-down svg {
+    transform: rotate(-90deg);
+    width: 22px;
+    margin: 0 auto;
+    display: block;
 }
 
 .section-hero-banner h1 {
@@ -49,6 +61,10 @@
     color: #fff;
     font-family: "barlow-medium" !important;
     font-size: 18px;
+}
+
+.hero-banner__content__paragraph {
+    font-size: 28px;
 }
 
 .hero-banner-cta {
@@ -71,6 +87,12 @@
 
 .banner-cta__link:hover {
     color: #fff;
+}
+
+.hero-scroll-down__text {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
 

@@ -2,11 +2,216 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9": {
+      "type": "modulo-hero-banner",
+      "settings": {
+        "transparent_header": true,
+        "overlay_dark": false,
+        "content_bottom": true,
+        "herotitle": "",
+        "herosubtitle": "",
+        "heroparagraph": "I nostri base layer sono studiatie disegnati da atleti per atleti.",
+        "image": "shopify:\/\/shop_images\/Intro_Love_hurts_ce392baa-f829-4028-8df4-938ef7723d1b.png",
+        "image_mob": "shopify:\/\/shop_images\/Intro_Love_Hurts_MOB_v1.png",
+        "cta1text": "",
+        "cta1link": "",
+        "cta2text": "",
+        "cta2link": "",
+        "cta_video": "GUARDA IL VIDEO",
+        "link_video": "",
+        "scroll_down_text": "SCOPRI"
+      }
+    },
+    "fafb4f37-f234-4877-ac3b-1e1924791295": {
+      "type": "modulo-text-cta",
+      "settings": {
+        "large_content": true,
+        "title": "PROGETTATI CON CURA. INDOSSATI CON PASSIONE.",
+        "sub_title": "Gli atleti contano sui base layer per preservare la forza e migliorare la performance sportiva. Noi di Silverskin li aiutiamo a godersi la propria passione in totale comfort, con base layer traspiranti e termoregolanti.",
+        "text": "",
+        "cta_text": "SCOPRI DI PIÙ",
+        "cta_link": "\/collections\/love-hurts\/",
+        "cta_link_anchor": ""
+      }
+    },
+    "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
+      "type": "modulo-slider-box-text",
+      "blocks": {
+        "23835e58-d7ea-4686-b828-0f265ca09eb8": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-4.png",
+            "title": "Stefano La Mastra",
+            "sub_title": "CICLISTA & ALPINISTA",
+            "description": "<p>Per le sue imprese invernali, Stefano si affida ai base layer della collezione Stay Warm per regolare la sua temperatura corporea, espellere rapidamente il sudore e proteggersi dal freddo.<\/p>",
+            "cta_1_text": "ACQUISTA ORA",
+            "cta_1_link": "https:\/\/www.silverskin.it\/products\/base-layer-termico-girocollo-manica-corta-pearlgrey",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        },
+        "ca43cc06-2683-432f-adc1-848ebc5abf8b": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-3.png",
+            "title": "Alessio Zambon",
+            "sub_title": "TRAIL RUNNING",
+            "description": "<p>Quando l’intensità sale, PRIMO è il base layer che aiuta Alessio a restare perfettamente asciutti.<\/p>",
+            "cta_1_text": "ACQUISTA ORA",
+            "cta_1_link": "https:\/\/www.silverskin.it\/products\/primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        },
+        "41734b2d-bc97-42b9-9f30-0803a59ec754": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eynard.png",
+            "title": "Dario Eynard",
+            "sub_title": "ALPINISTA",
+            "description": "<p>Quando mantenersi caldo diventa indispensabile, Dario sceglie i base layer della collezione Stay X-Warm, più spessi ma ugualmente traspiranti e capaci di trattenere il calore corporeo più a lungo.<\/p>",
+            "cta_1_text": "ACQUISTA ORA",
+            "cta_1_link": "https:\/\/www.silverskin.it\/products\/copia-del-base-layer-termico-manica-lunga-collo-alto-anthracite",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        },
+        "30de92f1-f59c-4153-bc9b-37441dd4167e": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-2.png",
+            "title": "Matteo Eydallin",
+            "sub_title": "SCIATORE ALPINISTA",
+            "description": "<p>Spesso sottozero, sempre ad alta intensità, Matteo indossa PRIMO per scaricare rapidamente il sudore e allenarsi in pieno comfort.<\/p>",
+            "cta_1_text": "ACQUISTA ORA",
+            "cta_1_link": "https:\/\/www.silverskin.it\/products\/primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        },
+        "dafd04d2-c970-4097-b844-2e839b027796": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-1.png",
+            "title": "Team Honda",
+            "sub_title": "DOWNHILL",
+            "description": "<p>Nelle discese a tutta velocità e intensità, le ragazze del team Honda DownhillH3r contano sulle proprietà traspiranti dei base layer Stay Fresh per restare fresche e asciutte.<\/p>",
+            "cta_1_text": "ACQUISTA ORA",
+            "cta_1_link": "https:\/\/www.silverskin.it\/products\/base-layer-termico-smanicato-grigio-perla-sk005lnf",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "23835e58-d7ea-4686-b828-0f265ca09eb8",
+        "ca43cc06-2683-432f-adc1-848ebc5abf8b",
+        "41734b2d-bc97-42b9-9f30-0803a59ec754",
+        "30de92f1-f59c-4153-bc9b-37441dd4167e",
+        "dafd04d2-c970-4097-b844-2e839b027796"
+      ],
+      "settings": {
+        "mob_arrows_left": true,
+        "enable_text_slider": "yes",
+        "enable_line": false,
+        "sup_title": "",
+        "title": "",
+        "description": "",
+        "cta_1_text": "",
+        "cta_1_link": "",
+        "cta_2_text": "",
+        "cta_2_link": ""
+      }
+    },
+    "6d90f70f-ae27-4399-a7d1-463f71e74b24": {
+      "type": "modulo-product-slider-gender",
+      "blocks": {
+        "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "base-layer-termico-girocollo-manica-corta-pearlgrey",
+            "product_id_woman": "base-layer-termico-girocollo-manica-corta-pearlgrey-1",
+            "image_man": "shopify:\/\/shop_images\/UOMO_WARM_Stay_Warm_Manica_Corta_girocollo_2c28fa04-98fd-4973-869b-f1c6c80c468c.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo_2b10fe2c-6e14-4c79-90ef-dfa20740e07f.png",
+            "title": "Stay Warm Manica Corta girocollo",
+            "description": "Ideale per l’alta quota, questo base layer preserva il calore corporeo, isolando dalle temperature più rigide dai 3.000 mt in su. Traspirante e confortevole, favorisce la dispersione del sudore per una pelle sempre asciutta."
+          }
+        },
+        "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "stay-fresh-canotta-ciclismo-anthracite-1",
+            "product_id_woman": "stay-fresh-canotta-ciclismo-anthracite",
+            "image_man": "shopify:\/\/shop_images\/UOMO_CICLISMO_Stay_Fresh_-_Canotta_Ciclismo_cd9192e4-c9c3-465b-847d-7d91ad891ef4.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_CICLISMO_Stay_Fresh_-_Canotta_Ciclismo_7d325ebb-5f68-43f7-89c9-d62f1e3d3dca.png",
+            "title": "Base Layer Canotta Light",
+            "description": "Perfetta per le attività più intense come il mountain biking, il trail e lo skyrunning, questa canotta accelera l’evaporazione del sudore grazie alle lavorazioni di alleggerimento in corrispondenza di petto, addome e schiena."
+          }
+        },
+        "05b43ffa-da34-4a8e-8892-d943a3d085f0": {
+          "type": "product_block",
+          "disabled": true,
+          "settings": {
+            "product_id_man": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
+            "product_id_woman": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
+            "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo_cdb2f3ee-c89c-409c-a3be-83f59fadcf3a.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo_53691865-817b-4c91-8d33-a790a9c4ffe5.png",
+            "title": "Base Layer Manica Corta Girocollo",
+            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comoda e leggera, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento."
+          }
+        }
+      },
+      "block_order": [
+        "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1",
+        "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a",
+        "05b43ffa-da34-4a8e-8892-d943a3d085f0"
+      ],
+      "settings": {
+        "id_for_anchor": "",
+        "title": "SCOPRI I PREFERITI DAGLI ATLETI",
+        "image_man": "shopify:\/\/shop_images\/Polygon_Copy_10_f4396355-7d4a-4348-bd4a-ee0ff011c1d7.png",
+        "button_man": "UOMO",
+        "image_woman": "shopify:\/\/shop_images\/Polygon_Copy_11_3ad5cb23-a399-4ebe-a4d0-e4a2b94351f4.png",
+        "button_woman": "DONNA",
+        "cta_text_man": "ACQUISTA UOMO",
+        "cta_text_woman": "ACQUISTA DONNA"
+      }
+    },
+    "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6": {
+      "type": "modulo-newsletter-image",
+      "settings": {
+        "id_for_anchor": "",
+        "black_style": false,
+        "texture": "shopify:\/\/shop_images\/Texture.png",
+        "sup_title": "SILVERSKIN",
+        "title": "<span>10% di sconto<\/span> sul tuo primo ordine!",
+        "description": "<p>Iscriviti alla newsletter e ricevi un codice sconto del 10% da utilizzare sul tuo primo ordine.<\/p><p>Resta sempre aggiornato sulle ultime novità, sulle info dal mondo Silverskin e su promozioni imperdibili!<\/p>",
+        "image": "shopify:\/\/shop_images\/MG_4026_1.jpg",
+        "mail_placeholder": "INSERISCI LA TUA MAIL",
+        "submit_text": "ISCRIVITI"
+      }
+    },
+    "0f7c78b0-f99d-4b98-95b6-637ee22b4119": {
+      "type": "modulo-contact",
+      "settings": {
+        "title": "SE HAI DOMANDE, CONTATTACI",
+        "form_title": "MESSAGGIO",
+        "privacy": "<p>Confermo di aver letto e compreso la dichiarazione sulla <a href=\"https:\/\/www.silverskin.it\/pages\/privacy\" target=\"_blank\" title=\"\/pages\/privacy\">privacy<\/a> e acconsento al trattamento dei miei dati personali a scopi di marketing.<\/p>",
+        "btn_submit": "INVIA"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
+    "fafb4f37-f234-4877-ac3b-1e1924791295",
+    "04254e91-771e-4db6-8cc4-4fd9bb684b13",
+    "6d90f70f-ae27-4399-a7d1-463f71e74b24",
+    "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
+    "0f7c78b0-f99d-4b98-95b6-637ee22b4119"
   ]
 }

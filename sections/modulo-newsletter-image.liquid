@@ -1,5 +1,5 @@
-<div class="section-newsletter-image" id="{{ section.settings.id_for_anchor }}">
-    <div class="newsletter-image">
+<div class="section-newsletter-image {% if section.settings.black_style %}black-style{% else %}white-style{% endif %}" id="{{ section.settings.id_for_anchor }}">
+    <div class="newsletter-image" {% if section.settings.texture %}style="background:url({{section.settings.texture | img_url: 'master'}}) repeat-x" {% endif %}>
         <div class="newsletter-image__form">
             <div class="newsletter-image__form__content">
                 <h5>{{ section.settings.sup_title }}</h5>
@@ -71,13 +71,24 @@
             "label": "ID for anchor"
         },
         {
-            "type": "text",
+            "type": "checkbox",
+            "id": "black_style",
+            "label": "Black Style",
+            "default": true
+        },
+        {
+            "type": "image_picker",
+            "id": "texture",
+            "label": "Texture"
+        },
+        {
+            "type": "html",
             "id": "sup_title",
             "label": "Sup Title",
             "default": "SILVERSKIN"
         },
         {
-            "type": "text",
+            "type": "html",
             "id": "title",
             "label": "Title",
             "default": "10% di sconto sul tuo primo ordine!"
@@ -119,6 +130,10 @@
     background: #000;
     color: #fff;
 }
+.section-newsletter-image.white-style {
+    background: #fff;
+    color: #000;
+}
 .newsletter-image {
     display: flex;
     flex-wrap: wrap;
@@ -134,6 +149,9 @@
 .newsletter-image__form__content {
     padding: 100px 40px 100px 100px;
     max-width: 690px;
+}
+.newsletter-image__form__content span {
+    color: #8E8EA1;
 }
 input.newsletter__input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
