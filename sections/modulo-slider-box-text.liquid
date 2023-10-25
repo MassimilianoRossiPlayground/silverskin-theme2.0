@@ -62,10 +62,18 @@
 
                     <div class="swiper-slide">
                         <div class="slider-box-text__content__text">
-                            <h5>{{ block.settings.sup_title }}</h5>
-                            <h2>{{ block.settings.title }}</h2>
-                            <span class="line-copy"></span>
-                            <div class="slider-box-text__content__text__descr">{{ block.settings.description }}</div>
+                            {% if block.settings.sup_title %}
+                                <h5>{{ block.settings.sup_title }}</h5>
+                            {% endif %}
+                            {% if block.settings.title %}
+                                <h2>{{ block.settings.title }}</h2>
+                            {% endif %}
+                            {% if block.settings.enable_line %}
+                                <span class="line-copy"></span>
+                            {% endif %}
+                            {% if block.settings.description %}
+                                <div class="slider-box-text__content__text__descr">{{ block.settings.description }}</div>
+                            {% endif %}
                             <div class="slider-box-text-ctas">
                                 {% if block.settings.cta_1_text != blank %}           
                                 <a class="btn btn-grey" href="{{block.settings.cta_1_link}}">
@@ -115,12 +123,6 @@
             "info": "If yes, those settings will be replaced with boxes texts."
         },
         {
-            "type": "checkbox",
-            "id": "enable_line",
-            "label": "Enable Line",
-            "default": true
-        },
-        {
             "type": "text",
             "id": "sup_title",
             "label": "Sup Title",
@@ -168,6 +170,12 @@
                 "type": "image_picker",
                 "id": "image",
                 "label": "Image"
+            },
+            {
+                "type": "checkbox",
+                "id": "enable_line",
+                "label": "Enable Line",
+                "default": true
             },
             {
                 "type": "text",
