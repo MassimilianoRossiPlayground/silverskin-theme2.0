@@ -425,17 +425,17 @@
               "title": "ENJOY THE COLD",
               "title_size": 70,
               "subheading": "Sfida l’inverno con i nostri base layer",
-              "link": "\/collections\/stay-warm-collection\/uomo",
+              "link": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Uomo+Stay-Warm",
               "link_text": "Acquista uomo",
-              "link_2": "\/collections\/stay-warm-collection\/donna",
+              "link_2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna+Stay-Warm",
               "link_text_2": "Acquista donna",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Hero-V3.jpg",
+              "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Hero-V3_ab1d8f88-4f19-4a76-8f78-20fed4756b40.jpg",
               "focal_point": "80% 50%"
             }
           },
-          "9e1f7f98-a088-4c58-96d9-85cb1ffe1390": {
+          "a48f5abf-555e-47db-878e-19e3fc2d2667": {
             "type": "image",
             "disabled": true,
             "settings": {
@@ -508,7 +508,7 @@
         },
         "block_order": [
           "a7caeca8-bcb3-41df-be58-73a7c6b13614",
-          "9e1f7f98-a088-4c58-96d9-85cb1ffe1390",
+          "a48f5abf-555e-47db-878e-19e3fc2d2667",
           "1524768368258-0",
           "1578064016256",
           "69513a8e-34b0-4ddc-b904-53cb0daa0cb9"
@@ -753,7 +753,7 @@
               "framed": false
             }
           },
-          "de3f9899-b573-4d20-89f9-bfd1850a485c": {
+          "a0cbd4af-8204-484a-a9c8-f95cbe9a8340": {
             "type": "advanced",
             "settings": {
               "top_image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img02-Logo.png",
@@ -762,10 +762,10 @@
               "textarea": "Il nuovo baselayer prodotto da Silverskin trasversale alle temperature. Permette di mantenere la temperatura corporea costante durante l'allenamento, indipendentemente dalla condizione climatica.\n<a href=\"https:\/\/primo-thermodry-pro.silverskin.it\/\" target=\"_blank\">Scopri di più.<\/a>",
               "cta_text1": "Acquista Uomo",
               "cta_text1_color": "",
-              "cta_link1": "\/collections\/primo\/uomo",
+              "cta_link1": "https:\/\/www.silverskin.it\/collections\/primo-thermo-dry-pro\/uomo",
               "cta_text2": "Acquista Donna",
               "cta_text2_color": "",
-              "cta_link2": "\/collections\/primo\/donna",
+              "cta_link2": "https:\/\/www.silverskin.it\/collections\/primo-thermo-dry-pro\/donna",
               "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img02.jpg",
               "video_url": "",
               "width": "50",
@@ -807,7 +807,7 @@
             "settings": {
               "subheading": "DA 10° A 40°",
               "heading": "STAY FRESH",
-              "textarea": "Una collezione versatile, creata per mantenere la tua temperatura ottimale durante le attività praticate in climi freddi.<br> <a href=\"\/pages\/collezioni#section-fresh-collection\">Scopri di più.<\/a>",
+              "textarea": "Mantiene la tua temperatura corporea durante attività ad alta intensità o quando fa caldo.<br> <a href=\"\/pages\/collezioni#section-fresh-collection\">Scopri di più.<\/a>",
               "cta_text1": "Acquista Uomo",
               "cta_text1_color": "",
               "cta_link1": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Uomo",
@@ -829,7 +829,7 @@
         },
         "block_order": [
           "370735d6-5393-441e-9741-006508fa2b76",
-          "de3f9899-b573-4d20-89f9-bfd1850a485c",
+          "a0cbd4af-8204-484a-a9c8-f95cbe9a8340",
           "ca8bd397-bd39-49ef-a5aa-d911e692bc8e",
           "d17de3f9-4b74-4609-ae62-1d8646e6d6a8"
         ],
@@ -1220,7 +1220,7 @@
               "cta_text2": "",
               "cta_text2_color": "",
               "cta_link2": "",
-              "image": "shopify:\/\/shop_images\/Fascia_Campagna.jpg",
+              "image": "shopify:\/\/shop_images\/Fascia_Campagna-min.jpg",
               "video_url": "",
               "width": "100",
               "height": 800,
@@ -1670,10 +1670,10 @@
               "textarea": "Sappiamo che seguire le proprie passioni non è sempre facile. <br>I nostri base layer sono progettati per aiutarti a dare il massimo anche nei momenti più difficili.<br>",
               "cta_text1": "ACQUISTA UOMO",
               "cta_text1_color": "#ffffff",
-              "cta_link1": "\/collections\/love-hurts\/uomo",
+              "cta_link1": "https:\/\/www.silverskin.it\/collections\/love-hurts\/uomo",
               "cta_text2": "ACQUISTA DONNA",
-              "cta_text2_color": "",
-              "cta_link2": "\/collections\/love-hurts\/donna",
+              "cta_text2_color": "#ffffff",
+              "cta_link2": "https:\/\/www.silverskin.it\/collections\/love-hurts\/donna",
               "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img04.jpg",
               "video_url": "",
               "width": "100",
@@ -1686,7 +1686,7 @@
               "framed": false
             }
           },
-          "b6bebd42-c32d-4f79-90f1-489775ca76fb": {
+          "86e7dccb-685a-49fe-b8db-d60511c085b6": {
             "type": "advanced",
             "disabled": true,
             "settings": {
@@ -1763,7 +1763,7 @@
         },
         "block_order": [
           "87fef3c1-efdb-4188-bdf0-254639f55cca",
-          "b6bebd42-c32d-4f79-90f1-489775ca76fb",
+          "86e7dccb-685a-49fe-b8db-d60511c085b6",
           "156d3bb7-0f95-434c-9584-1233d79e11b2",
           "881ff7ab-1c0c-4c9d-901b-5cd2efe12d37"
         ],
@@ -1787,7 +1787,7 @@
           "link_2": "https:\/\/primo-thermodry-pro.silverskin.it\/",
           "color_accent": "#ffffff",
           "text_align": "vertical-center horizontal-left",
-          "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fc9da1d90429479887cc06e62b38fa85.mp4",
+          "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/284971ac88fb478da7dc3ccf34cd6622.mp4",
           "section_height": "100vh",
           "mobile_height": "auto"
         }
