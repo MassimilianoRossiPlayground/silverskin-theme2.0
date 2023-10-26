@@ -14,6 +14,7 @@
             heroBanner.classList.add('section-hero-banner-' + i);
 
             let heroBanner_height = heroBanner.offsetHeight
+            console.log("prova: "+heroBanner_height)
 
             let heroScrollDown = heroBanner.querySelector('.hero-scroll-down')
             let heroScrollDown_it_to_scroll = heroScrollDown.getAttribute("data-scroll")
