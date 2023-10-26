@@ -178,7 +178,9 @@
       "settings": {
         "id_for_anchor": "",
         "title": "SCOPRI I PREFERITI DAGLI ATLETI",
+        "image_man": "shopify:\/\/shop_images\/Polygon_Copy_10.png",
         "button_man": "UOMO",
+        "image_woman": "shopify:\/\/shop_images\/Polygon_Copy_11_6e219ca2-9dbd-4545-b6e2-c0a0803b0068.png",
         "button_woman": "DONNA",
         "cta_text_man": "ACQUISTA UOMO",
         "cta_text_woman": "ACQUISTA DONNA"
