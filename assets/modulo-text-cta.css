@@ -26,7 +26,7 @@
 .text-cta .text-cta__content {
     padding: 5px;
     text-align: center;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     font-size: 16px;
     font-family: "barlow";
@@ -55,7 +55,7 @@
     }
     .text-cta .text-cta__content h5 {
         text-align: center !important;
-        font-size: 18px;
+        font-size: 14px;
     }
     .text-cta .text-cta__link {
         margin: 0 auto;
@@ -64,6 +64,6 @@
         padding: 40px 0;
     }
     .text-cta .text-cta__content h2 {
-        font-size: 42px;
+        font-size: 28px;
     }
 }
