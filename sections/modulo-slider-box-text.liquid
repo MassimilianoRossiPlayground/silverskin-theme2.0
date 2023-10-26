@@ -1,7 +1,7 @@
 <script src="{{ 'modulo-slider-box-text.js' | asset_url }}" defer="defer"></script>
 
 
-<div class="slider-box-text">
+<div class="slider-box-text" id="{{ section.settings.module_id }}">
 
     <div class="slider-box-text__images">
 
@@ -146,6 +146,12 @@
     "name": "Slider Box Text",
     "max_blocks": 99,
     "settings": [
+        {
+            "type": "text",
+            "id": "module_id",
+            "label": "Module ID",
+            "info": "Compile to use an anchor"
+        },
         {
             "type": "checkbox",
             "id": "mob_arrows_left",
