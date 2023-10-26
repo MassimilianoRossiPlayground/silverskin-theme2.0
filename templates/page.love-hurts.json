@@ -36,7 +36,7 @@
         "text": "",
         "cta_text": "SCOPRI DI PIÙ",
         "cta_link": "",
-        "cta_link_anchor": "athlete-slider"
+        "cta_link_anchor": "athlete-slider-2"
       }
     },
     "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
@@ -184,7 +184,7 @@
         "07122851-e0fe-4a50-9d92-f72c9bff941d"
       ],
       "settings": {
-        "id_for_anchor": "",
+        "id_for_anchor": "athlete-slider-2",
         "title": "SCOPRI I PREFERITI DAGLI ATLETI",
         "image_man": "shopify:\/\/shop_images\/Polygon_Copy_10.png",
         "button_man": "UOMO",
