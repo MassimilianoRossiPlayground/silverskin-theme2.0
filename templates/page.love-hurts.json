@@ -135,6 +135,8 @@
           "settings": {
             "product_id_man": "base-layer-termico-girocollo-manica-corta-pearlgrey",
             "product_id_woman": "base-layer-termico-girocollo-manica-corta-pearlgrey-1",
+            "image_man": "shopify:\/\/shop_images\/UOMO_WARM_Stay_Warm_Manica_Corta_girocollo.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo.png",
             "title": "Stay Warm Manica Corta girocollo",
             "description": "Ideale per l’alta quota, questo base layer preserva il calore corporeo, isolando dalle temperature più rigide dai 3.000 mt in su. Traspirante e confortevole, favorisce la dispersione del sudore per una pelle sempre asciutta."
           }
@@ -153,8 +155,10 @@
         "05b43ffa-da34-4a8e-8892-d943a3d085f0": {
           "type": "product_block",
           "settings": {
-            "product_id_man": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
-            "product_id_woman": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
+            "product_id_man": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
+            "product_id_woman": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-donna",
+            "image_man": "shopify:\/\/shop_images\/PRIMO_UOMO_-_MINI_1x_a7e410ff-1cd0-4907-8c7e-e7a6b512aa8c.png",
+            "image_woman": "shopify:\/\/shop_images\/PRIMO_DONNA_1x_d1f9d083-7aca-44cf-b3d6-f26b64c78e29.png",
             "title": "PRIMO Thermo Dry Pro - Manica Corta",
             "description": "PRIMO è il base layer ideale per restare concentrato sulla performance in tutte le attività con una forte componente aerobica o sforzi anaerobici, tra cui bici, corsa, sci alpinismo e sci di fondo."
           }
@@ -164,6 +168,8 @@
           "settings": {
             "product_id_man": "copia-del-base-layer-termico-manica-lunga-collo-alto-anthracite",
             "product_id_woman": "base-layer-termico-manica-lunga-collo-alto-grigio-perla-sk001nx",
+            "image_man": "shopify:\/\/shop_images\/X_WARM_WHITE_UOMO_-_MINI_1x_18c21288-49db-47e5-8cf9-305e1d3faa5a.png",
+            "image_woman": "shopify:\/\/shop_images\/X_WARM_WHITE_DONNA_1x_1c08e7b7-c686-4d01-b4f4-ad2462a85cf3.png",
             "title": "STAY X-WARM MANICA LUNGA COLLO ALTO",
             "description": "Questo Base Layer a maniche lunghe è ideale per chi non rinuncia ad allenarsi all'aria aperta anche quando le temperature precipitano sotto lo zero."
           }
