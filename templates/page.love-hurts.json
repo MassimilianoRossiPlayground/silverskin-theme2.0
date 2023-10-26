@@ -24,7 +24,7 @@
         "cta_video": "GUARDA IL VIDEO",
         "link_video": "",
         "scroll_down_text": "SCOPRI",
-        "id_scroll_down": "#shopify-section-template--21111208804693__04254e91-771e-4db6-8cc4-4fd9bb684b13"
+        "id_scroll_down": "athlete-slider"
       }
     },
     "fafb4f37-f234-4877-ac3b-1e1924791295": {
@@ -116,6 +116,7 @@
         "dafd04d2-c970-4097-b844-2e839b027796"
       ],
       "settings": {
+        "module_id": "athlete-slider",
         "mob_arrows_left": true,
         "enable_text_slider": "yes",
         "enable_line": false,
