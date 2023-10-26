@@ -14,17 +14,13 @@
             heroBanner.classList.add('section-hero-banner-' + i);
 
             let heroBanner_height = heroBanner.offsetHeight
-            console.log("prova: "+heroBanner_height)
 
             let heroScrollDown = heroBanner.querySelector('.hero-scroll-down')
             let heroScrollDown_it_to_scroll = heroScrollDown.getAttribute("data-scroll")
-            
-            console.log("data scroll: "+heroScrollDown_it_to_scroll)
 
             if (heroScrollDown_it_to_scroll) {
 
-                heroBanner_height = document.getElementById(heroScrollDown_it_to_scroll).offsetHeight
-                console.log(heroBanner_height)
+                heroBanner_height = document.getElementById(heroScrollDown_it_to_scroll).getBoundingClientRect().top + document.body.scrollTop
             }
 
             if (heroScrollDown) {
