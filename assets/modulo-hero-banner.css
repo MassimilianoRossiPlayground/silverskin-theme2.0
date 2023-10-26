@@ -108,15 +108,25 @@
     }
     .hero-banner__image.hero-banner__image--mob {
         display:block;
-        padding-top: 100px;
-        padding-bottom: 200px;
+        /* padding-top: 100px;
+        padding-bottom: 300px; */
         background: #000;
     }
     .hero-banner__content__paragraph {
+        font-size: 18px;
+    }
+    .hero-banner__content__paragraph br {
         display: none;
     }
     .section-hero-banner .banner-cta__link {
         width: 160px;
+    }
+    .hero-scroll-down__text {
+        font-size: 16px;
+    }
+    .section-hero-banner .hero-banner__content {
+        width: 70%;
+        max-width: 70%;
     }
 
 }
