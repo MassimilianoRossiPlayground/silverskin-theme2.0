@@ -18,8 +18,8 @@
             let heroScrollDown = heroBanner.querySelector('.hero-scroll-down')
             let heroScrollDown_it_to_scroll = heroScrollDown.getAttribute("data-scroll")
             
-            console.log(heroScrollDown_it_to_scroll)
-            
+            console.log("data scroll: "+heroScrollDown_it_to_scroll)
+
             if (heroScrollDown_it_to_scroll) {
                 heroBanner_height = document.querySelector(heroScrollDown_it_to_scroll).offsetHeight
                 cosnole.log(heroBanner_height)
