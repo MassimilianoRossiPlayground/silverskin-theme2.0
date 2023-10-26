@@ -22,7 +22,7 @@
 
             if (heroScrollDown_it_to_scroll) {
                 heroBanner_height = document.querySelector(heroScrollDown_it_to_scroll).offsetHeight
-                cosnole.log(heroBanner_height)
+                console.log(heroBanner_height)
             }
 
             if (heroScrollDown) {
