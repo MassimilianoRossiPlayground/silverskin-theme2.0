@@ -14,7 +14,7 @@
         "content_bottom": true,
         "herotitle": "",
         "herosubtitle": "",
-        "heroparagraph": "I nostri base layer sono studiati<br> e disegnati da atleti per atleti.",
+        "heroparagraph": "I nostri base layer sono studiati<br>e disegnati da atleti per atleti.",
         "image": "shopify:\/\/shop_images\/Intro_Love_hurts_ce392baa-f829-4028-8df4-938ef7723d1b.png",
         "image_mob": "shopify:\/\/shop_images\/Intro_Love_Hurts_MOB_v1.png",
         "cta1text": "",
@@ -29,12 +29,12 @@
     "fafb4f37-f234-4877-ac3b-1e1924791295": {
       "type": "modulo-text-cta",
       "settings": {
-        "large_content": true,
+        "large_content": false,
         "title": "PROGETTATI CON CURA. INDOSSATI CON PASSIONE.",
         "sub_title": "Gli atleti contano sui base layer per preservare la forza e migliorare la performance sportiva. Noi di Silverskin li aiutiamo a godersi la propria passione in totale comfort, con base layer traspiranti e termoregolanti.",
         "text": "",
         "cta_text": "SCOPRI DI PIÙ",
-        "cta_link": "\/collections\/love-hurts\/",
+        "cta_link": "",
         "cta_link_anchor": ""
       }
     },
@@ -135,8 +135,8 @@
           "settings": {
             "product_id_man": "base-layer-termico-girocollo-manica-corta-pearlgrey",
             "product_id_woman": "base-layer-termico-girocollo-manica-corta-pearlgrey-1",
-            "image_man": "shopify:\/\/shop_images\/UOMO_WARM_Stay_Warm_Manica_Corta_girocollo_2c28fa04-98fd-4973-869b-f1c6c80c468c.png",
-            "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo_2b10fe2c-6e14-4c79-90ef-dfa20740e07f.png",
+            "image_man": "shopify:\/\/shop_images\/UOMO_WARM_Stay_Warm_Manica_Corta_girocollo.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo.png",
             "title": "Stay Warm Manica Corta girocollo",
             "description": "Ideale per l’alta quota, questo base layer preserva il calore corporeo, isolando dalle temperature più rigide dai 3.000 mt in su. Traspirante e confortevole, favorisce la dispersione del sudore per una pelle sempre asciutta."
           }
@@ -155,10 +155,10 @@
         "05b43ffa-da34-4a8e-8892-d943a3d085f0": {
           "type": "product_block",
           "settings": {
-            "product_id_man": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
-            "product_id_woman": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
-            "image_man": "shopify:\/\/shop_images\/PRIMO_2x_b74798aa-6a28-4a52-8c58-160c4c62fcf8.png",
-            "image_woman": "shopify:\/\/shop_images\/PRIMO_DONNA_-_MINI_2x_e0404c45-f359-481c-b3c9-bbbfdcbab664.png",
+            "product_id_man": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
+            "product_id_woman": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-donna",
+            "image_man": "shopify:\/\/shop_images\/PRIMO_UOMO_-_MINI_1x_a7e410ff-1cd0-4907-8c7e-e7a6b512aa8c.png",
+            "image_woman": "shopify:\/\/shop_images\/PRIMO_DONNA_1x_d1f9d083-7aca-44cf-b3d6-f26b64c78e29.png",
             "title": "PRIMO Thermo Dry Pro - Manica Corta",
             "description": "PRIMO è il base layer ideale per restare concentrato sulla performance in tutte le attività con una forte componente aerobica o sforzi anaerobici, tra cui bici, corsa, sci alpinismo e sci di fondo."
           }
@@ -168,8 +168,8 @@
           "settings": {
             "product_id_man": "copia-del-base-layer-termico-manica-lunga-collo-alto-anthracite",
             "product_id_woman": "base-layer-termico-manica-lunga-collo-alto-grigio-perla-sk001nx",
-            "image_man": "shopify:\/\/shop_images\/X_WARM_WHITE_-_MINI_2x_ae3debb3-bd76-49c8-b948-64542c3b706e.png",
-            "image_woman": "shopify:\/\/shop_images\/X_WARM_WHITE_DONNA_-_MINI_1x_04516b59-cb97-4994-9681-a722f0a61421.png",
+            "image_man": "shopify:\/\/shop_images\/X_WARM_WHITE_UOMO_-_MINI_1x_18c21288-49db-47e5-8cf9-305e1d3faa5a.png",
+            "image_woman": "shopify:\/\/shop_images\/X_WARM_WHITE_DONNA_1x_1c08e7b7-c686-4d01-b4f4-ad2462a85cf3.png",
             "title": "STAY X-WARM MANICA LUNGA COLLO ALTO",
             "description": "Questo Base Layer a maniche lunghe è ideale per chi non rinuncia ad allenarsi all'aria aperta anche quando le temperature precipitano sotto lo zero."
           }
@@ -184,9 +184,9 @@
       "settings": {
         "id_for_anchor": "",
         "title": "SCOPRI I PREFERITI DAGLI ATLETI",
-        "image_man": "shopify:\/\/shop_images\/Polygon_Copy_10_f4396355-7d4a-4348-bd4a-ee0ff011c1d7.png",
+        "image_man": "shopify:\/\/shop_images\/Polygon_Copy_10.png",
         "button_man": "UOMO",
-        "image_woman": "shopify:\/\/shop_images\/Polygon_Copy_11_3ad5cb23-a399-4ebe-a4d0-e4a2b94351f4.png",
+        "image_woman": "shopify:\/\/shop_images\/Polygon_Copy_11_6e219ca2-9dbd-4545-b6e2-c0a0803b0068.png",
         "button_woman": "DONNA",
         "cta_text_man": "ACQUISTA UOMO",
         "cta_text_woman": "ACQUISTA DONNA"
@@ -197,13 +197,32 @@
       "settings": {
         "id_for_anchor": "",
         "black_style": false,
-        "texture": "shopify:\/\/shop_images\/Texture.png",
+        "texture": "shopify:\/\/shop_images\/Texture_1.png",
         "sup_title": "SILVERSKIN",
         "title": "<span>10% di sconto<\/span> sul tuo primo ordine!",
         "description": "<p>Iscriviti alla newsletter e ricevi un codice sconto del 10% da utilizzare sul tuo primo ordine.<\/p><p>Resta sempre aggiornato sulle ultime novità, sulle info dal mondo Silverskin e su promozioni imperdibili!<\/p>",
         "image": "shopify:\/\/shop_images\/MG_4026_1.jpg",
         "mail_placeholder": "INSERISCI LA TUA MAIL",
         "submit_text": "ISCRIVITI"
+      }
+    },
+    "348399cc-a1f7-46ef-91a9-d29dd2142457": {
+      "type": "featured-content",
+      "settings": {
+        "title": "SEGUICI SU INSTAGRAM",
+        "text": "",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
+    "9146c261-0226-44c9-808f-1efc960963cb": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
       }
     },
     "0f7c78b0-f99d-4b98-95b6-637ee22b4119": {
@@ -223,6 +242,8 @@
     "04254e91-771e-4db6-8cc4-4fd9bb684b13",
     "6d90f70f-ae27-4399-a7d1-463f71e74b24",
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
+    "348399cc-a1f7-46ef-91a9-d29dd2142457",
+    "9146c261-0226-44c9-808f-1efc960963cb",
     "0f7c78b0-f99d-4b98-95b6-637ee22b4119"
   ]
 }
