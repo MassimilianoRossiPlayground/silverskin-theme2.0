@@ -108,6 +108,7 @@
     }
     .hero-banner__image.hero-banner__image--mob {
         display:block;
+        padding-top: 100px;
         padding-bottom: 200px;
         background: #000;
     }
