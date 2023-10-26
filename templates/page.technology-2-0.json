@@ -10,13 +10,20 @@
       "type": "modulo-hero-banner",
       "settings": {
         "transparent_header": true,
+        "overlay_dark": true,
+        "content_bottom": false,
         "herotitle": "POWER IS PRECIOUS",
         "herosubtitle": "PERFETTA TERMOREGOLAZIONE, MASSIMA PERFORMANCE",
+        "heroparagraph": "",
         "image": "shopify:\/\/shop_images\/01-HeroBanner_23abd022-a87e-4b3a-8c1d-ff940ee3f84e.jpg",
         "cta1text": "ACQUISTA UOMO",
         "cta1link": "\/collections\/uomo",
         "cta2text": "ACQUISTA DONNA",
-        "cta2link": "\/collections\/donna"
+        "cta2link": "\/collections\/donna",
+        "cta_video": "",
+        "link_video": "",
+        "scroll_down_text": "",
+        "id_scroll_down": ""
       }
     },
     "feec1890-27f3-41ba-9e2c-64c6e55fad71": {
