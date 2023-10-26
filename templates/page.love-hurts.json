@@ -22,7 +22,7 @@
         "cta2text": "",
         "cta2link": "",
         "cta_video": "GUARDA IL VIDEO",
-        "link_video": "",
+        "link_video": "https:\/\/youtu.be\/eMPSLTkl5k0",
         "scroll_down_text": "SCOPRI",
         "id_scroll_down": "athlete-slider"
       }
@@ -36,7 +36,7 @@
         "text": "",
         "cta_text": "SCOPRI DI PIÙ",
         "cta_link": "",
-        "cta_link_anchor": ""
+        "cta_link_anchor": "athlete-slider"
       }
     },
     "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
