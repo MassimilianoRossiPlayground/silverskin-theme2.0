@@ -206,6 +206,14 @@
         "submit_text": "ISCRIVITI"
       }
     },
+    "9146c261-0226-44c9-808f-1efc960963cb": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
     "0f7c78b0-f99d-4b98-95b6-637ee22b4119": {
       "type": "modulo-contact",
       "settings": {
@@ -223,6 +231,7 @@
     "04254e91-771e-4db6-8cc4-4fd9bb684b13",
     "6d90f70f-ae27-4399-a7d1-463f71e74b24",
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
+    "9146c261-0226-44c9-808f-1efc960963cb",
     "0f7c78b0-f99d-4b98-95b6-637ee22b4119"
   ]
 }
