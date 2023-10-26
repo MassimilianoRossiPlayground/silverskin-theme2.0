@@ -46,7 +46,8 @@
         {% endif %}
     </div>
   </div>
-    <div class="hero-scroll-down">
+
+    <div class="hero-scroll-down" {% if section.settings.id_scroll_down != blank %}data-scroll="{{ section.settings.id_scroll_down }}"{% endif %}>
         {% if section.settings.scroll_down_text != blank %}
             <span class="hero-scroll-down__text">{{ section.settings.scroll_down_text }}</span>
         {% endif %}
@@ -138,6 +139,12 @@
             "type": "text",
             "id": "scroll_down_text",
             "label": "Scroll Down Text"
+        },
+        {
+            "type": "text",
+            "id": "id_scroll_down",
+            "label": "ID scroll down",
+            "info": "ex: #shopify-8243o6 (if empty scroll bottom over the hero)"
         }
     ],
     "presets": [
