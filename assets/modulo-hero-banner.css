@@ -126,6 +126,7 @@
     }
     .section-hero-banner .hero-banner__content {
         width: 70%;
+        max-width: 70%;
     }
 
 }
