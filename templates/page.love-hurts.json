@@ -116,6 +116,7 @@
         "dafd04d2-c970-4097-b844-2e839b027796"
       ],
       "settings": {
+        "module_id": "athlete-slider",
         "mob_arrows_left": true,
         "enable_text_slider": "yes",
         "enable_line": false,
