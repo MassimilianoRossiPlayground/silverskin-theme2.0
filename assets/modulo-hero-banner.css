@@ -113,7 +113,10 @@
         background: #000;
     }
     .hero-banner__content__paragraph {
-        font-size: 14px;
+        font-size: 18px;
+    }
+    .hero-banner__content__paragraph br {
+        display: none;
     }
     .section-hero-banner .banner-cta__link {
         width: 160px;
