@@ -20,7 +20,7 @@
 
             if (heroScrollDown_it_to_scroll) {
 
-                heroBanner_height = document.getElementById(heroScrollDown_it_to_scroll).getBoundingClientRect().top - 100
+                heroBanner_height = document.getElementById(heroScrollDown_it_to_scroll).getBoundingClientRect().top + document.body.scrollTop
             }
 
             if (heroScrollDown) {
