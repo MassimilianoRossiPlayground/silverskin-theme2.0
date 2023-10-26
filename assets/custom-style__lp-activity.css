@@ -273,7 +273,8 @@
 .activity-page__pane-selector .title{
     font-family: barlow-bold-italic!important;
     font-size: 40px;
-    margin-top: 0px;
+    line-height: 1;
+    margin-top: 10px;
 }
 .activity-page__pane-selector .text {
 

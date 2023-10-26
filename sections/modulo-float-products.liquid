@@ -1,0 +1,109 @@
+<div class="float-products">
+
+  <div class="float-products__head">
+    <h2>{{ section.settings.title }}</h2>
+  </div>
+
+  <div class="float-box float-box-1">
+
+    <img class="float-box__img-back" src="" alt="silverskin">
+
+    <div class="float-box__prod">
+      <img class="float-box__img-prod" src="" alt="silverskin">
+      <span></span>
+    </div>
+
+  </div>
+
+
+</div>
+
+{% schema %}
+  {
+    "name": "Float Products",
+    "settings": [
+        {
+            "type": "html",
+            "id": "title",
+            "label": "Title"
+        }
+        
+    ],
+    "blocks": [
+      {
+        "type": "product",
+        "name": "Product",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "select",
+                "id": "direction_vertical_from",
+                "label": "Direction vertical from",
+                "options": [
+                    {
+                    "value": "top",
+                    "label": "Top"
+                    },
+                    {
+                    "value": "bottom",
+                    "label": "Bottom"
+                    }
+                ],
+                "default": "top",
+                "info": "Use from bottom for last images."
+            },
+            {
+                "type": "select",
+                "id": "direction_from",
+                "label": "Direction orizontal from",
+                "options": [
+                    {
+                    "value": "left",
+                    "label": "Left"
+                    },
+                    {
+                    "value": "right",
+                    "label": "Right"
+                    }
+                ],
+                "default": "left"
+            },
+            {
+                "type": "number",
+                "id": "cord_x",
+                "label": "Coordinata X in % da 0 a 100"
+            },
+            {
+                "type": "number",
+                "id": "cord_y",
+                "label": "Coordinata Y in px"
+            }
+        ]
+      }
+    ],
+    "presets": [
+        {
+            "name": "Float Products"
+        }
+    ]
+  }
+{% endschema %}
+
+{% style %}
+
+.float-products {
+  padding: 100px 0;
+}
+.float-products__head {
+  text-align: center;
+}
+.float-products__head h2 {
+  font-size: 62px;
+}
+
+
+{% endstyle %}

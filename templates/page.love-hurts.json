@@ -14,7 +14,7 @@
         "content_bottom": true,
         "herotitle": "",
         "herosubtitle": "",
-        "heroparagraph": "I nostri base layer sono studiatie disegnati da atleti per atleti.",
+        "heroparagraph": "I nostri base layer sono studiati<br> e disegnati da atleti per atleti.",
         "image": "shopify:\/\/shop_images\/Intro_Love_hurts_ce392baa-f829-4028-8df4-938ef7723d1b.png",
         "image_mob": "shopify:\/\/shop_images\/Intro_Love_Hurts_MOB_v1.png",
         "cta1text": "",
@@ -40,6 +40,80 @@
     },
     "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
       "type": "modulo-slider-box-text",
+      "blocks": {
+        "23835e58-d7ea-4686-b828-0f265ca09eb8": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-4.png",
+            "title": "Stefano La Mastra",
+            "sub_title": "CICLISTA & ALPINISTA",
+            "description": "<p>Per le sue imprese invernali, Stefano si affida ai base layer della collezione Stay Warm per regolare la sua temperatura corporea, espellere rapidamente il sudore e proteggersi dal freddo.<\/p>",
+            "cta_1_text": "ACQUISTA ORA",
+            "cta_1_link": "https:\/\/www.silverskin.it\/products\/base-layer-termico-girocollo-manica-corta-pearlgrey",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        },
+        "ca43cc06-2683-432f-adc1-848ebc5abf8b": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-3.png",
+            "title": "Alessio Zambon",
+            "sub_title": "TRAIL RUNNING",
+            "description": "<p>Quando l’intensità sale, PRIMO è il base layer che aiuta Alessio a restare perfettamente asciutti.<\/p>",
+            "cta_1_text": "ACQUISTA ORA",
+            "cta_1_link": "https:\/\/www.silverskin.it\/products\/primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        },
+        "41734b2d-bc97-42b9-9f30-0803a59ec754": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eynard.png",
+            "title": "Dario Eynard",
+            "sub_title": "ALPINISTA",
+            "description": "<p>Quando mantenersi caldo diventa indispensabile, Dario sceglie i base layer della collezione Stay X-Warm, più spessi ma ugualmente traspiranti e capaci di trattenere il calore corporeo più a lungo.<\/p>",
+            "cta_1_text": "ACQUISTA ORA",
+            "cta_1_link": "https:\/\/www.silverskin.it\/products\/copia-del-base-layer-termico-manica-lunga-collo-alto-anthracite",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        },
+        "30de92f1-f59c-4153-bc9b-37441dd4167e": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-2.png",
+            "title": "Matteo Eydallin",
+            "sub_title": "SCIATORE ALPINISTA",
+            "description": "<p>Spesso sottozero, sempre ad alta intensità, Matteo indossa PRIMO per scaricare rapidamente il sudore e allenarsi in pieno comfort.<\/p>",
+            "cta_1_text": "ACQUISTA ORA",
+            "cta_1_link": "https:\/\/www.silverskin.it\/products\/primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        },
+        "dafd04d2-c970-4097-b844-2e839b027796": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-1.png",
+            "title": "Team Honda",
+            "sub_title": "DOWNHILL",
+            "description": "<p>Nelle discese a tutta velocità e intensità, le ragazze del team Honda DownhillH3r contano sulle proprietà traspiranti dei base layer Stay Fresh per restare fresche e asciutte.<\/p>",
+            "cta_1_text": "ACQUISTA ORA",
+            "cta_1_link": "https:\/\/www.silverskin.it\/products\/base-layer-termico-smanicato-grigio-perla-sk005lnf",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "23835e58-d7ea-4686-b828-0f265ca09eb8",
+        "ca43cc06-2683-432f-adc1-848ebc5abf8b",
+        "41734b2d-bc97-42b9-9f30-0803a59ec754",
+        "30de92f1-f59c-4153-bc9b-37441dd4167e",
+        "dafd04d2-c970-4097-b844-2e839b027796"
+      ],
       "settings": {
         "mob_arrows_left": true,
         "enable_text_slider": "yes",
@@ -80,21 +154,32 @@
         },
         "05b43ffa-da34-4a8e-8892-d943a3d085f0": {
           "type": "product_block",
-          "disabled": true,
           "settings": {
             "product_id_man": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
             "product_id_woman": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo",
-            "image_man": "shopify:\/\/shop_images\/UOMO_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo_cdb2f3ee-c89c-409c-a3be-83f59fadcf3a.png",
-            "image_woman": "shopify:\/\/shop_images\/DONNA_GIROCOLLO_CORTA_Stay_Fresh-Maglia_termica_Manica_Corta_Girocollo_53691865-817b-4c91-8d33-a790a9c4ffe5.png",
-            "title": "Base Layer Manica Corta Girocollo",
-            "description": "Ideale per affrontare i dislivelli più impegnativi, senza avvertire la fastidiosa sensazione di bagnato sulla pelle quando ti fermi. Comoda e leggera, elimina i cattivi odori  grazie alla proprietà antibatteriche dell’argento."
+            "image_man": "shopify:\/\/shop_images\/PRIMO_2x_b74798aa-6a28-4a52-8c58-160c4c62fcf8.png",
+            "image_woman": "shopify:\/\/shop_images\/PRIMO_DONNA_-_MINI_2x_e0404c45-f359-481c-b3c9-bbbfdcbab664.png",
+            "title": "PRIMO Thermo Dry Pro - Manica Corta",
+            "description": "PRIMO è il base layer ideale per restare concentrato sulla performance in tutte le attività con una forte componente aerobica o sforzi anaerobici, tra cui bici, corsa, sci alpinismo e sci di fondo."
+          }
+        },
+        "07122851-e0fe-4a50-9d92-f72c9bff941d": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "copia-del-base-layer-termico-manica-lunga-collo-alto-anthracite",
+            "product_id_woman": "base-layer-termico-manica-lunga-collo-alto-grigio-perla-sk001nx",
+            "image_man": "shopify:\/\/shop_images\/X_WARM_WHITE_-_MINI_2x_ae3debb3-bd76-49c8-b948-64542c3b706e.png",
+            "image_woman": "shopify:\/\/shop_images\/X_WARM_WHITE_DONNA_-_MINI_1x_04516b59-cb97-4994-9681-a722f0a61421.png",
+            "title": "STAY X-WARM MANICA LUNGA COLLO ALTO",
+            "description": "Questo Base Layer a maniche lunghe è ideale per chi non rinuncia ad allenarsi all'aria aperta anche quando le temperature precipitano sotto lo zero."
           }
         }
       },
       "block_order": [
         "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1",
         "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a",
-        "05b43ffa-da34-4a8e-8892-d943a3d085f0"
+        "05b43ffa-da34-4a8e-8892-d943a3d085f0",
+        "07122851-e0fe-4a50-9d92-f72c9bff941d"
       ],
       "settings": {
         "id_for_anchor": "",

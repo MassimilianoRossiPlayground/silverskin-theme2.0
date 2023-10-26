@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ 'modulo-text-cta.css' | asset_url }}" type="text/css">
 
-<div class="text-cta">
+<div class="text-cta {% if section.settings.large_content %}large-content{% endif %}">
 
   <div class="text-cta__content">
     
@@ -23,6 +23,11 @@
     "name": "Text with CTA",
     "settings": [
         {
+          "type": "checkbox",
+          "id": "large_content",
+          "label": "Large content"
+        },
+        {
           "type": "text",
           "id": "title",
           "label": "Title"
@@ -44,8 +49,15 @@
         },
         {
             "type": "text",
+            "id": "cta_link",
+            "label": "CTA Link",
+            "info": "If empty use CTA Anchor Link"
+        },
+        {
+            "type": "text",
             "id": "cta_link_anchor",
-            "label": "CTA Anchor Link"
+            "label": "CTA Anchor Link",
+            "info": "Ancor ID of section, ex: shopify-section-47653"
         }
     ],
     "presets": [

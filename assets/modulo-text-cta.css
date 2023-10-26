@@ -31,6 +31,9 @@
     font-size: 16px;
     font-family: "barlow";
 }
+.text-cta.large-content .text-cta__content {
+    max-width: 1240px;
+}
 
 .text-cta .text-cta__content h2 {
     font-family: "barlow-italic";
@@ -38,7 +41,7 @@
     margin-bottom: 30px;
 }
 .text-cta .text-cta__content h5 {
-    font-family: "barlow";
+    font-family: "barlow-light"!important;
     font-size: 28px;
     margin-bottom: 30px;
     letter-spacing: normal;
@@ -48,13 +51,14 @@
 @media screen and (max-width: 768px) {
     .text-cta .text-cta__content {
         padding: 0 30px;
-        text-align: left;
+        text-align: center;
     }
     .text-cta .text-cta__content h5 {
-        text-align: left !important;
+        text-align: center !important;
+        font-size: 18px;
     }
     .text-cta .text-cta__link {
-        margin: 30px;
+        margin: 0 auto;
     }
     .text-cta {
         padding: 40px 0;
