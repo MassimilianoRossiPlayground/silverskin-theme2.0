@@ -21,6 +21,7 @@
     font-size: 14px;
     max-width: 300px;
     letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 
 .text-cta .text-cta__content {
