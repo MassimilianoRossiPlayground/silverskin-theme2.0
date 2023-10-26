@@ -22,7 +22,8 @@
             console.log("data scroll: "+heroScrollDown_it_to_scroll)
 
             if (heroScrollDown_it_to_scroll) {
-                heroBanner_height = document.querySelector(heroScrollDown_it_to_scroll).offsetHeight
+
+                heroBanner_height = document.getElementById(heroScrollDown_it_to_scroll).offsetHeight
                 console.log(heroBanner_height)
             }
 
