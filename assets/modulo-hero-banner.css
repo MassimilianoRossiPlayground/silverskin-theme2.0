@@ -124,5 +124,8 @@
     .hero-scroll-down__text {
         font-size: 16px;
     }
+    .section-hero-banner .hero-banner__content {
+        max-width: 90%;
+    }
 
 }
