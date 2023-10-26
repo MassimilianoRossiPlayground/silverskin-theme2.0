@@ -118,5 +118,8 @@
     .section-hero-banner .banner-cta__link {
         width: 160px;
     }
+    .hero-scroll-down__text {
+        font-size: 16px;
+    }
 
 }
