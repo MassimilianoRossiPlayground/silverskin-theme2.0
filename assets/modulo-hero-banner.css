@@ -108,8 +108,7 @@
     }
     .hero-banner__image.hero-banner__image--mob {
         display:block;
-        /* padding-top: 100px;
-        padding-bottom: 300px; */
+        min-height: 90vh;
         background: #000;
     }
     .hero-banner__content__paragraph {
