@@ -41,7 +41,7 @@
 
 .section-hero-banner .hero-scroll-down {
     position: absolute;
-    bottom: 2%;
+    bottom: 5%;
     transform: translateX(-50%);
     left: 50%;
     color: #fff;
