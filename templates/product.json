@@ -31,12 +31,32 @@
         "show_section": true,
         "recent_count": 5
       }
+    },
+    "1698662158f8e2ccc9": {
+      "type": "apps",
+      "blocks": {
+        "0e03bb03-9938-4dd8-850d-014ace8595dd": {
+          "type": "shopify:\/\/apps\/fast-bundle\/blocks\/product_bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {
+            "bundle_ids": "Pacchetto #1",
+            "products": [
+
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "0e03bb03-9938-4dd8-850d-014ace8595dd"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "gallery",
     "recommendations",
-    "viewed"
+    "viewed",
+    "1698662158f8e2ccc9"
   ]
 }
