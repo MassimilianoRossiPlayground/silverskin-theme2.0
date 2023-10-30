@@ -1811,7 +1811,15 @@
       "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
       "1594645290306",
       "1594644909912"
-    ]
+    ],
+    "blocks": {
+      "1530068250781986104": {
+        "type": "shopify:\/\/apps\/fast-bundle\/blocks\/fast_bundle\/9e87fbe2-9041-4c23-acf5-322413994cef",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Modern": {
