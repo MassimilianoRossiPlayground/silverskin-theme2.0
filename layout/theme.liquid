@@ -63,6 +63,14 @@
       }
     }
   {%- endstyle -%}
+
+  {% capture CFH %}{{ content_for_header }}{% endcapture %}
+  {% if CFH contains 'adminBar' or CFH contains 'designMode' %}
+    {% assign account_type = "adminAccount" %}
+  {% else %}
+    {% assign account_type = "user" %}
+  {% endif %}
+
   <script>
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
     window.theme = window.theme || {};
@@ -94,6 +102,9 @@
       themeName: 'Impulse',
       themeVersion: "2.5.3"
     };
+    silver_data = {
+      userType: {{ account_type }}
+    }
     window.hoculus = window.hoculus || {}
     hoculus.stylesheets = [
       
