@@ -113,6 +113,13 @@
       //'https://static.hotjar.com/c/hotjar-1571249.js?sv=6'
     ]
   </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'userType': silver_data.userType
+      });
+  </script>
+
   {{ content_for_header }}
   <script src="{{ 'jquery-3.5.1.min.js' | asset_url }}"></script>
   <script src="{{ 'vendor-scripts-v5.js' | asset_url | split: '?' | first }}" defer="defer"></script>
