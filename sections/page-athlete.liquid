@@ -69,8 +69,8 @@
     </div>
 
     <div class="athlete-page__text-images__images">
-      <img src="{{ section.settings.image_2 | img_url: "master" }}" alt="athlete silverskin">
-      <img src="{{ section.settings.image_3 | img_url: "master" }}" alt="athlete silverskin">
+      <img class="ath-image-left" src="{{ section.settings.image_2 | img_url: "master" }}" alt="athlete silverskin">
+      <img class="ath-image-right"src="{{ section.settings.image_3 | img_url: "master" }}" alt="athlete silverskin">
     </div>
 
     <div class="athlete-page__text-images__paragraph-bottom">
@@ -331,6 +331,9 @@ html {
     padding-left: 20px;
     width: 100%;
     max-width: 47vw;
+}
+.athlete-page__text-images__images img .ath-image-left {
+  max-width: 35vw;
 }
 .athlete-page__text-images__paragraph-bottom {
   display: grid;
