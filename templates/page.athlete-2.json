@@ -39,21 +39,21 @@
         "template--20879924265273__b07a977a-e3bf-4351-8992-c2ac8e3f9eaa-slide-1": {
           "type": "slide",
           "settings": {
-            "title": "VERTICAL LINE",
-            "sub_title": "LOREM IPSUM DOLOR",
-            "date": "02.02.2018",
-            "horizontal_position": "0",
-            "ref_year": "2018",
+            "title": "Everesting Madonna del Ghisallo ",
+            "sub_title": "",
+            "date": "2017",
+            "horizontal_position": "20",
+            "ref_year": "2017",
             "vertical_alignment": "top"
           }
         },
         "64513ebd-655a-4398-9142-cb49b732057a": {
           "type": "slide",
           "settings": {
-            "title": "VERTICAL LINE",
-            "sub_title": "LOREM IPSUM DOLOR",
-            "date": "02.02.2018",
-            "horizontal_position": "35",
+            "title": "Stelvio 10.000",
+            "sub_title": "",
+            "date": "2018",
+            "horizontal_position": "20",
             "ref_year": "2018",
             "vertical_alignment": "bottom"
           }
@@ -61,10 +61,10 @@
         "b49ba4c4-5a99-47d6-8531-aef44a681b30": {
           "type": "slide",
           "settings": {
-            "title": "VERTICAL LINE",
-            "sub_title": "LOREM IPSUM DOLOR",
-            "date": "02.02.2019",
-            "horizontal_position": "10",
+            "title": "Everesting Stelvio",
+            "sub_title": "",
+            "date": "2019",
+            "horizontal_position": "20",
             "ref_year": "2019",
             "vertical_alignment": "top"
           }
@@ -72,11 +72,55 @@
         "99183939-1478-4bc7-ba62-bd04e857da8e": {
           "type": "slide",
           "settings": {
-            "title": "VERTICAL LINE",
-            "sub_title": "LOREM IPSUM DOLOR",
-            "date": "02.02.2019",
-            "horizontal_position": "80",
-            "ref_year": "2019",
+            "title": "Campo dei Fiori 10.000",
+            "sub_title": "",
+            "date": "2020",
+            "horizontal_position": "20",
+            "ref_year": "2020",
+            "vertical_alignment": "bottom"
+          }
+        },
+        "85070909-502f-4b6c-8f99-77d23f1e83fc": {
+          "type": "slide",
+          "settings": {
+            "title": "Vertical Breithorn",
+            "sub_title": "",
+            "date": "2022",
+            "horizontal_position": "20",
+            "ref_year": "2022",
+            "vertical_alignment": "top"
+          }
+        },
+        "36ab20bc-fc44-44ae-b1f2-c09d41b357bd": {
+          "type": "slide",
+          "settings": {
+            "title": "Milano Roma",
+            "sub_title": "",
+            "date": "2022",
+            "horizontal_position": "20",
+            "ref_year": "2022",
+            "vertical_alignment": "bottom"
+          }
+        },
+        "6d50c431-af10-481c-8e4e-b76a6def62e7": {
+          "type": "slide",
+          "settings": {
+            "title": "Milano Cortina",
+            "sub_title": "",
+            "date": "2023",
+            "horizontal_position": "20",
+            "ref_year": "2023",
+            "vertical_alignment": "top"
+          }
+        },
+        "b7a78289-58ca-421e-a8a5-6d6440310417": {
+          "type": "slide",
+          "settings": {
+            "title": "Vertical Piz Bernina",
+            "sub_title": "",
+            "date": "2023",
+            "horizontal_position": "20",
+            "ref_year": "2023",
             "vertical_alignment": "bottom"
           }
         }
@@ -85,10 +129,14 @@
         "template--20879924265273__b07a977a-e3bf-4351-8992-c2ac8e3f9eaa-slide-1",
         "64513ebd-655a-4398-9142-cb49b732057a",
         "b49ba4c4-5a99-47d6-8531-aef44a681b30",
-        "99183939-1478-4bc7-ba62-bd04e857da8e"
+        "99183939-1478-4bc7-ba62-bd04e857da8e",
+        "85070909-502f-4b6c-8f99-77d23f1e83fc",
+        "36ab20bc-fc44-44ae-b1f2-c09d41b357bd",
+        "6d50c431-af10-481c-8e4e-b76a6def62e7",
+        "b7a78289-58ca-421e-a8a5-6d6440310417"
       ],
       "settings": {
-        "years_list": "2018|2019|2020|2021|2022|2023"
+        "years_list": "2017|2018|2019|2020|2021|2022|2023"
       }
     },
     "73315e4b-8476-4924-b485-d88ebb5e60e9": {
