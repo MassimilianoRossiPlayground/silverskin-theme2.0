@@ -83,11 +83,11 @@
 
    
 .activity-page__hero {
-    background-image: url(https://cdn.shopify.com/s/files/1/0696/3979/9097/files/corsa2.jpg?v=1700043122);
+    background-image: url(https://cdn.shopify.com/s/files/1/0696/3979/9097/files/corsa3.jpg?v=1700066389);
     background-position: top center;
 }
 .activity-page__hero[data-hero="running"] {
-    background-image: url(https://cdn.shopify.com/s/files/1/0696/3979/9097/files/corsa2.jpg?v=1700043122);
+    background-image: url(https://cdn.shopify.com/s/files/1/0696/3979/9097/files/corsa3.jpg?v=1700066389);
 }
 .activity-page__hero[data-hero="cycling"] {
     background-image: url(https://cdn.shopify.com/s/files/1/0696/3979/9097/files/Ciclismo.jpg?v=1700042131);
