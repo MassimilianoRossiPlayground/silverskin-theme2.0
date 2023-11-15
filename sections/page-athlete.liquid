@@ -5,7 +5,7 @@
 
 <div class="athlete-page">
 
-  <div class="athlete-page__head">
+  <div class="athlete-page__head" style="background-image:url({{ section.settings.image | img_url: "master" }});">
 
     <div class="athlete-page__head__left">
       <div class="athlete-page__head__left__content">
@@ -48,9 +48,9 @@
         </div>
       </div>
     </div>
-    <div class="athlete-page__head__right">
+    {% comment %} <div class="athlete-page__head__right">
       <img src="{{ section.settings.image | img_url: "master" }}" alt="{{ block.settings.firstname | strip_html }}">
-    </div>
+    </div> {% endcomment %}
     
   </div>
   
