@@ -83,11 +83,11 @@
 
    
 .activity-page__hero {
-    background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/09-Pagina-attivita-desk-atterraggio.jpg?v=1681802647);
+    background-image: url(https://cdn.shopify.com/s/files/1/0696/3979/9097/files/corsa.jpg?v=1700042668);
     background-position: top center;
 }
 .activity-page__hero[data-hero="running"] {
-    background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/10-Pagina-attivita-desk-corsa.jpg?v=1681802815);
+    background-image: url(https://cdn.shopify.com/s/files/1/0696/3979/9097/files/corsa.jpg?v=1700042668);
 }
 .activity-page__hero[data-hero="cycling"] {
     background-image: url(https://cdn.shopify.com/s/files/1/0696/3979/9097/files/Ciclismo.jpg?v=1700042131);
@@ -96,7 +96,7 @@
     background-image: url(https://cdn.shopify.com/s/files/1/0696/3979/9097/files/Neve.jpg?v=1700042236);
 }
 .activity-page__hero[data-hero="mountaineering"] {
-    background-image: url(https://cdn.shopify.com/s/files/1/0285/3706/1424/files/12-Pagina-attivita-desk-alpinismo-ste-poggi.jpg?v=1681803059);
+    background-image: url(https://cdn.shopify.com/s/files/1/0696/3979/9097/files/alpinismo.jpg?v=1700042783);
 }
 
 .hero-icon{
