@@ -39,10 +39,12 @@
                   {% endif %}
             </div>
           </div>
-          <div class="athlete-row">
-            <div class="athlete-table__title">LOREM IPSUM</div>
-            <div class="athlete-table__value">{{ section.settings.other_infos }}</div>
-          </div>
+          {% if section.settings.other_infos %}
+            <div class="athlete-row">
+              <div class="athlete-table__title">OTHER INFOS</div>
+              <div class="athlete-table__value">{{ section.settings.other_infos }}</div>
+            </div>
+        {% endif %}
         </div>
       </div>
     </div>
@@ -156,12 +158,12 @@
         "label": "Image Mob"
       },
       {
-        "type": "richtext",
+        "type": "textarea",
         "id": "paragraph_top",
         "label": "Paragraph top"
       },
       {
-        "type": "richtext",
+        "type": "textarea",
         "id": "paragraph_right",
         "label": "Paragraph right"
       },
@@ -308,6 +310,7 @@ html {
     max-width: 800px;
     margin-bottom: 80px;
     padding-left: 80px;
+    font-size: 32px;
 }
 .athlete-page__text-images__image-text {
     display: grid;
@@ -365,7 +368,7 @@ html {
 .athlete-page__banner__content-top h3 {
   font-family: 'barlow-semibold-italic' !important;
   text-transform: none;
-  font-size: 56px;
+  font-size: 36px;
 }
 .athlete-page__banner__content-bottom {
     position: absolute;
