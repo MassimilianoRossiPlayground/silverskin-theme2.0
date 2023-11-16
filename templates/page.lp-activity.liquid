@@ -353,7 +353,7 @@
         </div>
 
 
-        <div class="activity-page__pane-selector fresh js-select-collection" data-temp="fresh">
+        {% comment %} <div class="activity-page__pane-selector fresh js-select-collection" data-temp="fresh">
           <div class="temp">
             <ly-as-744003>+10° +40°</ly-as-744003>
           </div>
@@ -373,7 +373,7 @@
         </div>
         <div class="activity-page__products--mob">
           {% render 'page-activity_slider-products-item' , products_collection:"mountaineering-stay-fresh" %}
-        </div>
+        </div> {% endcomment %}
 
 
         <div class="activity-page__pane-selector warm js-select-collection active" data-temp="warm">
@@ -397,6 +397,8 @@
         <div class="activity-page__products--mob">
           {% render 'page-activity_slider-products-item' , products_collection:"mountaineering-stay-warm" %}
         </div>
+
+
         <div class="activity-page__pane-selector x-warm js-select-collection" data-temp="x-warm">
           <div class="temp">
             <ly-as-740722>-40° -10°</ly-as-740722>
@@ -418,6 +420,8 @@
         <div class="activity-page__products--mob">
           {% render 'page-activity_slider-products-item' , products_collection: "mountaineering-stay-x-warm" %}
         </div>
+
+        
       </div>
     </div>
   </div>
