@@ -57,14 +57,14 @@
         "74ea7505-9a86-4b73-a423-a3cb2549b911": {
           "type": "card_athlete",
           "settings": {
-            "first_name": "Nome",
-            "last_name": "Cognome",
-            "image": "shopify:\/\/shop_images\/Rectangle_7.png",
+            "first_name": "Team",
+            "last_name": "Honda",
+            "image": "shopify:\/\/shop_images\/team_533506ee-ac9c-4a85-89cf-058a2083c6c4.jpg",
             "link": "",
             "tag_trail": true,
-            "tag_bike": false,
-            "tag_snowsport": false,
-            "tag_running": true,
+            "tag_bike": true,
+            "tag_snowsport": true,
+            "tag_running": false,
             "tag_mountaineering": false,
             "tag_other": false
           }
