@@ -106,9 +106,11 @@ function activePane(activity){
         // scrollTop: 80
     }, 500);
 
-    let itemToActivate = selectedActivity == "mountaineering" ? $(".activity-page__pane-selector-wrapper.active .js-select-collection[data-temp=warm]") : $(".activity-page__pane-selector-wrapper.active .js-select-collection:first-child")
+    // let itemToActivate = selectedActivity == "mountaineering" ? $(".activity-page__pane-selector-wrapper.active .js-select-collection[data-temp=warm]") : $(".activity-page__pane-selector-wrapper.active .js-select-collection:first-child")
 
-    activeCollection(itemToActivate,false)
+    // activeCollection(itemToActivate,false)
+
+    activeCollection(selectedActivity,false)
     
 }
 
