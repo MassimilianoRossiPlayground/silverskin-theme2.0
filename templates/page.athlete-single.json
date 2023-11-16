@@ -9,9 +9,9 @@
     "c7fa9333-374b-4e5d-b442-8fc30697fb98": {
       "type": "page-athlete",
       "settings": {
-        "firstname": "STEFANO",
-        "lastname": "LA MASTRA",
-        "year": "1988",
+        "firstname": "{{ page.metafields.custom.nome_atleta.value }}",
+        "lastname": "{{ page.metafields.custom.cognome_atleta.value }}",
+        "year": "{{ page.metafields.custom.anno_atleta.value }}",
         "tag_trail": true,
         "tag_bike": true,
         "tag_snowsport": true,
