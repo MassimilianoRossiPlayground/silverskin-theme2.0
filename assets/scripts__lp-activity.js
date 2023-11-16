@@ -60,10 +60,10 @@ if ($activityTemplate.length || $snowTemplate.length) {
 
         });
 
-        activeCollection($(".activity-page__pane-selector.fresh"),false)
-        if ( $snowTemplate.length) {
-            activeCollection($(".activity-page__pane-selector.warm"),false)
-        }
+        activeCollection($(".activity-page__pane-selector.warm"),false)
+        // if ( $snowTemplate.length) {
+        //     activeCollection($(".activity-page__pane-selector.warm"),false)
+        // }
         switchLang.remove()
        
     })
