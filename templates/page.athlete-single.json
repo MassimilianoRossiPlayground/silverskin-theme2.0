@@ -28,8 +28,8 @@
         "image_3": "{{ page.metafields.custom.img_3_atleta.value }}",
         "paragraph_two_columns_1": "{{ page.metafields.custom.paragraph_col_1_atleta.value }}",
         "paragraph_two_columns_2": "{{ page.metafields.custom.paragraph_col_2_atleta.value }}",
-        "banner_top": "\"More and more people, sometimes out of necessity—or out of choice—live a life that is not their own; a life that doesn't really make them happy. We should have the courage to live according to our patterns, our priorities, no matter what they are.\"",
-        "banner_bottom": "",
+        "banner_top": "{{ page.metafields.custom.banner_top_atleta.value }}",
+        "banner_bottom": "{{ page.metafields.custom.banner_bottom_atleta.value }}",
         "image_banner": "{{ page.metafields.custom.img_banner_atleta.value }}"
       }
     },
