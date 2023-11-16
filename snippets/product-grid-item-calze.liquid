@@ -179,6 +179,7 @@
               {{ product_variant.unit_price | money }}/{{ unit_price_base_unit }}
             </div>
           {%- endif -%}
+          {%- render 'price-indication', product:product -%}
         </div>
         <div class="color-viariation-grid">
           <img src="https://cdn.shopify.com/s/files/1/0285/3706/1424/files/pdp-antrachite-color-icon.png?v=1610984997" alt="silverskin color variations">
@@ -244,4 +245,3 @@
     {% include 'wcp_product_json' with product %}
   </script>
 {% endunless %}
-{%- render 'price-indication', product:product -%}
