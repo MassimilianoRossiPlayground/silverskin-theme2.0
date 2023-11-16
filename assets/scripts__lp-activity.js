@@ -17,7 +17,7 @@ let $activityPaneSelector= $(".activity-page__pane-selector")
 let switchLang = $(".ly-switcher-wrapper")
 //memory
 var selectedActivity="mountaineering"
-var selectedTemp = "warm"
+var selectedTemp = "fresh"
 let swiperProducts = null
 if ( $snowTemplate.length ) {
     var selectedActivity="snowsport"

@@ -12,13 +12,14 @@
         "73ef8ff0-276c-495a-b36e-b7fb2aff4ce1": {
           "type": "card_athlete",
           "settings": {
-            "first_name": "Marco",
-            "last_name": "Verdi",
+            "first_name": "Stefano",
+            "last_name": "La Mastra",
+            "image": "shopify:\/\/shop_images\/stefano_eb991d74-c159-44b6-bf3c-62f902430444.jpg",
             "link": "",
             "tag_trail": true,
             "tag_bike": true,
             "tag_snowsport": true,
-            "tag_running": true,
+            "tag_running": false,
             "tag_mountaineering": false,
             "tag_other": false
           }
@@ -28,7 +29,8 @@
           "settings": {
             "first_name": "Massimo",
             "last_name": "Bianchi",
-            "video": "shopify:\/\/files\/videos\/af6d95293a244c2885a65087a17faed8.mp4",
+            "image": "shopify:\/\/shop_images\/BG_Card_61fc7f81-9745-46d7-a16d-cb3d2109eede.jpg",
+            "video": "shopify:\/\/files\/videos\/20066a2377f44210b83c417a3b7cb1c9.mp4",
             "link": "",
             "tag_trail": false,
             "tag_bike": false,
@@ -43,6 +45,7 @@
           "settings": {
             "first_name": "Luca",
             "last_name": "Bho",
+            "image": "shopify:\/\/shop_images\/Rectangle_7.png",
             "link": "",
             "tag_trail": false,
             "tag_bike": false,
@@ -57,6 +60,7 @@
           "settings": {
             "first_name": "Nome",
             "last_name": "Cognome",
+            "image": "shopify:\/\/shop_images\/Rectangle_7.png",
             "link": "",
             "tag_trail": true,
             "tag_bike": false,
