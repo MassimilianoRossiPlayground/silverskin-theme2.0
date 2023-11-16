@@ -1,11 +1,13 @@
 {% assign min = 19879 %}
 {% assign max = 1987919879 %}
 {% assign diff = max | minus: min %}
-{% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min | append: "" %}
-{% assign divID = "price-indication-" | plus: randomNumber %}
+{% assign randomNumber = 'now' | date: '%N' | modulo: diff | plus: min | append: '' %}
+{% assign divID = 'price-indication-' | plus: randomNumber %}
 
 <div class="price-indication" id="{{ divID }}">
 <script>
+window.addEventListener('load', function() {
+  
 if (typeof lastUrl === "undefined"){
 let lastUrl = location.href; 
 new MutationObserver(() => {
@@ -161,4 +163,6 @@ async function getData(new_variant) {
     }
 }
 getData("");
-</script></div>
+})
+  </script>
+</div>
