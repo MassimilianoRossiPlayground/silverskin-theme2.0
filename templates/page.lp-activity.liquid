@@ -1,5 +1,4 @@
-{% comment %} {% assign collectionsActivitiesTemperatures = "running-primo,running-stay-fresh,running-stay-warm,running-stay-x-warm,cycling-primo,cycling-stay-fresh,cycling-stay-warm,cycling-stay-x-warm,snowsports-primo,snowsport-stay-warm,snowsport-stay-x-warm,mountaineering-primo,mountaineering-stay-fresh,mountaineering-stay-warm,mountaineering-stay-x-warm" | split: ',' %} {% endcomment %}
-{% assign collectionsActivitiesTemperatures = "running-primo,running-stay-fresh,running-stay-warm,running-stay-x-warm,cycling-primo,cycling-stay-fresh,cycling-stay-warm,cycling-stay-x-warm,snowsports-primo,snowsport-stay-warm,snowsport-stay-x-warm,mountaineering-primo,mountaineering-stay-warm,mountaineering-stay-x-warm" | split: ',' %}
+{% assign collectionsActivitiesTemperatures = "running-primo,running-stay-fresh,running-stay-warm,running-stay-x-warm,cycling-primo,cycling-stay-fresh,cycling-stay-warm,cycling-stay-x-warm,snowsports-primo,snowsport-stay-warm,snowsport-stay-x-warm,mountaineering-primo,mountaineering-stay-fresh,mountaineering-stay-warm,mountaineering-stay-x-warm" | split: ',' %}
 
 <script>
   var headerWrapper = document.querySelector(".header-wrapper");
@@ -354,7 +353,7 @@
         </div>
 
 
-        {% comment %} <div class="activity-page__pane-selector fresh js-select-collection" data-temp="fresh">
+        <div class="activity-page__pane-selector fresh js-select-collection" data-temp="fresh">
           <div class="temp">
             <ly-as-744003>+10° +40°</ly-as-744003>
           </div>
@@ -374,7 +373,7 @@
         </div>
         <div class="activity-page__products--mob">
           {% render 'page-activity_slider-products-item' , products_collection:"mountaineering-stay-fresh" %}
-        </div> {% endcomment %}
+        </div>
 
 
         <div class="activity-page__pane-selector warm js-select-collection active" data-temp="warm">
