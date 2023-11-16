@@ -42,15 +42,15 @@
         "b995bf3d-0151-42ca-98a8-f020202eea3c": {
           "type": "card_athlete",
           "settings": {
-            "first_name": "Luca",
-            "last_name": "Bho",
-            "image": "shopify:\/\/shop_images\/Rectangle_7.png",
+            "first_name": "Alessio",
+            "last_name": "Zambon",
+            "image": "shopify:\/\/shop_images\/alessio_cbf5bbdf-dcfd-4503-b548-f863cf005fb3.jpg",
             "link": "",
-            "tag_trail": false,
-            "tag_bike": false,
+            "tag_trail": true,
+            "tag_bike": true,
             "tag_snowsport": true,
             "tag_running": false,
-            "tag_mountaineering": true,
+            "tag_mountaineering": false,
             "tag_other": false
           }
         },
