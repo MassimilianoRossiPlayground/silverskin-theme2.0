@@ -27,17 +27,16 @@
         "85c47e99-219b-41e2-b3a0-31d7465a8332": {
           "type": "card_athlete",
           "settings": {
-            "first_name": "Massimo",
-            "last_name": "Bianchi",
-            "image": "shopify:\/\/shop_images\/BG_Card_61fc7f81-9745-46d7-a16d-cb3d2109eede.jpg",
-            "video": "shopify:\/\/files\/videos\/20066a2377f44210b83c417a3b7cb1c9.mp4",
+            "first_name": "Roberto",
+            "last_name": "Rossi",
+            "image": "shopify:\/\/shop_images\/roberto_cce3ed3a-2762-44f6-9b39-f96292e18131.jpg",
             "link": "",
-            "tag_trail": false,
-            "tag_bike": false,
-            "tag_snowsport": false,
-            "tag_running": true,
+            "tag_trail": true,
+            "tag_bike": true,
+            "tag_snowsport": true,
+            "tag_running": false,
             "tag_mountaineering": true,
-            "tag_other": true
+            "tag_other": false
           }
         },
         "b995bf3d-0151-42ca-98a8-f020202eea3c": {
