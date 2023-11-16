@@ -16,7 +16,7 @@ let $collectionContainer = $(".collection-container")
 let $activityPaneSelector= $(".activity-page__pane-selector")
 let switchLang = $(".ly-switcher-wrapper")
 //memory
-var selectedActivity="running"
+var selectedActivity="mountaineering"
 var selectedTemp = "fresh"
 let swiperProducts = null
 if ( $snowTemplate.length ) {
