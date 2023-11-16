@@ -19,10 +19,10 @@ let switchLang = $(".ly-switcher-wrapper")
 var selectedActivity="mountaineering"
 var selectedTemp = "warm"
 let swiperProducts = null
-if ( $snowTemplate.length ) {
-    var selectedActivity="snowsport"
-    var selectedTemp = "warm"
-}
+// if ( $snowTemplate.length ) {
+//     var selectedActivity="snowsport"
+//     var selectedTemp = "warm"
+// }
 
 //init and listeners
 if ($activityTemplate.length || $snowTemplate.length) {
