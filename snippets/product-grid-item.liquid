@@ -259,9 +259,9 @@
       {%- endif -%}
     {%- endfor -%}
   {%- endif -%}
-  {%- render 'price-indication', product:product -%}
 </div>
 
+{%- render 'price-indication', product:product -%}
 
 {% unless product == empty %}
   <script type='application/json' class='wcp_json wcp_json_{{ product.id }}' id='wcp_json_{{ product.id }}'>
