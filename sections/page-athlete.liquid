@@ -94,13 +94,15 @@
 
 </div>
 
-{{page.metafields.custom.athlete_gallery }}
+
 <div class="slider-big-images">
   <div class="page-width">
       <div class="slider-big-images__content">
           <div class="swiper-container swiper-big-images">
               <div class="swiper-wrapper">
                   {% for athlete_gallery in page.metafields.custom.athlete_gallery %}
+
+                    {{athlete_gallery }}
                       <div class="swiper-slide">
                           <img src="{{ athlete_gallery.image | img_url: 'master' }}" alt="silverskin">
                       </div>
