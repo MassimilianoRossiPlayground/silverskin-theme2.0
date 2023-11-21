@@ -226,7 +226,7 @@ data-align-top="true"
                             </div></div>
                           </div>
                         {% endunless %}
-                        {% if block.settings.link_text != blank or block.settings.link_text_2 != blank %}
+                        {% if block.settings.link_text != blank or block.settings.link_text_2 != blank or block.settings.link_text_3 != blank%}
                           <div class="hero__link">
                             {% if block.settings.link_text != blank %}
                               <a href="{{ block.settings.link }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %}">
@@ -236,6 +236,11 @@ data-align-top="true"
                             {% if block.settings.link_text_2 != blank %}
                               <a href="{{ block.settings.link_2 }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %}">
                                 {{ block.settings.link_text_2 }}
+                              </a>
+                            {% endif %}
+                            {% if block.settings.link_text_3 != blank %}
+                              <a href="{{ block.settings.link_3 }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %}">
+                                {{ block.settings.link_text_3 }}
                               </a>
                             {% endif %}
                           </div>
@@ -431,6 +436,16 @@ data-align-top="true"
           "type": "text",
           "id": "link_text_2",
           "label": "Slide link text 2"
+        },
+        {
+          "type": "url",
+          "id": "link_3",
+          "label": "Slide link 3"
+        },
+        {
+          "type": "text",
+          "id": "link_text_3",
+          "label": "Slide link text 3"
         },
         {
           "type": "color",
