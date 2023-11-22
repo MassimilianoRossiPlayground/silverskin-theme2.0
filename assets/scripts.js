@@ -191,10 +191,10 @@ $( document ).ready(function() {
         console.log($(this).attr("data-qnt"))
         if ($(this).attr("data-qnt") < 10) {
             console.log("minore 10")
-            let qnt_alert = $(this)
-            qnt_alert.find(".qnt-alert").removeClass("hide")
+
+            $(this).find(".qnt-alert").removeClass("hide")
             setTimeout(function(){
-                qnt_alert.find(".qnt-alert").addClass("hide")
+                $(".variant-input label .qnt-alert").addClass("hide")
             }, 2000)
 
         }
