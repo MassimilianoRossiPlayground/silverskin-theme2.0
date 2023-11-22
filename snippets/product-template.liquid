@@ -164,7 +164,7 @@
               <span class="product__price-wrap-{{ section_id }}{% if hide_sale_price %} hide{% endif %}">
                 <span id="ComparePrice-{{ section_id }}" class="product__price product__price--compare">
                   {% if wcp_v_compare_at_price > wcp_v_price %}
-                    {{ wcp_v_compare_at_price | times: 0.6 | money }}
+                    {{ wcp_v_compare_at_price | money }}
                   {% endif %}
                 </span>
               </span>
@@ -176,7 +176,7 @@
             {% endif %}
 
             <span id="ProductPrice-{{ section_id }}" class="product__price{% if wcp_v_compare_at_price > wcp_v_price %} on-sale{% endif %}">
-              {{ wcp_v_price | times: 0.6 | money }}
+              {{ wcp_v_price | money }}
             </span>
 
             {% if settings.product_save_amount %}
