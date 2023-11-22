@@ -78,14 +78,15 @@
           <label
             for="ProductSelect-{{ section_id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}"
             class="variant__button-label color-swatch color-swatch--{{ value | handle }}{% unless product_available %} disabled{% endunless %}"
-            style="background-image: url({{ color_image }}); background-color: {{ color_swatch_fallback }};"
-          >
+            style="background-image: url({{ color_image }}); background-color: {{ color_swatch_fallback }};" 
+            data-qnt="{{ product.variants[forloop.index0].inventory_quantity }}" 
+          ><span class="qnt-alert hidden">Affrettati, ne rimangono pochi pezzi! </span>
             {{ value | escape }}
           </label><span>{{ value | escape }}</span>
         {%- else -%}
           <label
             for="ProductSelect-{{ section_id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}"
-            class="variant__button-label{% unless product_available %} disabled{% endunless %}">{{ value | escape }}</label>
+            class="variant__button-label{% unless product_available %} disabled{% endunless %}" data-qnt="{{ product.variants[forloop.index0].inventory_quantity }}"><span class="qnt-alert hidden">Affrettati, ne rimangono pochi pezzi! </span>{{ value | escape }}</label>
         {%- endif -%}
       </div>
     {%- endfor -%}
