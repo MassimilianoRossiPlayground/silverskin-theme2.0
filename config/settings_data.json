@@ -199,7 +199,7 @@
             "settings": {
               "show_footer_title": true,
               "title": "Silverskin Srl",
-              "text": "<p>Via Fiorbellina, 20 20871<\/p><p>Vimercate (MB)<\/p><p>Tel. 039-9720028<\/p><p>Mail: <a href=\"mailto:support@silverskin.it\" target=\"_blank\" title=\"mailto:support@silverskin.it\">support@silverskin.it<\/a><\/p><p>VAT: 10968490960<\/p><p>Made in Italy<\/p>",
+              "text": "<p>Via Fiorbellina, 20 20871<\/p><p>Vimercate (MB)<\/p><p>Tel. <a href=\"tel:039-9720028\" title=\"tel:039-9720028\">039-9720028<\/a><\/p><p>Mail: <a href=\"mailto:support@silverskin.it\" target=\"_blank\" title=\"mailto:support@silverskin.it\">support@silverskin.it<\/a><\/p><p>VAT: 10968490960<\/p><p>Made in Italy<\/p>",
               "container_width": 24
             }
           },
