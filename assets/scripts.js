@@ -190,9 +190,10 @@ $( document ).ready(function() {
 
         if ($(this).attr("data-qnt") < 10) {
 
-            $(this).find(".qnt-alert").removeClass("hide")
+            let qnt_alert = $(this)
+            qnt_alert.find(".qnt-alert").removeClass("hide")
             setTimeout(function(){
-                $(this).find(".qnt-alert").addClass("hide")
+                qnt_alert.find(".qnt-alert").addClass("hide")
             }, 2000)
 
         }
