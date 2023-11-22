@@ -73,11 +73,11 @@
     left: 0;
     font-size: 12px;
     line-height: 1;
-    min-width: 220px;
+    min-width: 300px;
     color: red;
     text-align: center;
     padding: 9px;
-    
+
     visibility: visible;
     z-index: 1;
     opacity: 1;
