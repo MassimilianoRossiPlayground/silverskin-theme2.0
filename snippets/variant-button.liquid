@@ -65,6 +65,7 @@
         data-value="{{ value | escape }}">
         <input type="radio"
           {% if option.selected_value == value %} checked="checked"{% endif %}
+          data-qnt="{{ product.variants[forloop.index0].inventory_quantity }}" 
           value="{{ value | escape }}"
           data-index="option{{ option_index }}"
           name="{{ option.name }}"
