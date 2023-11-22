@@ -184,6 +184,7 @@ $( document ).ready(function() {
     $(".variant-input label").on("click", function(){
         $(".variant-input label").removeClass("variant-selected")
         $(this).addClass("variant-selected")
+        $(".variant-input label .qnt-alert").addClass("hide")
 
         //change variant name in variant label (only on async call)
         $(".variant__label-selected").text(" - " + $(this).parent().attr("data-value"));
