@@ -187,6 +187,15 @@ $( document ).ready(function() {
 
         //change variant name in variant label (only on async call)
         $(".variant__label-selected").text(" - " + $(this).parent().attr("data-value"));
+
+        if ($(this).attr("data-qnt") < 10) {
+
+            $(this).find(".qnt-alert").removeClass("hide")
+            setTimeout(function(){
+                $(this).find(".qnt-alert").addClass("hide")
+            }, 2000)
+
+        }
     })
 
 

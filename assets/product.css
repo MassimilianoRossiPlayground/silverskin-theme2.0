@@ -67,6 +67,10 @@
     border: 1px solid black;
 }
 
+.qnt-alert.hide {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .pdp-two-box.is-left{
         flex-direction: column-reverse;

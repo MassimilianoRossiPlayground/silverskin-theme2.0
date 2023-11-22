@@ -65,7 +65,6 @@
         data-value="{{ value | escape }}">
         <input type="radio"
           {% if option.selected_value == value %} checked="checked"{% endif %}
-          data-qnt="{{ product.variants[forloop.index0].inventory_quantity }}" 
           value="{{ value | escape }}"
           data-index="option{{ option_index }}"
           name="{{ option.name }}"
@@ -79,8 +78,9 @@
           <label
             for="ProductSelect-{{ section_id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}"
             class="variant__button-label color-swatch color-swatch--{{ value | handle }}{% unless product_available %} disabled{% endunless %}"
-            style="background-image: url({{ color_image }}); background-color: {{ color_swatch_fallback }};"
-          >
+            style="background-image: url({{ color_image }}); background-color: {{ color_swatch_fallback }};" 
+            data-qnt="{{ product.variants[forloop.index0].inventory_quantity }}" 
+          ><span class="qnt-alert hide">Affettati, ne rimangono solo {{ product.variants[forloop.index0].inventory_quantity }}! </span>
             {{ value | escape }}
           </label><span>{{ value | escape }}</span>
         {%- else -%}
