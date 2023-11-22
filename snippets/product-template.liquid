@@ -212,7 +212,9 @@
 
             <div class="klarna-widget-desk"></div>
 
-
+            <div style="display:none;">
+            {% render "lowest-price", product: product %}
+            </div>
 
             {% if shop.taxes_included or shop.shipping_policy.body != blank %}
               <div class="product__policies product__policies-desk rte">
