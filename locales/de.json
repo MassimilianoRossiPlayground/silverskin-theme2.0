@@ -1610,7 +1610,8 @@
       "sale_price": "Verkaufspreis",
       "regular_price": "Preis",
       "from_text_html": "ab {{ price }}",
-      "recent_products": "Zuletzt angesehen"
+      "recent_products": "Zuletzt angesehen",
+      "omnibus": "Lowest price 30 days prior to discount:"
     },
     "product": {
       "stock_label": "Nur {{ count }} Produkte auf Lager",

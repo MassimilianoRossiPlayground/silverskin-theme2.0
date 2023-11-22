@@ -1646,7 +1646,8 @@
       "sale_price": "Sale price",
       "regular_price": "Price",
       "from_text_html": "from {{ price }}",
-      "recent_products": "Recently viewed"
+      "recent_products": "Recently viewed",
+      "omnibus": "Lowest price 30 days prior to discount:"
     },
     "product": {
       "stock_label": "Only {{ count }} items in stock!",
