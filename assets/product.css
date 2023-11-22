@@ -125,4 +125,8 @@ label[for] {
         flex: 1 1 100%!important;
         width: 100%;
     }
+    .qnt-alert {
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
