@@ -86,7 +86,7 @@
         {%- else -%}
           <label
             for="ProductSelect-{{ section_id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}"
-            class="variant__button-label{% unless product_available %} disabled{% endunless %}" data-qnt="{{ product.variants[forloop.index0].inventory_quantity }}">{{ value | escape }}</label>
+            class="variant__button-label{% unless product_available %} disabled{% endunless %}" data-qnt="{{ product.variants[forloop.index0].inventory_quantity }}"><span class="qnt-alert hide">Affettati, ne rimangono solo {{ product.variants[forloop.index0].inventory_quantity }}! </span>{{ value | escape }}</label>
         {%- endif -%}
       </div>
     {%- endfor -%}
