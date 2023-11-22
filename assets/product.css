@@ -87,6 +87,7 @@
 } 
 
 .qnt-alert.hide {
+    display:block;
     visibility: hidden;
     z-index: -1;
     opacity: 0;
