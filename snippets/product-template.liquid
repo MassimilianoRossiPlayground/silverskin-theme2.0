@@ -338,6 +338,9 @@
 
             <!-- TrustBox widget - Product Mini -->
 
+            {% if product.metafields.custom.alert_few_products %}
+              <p>Affrettati, ne restano ancora pochi pezzi disponibili</p>
+            {% endif %}
 
             <hr class="hr--medium">
 
