@@ -3,7 +3,7 @@
 {% assign label = 'Lowest price 30 days prior to discount:' %}
 
 <div id="sniffie-omnibus-price">
-  {% if omnibusprice %}
+  {% if omnibusprice != blank %}
     <span>
       {% if selectedProduct.compare_at_price > product.price %}
         {{ label }}
