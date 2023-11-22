@@ -69,8 +69,8 @@
 
 .qnt-alert {
     position: absolute;
-    top: 100%;
-    left: 0;
+    top: 75%;
+    left: -20px;
     font-size: 12px;
     line-height: 1;
     min-width: 300px; 
@@ -95,6 +95,10 @@
 
 .variant-input-wrap[name=Taglia] {
     margin-bottom: 40px;
+}
+
+label[for] {
+    position: unset;
 }
 
 @media screen and (max-width: 768px) {
