@@ -188,10 +188,7 @@ $( document ).ready(function() {
         //change variant name in variant label (only on async call)
         $(".variant__label-selected").text(" - " + $(this).parent().attr("data-value"));
 
-        console.log($(this).attr("data-qnt"))
         if ($(this).attr("data-qnt") < 10) {
-            console.log("minore 10")
-
             $(this).find(".qnt-alert").removeClass("hide")
             setTimeout(function(){
                 $(".variant-input label .qnt-alert").addClass("hide")
