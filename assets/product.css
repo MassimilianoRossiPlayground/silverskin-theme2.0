@@ -69,7 +69,7 @@
 
 .qnt-alert {
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: -20px;
     font-size: 12px;
     line-height: 1;
@@ -77,6 +77,7 @@
     color: red;
     text-align: center;
     padding: 9px;
+    font-weight: 600;
 
     visibility: visible;
     z-index: 1;
