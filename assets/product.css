@@ -82,6 +82,7 @@
     opacity: 0;
     transition-duration: 0.3;
 }
+
 .qnt-alert.hide {
     display: none;
     opacity: 1;
