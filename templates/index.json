@@ -1,0 +1,725 @@
+{
+  "sections": {
+    "1524768368258": {
+      "type": "slideshow",
+      "blocks": {
+        "10a14c41-303c-477b-b936-a578674fcc8a": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "BLACK DAYS",
+            "title_size": 70,
+            "subheading": "L'occasione giusta per goderti il freddo a prezzi speciali",
+            "link": "shopify:\/\/collections\/saldi-uomo",
+            "link_text": "Saldi uomo",
+            "link_2": "shopify:\/\/collections\/saldi-donna",
+            "link_text_2": "Saldi donna",
+            "link_3": "shopify:\/\/pages\/collezioni",
+            "link_text_3": "Scopri collezioni",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/HERO-BlackFriday-V1_1.jpg",
+            "focal_point": "80% 50%"
+          }
+        },
+        "a7caeca8-bcb3-41df-be58-73a7c6b13614": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "ENJOY THE COLD",
+            "title_size": 70,
+            "subheading": "Sfida l’inverno con i nostri base layer",
+            "link": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Uomo+Stay-Warm",
+            "link_text": "Acquista uomo",
+            "link_2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna+Stay-Warm",
+            "link_text_2": "Acquista donna",
+            "link_3": "",
+            "link_text_3": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Hero-V3_ab1d8f88-4f19-4a76-8f78-20fed4756b40.jpg",
+            "focal_point": "80% 50%"
+          }
+        },
+        "a48f5abf-555e-47db-878e-19e3fc2d2667": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "PRIMO Thermo Dry Pro,<br> il base layer per l'alta intensità",
+            "title_size": 70,
+            "subheading": "",
+            "link": "https:\/\/www.silverskin.it\/collections\/primo-thermo-dry-pro\/uomo",
+            "link_text": "Acquista uomo",
+            "link_2": "https:\/\/www.silverskin.it\/collections\/primo-thermo-dry-pro\/donna",
+            "link_text_2": "Acquista donna",
+            "link_3": "",
+            "link_text_3": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Hero_Banner.jpg",
+            "focal_point": "80% 50%"
+          }
+        },
+        "1524768368258-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "I base layer <br>per la montagna",
+            "title_size": 70,
+            "subheading": "",
+            "link": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Uomo+Stay-Fresh",
+            "link_text": "Acquista Uomo",
+            "link_2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna+Stay-Fresh",
+            "link_text_2": "Acquista Donna",
+            "link_3": "",
+            "link_text_3": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/ss-activity-hero-mountaineering-desk_1x_5255cf79-f132-4924-a4f3-038253cdf316.jpg",
+            "focal_point": "80% 50%"
+          }
+        },
+        "1578064016256": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "Comfort,<br>Traspirabilità<br>e Termoregolazione",
+            "title_size": 70,
+            "subheading": "",
+            "link": "https:\/\/www.silverskin.it\/pages\/technology",
+            "link_text": "Scopri la tecnologia",
+            "link_2": "",
+            "link_text_2": "",
+            "link_3": "",
+            "link_text_3": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-left",
+            "focal_point": "80% 50%"
+          }
+        }
+      },
+      "block_order": [
+        "10a14c41-303c-477b-b936-a578674fcc8a",
+        "a7caeca8-bcb3-41df-be58-73a7c6b13614",
+        "a48f5abf-555e-47db-878e-19e3fc2d2667",
+        "1524768368258-0",
+        "1578064016256"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 768px) {img.image-fit.hero__image.hero__image--10a14c41-303c-477b-b936-a578674fcc8a.lazyloaded {object-position: 61%; } .hero__text-content.vertical-center {vertical-align: bottom; padding-bottom: 40px; }}"
+      ],
+      "settings": {
+        "section_height": "100vh",
+        "mobile_height": "500px",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1594644909912": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": "<!--  -->"
+      }
+    },
+    "1594645290306": {
+      "type": "featured-content",
+      "settings": {
+        "title": "Seguici su Instagram",
+        "text": "<p><\/p>",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": false,
+        "divider": false
+      }
+    },
+    "16057820817ca1b14f": {
+      "type": "promo-grid",
+      "blocks": {
+        "370735d6-5393-441e-9741-006508fa2b76": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "DA -20° A 20°",
+            "heading": "STAY WARM",
+            "textarea": "Una collezione versatile, creata per mantenere la tua temperatura ottimale durante le attività praticate in climi freddi.<br> <a href=\"\/pages\/collezioni#section-warm-collection\">Scopri di più.<\/a>",
+            "cta_text1": "Acquista UOMO",
+            "cta_text1_color": "#ffffff",
+            "cta_link1": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Uomo",
+            "cta_text2": "Acquista Donna",
+            "cta_text2_color": "",
+            "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna",
+            "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img01.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "a0cbd4af-8204-484a-a9c8-f95cbe9a8340": {
+          "type": "advanced",
+          "settings": {
+            "top_image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img02-Logo.png",
+            "subheading": "",
+            "heading": "",
+            "textarea": "Il nuovo baselayer prodotto da Silverskin trasversale alle temperature. Permette di mantenere la temperatura corporea costante durante l'allenamento, indipendentemente dalla condizione climatica.\n<a href=\"https:\/\/primo-thermodry-pro.silverskin.it\/\" target=\"_blank\">Scopri di più.<\/a>",
+            "cta_text1": "Acquista Uomo",
+            "cta_text1_color": "",
+            "cta_link1": "https:\/\/www.silverskin.it\/collections\/primo-thermo-dry-pro\/uomo",
+            "cta_text2": "Acquista Donna",
+            "cta_text2_color": "",
+            "cta_link2": "https:\/\/www.silverskin.it\/collections\/primo-thermo-dry-pro\/donna",
+            "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img02.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 600,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "ca8bd397-bd39-49ef-a5aa-d911e692bc8e": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "DA -40° A -10°",
+            "heading": "STAY X-WARM",
+            "textarea": "Una collezione versatile, creata per mantenere la tua temperatura ottimale durante le attività praticate in climi freddi.<br> <a href=\"\/pages\/collezioni#section-xwarm-collection\">Scopri di più.<\/a>",
+            "cta_text1": "Acquista Uomo",
+            "cta_text1_color": "",
+            "cta_link1": "https:\/\/www.silverskin.it\/collections\/stay-x-warm-collection\/Uomo",
+            "cta_text2": "Acquista Donna",
+            "cta_text2_color": "",
+            "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-x-warm-collection\/Donna",
+            "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img03.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 600,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "d17de3f9-4b74-4609-ae62-1d8646e6d6a8": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "DA 10° A 40°",
+            "heading": "STAY FRESH",
+            "textarea": "Mantiene la tua temperatura corporea durante attività ad alta intensità o quando fa caldo.<br> <a href=\"\/pages\/collezioni#section-fresh-collection\">Scopri di più.<\/a>",
+            "cta_text1": "Acquista Uomo",
+            "cta_text1_color": "",
+            "cta_link1": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Uomo",
+            "cta_text2": "Acquista Donna",
+            "cta_text2_color": "",
+            "cta_link2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna",
+            "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img04-1.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 480,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "370735d6-5393-441e-9741-006508fa2b76",
+        "a0cbd4af-8204-484a-a9c8-f95cbe9a8340",
+        "ca8bd397-bd39-49ef-a5aa-d911e692bc8e",
+        "d17de3f9-4b74-4609-ae62-1d8646e6d6a8"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "1639747130945a5580": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best sellers",
+        "home_featured_products": "homepage-ss-collection",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "16ecb858-aa84-4da4-a25a-0d4b36124c28": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "16ecb858-aa84-4da4-a25a-0d4b36124c28-16710177566d572eeb-0": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/testimonial-01_2x_13838195-3519-45ed-88ed-e375c9a631e2.png",
+            "slide_cit": "“Una maglia estremamente elastica, che segue ogni movimento. Ti avvolge senza comprimere ed è talmente comoda che spesso mi dimentico di averla addosso.”",
+            "slide_subtitle": "Alessio Zambon - Ultra trailer professionista"
+          }
+        },
+        "dc096421-5e71-4a0e-b6db-8b5ee487b74e": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/testimonial-03_2x_b6a1c59f-e321-46bf-ae19-32754795fad2.png",
+            "slide_cit": "“Un base layer versatile capace di proteggerti dai cambi repentini di temperatura, tenendoti sempre asciutto. Non lo toglierei mai!”",
+            "slide_subtitle": "Stefano La Mastra - ciclista"
+          }
+        },
+        "2c77e39b-61e7-4a04-b15f-0f36846662ff": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/testimonial-02_2x_d25b400c-b294-454f-9ff0-39f9c148fd10.png",
+            "slide_cit": "“Essenziale! La utilizzo sempre e da sempre. Quando partecipo a corse come la Atlas race, lo indosso per una settimana intera senza che si sentano cattivi odori o che il tessuto perda elasticità a causa del sudore.”",
+            "slide_subtitle": "Nico Valsesia - Ultra-biker"
+          }
+        },
+        "be216c11-202b-4cd3-a3ef-9028d3f0914e": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/test-01.png",
+            "slide_cit": "“Davvero comoda sulla pelle. A prima vista la maglia mi sembrava troppo piccola. A vederla ti aspetti compressione, invece ti avvolge alla perfezione..”",
+            "slide_subtitle": "Alessandro Silva - Maestro di sci e amante della montagna"
+          }
+        },
+        "8ee640c5-d009-4f4e-bd6c-d9604ea7ee40": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/test-02.png",
+            "slide_cit": "“Una vera seconda pelle, perfettamente sintonizzata con il corpo e i suoi movimenti, anche i più esasperati, per ottenere condizioni di comfort totali durante le attività più intense [...] Una vera sorpresa!”",
+            "slide_subtitle": "Alfredo Tradati - Giornalista, ex allenatore e coach di sciatori della nazionale"
+          }
+        },
+        "9d301094-02b9-49b1-9e2d-8d8a0880e844": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/test-03.png",
+            "slide_cit": "“Negli anni di carriera ho capito che lo strato a contatto con la pelle è il più importante. Con Silverskin ho risolto”",
+            "slide_subtitle": "Daniele Ratto – Ciclista - Professionista dal 2010 al 2016, vincitore di tappa alla Vuelta a España"
+          }
+        }
+      },
+      "block_order": [
+        "16ecb858-aa84-4da4-a25a-0d4b36124c28-16710177566d572eeb-0",
+        "dc096421-5e71-4a0e-b6db-8b5ee487b74e",
+        "2c77e39b-61e7-4a04-b15f-0f36846662ff",
+        "be216c11-202b-4cd3-a3ef-9028d3f0914e",
+        "8ee640c5-d009-4f4e-bd6c-d9604ea7ee40",
+        "9d301094-02b9-49b1-9e2d-8d8a0880e844"
+      ],
+      "settings": {
+      }
+    },
+    "1586f3e6-8b23-4c14-b513-ab776b94b9fe": {
+      "type": "promo-grid",
+      "blocks": {
+        "33f3ed3b-c9cc-47b9-96c3-3740592d939f": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Per qualcuno il freddo non esiste.",
+            "textarea": "Non farti fermare dal freddo. <br>Scopri i nostri base layer.",
+            "cta_text1": "Scopri i base layer per la neve",
+            "cta_text1_color": "#ffffff",
+            "cta_link1": "shopify:\/\/pages\/neve",
+            "cta_text2": "",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/hp-snow-banner_2x_e88451ea-6e88-4c43-8012-a36a7dcc20ae.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 800,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "33f3ed3b-c9cc-47b9-96c3-3740592d939f"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "46775f4e-b84f-487e-af50-855a972303b5": {
+      "type": "promo-grid",
+      "blocks": {
+        "be827a98-9d0e-43eb-bc7d-ff710a5983b2": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Scopri il base layer<br>per le passioni più intense",
+            "textarea": "",
+            "cta_text1": "SCOPRI PRIMO",
+            "cta_text1_color": "#ffffff",
+            "cta_link1": "https:\/\/primo-thermodry-pro.silverskin.it",
+            "cta_text2": "",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Fascia_Campagna-min.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 800,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "461e0341-1126-4b85-b821-77373e0aa557": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "MONTAGNA, MAESTRA DI VITA",
+            "textarea": "ESPLORA LA SUA DIMENSIONE PIÙ INTIMA CON I NOSTRI BASE LAYER",
+            "cta_text1": "Scopri la collezione",
+            "cta_text1_color": "#ffffff",
+            "cta_link1": "shopify:\/\/pages\/spring-summer-2023",
+            "cta_text2": "",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/foto-montagna-HP-BN.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 800,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "2a07fafe-14ff-414d-b9e8-cbaddee00fa0": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "heading": "I nostri layer in azione",
+            "textarea": "Che tu sia in viaggio alla  scoperta di un nuovo trail o in partenza per un weekend sulla neve, <br>scopri il base layer perfetto per le tue attività.",
+            "cta_text1": "Trova il tuo base layer",
+            "cta_text1_color": "#ffffff",
+            "cta_link1": "shopify:\/\/pages\/attivita",
+            "cta_text2": "",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 800,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "be827a98-9d0e-43eb-bc7d-ff710a5983b2",
+        "461e0341-1126-4b85-b821-77373e0aa557",
+        "2a07fafe-14ff-414d-b9e8-cbaddee00fa0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0": {
+      "type": "modulo-double-slider",
+      "blocks": {
+        "b5d1c4bc-f714-4d74-8899-23a89aafc8c6": {
+          "type": "slide",
+          "settings": {
+            "title": "<span class=\"home__specs__counter\">01.<\/span> PELLE SEMPRE ASCIUTTA",
+            "description": "<p>Il sudore è espulso all’esterno e la <strong>pelle resta asciutta<\/strong>. Il filato d’argento contrasta la diffusione di batteri, tenendoti <strong>fresco e senza odori<\/strong>, anche durante performance ad alta intensità.<\/p>",
+            "cta1text": "SCOPRI LE COLLEZIONI",
+            "cta1link": "\/pages\/collezioni",
+            "cta2text": "SCOPRI LA TECNOLOGIA",
+            "cta2link": "\/pages\/technology",
+            "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section02-Img01.jpg"
+          }
+        },
+        "ea2eb875-5bf3-4252-b3c7-041aa58abf8e": {
+          "type": "slide",
+          "settings": {
+            "title": "<span class=\"home__specs__counter\">02.<\/span> TRASPIRABILITÀ E COMODITÀ DI LIVELLO SUPERIORE",
+            "description": "<p>La tua passione merita il massimo della <strong>comodità<\/strong>. Per questo abbiamo eliminato ogni cucitura. La speciale composizione del <strong>filato<\/strong> e la <strong>lavorazione 3D<\/strong> garantiscono <strong>eccezionale traspirabilità e morbidezza<\/strong>, oltre a un’elasticità che non comprime e <strong>si adatta alla perfezione al movimento naturale del tuo corpo<\/strong>.<\/p>",
+            "cta1text": "SCOPRI LE COLLEZIONI",
+            "cta1link": "\/pages\/collezioni",
+            "cta2text": "SCOPRI LA TECNOLOGIA",
+            "cta2link": "\/pages\/technology",
+            "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section02-Img02.jpg"
+          }
+        },
+        "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0": {
+          "type": "slide",
+          "settings": {
+            "title": "<span class=\"home__specs__counter\">03.<\/span> TERMOREGOLAZIONE PERFETTA",
+            "description": "<p>L’uso dell’<strong>argento<\/strong> nella composizione del tessuto e la particolare costruzione del filato <strong>mantengono costante la tua temperatura corporea<\/strong> in ogni situazione. Il sistema di <strong>Thermo Buffering™<\/strong> permette di dissipare il calore e ridurre l’impatto dell’esterno, mantenendo la tua temperatura ideale, sempre.<\/p>",
+            "cta1text": "SCOPRI LE COLLEZIONI",
+            "cta1link": "\/pages\/collezioni",
+            "cta2text": "SCOPRI LA TECNOLOGIA",
+            "cta2link": "\/pages\/technology",
+            "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section02-Img03.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "b5d1c4bc-f714-4d74-8899-23a89aafc8c6",
+        "ea2eb875-5bf3-4252-b3c7-041aa58abf8e",
+        "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0"
+      ],
+      "settings": {
+        "title": "POWER IS PRECIOUS",
+        "description": "<p>La tua forza è preziosa. Per questo integriamo <strong>l'argento<\/strong> nel nostro rivoluzionario intimo termico. Il risultato è una linea di prodotti <strong>senza cuciture<\/strong> che portano <strong>comfort, traspirabilità e termoregolazione<\/strong> a un livello superiore.<\/p>"
+      }
+    },
+    "e0fdb7f7-4d68-4321-beb0-2854d57aa029": {
+      "type": "modulo-icons",
+      "blocks": {
+        "27d8aab6-83f8-43c5-ad93-20df23d57fd6": {
+          "type": "icon",
+          "settings": {
+            "title": "IPOALLERGENICO",
+            "image": "shopify:\/\/shop_images\/ipoallergenico-icona-white_2x_70f67639-2240-4583-a39c-7c0fdbd5fbe9.png"
+          }
+        },
+        "e0fdb7f7-4d68-4321-beb0-2854d57aa029-1672747437f6e471fb-0": {
+          "type": "icon",
+          "settings": {
+            "title": "ANTIBATTERICO",
+            "image": "shopify:\/\/shop_images\/antibatterico-icona-white_2x_92f60374-fbc6-4205-86c1-eb0db0628c1e.png"
+          }
+        },
+        "d65e494b-d820-4a1d-9166-19a923510bfe": {
+          "type": "icon",
+          "settings": {
+            "title": "ANTI ODORE",
+            "image": "shopify:\/\/shop_images\/antiodore-icona-white_2x_51f7b97a-cecd-40aa-a0e4-abb7595d616f.png"
+          }
+        },
+        "73230429-d9fa-4c9e-a93a-49e02fad8d48": {
+          "type": "icon",
+          "settings": {
+            "title": "ESTREMA TRASPIRABILITÀ",
+            "image": "shopify:\/\/shop_images\/traspirabilita-icona-white_2x_c81e909d-57fb-4345-8c2f-f42f28e7f587.png"
+          }
+        },
+        "e85a538f-0faa-4eae-8983-4f1bcf060e70": {
+          "type": "icon",
+          "settings": {
+            "title": "MASSIMA ELASTICITÀ",
+            "image": "shopify:\/\/shop_images\/elasticita-icona-white_2x_086f0355-b608-43ab-a2c9-1a2d478df1c6.png"
+          }
+        },
+        "c57078f2-76e8-4a92-81b7-2ea30493ba4d": {
+          "type": "icon",
+          "settings": {
+            "title": "SENZA CUCITURE",
+            "image": "shopify:\/\/shop_images\/cuciture-icona-white_2x_ae40930a-8048-4aee-bf73-683f765e775a.png"
+          }
+        }
+      },
+      "block_order": [
+        "27d8aab6-83f8-43c5-ad93-20df23d57fd6",
+        "e0fdb7f7-4d68-4321-beb0-2854d57aa029-1672747437f6e471fb-0",
+        "d65e494b-d820-4a1d-9166-19a923510bfe",
+        "73230429-d9fa-4c9e-a93a-49e02fad8d48",
+        "e85a538f-0faa-4eae-8983-4f1bcf060e70",
+        "c57078f2-76e8-4a92-81b7-2ea30493ba4d"
+      ],
+      "settings": {
+      }
+    },
+    "34fe17a8-3051-4639-9c8a-4b3bde3a7445": {
+      "type": "modulo-hero-video",
+      "disabled": true,
+      "settings": {
+        "video_desk": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d08e6d7a9f1f42a681ff16742d0d7e03.mp4",
+        "video_mob": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5ce6ac073ff340edb4ed4f63cf5d7df3.mp4"
+      }
+    },
+    "907aa47b-4398-4a40-b26d-b02ec2ff66c7": {
+      "type": "promo-grid",
+      "blocks": {
+        "87fef3c1-efdb-4188-bdf0-254639f55cca": {
+          "type": "advanced",
+          "settings": {
+            "top_image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img04-Logo.png",
+            "subheading": "",
+            "heading": "",
+            "textarea": "Sappiamo che seguire le proprie passioni non è sempre facile. <br>I nostri base layer sono progettati per aiutarti a dare il massimo anche nei momenti più difficili.<br>\n<a href=\"\/pages\/love-hurts\">Scopri di più.<\/a>",
+            "cta_text1": "ACQUISTA UOMO",
+            "cta_text1_color": "#ffffff",
+            "cta_link1": "https:\/\/www.silverskin.it\/collections\/love-hurts\/uomo",
+            "cta_text2": "ACQUISTA DONNA",
+            "cta_text2_color": "#ffffff",
+            "cta_link2": "https:\/\/www.silverskin.it\/collections\/love-hurts\/donna",
+            "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img04.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "86e7dccb-685a-49fe-b8db-d60511c085b6": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "heading": "Scopri il base layer<br>per le passioni più intense",
+            "textarea": "",
+            "cta_text1": "PRIMO",
+            "cta_text1_color": "#ffffff",
+            "cta_link1": "https:\/\/primo-thermodry-pro.silverskin.it",
+            "cta_text2": "",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Fascia_Campagna.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 800,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "156d3bb7-0f95-434c-9584-1233d79e11b2": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "heading": "MONTAGNA, MAESTRA DI VITA",
+            "textarea": "ESPLORA LA SUA DIMENSIONE PIÙ INTIMA CON I NOSTRI BASE LAYER",
+            "cta_text1": "Scopri la collezione",
+            "cta_text1_color": "#ffffff",
+            "cta_link1": "shopify:\/\/pages\/spring-summer-2023",
+            "cta_text2": "",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/foto-montagna-HP-BN.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 800,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "881ff7ab-1c0c-4c9d-901b-5cd2efe12d37": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "heading": "I nostri layer in azione",
+            "textarea": "Che tu sia in viaggio alla  scoperta di un nuovo trail o in partenza per un weekend sulla neve, <br>scopri il base layer perfetto per le tue attività.",
+            "cta_text1": "Trova il tuo base layer",
+            "cta_text1_color": "#ffffff",
+            "cta_link1": "shopify:\/\/pages\/attivita",
+            "cta_text2": "",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 800,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "87fef3c1-efdb-4188-bdf0-254639f55cca",
+        "86e7dccb-685a-49fe-b8db-d60511c085b6",
+        "156d3bb7-0f95-434c-9584-1233d79e11b2",
+        "881ff7ab-1c0c-4c9d-901b-5cd2efe12d37"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "6a3a252a-f724-42c8-866c-3338ea073fa8": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "Vi presentiamo PRIMO",
+        "title_size": 80,
+        "subheading": "Scopri il nostro nuovo base layer",
+        "link_text": "ESPLORA LA COLLEZIONE",
+        "link": "shopify:\/\/collections\/primo-thermo-dry-pro",
+        "link_text_2": "SCOPRI PRIMO",
+        "link_2": "https:\/\/primo-thermodry-pro.silverskin.it\/",
+        "color_accent": "#ffffff",
+        "text_align": "vertical-center horizontal-left",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/284971ac88fb478da7dc3ccf34cd6622.mp4",
+        "section_height": "100vh",
+        "mobile_height": "auto"
+      }
+    }
+  },
+  "order": [
+    "6a3a252a-f724-42c8-866c-3338ea073fa8",
+    "1524768368258",
+    "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
+    "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
+    "1639747130945a5580",
+    "1586f3e6-8b23-4c14-b513-ab776b94b9fe",
+    "46775f4e-b84f-487e-af50-855a972303b5",
+    "16057820817ca1b14f",
+    "907aa47b-4398-4a40-b26d-b02ec2ff66c7",
+    "16ecb858-aa84-4da4-a25a-0d4b36124c28",
+    "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
+    "1594645290306",
+    "1594644909912"
+  ]
+}
