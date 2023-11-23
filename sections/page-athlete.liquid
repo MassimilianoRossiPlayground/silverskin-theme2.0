@@ -9,6 +9,7 @@
 
     <div class="athlete-page__head__back">
       <img src="{{ section.settings.image | img_url: "master" }}" alt="{{ block.settings.firstname | strip_html }}">
+      <span class="mob-shadow"></span>
     </div>
 
     <div class="athlete-page__head__left">
@@ -557,7 +558,6 @@ html {
     margin-top: -4px;
 }
 
-
 .slider-horizontal {
     overflow: hidden;
     margin: 120px 0;
@@ -788,6 +788,119 @@ span.horizontal-card__dot[data-dot--num="1"] {
     object-fit: cover;
     max-height: 50vh;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .athlete-page__head {
+    padding-top: 120px;
+  }
+  .athlete-page__head__left {
+    position: unset;
+    padding: 20px 20px;
+  }
+  .athlete-page__text-images__paragraph__content {
+    padding: 0 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .athlete-page__text-images {
+    color: #000;
+    padding: 60px 0;
+  }
+  .athlete-page__text-images__image-text {
+    grid-template-columns: 100%;
+  }
+  .athlete-page__text-images__image-text img {
+    padding-left: 0;
+    padding-right: 60px;
+    margin-bottom: 40px;
+  }
+  .athlete-page__text-images__image-text__paragraph {
+    text-align: center;
+  }
+  .athlete-page__text-images__images {
+    flex-direction: column;
+    margin-bottom: 40px;
+    justify-content: unset;
+    align-items: unset;
+  }
+  .athlete-page__text-images__images img.ath-image-left {
+    max-width: 70%;
+    padding: unset;
+    float: right;
+    display: block;
+    text-align: right;
+    align-self: flex-end;
+    margin-bottom: 40px;
+  }
+  .athlete-page__text-images__images .ath-image-right {
+    padding: 0;
+    max-width: 80%;
+  }
+  .athlete-page__text-images__paragraph-bottom {
+    grid-template-columns: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .athlete-page__banner__content-top h3 {
+    font-size: 20px;
+  }
+  .horizontal-card__content h5 {
+    max-width: 210px;
+    text-align: left !important;
+  }
+  .swiper-big-images img {
+    max-height: 190px;
+  }
+  .slider-blog-slider__head__texts {
+    width: 100%;
+  }
+  .slider-blog-slider__head__texts h5 {
+      font-size: 30px;
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+  }
+  .blog-slider-card img {
+    max-height: 210px;
+  }
+  .slider-favourites__head h5 {
+    font-size: 30px;
+      text-align: center;
+      line-height: 1;
+  }
+  .athlete-breadcrumbs {
+    margin-bottom: 0;
+    position: absolute;
+    top: 130px;
+  }
+  .athlete-breadcrumbs span {
+    display: none;
+  }
+  .athlete-page__head h1 {
+    text-align: center;
+    margin-top: -120px;
+    position: relative;
+  }
+  .athlete-page__head__back {
+    position: relative;
+  }
+  span.mob-shadow {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(#0000,#000);
+  }
+  .athlete-row {
+    margin-bottom: 40px;
+  }
+}
+
+
+
 
 {% endstyle %}
 
