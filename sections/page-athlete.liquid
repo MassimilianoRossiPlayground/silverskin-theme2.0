@@ -162,14 +162,14 @@
   <div class="page-width">
       <div class="slider-blog-slider__head">
           <div class="slider-blog-slider__head__texts">
-            <h5>{{ section.settings.firstname }}'S ARTICLES</h5>
+            <h5>ATHLETE'S ARTICLES</h5>
           </div>
       </div>
       <div class="swiper-container swiper-blog-slider">
           <div class="swiper-wrapper">
-              {% for article in athlete_articles %}
 
-                {% if article.tags contains section.settings.lastname %}
+            {% for article in athlete_articles %}
+
                   {% assign blog_handle = article.handle | split: "/" | first %}
                   <div class="swiper-slide">
                       <div class="blog-slider-card">
@@ -181,8 +181,7 @@
                           </div>
                       </div>
                   </div>
-                {% endif %}
-                
+
               {% endfor %}
           </div>
           <div class="swiper-scrollbar"></div>
