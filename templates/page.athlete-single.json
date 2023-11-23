@@ -198,6 +198,7 @@
         "8d5415ac-c8fa-4da9-a2e5-dfe25eb65943",
         "249faae4-3744-4b11-8b7f-540e4229e490"
       ],
+      "disabled": true,
       "settings": {
         "sup_title": "test",
         "title": "TITLE",
