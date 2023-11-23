@@ -524,6 +524,9 @@
           "1524768368258-0",
           "1578064016256"
         ],
+        "custom_css": [
+          "@media screen and (max-width: 768px) {img.image-fit.hero__image.hero__image--10a14c41-303c-477b-b936-a578674fcc8a.lazyloaded {object-position: 61%; } .hero__text-content.vertical-center {vertical-align: bottom; padding-bottom: 40px; }}"
+        ],
         "settings": {
           "section_height": "100vh",
           "mobile_height": "500px",
