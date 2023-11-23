@@ -94,8 +94,7 @@
 
 </div>
 
-
-{% assign athlete_history = page.metafields.custom.athlete_history | json %}
+{% assign athlete_history = page.metafields.custom.athlete_history.value %}
 <div class="slider-horizontal">
   <div class="page-width">
       <div class="slider-horizontal__years">
@@ -569,7 +568,7 @@ span.horizontal-card__dot[data-dot--num="1"] {
 
     window.addEventListener('load', function() {
 
-        let swiper_images = new Swiper(swiperBigimages, {
+        let swiper_images_big = new Swiper(swiperBigimages, {
             slidesPerView: "auto",
             spaceBetween: 30,
             freeMode: true,
@@ -578,7 +577,7 @@ span.horizontal-card__dot[data-dot--num="1"] {
                 hide: false,
             },
         });
-        let swiper_images = new Swiper(swiperHorizontal, {
+        let swiper_images_horizontal = new Swiper(swiperHorizontal, {
             slidesPerView: 'auto',
             freeMode: true,
         });
