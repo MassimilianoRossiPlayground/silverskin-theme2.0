@@ -156,6 +156,43 @@
 </div>
 
 
+{% assign athlete_articles = blogs.untold-stories.articles %}
+
+<div class="slider-blog-slider">
+  <div class="page-width">
+      <div class="slider-blog-slider__head">
+          <div class="slider-blog-slider__head__texts">
+            <h5>{{ section.settings.firstname }}'S ARTICLES</h5>
+          </div>
+      </div>
+      <div class="swiper-container swiper-blog-slider">
+          <div class="swiper-wrapper">
+              {% for article in athlete_articles %}
+
+                {% if article.tags contains section.settings.lastname %}
+                  {% assign blog_handle = article.handle | split: "/" | first %}
+                  <div class="swiper-slide">
+                      <div class="blog-slider-card">
+                          <img src="{{ article.image | img_url: 'master' }}" alt="{{ article.title | strip_html }}">
+                          <div class="blog-slider-card__content">
+                              <span class="blog-slider-card__content__sup">{{ blogs[blog_handle].title }}</span>
+                              <span class="blog-slider-card__content__title">{{ article.title }}</span>
+                              <a class="blog-slider-card__cta" href="{{ article.url }}">READ THE STORY</a>
+                          </div>
+                      </div>
+                  </div>
+                {% endif %}
+                
+              {% endfor %}
+          </div>
+          <div class="swiper-scrollbar"></div>
+      </div>
+  </div>
+  <div class="line-scrollbar"></div>
+</div>
+
+
+
 {% assign athlete_products = page.metafields.custom.athlete_products.value %}
 <div class="slider-favourites">
 
@@ -587,6 +624,172 @@ span.horizontal-card__dot[data-dot--num="1"] {
 }
 
 
+.slider-favourites {
+    background-color: #fff;
+    padding-bottom: 200px;
+    overflow: hidden;
+}
+.slider-favourites__head {
+    max-width: 1420px;
+    margin: 0 auto 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 20px;
+}
+.slider-favourites__head h5 {
+  font-family: "barlow-semibold-italic" !important;
+  font-size: 48px;
+  letter-spacing: normal;
+  margin-bottom: 0;
+  line-height: 1;
+}
+.slider-favourites__head a {
+  color: #000;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  align-items: flex-end;
+  min-width: 100px;
+  text-transform: uppercase;
+}
+.slider-favourites .swiper-container {
+    overflow: visible;
+}
+.slider-favourites .swiper-scrollbar {
+  margin-top: 60px;
+  background: transparent;
+}
+.slider-favourites .swiper-scrollbar .swiper-scrollbar-drag {
+    height: 3px;
+}
+.slider-favourites .line-scrollbar {
+    width: 100%;
+    height: 1px;
+    background: #757382;
+    margin-top: -2px;
+}
+.favourite-card__content {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: flex-end;
+    font-size: 14px;
+    height: 70px;
+}
+.favourite-card__content__right {
+    text-align: right;
+}
+.favourite-card__content__left h6 {
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.favourite-card__content__left {
+    min-height: 61px;
+}
+.slider-favourites__foot {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+  .slider-favourites__foot {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  .slider-favourites__foot a {
+    color: #000;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    align-items: flex-end;
+    min-width: 100px;
+    margin-top: 100px;
+    text-transform: uppercase;
+  }
+  .slider-favourites {
+    padding-bottom: 60px;
+  }
+}
+
+
+.slider-blog-slider {
+    margin: 120px 0;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.slider-blog-slider .swiper-slide {
+    width: max-content;
+}
+.swiper-blog-slider img {
+    max-height: 70vh;
+}
+.swiper-blog-slider {
+    overflow: visible;
+}
+.slider-blog-slider .swiper-scrollbar {
+  margin: 60px 0 0 0;
+  background: transparent;
+  border-top: unset;
+}
+.slider-blog-slider .swiper-scrollbar .swiper-scrollbar-drag {
+    height: 3px;
+}
+.slider-blog-slider .line-scrollbar {
+    width: 100%;
+    height: 1px;
+    background: #757382;
+    margin-top: -4px;
+}
+.slider-blog-slider__head__texts h3 {
+    font-size: 48px;
+    font-family: 'barlow-semibold-italic' !important;
+}
+.slider-blog-slider__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+.slider-blog-slider__head__cta {
+    padding: 10px 20px;
+    border: 1px solid #404040;
+    font-size: 14px;
+    font-family: 'barlow-semibold';
+}
+.blog-slider-card__content__sup {
+    grid-area: sup_title;
+    font-family: 'barlow-light';
+}
+.blog-slider-card__content__title {
+    grid-area: title;
+    font-family: 'barlow-semibold';
+}
+.blog-slider-card__cta {
+    grid-area: link;
+    text-align: right;
+    text-decoration: underline;
+    font-family: 'barlow-semibold';
+}
+.blog-slider-card__content {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "sup_title ."
+    "title link";
+    text-transform: uppercase;
+    padding: 10px 3px;
+}
+.blog-slider-card img {
+    aspect-ratio: 1 / 1;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    max-height: 50vh;
+}
+
 {% endstyle %}
 
 {% javascript %}
@@ -597,11 +800,13 @@ span.horizontal-card__dot[data-dot--num="1"] {
         swiperBigimages: '.swiper-big-images',
         swiperHorizontal: '.swiper-horizontal',
         swiperFavourites: '.slider-favourites .swiper-container',
+        swiperArticles: '.swiper-blog-slider',
     };
   
     let swiperBigimages = document.querySelector(selectors.swiperBigimages)
     let swiperHorizontal = document.querySelector(selectors.swiperHorizontal)
     let swiperFavourites = document.querySelector(selectors.swiperFavourites)
+    let swiperArticles = document.querySelector(selectors.swiperArticles)
 
     window.addEventListener('load', function() {
 
@@ -635,7 +840,16 @@ span.horizontal-card__dot[data-dot--num="1"] {
             el: ".slider-favourites .swiper-scrollbar",
             hide: false,
           },
-      }) 
+        }) 
+        let swiper_articles = new Swiper(swiperArticles, {
+              slidesPerView: "auto",
+              spaceBetween: 30,
+              freeMode: true,
+              scrollbar: {
+                  el: ".slider-blog-slider .swiper-scrollbar",
+                  hide: false,
+              },
+        });
     })
 
 
