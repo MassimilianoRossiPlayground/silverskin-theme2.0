@@ -156,6 +156,41 @@
 </div>
 
 
+{% assign athlete_products = page.metafields.custom.athlete_products.value %}
+<div class="slider-favourites">
+
+  <div class="slider-favourites__head">
+    <h5>{{ section.settings.firstname }}'S FAVOURITES</h5>
+  </div>
+
+  <div class="page-width">
+
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {% for athlete_product in athlete_products %}
+          <div class="swiper-slide">
+            <div class="favourite-card">
+              <img src="{{ athlete_product.featured_media | img_url: 'master' }}" alt="{{ athlete_product.title | strip_html }}">
+              <div class="favourite-card__content">
+                <div class="favourite-card__content__left">
+                  <h6>Stay Fresh</h6>
+                  </h5>{{ athlete_product.title }}</h5>
+                </div>
+                <div class="favourite-card__content__right">
+                  <span class="favourite-card-price">{{ athlete_product.price | money }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+  </div>
+  <div class="line-scrollbar"></div>
+
+</div>
+
 
 {% schema %}
   {
@@ -561,10 +596,12 @@ span.horizontal-card__dot[data-dot--num="1"] {
   let selectors = {
         swiperBigimages: '.swiper-big-images',
         swiperHorizontal: '.swiper-horizontal',
+        swiperFavourites: '.slider-favourites .swiper-container',
     };
   
     let swiperBigimages = document.querySelector(selectors.swiperBigimages)
     let swiperHorizontal = document.querySelector(selectors.swiperHorizontal)
+    let swiperFavourites = document.querySelector(selectors.swiperFavourites)
 
     window.addEventListener('load', function() {
 
@@ -581,6 +618,24 @@ span.horizontal-card__dot[data-dot--num="1"] {
             slidesPerView: 'auto',
             freeMode: true,
         });
+        let sliderFavourites = new Swiper(swiperFavourites, {
+          slidesPerView: 3.7,
+          spaceBetween: 30,
+          breakpoints: {
+              310: {
+                slidesPerView: 1.1,
+                spaceBetween: 10,
+              },
+              1024: {
+                slidesPerView: 3.7,
+                spaceBetween: 30,
+              }
+          },
+          scrollbar: {
+            el: ".slider-favourites .swiper-scrollbar",
+            hide: false,
+          },
+      }) 
     })
 
 
