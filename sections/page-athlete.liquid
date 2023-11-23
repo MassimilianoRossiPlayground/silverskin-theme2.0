@@ -95,25 +95,67 @@
 </div>
 
 
-<div class="slider-big-images">
+{% assign athlete_history = page.metafields.custom.athlete_history | json %}
+<div class="slider-horizontal">
   <div class="page-width">
-      <div class="slider-big-images__content">
-          <div class="swiper-container swiper-big-images">
+      <div class="slider-horizontal__years">
+          <div class="swiper-container swiper-horizontal">
               <div class="swiper-wrapper">
-                  {% for athlete_gallery in page.metafields.custom.athlete_gallery %}
-
-                    {{athlete_gallery }}
+                  {% assign year_list = athlete_history.year_list | split: "|" %}
+                  {% for year in year_list %}
                       <div class="swiper-slide">
-                          <img src="{{ athlete_gallery.image | img_url: 'master' }}" alt="silverskin">
+                          <div class="line-horizontal"></div>
+                          <span class="big-year">{{ year }}</span>
+                          <div class="slider-horizontal__slides">
+                              {% for slide in athlete_history.event %}
+                                  {% if slide.ref_year == year %}
+                                      {%- liquid 
+                                          if slide.vertical_alignment == "top" 
+                                              assign vertical_alignment = "22%"
+                                          else 
+                                              assign vertical_alignment = "63%"
+                                          endif
+                                      -%}
+                                      <span class="horizontal-card__dot" data-dot--year="{{ year }}" data-dot--num="{{ forloop.index }}" style="left:{{ slide.horizontal_position }}%;"></span>
+                                      <div class="horizontal-card" style="left:{{ slide.horizontal_position }}%;top:{{ vertical_alignment }};">
+                                          <div class="horizontal-card__content">
+                                              <h5>{{ slide.title }}</h5>
+                                              <h6>{{ slide.sub_title }}</h6>
+                                              <span>{{ slide.date }}</span>
+                                          </div>
+                                      </div>
+                                  {% endif %}
+                              {% endfor %}
+                          </div>
                       </div>
                   {% endfor %}
               </div>
-              <div class="swiper-scrollbar"></div>
           </div>
       </div>
   </div>
+</div>
+
+
+
+{% assign athlete_gallery = page.metafields.custom.athlete_gallery.value %}
+<div class="slider-big-images">
+  <div class="page-width">
+    <div class="slider-big-images__content">
+      <div class="swiper-container swiper-big-images">
+        <div class="swiper-wrapper">
+          {% for athlete_image in athlete_gallery %}
+            <div class="swiper-slide">
+                <img src="{{ athlete_image.image | img_url: 'master' }}" alt="silverskin">
+            </div>
+          {% endfor %}
+        </div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+  </div>
   <div class="line-scrollbar"></div>
 </div>
+
 
 
 {% schema %}
@@ -445,6 +487,72 @@ html {
     margin-top: -4px;
 }
 
+
+.slider-horizontal {
+    overflow: hidden;
+    margin: 120px 0;
+}
+.big-year {
+    color: white;
+    background-color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 400px;
+    font-family: "barlow-light-italic" !important;
+    opacity: 0.08;
+    line-height: 1;
+}
+.swiper-horizontal {
+    overflow: visible;
+}
+.swiper-horizontal .swiper-slide {
+    width: max-content;
+    padding-right: 140px;
+}
+.slider-horizontal__years {
+    cursor: pointer;
+}
+.horizontal-card {
+    position: absolute;
+}
+span.horizontal-card__dot {
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background: #fff;
+}
+span.horizontal-card__dot.selected {
+    background: #000;
+}
+span.horizontal-card__dot[data-dot--num="1"] {
+    background: #000;
+}
+.line-horizontal {
+    width: 100%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 51.2%;
+}
+.horizontal-card__content h5 {
+    letter-spacing: normal;
+    font-family: 'barlow-bold-italic' !important;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.horizontal-card__content h6 {
+    letter-spacing: normal;
+    font-family: 'barlow' !important;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.horizontal-card__content {
+    font-size: 14px;
+}
+
+
 {% endstyle %}
 
 {% javascript %}
@@ -453,9 +561,11 @@ html {
 
   let selectors = {
         swiperBigimages: '.swiper-big-images',
+        swiperHorizontal: '.swiper-horizontal',
     };
   
     let swiperBigimages = document.querySelector(selectors.swiperBigimages)
+    let swiperHorizontal = document.querySelector(selectors.swiperHorizontal)
 
     window.addEventListener('load', function() {
 
@@ -468,7 +578,12 @@ html {
                 hide: false,
             },
         });
+        let swiper_images = new Swiper(swiperHorizontal, {
+            slidesPerView: 'auto',
+            freeMode: true,
+        });
     })
+
 
   
 })();
