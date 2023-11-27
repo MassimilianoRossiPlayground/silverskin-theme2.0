@@ -1,0 +1,24 @@
+{
+  "parent": "index.json",
+  "context": {
+    "market": "germania"
+  },
+  "sections": {
+    "1524768368258": {
+      "settings": {
+      },
+      "blocks": {
+        "a7caeca8-bcb3-41df-be58-73a7c6b13614": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "10a14c41-303c-477b-b936-a578674fcc8a": {
+          "disabled": true,
+          "settings": {
+          }
+        }
+      }
+    }
+  }
+}
