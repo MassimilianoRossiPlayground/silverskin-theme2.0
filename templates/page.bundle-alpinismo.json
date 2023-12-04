@@ -2,11 +2,19 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "bd93b54f-e5ea-4648-a20a-f9e51ed9832f": {
+      "type": "modulo-custom-html",
+      "settings": {
+        "html": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"8jnp\"><\/div>"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "bd93b54f-e5ea-4648-a20a-f9e51ed9832f"
   ]
 }
