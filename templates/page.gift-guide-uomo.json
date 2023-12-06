@@ -2,11 +2,42 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "36e06e9b-3786-4c07-a93e-e8994407d905": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Test-PRIMO-V3.png",
+        "image_width": 500,
+        "subtitle": "SILVERSKIN",
+        "title": "TITLE",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "25a0431f-3b70-4a6a-9c93-bebc66d569a8": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Test-PRIMO-V3.png",
+        "image_width": 500,
+        "subtitle": "SILVERSKIN",
+        "title": "TITLE",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "",
+        "layout": "right",
+        "divider": false
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "36e06e9b-3786-4c07-a93e-e8994407d905",
+    "25a0431f-3b70-4a6a-9c93-bebc66d569a8"
   ]
 }
