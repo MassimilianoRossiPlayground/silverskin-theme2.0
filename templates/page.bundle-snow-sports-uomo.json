@@ -39,11 +39,18 @@
       "settings": {
         "html": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"8kdh\"><\/div>"
       }
+    },
+    "494d575b-11d9-47a2-ba60-2c1182424c9a": {
+      "type": "modulo-custom-html",
+      "settings": {
+        "html": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"8kdx\"><\/div>"
+      }
     }
   },
   "order": [
     "main",
     "77e593e5-5bb7-4d87-bef5-c3326ddfa949",
-    "5fbf2827-bca4-4e35-812f-cd164a56816b"
+    "5fbf2827-bca4-4e35-812f-cd164a56816b",
+    "494d575b-11d9-47a2-ba60-2c1182424c9a"
   ]
 }
