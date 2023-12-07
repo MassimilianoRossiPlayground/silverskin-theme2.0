@@ -2,10 +2,22 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
         ".section-header {margin-bottom: 0;}"
       ],
       "settings": {
+      }
+    },
+    "7a1ac5db-28e0-40fd-88a8-a073ee96bdb1": {
+      "type": "featured-content",
+      "settings": {
+        "title": "GIFT GUIDE UOMO",
+        "text": "<p>Le festività sono alle porte e sappiamo quanto sia difficile scegliere il regalo perfetto, soprattutto quando si tratta di soddisfare le passioni di chi amiamo. Ed è proprio per questo che abbiamo pensato di semplificarti la vita!<\/p><p>Naviga attraverso la nostra Gift Guide e lasciati ispirare dalle passioni che rendono unica ogni persona. <strong>Abbiamo pensato noi a tutto, così tu non dovrai fare altro che concentrarti su ciò che ami. <\/strong>Che tu stia cercando il regalo perfetto per te stesso o qualcosa di speciale per gli amici e la famiglia, siamo qui per guidarti verso la scelta più adatta alla tua passione.<\/p><p>Preparati a vivere un inverno indimenticabile con Silverskin! Scegli il tuo bundle, e regala(ti) emozioni.<\/p>",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
       }
     },
     "36e06e9b-3786-4c07-a93e-e8994407d905": {
@@ -14,9 +26,9 @@
         "image": "shopify:\/\/shop_images\/Test-PRIMO-V3.png",
         "image_width": 500,
         "subtitle": "SILVERSKIN",
-        "title": "TITLE",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "SHOP NOW",
+        "title": "ALPINISMO",
+        "text": "<p>Scala nuove vette di emozioni con la nostra Gift Guide dedicata agli <strong>amanti dell'alpinismo<\/strong>. Abbiamo creato bundle pensati per elevare la tua esperienza in montagna. Scegli il regalo perfetto e preparati a conquistare nuove vette con Silverskin. <\/p>",
+        "button_label": "ACQUISTA ORA",
         "button_link": "",
         "layout": "left",
         "divider": false
@@ -28,9 +40,9 @@
         "image": "shopify:\/\/shop_images\/Test-PRIMO-V3.png",
         "image_width": 500,
         "subtitle": "SILVERSKIN",
-        "title": "TITLE",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "SHOP NOW",
+        "title": "SNOWSPORTS",
+        "text": "<p>Preparati per l'avventura invernale perfetta con la nostra Gift Guide. Abbiamo selezionato i migliori prodotti per gli <strong>amanti degli sport da neve<\/strong>. Trova il bundle ideale per la tua passione e inizia la stagione con Silverskin. <\/p>",
+        "button_label": "ACQUISTA ORA",
         "button_link": "",
         "layout": "right",
         "divider": false
@@ -42,9 +54,9 @@
         "image": "shopify:\/\/shop_images\/Test-PRIMO-V3.png",
         "image_width": 500,
         "subtitle": "SILVERSKIN",
-        "title": "TITLE",
+        "title": "CICLISMO",
         "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "SHOP NOW",
+        "button_label": "ACQUISTA ORA",
         "button_link": "",
         "layout": "left",
         "divider": false
@@ -56,9 +68,9 @@
         "image": "shopify:\/\/shop_images\/Test-PRIMO-V3.png",
         "image_width": 500,
         "subtitle": "SILVERSKIN",
-        "title": "TITLE",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "SHOP NOW",
+        "title": "RUNNING",
+        "text": "<p>Scopri la nostra Gift Guide pensata appositamente per chi ama mettersi in movimento. Abbiamo selezionato i migliori compagni di <strong>corsa<\/strong> per rendere ogni passo più speciale. Scegli il bundle che fa per te e preparati a correre verso fantastiche prestazioni con Silverskin. <\/p>",
+        "button_label": "ACQUISTA ORA",
         "button_link": "",
         "layout": "right",
         "divider": false
@@ -70,9 +82,9 @@
         "image": "shopify:\/\/shop_images\/Test-PRIMO-V3.png",
         "image_width": 500,
         "subtitle": "SILVERSKIN",
-        "title": "TITLE",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "SHOP NOW",
+        "title": "GIFT CARD",
+        "text": "<p>Scopri la nostra Gift Guide pensata appositamente per te che fai del ciclismo la tua più grande passione. Abbiamo selezionato con cura i migliori prodotti per rendere ogni tua pedalata un'esperienza straordinaria. Trova il bundle perfetto e preparati a girare le ruote in grande stile con Silverskin.<\/p>",
+        "button_label": "ACQUISTA ORA",
         "button_link": "",
         "layout": "left",
         "divider": false
@@ -81,6 +93,7 @@
   },
   "order": [
     "main",
+    "7a1ac5db-28e0-40fd-88a8-a073ee96bdb1",
     "36e06e9b-3786-4c07-a93e-e8994407d905",
     "25a0431f-3b70-4a6a-9c93-bebc66d569a8",
     "6606833c-2804-4012-8ec7-c08e486420c1",
