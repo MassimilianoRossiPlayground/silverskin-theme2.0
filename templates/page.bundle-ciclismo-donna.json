@@ -65,6 +65,12 @@
       "settings": {
         "html": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"8kel\"><\/div>"
       }
+    },
+    "e01ba6d7-e1b3-40d0-90db-f6e57c790416": {
+      "type": "modulo-custom-html",
+      "settings": {
+        "html": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"8kem\"><\/div>"
+      }
     }
   },
   "order": [
@@ -74,6 +80,7 @@
     "96997825-50eb-4998-acab-8861ad40c44e",
     "ac59a21a-4f85-4a8c-a4af-868d290d827e",
     "c000ebee-789e-4633-8eac-d1385e623a6d",
-    "37dc5eea-62f1-4233-85f1-8de308933071"
+    "37dc5eea-62f1-4233-85f1-8de308933071",
+    "e01ba6d7-e1b3-40d0-90db-f6e57c790416"
   ]
 }
