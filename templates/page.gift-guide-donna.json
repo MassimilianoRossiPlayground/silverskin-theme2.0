@@ -56,9 +56,9 @@
         "image": "shopify:\/\/shop_images\/Test-PRIMO-V3.png",
         "image_width": 500,
         "subtitle": "SILVERSKIN",
-        "title": "TITLE",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "SHOP NOW",
+        "title": "RUNNING",
+        "text": "<p>Corri a consultare la nostra Gift Guide per le <strong>amanti della corsa<\/strong>. Scegli tra i kit di prodotti studiati per il running e il trail running e rendi ogni falcata più speciale con i base layer e gli accessori Silverskin.<\/p>",
+        "button_label": "ACQUISTA ORA",
         "button_link": "",
         "layout": "right",
         "divider": false
