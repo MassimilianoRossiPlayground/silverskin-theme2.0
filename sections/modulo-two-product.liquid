@@ -1,0 +1,33 @@
+<div class="section-two-product">
+
+  {% for product_block in section.blocks %}
+  
+    {% assign product = product_block %}
+    {%- include 'product-grid-item' -%}
+
+  {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name": "Two Products",
+    "blocks": [
+      {
+        "type": "products",
+        "name": "Products",
+        "settings": [
+            {
+                "type": "product",
+                "id": "product",
+                "label": "Product"
+            },
+          ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Two Products"
+        }
+    ]
+  }
+{% endschema %}
