@@ -1,11 +1,13 @@
 <div class="section-two-product">
 
-  {% for product_block in section.blocks %}
-  
-    {% assign product = product_block %}
-    {%- include 'product-grid-item' -%}
+  <div class="two-product-content">
+    {% for product_block in section.blocks %}
+    
+      {% assign product = product_block %}
+      {%- include 'product-grid-item' -%}
 
-  {% endfor %}
+    {% endfor %}
+  </div>
 </div>
 
 {% schema %}
