@@ -12,24 +12,15 @@
         "template--21415255277909__193a2920-7586-4cca-850f-671e98170562-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/intramezzo.jpg",
+            "image": "shopify:\/\/shop_images\/PASSIONE_SNOWSPORTS_1.png",
             "link": "",
-            "width": "50%",
+            "width": "100%",
             "alignment": "top-middle"
-          }
-        },
-        "template--21415255277909__193a2920-7586-4cca-850f-671e98170562-html-1": {
-          "type": "html",
-          "settings": {
-            "code": "<h2>Idee regalo per far contenti gli amanti del ciclismo<\/h2><p>Scopri le idee regalo che abbiamo pensato potessero aiutarti a comporre il giusto regalo per uno sportivo a cui vuoi bene! Qui troverai tutte le idee per un regalo uomo\n nel mondo del ciclismo.<\/p>",
-            "width": "50%",
-            "alignment": "center"
           }
         }
       },
       "block_order": [
-        "template--21415255277909__193a2920-7586-4cca-850f-671e98170562-image-1",
-        "template--21415255277909__193a2920-7586-4cca-850f-671e98170562-html-1"
+        "template--21415255277909__193a2920-7586-4cca-850f-671e98170562-image-1"
       ],
       "settings": {
         "full_width": false,
