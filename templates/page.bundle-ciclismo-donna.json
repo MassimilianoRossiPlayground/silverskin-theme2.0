@@ -53,6 +53,12 @@
         "html": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"8kem\"><\/div>"
       }
     },
+    "39f86d66-8171-4cae-ae2f-7eae46235e97": {
+      "type": "modulo-spacer",
+      "settings": {
+        "spacer": 80
+      }
+    },
     "e9493d53-2748-411f-8143-88682006bf76": {
       "type": "modulo-row-product",
       "blocks": {
@@ -123,6 +129,7 @@
     "c000ebee-789e-4633-8eac-d1385e623a6d",
     "37dc5eea-62f1-4233-85f1-8de308933071",
     "e01ba6d7-e1b3-40d0-90db-f6e57c790416",
+    "39f86d66-8171-4cae-ae2f-7eae46235e97",
     "e9493d53-2748-411f-8143-88682006bf76",
     "6660f1e8-8e25-4b41-b591-299a3c60d813"
   ]
