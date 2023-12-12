@@ -86,12 +86,6 @@
     "bae63aad-7f29-4769-a79a-a84d6fd68c47": {
       "type": "modulo-row-product",
       "blocks": {
-        "304f484d-ea78-4ad3-b055-b5b13fa69f6e": {
-          "type": "product",
-          "settings": {
-            "product": "calzettone-performance-antracite-sk016w"
-          }
-        },
         "5416725c-6217-4170-b3a8-8b63a592bc1b": {
           "type": "product",
           "settings": {
@@ -109,13 +103,19 @@
           "settings": {
             "product": "copia-del-stay-warm-scaldacollo-anthracite"
           }
+        },
+        "304f484d-ea78-4ad3-b055-b5b13fa69f6e": {
+          "type": "product",
+          "settings": {
+            "product": "calzettone-performance-antracite-sk016w"
+          }
         }
       },
       "block_order": [
-        "304f484d-ea78-4ad3-b055-b5b13fa69f6e",
         "5416725c-6217-4170-b3a8-8b63a592bc1b",
         "e50cd83e-ea8b-4367-8524-1f5b17c6cd26",
-        "5364e44d-bc4e-42e0-8cf3-38aa8f71d7fc"
+        "5364e44d-bc4e-42e0-8cf3-38aa8f71d7fc",
+        "304f484d-ea78-4ad3-b055-b5b13fa69f6e"
       ],
       "settings": {
       }
