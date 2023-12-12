@@ -6,25 +6,15 @@
       "settings": {
       }
     },
-    "193a2920-7586-4cca-850f-671e98170562": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--21415255277909__193a2920-7586-4cca-850f-671e98170562-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PASSIONE_SNOWSPORTS_11.png",
-            "link": "",
-            "width": "100%",
-            "alignment": "top-middle"
-          }
-        }
-      },
-      "block_order": [
-        "template--21415255277909__193a2920-7586-4cca-850f-671e98170562-image-1"
-      ],
+    "b0312928-1d85-4868-95c2-cb4c60c9d73b": {
+      "type": "featured-content",
       "settings": {
-        "full_width": false,
-        "space_around": true
+        "title": "PASSIONE CORSA",
+        "text": "",
+        "align_text": "left",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
       }
     },
     "bd93b54f-e5ea-4648-a20a-f9e51ed9832f": {
@@ -66,7 +56,7 @@
   },
   "order": [
     "main",
-    "193a2920-7586-4cca-850f-671e98170562",
+    "b0312928-1d85-4868-95c2-cb4c60c9d73b",
     "bd93b54f-e5ea-4648-a20a-f9e51ed9832f",
     "96997825-50eb-4998-acab-8861ad40c44e",
     "ac59a21a-4f85-4a8c-a4af-868d290d827e",

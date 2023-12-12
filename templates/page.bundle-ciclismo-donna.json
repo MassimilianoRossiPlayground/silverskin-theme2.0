@@ -6,17 +6,6 @@
       "settings": {
       }
     },
-    "05568be8-e17e-4207-9001-7cf0618bda95": {
-      "type": "featured-content",
-      "settings": {
-        "title": "PASSIONE CICLISMO",
-        "text": "",
-        "align_text": "center",
-        "narrow_column": false,
-        "enlarge_text": true,
-        "divider": false
-      }
-    },
     "bd93b54f-e5ea-4648-a20a-f9e51ed9832f": {
       "type": "modulo-custom-html",
       "settings": {
@@ -56,7 +45,6 @@
   },
   "order": [
     "main",
-    "05568be8-e17e-4207-9001-7cf0618bda95",
     "bd93b54f-e5ea-4648-a20a-f9e51ed9832f",
     "96997825-50eb-4998-acab-8861ad40c44e",
     "ac59a21a-4f85-4a8c-a4af-868d290d827e",
