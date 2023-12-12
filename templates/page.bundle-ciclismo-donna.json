@@ -52,6 +52,66 @@
       "settings": {
         "html": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"8kem\"><\/div>"
       }
+    },
+    "e9493d53-2748-411f-8143-88682006bf76": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "c1affbfb-9e80-4c2f-aa9b-3b3b57d246d3": {
+          "type": "product",
+          "settings": {
+            "product": "primo-thermo-dry-pro-base-layer-manica-lunga-girocollo-perla-donna"
+          }
+        },
+        "5fd225f2-0cfa-4313-8d41-3a58db139f68": {
+          "type": "product",
+          "settings": {
+            "product": "stay-fresh-canotta-ciclismo-anthracite-1"
+          }
+        }
+      },
+      "block_order": [
+        "c1affbfb-9e80-4c2f-aa9b-3b3b57d246d3",
+        "5fd225f2-0cfa-4313-8d41-3a58db139f68"
+      ],
+      "settings": {
+      }
+    },
+    "6660f1e8-8e25-4b41-b591-299a3c60d813": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "49f8ef2e-7eab-409c-8250-2e169aeaf5f4": {
+          "type": "product",
+          "settings": {
+            "product": "copia-del-stay-warm-sottoguanto-anthracite"
+          }
+        },
+        "8ee831ea-b07d-49f4-b249-711046c1db97": {
+          "type": "product",
+          "settings": {
+            "product": "copia-del-stay-warm-sottocasco-pearlgrey"
+          }
+        },
+        "4d37243b-d2c0-40ce-8f78-34b209734f96": {
+          "type": "product",
+          "settings": {
+            "product": "copia-del-stay-warm-scaldacollo-pearlgrey"
+          }
+        },
+        "714fff4b-41f7-4179-b2ac-73133130583b": {
+          "type": "product",
+          "settings": {
+            "product": "manicotto-performance-anthracite-1"
+          }
+        }
+      },
+      "block_order": [
+        "49f8ef2e-7eab-409c-8250-2e169aeaf5f4",
+        "8ee831ea-b07d-49f4-b249-711046c1db97",
+        "4d37243b-d2c0-40ce-8f78-34b209734f96",
+        "714fff4b-41f7-4179-b2ac-73133130583b"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -62,6 +122,8 @@
     "ac59a21a-4f85-4a8c-a4af-868d290d827e",
     "c000ebee-789e-4633-8eac-d1385e623a6d",
     "37dc5eea-62f1-4233-85f1-8de308933071",
-    "e01ba6d7-e1b3-40d0-90db-f6e57c790416"
+    "e01ba6d7-e1b3-40d0-90db-f6e57c790416",
+    "e9493d53-2748-411f-8143-88682006bf76",
+    "6660f1e8-8e25-4b41-b591-299a3c60d813"
   ]
 }
