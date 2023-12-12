@@ -1,0 +1,58 @@
+<div class="section-row-products">
+  <div class="page-width row-products-content">
+
+    {% assign per_row = section.blocks.size %}
+
+    {% case per_row %}
+      {% when 2 %}
+        {% assign grid_item_width = 'medium-up--one-half' %}
+      {% when 3 %}
+        {% assign grid_item_width = 'small--one-half medium-up--one-third' %}
+      {% when 4 %}
+        {% assign grid_item_width = 'small--one-half medium-up--one-quarter' %}
+      {% when 5 %}
+        {% assign grid_item_width = 'small--one-half medium-up--one-fifth' %}
+      {% endcase %}
+
+    <div class="grid grid--uniform grid--collection small--grid--flush">
+
+      {% for product_block in section.blocks %}
+
+        {% assign product = product_block.settings.product %}
+        {%- include 'product-grid-item' -%}
+
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% style %}
+.row-products-content {
+  max-width: 900px;
+}
+{% endstyle %}
+
+{% schema %}
+  {
+    "name": "Row Products",
+    "max_blocks": 4,
+    "blocks": [
+      {
+        "type": "product",
+        "name": "Product",
+        "settings": [
+            {
+                "type": "product",
+                "id": "product",
+                "label": "Product"
+            }
+          ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Row Products"
+        }
+    ]
+  }
+{% endschema %}
