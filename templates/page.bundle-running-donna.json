@@ -52,6 +52,59 @@
       "settings": {
         "html": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"8kf2\"><\/div>"
       }
+    },
+    "19ace3b3-483a-4bc2-a52e-fc627b86b775": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "421232b0-e03c-4a2d-839a-00ee2ce30a17": {
+          "type": "product",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-corta-pearlgrey-1"
+          }
+        },
+        "c2de3888-b970-4499-a307-dced6b5a46d1": {
+          "type": "product",
+          "settings": {
+            "product": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-donna"
+          }
+        }
+      },
+      "block_order": [
+        "421232b0-e03c-4a2d-839a-00ee2ce30a17",
+        "c2de3888-b970-4499-a307-dced6b5a46d1"
+      ],
+      "settings": {
+      }
+    },
+    "97a3b291-94e2-44a7-a194-ade757270eed": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "490966d7-f056-463b-a3bd-a13721c557b2": {
+          "type": "product",
+          "settings": {
+            "product": "copia-del-stay-warm-scaldacollo-pearlgrey"
+          }
+        },
+        "bf606e64-0a2a-4eb7-915a-792648ecbca1": {
+          "type": "product",
+          "settings": {
+            "product": "copia-del-stay-fresh-light-run-socks-anthracite"
+          }
+        },
+        "5d573719-271f-49c6-a202-8113869bc8ef": {
+          "type": "product",
+          "settings": {
+            "product": "manicotto-performance-anthracite-1"
+          }
+        }
+      },
+      "block_order": [
+        "490966d7-f056-463b-a3bd-a13721c557b2",
+        "bf606e64-0a2a-4eb7-915a-792648ecbca1",
+        "5d573719-271f-49c6-a202-8113869bc8ef"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -62,6 +115,8 @@
     "ac59a21a-4f85-4a8c-a4af-868d290d827e",
     "c000ebee-789e-4633-8eac-d1385e623a6d",
     "c30aa03f-c0df-40b5-9d1c-dd5c150a3f39",
-    "d3ec8f33-b9e1-4a91-92e7-387b004e42b4"
+    "d3ec8f33-b9e1-4a91-92e7-387b004e42b4",
+    "19ace3b3-483a-4bc2-a52e-fc627b86b775",
+    "97a3b291-94e2-44a7-a194-ade757270eed"
   ]
 }
