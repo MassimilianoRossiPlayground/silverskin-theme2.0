@@ -7,6 +7,7 @@
     },
     "5c7e1976-1d0f-46b6-ad94-c299b03e18d0": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "title": "Blog posts",
         "blog": "news",
@@ -19,10 +20,34 @@
         "blog_image_size": "wide",
         "divider": false
       }
+    },
+    "fd3d3e77-d967-4d78-a768-e2fdb6a807d8": {
+      "type": "modulo-two-product",
+      "blocks": {
+        "846388c7-b115-4b12-b42c-797b0b37587d": {
+          "type": "products",
+          "settings": {
+            "product": "primo-thermo-dry-pro"
+          }
+        },
+        "38d22d99-563d-4416-800f-a9aa9995f8a4": {
+          "type": "products",
+          "settings": {
+            "product": "primo-thermo-dry-pro-base-layer-manica-lunga-girocollo-anthracite-donna"
+          }
+        }
+      },
+      "block_order": [
+        "846388c7-b115-4b12-b42c-797b0b37587d",
+        "38d22d99-563d-4416-800f-a9aa9995f8a4"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "5c7e1976-1d0f-46b6-ad94-c299b03e18d0"
+    "5c7e1976-1d0f-46b6-ad94-c299b03e18d0",
+    "fd3d3e77-d967-4d78-a768-e2fdb6a807d8"
   ]
 }
