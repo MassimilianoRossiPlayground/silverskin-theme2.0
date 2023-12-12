@@ -29,7 +29,7 @@
         "title": "ALPINISMO",
         "text": "<p>Eleva l’esperienza degli appassionati di montagna con la nostra Gift Guide per gli <strong>amanti dell'alpinismo<\/strong>. Scegli il regalo perfetto tra i diversi kit di prodotti che abbiamo studiato per partire alla conquista nuove vette.<\/p>",
         "button_label": "ACQUISTA ORA",
-        "button_link": "",
+        "button_link": "shopify:\/\/pages\/bundle-alpinismo-uomo",
         "layout": "left",
         "divider": false
       }
@@ -43,7 +43,7 @@
         "title": "SNOWSPORTS",
         "text": "<p>I migliori prodotti per gli <strong>amanti degli sport sulla neve<\/strong>.<strong> <\/strong>Sci, snowboard e molto altro ancora: trova il kit ideale in base all’attività preferita e rendi ogni avventura invernale perfetta con Silverskin. <\/p>",
         "button_label": "ACQUISTA ORA",
-        "button_link": "",
+        "button_link": "shopify:\/\/pages\/bundle-snowsports-uomo",
         "layout": "right",
         "divider": false
       }
@@ -57,7 +57,7 @@
         "title": "CICLISMO",
         "text": "<p>Sorprendi chi ama pedalare grazie alla nostra Gift Guide per gli <strong>appassionati di ciclismo<\/strong>. Abbiamo selezionato gli indispensabili per continuare a spingere sui pedali e rilanciare sui tornanti. <\/p>",
         "button_label": "ACQUISTA ORA",
-        "button_link": "",
+        "button_link": "shopify:\/\/pages\/bundle-ciclismo-uomo",
         "layout": "left",
         "divider": false
       }
@@ -71,7 +71,7 @@
         "title": "RUNNING",
         "text": "<p>Corri a consultare la nostra Gift Guide per gli <strong>amanti della corsa<\/strong>. Scegli tra i kit di prodotti studiati per il running e il trail running e rendi ogni falcata più speciale con i base layer e gli accessori Silverskin.<\/p>",
         "button_label": "ACQUISTA ORA",
-        "button_link": "",
+        "button_link": "shopify:\/\/pages\/bundle-running-uomo",
         "layout": "right",
         "divider": false
       }
