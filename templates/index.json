@@ -704,22 +704,22 @@
     "1714382f-4f28-4831-94d6-00a52054b996": {
       "type": "modulo-two-product",
       "blocks": {
-        "c7168206-c9e1-4f61-8712-692febb8989b": {
-          "type": "products",
-          "settings": {
-            "product": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo"
-          }
-        },
-        "5b47cba1-d24c-4c18-886c-74cf519ed647": {
-          "type": "products",
+        "c1d18728-c85c-4c90-ae23-70f8e3c2dada": {
+          "type": "product",
           "settings": {
             "product": "copia-del-stay-fresh-maglia-termica-manica-corta-collo-a-v-pearlgrey"
+          }
+        },
+        "0f24f914-0bbf-414e-8aaa-1d1b8f8d7239": {
+          "type": "product",
+          "settings": {
+            "product": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-donna"
           }
         }
       },
       "block_order": [
-        "c7168206-c9e1-4f61-8712-692febb8989b",
-        "5b47cba1-d24c-4c18-886c-74cf519ed647"
+        "c1d18728-c85c-4c90-ae23-70f8e3c2dada",
+        "0f24f914-0bbf-414e-8aaa-1d1b8f8d7239"
       ],
       "settings": {
       }
