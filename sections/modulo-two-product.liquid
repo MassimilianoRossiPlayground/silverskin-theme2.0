@@ -1,9 +1,11 @@
 <div class="section-row-products">
   <div class="page-width row-products-content">
+    
+    
     <div class="grid grid--uniform grid--collection small--grid--flush">
 
       {%- assign grid_item_width = 'medium-up--one-half' -%}
-{{section.blocks.size }}
+
       {% for product_block in section.blocks %}
 
         {% assign product = product_block.settings.product %}
