@@ -85,12 +85,6 @@
             "product": "sottoguanto-anthracite"
           }
         },
-        "32567d58-bec4-403d-9f21-2b839ef45592": {
-          "type": "product",
-          "settings": {
-            "product": "copia-del-sottocasco-perfortmance-antracite-sk009w"
-          }
-        },
         "6cc2e1c8-2e8e-4461-a115-8dac755cabfe": {
           "type": "product",
           "settings": {
@@ -102,13 +96,19 @@
           "settings": {
             "product": "manicotto-performance-anthracite"
           }
+        },
+        "385d86fa-5162-49d9-93fd-a3684465a046": {
+          "type": "product",
+          "settings": {
+            "product": "sottocasco-perfortmance-grigio-perla-sk009w"
+          }
         }
       },
       "block_order": [
         "0fcdd514-d51a-48e1-b4fe-073b37d5f4f6",
-        "32567d58-bec4-403d-9f21-2b839ef45592",
         "6cc2e1c8-2e8e-4461-a115-8dac755cabfe",
-        "3419a2f4-0c8e-4833-b479-70db7bef5669"
+        "3419a2f4-0c8e-4833-b479-70db7bef5669",
+        "385d86fa-5162-49d9-93fd-a3684465a046"
       ],
       "settings": {
       }
