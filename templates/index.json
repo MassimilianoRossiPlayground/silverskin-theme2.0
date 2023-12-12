@@ -2,7 +2,6 @@
   "sections": {
     "6a3a252a-f724-42c8-866c-3338ea073fa8": {
       "type": "hero-video",
-      "disabled": true,
       "settings": {
         "title": "REGALI CHE RACCONTANO GRANDI PASSIONI",
         "title_size": 80,
@@ -127,6 +126,7 @@
         "1524768368258-0",
         "1578064016256"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 768px) {img.image-fit.hero__image.hero__image--10a14c41-303c-477b-b936-a578674fcc8a.lazyloaded {object-position: 61%; } .hero__text-content.vertical-center {vertical-align: bottom; padding-bottom: 40px; }}"
       ],
