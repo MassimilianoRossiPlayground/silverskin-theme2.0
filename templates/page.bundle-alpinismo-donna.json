@@ -47,6 +47,12 @@
         "html": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"8my1\"><\/div>"
       }
     },
+    "c01dc62a-21c9-4a2a-8ed8-35954c1dc125": {
+      "type": "modulo-spacer",
+      "settings": {
+        "spacer": 80
+      }
+    },
     "1f9e6ace-a5e3-4b2b-9fde-fb6918a005a7": {
       "type": "modulo-row-product",
       "blocks": {
@@ -80,22 +86,22 @@
     "bae63aad-7f29-4769-a79a-a84d6fd68c47": {
       "type": "modulo-row-product",
       "blocks": {
-        "73f67af5-fee0-4a67-a91d-8cd3d1f3b9f9": {
+        "5416725c-6217-4170-b3a8-8b63a592bc1b": {
           "type": "product",
           "settings": {
-            "product": "passamontagna-performance-anthracite"
+            "product": "passamontagna-performance-anthracite-1"
           }
         },
-        "475a51e4-7626-4757-a1a2-0feef863b4bb": {
+        "e50cd83e-ea8b-4367-8524-1f5b17c6cd26": {
           "type": "product",
           "settings": {
-            "product": "sottoguanto-anthracite"
+            "product": "copia-del-stay-warm-sottoguanto-anthracite"
           }
         },
-        "fac714b3-b57d-4bfa-a6ef-cb801ef376de": {
+        "5364e44d-bc4e-42e0-8cf3-38aa8f71d7fc": {
           "type": "product",
           "settings": {
-            "product": "scaldacollo-performance-antracite-sk027x"
+            "product": "copia-del-stay-warm-scaldacollo-anthracite"
           }
         },
         "304f484d-ea78-4ad3-b055-b5b13fa69f6e": {
@@ -106,9 +112,9 @@
         }
       },
       "block_order": [
-        "73f67af5-fee0-4a67-a91d-8cd3d1f3b9f9",
-        "475a51e4-7626-4757-a1a2-0feef863b4bb",
-        "fac714b3-b57d-4bfa-a6ef-cb801ef376de",
+        "5416725c-6217-4170-b3a8-8b63a592bc1b",
+        "e50cd83e-ea8b-4367-8524-1f5b17c6cd26",
+        "5364e44d-bc4e-42e0-8cf3-38aa8f71d7fc",
         "304f484d-ea78-4ad3-b055-b5b13fa69f6e"
       ],
       "settings": {
@@ -123,6 +129,7 @@
     "ac59a21a-4f85-4a8c-a4af-868d290d827e",
     "c000ebee-789e-4633-8eac-d1385e623a6d",
     "7d320e1e-0d4a-4e11-a48f-63b8c6a42f61",
+    "c01dc62a-21c9-4a2a-8ed8-35954c1dc125",
     "1f9e6ace-a5e3-4b2b-9fde-fb6918a005a7",
     "bae63aad-7f29-4769-a79a-a84d6fd68c47"
   ]

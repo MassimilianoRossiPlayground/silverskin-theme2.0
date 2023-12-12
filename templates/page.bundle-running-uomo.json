@@ -52,6 +52,65 @@
       "settings": {
         "html": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"8kf2\"><\/div>"
       }
+    },
+    "06eaf38d-9c03-45c2-aa00-9dd49c60e4ec": {
+      "type": "modulo-spacer",
+      "settings": {
+        "spacer": 80
+      }
+    },
+    "77970eb4-7d8c-4c66-a071-4e72b968fc8d": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "1f5530ca-c505-45fb-8d96-56b1672a5a87": {
+          "type": "product",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-corta-pearlgrey"
+          }
+        },
+        "02ceab09-580f-499d-b266-a322ec464d1b": {
+          "type": "product",
+          "settings": {
+            "product": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo"
+          }
+        }
+      },
+      "block_order": [
+        "1f5530ca-c505-45fb-8d96-56b1672a5a87",
+        "02ceab09-580f-499d-b266-a322ec464d1b"
+      ],
+      "settings": {
+      }
+    },
+    "628ca4da-64ed-4c67-944b-982c0c733cd5": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "93a1386a-fdc5-4b4c-bbe9-60e3bb458115": {
+          "type": "product",
+          "settings": {
+            "product": "scaldacollo-performance-grigio-perla-sk012w"
+          }
+        },
+        "4a9069ea-b5a9-440a-bd54-7fec09c94839": {
+          "type": "product",
+          "settings": {
+            "product": "copia-del-stay-fresh-light-run-socks-anthracite"
+          }
+        },
+        "39230c8f-9f97-4141-8fe6-d8a71a71c1ad": {
+          "type": "product",
+          "settings": {
+            "product": "manicotto-performance-anthracite"
+          }
+        }
+      },
+      "block_order": [
+        "93a1386a-fdc5-4b4c-bbe9-60e3bb458115",
+        "4a9069ea-b5a9-440a-bd54-7fec09c94839",
+        "39230c8f-9f97-4141-8fe6-d8a71a71c1ad"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -62,6 +121,9 @@
     "ac59a21a-4f85-4a8c-a4af-868d290d827e",
     "c000ebee-789e-4633-8eac-d1385e623a6d",
     "2def6ddb-12eb-47f3-98ea-778f8b29ab5a",
-    "d9cf5be0-95c6-4738-8185-b1c1ecc86b69"
+    "d9cf5be0-95c6-4738-8185-b1c1ecc86b69",
+    "06eaf38d-9c03-45c2-aa00-9dd49c60e4ec",
+    "77970eb4-7d8c-4c66-a071-4e72b968fc8d",
+    "628ca4da-64ed-4c67-944b-982c0c733cd5"
   ]
 }

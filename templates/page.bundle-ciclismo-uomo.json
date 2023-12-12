@@ -52,6 +52,72 @@
       "settings": {
         "html": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"8kem\"><\/div>"
       }
+    },
+    "c14035f2-4f33-4c9f-bfe1-acec87b2e038": {
+      "type": "modulo-spacer",
+      "settings": {
+        "spacer": 80
+      }
+    },
+    "39e3589d-14f9-496c-a482-ef017977562a": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "11270501-6578-423e-b59f-bd4eb15e5671": {
+          "type": "product",
+          "settings": {
+            "product": "primo-thermo-dry-pro-base-layer-manica-lunga-girocollo-pearlgrey-uomo"
+          }
+        },
+        "b16c3ca7-5a01-4706-a386-c0ce0bcab870": {
+          "type": "product",
+          "settings": {
+            "product": "stay-fresh-canotta-ciclismo-anthracite"
+          }
+        }
+      },
+      "block_order": [
+        "11270501-6578-423e-b59f-bd4eb15e5671",
+        "b16c3ca7-5a01-4706-a386-c0ce0bcab870"
+      ],
+      "settings": {
+      }
+    },
+    "59edc3bd-1442-4eb0-9ec2-1fb2e27ed064": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "0fcdd514-d51a-48e1-b4fe-073b37d5f4f6": {
+          "type": "product",
+          "settings": {
+            "product": "sottoguanto-anthracite"
+          }
+        },
+        "6cc2e1c8-2e8e-4461-a115-8dac755cabfe": {
+          "type": "product",
+          "settings": {
+            "product": "scaldacollo-performance-antracite-sk027x"
+          }
+        },
+        "3419a2f4-0c8e-4833-b479-70db7bef5669": {
+          "type": "product",
+          "settings": {
+            "product": "manicotto-performance-anthracite"
+          }
+        },
+        "385d86fa-5162-49d9-93fd-a3684465a046": {
+          "type": "product",
+          "settings": {
+            "product": "sottocasco-perfortmance-grigio-perla-sk009w"
+          }
+        }
+      },
+      "block_order": [
+        "0fcdd514-d51a-48e1-b4fe-073b37d5f4f6",
+        "6cc2e1c8-2e8e-4461-a115-8dac755cabfe",
+        "3419a2f4-0c8e-4833-b479-70db7bef5669",
+        "385d86fa-5162-49d9-93fd-a3684465a046"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -62,6 +128,9 @@
     "ac59a21a-4f85-4a8c-a4af-868d290d827e",
     "c000ebee-789e-4633-8eac-d1385e623a6d",
     "1fd2416a-2658-4bbd-8017-5261b99dfafd",
-    "78d293c4-498f-4078-aaf1-44ed590f7522"
+    "78d293c4-498f-4078-aaf1-44ed590f7522",
+    "c14035f2-4f33-4c9f-bfe1-acec87b2e038",
+    "39e3589d-14f9-496c-a482-ef017977562a",
+    "59edc3bd-1442-4eb0-9ec2-1fb2e27ed064"
   ]
 }

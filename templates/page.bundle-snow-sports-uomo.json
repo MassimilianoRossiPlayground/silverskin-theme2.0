@@ -46,6 +46,73 @@
       "settings": {
         "html": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"8myv\"><\/div>"
       }
+    },
+    "b837651b-7d50-46f9-99bf-541cf1c05d56": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "f5b883a3-907f-4b2f-92dc-ec8e2eb2628e": {
+          "type": "product",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-lunga-pearlgrey-1"
+          }
+        },
+        "bd1768af-a283-4954-a2bc-8e94ac0a216b": {
+          "type": "product",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-corta-pearlgrey"
+          }
+        },
+        "a8073e30-2f88-4678-bfcc-4b72d8a91ad0": {
+          "type": "product",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-corta-anthracite-1"
+          }
+        },
+        "a874f25a-451e-4620-8443-dc88f4f2bbe2": {
+          "type": "product",
+          "settings": {
+            "product": "primo-thermo-dry-pro-base-layer-manica-lunga-girocollo-pearlgrey-uomo"
+          }
+        }
+      },
+      "block_order": [
+        "f5b883a3-907f-4b2f-92dc-ec8e2eb2628e",
+        "bd1768af-a283-4954-a2bc-8e94ac0a216b",
+        "a8073e30-2f88-4678-bfcc-4b72d8a91ad0",
+        "a874f25a-451e-4620-8443-dc88f4f2bbe2"
+      ],
+      "settings": {
+      }
+    },
+    "90052712-291c-4f93-ad7c-35a587d57f5b": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "fb58462f-1f98-41ca-9d6a-c05ab717e685": {
+          "type": "product",
+          "settings": {
+            "product": "sottoguanto-anthracite"
+          }
+        },
+        "f32b6cff-1b43-416c-b887-0671cf8c3335": {
+          "type": "product",
+          "settings": {
+            "product": "scaldacollo-performance-antracite-sk027x"
+          }
+        },
+        "6fc4378c-8c28-4219-9532-81aee9daa7d6": {
+          "type": "product",
+          "settings": {
+            "product": "calzettone-performance-antracite-sk016w"
+          }
+        }
+      },
+      "block_order": [
+        "fb58462f-1f98-41ca-9d6a-c05ab717e685",
+        "f32b6cff-1b43-416c-b887-0671cf8c3335",
+        "6fc4378c-8c28-4219-9532-81aee9daa7d6"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -55,6 +122,8 @@
     "89d646e6-753d-49ab-b2a2-253e5a91450c",
     "34c14ba4-ccc4-494e-9ac7-73446b2dfd44",
     "21485e6c-1755-4bae-8041-c83f09cb4748",
-    "34315544-e9b9-441c-b832-a43fba2a5f96"
+    "34315544-e9b9-441c-b832-a43fba2a5f96",
+    "b837651b-7d50-46f9-99bf-541cf1c05d56",
+    "90052712-291c-4f93-ad7c-35a587d57f5b"
   ]
 }

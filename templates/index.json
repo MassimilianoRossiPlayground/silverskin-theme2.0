@@ -2,18 +2,17 @@
   "sections": {
     "6a3a252a-f724-42c8-866c-3338ea073fa8": {
       "type": "hero-video",
-      "disabled": true,
       "settings": {
-        "title": "Vi presentiamo PRIMO",
+        "title": "REGALI CHE RACCONTANO GRANDI PASSIONI",
         "title_size": 80,
-        "subheading": "Scopri il nostro nuovo base layer",
-        "link_text": "ESPLORA LA COLLEZIONE",
-        "link": "shopify:\/\/collections\/primo-thermo-dry-pro",
-        "link_text_2": "SCOPRI PRIMO",
-        "link_2": "https:\/\/primo-thermodry-pro.silverskin.it\/",
+        "subheading": "",
+        "link_text": "REGALI UOMO",
+        "link": "shopify:\/\/pages\/gift-guide-uomo",
+        "link_text_2": "REGALI DONNA",
+        "link_2": "shopify:\/\/pages\/gift-guide-donna",
         "color_accent": "#ffffff",
         "text_align": "vertical-center horizontal-left",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/284971ac88fb478da7dc3ccf34cd6622.mp4",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9f0b8b1c8bc74779ac176e857fb85d0c.mp4",
         "section_height": "100vh",
         "mobile_height": "auto"
       }
@@ -127,6 +126,7 @@
         "1524768368258-0",
         "1578064016256"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 768px) {img.image-fit.hero__image.hero__image--10a14c41-303c-477b-b936-a578674fcc8a.lazyloaded {object-position: 61%; } .hero__text-content.vertical-center {vertical-align: bottom; padding-bottom: 40px; }}"
       ],

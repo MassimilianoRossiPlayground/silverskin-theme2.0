@@ -5,19 +5,27 @@
   },
   "sections": {
     "1524768368258": {
+      "disabled": false,
       "settings": {
       },
       "blocks": {
-        "a7caeca8-bcb3-41df-be58-73a7c6b13614": {
-          "disabled": false,
-          "settings": {
-          }
-        },
         "10a14c41-303c-477b-b936-a578674fcc8a": {
           "disabled": true,
           "settings": {
           }
+        },
+        "a7caeca8-bcb3-41df-be58-73a7c6b13614": {
+          "disabled": false,
+          "settings": {
+          }
         }
+      }
+    },
+    "6a3a252a-f724-42c8-866c-3338ea073fa8": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
       }
     }
   }
