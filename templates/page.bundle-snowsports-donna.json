@@ -64,6 +64,78 @@
       "settings": {
         "html": "<div class=\"bundler-target-element\" data-bndlr-ccid=\"8ne8\"><\/div>"
       }
+    },
+    "97af3a1b-c226-4b0a-918c-d0e22da24a10": {
+      "type": "modulo-spacer",
+      "settings": {
+      }
+    },
+    "5eacbaf3-32ee-49ff-bc37-77d8f5aa1f11": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "b0069bf0-42a1-44a6-b6e4-b5360e30ef52": {
+          "type": "product",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-lunga-anthracite-1"
+          }
+        },
+        "6557d6d6-b5d5-446e-963c-43b640d9731a": {
+          "type": "product",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-corta-pearlgrey-1"
+          }
+        },
+        "7a891f9a-fc06-4bac-9cf9-29c0077fda62": {
+          "type": "product",
+          "settings": {
+            "product": "base-layer-termico-girocollo-manica-corta-anthracite-2"
+          }
+        },
+        "c4cf4839-c365-47ca-98ea-830e0593c4ed": {
+          "type": "product",
+          "settings": {
+            "product": "primo-thermo-dry-pro-base-layer-manica-lunga-girocollo-perla-donna"
+          }
+        }
+      },
+      "block_order": [
+        "b0069bf0-42a1-44a6-b6e4-b5360e30ef52",
+        "6557d6d6-b5d5-446e-963c-43b640d9731a",
+        "7a891f9a-fc06-4bac-9cf9-29c0077fda62",
+        "c4cf4839-c365-47ca-98ea-830e0593c4ed"
+      ],
+      "settings": {
+      }
+    },
+    "413e1906-e21c-4226-a407-3536112053bb": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "4d8ad6d8-6e38-4831-b014-4c6258632c40": {
+          "type": "product",
+          "settings": {
+            "product": "copia-del-stay-warm-sottoguanto-anthracite"
+          }
+        },
+        "a4b00bd8-cac9-4449-a7ac-b8b0f68ed443": {
+          "type": "product",
+          "settings": {
+            "product": "copia-del-stay-warm-scaldacollo-anthracite"
+          }
+        },
+        "e98b6360-988c-417e-9537-a28573a14466": {
+          "type": "product",
+          "settings": {
+            "product": "calzettone-performance-antracite-sk016w"
+          }
+        }
+      },
+      "block_order": [
+        "4d8ad6d8-6e38-4831-b014-4c6258632c40",
+        "a4b00bd8-cac9-4449-a7ac-b8b0f68ed443",
+        "e98b6360-988c-417e-9537-a28573a14466"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -76,6 +148,9 @@
     "9d9253f3-92b1-4cf8-ba21-e35e0226dc2d",
     "59e80b28-c069-4c89-8de0-80ab84c7c263",
     "3ae22e3d-91b3-467a-9c3e-3e3e04a1edea",
-    "18c2d705-b3b8-48d7-a08f-2f4f40046974"
+    "18c2d705-b3b8-48d7-a08f-2f4f40046974",
+    "97af3a1b-c226-4b0a-918c-d0e22da24a10",
+    "5eacbaf3-32ee-49ff-bc37-77d8f5aa1f11",
+    "413e1906-e21c-4226-a407-3536112053bb"
   ]
 }
