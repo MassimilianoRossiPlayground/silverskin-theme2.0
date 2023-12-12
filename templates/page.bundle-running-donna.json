@@ -8,6 +8,20 @@
     },
     "193a2920-7586-4cca-850f-671e98170562": {
       "type": "advanced-content",
+      "blocks": {
+        "template--21415255277909__193a2920-7586-4cca-850f-671e98170562-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PASSIONE_SNOWSPORTS_11.png",
+            "link": "",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--21415255277909__193a2920-7586-4cca-850f-671e98170562-image-1"
+      ],
       "settings": {
         "full_width": false,
         "space_around": true
