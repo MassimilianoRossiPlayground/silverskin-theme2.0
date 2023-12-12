@@ -721,12 +721,19 @@
           "settings": {
             "product": "primo-thermo-dry-pro-base-layer-manica-lunga-girocollo-anthracite-donna"
           }
+        },
+        "54624925-c673-4968-be5d-ebe1f1a09aac": {
+          "type": "product",
+          "settings": {
+            "product": "primo-thermo-dry-pro-base-layer-smanicato-girocollo-anthracite-uomo"
+          }
         }
       },
       "block_order": [
         "c1d18728-c85c-4c90-ae23-70f8e3c2dada",
         "0f24f914-0bbf-414e-8aaa-1d1b8f8d7239",
-        "e6e78511-0715-47f1-9a0c-2187b57464bf"
+        "e6e78511-0715-47f1-9a0c-2187b57464bf",
+        "54624925-c673-4968-be5d-ebe1f1a09aac"
       ],
       "settings": {
       }
