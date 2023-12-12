@@ -1,22 +1,33 @@
-<div class="section-two-product">
+<div class="section-row-products">
+  <div class="page-width row-products-content">
+    <div class="grid grid--uniform grid--collection small--grid--flush">
 
-  <div class="two-product-content">
-    {% for product_block in section.blocks %}
-    
-      {% assign product = product_block %}
-      {%- include 'product-grid-item' -%}
+      {%- assign grid_item_width = 'medium-up--one-half' -%}
+{{section.blocks.size }}
+      {% for product_block in section.blocks %}
 
-    {% endfor %}
+        {% assign product = product_block.settings.product %}
+        {%- include 'product-grid-item' -%}
+
+      {% endfor %}
+    </div>
   </div>
 </div>
 
+{% style %}
+.row-products-content {
+  max-width: 900px;
+}
+{% endstyle %}
+
 {% schema %}
   {
-    "name": "Two Products",
+    "name": "Row Products",
+    "max_blocks": 4,
     "blocks": [
       {
-        "type": "products",
-        "name": "Products",
+        "type": "product",
+        "name": "Product",
         "settings": [
             {
                 "type": "product",
@@ -28,7 +39,7 @@
     ],
     "presets": [
         {
-            "name": "Two Products"
+            "name": "Row Products"
         }
     ]
   }
