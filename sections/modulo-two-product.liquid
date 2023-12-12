@@ -1,10 +1,20 @@
 <div class="section-row-products">
   <div class="page-width row-products-content">
-    
-    
-    <div class="grid grid--uniform grid--collection small--grid--flush">
 
-      {%- assign grid_item_width = 'medium-up--one-half' -%}
+    {% assign per_row = section.blocks.size %}
+    
+    {% case per_row %}
+      {% when 2 %}
+        {% assign grid_item_width = 'medium-up--one-half' %}
+      {% when 3 %}
+        {% assign grid_item_width = 'small--one-half medium-up--one-third' %}
+      {% when 4 %}
+        {% assign grid_item_width = 'small--one-half medium-up--one-third' %}
+      {% when 5 %}
+        {% assign grid_item_width = 'small--one-half medium-up--one-fifth' %}
+      {% endcase %}
+
+    <div class="grid grid--uniform grid--collection small--grid--flush">
 
       {% for product_block in section.blocks %}
 
