@@ -1,24 +1,14 @@
 {
   "sections": {
-    "77e593e5-5bb7-4d87-bef5-c3326ddfa949": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--21429740208469__77e593e5-5bb7-4d87-bef5-c3326ddfa949-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PASSIONE_SNOWSPORTS_2.png",
-            "link": "",
-            "width": "100%",
-            "alignment": "top-middle"
-          }
-        }
-      },
-      "block_order": [
-        "template--21429740208469__77e593e5-5bb7-4d87-bef5-c3326ddfa949-image-1"
-      ],
+    "ead65277-2d1b-4f9b-8ae6-9c18126ae0ed": {
+      "type": "featured-content",
       "settings": {
-        "full_width": false,
-        "space_around": true
+        "title": "PASSIONE SNOWSPORTS",
+        "text": "",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
       }
     },
     "5fbf2827-bca4-4e35-812f-cd164a56816b": {
@@ -59,7 +49,7 @@
     }
   },
   "order": [
-    "77e593e5-5bb7-4d87-bef5-c3326ddfa949",
+    "ead65277-2d1b-4f9b-8ae6-9c18126ae0ed",
     "5fbf2827-bca4-4e35-812f-cd164a56816b",
     "494d575b-11d9-47a2-ba60-2c1182424c9a",
     "89d646e6-753d-49ab-b2a2-253e5a91450c",
