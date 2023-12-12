@@ -20,6 +20,12 @@
           </div>
         {% endif %}
 
+        {% if section.settings.text_small != blank %}
+          <div class="rte text-small">
+            <p>{{ section.settings.text }}</p>
+          </div>
+        {% endif %}
+
         {% for block in section.blocks %}
           <div class="rte" {{ block.shopify_attributes }}>
             {% case block.type %}
@@ -63,6 +69,11 @@
         "id": "text",
         "label": "Text",
         "default": "<p>A sentence or two introducing your brand, what you sell, and what makes your brand compelling to customers.</p>"
+      },
+      {
+        "type": "textarea",
+        "id": "text_small",
+        "label": "Text Small"
       },
       {
         "type": "select",
@@ -138,6 +149,10 @@
 
 
 {% style %}
+.text-small {
+  font-size: 14px;
+  text-align: center;
+}
 @media screen and (max-width: 768px) {
 
   .page-width.rich-text-content h2 {
