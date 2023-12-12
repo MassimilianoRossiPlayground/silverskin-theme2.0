@@ -2,10 +2,22 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
         ".section-header {margin-bottom: 0;}"
       ],
       "settings": {
+      }
+    },
+    "1cef8d25-06f5-4013-8f69-595dd6ba28fe": {
+      "type": "featured-content",
+      "settings": {
+        "title": "GIFT GUIDE DONNA",
+        "text": "<p>Le festività sono alle porte e sappiamo quanto sia difficile scegliere il regalo perfetto, soprattutto quando si tratta di soddisfare le passioni di chi amiamo. Ed è proprio per questo che abbiamo deciso di aiutarti nella scelta.<\/p><p>Esplora la nostra Gift Guide e lasciati ispirare dalla nostra speciale selezione di base layer ed accessori, pensata per le passioni che rendono unica ogni persona. Che tu stia cercando l’idea regalo per amici e parenti, o qualcosa di speciale per te stessa, siamo qui per aiutarti a stupire te e i tuoi cari. <\/p><p>Seleziona lo sport preferito, scegli tra i kit di prodotti disponibili e fai vivere un inverno indimenticabile con Silverskin!  <\/p>",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
       }
     },
     "36e06e9b-3786-4c07-a93e-e8994407d905": {
@@ -81,6 +93,7 @@
   },
   "order": [
     "main",
+    "1cef8d25-06f5-4013-8f69-595dd6ba28fe",
     "36e06e9b-3786-4c07-a93e-e8994407d905",
     "25a0431f-3b70-4a6a-9c93-bebc66d569a8",
     "6606833c-2804-4012-8ec7-c08e486420c1",
