@@ -5712,6 +5712,7 @@ h1.section-header__title {
 
     .grid__item.grid-product.medium-up--one-half {
         width: 50%;
+        padding: 10px 5px;
     }
 
     /* store locator */
