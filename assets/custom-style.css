@@ -5710,6 +5710,10 @@ h1.section-header__title {
         margin-right: -17px;
     }
 
+    .grid__item.grid-product.medium-up--one-half {
+        width: 50%;
+    }
+
     /* store locator */
 
     button#search_submit {
