@@ -10,6 +10,8 @@
         "link": "shopify:\/\/pages\/gift-guide-uomo",
         "link_text_2": "REGALI DONNA",
         "link_2": "shopify:\/\/pages\/gift-guide-donna",
+        "link_text_3": "Gift Card",
+        "link_3": "https:\/\/www.silverskin.it\/products\/buono-regalo?_pos=1&_sid=61cb510ba&_ss=r",
         "color_accent": "#ffffff",
         "text_align": "vertical-center horizontal-left",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9f0b8b1c8bc74779ac176e857fb85d0c.mp4",
@@ -692,6 +694,7 @@
       "settings": {
         "title": "Seguici su Instagram",
         "text": "<p><\/p>",
+        "text_small": "",
         "align_text": "center",
         "narrow_column": false,
         "enlarge_text": false,
