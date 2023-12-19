@@ -95,7 +95,7 @@
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": true,
     "cart_terms_conditions_link": "",
-    "enable_currencies": false,
+    "enable_currencies": true,
     "currency_format": "money_format",
     "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
     "social_facebook_link": "https:\/\/www.facebook.com\/silverskin.it\/",
