@@ -404,9 +404,10 @@
         "settings": {
           "mode": "enabled",
           "popup_seconds": 40,
-          "popup_days": 10,
-          "popup_title": "",
-          "popup_text": "<p>Tutte le ultime <strong>novità<\/strong>, le <strong>info dal mondo Silverskin<\/strong> e <strong>promozioni imperdibili<\/strong>, direttamente nella tua casella di posta!<\/p><p>Inserisci la tua e-mail e ricevi un <strong>CODICE SCONTO DEL 10% <\/strong>da utilizzare sul tuo primo ordine!<\/p>",
+          "popup_days": 2,
+          "popup_title": "UN REGALO PER TE 🎁",
+          "popup_image": "shopify:\/\/shop_images\/christmas-3030279_1280.jpg",
+          "popup_text": "<p>In occasione delle feste, vogliamo arricchire la tua esperienza outdoor: inserisci la tua email qui sotto e riceverai subito in <strong>regalo 15€ di sconto<\/strong> da utilizzare sull'acquisto del tuo base layer. Preparati a conquistare nuove vette con un vantaggio in più! 🏔️<\/p>",
           "close_text": "No grazie!",
           "privacy_text": "ACCETTO LE CONDIZIONI DI <a href=\"\/pages\/privacy\/\" target=\"_blank\">PRIVACY<\/a>",
           "enable_newsletter": true,
