@@ -232,7 +232,7 @@
             "settings": {
               "show_footer_title": true,
               "title": "15€ DI SCONTO SUL TUO BASE LAYER!",
-              "text": "<p><strong>Iscriviti alla Newsletter<\/strong> <strong>e ricevi un buono sconto di 15€ <\/strong>da utilizzare entro il 31 dicembre 2023 sull'acquisto del tuo base layer.<\/p><p>Resta sempre aggiornato sulle ultime <strong>novità<\/strong>, sulle <strong>info dal mondo Silverskin<\/strong> e su <strong>promozioni<\/strong> imperdibili! <\/p>",
+              "text": "<p><strong>Iscriviti alla Newsletter<\/strong> <strong>e ricevi un buono sconto di 15€ <\/strong>da utilizzare sull'acquisto del tuo base layer.<\/p><p>Resta sempre aggiornato sulle ultime <strong>novità<\/strong>, sulle <strong>info dal mondo Silverskin<\/strong> e su <strong>promozioni<\/strong> imperdibili! <\/p>",
               "container_width": 30
             }
           }
@@ -1828,7 +1828,21 @@
       "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
       "1594645290306",
       "1594644909912"
-    ]
+    ],
+    "blocks": {
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": true,
+        "settings": {
+          "button_color": "#000000",
+          "button_icon": "chat_bubble",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "button_text": "chat_with_us",
+          "greeting_message": "👋 Ciao! Se hai domande, inviaci un messaggio. Saremo felici di aiutarti!"
+        }
+      }
+    }
   },
   "presets": {
     "Modern": {
