@@ -403,7 +403,7 @@
         "type": "newsletter-popup",
         "settings": {
           "mode": "enabled",
-          "popup_seconds": 10,
+          "popup_seconds": 4,
           "popup_days": 2,
           "popup_title": "UN REGALO PER TE 🎁",
           "popup_image": "shopify:\/\/shop_images\/christmas-3030279_1280.jpg",
