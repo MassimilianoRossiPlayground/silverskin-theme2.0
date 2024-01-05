@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        ".section-header {margin-bottom: 0;}"
+      ],
+      "settings": {
+      }
+    },
+    "7a1ac5db-28e0-40fd-88a8-a073ee96bdb1": {
+      "type": "featured-content",
+      "settings": {
+        "title": "GIFT GUIDE UOMO",
+        "text": "<p>Le festività sono alle porte e sappiamo quanto sia difficile scegliere il regalo perfetto, soprattutto quando si tratta di soddisfare le passioni di chi amiamo. Ed è proprio per questo che abbiamo deciso di aiutarti nella scelta.<\/p><p>Esplora la nostra Gift Guide e lasciati ispirare dalla nostra speciale selezione di base layer ed accessori, pensata per le passioni che rendono unica ogni persona. Che tu stia cercando l’idea regalo per amici e parenti, o qualcosa di speciale per te stesso, siamo qui per aiutarti a stupire te e i tuoi cari. <\/p><p>Seleziona lo sport preferito, scegli tra i kit di prodotti disponibili e fai vivere un inverno indimenticabile con Silverskin!  <\/p>",
+        "text_small": "Ordina entro il 18 dicembre per ricevere i tuoi pacchi in tempo per le feste, ed entro il 29 dicembre per avere pronti i tuoi prodotti da mettere in valigia per goderti la stagione invernale al meglio.",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
+    "36e06e9b-3786-4c07-a93e-e8994407d905": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alpinismo_1.png",
+        "image_width": 500,
+        "subtitle": "SILVERSKIN",
+        "title": "ALPINISMO",
+        "text": "<p>Eleva l’esperienza degli appassionati di montagna con la nostra Gift Guide per gli <strong>amanti dell'alpinismo<\/strong>. Scegli il regalo perfetto tra i diversi kit di prodotti che abbiamo studiato per partire alla conquista nuove vette.<\/p>",
+        "button_label": "ACQUISTA ORA",
+        "button_link": "shopify:\/\/pages\/bundle-alpinismo-uomo",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "25a0431f-3b70-4a6a-9c93-bebc66d569a8": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Progetto_senza_titolo_2.png",
+        "image_width": 500,
+        "subtitle": "SILVERSKIN",
+        "title": "SNOWSPORTS",
+        "text": "<p>I migliori prodotti per gli <strong>amanti degli sport sulla neve<\/strong>.<strong> <\/strong>Sci, snowboard e molto altro ancora: trova il kit ideale in base all’attività preferita e rendi ogni avventura invernale perfetta con Silverskin. <\/p>",
+        "button_label": "ACQUISTA ORA",
+        "button_link": "shopify:\/\/pages\/bundle-snowsports-uomo",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "6606833c-2804-4012-8ec7-c08e486420c1": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ciclismo.png",
+        "image_width": 500,
+        "subtitle": "SILVERSKIN",
+        "title": "CICLISMO",
+        "text": "<p>Sorprendi chi ama pedalare grazie alla nostra Gift Guide per gli <strong>appassionati di ciclismo<\/strong>. Abbiamo selezionato gli indispensabili per continuare a spingere sui pedali e rilanciare sui tornanti. <\/p>",
+        "button_label": "ACQUISTA ORA",
+        "button_link": "shopify:\/\/pages\/bundle-ciclismo-uomo",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "ec105044-3cce-4644-9607-e7ca19cd5ad6": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/corsa_1.png",
+        "image_width": 500,
+        "subtitle": "SILVERSKIN",
+        "title": "RUNNING",
+        "text": "<p>Corri a consultare la nostra Gift Guide per gli <strong>amanti della corsa<\/strong>. Scegli tra i kit di prodotti studiati per il running e il trail running e rendi ogni falcata più speciale con i base layer e gli accessori Silverskin.<\/p>",
+        "button_label": "ACQUISTA ORA",
+        "button_link": "shopify:\/\/pages\/bundle-running-uomo",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "8811b449-0f39-498d-8d81-b0f43dc64218": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Gift_Card_Silverskin_v1_Bianco_F_1080x_974ab139-983d-47b1-80e6-f4547ce6711e.webp",
+        "image_width": 330,
+        "subtitle": "SILVERSKIN",
+        "title": "GIFT CARD",
+        "text": "<p>Sei indeciso\/a? Non riesci a individuare la passione giusta? Non preoccuparti, abbiamo pensato anche a questo. Regala la libertà di scegliere con le nostre Gift card.<\/p>",
+        "button_label": "ACQUISTA ORA",
+        "button_link": "shopify:\/\/products\/buono-regalo",
+        "layout": "left",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7a1ac5db-28e0-40fd-88a8-a073ee96bdb1",
+    "36e06e9b-3786-4c07-a93e-e8994407d905",
+    "25a0431f-3b70-4a6a-9c93-bebc66d569a8",
+    "6606833c-2804-4012-8ec7-c08e486420c1",
+    "ec105044-3cce-4644-9607-e7ca19cd5ad6",
+    "8811b449-0f39-498d-8d81-b0f43dc64218"
+  ]
+}
