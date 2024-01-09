@@ -403,8 +403,8 @@
         "type": "newsletter-popup",
         "settings": {
           "mode": "enabled",
-          "popup_seconds": 40,
-          "popup_days": 2,
+          "popup_seconds": 60,
+          "popup_days": 30,
           "popup_title": "UN REGALO PER TE 🎁",
           "popup_image": "shopify:\/\/shop_images\/christmas-3030279_1280.jpg",
           "popup_text": "<p>In occasione delle feste, vogliamo arricchire la tua esperienza outdoor: inserisci la tua email qui sotto e riceverai subito in <strong>regalo 15€ di sconto<\/strong> da utilizzare sull'acquisto del tuo base layer. Preparati a conquistare nuove vette con un vantaggio in più! 🏔️<\/p>",
