@@ -1,5 +1,16 @@
 {
   "sections": {
+    "0eab3a29-3add-43ca-8b18-1d2feeb83135": {
+      "type": "featured-content",
+      "settings": {
+        "title": "COME SI SCEGLIE E SI ORGANIZZA UN ITINERARIO DI TREKKING?",
+        "text": "<h3>Consigli UTILI PER ORGANIZZARE UN ITINERARIO DI TREKKING ADATTO ALLE NOSTRE CAPACITÀ<\/h3>",
+        "align_text": "left",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
     "main": {
       "type": "main-article",
       "settings": {
@@ -13,6 +24,7 @@
     }
   },
   "order": [
+    "0eab3a29-3add-43ca-8b18-1d2feeb83135",
     "main"
   ]
 }
