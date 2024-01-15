@@ -700,29 +700,6 @@
         "feed_width": 100,
         "html_area": "<!--  -->"
       }
-    },
-    "modulo_hero_banner_fdN7im": {
-      "type": "modulo-hero-banner",
-      "custom_css": [
-        ".hero__text-shadow a.btn {background-color: #000; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; display: inline-block; text-align: center; text-decoration: none;"
-      ],
-      "settings": {
-        "transparent_header": false,
-        "overlay_dark": false,
-        "content_bottom": false,
-        "herotitle": "",
-        "herosubtitle": "",
-        "heroparagraph": "",
-        "image": "shopify:\/\/shop_images\/Progetto_senza_titolo.png",
-        "cta1text": "ACQUISTA  UOMO",
-        "cta1link": "\/collections\/uomo",
-        "cta2text": "ACQUISTA DONNA",
-        "cta2link": "\/collections\/donna",
-        "cta_video": "",
-        "link_video": "",
-        "scroll_down_text": "",
-        "id_scroll_down": ""
-      }
     }
   },
   "order": [
@@ -738,7 +715,6 @@
     "16ecb858-aa84-4da4-a25a-0d4b36124c28",
     "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
     "1594645290306",
-    "1594644909912",
-    "modulo_hero_banner_fdN7im"
+    "1594644909912"
   ]
 }
