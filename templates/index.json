@@ -703,9 +703,12 @@
     },
     "modulo_hero_banner_fdN7im": {
       "type": "modulo-hero-banner",
+      "custom_css": [
+        ".hero__text-shadow a.btn {background-color: #000; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; display: inline-block; text-align: center; text-decoration: none;"
+      ],
       "settings": {
         "transparent_header": false,
-        "overlay_dark": true,
+        "overlay_dark": false,
         "content_bottom": false,
         "herotitle": "",
         "herosubtitle": "",
