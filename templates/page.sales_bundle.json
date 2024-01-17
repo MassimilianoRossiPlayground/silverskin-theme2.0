@@ -12,7 +12,7 @@
     "7a1ac5db-28e0-40fd-88a8-a073ee96bdb1": {
       "type": "featured-content",
       "settings": {
-        "title": "WINTER PROMO",
+        "title": "SALDI INVERNALI",
         "text": "",
         "text_small": "",
         "align_text": "center",
@@ -20,98 +20,10 @@
         "enlarge_text": true,
         "divider": false
       }
-    },
-    "36e06e9b-3786-4c07-a93e-e8994407d905": {
-      "type": "text-and-image",
-      "custom_css": [
-        ".image-wrap {border-radius: 50%; overflow: hidden;"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/alpinismo_1.png",
-        "image_width": 230,
-        "subtitle": "SILVERSKIN",
-        "title": "ALPINISMO",
-        "text": "",
-        "button_label": "ACQUISTA ORA",
-        "button_link": "shopify:\/\/pages\/bundle-alpinismo-uomo",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "25a0431f-3b70-4a6a-9c93-bebc66d569a8": {
-      "type": "text-and-image",
-      "custom_css": [
-        ".image-wrap {border-radius: 50%; overflow: hidden;"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Progetto_senza_titolo_2.png",
-        "image_width": 230,
-        "subtitle": "SILVERSKIN",
-        "title": "SNOWSPORTS",
-        "text": "",
-        "button_label": "ACQUISTA ORA",
-        "button_link": "shopify:\/\/pages\/bundle-snowsports-uomo",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "6606833c-2804-4012-8ec7-c08e486420c1": {
-      "type": "text-and-image",
-      "custom_css": [
-        ".image-wrap {border-radius: 50%; overflow: hidden;"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Ciclismo.png",
-        "image_width": 230,
-        "subtitle": "SILVERSKIN",
-        "title": "CICLISMO",
-        "text": "",
-        "button_label": "ACQUISTA ORA",
-        "button_link": "shopify:\/\/pages\/bundle-ciclismo-uomo",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "ec105044-3cce-4644-9607-e7ca19cd5ad6": {
-      "type": "text-and-image",
-      "custom_css": [
-        ".image-wrap {border-radius: 50%; overflow: hidden;"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/corsa_1.png",
-        "image_width": 230,
-        "subtitle": "SILVERSKIN",
-        "title": "RUNNING",
-        "text": "",
-        "button_label": "ACQUISTA ORA",
-        "button_link": "shopify:\/\/pages\/bundle-running-uomo",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "8811b449-0f39-498d-8d81-b0f43dc64218": {
-      "type": "text-and-image",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Gift_Card_Silverskin_v1_Bianco_F_1080x_974ab139-983d-47b1-80e6-f4547ce6711e.webp",
-        "image_width": 330,
-        "subtitle": "SILVERSKIN",
-        "title": "GIFT CARD",
-        "text": "<p>Sei indeciso\/a? Non riesci a individuare la passione giusta? Non preoccuparti, abbiamo pensato anche a questo. Regala la libertà di scegliere con le nostre Gift card.<\/p>",
-        "button_label": "ACQUISTA ORA",
-        "button_link": "shopify:\/\/products\/buono-regalo",
-        "layout": "left",
-        "divider": false
-      }
     }
   },
   "order": [
     "main",
-    "7a1ac5db-28e0-40fd-88a8-a073ee96bdb1",
-    "36e06e9b-3786-4c07-a93e-e8994407d905",
-    "25a0431f-3b70-4a6a-9c93-bebc66d569a8",
-    "6606833c-2804-4012-8ec7-c08e486420c1",
-    "ec105044-3cce-4644-9607-e7ca19cd5ad6",
-    "8811b449-0f39-498d-8d81-b0f43dc64218"
+    "7a1ac5db-28e0-40fd-88a8-a073ee96bdb1"
   ]
 }
