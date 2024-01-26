@@ -404,7 +404,7 @@
         "settings": {
           "mode": "enabled",
           "popup_seconds": 30,
-          "popup_days": 4,
+          "popup_days": 3,
           "popup_title": "",
           "popup_text": "<p>Tutte le ultime <strong>novità<\/strong>, le <strong>info dal mondo Silverskin<\/strong> e <strong>promozioni imperdibili<\/strong>, direttamente nella tua casella di posta!<\/p><p>Inserisci la tua e-mail e ricevi un <strong>CODICE SCONTO DEL 10% <\/strong>da utilizzare sul tuo primo ordine!<\/p>",
           "close_text": "No grazie!",

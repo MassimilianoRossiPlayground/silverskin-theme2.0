@@ -20,10 +20,23 @@
         "enlarge_text": true,
         "divider": false
       }
+    },
+    "featured_collection_3KLzah": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "saldi-uomo",
+        "per_row": 4,
+        "rows": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "7a1ac5db-28e0-40fd-88a8-a073ee96bdb1"
+    "7a1ac5db-28e0-40fd-88a8-a073ee96bdb1",
+    "featured_collection_3KLzah"
   ]
 }
