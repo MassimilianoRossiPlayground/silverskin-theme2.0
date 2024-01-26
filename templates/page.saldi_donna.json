@@ -34,6 +34,9 @@
     },
     "featured_collection_3KLzah": {
       "type": "featured-collection",
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "",
         "home_featured_products": "saldi-donna",
