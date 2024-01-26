@@ -3,7 +3,7 @@
     "modulo_hero_banner_Eyh9fd": {
       "type": "modulo-hero-banner",
       "custom_css": [
-        ".hero-banner__image {width: 300%; max-width: 1000px; margin: 0 auto; height: 250px;}"
+        ".hero-banner__image {width: 300%; margin: 0 auto; height: 250px;}"
       ],
       "settings": {
         "transparent_header": false,
