@@ -1,5 +1,25 @@
 {
   "sections": {
+    "modulo_hero_banner_Eyh9fd": {
+      "type": "modulo-hero-banner",
+      "settings": {
+        "transparent_header": false,
+        "overlay_dark": true,
+        "content_bottom": true,
+        "herotitle": "",
+        "herosubtitle": "",
+        "heroparagraph": "",
+        "image": "shopify:\/\/shop_images\/Hero-Banner-small_3.jpg",
+        "cta1text": "",
+        "cta1link": "",
+        "cta2text": "",
+        "cta2link": "",
+        "cta_video": "",
+        "link_video": "",
+        "scroll_down_text": "",
+        "id_scroll_down": ""
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -7,18 +27,6 @@
         ".section-header {margin-bottom: 0;}"
       ],
       "settings": {
-      }
-    },
-    "7a1ac5db-28e0-40fd-88a8-a073ee96bdb1": {
-      "type": "featured-content",
-      "settings": {
-        "title": "SALDI INVERNALI",
-        "text": "",
-        "text_small": "",
-        "align_text": "center",
-        "narrow_column": false,
-        "enlarge_text": true,
-        "divider": false
       }
     },
     "featured_collection_3KLzah": {
@@ -35,8 +43,8 @@
     }
   },
   "order": [
+    "modulo_hero_banner_Eyh9fd",
     "main",
-    "7a1ac5db-28e0-40fd-88a8-a073ee96bdb1",
     "featured_collection_3KLzah"
   ]
 }
