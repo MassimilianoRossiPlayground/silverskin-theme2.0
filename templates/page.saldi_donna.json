@@ -40,7 +40,7 @@
         "per_row": 4,
         "rows": 5,
         "mobile_scrollable": true,
-        "view_all": true,
+        "view_all": false,
         "divider": false
       }
     }
