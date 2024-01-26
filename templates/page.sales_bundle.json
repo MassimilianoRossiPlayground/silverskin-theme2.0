@@ -3,11 +3,11 @@
     "modulo_hero_banner_Eyh9fd": {
       "type": "modulo-hero-banner",
       "custom_css": [
-        ".hero-banner__image {width: 200%; margin: 0 auto; height: 300px;}"
+        ".hero-banner__image {width: 200%; margin: 0 auto; height: 400px;}"
       ],
       "settings": {
         "transparent_header": false,
-        "overlay_dark": true,
+        "overlay_dark": false,
         "content_bottom": false,
         "herotitle": "",
         "herosubtitle": "",
