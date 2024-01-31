@@ -25,7 +25,9 @@
           "disabled": false,
           "settings": {
             "title": "genieße deine Leidenschaft",
-            "subheading": "wir kümmern uns um den Rest"
+            "subheading": "wir kümmern uns um den Rest",
+            "link_text": "schnee herren",
+            "link_text_2": "schnee frauen"
           }
         }
       }
