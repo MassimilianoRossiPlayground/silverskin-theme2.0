@@ -4,6 +4,13 @@
     "market": "usa-e-canada"
   },
   "sections": {
+    "6a3a252a-f724-42c8-866c-3338ea073fa8": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "1524768368258": {
       "disabled": false,
       "settings": {
@@ -17,15 +24,10 @@
         "a7caeca8-bcb3-41df-be58-73a7c6b13614": {
           "disabled": false,
           "settings": {
+            "title": "ENJOY YOUR PASSION",
+            "subheading": "WE'LL TAKE CARE OF THE REST"
           }
         }
-      }
-    },
-    "6a3a252a-f724-42c8-866c-3338ea073fa8": {
-      "disabled": true,
-      "settings": {
-      },
-      "blocks": {
       }
     }
   }
