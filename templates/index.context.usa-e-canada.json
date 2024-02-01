@@ -25,7 +25,9 @@
           "disabled": false,
           "settings": {
             "title": "ENJOY YOUR PASSION",
-            "subheading": "WE'LL TAKE CARE OF THE REST"
+            "subheading": "WE'LL TAKE CARE OF THE REST",
+            "link_text": "BUY SNOW FOR MEN",
+            "link_text_2": "BUY SNOW FOR WOMEN"
           }
         }
       }
