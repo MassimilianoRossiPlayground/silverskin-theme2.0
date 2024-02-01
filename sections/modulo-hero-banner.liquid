@@ -55,48 +55,6 @@
     </div>
 </div>
 
-<div id="countdown">
-  <div id="timer"></div>
-</div>
-
-<style>
-  #countdown {
-    text-align: center;
-  }
-
-  #timer {
-    font-size: 2em;
-    color: #fff;
-    background: #333;
-    padding: 10px;
-    border-radius: 5px;
-    display: inline-block;
-  }
-</style>
-
-<script>
-  // Apr 15, 2024
-  var countDownDate = new Date("Feb 1, 2024 00:00:00").getTime();
-
-  // Aggiorna il countdown ogni secondo
-  var x = setInterval(function() {
-    var now = new Date().getTime();
-    var distance = countDownDate - now;
-
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-    if (distance < 0) {
-      clearInterval(x);
-      document.getElementById("timer").innerHTML = "Scaduto";
-    }
-  }, 1000);
-</script>
-
 {% schema %}
   {
     "name": "Hero Banner",
