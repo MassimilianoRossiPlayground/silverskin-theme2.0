@@ -28,6 +28,7 @@
     },
     "fafb4f37-f234-4877-ac3b-1e1924791295": {
       "type": "modulo-text-cta",
+      "disabled": true,
       "settings": {
         "large_content": false,
         "title": "PROGETTATI CON CURA. INDOSSATI CON PASSIONE.",
@@ -36,6 +37,18 @@
         "cta_text": "",
         "cta_link": "",
         "cta_link_anchor": ""
+      }
+    },
+    "featured_collection_dwLEye": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
       }
     },
     "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
@@ -241,6 +254,7 @@
     "main",
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
     "fafb4f37-f234-4877-ac3b-1e1924791295",
+    "featured_collection_dwLEye",
     "04254e91-771e-4db6-8cc4-4fd9bb684b13",
     "6d90f70f-ae27-4399-a7d1-463f71e74b24",
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
