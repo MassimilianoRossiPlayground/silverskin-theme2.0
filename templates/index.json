@@ -666,6 +666,13 @@
             "slide_subtitle": "Alessio Zambon - Ultra trailer professionista"
           }
         },
+        "slide_fgMyHr": {
+          "type": "slide",
+          "settings": {
+            "slide_cit": "",
+            "slide_subtitle": ""
+          }
+        },
         "dc096421-5e71-4a0e-b6db-8b5ee487b74e": {
           "type": "slide",
           "settings": {
@@ -709,6 +716,7 @@
       },
       "block_order": [
         "16ecb858-aa84-4da4-a25a-0d4b36124c28-16710177566d572eeb-0",
+        "slide_fgMyHr",
         "dc096421-5e71-4a0e-b6db-8b5ee487b74e",
         "2c77e39b-61e7-4a04-b15f-0f36846662ff",
         "be216c11-202b-4cd3-a3ef-9028d3f0914e",
