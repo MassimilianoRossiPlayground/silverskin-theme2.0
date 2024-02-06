@@ -141,6 +141,43 @@
         "autoplay_speed": 7
       }
     },
+    "slideshow_C7bcX3": {
+      "type": "slideshow",
+      "blocks": {
+        "image_DRzCjh": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "SONO ARRIVATI I SALDI",
+            "title": "Risparmia fino al 20%*",
+            "title_size": 80,
+            "subheading": "Bring your brand to life",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "link_3": "",
+            "link_text_3": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Hero-Banner_1.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_DRzCjh"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "minimal",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0": {
       "type": "modulo-double-slider",
       "blocks": {
@@ -713,6 +750,7 @@
   "order": [
     "6a3a252a-f724-42c8-866c-3338ea073fa8",
     "1524768368258",
+    "slideshow_C7bcX3",
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
     "1639747130945a5580",
