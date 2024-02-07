@@ -13,7 +13,7 @@
         "overlay_dark": true,
         "content_bottom": true,
         "herotitle": "LASCIATI ISPIRARE",
-        "herosubtitle": "Le scelte di matteo eydallin",
+        "herosubtitle": "Le scelte di matteo eydallin e Alba de silvestro",
         "heroparagraph": "",
         "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
         "cta1text": "",
@@ -94,8 +94,22 @@
         "image_width": 500,
         "subtitle": "SCI ALPINISTA",
         "title": "MATTEO EYDALLIN",
-        "text": "<p>Classe 1985 e atleta della Nazionale italiana, per praticare la sua attività sportiva Matteo utilizza la maglia a manica corta della collezione Primo e gli immancabil accessori per tenerlo riparato dal freddo. <\/p>",
-        "button_label": "Optional button",
+        "text": "<p>Classe 1985 e atleta della Nazionale italiana e del Centro sportivo Esercito. Per praticare la sua attività sportiva in totale comfort, Matteo ha bisogno di <strong>rimanere termoregolato e asciutto<\/strong>. I cambiamenti di temperatura dati dalle diverse altitudini non sono più un problema grazie all'alta traspirabilità della maglia Primo. <\/p>",
+        "button_label": "acquista primo uomo",
+        "button_link": "",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "text_and_image_8aMQk3": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/194015179-12a83778-aa5c-4203-8b48-10c2ad8c8951.jpg",
+        "image_width": 500,
+        "subtitle": "sci alpinista",
+        "title": "alba de silvestro",
+        "text": "<p>Classe 1995, atleta di sci alpinismo della Nazionale italiana dal 2012 e del Centro sportivo Esercito dal 2016. XXXXXXX<\/p>",
+        "button_label": "acquista primo donna",
         "button_link": "",
         "layout": "left",
         "divider": false
@@ -265,6 +279,7 @@
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
     "text_columns_7cMAU4",
     "text_and_image_tP7C8T",
+    "text_and_image_8aMQk3",
     "348399cc-a1f7-46ef-91a9-d29dd2142457",
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
     "9146c261-0226-44c9-808f-1efc960963cb",
