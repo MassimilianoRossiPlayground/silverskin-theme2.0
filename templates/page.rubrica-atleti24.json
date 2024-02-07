@@ -39,10 +39,22 @@
         "cta_link_anchor": ""
       }
     },
-    "featured_collection_dwLEye": {
+    "featured_collection_UW7n4X": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "XXX",
+        "home_featured_products": "sci-alpinismo",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "featured_collection_eBc8Jk": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
         "home_featured_products": "",
         "per_row": 4,
         "rows": 1,
@@ -57,11 +69,11 @@
         "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1": {
           "type": "product_block",
           "settings": {
-            "product_id_man": "base-layer-termico-girocollo-manica-corta-pearlgrey",
-            "product_id_woman": "base-layer-termico-girocollo-manica-corta-pearlgrey-1",
-            "image_man": "shopify:\/\/shop_images\/UOMO_WARM_Stay_Warm_Manica_Corta_girocollo.png",
+            "product_id_man": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
+            "product_id_woman": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-donna",
+            "image_man": "shopify:\/\/shop_images\/Pearl-Grey-PRIMO--Uomo-manica-corta---frontale-1500x1800_1080x-removebg-preview.png",
             "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo.png",
-            "title": "Stay Warm Manica Corta girocollo",
+            "title": "PR1MO manica corta girocollo",
             "description": "Ideale per l’alta quota, questo base layer preserva il calore corporeo, isolando dalle temperature più rigide dai 3.000 mt in su. Traspirante e confortevole, favorisce la dispersione del sudore per una pelle sempre asciutta."
           }
         },
@@ -122,10 +134,10 @@
         "23835e58-d7ea-4686-b828-0f265ca09eb8": {
           "type": "slide_rock_salt",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group-4.png",
-            "title": "Stefano La Mastra",
-            "sub_title": "CICLISTA & ALPINISTA",
-            "description": "<p>Per le sue imprese invernali, Stefano si affida ai base layer della collezione Stay Warm per regolare la sua temperatura corporea, espellere rapidamente il sudore e proteggersi dal freddo.<\/p>",
+            "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
+            "title": "Matteo Eydallin",
+            "sub_title": "SCI ALPINISMO",
+            "description": "<p>Atleta della Nazionale italiana, durante le competizioni Matteo utilizza la maglia a manica corta della collezione Primo. <\/p><p><\/p>",
             "cta_1_text": "ACQUISTA STAY WARM",
             "cta_1_link": "https:\/\/www.silverskin.it\/products\/base-layer-termico-girocollo-manica-corta-pearlgrey",
             "cta_2_text": "",
@@ -254,7 +266,8 @@
     "main",
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
     "fafb4f37-f234-4877-ac3b-1e1924791295",
-    "featured_collection_dwLEye",
+    "featured_collection_UW7n4X",
+    "featured_collection_eBc8Jk",
     "6d90f70f-ae27-4399-a7d1-463f71e74b24",
     "04254e91-771e-4db6-8cc4-4fd9bb684b13",
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
