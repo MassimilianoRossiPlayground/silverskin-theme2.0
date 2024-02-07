@@ -39,31 +39,43 @@
         "cta_link_anchor": ""
       }
     },
+    "featured_content_aWR8XJ": {
+      "type": "featured-content",
+      "settings": {
+        "title": "",
+        "text": "<p>A sentence or two introducing your brand, what you sell, and what makes your brand compelling to customers.<\/p>",
+        "text_small": "",
+        "align_text": "left",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
     "modulo_row_product_9W3kGp": {
       "type": "modulo-row-product",
       "blocks": {
         "product_eKL73K": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo"
           }
         },
         "product_pfKeFT": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "scaldacollo-performance-antracite-sk027x"
           }
         },
         "product_3BtyFn": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "sottoguanto-anthracite"
           }
         },
         "product_V9zFzD": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "cappello-performance-antracite-sk015w"
           }
         }
       },
@@ -78,68 +90,26 @@
     },
     "modulo_row_product_xNdNh4": {
       "type": "modulo-row-product",
-      "settings": {
-      }
-    },
-    "modulo_row_product_y3CGrW": {
-      "type": "modulo-row-product",
       "blocks": {
-        "product_dQhmtm": {
+        "product_Ej8kcg": {
           "type": "product",
           "settings": {
-            "product": "sottoguanto-grigio-perla-sk006w"
+            "product": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-pearlgrey-donna"
           }
         },
-        "product_QLGtXY": {
+        "product_664eYW": {
           "type": "product",
           "settings": {
-            "product": "sottoguanto-anthracite"
+            "product": "copia-del-stay-warm-scaldacollo-pearlgrey"
           }
         },
-        "product_YNVkK6": {
-          "type": "product",
-          "settings": {
-            "product": "copia-del-stay-warm-sottoguanto-anthracite"
-          }
-        },
-        "product_TdGjQ6": {
+        "product_7dQHL6": {
           "type": "product",
           "settings": {
             "product": "copia-del-stay-warm-sottoguanto-pearlgrey"
           }
-        }
-      },
-      "block_order": [
-        "product_dQhmtm",
-        "product_QLGtXY",
-        "product_YNVkK6",
-        "product_TdGjQ6"
-      ],
-      "settings": {
-      }
-    },
-    "modulo_row_product_QXFkX9": {
-      "type": "modulo-row-product",
-      "blocks": {
-        "product_peFdLU": {
-          "type": "product",
-          "settings": {
-            "product": "cappello-performance-antracite-sk015w"
-          }
         },
-        "product_k99gaj": {
-          "type": "product",
-          "settings": {
-            "product": "cappello-performance-grigio-perla-sk015w"
-          }
-        },
-        "product_6LFbJf": {
-          "type": "product",
-          "settings": {
-            "product": "copia-del-stay-warm-cappello-anthracite"
-          }
-        },
-        "product_NCGwFU": {
+        "product_aWJBpc": {
           "type": "product",
           "settings": {
             "product": "stay-warm-cappello-pearlgrey"
@@ -147,10 +117,10 @@
         }
       },
       "block_order": [
-        "product_peFdLU",
-        "product_k99gaj",
-        "product_6LFbJf",
-        "product_NCGwFU"
+        "product_Ej8kcg",
+        "product_664eYW",
+        "product_7dQHL6",
+        "product_aWJBpc"
       ],
       "settings": {
       }
@@ -171,17 +141,17 @@
         },
         "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a": {
           "type": "product_block",
+          "disabled": true,
           "settings": {
-            "product_id_man": "stay-fresh-canotta-ciclismo-anthracite",
-            "product_id_woman": "stay-fresh-canotta-ciclismo-anthracite-1",
-            "image_man": "shopify:\/\/shop_images\/UOMO_CICLISMO_Stay_Fresh_-_Canotta_Ciclismo_cd9192e4-c9c3-465b-847d-7d91ad891ef4.png",
-            "image_woman": "shopify:\/\/shop_images\/DONNA_CICLISMO_Stay_Fresh_-_Canotta_Ciclismo_7d325ebb-5f68-43f7-89c9-d62f1e3d3dca.png",
+            "product_id_man": "scaldacollo-performance-grigio-perla-sk012w",
+            "product_id_woman": "sottoguanto-grigio-perla-sk006w",
             "title": "Base Layer Canotta Light",
             "description": "Perfetta per le attività più intense come il mountain biking, il trail e lo skyrunning, questa canotta accelera l’evaporazione del sudore grazie alle lavorazioni di alleggerimento in corrispondenza di petto, addome e schiena."
           }
         },
         "05b43ffa-da34-4a8e-8892-d943a3d085f0": {
           "type": "product_block",
+          "disabled": true,
           "settings": {
             "product_id_man": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
             "product_id_woman": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-donna",
@@ -235,66 +205,10 @@
             "cta_2_text": "",
             "cta_2_link": ""
           }
-        },
-        "ca43cc06-2683-432f-adc1-848ebc5abf8b": {
-          "type": "slide_rock_salt",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group-3.png",
-            "title": "Alessio Zambon",
-            "sub_title": "TRAIL RUNNING",
-            "description": "<p>Quando l’intensità sale, PRIMO è il base layer che aiuta Alessio a restare perfettamente asciutto.<\/p>",
-            "cta_1_text": "ACQUISTA PRIMO",
-            "cta_1_link": "https:\/\/www.silverskin.it\/products\/primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
-            "cta_2_text": "",
-            "cta_2_link": ""
-          }
-        },
-        "41734b2d-bc97-42b9-9f30-0803a59ec754": {
-          "type": "slide_rock_salt",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/eynard.png",
-            "title": "Dario Eynard",
-            "sub_title": "ALPINISTA",
-            "description": "<p>Quando mantenersi caldo diventa indispensabile, Dario sceglie i base layer della collezione Stay X-Warm, più spessi ma ugualmente traspiranti e capaci di trattenere il calore corporeo più a lungo.<\/p>",
-            "cta_1_text": "ACQUISTA STAY X-WARM",
-            "cta_1_link": "https:\/\/www.silverskin.it\/products\/copia-del-base-layer-termico-manica-lunga-collo-alto-anthracite",
-            "cta_2_text": "",
-            "cta_2_link": ""
-          }
-        },
-        "30de92f1-f59c-4153-bc9b-37441dd4167e": {
-          "type": "slide_rock_salt",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group-2.png",
-            "title": "Matteo Eydallin",
-            "sub_title": "SCIATORE ALPINISTA",
-            "description": "<p>Spesso sottozero, sempre ad alta intensità, Matteo indossa PRIMO per scaricare rapidamente il sudore e allenarsi in pieno comfort.<\/p>",
-            "cta_1_text": "ACQUISTA PRIMO",
-            "cta_1_link": "https:\/\/www.silverskin.it\/products\/primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
-            "cta_2_text": "",
-            "cta_2_link": ""
-          }
-        },
-        "dafd04d2-c970-4097-b844-2e839b027796": {
-          "type": "slide_rock_salt",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group-1.png",
-            "title": "Team Honda",
-            "sub_title": "DOWNHILL",
-            "description": "<p>Nelle discese a tutta velocità e intensità, le ragazze del team Honda DownhillH3r contano sulle proprietà traspiranti dei base layer Stay Fresh per restare fresche e asciutte.<\/p>",
-            "cta_1_text": "ACQUISTA STAY FRESH",
-            "cta_1_link": "https:\/\/www.silverskin.it\/products\/base-layer-termico-smanicato-grigio-perla-sk005lnf",
-            "cta_2_text": "",
-            "cta_2_link": ""
-          }
         }
       },
       "block_order": [
-        "23835e58-d7ea-4686-b828-0f265ca09eb8",
-        "ca43cc06-2683-432f-adc1-848ebc5abf8b",
-        "41734b2d-bc97-42b9-9f30-0803a59ec754",
-        "30de92f1-f59c-4153-bc9b-37441dd4167e",
-        "dafd04d2-c970-4097-b844-2e839b027796"
+        "23835e58-d7ea-4686-b828-0f265ca09eb8"
       ],
       "settings": {
         "module_id": "athlete-slider",
@@ -312,6 +226,7 @@
     },
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6": {
       "type": "modulo-newsletter-image",
+      "disabled": true,
       "settings": {
         "id_for_anchor": "",
         "black_style": false,
@@ -358,10 +273,9 @@
     "main",
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
     "fafb4f37-f234-4877-ac3b-1e1924791295",
+    "featured_content_aWR8XJ",
     "modulo_row_product_9W3kGp",
     "modulo_row_product_xNdNh4",
-    "modulo_row_product_y3CGrW",
-    "modulo_row_product_QXFkX9",
     "6d90f70f-ae27-4399-a7d1-463f71e74b24",
     "04254e91-771e-4db6-8cc4-4fd9bb684b13",
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
