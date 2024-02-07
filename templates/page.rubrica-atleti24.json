@@ -36,7 +36,7 @@
             "image": "shopify:\/\/shop_images\/01-Post_1.jpg",
             "image_width": 650,
             "title": "primo - maglia manica corta",
-            "text": "<p><strong>Benefici<\/strong>: estrema traspirabilità che consente di scaricare velocemente il sudore mantenendo la pelle sempre asciutta e la temperatura corporea costante. Nel periodo invernale è ideale per gli sport ad alta intensità.<\/p>",
+            "text": "<p><strong>Benefici<\/strong>: nel periodo invernale la Primo è ideale per gli <strong>sport ad alta intensità<\/strong>, come lo sci alpinismo. La sua trama a maglie larghe, infatti, consente estrema traspirabilità, permettendo di scaricare velocemente il sudore. La pelle rimarrà sempre asciutta e la temperatura corporea costante. <\/p>",
             "button_label": "Acquista ora",
             "button_link": ""
           }
@@ -87,51 +87,18 @@
         "divider": false
       }
     },
-    "fafb4f37-f234-4877-ac3b-1e1924791295": {
-      "type": "modulo-text-cta",
-      "disabled": true,
+    "text_and_image_tP7C8T": {
+      "type": "text-and-image",
       "settings": {
-        "large_content": false,
-        "title": "PROGETTATI CON CURA. INDOSSATI CON PASSIONE.",
-        "sub_title": "Gli atleti contano sui base layer per preservare la forza e migliorare la performance sportiva. Noi di Silverskin li aiutiamo a godersi la propria passione in totale comfort, con base layer traspiranti e termoregolanti.",
-        "text": "",
-        "cta_text": "",
-        "cta_link": "",
-        "cta_link_anchor": ""
-      }
-    },
-    "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
-      "type": "modulo-slider-box-text",
-      "blocks": {
-        "23835e58-d7ea-4686-b828-0f265ca09eb8": {
-          "type": "slide_rock_salt",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
-            "title": "Matteo Eydallin",
-            "sub_title": "SCI ALPINISMO",
-            "description": "<p>Atleta della Nazionale italiana, durante le competizioni Matteo utilizza la maglia a manica corta della collezione Primo e una serie di accessori. <\/p><p><\/p>",
-            "cta_1_text": "",
-            "cta_1_link": "",
-            "cta_2_text": "",
-            "cta_2_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "23835e58-d7ea-4686-b828-0f265ca09eb8"
-      ],
-      "settings": {
-        "module_id": "athlete-slider",
-        "mob_arrows_left": true,
-        "enable_text_slider": "yes",
-        "enable_line": false,
-        "sup_title": "",
-        "title": "",
-        "description": "",
-        "cta_1_text": "",
-        "cta_1_link": "",
-        "cta_2_text": "",
-        "cta_2_link": ""
+        "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
+        "image_width": 500,
+        "subtitle": "SCI ALPINISTA",
+        "title": "MATTEO EYDALLIN",
+        "text": "<p>Classe 1985 e atleta della Nazionale italiana, per praticare la sua attività sportiva Matteo utilizza la maglia a manica corta della collezione Primo e gli immancabil accessori per tenerlo riparato dal freddo. <\/p>",
+        "button_label": "Optional button",
+        "button_link": "",
+        "layout": "left",
+        "divider": false
       }
     },
     "348399cc-a1f7-46ef-91a9-d29dd2142457": {
@@ -243,18 +210,67 @@
         "cta_text_man": "ACQUISTA UOMO",
         "cta_text_woman": "ACQUISTA DONNA"
       }
+    },
+    "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
+      "type": "modulo-slider-box-text",
+      "blocks": {
+        "23835e58-d7ea-4686-b828-0f265ca09eb8": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
+            "title": "Matteo Eydallin",
+            "sub_title": "SCI ALPINISMO",
+            "description": "<p>Atleta della Nazionale italiana, durante le competizioni Matteo utilizza la maglia a manica corta della collezione Primo e una serie di accessori. <\/p><p><\/p>",
+            "cta_1_text": "",
+            "cta_1_link": "",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "23835e58-d7ea-4686-b828-0f265ca09eb8"
+      ],
+      "disabled": true,
+      "settings": {
+        "module_id": "athlete-slider",
+        "mob_arrows_left": true,
+        "enable_text_slider": "yes",
+        "enable_line": false,
+        "sup_title": "",
+        "title": "",
+        "description": "",
+        "cta_1_text": "",
+        "cta_1_link": "",
+        "cta_2_text": "",
+        "cta_2_link": ""
+      }
+    },
+    "fafb4f37-f234-4877-ac3b-1e1924791295": {
+      "type": "modulo-text-cta",
+      "disabled": true,
+      "settings": {
+        "large_content": false,
+        "title": "PROGETTATI CON CURA. INDOSSATI CON PASSIONE.",
+        "sub_title": "Gli atleti contano sui base layer per preservare la forza e migliorare la performance sportiva. Noi di Silverskin li aiutiamo a godersi la propria passione in totale comfort, con base layer traspiranti e termoregolanti.",
+        "text": "",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_link_anchor": ""
+      }
     }
   },
   "order": [
     "main",
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
     "text_columns_7cMAU4",
-    "fafb4f37-f234-4877-ac3b-1e1924791295",
-    "04254e91-771e-4db6-8cc4-4fd9bb684b13",
+    "text_and_image_tP7C8T",
     "348399cc-a1f7-46ef-91a9-d29dd2142457",
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
     "9146c261-0226-44c9-808f-1efc960963cb",
     "0f7c78b0-f99d-4b98-95b6-637ee22b4119",
-    "6d90f70f-ae27-4399-a7d1-463f71e74b24"
+    "6d90f70f-ae27-4399-a7d1-463f71e74b24",
+    "04254e91-771e-4db6-8cc4-4fd9bb684b13",
+    "fafb4f37-f234-4877-ac3b-1e1924791295"
   ]
 }
