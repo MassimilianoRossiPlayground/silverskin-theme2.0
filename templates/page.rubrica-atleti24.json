@@ -51,6 +51,71 @@
         "divider": false
       }
     },
+    "6d90f70f-ae27-4399-a7d1-463f71e74b24": {
+      "type": "modulo-product-slider-gender",
+      "blocks": {
+        "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "base-layer-termico-girocollo-manica-corta-pearlgrey",
+            "product_id_woman": "base-layer-termico-girocollo-manica-corta-pearlgrey-1",
+            "image_man": "shopify:\/\/shop_images\/UOMO_WARM_Stay_Warm_Manica_Corta_girocollo.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo.png",
+            "title": "Stay Warm Manica Corta girocollo",
+            "description": "Ideale per l’alta quota, questo base layer preserva il calore corporeo, isolando dalle temperature più rigide dai 3.000 mt in su. Traspirante e confortevole, favorisce la dispersione del sudore per una pelle sempre asciutta."
+          }
+        },
+        "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "stay-fresh-canotta-ciclismo-anthracite",
+            "product_id_woman": "stay-fresh-canotta-ciclismo-anthracite-1",
+            "image_man": "shopify:\/\/shop_images\/UOMO_CICLISMO_Stay_Fresh_-_Canotta_Ciclismo_cd9192e4-c9c3-465b-847d-7d91ad891ef4.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_CICLISMO_Stay_Fresh_-_Canotta_Ciclismo_7d325ebb-5f68-43f7-89c9-d62f1e3d3dca.png",
+            "title": "Base Layer Canotta Light",
+            "description": "Perfetta per le attività più intense come il mountain biking, il trail e lo skyrunning, questa canotta accelera l’evaporazione del sudore grazie alle lavorazioni di alleggerimento in corrispondenza di petto, addome e schiena."
+          }
+        },
+        "05b43ffa-da34-4a8e-8892-d943a3d085f0": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
+            "product_id_woman": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-donna",
+            "image_man": "shopify:\/\/shop_images\/PRIMO_UOMO_-_MINI_1x_a7e410ff-1cd0-4907-8c7e-e7a6b512aa8c.png",
+            "image_woman": "shopify:\/\/shop_images\/PRIMO_DONNA_1x_d1f9d083-7aca-44cf-b3d6-f26b64c78e29.png",
+            "title": "PRIMO Thermo Dry Pro - Manica Corta",
+            "description": "PRIMO è il base layer ideale per restare concentrato sulla performance in tutte le attività con una forte componente aerobica o sforzi anaerobici, tra cui bici, corsa, sci alpinismo e sci di fondo."
+          }
+        },
+        "07122851-e0fe-4a50-9d92-f72c9bff941d": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "copia-del-base-layer-termico-manica-lunga-collo-alto-anthracite",
+            "product_id_woman": "base-layer-termico-manica-lunga-collo-alto-grigio-perla-sk001nx",
+            "image_man": "shopify:\/\/shop_images\/X_WARM_WHITE_UOMO_-_MINI_1x_18c21288-49db-47e5-8cf9-305e1d3faa5a.png",
+            "image_woman": "shopify:\/\/shop_images\/X_WARM_WHITE_DONNA_1x_1c08e7b7-c686-4d01-b4f4-ad2462a85cf3.png",
+            "title": "STAY X-WARM MANICA LUNGA COLLO ALTO",
+            "description": "Questo Base Layer a maniche lunghe è ideale per chi non rinuncia ad allenarsi all'aria aperta anche quando le temperature precipitano sotto lo zero."
+          }
+        }
+      },
+      "block_order": [
+        "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1",
+        "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a",
+        "05b43ffa-da34-4a8e-8892-d943a3d085f0",
+        "07122851-e0fe-4a50-9d92-f72c9bff941d"
+      ],
+      "settings": {
+        "id_for_anchor": "athlete-slider-2",
+        "title": "SCOPRI I PREFERITI DAGLI ATLETI",
+        "image_man": "shopify:\/\/shop_images\/Polygon_Copy_10.png",
+        "button_man": "UOMO",
+        "image_woman": "shopify:\/\/shop_images\/Polygon_Copy_11_6e219ca2-9dbd-4545-b6e2-c0a0803b0068.png",
+        "button_woman": "DONNA",
+        "cta_text_man": "ACQUISTA UOMO",
+        "cta_text_woman": "ACQUISTA DONNA"
+      }
+    },
     "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
       "type": "modulo-slider-box-text",
       "blocks": {
@@ -141,71 +206,6 @@
         "cta_2_link": ""
       }
     },
-    "6d90f70f-ae27-4399-a7d1-463f71e74b24": {
-      "type": "modulo-product-slider-gender",
-      "blocks": {
-        "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1": {
-          "type": "product_block",
-          "settings": {
-            "product_id_man": "base-layer-termico-girocollo-manica-corta-pearlgrey",
-            "product_id_woman": "base-layer-termico-girocollo-manica-corta-pearlgrey-1",
-            "image_man": "shopify:\/\/shop_images\/UOMO_WARM_Stay_Warm_Manica_Corta_girocollo.png",
-            "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo.png",
-            "title": "Stay Warm Manica Corta girocollo",
-            "description": "Ideale per l’alta quota, questo base layer preserva il calore corporeo, isolando dalle temperature più rigide dai 3.000 mt in su. Traspirante e confortevole, favorisce la dispersione del sudore per una pelle sempre asciutta."
-          }
-        },
-        "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a": {
-          "type": "product_block",
-          "settings": {
-            "product_id_man": "stay-fresh-canotta-ciclismo-anthracite",
-            "product_id_woman": "stay-fresh-canotta-ciclismo-anthracite-1",
-            "image_man": "shopify:\/\/shop_images\/UOMO_CICLISMO_Stay_Fresh_-_Canotta_Ciclismo_cd9192e4-c9c3-465b-847d-7d91ad891ef4.png",
-            "image_woman": "shopify:\/\/shop_images\/DONNA_CICLISMO_Stay_Fresh_-_Canotta_Ciclismo_7d325ebb-5f68-43f7-89c9-d62f1e3d3dca.png",
-            "title": "Base Layer Canotta Light",
-            "description": "Perfetta per le attività più intense come il mountain biking, il trail e lo skyrunning, questa canotta accelera l’evaporazione del sudore grazie alle lavorazioni di alleggerimento in corrispondenza di petto, addome e schiena."
-          }
-        },
-        "05b43ffa-da34-4a8e-8892-d943a3d085f0": {
-          "type": "product_block",
-          "settings": {
-            "product_id_man": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
-            "product_id_woman": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-donna",
-            "image_man": "shopify:\/\/shop_images\/PRIMO_UOMO_-_MINI_1x_a7e410ff-1cd0-4907-8c7e-e7a6b512aa8c.png",
-            "image_woman": "shopify:\/\/shop_images\/PRIMO_DONNA_1x_d1f9d083-7aca-44cf-b3d6-f26b64c78e29.png",
-            "title": "PRIMO Thermo Dry Pro - Manica Corta",
-            "description": "PRIMO è il base layer ideale per restare concentrato sulla performance in tutte le attività con una forte componente aerobica o sforzi anaerobici, tra cui bici, corsa, sci alpinismo e sci di fondo."
-          }
-        },
-        "07122851-e0fe-4a50-9d92-f72c9bff941d": {
-          "type": "product_block",
-          "settings": {
-            "product_id_man": "copia-del-base-layer-termico-manica-lunga-collo-alto-anthracite",
-            "product_id_woman": "base-layer-termico-manica-lunga-collo-alto-grigio-perla-sk001nx",
-            "image_man": "shopify:\/\/shop_images\/X_WARM_WHITE_UOMO_-_MINI_1x_18c21288-49db-47e5-8cf9-305e1d3faa5a.png",
-            "image_woman": "shopify:\/\/shop_images\/X_WARM_WHITE_DONNA_1x_1c08e7b7-c686-4d01-b4f4-ad2462a85cf3.png",
-            "title": "STAY X-WARM MANICA LUNGA COLLO ALTO",
-            "description": "Questo Base Layer a maniche lunghe è ideale per chi non rinuncia ad allenarsi all'aria aperta anche quando le temperature precipitano sotto lo zero."
-          }
-        }
-      },
-      "block_order": [
-        "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1",
-        "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a",
-        "05b43ffa-da34-4a8e-8892-d943a3d085f0",
-        "07122851-e0fe-4a50-9d92-f72c9bff941d"
-      ],
-      "settings": {
-        "id_for_anchor": "athlete-slider-2",
-        "title": "SCOPRI I PREFERITI DAGLI ATLETI",
-        "image_man": "shopify:\/\/shop_images\/Polygon_Copy_10.png",
-        "button_man": "UOMO",
-        "image_woman": "shopify:\/\/shop_images\/Polygon_Copy_11_6e219ca2-9dbd-4545-b6e2-c0a0803b0068.png",
-        "button_woman": "DONNA",
-        "cta_text_man": "ACQUISTA UOMO",
-        "cta_text_woman": "ACQUISTA DONNA"
-      }
-    },
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6": {
       "type": "modulo-newsletter-image",
       "settings": {
@@ -255,8 +255,8 @@
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
     "fafb4f37-f234-4877-ac3b-1e1924791295",
     "featured_collection_dwLEye",
-    "04254e91-771e-4db6-8cc4-4fd9bb684b13",
     "6d90f70f-ae27-4399-a7d1-463f71e74b24",
+    "04254e91-771e-4db6-8cc4-4fd9bb684b13",
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
     "348399cc-a1f7-46ef-91a9-d29dd2142457",
     "9146c261-0226-44c9-808f-1efc960963cb",
