@@ -544,6 +544,7 @@
       "blocks": {
         "87fef3c1-efdb-4188-bdf0-254639f55cca": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "top_image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img04-Logo.png",
             "subheading": "",
@@ -648,6 +649,7 @@
         "156d3bb7-0f95-434c-9584-1233d79e11b2",
         "881ff7ab-1c0c-4c9d-901b-5cd2efe12d37"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "gutter_size": 0,
