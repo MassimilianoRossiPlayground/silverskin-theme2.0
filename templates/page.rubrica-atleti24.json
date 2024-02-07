@@ -39,18 +39,6 @@
         "cta_link_anchor": ""
       }
     },
-    "featured_content_aWR8XJ": {
-      "type": "featured-content",
-      "settings": {
-        "title": "",
-        "text": "<p>A sentence or two introducing your brand, what you sell, and what makes your brand compelling to customers.<\/p>",
-        "text_small": "",
-        "align_text": "left",
-        "narrow_column": false,
-        "enlarge_text": true,
-        "divider": false
-      }
-    },
     "6d90f70f-ae27-4399-a7d1-463f71e74b24": {
       "type": "modulo-product-slider-gender",
       "blocks": {
@@ -114,6 +102,52 @@
         "button_woman": "DONNA",
         "cta_text_man": "ACQUISTA UOMO",
         "cta_text_woman": "ACQUISTA DONNA"
+      }
+    },
+    "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
+      "type": "modulo-slider-box-text",
+      "blocks": {
+        "23835e58-d7ea-4686-b828-0f265ca09eb8": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
+            "title": "Matteo Eydallin",
+            "sub_title": "SCI ALPINISMO",
+            "description": "<p>Atleta della Nazionale italiana, durante le competizioni Matteo utilizza la maglia a manica corta della collezione Primo e una serie di accessori. <\/p><p><\/p>",
+            "cta_1_text": "",
+            "cta_1_link": "",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "23835e58-d7ea-4686-b828-0f265ca09eb8"
+      ],
+      "settings": {
+        "module_id": "athlete-slider",
+        "mob_arrows_left": true,
+        "enable_text_slider": "yes",
+        "enable_line": false,
+        "sup_title": "",
+        "title": "",
+        "description": "",
+        "cta_1_text": "",
+        "cta_1_link": "",
+        "cta_2_text": "",
+        "cta_2_link": ""
+      }
+    },
+    "348399cc-a1f7-46ef-91a9-d29dd2142457": {
+      "type": "featured-content",
+      "settings": {
+        "title": "",
+        "text": "",
+        "text_small": "",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
       }
     },
     "modulo_row_product_9W3kGp": {
@@ -190,40 +224,6 @@
       "settings": {
       }
     },
-    "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
-      "type": "modulo-slider-box-text",
-      "blocks": {
-        "23835e58-d7ea-4686-b828-0f265ca09eb8": {
-          "type": "slide_rock_salt",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
-            "title": "Matteo Eydallin",
-            "sub_title": "SCI ALPINISMO",
-            "description": "<p>Atleta della Nazionale italiana, durante le competizioni Matteo utilizza la maglia a manica corta della collezione Primo. <\/p><p><\/p>",
-            "cta_1_text": "ACQUISTA STAY WARM",
-            "cta_1_link": "https:\/\/www.silverskin.it\/products\/base-layer-termico-girocollo-manica-corta-pearlgrey",
-            "cta_2_text": "",
-            "cta_2_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "23835e58-d7ea-4686-b828-0f265ca09eb8"
-      ],
-      "settings": {
-        "module_id": "athlete-slider",
-        "mob_arrows_left": true,
-        "enable_text_slider": "yes",
-        "enable_line": false,
-        "sup_title": "",
-        "title": "",
-        "description": "",
-        "cta_1_text": "",
-        "cta_1_link": "",
-        "cta_2_text": "",
-        "cta_2_link": ""
-      }
-    },
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6": {
       "type": "modulo-newsletter-image",
       "disabled": true,
@@ -237,18 +237,6 @@
         "image": "shopify:\/\/shop_images\/MG_4026_1.jpg",
         "mail_placeholder": "INSERISCI LA TUA MAIL",
         "submit_text": "ISCRIVITI"
-      }
-    },
-    "348399cc-a1f7-46ef-91a9-d29dd2142457": {
-      "type": "featured-content",
-      "settings": {
-        "title": "SEGUICI SU INSTAGRAM",
-        "text": "",
-        "text_small": "",
-        "align_text": "center",
-        "narrow_column": false,
-        "enlarge_text": true,
-        "divider": false
       }
     },
     "9146c261-0226-44c9-808f-1efc960963cb": {
@@ -267,20 +255,111 @@
         "privacy": "<p>Confermo di aver letto e compreso la dichiarazione sulla <a href=\"https:\/\/www.silverskin.it\/pages\/privacy\" target=\"_blank\" title=\"\/pages\/privacy\">privacy<\/a> e acconsento al trattamento dei miei dati personali a scopi di marketing.<\/p>",
         "btn_submit": "INVIA"
       }
+    },
+    "advanced_content_RHUTnQ": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_ypX7Kf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "html_F88aiL": {
+          "type": "html",
+          "settings": {
+            "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML or scripts.<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_ypX7Kf",
+        "html_F88aiL"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "text_columns_7cMAU4": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_LLMFEr": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "primo - maglia manica corta",
+            "text": "<p><strong>Benefici<\/strong>: estrema traspirabilità che consente di scaricare velocemente il sudore mantenendo la pelle sempre asciutta e la temperatura corporea costante. Nel periodo invernale è ideale per gli sport ad alta intensità.<\/p>",
+            "button_label": "Acquista ora",
+            "button_link": ""
+          }
+        },
+        "text_block_FN6mJ4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "scaldacollo",
+            "text": "<p>Benefici: estrema elasticità che consente ampia copertura delle zone interessate e un eventuale doppio uso, sia come scaldacollo che come cappello. <\/p>",
+            "button_label": "acquista ora",
+            "button_link": ""
+          }
+        },
+        "text_block_tX77dE": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_fFqQbg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_LLMFEr",
+        "text_block_FN6mJ4",
+        "text_block_tX77dE",
+        "text_block_fFqQbg"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
     "fafb4f37-f234-4877-ac3b-1e1924791295",
-    "featured_content_aWR8XJ",
     "6d90f70f-ae27-4399-a7d1-463f71e74b24",
+    "04254e91-771e-4db6-8cc4-4fd9bb684b13",
+    "348399cc-a1f7-46ef-91a9-d29dd2142457",
     "modulo_row_product_9W3kGp",
     "modulo_row_product_xNdNh4",
-    "04254e91-771e-4db6-8cc4-4fd9bb684b13",
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
-    "348399cc-a1f7-46ef-91a9-d29dd2142457",
     "9146c261-0226-44c9-808f-1efc960963cb",
-    "0f7c78b0-f99d-4b98-95b6-637ee22b4119"
+    "0f7c78b0-f99d-4b98-95b6-637ee22b4119",
+    "advanced_content_RHUTnQ",
+    "text_columns_7cMAU4"
   ]
 }
