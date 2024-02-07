@@ -13,7 +13,7 @@
         "overlay_dark": true,
         "content_bottom": true,
         "herotitle": "LASCIATI ISPIRARE",
-        "herosubtitle": "",
+        "herosubtitle": "Le scelte di matteo eydallin",
         "heroparagraph": "",
         "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
         "cta1text": "",
@@ -146,80 +146,6 @@
         "divider": false
       }
     },
-    "modulo_row_product_9W3kGp": {
-      "type": "modulo-row-product",
-      "blocks": {
-        "product_eKL73K": {
-          "type": "product",
-          "settings": {
-            "product": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo"
-          }
-        },
-        "product_pfKeFT": {
-          "type": "product",
-          "settings": {
-            "product": "scaldacollo-performance-antracite-sk027x"
-          }
-        },
-        "product_3BtyFn": {
-          "type": "product",
-          "settings": {
-            "product": "sottoguanto-anthracite"
-          }
-        },
-        "product_V9zFzD": {
-          "type": "product",
-          "settings": {
-            "product": "cappello-performance-antracite-sk015w"
-          }
-        }
-      },
-      "block_order": [
-        "product_eKL73K",
-        "product_pfKeFT",
-        "product_3BtyFn",
-        "product_V9zFzD"
-      ],
-      "settings": {
-      }
-    },
-    "modulo_row_product_xNdNh4": {
-      "type": "modulo-row-product",
-      "blocks": {
-        "product_Ej8kcg": {
-          "type": "product",
-          "settings": {
-            "product": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-pearlgrey-donna"
-          }
-        },
-        "product_664eYW": {
-          "type": "product",
-          "settings": {
-            "product": "copia-del-stay-warm-scaldacollo-pearlgrey"
-          }
-        },
-        "product_7dQHL6": {
-          "type": "product",
-          "settings": {
-            "product": "copia-del-stay-warm-sottoguanto-pearlgrey"
-          }
-        },
-        "product_aWJBpc": {
-          "type": "product",
-          "settings": {
-            "product": "stay-warm-cappello-pearlgrey"
-          }
-        }
-      },
-      "block_order": [
-        "product_Ej8kcg",
-        "product_664eYW",
-        "product_7dQHL6",
-        "product_aWJBpc"
-      ],
-      "settings": {
-      }
-    },
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6": {
       "type": "modulo-newsletter-image",
       "disabled": true,
@@ -250,36 +176,6 @@
         "form_title": "MESSAGGIO",
         "privacy": "<p>Confermo di aver letto e compreso la dichiarazione sulla <a href=\"https:\/\/www.silverskin.it\/pages\/privacy\" target=\"_blank\" title=\"\/pages\/privacy\">privacy<\/a> e acconsento al trattamento dei miei dati personali a scopi di marketing.<\/p>",
         "btn_submit": "INVIA"
-      }
-    },
-    "advanced_content_RHUTnQ": {
-      "type": "advanced-content",
-      "blocks": {
-        "image_ypX7Kf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
-            "link": "",
-            "width": "50%",
-            "alignment": "top-middle"
-          }
-        },
-        "html_F88aiL": {
-          "type": "html",
-          "settings": {
-            "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML or scripts.<\/p>",
-            "width": "50%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "image_ypX7Kf",
-        "html_F88aiL"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
       }
     },
     "6d90f70f-ae27-4399-a7d1-463f71e74b24": {
@@ -356,12 +252,9 @@
     "fafb4f37-f234-4877-ac3b-1e1924791295",
     "04254e91-771e-4db6-8cc4-4fd9bb684b13",
     "348399cc-a1f7-46ef-91a9-d29dd2142457",
-    "modulo_row_product_9W3kGp",
-    "modulo_row_product_xNdNh4",
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
     "9146c261-0226-44c9-808f-1efc960963cb",
     "0f7c78b0-f99d-4b98-95b6-637ee22b4119",
-    "advanced_content_RHUTnQ",
     "6d90f70f-ae27-4399-a7d1-463f71e74b24"
   ]
 }
