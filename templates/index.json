@@ -668,6 +668,7 @@
         },
         "slide_fgMyHr": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "slide_cit": "",
             "slide_subtitle": ""
