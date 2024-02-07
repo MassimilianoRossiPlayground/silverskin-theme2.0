@@ -55,6 +55,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-07_alle_12.17.21.png",
             "image_width": 650,
             "title": "sottoguanto",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
