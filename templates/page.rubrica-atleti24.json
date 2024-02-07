@@ -39,28 +39,120 @@
         "cta_link_anchor": ""
       }
     },
-    "featured_collection_UW7n4X": {
-      "type": "featured-collection",
+    "modulo_row_product_9W3kGp": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "product_eKL73K": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_pfKeFT": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_3BtyFn": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_V9zFzD": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_eKL73K",
+        "product_pfKeFT",
+        "product_3BtyFn",
+        "product_V9zFzD"
+      ],
       "settings": {
-        "title": "XXX",
-        "home_featured_products": "sci-alpinismo",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false
       }
     },
-    "featured_collection_eBc8Jk": {
-      "type": "featured-collection",
+    "modulo_row_product_xNdNh4": {
+      "type": "modulo-row-product",
       "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
+      }
+    },
+    "modulo_row_product_y3CGrW": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "product_dQhmtm": {
+          "type": "product",
+          "settings": {
+            "product": "sottoguanto-grigio-perla-sk006w"
+          }
+        },
+        "product_QLGtXY": {
+          "type": "product",
+          "settings": {
+            "product": "sottoguanto-anthracite"
+          }
+        },
+        "product_YNVkK6": {
+          "type": "product",
+          "settings": {
+            "product": "copia-del-stay-warm-sottoguanto-anthracite"
+          }
+        },
+        "product_TdGjQ6": {
+          "type": "product",
+          "settings": {
+            "product": "copia-del-stay-warm-sottoguanto-pearlgrey"
+          }
+        }
+      },
+      "block_order": [
+        "product_dQhmtm",
+        "product_QLGtXY",
+        "product_YNVkK6",
+        "product_TdGjQ6"
+      ],
+      "settings": {
+      }
+    },
+    "modulo_row_product_QXFkX9": {
+      "type": "modulo-row-product",
+      "blocks": {
+        "product_peFdLU": {
+          "type": "product",
+          "settings": {
+            "product": "cappello-performance-antracite-sk015w"
+          }
+        },
+        "product_k99gaj": {
+          "type": "product",
+          "settings": {
+            "product": "cappello-performance-grigio-perla-sk015w"
+          }
+        },
+        "product_6LFbJf": {
+          "type": "product",
+          "settings": {
+            "product": "copia-del-stay-warm-cappello-anthracite"
+          }
+        },
+        "product_NCGwFU": {
+          "type": "product",
+          "settings": {
+            "product": "stay-warm-cappello-pearlgrey"
+          }
+        }
+      },
+      "block_order": [
+        "product_peFdLU",
+        "product_k99gaj",
+        "product_6LFbJf",
+        "product_NCGwFU"
+      ],
+      "settings": {
       }
     },
     "6d90f70f-ae27-4399-a7d1-463f71e74b24": {
@@ -266,8 +358,10 @@
     "main",
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
     "fafb4f37-f234-4877-ac3b-1e1924791295",
-    "featured_collection_UW7n4X",
-    "featured_collection_eBc8Jk",
+    "modulo_row_product_9W3kGp",
+    "modulo_row_product_xNdNh4",
+    "modulo_row_product_y3CGrW",
+    "modulo_row_product_QXFkX9",
     "6d90f70f-ae27-4399-a7d1-463f71e74b24",
     "04254e91-771e-4db6-8cc4-4fd9bb684b13",
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
