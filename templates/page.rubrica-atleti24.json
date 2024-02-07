@@ -26,6 +26,66 @@
         "id_scroll_down": "athlete-slider"
       }
     },
+    "text_columns_7cMAU4": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_LLMFEr": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "primo - maglia manica corta",
+            "text": "<p><strong>Benefici<\/strong>: estrema traspirabilità che consente di scaricare velocemente il sudore mantenendo la pelle sempre asciutta e la temperatura corporea costante. Nel periodo invernale è ideale per gli sport ad alta intensità.<\/p>",
+            "button_label": "Acquista ora",
+            "button_link": ""
+          }
+        },
+        "text_block_FN6mJ4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "scaldacollo",
+            "text": "<p><strong>Benefici<\/strong>: estrema elasticità che consente ampia copertura delle zone interessate e un eventuale doppio uso, sia come scaldacollo che come cappello. <\/p>",
+            "button_label": "acquista ora",
+            "button_link": ""
+          }
+        },
+        "text_block_tX77dE": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "sottoguanto",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "acquista ora",
+            "button_link": ""
+          }
+        },
+        "text_block_fFqQbg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "cappello",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "acquista ora",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_LLMFEr",
+        "text_block_FN6mJ4",
+        "text_block_tX77dE",
+        "text_block_fFqQbg"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
+    },
     "fafb4f37-f234-4877-ac3b-1e1924791295": {
       "type": "modulo-text-cta",
       "disabled": true,
@@ -37,71 +97,6 @@
         "cta_text": "",
         "cta_link": "",
         "cta_link_anchor": ""
-      }
-    },
-    "6d90f70f-ae27-4399-a7d1-463f71e74b24": {
-      "type": "modulo-product-slider-gender",
-      "blocks": {
-        "05b43ffa-da34-4a8e-8892-d943a3d085f0": {
-          "type": "product_block",
-          "disabled": true,
-          "settings": {
-            "product_id_man": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
-            "product_id_woman": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-donna",
-            "image_man": "shopify:\/\/shop_images\/PRIMO_UOMO_-_MINI_1x_a7e410ff-1cd0-4907-8c7e-e7a6b512aa8c.png",
-            "image_woman": "shopify:\/\/shop_images\/PRIMO_DONNA_1x_d1f9d083-7aca-44cf-b3d6-f26b64c78e29.png",
-            "title": "PRIMO Thermo Dry Pro - Manica Corta",
-            "description": "PRIMO è il base layer ideale per restare concentrato sulla performance in tutte le attività con una forte componente aerobica o sforzi anaerobici, tra cui bici, corsa, sci alpinismo e sci di fondo."
-          }
-        },
-        "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a": {
-          "type": "product_block",
-          "disabled": true,
-          "settings": {
-            "product_id_man": "scaldacollo-performance-grigio-perla-sk012w",
-            "product_id_woman": "copia-del-stay-warm-scaldacollo-pearlgrey",
-            "title": "Scaldacollo",
-            "description": "inserire foto"
-          }
-        },
-        "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1": {
-          "type": "product_block",
-          "settings": {
-            "product_id_man": "sottoguanto-grigio-perla-sk006w",
-            "product_id_woman": "copia-del-stay-warm-sottoguanto-pearlgrey",
-            "image_man": "shopify:\/\/shop_images\/Pearl-Grey-PRIMO--Uomo-manica-corta---frontale-1500x1800_1080x-removebg-preview.png",
-            "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo.png",
-            "title": "Sottoguanto",
-            "description": "inserire foto"
-          }
-        },
-        "07122851-e0fe-4a50-9d92-f72c9bff941d": {
-          "type": "product_block",
-          "settings": {
-            "product_id_man": "cappello-performance-grigio-perla-sk015w",
-            "product_id_woman": "stay-warm-cappello-pearlgrey",
-            "image_man": "shopify:\/\/shop_images\/X_WARM_WHITE_UOMO_-_MINI_1x_18c21288-49db-47e5-8cf9-305e1d3faa5a.png",
-            "image_woman": "shopify:\/\/shop_images\/X_WARM_WHITE_DONNA_1x_1c08e7b7-c686-4d01-b4f4-ad2462a85cf3.png",
-            "title": "Cappello",
-            "description": "Inserire immagini"
-          }
-        }
-      },
-      "block_order": [
-        "05b43ffa-da34-4a8e-8892-d943a3d085f0",
-        "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a",
-        "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1",
-        "07122851-e0fe-4a50-9d92-f72c9bff941d"
-      ],
-      "settings": {
-        "id_for_anchor": "athlete-slider-2",
-        "title": "SCOPRI I PREFERITI DAGLI ATLETI",
-        "image_man": "shopify:\/\/shop_images\/Polygon_Copy_10.png",
-        "button_man": "UOMO",
-        "image_woman": "shopify:\/\/shop_images\/Polygon_Copy_11_6e219ca2-9dbd-4545-b6e2-c0a0803b0068.png",
-        "button_woman": "DONNA",
-        "cta_text_man": "ACQUISTA UOMO",
-        "cta_text_woman": "ACQUISTA DONNA"
       }
     },
     "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
@@ -286,72 +281,78 @@
         "space_around": true
       }
     },
-    "text_columns_7cMAU4": {
-      "type": "text-columns",
+    "6d90f70f-ae27-4399-a7d1-463f71e74b24": {
+      "type": "modulo-product-slider-gender",
       "blocks": {
-        "text_block_LLMFEr": {
-          "type": "text_block",
+        "05b43ffa-da34-4a8e-8892-d943a3d085f0": {
+          "type": "product_block",
+          "disabled": true,
           "settings": {
-            "enable_image": true,
-            "image_width": 650,
-            "title": "primo - maglia manica corta",
-            "text": "<p><strong>Benefici<\/strong>: estrema traspirabilità che consente di scaricare velocemente il sudore mantenendo la pelle sempre asciutta e la temperatura corporea costante. Nel periodo invernale è ideale per gli sport ad alta intensità.<\/p>",
-            "button_label": "Acquista ora",
-            "button_link": ""
+            "product_id_man": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
+            "product_id_woman": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-donna",
+            "image_man": "shopify:\/\/shop_images\/PRIMO_UOMO_-_MINI_1x_a7e410ff-1cd0-4907-8c7e-e7a6b512aa8c.png",
+            "image_woman": "shopify:\/\/shop_images\/PRIMO_DONNA_1x_d1f9d083-7aca-44cf-b3d6-f26b64c78e29.png",
+            "title": "PRIMO Thermo Dry Pro - Manica Corta",
+            "description": "PRIMO è il base layer ideale per restare concentrato sulla performance in tutte le attività con una forte componente aerobica o sforzi anaerobici, tra cui bici, corsa, sci alpinismo e sci di fondo."
           }
         },
-        "text_block_FN6mJ4": {
-          "type": "text_block",
+        "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a": {
+          "type": "product_block",
+          "disabled": true,
           "settings": {
-            "enable_image": true,
-            "image_width": 650,
-            "title": "scaldacollo",
-            "text": "<p>Benefici: estrema elasticità che consente ampia copertura delle zone interessate e un eventuale doppio uso, sia come scaldacollo che come cappello. <\/p>",
-            "button_label": "acquista ora",
-            "button_link": ""
+            "product_id_man": "scaldacollo-performance-grigio-perla-sk012w",
+            "product_id_woman": "copia-del-stay-warm-scaldacollo-pearlgrey",
+            "title": "Scaldacollo",
+            "description": "inserire foto"
           }
         },
-        "text_block_tX77dE": {
-          "type": "text_block",
+        "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1": {
+          "type": "product_block",
           "settings": {
-            "enable_image": true,
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
-            "button_link": ""
+            "product_id_man": "sottoguanto-grigio-perla-sk006w",
+            "product_id_woman": "copia-del-stay-warm-sottoguanto-pearlgrey",
+            "image_man": "shopify:\/\/shop_images\/Pearl-Grey-PRIMO--Uomo-manica-corta---frontale-1500x1800_1080x-removebg-preview.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo.png",
+            "title": "Sottoguanto",
+            "description": "inserire foto"
           }
         },
-        "text_block_fFqQbg": {
-          "type": "text_block",
+        "07122851-e0fe-4a50-9d92-f72c9bff941d": {
+          "type": "product_block",
           "settings": {
-            "enable_image": true,
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
-            "button_link": ""
+            "product_id_man": "cappello-performance-grigio-perla-sk015w",
+            "product_id_woman": "stay-warm-cappello-pearlgrey",
+            "image_man": "shopify:\/\/shop_images\/X_WARM_WHITE_UOMO_-_MINI_1x_18c21288-49db-47e5-8cf9-305e1d3faa5a.png",
+            "image_woman": "shopify:\/\/shop_images\/X_WARM_WHITE_DONNA_1x_1c08e7b7-c686-4d01-b4f4-ad2462a85cf3.png",
+            "title": "Cappello",
+            "description": "Inserire immagini"
           }
         }
       },
       "block_order": [
-        "text_block_LLMFEr",
-        "text_block_FN6mJ4",
-        "text_block_tX77dE",
-        "text_block_fFqQbg"
+        "05b43ffa-da34-4a8e-8892-d943a3d085f0",
+        "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a",
+        "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1",
+        "07122851-e0fe-4a50-9d92-f72c9bff941d"
       ],
+      "disabled": true,
       "settings": {
-        "title": "",
-        "align_text": "left",
-        "divider": false
+        "id_for_anchor": "athlete-slider-2",
+        "title": "SCOPRI I PREFERITI DAGLI ATLETI",
+        "image_man": "shopify:\/\/shop_images\/Polygon_Copy_10.png",
+        "button_man": "UOMO",
+        "image_woman": "shopify:\/\/shop_images\/Polygon_Copy_11_6e219ca2-9dbd-4545-b6e2-c0a0803b0068.png",
+        "button_woman": "DONNA",
+        "cta_text_man": "ACQUISTA UOMO",
+        "cta_text_woman": "ACQUISTA DONNA"
       }
     }
   },
   "order": [
     "main",
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
+    "text_columns_7cMAU4",
     "fafb4f37-f234-4877-ac3b-1e1924791295",
-    "6d90f70f-ae27-4399-a7d1-463f71e74b24",
     "04254e91-771e-4db6-8cc4-4fd9bb684b13",
     "348399cc-a1f7-46ef-91a9-d29dd2142457",
     "modulo_row_product_9W3kGp",
@@ -360,6 +361,6 @@
     "9146c261-0226-44c9-808f-1efc960963cb",
     "0f7c78b0-f99d-4b98-95b6-637ee22b4119",
     "advanced_content_RHUTnQ",
-    "text_columns_7cMAU4"
+    "6d90f70f-ae27-4399-a7d1-463f71e74b24"
   ]
 }
