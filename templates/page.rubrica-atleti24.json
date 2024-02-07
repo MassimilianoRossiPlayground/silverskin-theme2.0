@@ -47,7 +47,7 @@
             "enable_image": true,
             "image_width": 650,
             "title": "scaldacollo",
-            "text": "<p><strong>Benefici<\/strong>: estrema elasticità che consente ampia copertura delle zone interessate e un eventuale doppio uso, sia come scaldacollo che come cappello. <\/p>",
+            "text": "<p><strong>Benefici<\/strong>: <strong>estrema elasticità<\/strong> che consente ampia copertura delle zone interessate e un eventuale <strong>doppio uso<\/strong>, sia come scaldacollo che come cappello. <\/p>",
             "button_label": "acquista ora",
             "button_link": ""
           }
@@ -58,7 +58,7 @@
             "enable_image": true,
             "image_width": 650,
             "title": "sottoguanto",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "text": "<p><strong>Benefici<\/strong>: estrema <strong>morbidezza<\/strong> sulla pelle, sono in grado di mantenere una <strong>temperatura costante<\/strong> sulle mani eliminando quindi la sensazione di freddo e bagnato. Il dito indice è <strong>touch<\/strong>, per cui non è necessario toglierli per rispondere al cellulare!<\/p>",
             "button_label": "acquista ora",
             "button_link": ""
           }
@@ -69,7 +69,7 @@
             "enable_image": true,
             "image_width": 650,
             "title": "cappello",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "text": "<p><strong>Benefici<\/strong>: ideale per mantenere <strong>caldo e asciutto<\/strong> il capo durante l'attività fisica. Ha una perfetta aderenza al capo e la sua elasticità permette di coprire anche le orecchie.<\/p>",
             "button_label": "acquista ora",
             "button_link": ""
           }
