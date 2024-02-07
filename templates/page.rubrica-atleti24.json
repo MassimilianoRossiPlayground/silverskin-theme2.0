@@ -115,18 +115,6 @@
         "divider": false
       }
     },
-    "348399cc-a1f7-46ef-91a9-d29dd2142457": {
-      "type": "featured-content",
-      "settings": {
-        "title": "",
-        "text": "",
-        "text_small": "",
-        "align_text": "center",
-        "narrow_column": false,
-        "enlarge_text": true,
-        "divider": false
-      }
-    },
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6": {
       "type": "modulo-newsletter-image",
       "disabled": true,
@@ -144,6 +132,7 @@
     },
     "9146c261-0226-44c9-808f-1efc960963cb": {
       "type": "instafeed",
+      "disabled": true,
       "settings": {
         "heading_size": 20,
         "feed_width": 100,
@@ -280,7 +269,6 @@
     "text_columns_7cMAU4",
     "text_and_image_tP7C8T",
     "text_and_image_8aMQk3",
-    "348399cc-a1f7-46ef-91a9-d29dd2142457",
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
     "9146c261-0226-44c9-808f-1efc960963cb",
     "0f7c78b0-f99d-4b98-95b6-637ee22b4119",
