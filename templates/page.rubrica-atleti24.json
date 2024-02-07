@@ -10,12 +10,12 @@
       "type": "modulo-hero-banner",
       "settings": {
         "transparent_header": true,
-        "overlay_dark": false,
+        "overlay_dark": true,
         "content_bottom": true,
         "herotitle": "LASCIATI ISPIRARE",
         "herosubtitle": "",
         "heroparagraph": "",
-        "image": "shopify:\/\/shop_images\/achieve-1822503_1280.jpg",
+        "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
         "cta1text": "",
         "cta1link": "",
         "cta2text": "",
@@ -33,6 +33,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/01-Post_1.jpg",
             "image_width": 650,
             "title": "primo - maglia manica corta",
             "text": "<p><strong>Benefici<\/strong>: estrema traspirabilità che consente di scaricare velocemente il sudore mantenendo la pelle sempre asciutta e la temperatura corporea costante. Nel periodo invernale è ideale per gli sport ad alta intensità.<\/p>",
@@ -55,7 +56,6 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-07_alle_12.17.21.png",
             "image_width": 650,
             "title": "sottoguanto",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
