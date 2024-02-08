@@ -134,6 +134,56 @@
         "autoplay_speed": 7
       }
     },
+    "modulo_spacer_ridCaN": {
+      "type": "modulo-spacer",
+      "settings": {
+        "spacer": 24
+      }
+    },
+    "promo_grid_Q6NLtb": {
+      "type": "promo-grid",
+      "blocks": {
+        "simple_DX6ReL": {
+          "type": "simple",
+          "settings": {
+            "link": "",
+            "text": "IL BENESSERE A PARTIRE DAL PRIMO STRATO",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-08_alle_14.36.47.png",
+            "width": "50",
+            "height": 560,
+            "color_tint": "#000",
+            "color_tint_opacity": 8,
+            "framed": true
+          }
+        },
+        "simple_CpJUjb": {
+          "type": "simple",
+          "settings": {
+            "link": "",
+            "text": "REALIZZATI DA ATLETI PER TE",
+            "image": "shopify:\/\/shop_images\/climber-299018_1280.jpg",
+            "width": "50",
+            "height": 300,
+            "color_tint": "#000",
+            "color_tint_opacity": 8,
+            "framed": true
+          }
+        }
+      },
+      "block_order": [
+        "simple_DX6ReL",
+        "simple_CpJUjb"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 26,
+        "space_above": false,
+        "space_below": true
+      }
+    },
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0": {
       "type": "modulo-double-slider",
       "blocks": {
@@ -700,59 +750,13 @@
         "feed_width": 100,
         "html_area": "<!--  -->"
       }
-    },
-    "promo_grid_Q6NLtb": {
-      "type": "promo-grid",
-      "blocks": {
-        "simple_DX6ReL": {
-          "type": "simple",
-          "settings": {
-            "link": "",
-            "text": "IL BENESSERE PARTE DAL PRIMO STRATO",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-08_alle_14.30.27.png",
-            "width": "50",
-            "height": 560,
-            "color_tint": "#000",
-            "color_tint_opacity": 12,
-            "framed": false
-          }
-        },
-        "simple_CpJUjb": {
-          "type": "simple",
-          "settings": {
-            "link": "",
-            "text": "",
-            "width": "50",
-            "height": 300,
-            "color_tint": "#000",
-            "color_tint_opacity": 8,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "simple_DX6ReL",
-        "simple_CpJUjb"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "full_width": false,
-        "gutter_size": 26,
-        "space_above": false,
-        "space_below": true
-      }
-    },
-    "modulo_spacer_ridCaN": {
-      "type": "modulo-spacer",
-      "settings": {
-      }
     }
   },
   "order": [
     "6a3a252a-f724-42c8-866c-3338ea073fa8",
     "1524768368258",
+    "modulo_spacer_ridCaN",
+    "promo_grid_Q6NLtb",
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
     "1639747130945a5580",
@@ -763,8 +767,6 @@
     "16ecb858-aa84-4da4-a25a-0d4b36124c28",
     "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
     "1594645290306",
-    "1594644909912",
-    "promo_grid_Q6NLtb",
-    "modulo_spacer_ridCaN"
+    "1594644909912"
   ]
 }
