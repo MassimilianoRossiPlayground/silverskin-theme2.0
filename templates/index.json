@@ -160,12 +160,12 @@
           "type": "simple",
           "settings": {
             "link": "",
-            "text": "REALIZZATI DA ATLETI PER TE",
+            "text": "xxxxx",
             "image": "shopify:\/\/shop_images\/climber-299018_1280.jpg",
             "width": "50",
-            "height": 300,
+            "height": 340,
             "color_tint": "#000",
-            "color_tint_opacity": 8,
+            "color_tint_opacity": 14,
             "framed": true
           }
         }
