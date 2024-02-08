@@ -789,24 +789,25 @@
           "type": "advanced",
           "disabled": true,
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
+            "subheading": "IL TUO BASE LAYER",
+            "heading": "PROTEZIONE IN QUALSIASI CONDIZIONE",
+            "textarea": "",
+            "cta_text1": "UOMO",
             "cta_text1_color": "",
             "cta_link1": "",
-            "cta_text2": "Shop All",
+            "cta_text2": "DONNA",
             "cta_text2_color": "",
             "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/mountaineer-2080138_1280.jpg",
             "video_url": "",
-            "width": "100",
-            "height": 500,
+            "width": "50",
+            "height": 620,
             "text_size": 120,
             "text_align": "vertical-center horizontal-center",
             "focal_point": "center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
-            "framed": false
+            "framed": true
           }
         }
       },
