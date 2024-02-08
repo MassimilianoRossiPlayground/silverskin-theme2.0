@@ -41,6 +41,17 @@
             "button_link": ""
           }
         },
+        "text_block_TDnWPR": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
         "text_block_FN6mJ4": {
           "type": "text_block",
           "settings": {
@@ -77,6 +88,7 @@
       },
       "block_order": [
         "text_block_LLMFEr",
+        "text_block_TDnWPR",
         "text_block_FN6mJ4",
         "text_block_tX77dE",
         "text_block_fFqQbg"
