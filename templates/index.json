@@ -756,6 +756,71 @@
         "feed_width": 100,
         "html_area": "<!--  -->"
       }
+    },
+    "promo_grid_ty4Wrz": {
+      "type": "promo-grid",
+      "blocks": {
+        "advanced_UWbRyC": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "subheading": "I BASE LAYER",
+            "heading": "IDEALI PER LO SCI ALPINISMO",
+            "textarea": "",
+            "cta_text1": "UOMO",
+            "cta_text1_color": "",
+            "cta_link1": "",
+            "cta_text2": "DONNA",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/backcountry-skiiing-274384_1280.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 620,
+            "text_size": 180,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
+        },
+        "advanced_VRUEtF": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_text1_color": "",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "advanced_UWbRyC",
+        "advanced_VRUEtF"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
     }
   },
   "order": [
@@ -772,6 +837,7 @@
     "907aa47b-4398-4a40-b26d-b02ec2ff66c7",
     "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
     "1594645290306",
-    "1594644909912"
+    "1594644909912",
+    "promo_grid_ty4Wrz"
   ]
 }
