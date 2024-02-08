@@ -168,11 +168,36 @@
             "color_tint_opacity": 14,
             "framed": true
           }
+        },
+        "advanced_qr3Fej": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "il benessere a partire dal primo strato",
+            "textarea": "",
+            "cta_text1": "Donna",
+            "cta_text1_color": "",
+            "cta_link1": "",
+            "cta_text2": "Uomo",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-08_alle_14.36.47.png",
+            "video_url": "",
+            "width": "50",
+            "height": 620,
+            "text_size": 180,
+            "text_align": "vertical-bottom horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
         }
       },
       "block_order": [
         "simple_DX6ReL",
-        "simple_CpJUjb"
+        "simple_CpJUjb",
+        "advanced_qr3Fej"
       ],
       "custom_css": [
 
