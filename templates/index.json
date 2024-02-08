@@ -700,6 +700,54 @@
         "feed_width": 100,
         "html_area": "<!--  -->"
       }
+    },
+    "promo_grid_Q6NLtb": {
+      "type": "promo-grid",
+      "blocks": {
+        "simple_DX6ReL": {
+          "type": "simple",
+          "settings": {
+            "link": "",
+            "text": "IL BENESSERE PARTE DAL PRIMO STRATO",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-08_alle_14.30.27.png",
+            "width": "50",
+            "height": 560,
+            "color_tint": "#000",
+            "color_tint_opacity": 12,
+            "framed": false
+          }
+        },
+        "simple_CpJUjb": {
+          "type": "simple",
+          "settings": {
+            "link": "",
+            "text": "",
+            "width": "50",
+            "height": 300,
+            "color_tint": "#000",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "simple_DX6ReL",
+        "simple_CpJUjb"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 26,
+        "space_above": false,
+        "space_below": true
+      }
+    },
+    "modulo_spacer_ridCaN": {
+      "type": "modulo-spacer",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -715,6 +763,8 @@
     "16ecb858-aa84-4da4-a25a-0d4b36124c28",
     "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
     "1594645290306",
-    "1594644909912"
+    "1594644909912",
+    "promo_grid_Q6NLtb",
+    "modulo_spacer_ridCaN"
   ]
 }
