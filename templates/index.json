@@ -143,37 +143,11 @@
     "promo_grid_Q6NLtb": {
       "type": "promo-grid",
       "blocks": {
-        "simple_DX6ReL": {
-          "type": "simple",
-          "settings": {
-            "link": "",
-            "text": "IL BENESSERE A PARTIRE DAL PRIMO STRATO",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-08_alle_14.36.47.png",
-            "width": "50",
-            "height": 560,
-            "color_tint": "#000",
-            "color_tint_opacity": 8,
-            "framed": true
-          }
-        },
-        "simple_CpJUjb": {
-          "type": "simple",
-          "settings": {
-            "link": "",
-            "text": "xxxxx",
-            "image": "shopify:\/\/shop_images\/climber-299018_1280.jpg",
-            "width": "50",
-            "height": 340,
-            "color_tint": "#000",
-            "color_tint_opacity": 14,
-            "framed": true
-          }
-        },
         "advanced_qr3Fej": {
           "type": "advanced",
           "settings": {
-            "subheading": "",
-            "heading": "il benessere a partire dal primo strato",
+            "subheading": "I BASE LAYER",
+            "heading": "IDEALI PER LO SCI ALPINISMO",
             "textarea": "",
             "cta_text1": "Donna",
             "cta_text1_color": "",
@@ -181,12 +155,36 @@
             "cta_text2": "Uomo",
             "cta_text2_color": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-08_alle_14.36.47.png",
+            "image": "shopify:\/\/shop_images\/backcountry-skiiing-273032_1280.jpg",
             "video_url": "",
             "width": "50",
             "height": 620,
             "text_size": 180,
-            "text_align": "vertical-bottom horizontal-center",
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
+        },
+        "advanced_bELYyk": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "IL TUO BASE LAYER",
+            "heading": "PROTEZIONE IN QUALSIASI CONDIZIONE",
+            "textarea": "",
+            "cta_text1": "DONNA",
+            "cta_text1_color": "",
+            "cta_link1": "",
+            "cta_text2": "UOMO",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/mountaineer-2080138_1280.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
             "focal_point": "center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
@@ -195,9 +193,8 @@
         }
       },
       "block_order": [
-        "simple_DX6ReL",
-        "simple_CpJUjb",
-        "advanced_qr3Fej"
+        "advanced_qr3Fej",
+        "advanced_bELYyk"
       ],
       "custom_css": [
 
