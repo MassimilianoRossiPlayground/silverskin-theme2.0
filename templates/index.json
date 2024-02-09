@@ -762,7 +762,6 @@
       "blocks": {
         "advanced_UWbRyC": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
             "subheading": "I BASE LAYER",
             "heading": "IDEALI PER LO SCI ALPINISMO",
@@ -787,7 +786,6 @@
         },
         "advanced_VRUEtF": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
             "subheading": "IL TUO BASE LAYER",
             "heading": "PROTEZIONE IN QUALSIASI CONDIZIONE",
@@ -815,7 +813,6 @@
         "advanced_UWbRyC",
         "advanced_VRUEtF"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "gutter_size": 20,
