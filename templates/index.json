@@ -361,6 +361,78 @@
       "settings": {
       }
     },
+    "16ecb858-aa84-4da4-a25a-0d4b36124c28": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "16ecb858-aa84-4da4-a25a-0d4b36124c28-16710177566d572eeb-0": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/testimonial-01_2x_13838195-3519-45ed-88ed-e375c9a631e2.png",
+            "slide_cit": "“Una maglia estremamente elastica, che segue ogni movimento. Ti avvolge senza comprimere ed è talmente comoda che spesso mi dimentico di averla addosso.”",
+            "slide_subtitle": "Alessio Zambon - Ultra trailer professionista"
+          }
+        },
+        "slide_fgMyHr": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "slide_cit": "",
+            "slide_subtitle": ""
+          }
+        },
+        "dc096421-5e71-4a0e-b6db-8b5ee487b74e": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/testimonial-03_2x_b6a1c59f-e321-46bf-ae19-32754795fad2.png",
+            "slide_cit": "“Un base layer versatile capace di proteggerti dai cambi repentini di temperatura, tenendoti sempre asciutto. Non lo toglierei mai!”",
+            "slide_subtitle": "Stefano La Mastra - ciclista"
+          }
+        },
+        "2c77e39b-61e7-4a04-b15f-0f36846662ff": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/testimonial-02_2x_d25b400c-b294-454f-9ff0-39f9c148fd10.png",
+            "slide_cit": "“Essenziale! La utilizzo sempre e da sempre. Quando partecipo a corse come la Atlas race, lo indosso per una settimana intera senza che si sentano cattivi odori o che il tessuto perda elasticità a causa del sudore.”",
+            "slide_subtitle": "Nico Valsesia - Ultra-biker"
+          }
+        },
+        "be216c11-202b-4cd3-a3ef-9028d3f0914e": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/test-01.png",
+            "slide_cit": "“Davvero comoda sulla pelle. A prima vista la maglia mi sembrava troppo piccola. A vederla ti aspetti compressione, invece ti avvolge alla perfezione..”",
+            "slide_subtitle": "Alessandro Silva - Maestro di sci e amante della montagna"
+          }
+        },
+        "8ee640c5-d009-4f4e-bd6c-d9604ea7ee40": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/test-02.png",
+            "slide_cit": "“Una vera seconda pelle, perfettamente sintonizzata con il corpo e i suoi movimenti, anche i più esasperati, per ottenere condizioni di comfort totali durante le attività più intense [...] Una vera sorpresa!”",
+            "slide_subtitle": "Alfredo Tradati - Giornalista, ex allenatore e coach di sciatori della nazionale"
+          }
+        },
+        "9d301094-02b9-49b1-9e2d-8d8a0880e844": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/test-03.png",
+            "slide_cit": "“Negli anni di carriera ho capito che lo strato a contatto con la pelle è il più importante. Con Silverskin ho risolto”",
+            "slide_subtitle": "Daniele Ratto – Ciclista - Professionista dal 2010 al 2016, vincitore di tappa alla Vuelta a España"
+          }
+        }
+      },
+      "block_order": [
+        "16ecb858-aa84-4da4-a25a-0d4b36124c28-16710177566d572eeb-0",
+        "slide_fgMyHr",
+        "dc096421-5e71-4a0e-b6db-8b5ee487b74e",
+        "2c77e39b-61e7-4a04-b15f-0f36846662ff",
+        "be216c11-202b-4cd3-a3ef-9028d3f0914e",
+        "8ee640c5-d009-4f4e-bd6c-d9604ea7ee40",
+        "9d301094-02b9-49b1-9e2d-8d8a0880e844"
+      ],
+      "settings": {
+      }
+    },
     "1639747130945a5580": {
       "type": "featured-collection",
       "settings": {
@@ -615,78 +687,6 @@
         "space_below": false
       }
     },
-    "16ecb858-aa84-4da4-a25a-0d4b36124c28": {
-      "type": "testimonial-slider",
-      "blocks": {
-        "16ecb858-aa84-4da4-a25a-0d4b36124c28-16710177566d572eeb-0": {
-          "type": "slide",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/testimonial-01_2x_13838195-3519-45ed-88ed-e375c9a631e2.png",
-            "slide_cit": "“Una maglia estremamente elastica, che segue ogni movimento. Ti avvolge senza comprimere ed è talmente comoda che spesso mi dimentico di averla addosso.”",
-            "slide_subtitle": "Alessio Zambon - Ultra trailer professionista"
-          }
-        },
-        "slide_fgMyHr": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "slide_cit": "",
-            "slide_subtitle": ""
-          }
-        },
-        "dc096421-5e71-4a0e-b6db-8b5ee487b74e": {
-          "type": "slide",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/testimonial-03_2x_b6a1c59f-e321-46bf-ae19-32754795fad2.png",
-            "slide_cit": "“Un base layer versatile capace di proteggerti dai cambi repentini di temperatura, tenendoti sempre asciutto. Non lo toglierei mai!”",
-            "slide_subtitle": "Stefano La Mastra - ciclista"
-          }
-        },
-        "2c77e39b-61e7-4a04-b15f-0f36846662ff": {
-          "type": "slide",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/testimonial-02_2x_d25b400c-b294-454f-9ff0-39f9c148fd10.png",
-            "slide_cit": "“Essenziale! La utilizzo sempre e da sempre. Quando partecipo a corse come la Atlas race, lo indosso per una settimana intera senza che si sentano cattivi odori o che il tessuto perda elasticità a causa del sudore.”",
-            "slide_subtitle": "Nico Valsesia - Ultra-biker"
-          }
-        },
-        "be216c11-202b-4cd3-a3ef-9028d3f0914e": {
-          "type": "slide",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/test-01.png",
-            "slide_cit": "“Davvero comoda sulla pelle. A prima vista la maglia mi sembrava troppo piccola. A vederla ti aspetti compressione, invece ti avvolge alla perfezione..”",
-            "slide_subtitle": "Alessandro Silva - Maestro di sci e amante della montagna"
-          }
-        },
-        "8ee640c5-d009-4f4e-bd6c-d9604ea7ee40": {
-          "type": "slide",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/test-02.png",
-            "slide_cit": "“Una vera seconda pelle, perfettamente sintonizzata con il corpo e i suoi movimenti, anche i più esasperati, per ottenere condizioni di comfort totali durante le attività più intense [...] Una vera sorpresa!”",
-            "slide_subtitle": "Alfredo Tradati - Giornalista, ex allenatore e coach di sciatori della nazionale"
-          }
-        },
-        "9d301094-02b9-49b1-9e2d-8d8a0880e844": {
-          "type": "slide",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/test-03.png",
-            "slide_cit": "“Negli anni di carriera ho capito che lo strato a contatto con la pelle è il più importante. Con Silverskin ho risolto”",
-            "slide_subtitle": "Daniele Ratto – Ciclista - Professionista dal 2010 al 2016, vincitore di tappa alla Vuelta a España"
-          }
-        }
-      },
-      "block_order": [
-        "16ecb858-aa84-4da4-a25a-0d4b36124c28-16710177566d572eeb-0",
-        "slide_fgMyHr",
-        "dc096421-5e71-4a0e-b6db-8b5ee487b74e",
-        "2c77e39b-61e7-4a04-b15f-0f36846662ff",
-        "be216c11-202b-4cd3-a3ef-9028d3f0914e",
-        "8ee640c5-d009-4f4e-bd6c-d9604ea7ee40",
-        "9d301094-02b9-49b1-9e2d-8d8a0880e844"
-      ],
-      "settings": {
-      }
-    },
     "907aa47b-4398-4a40-b26d-b02ec2ff66c7": {
       "type": "promo-grid",
       "blocks": {
@@ -841,11 +841,11 @@
     "slideshow_C7bcX3",
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
+    "16ecb858-aa84-4da4-a25a-0d4b36124c28",
     "1639747130945a5580",
     "1586f3e6-8b23-4c14-b513-ab776b94b9fe",
     "46775f4e-b84f-487e-af50-855a972303b5",
     "16057820817ca1b14f",
-    "16ecb858-aa84-4da4-a25a-0d4b36124c28",
     "907aa47b-4398-4a40-b26d-b02ec2ff66c7",
     "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
     "1594645290306",
