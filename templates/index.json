@@ -141,6 +141,69 @@
         "autoplay_speed": 7
       }
     },
+    "promo_grid_ty4Wrz": {
+      "type": "promo-grid",
+      "blocks": {
+        "advanced_UWbRyC": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "I BASE LAYER",
+            "heading": "IDEALI PER LO SCI ALPINISMO",
+            "textarea": "",
+            "cta_text1": "UOMO",
+            "cta_text1_color": "",
+            "cta_link1": "https:\/\/www.silverskin.it\/collections\/sci-alpinismo-1",
+            "cta_text2": "DONNA",
+            "cta_text2_color": "",
+            "cta_link2": "https:\/\/www.silverskin.it\/collections\/ideali-per-lo-sci-alpinismo",
+            "image": "shopify:\/\/shop_images\/backcountry-skiiing-274384_1280.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 620,
+            "text_size": 180,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
+        },
+        "advanced_VRUEtF": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "IL TUO BASE LAYER",
+            "heading": "PROTEZIONE IN QUALSIASI CONDIZIONE",
+            "textarea": "",
+            "cta_text1": "UOMO",
+            "cta_text1_color": "",
+            "cta_link1": "",
+            "cta_text2": "DONNA",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/mountaineer-2080138_1280.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 620,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
+        }
+      },
+      "block_order": [
+        "advanced_UWbRyC",
+        "advanced_VRUEtF"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": true
+      }
+    },
     "slideshow_C7bcX3": {
       "type": "slideshow",
       "blocks": {
@@ -181,6 +244,17 @@
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0": {
       "type": "modulo-double-slider",
       "blocks": {
+        "slide_aFXPh9": {
+          "type": "slide",
+          "settings": {
+            "title": "<span class=\"home__specs__counter\">01.<\/span> TERMOREGOLAZIONE PERFETTA",
+            "description": "<p>L’uso dell’<strong>argento<\/strong> nella composizione del tessuto e la particolare costruzione del filato <strong>mantengono costante la tua temperatura corporea<\/strong> in ogni situazione. Il sistema di <strong>Thermo Buffering™<\/strong> permette di dissipare il calore e ridurre l’impatto dell’esterno, mantenendo la tua temperatura ideale, sempre.<\/p>",
+            "cta1text": "SCOPRI LE COLLEZIONI",
+            "cta1link": "\/pages\/collezioni",
+            "cta2text": "SCOPRI LA TECNOLOGIA",
+            "cta2link": "\/pages\/technology"
+          }
+        },
         "b5d1c4bc-f714-4d74-8899-23a89aafc8c6": {
           "type": "slide",
           "settings": {
@@ -219,10 +293,12 @@
         }
       },
       "block_order": [
+        "slide_aFXPh9",
         "b5d1c4bc-f714-4d74-8899-23a89aafc8c6",
         "ea2eb875-5bf3-4252-b3c7-041aa58abf8e",
         "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0-16727472525ac2da64-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "POWER IS PRECIOUS",
         "description": "<p>La tua forza è preziosa. Per questo integriamo <strong>l'argento<\/strong> nel nostro rivoluzionario intimo termico. Il risultato è una linea di prodotti <strong>senza cuciture<\/strong> che portano <strong>comfort, traspirabilità e termoregolazione<\/strong> a un livello superiore.<\/p>"
@@ -756,74 +832,12 @@
         "feed_width": 100,
         "html_area": "<!--  -->"
       }
-    },
-    "promo_grid_ty4Wrz": {
-      "type": "promo-grid",
-      "blocks": {
-        "advanced_UWbRyC": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "I BASE LAYER",
-            "heading": "IDEALI PER LO SCI ALPINISMO",
-            "textarea": "",
-            "cta_text1": "UOMO",
-            "cta_text1_color": "",
-            "cta_link1": "https:\/\/www.silverskin.it\/collections\/sci-alpinismo-1",
-            "cta_text2": "DONNA",
-            "cta_text2_color": "",
-            "cta_link2": "https:\/\/www.silverskin.it\/collections\/ideali-per-lo-sci-alpinismo",
-            "image": "shopify:\/\/shop_images\/backcountry-skiiing-274384_1280.jpg",
-            "video_url": "",
-            "width": "50",
-            "height": 620,
-            "text_size": 180,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": true
-          }
-        },
-        "advanced_VRUEtF": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "IL TUO BASE LAYER",
-            "heading": "PROTEZIONE IN QUALSIASI CONDIZIONE",
-            "textarea": "",
-            "cta_text1": "UOMO",
-            "cta_text1_color": "",
-            "cta_link1": "",
-            "cta_text2": "DONNA",
-            "cta_text2_color": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/mountaineer-2080138_1280.jpg",
-            "video_url": "",
-            "width": "50",
-            "height": 620,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": true
-          }
-        }
-      },
-      "block_order": [
-        "advanced_UWbRyC",
-        "advanced_VRUEtF"
-      ],
-      "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false
-      }
     }
   },
   "order": [
     "6a3a252a-f724-42c8-866c-3338ea073fa8",
     "1524768368258",
+    "promo_grid_ty4Wrz",
     "slideshow_C7bcX3",
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
@@ -835,7 +849,6 @@
     "907aa47b-4398-4a40-b26d-b02ec2ff66c7",
     "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
     "1594645290306",
-    "1594644909912",
-    "promo_grid_ty4Wrz"
+    "1594644909912"
   ]
 }
