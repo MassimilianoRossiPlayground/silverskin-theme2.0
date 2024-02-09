@@ -29,6 +29,20 @@
           }
         }
       }
+    },
+    "promo_grid_ty4Wrz": {
+      "settings": {
+      },
+      "blocks": {
+        "advanced_UWbRyC": {
+          "settings": {
+            "subheading": "BASE LAYER",
+            "heading": "IDEAL FOR SKIMO",
+            "cta_text1": "MEN",
+            "cta_text2": "WOMEN"
+          }
+        }
+      }
     }
   }
 }
