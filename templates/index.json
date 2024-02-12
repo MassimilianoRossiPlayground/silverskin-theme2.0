@@ -199,7 +199,7 @@
       ],
       "settings": {
         "full_width": true,
-        "gutter_size": 10,
+        "gutter_size": 23,
         "space_above": true,
         "space_below": true
       }
