@@ -197,6 +197,9 @@
         "advanced_UWbRyC",
         "advanced_VRUEtF"
       ],
+      "custom_css": [
+        ".promo-grid{margin-top:0cm"
+      ],
       "settings": {
         "full_width": true,
         "gutter_size": 23,
