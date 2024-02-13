@@ -52,6 +52,17 @@
             "button_link": ""
           }
         },
+        "text_block_fFqQbg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "manicotti",
+            "text": "<p><strong>Benefici<\/strong>: <\/p>",
+            "button_label": "acquista ora",
+            "button_link": ""
+          }
+        },
         "text_block_tX77dE": {
           "type": "text_block",
           "settings": {
@@ -59,17 +70,6 @@
             "image_width": 650,
             "title": "sottoguanto",
             "text": "<p><strong>Benefici<\/strong>: estrema <strong>morbidezza<\/strong> sulla pelle, elimina la sensazione di freddo e bagnato. Il dito indice è <strong>touch<\/strong>, per cui non è necessario toglierli per rispondere al cellulare!<\/p>",
-            "button_label": "acquista ora",
-            "button_link": ""
-          }
-        },
-        "text_block_fFqQbg": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_width": 650,
-            "title": "manicotti",
-            "text": "<p><strong>Benefici<\/strong>: ideale per mantenere <strong>caldo e asciutto<\/strong> il capo durante l'attività fisica. Ha una <strong>perfetta aderenza<\/strong> al capo e la sua elasticità permette di coprire anche le orecchie.<\/p>",
             "button_label": "acquista ora",
             "button_link": ""
           }
@@ -89,8 +89,8 @@
       "block_order": [
         "text_block_LLMFEr",
         "text_block_FN6mJ4",
-        "text_block_tX77dE",
         "text_block_fFqQbg",
+        "text_block_tX77dE",
         "text_block_9FpqqU"
       ],
       "settings": {
