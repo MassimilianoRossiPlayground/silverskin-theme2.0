@@ -35,8 +35,8 @@
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/01-Post_1.jpg",
             "image_width": 650,
-            "title": "primo - maglia manica corta",
-            "text": "<p><strong>Benefici<\/strong>: ideale per <strong>sport ad alta intensità<\/strong>. Consente <strong>estrema traspirabilità<\/strong>, permettendo di <strong>scaricare velocemente il sudore<\/strong>. La pelle rimarrà sempre <strong>asciutta<\/strong> e la <strong>temperatura corporea costante<\/strong>. <\/p>",
+            "title": "Fresh - maglia manica corta",
+            "text": "<p><strong>Benefici<\/strong>: <\/p>",
             "button_label": "Acquista ora",
             "button_link": ""
           }
@@ -46,8 +46,8 @@
           "settings": {
             "enable_image": true,
             "image_width": 650,
-            "title": "scaldacollo",
-            "text": "<p><strong>Benefici<\/strong>: <strong>estrema elasticità<\/strong> che consente ampia copertura delle zone interessate e un eventuale <strong>doppio uso<\/strong>, sia come scaldacollo che come cappello. <\/p>",
+            "title": "Fresh - canotta",
+            "text": "<p><strong>Benefici<\/strong>: <\/p>",
             "button_label": "acquista ora",
             "button_link": ""
           }
