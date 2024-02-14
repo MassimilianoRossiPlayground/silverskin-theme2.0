@@ -764,8 +764,9 @@
             "link_text_2": "SALDI DONNA",
             "link_3": "",
             "link_text_3": "",
-            "color_accent": "#ffffff",
+            "color_accent": "#000000",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_21.51.06.png",
             "focal_point": "center center"
           }
         }
