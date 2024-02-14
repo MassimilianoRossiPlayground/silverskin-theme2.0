@@ -106,7 +106,7 @@
         "1578064016256"
       ],
       "custom_css": [
-        ".slideshow__slide {max-height: 7cm; background-color: white;}"
+        ".slideshow__slide {max-height: 8cm; background-color: white; padding-bottom: 0;}"
       ],
       "settings": {
         "section_height": "450px",
@@ -115,6 +115,41 @@
         "style": "minimal",
         "autoplay": true,
         "autoplay_speed": 7
+      }
+    },
+    "slideshow_qRhWLY": {
+      "type": "slideshow",
+      "blocks": {
+        "image_63W7Hy": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Endless\npossibilities.",
+            "title_size": 80,
+            "subheading": "Bring your brand to life",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "link_3": "",
+            "link_text_3": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/backcountry-skiiing-273032_1280.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_63W7Hy"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "minimal",
+        "autoplay": true,
+        "autoplay_speed": 5
       }
     },
     "promo_grid_Q6NLtb": {
@@ -778,6 +813,7 @@
   "order": [
     "6a3a252a-f724-42c8-866c-3338ea073fa8",
     "1524768368258",
+    "slideshow_qRhWLY",
     "promo_grid_Q6NLtb",
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
