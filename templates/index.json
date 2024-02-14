@@ -210,7 +210,13 @@
         "full_width": true,
         "gutter_size": 23,
         "space_above": false,
-        "space_below": true
+        "space_below": false
+      }
+    },
+    "modulo_spacer_HMPWAj": {
+      "type": "modulo-spacer",
+      "settings": {
+        "spacer": 24
       }
     },
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0": {
@@ -847,6 +853,7 @@
     "1524768368258",
     "modulo_spacer_QV3dTD",
     "promo_grid_ty4Wrz",
+    "modulo_spacer_HMPWAj",
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
     "16ecb858-aa84-4da4-a25a-0d4b36124c28",
