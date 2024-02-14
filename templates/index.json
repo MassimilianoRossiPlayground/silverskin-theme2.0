@@ -754,9 +754,9 @@
         "image_DRzCjh": {
           "type": "image",
           "settings": {
-            "top_subheading": "SONO ARRIVATI I SALDI!",
+            "top_subheading": "",
             "title": "SONO ARRIVATI I SALDI!",
-            "title_size": 68,
+            "title_size": 40,
             "subheading": "",
             "link": "https:\/\/www.silverskin.it\/collections\/saldi-uomo",
             "link_text": "SALDI UOMO",
@@ -775,6 +775,9 @@
         "image_DRzCjh"
       ],
       "disabled": true,
+      "custom_css": [
+
+      ],
       "settings": {
         "section_height": "450px",
         "mobile_height": "auto",
