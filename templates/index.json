@@ -106,7 +106,8 @@
         "1578064016256"
       ],
       "custom_css": [
-        ".slide-black-days {max-height: 8cm; background-color: white; opacity: 1;}"
+        ".slide-black-days {max-height: 8cm; background-color: white; opacity: 1;}",
+        ".hero__title {font-size: 3cm }"
       ],
       "settings": {
         "section_height": "450px",
