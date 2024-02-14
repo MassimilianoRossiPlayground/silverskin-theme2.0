@@ -34,7 +34,7 @@
             "link_text_2": "Saldi donna",
             "link_3": "shopify:\/\/pages\/collezioni",
             "link_text_3": "Scopri collezioni",
-            "color_accent": "#ffffff",
+            "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_21.32.14.png",
             "focal_point": "80% 50%"
@@ -126,7 +126,7 @@
         "1578064016256"
       ],
       "custom_css": [
-        ".slide-black-days{max-height: 1cm;"
+        ".slide-black-days{max-height: 8cm;"
       ],
       "settings": {
         "section_height": "450px",
@@ -135,12 +135,6 @@
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 7
-      }
-    },
-    "modulo_spacer_ridCaN": {
-      "type": "modulo-spacer",
-      "settings": {
-        "spacer": 24
       }
     },
     "promo_grid_Q6NLtb": {
@@ -780,7 +774,6 @@
   "order": [
     "6a3a252a-f724-42c8-866c-3338ea073fa8",
     "1524768368258",
-    "modulo_spacer_ridCaN",
     "promo_grid_Q6NLtb",
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
