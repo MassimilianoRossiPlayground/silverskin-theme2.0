@@ -783,7 +783,7 @@
         "mobile_height": "auto",
         "parallax": true,
         "style": "minimal",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 5
       }
     }
