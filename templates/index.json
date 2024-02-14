@@ -141,6 +141,12 @@
         "autoplay_speed": 7
       }
     },
+    "modulo_spacer_QV3dTD": {
+      "type": "modulo-spacer",
+      "settings": {
+        "spacer": 24
+      }
+    },
     "promo_grid_ty4Wrz": {
       "type": "promo-grid",
       "blocks": {
@@ -203,7 +209,7 @@
       "settings": {
         "full_width": true,
         "gutter_size": 23,
-        "space_above": true,
+        "space_above": false,
         "space_below": true
       }
     },
@@ -839,6 +845,7 @@
   "order": [
     "6a3a252a-f724-42c8-866c-3338ea073fa8",
     "1524768368258",
+    "modulo_spacer_QV3dTD",
     "promo_grid_ty4Wrz",
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
