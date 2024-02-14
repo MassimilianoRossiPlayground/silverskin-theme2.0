@@ -18,12 +18,6 @@
         "mobile_height": "auto"
       }
     },
-    "modulo_spacer_FjMbjK": {
-      "type": "modulo-spacer",
-      "settings": {
-        "spacer": 100
-      }
-    },
     "1524768368258": {
       "type": "slideshow",
       "blocks": {
@@ -803,7 +797,6 @@
   },
   "order": [
     "6a3a252a-f724-42c8-866c-3338ea073fa8",
-    "modulo_spacer_FjMbjK",
     "1524768368258",
     "promo_grid_Q6NLtb",
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
