@@ -34,15 +34,14 @@
             "link_text_2": "Saldi donna",
             "link_3": "shopify:\/\/pages\/collezioni",
             "link_text_3": "Scopri collezioni",
-            "color_accent": "rgba(0,0,0,0)",
+            "color_accent": "#000000",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_21.32.14.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_21.51.06.png",
             "focal_point": "80% 50%"
           }
         },
         "a5a1ab1c-7b81-40ac-9f1c-239f77488d82": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "ENJOY THE COLD",
@@ -132,7 +131,7 @@
         "section_height": "450px",
         "mobile_height": "auto",
         "parallax": false,
-        "style": "bars",
+        "style": "minimal",
         "autoplay": true,
         "autoplay_speed": 7
       }
@@ -769,6 +768,30 @@
         "feed_width": 100,
         "html_area": "<!--  -->"
       }
+    },
+    "modulo_hero_banner_pzH8fH": {
+      "type": "modulo-hero-banner",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "transparent_header": false,
+        "overlay_dark": false,
+        "content_bottom": false,
+        "herotitle": "",
+        "herosubtitle": "sono arrivati i saldi",
+        "heroparagraph": "",
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_22.01.52.png",
+        "image_mob": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_21.51.06.png",
+        "cta1text": "ACQUISTA UOMO",
+        "cta1link": "\/collections\/uomo",
+        "cta2text": "ACQUISTA DONNA",
+        "cta2link": "\/collections\/donna",
+        "cta_video": "GUARDA IL VIDEO",
+        "link_video": "",
+        "scroll_down_text": "",
+        "id_scroll_down": ""
+      }
     }
   },
   "order": [
@@ -785,6 +808,7 @@
     "16ecb858-aa84-4da4-a25a-0d4b36124c28",
     "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
     "1594645290306",
-    "1594644909912"
+    "1594644909912",
+    "modulo_hero_banner_pzH8fH"
   ]
 }
