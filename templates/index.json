@@ -18,44 +18,6 @@
         "mobile_height": "auto"
       }
     },
-    "promo_grid_e8CL6x": {
-      "type": "promo-grid",
-      "blocks": {
-        "advanced_bAT4wX": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "SONO ARRIVATI I SALDI!",
-            "textarea": "",
-            "cta_text1": "saldi uomo",
-            "cta_text1_color": "",
-            "cta_link1": "",
-            "cta_text2": "saldi donna",
-            "cta_text2_color": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_21.51.06.png",
-            "video_url": "",
-            "width": "100",
-            "height": 220,
-            "text_size": 50,
-            "text_align": "vertical-center horizontal-left",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "advanced_bAT4wX"
-      ],
-      "settings": {
-        "full_width": true,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false
-      }
-    },
     "1524768368258": {
       "type": "slideshow",
       "blocks": {
@@ -74,7 +36,6 @@
             "link_text_3": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_21.51.06.png",
             "focal_point": "80% 50%"
           }
         },
@@ -144,7 +105,7 @@
         "1578064016256"
       ],
       "custom_css": [
-        ".slide-black-days {max-height: 8cm; background-color: white; opacity: 1;}"
+        ".slide-black-days {max-height: 8cm; background-color: white;}"
       ],
       "settings": {
         "section_height": "450px",
@@ -815,7 +776,6 @@
   },
   "order": [
     "6a3a252a-f724-42c8-866c-3338ea073fa8",
-    "promo_grid_e8CL6x",
     "1524768368258",
     "promo_grid_Q6NLtb",
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
