@@ -34,7 +34,7 @@
             "link_text_2": "Saldi donna",
             "link_3": "shopify:\/\/pages\/collezioni",
             "link_text_3": "",
-            "color_accent": "#ffffff",
+            "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/forest-7150274_1280.jpg",
             "focal_point": "80% 50%"
