@@ -18,6 +18,33 @@
         "mobile_height": "auto"
       }
     },
+    "promo_grid_e8CL6x": {
+      "type": "promo-grid",
+      "blocks": {
+        "simple_jXhRd3": {
+          "type": "simple",
+          "settings": {
+            "link": "",
+            "text": "",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_21.51.06.png",
+            "width": "100",
+            "height": 240,
+            "color_tint": "rgba(0,0,0,0)",
+            "color_tint_opacity": 6,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "simple_jXhRd3"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
+    },
     "1524768368258": {
       "type": "slideshow",
       "blocks": {
@@ -777,6 +804,7 @@
   },
   "order": [
     "6a3a252a-f724-42c8-866c-3338ea073fa8",
+    "promo_grid_e8CL6x",
     "1524768368258",
     "promo_grid_Q6NLtb",
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
