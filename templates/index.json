@@ -25,9 +25,9 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "black days",
+            "title": "",
             "title_size": 40,
-            "subheading": "",
+            "subheading": "cadfjnijfkf",
             "link": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Uomo+Stay-Warm",
             "link_text": "Saldi uomo",
             "link_2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna+Stay-Warm",
@@ -106,7 +106,7 @@
         "1578064016256"
       ],
       "custom_css": [
-        ".slide-black-days {max-height: 8cm; background-color: white;}"
+        ".slideshow__slide {max-height: 8cm; background-color: white;}"
       ],
       "settings": {
         "section_height": "450px",
