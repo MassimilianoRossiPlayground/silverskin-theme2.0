@@ -21,22 +21,33 @@
     "promo_grid_e8CL6x": {
       "type": "promo-grid",
       "blocks": {
-        "simple_jXhRd3": {
-          "type": "simple",
+        "advanced_bAT4wX": {
+          "type": "advanced",
           "settings": {
-            "link": "",
-            "text": "",
+            "subheading": "",
+            "heading": "SONO ARRIVATI I SALDI!",
+            "textarea": "",
+            "cta_text1": "saldi uomo",
+            "cta_text1_color": "",
+            "cta_link1": "",
+            "cta_text2": "saldi donna",
+            "cta_text2_color": "",
+            "cta_link2": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_21.51.06.png",
+            "video_url": "",
             "width": "100",
-            "height": 240,
-            "color_tint": "rgba(0,0,0,0)",
-            "color_tint_opacity": 6,
+            "height": 220,
+            "text_size": 50,
+            "text_align": "vertical-center horizontal-left",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
             "framed": false
           }
         }
       },
       "block_order": [
-        "simple_jXhRd3"
+        "advanced_bAT4wX"
       ],
       "settings": {
         "full_width": true,
