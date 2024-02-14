@@ -25,9 +25,9 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "",
-            "title_size": 40,
-            "subheading": "sono arrivati i saldi!",
+            "title": "saldi invernali",
+            "title_size": 83,
+            "subheading": "scopri le nostre offerte",
             "link": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Uomo+Stay-Warm",
             "link_text": "Saldi uomo",
             "link_2": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Donna+Stay-Warm",
@@ -115,6 +115,12 @@
         "style": "minimal",
         "autoplay": true,
         "autoplay_speed": 7
+      }
+    },
+    "modulo_spacer_zJNmrD": {
+      "type": "modulo-spacer",
+      "settings": {
+        "spacer": 12
       }
     },
     "slideshow_qRhWLY": {
@@ -816,6 +822,7 @@
   "order": [
     "6a3a252a-f724-42c8-866c-3338ea073fa8",
     "1524768368258",
+    "modulo_spacer_zJNmrD",
     "slideshow_qRhWLY",
     "promo_grid_Q6NLtb",
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
