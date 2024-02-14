@@ -207,43 +207,6 @@
         "space_below": true
       }
     },
-    "slideshow_C7bcX3": {
-      "type": "slideshow",
-      "blocks": {
-        "image_DRzCjh": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "SONO ARRIVATI I SALDI!",
-            "title": "scopri le nostre offerte",
-            "title_size": 80,
-            "subheading": "",
-            "link": "https:\/\/www.silverskin.it\/collections\/saldi-uomo",
-            "link_text": "SALDI UOMO",
-            "link_2": "https:\/\/www.silverskin.it\/collections\/saldi-donna",
-            "link_text_2": "SALDI DONNA",
-            "link_3": "",
-            "link_text_3": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Hero-Banner_1.jpg",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "image_DRzCjh"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_height": "450px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "minimal",
-        "autoplay": true,
-        "autoplay_speed": 5
-      }
-    },
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0": {
       "type": "modulo-double-slider",
       "blocks": {
@@ -835,13 +798,48 @@
         "feed_width": 100,
         "html_area": "<!--  -->"
       }
+    },
+    "slideshow_C7bcX3": {
+      "type": "slideshow",
+      "blocks": {
+        "image_DRzCjh": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "SONO ARRIVATI I SALDI!",
+            "title": "SONO ARRIVATI I SALDI!",
+            "title_size": 68,
+            "subheading": "",
+            "link": "https:\/\/www.silverskin.it\/collections\/saldi-uomo",
+            "link_text": "SALDI UOMO",
+            "link_2": "https:\/\/www.silverskin.it\/collections\/saldi-donna",
+            "link_text_2": "SALDI DONNA",
+            "link_3": "",
+            "link_text_3": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Hero-Banner_1.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_DRzCjh"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "minimal",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
     }
   },
   "order": [
     "6a3a252a-f724-42c8-866c-3338ea073fa8",
     "1524768368258",
     "promo_grid_ty4Wrz",
-    "slideshow_C7bcX3",
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
     "16ecb858-aa84-4da4-a25a-0d4b36124c28",
@@ -852,6 +850,7 @@
     "907aa47b-4398-4a40-b26d-b02ec2ff66c7",
     "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
     "1594645290306",
-    "1594644909912"
+    "1594644909912",
+    "slideshow_C7bcX3"
   ]
 }
