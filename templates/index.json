@@ -31,14 +31,14 @@
             "title_size": 40,
             "subheading": "",
             "link": "https:\/\/www.silverskin.it\/collections\/saldi-uomo",
-            "link_text": "SALDI UOMO",
+            "link_text": "acquista UOMO",
             "link_2": "https:\/\/www.silverskin.it\/collections\/saldi-donna",
-            "link_text_2": "SALDI DONNA",
+            "link_text_2": "acquista DONNA",
             "link_3": "",
             "link_text_3": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_21.51.06.png",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/forest-7150274_1280.jpg",
             "focal_point": "center center"
           }
         }
