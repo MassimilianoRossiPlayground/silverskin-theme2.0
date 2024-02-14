@@ -25,7 +25,7 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "sono arrivati i saldi",
+            "title": "black days",
             "title_size": 40,
             "subheading": "",
             "link": "https:\/\/www.silverskin.it\/collections\/stay-warm-collection\/Uomo+Stay-Warm",
@@ -126,7 +126,7 @@
         "1578064016256"
       ],
       "custom_css": [
-        ".slide {max-height: 4cm;"
+        ".slide-black-days{max-height: 1cm;"
       ],
       "settings": {
         "section_height": "450px",
