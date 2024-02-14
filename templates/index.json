@@ -20,6 +20,52 @@
         "mobile_height": "auto"
       }
     },
+    "slideshow_C7bcX3": {
+      "type": "slideshow",
+      "blocks": {
+        "image_DRzCjh": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "è tempo di SALDI!",
+            "title_size": 40,
+            "subheading": "",
+            "link": "https:\/\/www.silverskin.it\/collections\/saldi-uomo",
+            "link_text": "SALDI UOMO",
+            "link_2": "https:\/\/www.silverskin.it\/collections\/saldi-donna",
+            "link_text_2": "SALDI DONNA",
+            "link_3": "",
+            "link_text_3": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_21.51.06.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_DRzCjh"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "minimal",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "modulo_spacer_ReNiqF": {
+      "type": "modulo-spacer",
+      "disabled": true,
+      "settings": {
+        "spacer": 24
+      }
+    },
     "1524768368258": {
       "type": "slideshow",
       "blocks": {
@@ -747,49 +793,12 @@
         "feed_width": 100,
         "html_area": "<!--  -->"
       }
-    },
-    "slideshow_C7bcX3": {
-      "type": "slideshow",
-      "blocks": {
-        "image_DRzCjh": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "SONO ARRIVATI I SALDI!",
-            "title_size": 40,
-            "subheading": "",
-            "link": "https:\/\/www.silverskin.it\/collections\/saldi-uomo",
-            "link_text": "SALDI UOMO",
-            "link_2": "https:\/\/www.silverskin.it\/collections\/saldi-donna",
-            "link_text_2": "SALDI DONNA",
-            "link_3": "",
-            "link_text_3": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_21.51.06.png",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "image_DRzCjh"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "section_height": "450px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "minimal",
-        "autoplay": false,
-        "autoplay_speed": 5
-      }
     }
   },
   "order": [
     "6a3a252a-f724-42c8-866c-3338ea073fa8",
+    "slideshow_C7bcX3",
+    "modulo_spacer_ReNiqF",
     "1524768368258",
     "modulo_spacer_QV3dTD",
     "promo_grid_ty4Wrz",
@@ -803,7 +812,6 @@
     "907aa47b-4398-4a40-b26d-b02ec2ff66c7",
     "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
     "1594645290306",
-    "1594644909912",
-    "slideshow_C7bcX3"
+    "1594644909912"
   ]
 }
