@@ -46,7 +46,6 @@
       "block_order": [
         "image_DRzCjh"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -61,7 +60,6 @@
     },
     "modulo_spacer_ReNiqF": {
       "type": "modulo-spacer",
-      "disabled": true,
       "settings": {
         "spacer": 24
       }
