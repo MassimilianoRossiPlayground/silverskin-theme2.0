@@ -4,6 +4,13 @@
     "market": "danimarca"
   },
   "sections": {
+    "6a3a252a-f724-42c8-866c-3338ea073fa8": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "1524768368258": {
       "disabled": false,
       "settings": {
@@ -21,11 +28,16 @@
         }
       }
     },
-    "6a3a252a-f724-42c8-866c-3338ea073fa8": {
+    "slideshow_C7bcX3": {
       "disabled": true,
       "settings": {
       },
       "blocks": {
+        "image_DRzCjh": {
+          "disabled": true,
+          "settings": {
+          }
+        }
       }
     }
   }
