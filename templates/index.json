@@ -130,18 +130,18 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "prova",
+            "title": "GODITI LA TUA PASSIONE",
             "title_size": 80,
-            "subheading": "Bring your brand to life",
+            "subheading": "A PARTIRE DAL BASE LAYER",
             "link": "",
-            "link_text": "Optional button",
+            "link_text": "ACQUISTA UOMO",
             "link_2": "",
-            "link_text_2": "",
+            "link_text_2": "ACQUISTA DONNA",
             "link_3": "",
             "link_text_3": "",
             "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/backcountry-skiiing-273032_1280.jpg",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/SS_MAIN_BANNER_3_Snowboard_2.jpg",
             "focal_point": "center center"
           }
         }
@@ -159,6 +159,12 @@
         "style": "minimal",
         "autoplay": true,
         "autoplay_speed": 5
+      }
+    },
+    "modulo_spacer_TqTMYj": {
+      "type": "modulo-spacer",
+      "settings": {
+        "spacer": 12
       }
     },
     "promo_grid_Q6NLtb": {
@@ -824,6 +830,7 @@
     "1524768368258",
     "modulo_spacer_zJNmrD",
     "slideshow_qRhWLY",
+    "modulo_spacer_TqTMYj",
     "promo_grid_Q6NLtb",
     "821dd9f3-2cb7-4dc8-934b-4a4c7a91c1d0",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
