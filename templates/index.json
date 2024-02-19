@@ -263,6 +263,18 @@
         "spacer": 24
       }
     },
+    "1639747130945a5580": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best sellers",
+        "home_featured_products": "homepage-ss-collection",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029": {
       "type": "modulo-icons",
       "blocks": {
@@ -390,18 +402,6 @@
         "9d301094-02b9-49b1-9e2d-8d8a0880e844"
       ],
       "settings": {
-      }
-    },
-    "1639747130945a5580": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Best sellers",
-        "home_featured_products": "homepage-ss-collection",
-        "per_row": 5,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false
       }
     },
     "46775f4e-b84f-487e-af50-855a972303b5": {
@@ -762,9 +762,9 @@
     "modulo_spacer_QV3dTD",
     "promo_grid_ty4Wrz",
     "modulo_spacer_HMPWAj",
+    "1639747130945a5580",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
     "16ecb858-aa84-4da4-a25a-0d4b36124c28",
-    "1639747130945a5580",
     "46775f4e-b84f-487e-af50-855a972303b5",
     "16057820817ca1b14f",
     "907aa47b-4398-4a40-b26d-b02ec2ff66c7",
