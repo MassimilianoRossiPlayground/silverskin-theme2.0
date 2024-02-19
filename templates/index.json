@@ -404,45 +404,6 @@
         "divider": false
       }
     },
-    "1586f3e6-8b23-4c14-b513-ab776b94b9fe": {
-      "type": "promo-grid",
-      "blocks": {
-        "33f3ed3b-c9cc-47b9-96c3-3740592d939f": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "Per qualcuno il freddo non esiste.",
-            "textarea": "Non farti fermare dal freddo. <br>Scopri i nostri base layer.",
-            "cta_text1": "Scopri i base layer per la neve",
-            "cta_text1_color": "#ffffff",
-            "cta_link1": "shopify:\/\/pages\/neve",
-            "cta_text2": "",
-            "cta_text2_color": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/hp-snow-banner_2x_e88451ea-6e88-4c43-8012-a36a7dcc20ae.jpg",
-            "video_url": "",
-            "width": "100",
-            "height": 800,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "33f3ed3b-c9cc-47b9-96c3-3740592d939f"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "gutter_size": 0,
-        "space_above": false,
-        "space_below": false
-      }
-    },
     "46775f4e-b84f-487e-af50-855a972303b5": {
       "type": "promo-grid",
       "blocks": {
@@ -804,7 +765,6 @@
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
     "16ecb858-aa84-4da4-a25a-0d4b36124c28",
     "1639747130945a5580",
-    "1586f3e6-8b23-4c14-b513-ab776b94b9fe",
     "46775f4e-b84f-487e-af50-855a972303b5",
     "16057820817ca1b14f",
     "907aa47b-4398-4a40-b26d-b02ec2ff66c7",
