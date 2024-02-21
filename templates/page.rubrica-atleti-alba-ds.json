@@ -18,7 +18,7 @@
         "herotitle": "ALBA DE SILVESTRO",
         "herosubtitle": "Lasciati ispirare dalle scelte dei nostri atleti",
         "heroparagraph": "",
-        "image": "shopify:\/\/shop_images\/a79cccda-b949-4bb5-a7ef-bf8b54fd119a.jpg",
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-02-21_alle_15.35.03.png",
         "cta1text": "",
         "cta1link": "",
         "cta2text": "",
@@ -62,6 +62,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/05-Nico-2.jpg",
             "image_width": 650,
             "title": "scaldacollo",
             "text": "<p><strong>Benefici<\/strong>: <strong>estrema elasticità<\/strong> che consente ampia copertura delle zone interessate e un eventuale <strong>doppio uso<\/strong>, sia come scaldacollo che come cappello. <\/p>",
