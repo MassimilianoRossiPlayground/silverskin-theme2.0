@@ -8,12 +8,15 @@
     },
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9": {
       "type": "modulo-hero-banner",
+      "custom_css": [
+
+      ],
       "settings": {
         "transparent_header": true,
         "overlay_dark": true,
-        "content_bottom": true,
-        "herotitle": "sci alpinismo",
-        "herosubtitle": "Lasciati ispirare dalle scelte di matteo eydallin e Alba de silvestro",
+        "content_bottom": false,
+        "herotitle": "MATTEO EYDALLIN",
+        "herosubtitle": "Lasciati ispirare dalle scelte dei nostri atleti",
         "heroparagraph": "",
         "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
         "cta1text": "",
