@@ -1,0 +1,256 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9": {
+      "type": "modulo-hero-banner",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "transparent_header": true,
+        "overlay_dark": true,
+        "content_bottom": false,
+        "herotitle": "ALBA DE SILVESTRO",
+        "herosubtitle": "Lasciati ispirare dalle scelte dei nostri atleti",
+        "heroparagraph": "",
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-02-21_alle_15.35.03.png",
+        "cta1text": "",
+        "cta1link": "",
+        "cta2text": "",
+        "cta2link": "",
+        "cta_video": "",
+        "link_video": "",
+        "scroll_down_text": "",
+        "id_scroll_down": "athlete-slider"
+      }
+    },
+    "text_and_image_8aMQk3": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/194015179-12a83778-aa5c-4203-8b48-10c2ad8c8951.jpg",
+        "image_width": 500,
+        "subtitle": "sci alpinista",
+        "title": "alba de silvestro",
+        "text": "<p>Classe 1995, atleta di sci alpinismo della Nazionale italiana dal 2012 e del Centro sportivo Esercito dal 2016. Alba ha scelto Silverskin perché la maglia Primo le consente di <strong>scaricare molto velocemente il sudore<\/strong>, rimanendo asciutta nonostante il grande sforzo fisico.<\/p>",
+        "button_label": "acquista primo donna",
+        "button_link": "",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "text_columns_7cMAU4": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_LLMFEr": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/01-Post_1.jpg",
+            "image_width": 650,
+            "title": "primo - maglia manica corta",
+            "text": "<p><strong>Benefici<\/strong>: ideale per <strong>sport ad alta intensità<\/strong>. Consente <strong>estrema traspirabilità<\/strong>, permettendo di <strong>scaricare velocemente il sudore<\/strong>. La pelle rimarrà sempre <strong>asciutta<\/strong> e la <strong>temperatura corporea costante<\/strong>. <\/p>",
+            "button_label": "Acquista ora",
+            "button_link": ""
+          }
+        },
+        "text_block_FN6mJ4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/05-Nico-2.jpg",
+            "image_width": 650,
+            "title": "scaldacollo",
+            "text": "<p><strong>Benefici<\/strong>: <strong>estrema elasticità<\/strong> che consente ampia copertura delle zone interessate e un eventuale <strong>doppio uso<\/strong>, sia come scaldacollo che come cappello. <\/p>",
+            "button_label": "acquista ora",
+            "button_link": ""
+          }
+        },
+        "text_block_fFqQbg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "FASCIA",
+            "text": "<p><strong>Benefici<\/strong>: ideale per mantenere <strong>calde e asciutte <\/strong>sia fronte che orecchie. Il tessuto è completamente privo di cuciture e <strong>morbidissimo <\/strong>sulla pelle.<\/p>",
+            "button_label": "acquista ora",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_LLMFEr",
+        "text_block_FN6mJ4",
+        "text_block_fFqQbg"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
+    },
+    "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6": {
+      "type": "modulo-newsletter-image",
+      "disabled": true,
+      "settings": {
+        "id_for_anchor": "",
+        "black_style": false,
+        "texture": "shopify:\/\/shop_images\/Texture_1.png",
+        "sup_title": "SILVERSKIN",
+        "title": "<span>10% di sconto<\/span> sul tuo primo ordine!",
+        "description": "<p>Iscriviti alla newsletter e ricevi un codice sconto del 10% da utilizzare sul tuo primo ordine.<\/p><p>Resta sempre aggiornato sulle ultime novità, sulle info dal mondo Silverskin e su promozioni imperdibili!<\/p>",
+        "image": "shopify:\/\/shop_images\/MG_4026_1.jpg",
+        "mail_placeholder": "INSERISCI LA TUA MAIL",
+        "submit_text": "ISCRIVITI"
+      }
+    },
+    "9146c261-0226-44c9-808f-1efc960963cb": {
+      "type": "instafeed",
+      "disabled": true,
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
+    "0f7c78b0-f99d-4b98-95b6-637ee22b4119": {
+      "type": "modulo-contact",
+      "settings": {
+        "title": "SE HAI DOMANDE, CONTATTACI",
+        "form_title": "MESSAGGIO",
+        "privacy": "<p>Confermo di aver letto e compreso la dichiarazione sulla <a href=\"https:\/\/www.silverskin.it\/pages\/privacy\" target=\"_blank\" title=\"\/pages\/privacy\">privacy<\/a> e acconsento al trattamento dei miei dati personali a scopi di marketing.<\/p>",
+        "btn_submit": "INVIA"
+      }
+    },
+    "6d90f70f-ae27-4399-a7d1-463f71e74b24": {
+      "type": "modulo-product-slider-gender",
+      "blocks": {
+        "05b43ffa-da34-4a8e-8892-d943a3d085f0": {
+          "type": "product_block",
+          "disabled": true,
+          "settings": {
+            "product_id_man": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-uomo",
+            "product_id_woman": "primo-thermo-dry-pro-base-layer-manica-corta-girocollo-anthracite-donna",
+            "image_man": "shopify:\/\/shop_images\/PRIMO_UOMO_-_MINI_1x_a7e410ff-1cd0-4907-8c7e-e7a6b512aa8c.png",
+            "image_woman": "shopify:\/\/shop_images\/PRIMO_DONNA_1x_d1f9d083-7aca-44cf-b3d6-f26b64c78e29.png",
+            "title": "PRIMO Thermo Dry Pro - Manica Corta",
+            "description": "PRIMO è il base layer ideale per restare concentrato sulla performance in tutte le attività con una forte componente aerobica o sforzi anaerobici, tra cui bici, corsa, sci alpinismo e sci di fondo."
+          }
+        },
+        "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a": {
+          "type": "product_block",
+          "disabled": true,
+          "settings": {
+            "product_id_man": "scaldacollo-performance-grigio-perla-sk012w",
+            "product_id_woman": "copia-del-stay-warm-scaldacollo-pearlgrey",
+            "title": "Scaldacollo",
+            "description": "inserire foto"
+          }
+        },
+        "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "sottoguanto-grigio-perla-sk006w",
+            "product_id_woman": "copia-del-stay-warm-sottoguanto-pearlgrey",
+            "image_man": "shopify:\/\/shop_images\/Pearl-Grey-PRIMO--Uomo-manica-corta---frontale-1500x1800_1080x-removebg-preview.png",
+            "image_woman": "shopify:\/\/shop_images\/DONNA_WARM_Stay_Warm_Manica_Corta_girocollo.png",
+            "title": "Sottoguanto",
+            "description": "inserire foto"
+          }
+        },
+        "07122851-e0fe-4a50-9d92-f72c9bff941d": {
+          "type": "product_block",
+          "settings": {
+            "product_id_man": "cappello-performance-grigio-perla-sk015w",
+            "product_id_woman": "stay-warm-cappello-pearlgrey",
+            "image_man": "shopify:\/\/shop_images\/X_WARM_WHITE_UOMO_-_MINI_1x_18c21288-49db-47e5-8cf9-305e1d3faa5a.png",
+            "image_woman": "shopify:\/\/shop_images\/X_WARM_WHITE_DONNA_1x_1c08e7b7-c686-4d01-b4f4-ad2462a85cf3.png",
+            "title": "Cappello",
+            "description": "Inserire immagini"
+          }
+        }
+      },
+      "block_order": [
+        "05b43ffa-da34-4a8e-8892-d943a3d085f0",
+        "27ca2e8e-7ad3-45e2-8fc7-f96cb017a65a",
+        "template--21526044999993__6d90f70f-ae27-4399-a7d1-463f71e74b24-product_block-1",
+        "07122851-e0fe-4a50-9d92-f72c9bff941d"
+      ],
+      "disabled": true,
+      "settings": {
+        "id_for_anchor": "athlete-slider-2",
+        "title": "SCOPRI I PREFERITI DAGLI ATLETI",
+        "image_man": "shopify:\/\/shop_images\/Polygon_Copy_10.png",
+        "button_man": "UOMO",
+        "image_woman": "shopify:\/\/shop_images\/Polygon_Copy_11_6e219ca2-9dbd-4545-b6e2-c0a0803b0068.png",
+        "button_woman": "DONNA",
+        "cta_text_man": "ACQUISTA UOMO",
+        "cta_text_woman": "ACQUISTA DONNA"
+      }
+    },
+    "fafb4f37-f234-4877-ac3b-1e1924791295": {
+      "type": "modulo-text-cta",
+      "disabled": true,
+      "settings": {
+        "large_content": false,
+        "title": "PROGETTATI CON CURA. INDOSSATI CON PASSIONE.",
+        "sub_title": "Gli atleti contano sui base layer per preservare la forza e migliorare la performance sportiva. Noi di Silverskin li aiutiamo a godersi la propria passione in totale comfort, con base layer traspiranti e termoregolanti.",
+        "text": "",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_link_anchor": ""
+      }
+    },
+    "04254e91-771e-4db6-8cc4-4fd9bb684b13": {
+      "type": "modulo-slider-box-text",
+      "blocks": {
+        "23835e58-d7ea-4686-b828-0f265ca09eb8": {
+          "type": "slide_rock_salt",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
+            "title": "Matteo Eydallin",
+            "sub_title": "SCI ALPINISMO",
+            "description": "<p>Atleta della Nazionale italiana, durante le competizioni Matteo utilizza la maglia a manica corta della collezione Primo e una serie di accessori. <\/p><p><\/p>",
+            "cta_1_text": "",
+            "cta_1_link": "",
+            "cta_2_text": "",
+            "cta_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "23835e58-d7ea-4686-b828-0f265ca09eb8"
+      ],
+      "disabled": true,
+      "settings": {
+        "module_id": "athlete-slider",
+        "mob_arrows_left": true,
+        "enable_text_slider": "yes",
+        "enable_line": false,
+        "sup_title": "",
+        "title": "",
+        "description": "",
+        "cta_1_text": "",
+        "cta_1_link": "",
+        "cta_2_text": "",
+        "cta_2_link": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
+    "text_and_image_8aMQk3",
+    "text_columns_7cMAU4",
+    "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
+    "9146c261-0226-44c9-808f-1efc960963cb",
+    "0f7c78b0-f99d-4b98-95b6-637ee22b4119",
+    "6d90f70f-ae27-4399-a7d1-463f71e74b24",
+    "fafb4f37-f234-4877-ac3b-1e1924791295",
+    "04254e91-771e-4db6-8cc4-4fd9bb684b13"
+  ]
+}
