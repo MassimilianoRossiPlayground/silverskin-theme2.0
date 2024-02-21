@@ -26,20 +26,6 @@
         "id_scroll_down": "athlete-slider"
       }
     },
-    "text_and_image_tP7C8T": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
-        "image_width": 500,
-        "subtitle": "SCI ALPINISTA",
-        "title": "MATTEO EYDALLIN",
-        "text": "<p>Classe 1985 e atleta della Nazionale italiana e del Centro sportivo Esercito. Per praticare la sua attività sportiva in totale comfort, Matteo ha bisogno di <strong>rimanere termoregolato e asciutto<\/strong>. I cambiamenti di temperatura dati dalle diverse altitudini non sono più un problema grazie all'alta traspirabilità della maglia Primo. <\/p>",
-        "button_label": "acquista primo uomo",
-        "button_link": "",
-        "layout": "left",
-        "divider": false
-      }
-    },
     "text_and_image_8aMQk3": {
       "type": "text-and-image",
       "settings": {
@@ -266,7 +252,6 @@
   "order": [
     "main",
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
-    "text_and_image_tP7C8T",
     "text_and_image_8aMQk3",
     "text_columns_7cMAU4",
     "89cf7397-9b52-4aa2-bf0a-321f6d37d0e6",
