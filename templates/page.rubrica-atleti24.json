@@ -49,7 +49,7 @@
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/01-Post_1.jpg",
             "image_width": 650,
-            "title": "primo - maglia manica corta",
+            "title": "primo - maglia manica lunga",
             "text": "<p><strong>Benefici<\/strong>: ideale per <strong>sport ad alta intensità<\/strong>. Consente <strong>estrema traspirabilità<\/strong>, permettendo di <strong>scaricare velocemente il sudore<\/strong>. La pelle rimarrà sempre <strong>asciutta<\/strong> e la <strong>temperatura corporea costante<\/strong>. <\/p>",
             "button_label": "Acquista ora",
             "button_link": ""
@@ -76,24 +76,12 @@
             "button_label": "acquista ora",
             "button_link": ""
           }
-        },
-        "text_block_fFqQbg": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_width": 650,
-            "title": "cappello",
-            "text": "<p><strong>Benefici<\/strong>: ideale per mantenere <strong>caldo e asciutto<\/strong> il capo durante l'attività fisica. Ha una <strong>perfetta aderenza<\/strong> al capo e la sua elasticità permette di coprire anche le orecchie.<\/p>",
-            "button_label": "acquista ora",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "text_block_LLMFEr",
         "text_block_FN6mJ4",
-        "text_block_tX77dE",
-        "text_block_fFqQbg"
+        "text_block_tX77dE"
       ],
       "settings": {
         "title": "",
