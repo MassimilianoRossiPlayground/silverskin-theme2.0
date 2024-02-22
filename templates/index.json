@@ -555,37 +555,12 @@
             "boxed": false,
             "framed": false
           }
-        },
-        "881ff7ab-1c0c-4c9d-901b-5cd2efe12d37": {
-          "type": "advanced",
-          "disabled": true,
-          "settings": {
-            "subheading": "",
-            "heading": "I nostri layer in azione",
-            "textarea": "Che tu sia in viaggio alla  scoperta di un nuovo trail o in partenza per un weekend sulla neve, <br>scopri il base layer perfetto per le tue attività.",
-            "cta_text1": "Trova il tuo base layer",
-            "cta_text1_color": "#ffffff",
-            "cta_link1": "shopify:\/\/pages\/attivita",
-            "cta_text2": "",
-            "cta_text2_color": "",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "100",
-            "height": 800,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
         }
       },
       "block_order": [
         "87fef3c1-efdb-4188-bdf0-254639f55cca",
         "86e7dccb-685a-49fe-b8db-d60511c085b6",
-        "156d3bb7-0f95-434c-9584-1233d79e11b2",
-        "881ff7ab-1c0c-4c9d-901b-5cd2efe12d37"
+        "156d3bb7-0f95-434c-9584-1233d79e11b2"
       ],
       "disabled": true,
       "settings": {
