@@ -404,95 +404,6 @@
       "settings": {
       }
     },
-    "46775f4e-b84f-487e-af50-855a972303b5": {
-      "type": "promo-grid",
-      "blocks": {
-        "be827a98-9d0e-43eb-bc7d-ff710a5983b2": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "Scopri il base layer<br>per le passioni più intense",
-            "textarea": "",
-            "cta_text1": "SCOPRI PRIMO",
-            "cta_text1_color": "#ffffff",
-            "cta_link1": "https:\/\/primo-thermodry-pro.silverskin.it",
-            "cta_text2": "",
-            "cta_text2_color": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Fascia_Campagna-min.jpg",
-            "video_url": "",
-            "width": "100",
-            "height": 800,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "461e0341-1126-4b85-b821-77373e0aa557": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "MONTAGNA, MAESTRA DI VITA",
-            "textarea": "ESPLORA LA SUA DIMENSIONE PIÙ INTIMA CON I NOSTRI BASE LAYER",
-            "cta_text1": "Scopri la collezione",
-            "cta_text1_color": "#ffffff",
-            "cta_link1": "shopify:\/\/pages\/spring-summer-2023",
-            "cta_text2": "",
-            "cta_text2_color": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/foto-montagna-HP-BN.jpg",
-            "video_url": "",
-            "width": "100",
-            "height": 800,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "2a07fafe-14ff-414d-b9e8-cbaddee00fa0": {
-          "type": "advanced",
-          "disabled": true,
-          "settings": {
-            "subheading": "",
-            "heading": "I nostri layer in azione",
-            "textarea": "Che tu sia in viaggio alla  scoperta di un nuovo trail o in partenza per un weekend sulla neve, <br>scopri il base layer perfetto per le tue attività.",
-            "cta_text1": "Trova il tuo base layer",
-            "cta_text1_color": "#ffffff",
-            "cta_link1": "shopify:\/\/pages\/attivita",
-            "cta_text2": "",
-            "cta_text2_color": "",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "100",
-            "height": 800,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "be827a98-9d0e-43eb-bc7d-ff710a5983b2",
-        "461e0341-1126-4b85-b821-77373e0aa557",
-        "2a07fafe-14ff-414d-b9e8-cbaddee00fa0"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "gutter_size": 0,
-        "space_above": false,
-        "space_below": false
-      }
-    },
     "16057820817ca1b14f": {
       "type": "promo-grid",
       "blocks": {
@@ -765,7 +676,6 @@
     "1639747130945a5580",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
     "16ecb858-aa84-4da4-a25a-0d4b36124c28",
-    "46775f4e-b84f-487e-af50-855a972303b5",
     "16057820817ca1b14f",
     "907aa47b-4398-4a40-b26d-b02ec2ff66c7",
     "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
