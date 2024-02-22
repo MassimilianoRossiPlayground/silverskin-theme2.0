@@ -11,7 +11,7 @@
       "settings": {
         "transparent_header": true,
         "overlay_dark": true,
-        "content_bottom": true,
+        "content_bottom": false,
         "herotitle": "matteo eydallin",
         "herosubtitle": "Lasciati ispirare dalle scelte dei nostri atleti",
         "heroparagraph": "",
