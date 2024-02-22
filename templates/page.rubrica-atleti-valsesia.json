@@ -50,7 +50,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/01-Post_1.jpg",
+            "image": "shopify:\/\/shop_images\/05-Nico-2.jpg",
             "image_width": 650,
             "title": "STAY WARM - MAGLIA TECNICA GIROCOLLO MANICA LUNGA",
             "text": "<p>Capace di <strong>mantenerti asciutto <\/strong>durante tutta l'attività fisica, questo base layer è perfetto per chi si trova ad affrontare <strong>temperature relativamente basse o grandi sbalzi termici<\/strong>. <strong>Morbida, confortevole e senza cuciture<\/strong>, segue perfettamente i tuoi movimenti, come una vera seconda pelle. <\/p>",
@@ -62,7 +62,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/05-Nico-2.jpg",
+            "image": "shopify:\/\/shop_images\/05-Nico-3.jpg",
             "image_width": 650,
             "title": "STAY WARM - LEGGINGS TERMICO",
             "text": "<p>Studiato per garantirti un <strong>comfort elevato<\/strong> e <strong>ampia libertà di movimento<\/strong>. L'assenza di cuciture, l'elasticità del tessuto e l'<strong>azione antibatterica<\/strong> dell'argento proteggono da possibili irritazioni e da fastidiosi sfregamenti<\/p>",
@@ -74,6 +74,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/05-Nico-4.jpg",
             "image_width": 650,
             "title": "STAY WARM - SOTTOGUANTO",
             "text": "<p>Grazie alla <strong>capacità traspirante e termoregolante <\/strong>del tessuto, le mani rimangono <strong>calde e asciutte<\/strong> durante l'attività sportiva. <\/p>",
