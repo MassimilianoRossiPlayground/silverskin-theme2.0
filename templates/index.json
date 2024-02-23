@@ -67,26 +67,6 @@
     "1524768368258": {
       "type": "slideshow",
       "blocks": {
-        "10a14c41-303c-477b-b936-a578674fcc8a": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "",
-            "title": "BLACK DAYS",
-            "title_size": 70,
-            "subheading": "L'occasione giusta per goderti il freddo a prezzi speciali",
-            "link": "shopify:\/\/collections\/saldi-uomo",
-            "link_text": "Saldi uomo",
-            "link_2": "shopify:\/\/collections\/saldi-donna",
-            "link_text_2": "Saldi donna",
-            "link_3": "shopify:\/\/pages\/collezioni",
-            "link_text_3": "Scopri collezioni",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/HERO-BlackFriday-V1_1.jpg",
-            "focal_point": "80% 50%"
-          }
-        },
         "a7caeca8-bcb3-41df-be58-73a7c6b13614": {
           "type": "image",
           "settings": {
@@ -105,32 +85,10 @@
             "image": "shopify:\/\/shop_images\/SS_MAIN_BANNER_3_Snowboard_2_1.jpg",
             "focal_point": "80% 50%"
           }
-        },
-        "1524768368258-0": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "",
-            "title": "I base layer <br>per la montagna",
-            "title_size": 70,
-            "subheading": "",
-            "link": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Uomo+Stay-Fresh",
-            "link_text": "Acquista Uomo",
-            "link_2": "https:\/\/www.silverskin.it\/collections\/stay-fresh-collection\/Donna+Stay-Fresh",
-            "link_text_2": "Acquista Donna",
-            "link_3": "",
-            "link_text_3": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/ss-activity-hero-mountaineering-desk_1x_5255cf79-f132-4924-a4f3-038253cdf316.jpg",
-            "focal_point": "80% 50%"
-          }
         }
       },
       "block_order": [
-        "10a14c41-303c-477b-b936-a578674fcc8a",
-        "a7caeca8-bcb3-41df-be58-73a7c6b13614",
-        "1524768368258-0"
+        "a7caeca8-bcb3-41df-be58-73a7c6b13614"
       ],
       "custom_css": [
         "@media screen and (max-width: 768px) {img.image-fit.hero__image.hero__image--10a14c41-303c-477b-b936-a578674fcc8a.lazyloaded {object-position: 61%; } .hero__text-content.vertical-center {vertical-align: bottom; padding-bottom: 40px; }}"
