@@ -1,11 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9": {
       "type": "modulo-hero-banner",
       "settings": {
@@ -15,7 +9,7 @@
         "herotitle": "matteo eydallin",
         "herosubtitle": "Lasciati ispirare dalle scelte dei nostri atleti",
         "heroparagraph": "",
-        "image": "shopify:\/\/shop_images\/10818473_767032673387313_9176906350828153666_o_copia_2_0.jpg",
+        "image": "shopify:\/\/shop_images\/EC3E9D81-BB8E-4962-8B65-A5CC647F788D.jpg",
         "cta1text": "",
         "cta1link": "",
         "cta2text": "",
@@ -114,7 +108,6 @@
     }
   },
   "order": [
-    "main",
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
     "text_and_image_tP7C8T",
     "featured_content_pPRJdA",
