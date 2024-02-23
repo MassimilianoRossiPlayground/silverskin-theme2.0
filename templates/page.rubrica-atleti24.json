@@ -40,6 +40,18 @@
         "divider": false
       }
     },
+    "featured_content_pPRJdA": {
+      "type": "featured-content",
+      "settings": {
+        "title": "i preferiti di matteo",
+        "text": "<p>Una carriera, quella di Matteo, fatta di infiniti podi, gare al cardiopalma, ma soprattutta tanta indiscussa passione. Quella che non contempla la fatica, ma la ricerca. Una passione da custodire e far crescere, che richiede prodotti all'altezza, che ti garantiscano la libertà di concentrarti su quello che conta davvero. Ecco una selezione dei suoi preferiti:<\/p>",
+        "text_small": "",
+        "align_text": "left",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
     "text_columns_7cMAU4": {
       "type": "text-columns",
       "blocks": {
@@ -105,6 +117,7 @@
     "main",
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
     "text_and_image_tP7C8T",
+    "featured_content_pPRJdA",
     "text_columns_7cMAU4",
     "0f7c78b0-f99d-4b98-95b6-637ee22b4119"
   ]
