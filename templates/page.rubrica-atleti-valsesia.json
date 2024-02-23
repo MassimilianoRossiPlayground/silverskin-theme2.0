@@ -43,6 +43,18 @@
         "divider": false
       }
     },
+    "featured_content_WjA3ah": {
+      "type": "featured-content",
+      "settings": {
+        "title": "i preferiti di nico",
+        "text": "<p>Dalla Race Across America, alle gare nel deserto, dai giri in bici dietro casa ai suoi \"From zero to“, Nico ci ha abituati a sfide sempre più complesse in contesti climatici spesso di difficile gestione. Proteggere il corpo è fondamentale per vivere l'outdoor in totale benessere. Ecco una selezione dei suoi preferiti.  <\/p>",
+        "text_small": "",
+        "align_text": "left",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
     "text_columns_7cMAU4": {
       "type": "text-columns",
       "blocks": {
@@ -108,6 +120,7 @@
     "main",
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9",
     "text_and_image_8aMQk3",
+    "featured_content_WjA3ah",
     "text_columns_7cMAU4",
     "0f7c78b0-f99d-4b98-95b6-637ee22b4119"
   ]
