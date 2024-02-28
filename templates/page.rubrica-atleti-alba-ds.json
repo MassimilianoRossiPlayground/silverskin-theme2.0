@@ -56,7 +56,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/01-Post_1.jpg",
+            "image": "shopify:\/\/shop_images\/02-fb-Alba-2.jpg",
             "image_width": 650,
             "title": "primo - maglia manica corta",
             "text": "<p><strong>Benefici<\/strong>: ideale per <strong>sport ad alta intensità<\/strong>. Consente <strong>estrema traspirabilità<\/strong>, permettendo di <strong>scaricare velocemente il sudore<\/strong>. La pelle rimarrà sempre <strong>asciutta<\/strong> e la <strong>temperatura corporea costante<\/strong>. <\/p>",
@@ -68,7 +68,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/05-Nico-2.jpg",
+            "image": "shopify:\/\/shop_images\/02-fb-Alba-3.jpg",
             "image_width": 650,
             "title": "scaldacollo",
             "text": "<p><strong>Benefici<\/strong>: <strong>estrema elasticità<\/strong> che consente ampia copertura delle zone interessate e un eventuale <strong>doppio uso<\/strong>, sia come scaldacollo che come cappello. <\/p>",
@@ -80,6 +80,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/02-fb-Alba-4.jpg",
             "image_width": 650,
             "title": "FASCIA",
             "text": "<p><strong>Benefici<\/strong>: ideale per mantenere <strong>calde e asciutte <\/strong>sia fronte che orecchie. Il tessuto è completamente privo di cuciture e <strong>morbidissimo <\/strong>sulla pelle.<\/p>",
@@ -99,13 +100,13 @@
         "divider": false
       }
     },
-    "0f7c78b0-f99d-4b98-95b6-637ee22b4119": {
-      "type": "modulo-contact",
+    "newsletter_e9FCDw": {
+      "type": "newsletter",
       "settings": {
-        "title": "SE HAI DOMANDE, CONTATTACI",
-        "form_title": "MESSAGGIO",
-        "privacy": "<p>Confermo di aver letto e compreso la dichiarazione sulla <a href=\"https:\/\/www.silverskin.it\/pages\/privacy\" target=\"_blank\" title=\"\/pages\/privacy\">privacy<\/a> e acconsento al trattamento dei miei dati personali a scopi di marketing.<\/p>",
-        "btn_submit": "INVIA"
+        "title": "10% di sconto sul tuo primo ordine",
+        "text": "<p>Resta sempre aggiornato su tutte le ultime <strong>novità<\/strong>, le <strong>info dal mondo Silverskin<\/strong> e <strong>promozioni imperdibili<\/strong>, direttamente nella tua casella di posta!<\/p><p>Inserisci la tua e-mail e ricevi un <strong>CODICE SCONTO DEL 10% <\/strong>da utilizzare sul tuo primo ordine!<\/p>",
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
       }
     }
   },
@@ -114,6 +115,6 @@
     "text_and_image_8aMQk3",
     "featured_content_GqMn7b",
     "text_columns_7cMAU4",
-    "0f7c78b0-f99d-4b98-95b6-637ee22b4119"
+    "newsletter_e9FCDw"
   ]
 }
