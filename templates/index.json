@@ -824,6 +824,58 @@
         "scroll_down_text": "",
         "id_scroll_down": ""
       }
+    },
+    "promo_grid_VHMKtH": {
+      "type": "promo-grid",
+      "blocks": {
+        "simple_WFMFnD": {
+          "type": "simple",
+          "settings": {
+            "link": "",
+            "text": "PER LA CORSA",
+            "width": "50",
+            "height": 300,
+            "color_tint": "#000",
+            "color_tint_opacity": 8,
+            "framed": true
+          }
+        },
+        "simple_9mPw4D": {
+          "type": "simple",
+          "settings": {
+            "link": "",
+            "text": "PER LA BICI",
+            "width": "50",
+            "height": 300,
+            "color_tint": "#000",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        },
+        "simple_MRNNLa": {
+          "type": "simple",
+          "settings": {
+            "link": "",
+            "text": "PER LA NEVE",
+            "width": "100",
+            "height": 300,
+            "color_tint": "#000",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "simple_WFMFnD",
+        "simple_9mPw4D",
+        "simple_MRNNLa"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
     }
   },
   "order": [
@@ -844,6 +896,7 @@
     "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
     "1594645290306",
     "1594644909912",
-    "modulo_hero_banner_pzH8fH"
+    "modulo_hero_banner_pzH8fH",
+    "promo_grid_VHMKtH"
   ]
 }
