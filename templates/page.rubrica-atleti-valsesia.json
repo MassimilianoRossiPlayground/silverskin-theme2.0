@@ -106,13 +106,13 @@
         "divider": false
       }
     },
-    "0f7c78b0-f99d-4b98-95b6-637ee22b4119": {
-      "type": "modulo-contact",
+    "newsletter_tWX6T4": {
+      "type": "newsletter",
       "settings": {
-        "title": "SE HAI DOMANDE, CONTATTACI",
-        "form_title": "MESSAGGIO",
-        "privacy": "<p>Confermo di aver letto e compreso la dichiarazione sulla <a href=\"https:\/\/www.silverskin.it\/pages\/privacy\" target=\"_blank\" title=\"\/pages\/privacy\">privacy<\/a> e acconsento al trattamento dei miei dati personali a scopi di marketing.<\/p>",
-        "btn_submit": "INVIA"
+        "title": "10% DI SCONTO SUL TUO PRIMO ORDINE",
+        "text": "<p>Resta sempre aggiornato su tutte le ultime <strong>novità<\/strong>, le <strong>info dal mondo Silverskin<\/strong> e <strong>promozioni imperdibili<\/strong>, direttamente nella tua casella di posta!<\/p><p>Inserisci la tua e-mail e ricevi un <strong>CODICE SCONTO DEL 10% <\/strong>da utilizzare sul tuo primo ordine!<\/p>",
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
       }
     }
   },
@@ -122,6 +122,6 @@
     "text_and_image_8aMQk3",
     "featured_content_WjA3ah",
     "text_columns_7cMAU4",
-    "0f7c78b0-f99d-4b98-95b6-637ee22b4119"
+    "newsletter_tWX6T4"
   ]
 }
