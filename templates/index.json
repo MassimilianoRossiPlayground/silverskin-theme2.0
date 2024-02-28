@@ -20,6 +20,19 @@
         "mobile_height": "auto"
       }
     },
+    "featured_content_R9tnx4": {
+      "type": "featured-content",
+      "disabled": true,
+      "settings": {
+        "title": "IL BASE LAYER PER DELLO SPORT",
+        "text": "<p>I nostri <strong>base layer<\/strong> sono studiati per assicurarti il massimo benessere durante l’attività fisica, qualunque sia la condizione climatica e la stagione.  L’innovativa struttura del tessuto accelera l’evaporazione del sudore e permette di trasferire l’umidità all’esterno, lasciando il tuo corpo asciutto. Le esclusive proprietà termoregolanti, antibatteriche e traspiranti delle pure fibre d’argento in mescola con altre fibre tecniche ed elastiche, consentono di offrirti il massimo comfort.<br\/><strong>Prenditi cura della tua passione dal suo primo strato. <\/strong><br\/><\/p>",
+        "text_small": "",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
     "slideshow_C7bcX3": {
       "type": "slideshow",
       "blocks": {
@@ -559,6 +572,7 @@
   },
   "order": [
     "6a3a252a-f724-42c8-866c-3338ea073fa8",
+    "featured_content_R9tnx4",
     "slideshow_C7bcX3",
     "modulo_spacer_ReNiqF",
     "1524768368258",
