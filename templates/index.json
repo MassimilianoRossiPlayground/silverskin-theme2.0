@@ -568,6 +568,87 @@
         "feed_width": 100,
         "html_area": "<!--  -->"
       }
+    },
+    "featured_collections_kkFGtJ": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_rKQWtc": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_A3gLeG": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_hgrF3W": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_rKQWtc",
+        "collection_A3gLeG",
+        "collection_hgrF3W"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Collection list",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
+      }
+    },
+    "promo_grid_BMy6Gn": {
+      "type": "promo-grid",
+      "blocks": {
+        "simple_aggGL7": {
+          "type": "simple",
+          "settings": {
+            "link": "",
+            "text": "",
+            "width": "50",
+            "height": 300,
+            "color_tint": "#000",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        },
+        "simple_pVEfnE": {
+          "type": "simple",
+          "settings": {
+            "link": "",
+            "text": "",
+            "width": "50",
+            "height": 300,
+            "color_tint": "#000",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "simple_aggGL7",
+        "simple_pVEfnE"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
     }
   },
   "order": [
@@ -586,6 +667,8 @@
     "907aa47b-4398-4a40-b26d-b02ec2ff66c7",
     "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
     "1594645290306",
-    "1594644909912"
+    "1594644909912",
+    "featured_collections_kkFGtJ",
+    "promo_grid_BMy6Gn"
   ]
 }
