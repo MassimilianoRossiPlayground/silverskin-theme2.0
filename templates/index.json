@@ -855,6 +855,12 @@
         "space_above": false,
         "space_below": false
       }
+    },
+    "modulo_spacer_AapVq3": {
+      "type": "modulo-spacer",
+      "settings": {
+        "spacer": 30
+      }
     }
   },
   "order": [
@@ -875,6 +881,7 @@
     "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
     "1594645290306",
     "1594644909912",
-    "promo_grid_VHMKtH"
+    "promo_grid_VHMKtH",
+    "modulo_spacer_AapVq3"
   ]
 }
