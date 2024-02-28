@@ -811,7 +811,7 @@
             "text": "PER LA CORSA",
             "image": "shopify:\/\/shop_images\/unnamed_ccf975b3-4f5c-4905-89f3-0b349263c21e.jpg",
             "width": "33",
-            "height": 520,
+            "height": 340,
             "color_tint": "#000",
             "color_tint_opacity": 8,
             "framed": true
@@ -822,6 +822,7 @@
           "settings": {
             "link": "",
             "text": "PER LA BICI",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-28_alle_15.56.32.png",
             "width": "33",
             "height": 300,
             "color_tint": "#000",
@@ -834,11 +835,12 @@
           "settings": {
             "link": "",
             "text": "PER LA NEVE",
+            "image": "shopify:\/\/shop_images\/MEI_3849.jpg",
             "width": "33",
             "height": 300,
             "color_tint": "#000",
             "color_tint_opacity": 8,
-            "framed": false
+            "framed": true
           }
         }
       },
