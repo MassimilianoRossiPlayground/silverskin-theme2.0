@@ -801,30 +801,6 @@
         "html_area": "<!--  -->"
       }
     },
-    "modulo_hero_banner_pzH8fH": {
-      "type": "modulo-hero-banner",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "transparent_header": false,
-        "overlay_dark": false,
-        "content_bottom": false,
-        "herotitle": "",
-        "herosubtitle": "sono arrivati i saldi",
-        "heroparagraph": "",
-        "image": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_22.01.52.png",
-        "image_mob": "shopify:\/\/shop_images\/Screenshot_2024-02-14_alle_21.51.06.png",
-        "cta1text": "ACQUISTA UOMO",
-        "cta1link": "\/collections\/uomo",
-        "cta2text": "ACQUISTA DONNA",
-        "cta2link": "\/collections\/donna",
-        "cta_video": "GUARDA IL VIDEO",
-        "link_video": "",
-        "scroll_down_text": "",
-        "id_scroll_down": ""
-      }
-    },
     "promo_grid_VHMKtH": {
       "type": "promo-grid",
       "blocks": {
@@ -833,7 +809,8 @@
           "settings": {
             "link": "",
             "text": "PER LA CORSA",
-            "width": "50",
+            "image": "shopify:\/\/shop_images\/02-fb-Eydallin-2.jpg",
+            "width": "33",
             "height": 300,
             "color_tint": "#000",
             "color_tint_opacity": 8,
@@ -845,11 +822,11 @@
           "settings": {
             "link": "",
             "text": "PER LA BICI",
-            "width": "50",
+            "width": "33",
             "height": 300,
             "color_tint": "#000",
             "color_tint_opacity": 8,
-            "framed": false
+            "framed": true
           }
         },
         "simple_MRNNLa": {
@@ -857,7 +834,7 @@
           "settings": {
             "link": "",
             "text": "PER LA NEVE",
-            "width": "100",
+            "width": "33",
             "height": 300,
             "color_tint": "#000",
             "color_tint_opacity": 8,
@@ -896,7 +873,6 @@
     "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
     "1594645290306",
     "1594644909912",
-    "modulo_hero_banner_pzH8fH",
     "promo_grid_VHMKtH"
   ]
 }
