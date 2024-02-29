@@ -205,6 +205,43 @@
         "divider": false
       }
     },
+    "slideshow_fexVg6": {
+      "type": "slideshow",
+      "blocks": {
+        "image_wJGXgF": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "La selezione di Alba De Silvestro",
+            "title_size": 40,
+            "subheading": "",
+            "link": "https:\/\/www.silverskin.it\/collections\/saldi-uomo",
+            "link_text": "Scopri i suoi preferiti",
+            "link_2": "",
+            "link_text_2": "",
+            "link_3": "",
+            "link_text_3": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/forest-7150274_1280.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_wJGXgF"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "minimal",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029": {
       "type": "modulo-icons",
       "blocks": {
@@ -564,6 +601,74 @@
         "space_above": false,
         "space_below": false
       }
+    },
+    "blog_posts_jL9AHp": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "Blog posts",
+        "blog": "",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
+    "text_columns_Bb8rUg": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_EPY3zM": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_qhdUWT": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_3whKgw": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_EPY3zM",
+        "text_block_qhdUWT",
+        "text_block_3whKgw"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -576,12 +681,15 @@
     "promo_grid_ty4Wrz",
     "modulo_spacer_HMPWAj",
     "1639747130945a5580",
+    "slideshow_fexVg6",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
     "16ecb858-aa84-4da4-a25a-0d4b36124c28",
     "16057820817ca1b14f",
     "1594645290306",
     "1594644909912",
     "featured_collections_kkFGtJ",
-    "promo_grid_BMy6Gn"
+    "promo_grid_BMy6Gn",
+    "blog_posts_jL9AHp",
+    "text_columns_Bb8rUg"
   ]
 }
