@@ -448,107 +448,6 @@
         "space_below": false
       }
     },
-    "907aa47b-4398-4a40-b26d-b02ec2ff66c7": {
-      "type": "promo-grid",
-      "blocks": {
-        "87fef3c1-efdb-4188-bdf0-254639f55cca": {
-          "type": "advanced",
-          "disabled": true,
-          "settings": {
-            "top_image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img04-Logo.png",
-            "subheading": "",
-            "heading": "",
-            "textarea": "Sappiamo che seguire le proprie passioni non è sempre facile. <br>I nostri base layer sono progettati per aiutarti a dare il massimo anche nei momenti più difficili.<br>\n<a href=\"\/pages\/love-hurts\">Scopri di più.<\/a>",
-            "cta_text1": "ACQUISTA UOMO",
-            "cta_text1_color": "#ffffff",
-            "cta_link1": "https:\/\/www.silverskin.it\/collections\/love-hurts\/uomo",
-            "cta_text2": "ACQUISTA DONNA",
-            "cta_text2_color": "#ffffff",
-            "cta_link2": "https:\/\/www.silverskin.it\/collections\/love-hurts\/donna",
-            "image": "shopify:\/\/shop_images\/Silverskin-HP-Inverno-Desk-Section03-Img04.jpg",
-            "video_url": "",
-            "width": "100",
-            "height": 500,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "#ffffff",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "86e7dccb-685a-49fe-b8db-d60511c085b6": {
-          "type": "advanced",
-          "disabled": true,
-          "settings": {
-            "subheading": "",
-            "heading": "Scopri il base layer<br>per le passioni più intense",
-            "textarea": "",
-            "cta_text1": "PRIMO",
-            "cta_text1_color": "#ffffff",
-            "cta_link1": "https:\/\/primo-thermodry-pro.silverskin.it",
-            "cta_text2": "",
-            "cta_text2_color": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Fascia_Campagna.jpg",
-            "video_url": "",
-            "width": "100",
-            "height": 800,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "156d3bb7-0f95-434c-9584-1233d79e11b2": {
-          "type": "advanced",
-          "disabled": true,
-          "settings": {
-            "subheading": "",
-            "heading": "MONTAGNA, MAESTRA DI VITA",
-            "textarea": "ESPLORA LA SUA DIMENSIONE PIÙ INTIMA CON I NOSTRI BASE LAYER",
-            "cta_text1": "Scopri la collezione",
-            "cta_text1_color": "#ffffff",
-            "cta_link1": "shopify:\/\/pages\/spring-summer-2023",
-            "cta_text2": "",
-            "cta_text2_color": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/foto-montagna-HP-BN.jpg",
-            "video_url": "",
-            "width": "100",
-            "height": 800,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "87fef3c1-efdb-4188-bdf0-254639f55cca",
-        "86e7dccb-685a-49fe-b8db-d60511c085b6",
-        "156d3bb7-0f95-434c-9584-1233d79e11b2"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "gutter_size": 0,
-        "space_above": false,
-        "space_below": false
-      }
-    },
-    "34fe17a8-3051-4639-9c8a-4b3bde3a7445": {
-      "type": "modulo-hero-video",
-      "disabled": true,
-      "settings": {
-        "video_desk": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d08e6d7a9f1f42a681ff16742d0d7e03.mp4",
-        "video_mob": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5ce6ac073ff340edb4ed4f63cf5d7df3.mp4"
-      }
-    },
     "1594645290306": {
       "type": "featured-content",
       "settings": {
@@ -680,8 +579,6 @@
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
     "16ecb858-aa84-4da4-a25a-0d4b36124c28",
     "16057820817ca1b14f",
-    "907aa47b-4398-4a40-b26d-b02ec2ff66c7",
-    "34fe17a8-3051-4639-9c8a-4b3bde3a7445",
     "1594645290306",
     "1594644909912",
     "featured_collections_kkFGtJ",
