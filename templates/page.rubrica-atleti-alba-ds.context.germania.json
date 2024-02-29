@@ -4,5 +4,13 @@
     "market": "germania"
   },
   "sections": {
+    "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9": {
+      "disabled": false,
+      "settings": {
+        "herosubtitle": "ENTDECKE IHRE FAVOURITEN"
+      },
+      "blocks": {
+      }
+    }
   }
 }
