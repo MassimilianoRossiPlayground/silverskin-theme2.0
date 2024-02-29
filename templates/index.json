@@ -4,7 +4,7 @@
       "type": "hero-video",
       "disabled": true,
       "settings": {
-        "title": "REGALI CHE RACCONTANO GRANDI PASSIONI",
+        "title": "chi ama l'outdoor si riconosce",
         "title_size": 80,
         "subheading": "",
         "link_text": "BASE LAYER UOMO",
@@ -621,7 +621,7 @@
             "text": "per la corsa",
             "width": "33",
             "height": 340,
-            "color_tint": "#000",
+            "color_tint": "#000000",
             "color_tint_opacity": 8,
             "framed": false
           }
@@ -634,7 +634,7 @@
             "text": "per la bici",
             "width": "33",
             "height": 340,
-            "color_tint": "#000",
+            "color_tint": "#000000",
             "color_tint_opacity": 8,
             "framed": false
           }
@@ -647,7 +647,7 @@
             "text": "per la neve",
             "width": "33",
             "height": 340,
-            "color_tint": "#000",
+            "color_tint": "#000000",
             "color_tint_opacity": 8,
             "framed": false
           }
