@@ -18,6 +18,11 @@
     .section-hero-banner {
         overflow: hidden;
     }
+    @media screen and (max-width: 543) {
+      .hero-banner__content {
+        font-size: 55px;
+      }
+    }
 {% endstyle %}
 
 <div class="section-hero-banner {% if section.settings.content_bottom %}content-bottom{% endif %} hero--{{ section.settings.section_height }} hero--{{ section.id }} hero--mobile--{{ section.settings.mobile_height }}" style="margin-top: {{top_margin}}"> 
