@@ -630,7 +630,10 @@
             "title": "Example title",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
             "button_label": "Optional button",
-            "button_link": ""
+            "button_link": "",
+            "button_label_02": "",
+            "button_link_02": "",
+            "margin_top": 15
           }
         },
         "text_block_qhdUWT": {
@@ -642,7 +645,10 @@
             "title": "Example title",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
             "button_label": "Optional button",
-            "button_link": ""
+            "button_link": "",
+            "button_label_02": "",
+            "button_link_02": "",
+            "margin_top": 15
           }
         },
         "text_block_3whKgw": {
@@ -654,7 +660,10 @@
             "title": "Example title",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
             "button_label": "Optional button",
-            "button_link": ""
+            "button_link": "",
+            "button_label_02": "",
+            "button_link_02": "",
+            "margin_top": 15
           }
         }
       },
@@ -675,7 +684,6 @@
       "blocks": {
         "advanced_qYetwh": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
             "subheading": "Limited time",
             "heading": "Announce your promotion",
@@ -699,7 +707,6 @@
         },
         "advanced_L3bTF6": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
             "subheading": "Limited time",
             "heading": "Announce your promotion",
@@ -723,7 +730,6 @@
         },
         "advanced_chwjhK": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
             "subheading": "Limited time",
             "heading": "Announce your promotion",
@@ -751,7 +757,6 @@
         "advanced_L3bTF6",
         "advanced_chwjhK"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "gutter_size": 20,
