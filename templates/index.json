@@ -126,6 +126,7 @@
     },
     "1639747130945a5580": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Best sellers",
         "home_featured_products": "homepage-ss-collection",
