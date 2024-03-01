@@ -4,6 +4,15 @@
   {% assign link_lang_trad = "/" | append: shop.locale %}
 {% endif %}
 
+{% style %}
+  @media screen and (max-width: 543px) {
+    .hero__text-content {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+{% endstyle %}
+
 <div
 data-section-id="{{ section.id }}"
 data-section-type="slideshow-section"
