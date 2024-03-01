@@ -675,6 +675,7 @@
       "blocks": {
         "advanced_qYetwh": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "Limited time",
             "heading": "Announce your promotion",
@@ -698,6 +699,7 @@
         },
         "advanced_L3bTF6": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "Limited time",
             "heading": "Announce your promotion",
@@ -721,6 +723,7 @@
         },
         "advanced_chwjhK": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "Limited time",
             "heading": "Announce your promotion",
@@ -748,6 +751,7 @@
         "advanced_L3bTF6",
         "advanced_chwjhK"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "gutter_size": 20,
