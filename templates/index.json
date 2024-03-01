@@ -2,7 +2,6 @@
   "sections": {
     "6a3a252a-f724-42c8-866c-3338ea073fa8": {
       "type": "hero-video",
-      "disabled": true,
       "settings": {
         "title": "chi ama l'outdoor si riconosce",
         "title_size": 80,
@@ -22,9 +21,8 @@
     },
     "featured_content_R9tnx4": {
       "type": "featured-content",
-      "disabled": true,
       "settings": {
-        "title": "IL BASE LAYER PER DELLO SPORT",
+        "title": "IL BASE LAYER PER LO SPORT",
         "text": "<p>I nostri <strong>base layer<\/strong> sono studiati per assicurarti il massimo benessere durante l’attività fisica, qualunque sia la condizione climatica e la stagione.  L’innovativa struttura del tessuto accelera l’evaporazione del sudore e permette di trasferire l’umidità all’esterno, lasciando il tuo corpo asciutto. Le esclusive proprietà termoregolanti, antibatteriche e traspiranti delle pure fibre d’argento in mescola con altre fibre tecniche ed elastiche, consentono di offrirti il massimo comfort.<br\/><strong>Prenditi cura della tua passione dal suo primo strato. <\/strong><br\/><\/p>",
         "text_small": "",
         "align_text": "center",
@@ -114,7 +112,6 @@
         "advanced_L3bTF6",
         "advanced_chwjhK"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "gutter_size": 20,
@@ -126,7 +123,6 @@
     },
     "1639747130945a5580": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Best sellers",
         "home_featured_products": "homepage-ss-collection",
@@ -142,6 +138,7 @@
       "blocks": {
         "image_DRzCjh": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "è tempo di SALDI!",
@@ -163,6 +160,7 @@
       "block_order": [
         "image_DRzCjh"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -177,6 +175,7 @@
     },
     "modulo_spacer_ReNiqF": {
       "type": "modulo-spacer",
+      "disabled": true,
       "settings": {
         "spacer": 24
       }
@@ -186,6 +185,7 @@
       "blocks": {
         "a7caeca8-bcb3-41df-be58-73a7c6b13614": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "GODITI LA TUA PASSIONE",
@@ -207,6 +207,7 @@
       "block_order": [
         "a7caeca8-bcb3-41df-be58-73a7c6b13614"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 768px) {img.image-fit.hero__image.hero__image--10a14c41-303c-477b-b936-a578674fcc8a.lazyloaded {object-position: 61%; } .hero__text-content.vertical-center {vertical-align: bottom; padding-bottom: 40px; }}"
       ],
@@ -219,17 +220,12 @@
         "autoplay_speed": 7
       }
     },
-    "modulo_spacer_QV3dTD": {
-      "type": "modulo-spacer",
-      "settings": {
-        "spacer": 24
-      }
-    },
     "promo_grid_ty4Wrz": {
       "type": "promo-grid",
       "blocks": {
         "advanced_UWbRyC": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "I BASE LAYER",
             "heading": "IDEALI PER LO SCI ALPINISMO",
@@ -254,6 +250,7 @@
         },
         "advanced_VRUEtF": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "IL TUO BASE LAYER",
             "heading": "PROTEZIONE IN QUALSIASI CONDIZIONE",
@@ -281,6 +278,7 @@
         "advanced_UWbRyC",
         "advanced_VRUEtF"
       ],
+      "disabled": true,
       "custom_css": [
         ".promo-grid{margin-top:0cm"
       ],
@@ -291,84 +289,64 @@
         "space_below": false
       }
     },
+    "slideshow_WfPbtL": {
+      "type": "slideshow",
+      "blocks": {
+        "image_QKTpCH": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "LA SELEZIONE DI ALBA DE SILVESTRO",
+            "title_size": 74,
+            "subheading": "",
+            "link": "https:\/\/www.silverskin.it\/pages\/alba-de-silvestro_rubrica-atleti",
+            "link_text": "scopri i suoi preferiti",
+            "link_2": "",
+            "link_text_2": "",
+            "link_3": "",
+            "link_text_3": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Fascia-1920x853.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_QKTpCH"
+      ],
+      "settings": {
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "minimal",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
     "modulo_spacer_HMPWAj": {
       "type": "modulo-spacer",
       "settings": {
         "spacer": 24
       }
     },
-    "slideshow_fexVg6": {
-      "type": "slideshow",
-      "blocks": {
-        "image_wJGXgF": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "",
-            "title": "La selezione di Alba De Silvestro",
-            "title_size": 40,
-            "subheading": "",
-            "link": "https:\/\/www.silverskin.it\/pages\/alba-de-silvestro_rubrica-atleti",
-            "link_text": "Scopri i suoi preferiti",
-            "link_2": "",
-            "link_text_2": "",
-            "link_3": "",
-            "link_text_3": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Fascia-1920x853.jpg",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "image_wJGXgF"
-      ],
-      "disabled": true,
+    "hero_video_NMP4DL": {
+      "type": "hero-video",
       "settings": {
+        "title": "protezione in qualsiasi condizione",
+        "title_size": 64,
+        "subheading": "",
+        "link_text": "scopri la tecnologia",
+        "link": "https:\/\/www.silverskin.it\/pages\/technology",
+        "link_text_2": "",
+        "link_2": "",
+        "link_text_3": "",
+        "link_3": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3a8e9265d849426fa1f01784ae6f35c2.mp4",
         "section_height": "450px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "minimal",
-        "autoplay": false,
-        "autoplay_speed": 5
-      }
-    },
-    "slideshow_9kAjCp": {
-      "type": "slideshow",
-      "blocks": {
-        "image_QNrYPn": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "",
-            "title": "PROTEZIONE IN QUALSIASI CONDIZIONE",
-            "title_size": 40,
-            "subheading": "",
-            "link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3a8e9265d849426fa1f01784ae6f35c2.mp4",
-            "link_text": "Scopri la tecnologia",
-            "link_2": "",
-            "link_text_2": "",
-            "link_3": "",
-            "link_text_3": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Fascia-1920x853.jpg",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "image_QNrYPn"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_height": "450px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "minimal",
-        "autoplay": false,
-        "autoplay_speed": 5
+        "mobile_height": "auto"
       }
     },
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029": {
@@ -425,6 +403,7 @@
         "e85a538f-0faa-4eae-8983-4f1bcf060e70",
         "c57078f2-76e8-4a92-81b7-2ea30493ba4d"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -497,7 +476,14 @@
         "8ee640c5-d009-4f4e-bd6c-d9604ea7ee40",
         "9d301094-02b9-49b1-9e2d-8d8a0880e844"
       ],
+      "disabled": true,
       "settings": {
+      }
+    },
+    "modulo_spacer_QV3dTD": {
+      "type": "modulo-spacer",
+      "settings": {
+        "spacer": 24
       }
     },
     "16057820817ca1b14f": {
@@ -614,11 +600,52 @@
         "space_below": false
       }
     },
+    "modulo_blog_slider_wPi46T": {
+      "type": "modulo-blog-slider",
+      "blocks": {
+        "slide_jekrkh": {
+          "type": "slide",
+          "settings": {
+            "article": "back-at-the-base\/primo-dall-idea-al-base-layer-per-l-alta-intensita"
+          }
+        },
+        "slide_Bi3Qit": {
+          "type": "slide",
+          "settings": {
+            "article": "exploring-the-unseen\/la-nutrizione-nellendurance-puntata-1"
+          }
+        },
+        "slide_m3VrNK": {
+          "type": "slide",
+          "settings": {
+            "article": "untold-stories\/bernina-dal-buio-alla-luce"
+          }
+        },
+        "slide_RAkU3t": {
+          "type": "slide",
+          "settings": {
+            "article": "untold-stories\/roberto-la-tdh-e-i-campi-del-nord-est"
+          }
+        }
+      },
+      "block_order": [
+        "slide_jekrkh",
+        "slide_Bi3Qit",
+        "slide_m3VrNK",
+        "slide_RAkU3t"
+      ],
+      "settings": {
+        "sup_title": "",
+        "title": "leggi le storie dal BLOG",
+        "cta_link": "https:\/\/www.silverskin.it\/pages\/journal",
+        "cta_text": "leggi la storia"
+      }
+    },
     "1594645290306": {
       "type": "featured-content",
       "settings": {
         "title": "Seguici su Instagram",
-        "text": "<p><\/p>",
+        "text": "",
         "text_small": "",
         "align_text": "center",
         "narrow_column": false,
@@ -633,87 +660,6 @@
         "feed_width": 100,
         "html_area": "<!--  -->"
       }
-    },
-    "text_columns_Bb8rUg": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_EPY3zM": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-01_alle_12.10.02.png",
-            "image_width": 650,
-            "title": "",
-            "text": "<h1>ROBERTO, LA TDH E I CAMPI DEL NORD EST<\/h1>",
-            "button_label": "scopri di più",
-            "button_link": "https:\/\/www.silverskin.it\/blogs\/untold-stories\/roberto-la-tdh-e-i-campi-del-nord-est",
-            "button_label_02": "",
-            "button_link_02": "",
-            "margin_top": 15
-          }
-        },
-        "text_block_qhdUWT": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-01_alle_12.10.10.png",
-            "image_width": 650,
-            "title": "",
-            "text": "<h1>ZUCCHERO E SPORT (PARTE 1)<\/h1>",
-            "button_label": "scopri di più",
-            "button_link": "https:\/\/www.silverskin.it\/blogs\/exploring-the-unseen\/la-nutrizione-nellendurance-puntata-1",
-            "button_label_02": "",
-            "button_link_02": "",
-            "margin_top": 15
-          }
-        },
-        "text_block_3whKgw": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-01_alle_12.10.25.png",
-            "image_width": 650,
-            "title": "",
-            "text": "<h1>BERNINA: DAL BUIO ALLA LUCE<\/h1>",
-            "button_label": "scopri di più",
-            "button_link": "https:\/\/www.silverskin.it\/blogs\/untold-stories\/bernina-dal-buio-alla-luce",
-            "button_label_02": "",
-            "button_link_02": "",
-            "margin_top": 15
-          }
-        },
-        "text_block_rc74y7": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-01_alle_12.10.33.png",
-            "image_width": 650,
-            "title": "",
-            "text": "<h1>PRIMO: DALL’IDEA AL BASE LAYER PER L’ALTA INTENSITÀ<\/h1>",
-            "button_label": "scopri di più",
-            "button_link": "https:\/\/www.silverskin.it\/blogs\/back-at-the-base\/primo-dall-idea-al-base-layer-per-l-alta-intensita",
-            "button_label_02": "",
-            "button_link_02": "",
-            "margin_top": 15
-          }
-        }
-      },
-      "block_order": [
-        "text_block_EPY3zM",
-        "text_block_qhdUWT",
-        "text_block_3whKgw",
-        "text_block_rc74y7"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "align_text": "left",
-        "divider": false
-      }
     }
   },
   "order": [
@@ -724,16 +670,16 @@
     "slideshow_C7bcX3",
     "modulo_spacer_ReNiqF",
     "1524768368258",
-    "modulo_spacer_QV3dTD",
     "promo_grid_ty4Wrz",
+    "slideshow_WfPbtL",
     "modulo_spacer_HMPWAj",
-    "slideshow_fexVg6",
-    "slideshow_9kAjCp",
+    "hero_video_NMP4DL",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
     "16ecb858-aa84-4da4-a25a-0d4b36124c28",
+    "modulo_spacer_QV3dTD",
     "16057820817ca1b14f",
+    "modulo_blog_slider_wPi46T",
     "1594645290306",
-    "1594644909912",
-    "text_columns_Bb8rUg"
+    "1594644909912"
   ]
 }
