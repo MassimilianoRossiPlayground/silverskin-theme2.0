@@ -658,11 +658,12 @@
           "disabled": true,
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-01_alle_12.10.10.png",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
-            "button_link": "",
+            "title": "",
+            "text": "<h1>ZUCCHERO E SPORT (PARTE 1)<\/h1>",
+            "button_label": "scopri di più",
+            "button_link": "https:\/\/www.silverskin.it\/blogs\/exploring-the-unseen\/la-nutrizione-nellendurance-puntata-1",
             "button_label_02": "",
             "button_link_02": "",
             "margin_top": 15
@@ -673,11 +674,28 @@
           "disabled": true,
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-01_alle_12.10.25.png",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
-            "button_link": "",
+            "title": "",
+            "text": "<h1>BERNINA: DAL BUIO ALLA LUCE<\/h1>",
+            "button_label": "scopri di più",
+            "button_link": "https:\/\/www.silverskin.it\/blogs\/untold-stories\/bernina-dal-buio-alla-luce",
+            "button_label_02": "",
+            "button_link_02": "",
+            "margin_top": 15
+          }
+        },
+        "text_block_rc74y7": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-01_alle_12.10.33.png",
+            "image_width": 650,
+            "title": "",
+            "text": "<h1>PRIMO: DALL’IDEA AL BASE LAYER PER L’ALTA INTENSITÀ<\/h1>",
+            "button_label": "scopri di più",
+            "button_link": "https:\/\/www.silverskin.it\/blogs\/back-at-the-base\/primo-dall-idea-al-base-layer-per-l-alta-intensita",
             "button_label_02": "",
             "button_link_02": "",
             "margin_top": 15
@@ -687,7 +705,8 @@
       "block_order": [
         "text_block_EPY3zM",
         "text_block_qhdUWT",
-        "text_block_3whKgw"
+        "text_block_3whKgw",
+        "text_block_rc74y7"
       ],
       "disabled": true,
       "settings": {
