@@ -1,6 +1,8 @@
 {% assign selectedProduct = product.selected_or_first_available_variant %}
 {% assign omnibusprice = selectedProduct.metafields.omnibus.price %}
+{% assign omnibusdate = selectedProduct.metafields.omnibus.date %}
 {% assign label = 'products.general.omnibus' | t %}
+{% assign date_format = '%B %d, %Y' %}
 
 <div id="sniffie-omnibus-price">
   {% if omnibusprice != blank %}
