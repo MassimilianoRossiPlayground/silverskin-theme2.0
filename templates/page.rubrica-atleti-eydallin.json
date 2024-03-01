@@ -3,6 +3,8 @@
     "d53a7edd-cbc3-4b1a-9c8a-a8572a3409f9": {
       "type": "modulo-hero-banner",
       "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
         "transparent_header": true,
         "overlay_dark": true,
         "content_bottom": false,
@@ -29,8 +31,8 @@
         "subtitle": "SCIatore ALPINISTA",
         "title": "MATTEO EYDALLIN",
         "text": "<p>Steppen - ovvero guardiano delle steppe innevate - è il soprannone di Matteo Eydallin, <strong>sciatore alpinista, atleta della nazionale italiana e pluricampione del mondo<\/strong>.  Nato e cresciuto a Sauze d’Oulx, Matteo ha cominciato a sciare alla tenera età di tre anni. La propensione verso l’endurance è arrivata presto e lo sci alpinismo, che fa della fatica la regina indiscussa, è diventato il suo modo di vivere la montagna. <strong>Montagna che per lui non è solo casa, ma anche guida<\/strong>: “I monti sono maestri muti e fanno discepoli silenziosi”, come gli piace ricordare citando Goethe. <\/p>",
-        "button_label": "acquista primo uomo",
-        "button_link": "https:\/\/www.silverskin.it\/products\/primo-thermo-dry-pro",
+        "button_label": "",
+        "button_link": "",
         "layout": "left",
         "divider": false
       }
@@ -59,7 +61,10 @@
             "title": "primo - maglia manica lunga",
             "text": "<p>Questo base layer, sviluppato da sportivi in collaborazione con atleti, risponde alle esigenze di chi pratica <strong>sport ad alta intensità<\/strong>. La sua trama unica consente di <strong>trasferire all'esterno grandi quantità di sudore<\/strong>, lasciando il <strong>corpo asciutto e termoregolato<\/strong>.   <\/p>",
             "button_label": "Acquista ora",
-            "button_link": ""
+            "button_link": "",
+            "button_label_02": "",
+            "button_link_02": "",
+            "margin_top": 15
           }
         },
         "text_block_FN6mJ4": {
@@ -71,7 +76,10 @@
             "title": "scaldacollo",
             "text": "<p><strong>Morbido e traspirante<\/strong>, lo scaldacollo della linea Stay Warm <strong>protegge dal freddo<\/strong>, <strong>senza farti sudare<\/strong>. L'<strong>estrema elasticità<\/strong> del tessuto consente di indossarlo con facilità, senza rimuovere il casco. <\/p>",
             "button_label": "acquista ora",
-            "button_link": ""
+            "button_link": "",
+            "button_label_02": "",
+            "button_link_02": "",
+            "margin_top": 15
           }
         },
         "text_block_tX77dE": {
@@ -83,7 +91,10 @@
             "title": "sottoguanto",
             "text": "<p>I sottoguanti della linea STAY WARM ti aiuteranno ad avere le <strong>mani calde e asciutte<\/strong>. Indossali sotto un altro paio di guanti per goderti anche le giornate più fredde in serenità.<\/p>",
             "button_label": "acquista ora",
-            "button_link": ""
+            "button_link": "",
+            "button_label_02": "",
+            "button_link_02": "",
+            "margin_top": 15
           }
         }
       },
