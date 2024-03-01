@@ -33,6 +33,109 @@
         "divider": false
       }
     },
+    "product_grid_slider_34Y9pz": {
+      "type": "product-grid-slider",
+      "blocks": {
+        "advanced_qYetwh": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "PER LA CORSA",
+            "textarea": "",
+            "cta_text1": "ACQUISTA UOMO",
+            "cta_text1_color": "",
+            "cta_link1": "https:\/\/www.silverskin.it\/collections\/per-la-corsa-uomo",
+            "cta_text2": "ACQUISTA DONNA",
+            "cta_text2_color": "",
+            "cta_link2": "https:\/\/www.silverskin.it\/collections\/per-la-corsa",
+            "image": "shopify:\/\/shop_images\/img-1.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "advanced_L3bTF6": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "PER LA BICI",
+            "textarea": "",
+            "cta_text1": "ACQUISTA UOMO",
+            "cta_text1_color": "",
+            "cta_link1": "https:\/\/www.silverskin.it\/collections\/per-la-bici-uomo",
+            "cta_text2": "ACQUISTA DONNA",
+            "cta_text2_color": "",
+            "cta_link2": "https:\/\/www.silverskin.it\/collections\/per-la-bici-donna",
+            "image": "shopify:\/\/shop_images\/img-2.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "advanced_chwjhK": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "PER LA NEVE",
+            "textarea": "",
+            "cta_text1": "ACQUISTA UOMO",
+            "cta_text1_color": "",
+            "cta_link1": "https:\/\/www.silverskin.it\/collections\/per-la-neve",
+            "cta_text2": "ACQUISTA DONNA",
+            "cta_text2_color": "",
+            "cta_link2": "https:\/\/www.silverskin.it\/collections\/per-la-neve-donna",
+            "image": "shopify:\/\/shop_images\/img-3.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "advanced_qYetwh",
+        "advanced_L3bTF6",
+        "advanced_chwjhK"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false,
+        "margin_top": 100,
+        "margin_bottom": 100
+      }
+    },
+    "1639747130945a5580": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best sellers",
+        "home_featured_products": "homepage-ss-collection",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
     "slideshow_C7bcX3": {
       "type": "slideshow",
       "blocks": {
@@ -193,18 +296,6 @@
         "spacer": 24
       }
     },
-    "1639747130945a5580": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Best sellers",
-        "home_featured_products": "homepage-ss-collection",
-        "per_row": 5,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false
-      }
-    },
     "slideshow_fexVg6": {
       "type": "slideshow",
       "blocks": {
@@ -216,7 +307,7 @@
             "title": "La selezione di Alba De Silvestro",
             "title_size": 40,
             "subheading": "",
-            "link": "https:\/\/www.silverskin.it\/collections\/saldi-uomo",
+            "link": "https:\/\/www.silverskin.it\/pages\/alba-de-silvestro_rubrica-atleti",
             "link_text": "Scopri i suoi preferiti",
             "link_2": "",
             "link_text_2": "",
@@ -224,7 +315,7 @@
             "link_text_3": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/forest-7150274_1280.jpg",
+            "image": "shopify:\/\/shop_images\/Fascia-1920x853.jpg",
             "focal_point": "center center"
           }
         }
@@ -546,62 +637,6 @@
         "enable_gutter": true
       }
     },
-    "promo_grid_BMy6Gn": {
-      "type": "promo-grid",
-      "blocks": {
-        "simple_aggGL7": {
-          "type": "simple",
-          "disabled": true,
-          "settings": {
-            "link": "",
-            "text": "per la corsa",
-            "width": "33",
-            "height": 340,
-            "color_tint": "#000000",
-            "color_tint_opacity": 8,
-            "framed": false
-          }
-        },
-        "simple_pVEfnE": {
-          "type": "simple",
-          "disabled": true,
-          "settings": {
-            "link": "",
-            "text": "per la bici",
-            "width": "33",
-            "height": 340,
-            "color_tint": "#000000",
-            "color_tint_opacity": 8,
-            "framed": false
-          }
-        },
-        "simple_tLNVi7": {
-          "type": "simple",
-          "disabled": true,
-          "settings": {
-            "link": "",
-            "text": "per la neve",
-            "width": "33",
-            "height": 340,
-            "color_tint": "#000000",
-            "color_tint_opacity": 8,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "simple_aggGL7",
-        "simple_pVEfnE",
-        "simple_tLNVi7"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "gutter_size": 18,
-        "space_above": false,
-        "space_below": false
-      }
-    },
     "blog_posts_jL9AHp": {
       "type": "blog-posts",
       "disabled": true,
@@ -678,109 +713,19 @@
         "align_text": "left",
         "divider": false
       }
-    },
-    "product_grid_slider_34Y9pz": {
-      "type": "product-grid-slider",
-      "blocks": {
-        "advanced_qYetwh": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "PER LA CORSA",
-            "textarea": "",
-            "cta_text1": "ACQUISTA UOMO",
-            "cta_text1_color": "",
-            "cta_link1": "https:\/\/www.silverskin.it\/collections\/per-la-corsa-uomo",
-            "cta_text2": "ACQUISTA DONNA",
-            "cta_text2_color": "",
-            "cta_link2": "https:\/\/www.silverskin.it\/collections\/per-la-corsa",
-            "image": "shopify:\/\/shop_images\/img-1.jpg",
-            "video_url": "",
-            "width": "50",
-            "height": 500,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "advanced_L3bTF6": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "PER LA BICI",
-            "textarea": "",
-            "cta_text1": "ACQUISTA UOMO",
-            "cta_text1_color": "",
-            "cta_link1": "https:\/\/www.silverskin.it\/collections\/per-la-bici-uomo",
-            "cta_text2": "ACQUISTA DONNA",
-            "cta_text2_color": "",
-            "cta_link2": "https:\/\/www.silverskin.it\/collections\/per-la-bici-donna",
-            "image": "shopify:\/\/shop_images\/img-2.jpg",
-            "video_url": "",
-            "width": "50",
-            "height": 500,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "advanced_chwjhK": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "PER LA NEVE",
-            "textarea": "",
-            "cta_text1": "ACQUISTA UOMO",
-            "cta_text1_color": "",
-            "cta_link1": "https:\/\/www.silverskin.it\/collections\/per-la-neve",
-            "cta_text2": "ACQUISTA DONNA",
-            "cta_text2_color": "",
-            "cta_link2": "https:\/\/www.silverskin.it\/collections\/per-la-neve-donna",
-            "image": "shopify:\/\/shop_images\/img-3.jpg",
-            "video_url": "",
-            "width": "100",
-            "height": 500,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "advanced_qYetwh",
-        "advanced_L3bTF6",
-        "advanced_chwjhK"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false,
-        "margin_top": 100,
-        "margin_bottom": 100
-      }
     }
   },
   "order": [
     "6a3a252a-f724-42c8-866c-3338ea073fa8",
     "featured_content_R9tnx4",
+    "product_grid_slider_34Y9pz",
+    "1639747130945a5580",
     "slideshow_C7bcX3",
     "modulo_spacer_ReNiqF",
     "1524768368258",
     "modulo_spacer_QV3dTD",
     "promo_grid_ty4Wrz",
     "modulo_spacer_HMPWAj",
-    "1639747130945a5580",
     "slideshow_fexVg6",
     "e0fdb7f7-4d68-4321-beb0-2854d57aa029",
     "16ecb858-aa84-4da4-a25a-0d4b36124c28",
@@ -788,9 +733,7 @@
     "1594645290306",
     "1594644909912",
     "featured_collections_kkFGtJ",
-    "promo_grid_BMy6Gn",
     "blog_posts_jL9AHp",
-    "text_columns_Bb8rUg",
-    "product_grid_slider_34Y9pz"
+    "text_columns_Bb8rUg"
   ]
 }
