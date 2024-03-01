@@ -10,41 +10,6 @@
       },
       "blocks": {
       }
-    },
-    "1524768368258": {
-      "disabled": false,
-      "settings": {
-      },
-      "blocks": {
-        "a7caeca8-bcb3-41df-be58-73a7c6b13614": {
-          "disabled": false,
-          "settings": {
-            "title": "ENJOY YOUR PASSION",
-            "subheading": "WE'LL TAKE CARE OF THE REST"
-          }
-        }
-      }
-    },
-    "promo_grid_ty4Wrz": {
-      "settings": {
-      },
-      "blocks": {
-        "advanced_UWbRyC": {
-          "settings": {
-            "subheading": "BASE LAYER",
-            "heading": "IDEAL FOR SKIMO",
-            "cta_text1": "MEN",
-            "cta_text2": "WOMEN"
-          }
-        }
-      }
-    },
-    "slideshow_C7bcX3": {
-      "disabled": true,
-      "settings": {
-      },
-      "blocks": {
-      }
     }
   }
 }
