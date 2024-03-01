@@ -58,6 +58,11 @@
             {{ block.settings.button_label }}
           </a>
         {% endif %}
+        {% if block.settings.button_label_02 != blank %}
+          <a href="{{ block.settings.button_link_02 }}" class="btn btn--secondary btn--small">
+            {{ block.settings.button_label_02 }}
+          </a>
+        {% endif %}
       </div>
     {% endfor %}
   </div>
