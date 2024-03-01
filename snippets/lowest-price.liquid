@@ -7,7 +7,7 @@
     <span>
       {% if selectedProduct.compare_at_price >= product.price %}
         {{ label }}
-        {{ omnibusprice | metafield_tag }}
+        {{ omnibusprice | metafield_tag }}        
         {% if omnibusdate != null %}      
           ({{ omnibusdate | date: date_format }})    
         {% endif %}
