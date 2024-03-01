@@ -290,7 +290,7 @@
       "regular_price": "Prezzo",
       "from_text_html": "da {{price}}",
       "recent_products": "Visti recentemente",
-      "omnibus": "Minor prezzo a 30 giorni prima dello sconto:"
+      "omnibus": "Prima era:"
     },
     "product": {
       "stock_label": "Solo {{count}} articoli in stock!",
