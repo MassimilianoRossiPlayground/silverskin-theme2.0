@@ -6,6 +6,8 @@
 
       ],
       "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
         "transparent_header": true,
         "overlay_dark": true,
         "content_bottom": false,
