@@ -4,19 +4,25 @@
 {% assign label = 'products.general.omnibus' | t %}
 {% assign date_format = '%B %d, %Y' %}
 
-<div id="sniffie-omnibus-price">
-  {% if omnibusprice != blank %}
+{%  style  %} 
+  #sniffie-omnibus-price {
+    padding-bottom: 10px;
+  }
+{% endstyle %}
+
+{% if omnibusprice != blank %}
+  <div id="sniffie-omnibus-price">
     <span>
       {% if selectedProduct.compare_at_price >= product.price %}
         {{ label }}
-        {{ omnibusprice | metafield_tag }}        
+        {{ omnibusprice | metafield_tag }}
         {% if omnibusdate != null %}      
           ({{ omnibusdate | date: date_format }})    
         {% endif %}
       {% endif %}
     </span>
-  {% endif %}
-</div>
+  </div>
+{% endif %}
 
 <script>
 if(window.omnibusPriceSection="{{ section.id }}","undefined"==typeof lastUrl){let e=location.href;new MutationObserver(()=>{let n=location.href;n!==e&&(e=n,onUrlChange())}).observe(document,{subtree:!0,childList:!0})}function onUrlChange(){let e=new URL(location.href),n=e.searchParams.get("variant");getData(n)}async function getData(e){getDataFromServer(e)}async function getDataFromServer(e){try{var n=new URLSearchParams({variant:e,section_id:window.omnibusPriceSection});fetch("".concat(window.location.pathname,"?").concat(n.toString())).then(e=>e.text()).then(e=>{let n=new DOMParser().parseFromString(e,"text/html"),t=document.querySelector("#sniffie-omnibus-price"),r=n.querySelector("#sniffie-omnibus-price");r&&t&&(t.innerHTML=r.innerHTML)})}catch(t){console.log("error when updating omnibus price",t)}}
