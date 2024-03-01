@@ -669,6 +669,93 @@
         "align_text": "left",
         "divider": false
       }
+    },
+    "product_grid_slider_34Y9pz": {
+      "type": "product-grid-slider",
+      "blocks": {
+        "advanced_qYetwh": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_text1_color": "",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "advanced_L3bTF6": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_text1_color": "",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "advanced_chwjhK": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_text1_color": "",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "advanced_qYetwh",
+        "advanced_L3bTF6",
+        "advanced_chwjhK"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false,
+        "margin_top": 100,
+        "margin_bottom": 100
+      }
     }
   },
   "order": [
@@ -690,6 +777,7 @@
     "featured_collections_kkFGtJ",
     "promo_grid_BMy6Gn",
     "blog_posts_jL9AHp",
-    "text_columns_Bb8rUg"
+    "text_columns_Bb8rUg",
+    "product_grid_slider_34Y9pz"
   ]
 }
