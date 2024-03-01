@@ -757,6 +757,7 @@
         "advanced_L3bTF6",
         "advanced_chwjhK"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "gutter_size": 20,
