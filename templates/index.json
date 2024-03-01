@@ -313,6 +313,121 @@
         "space_below": false
       }
     },
+    "product_grid_slider_Tx4VA6": {
+      "type": "product-grid-slider",
+      "blocks": {
+        "advanced_nkbqNJ": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "BACK AT THE BASE",
+            "heading": "PRIMO: DALL'IDEA AL BASE LAYER PER L'ALTA INTENSITÀ",
+            "textarea": "",
+            "cta_text1": "LEGGI DI PIù",
+            "cta_text1_color": "",
+            "cta_link1": "https:\/\/www.silverskin.it\/blogs\/back-at-the-base\/primo-dall-idea-al-base-layer-per-l-alta-intensita",
+            "cta_text2": "",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-01_alle_12.10.33.png",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "advanced_Yk4ATy": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "EXPLORING THE UNSEEN",
+            "heading": "ZUCCHERO E SPORT (PARTE 1)",
+            "textarea": "",
+            "cta_text1": "LEGGI DI PIù",
+            "cta_text1_color": "",
+            "cta_link1": "https:\/\/www.silverskin.it\/blogs\/exploring-the-unseen\/la-nutrizione-nellendurance-puntata-1",
+            "cta_text2": "",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-01_alle_12.10.10.png",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "advanced_PnWwEJ": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "UNTOLD STORIES",
+            "heading": "BERNINA: DAL BUIO ALLA LUCE",
+            "textarea": "",
+            "cta_text1": "LEGGI DI PIù",
+            "cta_text1_color": "",
+            "cta_link1": "https:\/\/www.silverskin.it\/blogs\/untold-stories\/bernina-dal-buio-alla-luce",
+            "cta_text2": "",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-01_alle_12.10.25.png",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "advanced_AHd46g": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "UNTOLD STORIES",
+            "heading": "ROBERTO, LA TDH E I CAMPI DEL NORD EST",
+            "textarea": "",
+            "cta_text1": "LEGGI DI PIù",
+            "cta_text1_color": "",
+            "cta_link1": "https:\/\/www.silverskin.it\/blogs\/untold-stories\/roberto-la-tdh-e-i-campi-del-nord-est",
+            "cta_text2": "",
+            "cta_text2_color": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-01_alle_12.10.02.png",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "advanced_nkbqNJ",
+        "advanced_Yk4ATy",
+        "advanced_PnWwEJ",
+        "advanced_AHd46g"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false,
+        "margin_top": 100,
+        "margin_bottom": 100
+      }
+    },
     "modulo_blog_slider_wPi46T": {
       "type": "modulo-blog-slider",
       "blocks": {
@@ -347,6 +462,7 @@
         "slide_m3VrNK",
         "slide_RAkU3t"
       ],
+      "disabled": true,
       "settings": {
         "sup_title": "",
         "title": "leggi le storie dal BLOG",
@@ -385,6 +501,7 @@
     "hero_video_NMP4DL",
     "modulo_spacer_QV3dTD",
     "16057820817ca1b14f",
+    "product_grid_slider_Tx4VA6",
     "modulo_blog_slider_wPi46T",
     "1594645290306",
     "1594644909912"
