@@ -63,8 +63,11 @@
             "image_width": 650,
             "title": "primo - maglia manica corta",
             "text": "<p>Questo base layer, sviluppato da sportivi in collaborazione con atleti, risponde alle esigenze di chi pratica <strong>sport ad alta intensità<\/strong>. La sua trama unica consente di <strong>trasferire all'esterno grandi quantità di sudore<\/strong>, lasciando il <strong>corpo asciutto<\/strong> e <strong>termoregolato<\/strong>.   <\/p>",
-            "button_label": "Acquista ora",
-            "button_link": ""
+            "button_label": "ACQUISTA UOMO",
+            "button_link": "https:\/\/www.silverskin.it\/en\/products\/primo-thermo-dry-pro-base-layer-manica-corta-girocollo-pearlgrey-uomo",
+            "button_label_02": "ACQUISTA DONNA",
+            "button_link_02": "https:\/\/www.silverskin.it\/en\/products\/primo-thermo-dry-pro-base-layer-manica-corta-girocollo-pearlgrey-donna",
+            "margin_top": 15
           }
         },
         "text_block_FN6mJ4": {
@@ -76,7 +79,10 @@
             "title": "scaldacollo",
             "text": "<p><strong>Morbido e traspirante<\/strong>, lo scaldacollo della linea Stay Warm <strong>protegge dal freddo, senza farti sudare<\/strong>. L'estrema elasticità del tessuto consente di indossarlo con facilità, senza rimuovere il casco. <\/p>",
             "button_label": "acquista ora",
-            "button_link": ""
+            "button_link": "",
+            "button_label_02": "",
+            "button_link_02": "",
+            "margin_top": 15
           }
         },
         "text_block_fFqQbg": {
@@ -88,7 +94,10 @@
             "title": "FASCIA",
             "text": "<p>Ideale per chi pratica sport nei mesi più freddi e cerca un riparo per le orecchie che tenga <strong>caldo<\/strong>, ma che sia anche <strong>traspirante<\/strong>. L'<strong>assenza di cuciture<\/strong> e l'<strong>elasticità<\/strong> del tessuto rendono questa fascia <strong>estremamente confortevole sulla pelle<\/strong>.  <\/p>",
             "button_label": "acquista ora",
-            "button_link": ""
+            "button_link": "",
+            "button_label_02": "",
+            "button_link_02": "",
+            "margin_top": 15
           }
         }
       },
