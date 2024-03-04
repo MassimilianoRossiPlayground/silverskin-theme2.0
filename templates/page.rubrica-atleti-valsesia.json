@@ -12,6 +12,8 @@
 
       ],
       "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
         "transparent_header": true,
         "overlay_dark": true,
         "content_bottom": false,
@@ -67,8 +69,11 @@
             "image_width": 650,
             "title": "STAY WARM - MAGLIA TECNICA GIROCOLLO MANICA LUNGA",
             "text": "<p>Capace di <strong>mantenerti asciutto <\/strong>durante tutta l'attività fisica, questo base layer è perfetto per chi si trova ad affrontare <strong>temperature relativamente basse o grandi sbalzi termici<\/strong>. <strong>Morbida, confortevole e senza cuciture<\/strong>, segue perfettamente i tuoi movimenti, come una vera seconda pelle. <\/p>",
-            "button_label": "Acquista ora",
-            "button_link": ""
+            "button_label": "ACQUISTA UOMO",
+            "button_link": "",
+            "button_label_02": "ACQUISTA DONNA",
+            "button_link_02": "",
+            "margin_top": 15
           }
         },
         "text_block_FN6mJ4": {
@@ -79,8 +84,11 @@
             "image_width": 650,
             "title": "STAY WARM - LEGGINGS TERMICO",
             "text": "<p>Studiato per garantirti un <strong>comfort elevato<\/strong> e <strong>ampia libertà di movimento<\/strong>. L'assenza di cuciture, l'elasticità del tessuto e l'<strong>azione antibatterica<\/strong> dell'argento proteggono da possibili irritazioni e da fastidiosi sfregamenti<\/p>",
-            "button_label": "acquista ora",
-            "button_link": ""
+            "button_label": "acquista UOMO",
+            "button_link": "",
+            "button_label_02": "ACQUISTA DONNA",
+            "button_link_02": "",
+            "margin_top": 15
           }
         },
         "text_block_fFqQbg": {
@@ -91,8 +99,11 @@
             "image_width": 650,
             "title": "STAY WARM - SOTTOGUANTO",
             "text": "<p>Grazie alla <strong>capacità traspirante e termoregolante <\/strong>del tessuto, le mani rimangono <strong>calde e asciutte<\/strong> durante l'attività sportiva. <\/p>",
-            "button_label": "acquista ora",
-            "button_link": ""
+            "button_label": "acquista UOMO",
+            "button_link": "",
+            "button_label_02": "ACQUISTA DONNA",
+            "button_link_02": "",
+            "margin_top": 15
           }
         }
       },
