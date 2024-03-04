@@ -6,6 +6,8 @@
 
       ],
       "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
         "transparent_header": true,
         "overlay_dark": true,
         "content_bottom": false,
@@ -61,8 +63,11 @@
             "image_width": 650,
             "title": "STAY X-WARM MAGLIA TERMICA MANICA LUNGA GIROCOLLO",
             "text": "<p><strong>Benefici<\/strong>: ideale per <strong>sport ad alta intensità<\/strong>. Consente <strong>estrema traspirabilità<\/strong>, permettendo di <strong>scaricare velocemente il sudore<\/strong>. La pelle rimarrà sempre <strong>asciutta<\/strong> e la <strong>temperatura corporea costante<\/strong>. <\/p>",
-            "button_label": "Acquista ora",
-            "button_link": ""
+            "button_label": "ACQUISTA UOMO",
+            "button_link": "https:\/\/www.silverskin.it\/products\/base-layer-termico-manica-lunga-girocollo-antracite-sk003lnx",
+            "button_label_02": "ACQUISTA DONNA",
+            "button_link_02": "https:\/\/www.silverskin.it\/products\/base-layer-termico-manica-lunga-girocollo-anthracite",
+            "margin_top": 15
           }
         },
         "text_block_FN6mJ4": {
@@ -73,8 +78,11 @@
             "image_width": 650,
             "title": "STAY WARM - LEGGINGS TERMICO",
             "text": "<p><strong>Benefici<\/strong>: <strong>estrema elasticità<\/strong> che consente ampia copertura delle zone interessate e un eventuale <strong>doppio uso<\/strong>, sia come scaldacollo che come cappello. <\/p>",
-            "button_label": "acquista ora",
-            "button_link": ""
+            "button_label": "ACQUISTA UOMO",
+            "button_link": "",
+            "button_label_02": "ACQUISTA DONNA",
+            "button_link_02": "",
+            "margin_top": 15
           }
         },
         "text_block_fFqQbg": {
@@ -85,8 +93,11 @@
             "image_width": 650,
             "title": "STAY WARM - SOTTOCASCO",
             "text": "<p><strong>Benefici<\/strong>: ideale per mantenere <strong>calde e asciutte <\/strong>sia fronte che orecchie. Il tessuto è completamente privo di cuciture e <strong>morbidissimo <\/strong>sulla pelle.<\/p>",
-            "button_label": "acquista ora",
-            "button_link": ""
+            "button_label": "ACQUISTA UOMO",
+            "button_link": "",
+            "button_label_02": "ACQUISTA DONNA",
+            "button_link_02": "",
+            "margin_top": 15
           }
         }
       },
