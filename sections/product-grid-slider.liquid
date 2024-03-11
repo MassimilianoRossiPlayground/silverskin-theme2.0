@@ -87,6 +87,11 @@
                         {{ block.settings.heading }}
                       </div>
                     {% endif %}
+                    {% if block.settings.smallHeading != blank %}
+                      <div class="rte--block rte--strong small-heading">
+                        {{ block.settings.smallHeading }}
+                      </div>
+                    {% endif %}
                     {% if block.settings.textarea != blank %}
                       <div class="rte--block">
                         {{ block.settings.textarea | newline_to_br }}
@@ -212,6 +217,12 @@
             "type": "image_picker",
             "id": "top_image",
             "label": "Top Image"
+          },
+          {
+            "type": "text",
+            "id": "smallHeading",
+            "label": "Small Heading",
+            "default": "Limited time"
           },
           {
             "type": "text",
