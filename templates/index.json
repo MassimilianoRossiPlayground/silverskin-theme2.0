@@ -37,6 +37,7 @@
         "advanced_qYetwh": {
           "type": "advanced",
           "settings": {
+            "smallHeading": "",
             "subheading": "",
             "heading": "PER LA CORSA",
             "textarea": "",
@@ -61,6 +62,7 @@
         "advanced_L3bTF6": {
           "type": "advanced",
           "settings": {
+            "smallHeading": "",
             "subheading": "",
             "heading": "PER LA BICI",
             "textarea": "",
@@ -85,6 +87,7 @@
         "advanced_chwjhK": {
           "type": "advanced",
           "settings": {
+            "smallHeading": "",
             "subheading": "",
             "heading": "PER LA NEVE",
             "textarea": "",
@@ -319,9 +322,10 @@
         "advanced_nkbqNJ": {
           "type": "advanced",
           "settings": {
+            "smallHeading": "PRIMO: DALL'IDEA AL BASE LAYER PER L'ALTA INTENSITÀ",
             "subheading": "BACK AT THE BASE",
-            "heading": "PRIMO: DALL'IDEA AL BASE LAYER",
-            "textarea": "PER L'ALTA INTENSITÀ",
+            "heading": "",
+            "textarea": "",
             "cta_text1": "LEGGI DI PIù",
             "cta_text1_color": "",
             "cta_link1": "https:\/\/www.silverskin.it\/blogs\/back-at-the-base\/primo-dall-idea-al-base-layer-per-l-alta-intensita",
@@ -343,6 +347,7 @@
         "advanced_Yk4ATy": {
           "type": "advanced",
           "settings": {
+            "smallHeading": "",
             "subheading": "EXPLORING THE UNSEEN",
             "heading": "ZUCCHERO E SPORT (PARTE 1)",
             "textarea": "",
@@ -367,6 +372,7 @@
         "advanced_PnWwEJ": {
           "type": "advanced",
           "settings": {
+            "smallHeading": "",
             "subheading": "UNTOLD STORIES",
             "heading": "BERNINA: DAL BUIO ALLA LUCE",
             "textarea": "",
@@ -391,6 +397,7 @@
         "advanced_AHd46g": {
           "type": "advanced",
           "settings": {
+            "smallHeading": "",
             "subheading": "UNTOLD STORIES",
             "heading": "ROBERTO, LA TDH E I CAMPI DEL NORD EST",
             "textarea": "",
