@@ -144,12 +144,14 @@
       </div>
       
     </div>
-    <div class="swiper-button-next">
+    {% if section.blocks.size > 3 %}
+      <div class="swiper-button-next">
         <i class="fas fa-angle-right"></i>
       </div>
       <div class="swiper-button-prev">
         <i class="fas fa-angle-left"></i>
       </div>
+    {% endif %}
   
   {% if section.blocks.size == 0 %}
     <div class="page-width text-center">
