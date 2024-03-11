@@ -1,3 +1,7 @@
 .template-index .hero-group-links {
   justify-content: center;
 }
+
+.template-index .image-fit promo-grid__bg-image {
+  object-position: top center;
+}
