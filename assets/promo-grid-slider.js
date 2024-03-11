@@ -32,7 +32,7 @@
             // when window width is >= 640px
             991: {
               centeredSlides: false,
-              slidesPerView: 3,
+              slidesPerView: 3.3,
               spaceBetween: 30
             }
           }
