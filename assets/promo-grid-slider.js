@@ -19,8 +19,8 @@
           spaceBetween: 30,
           loop: false,
           navigation: {
-            nextEl: ".section-bestsellers-" + i + " .swiper-button-next",
-            prevEl: ".section-bestsellers-" + i + " .swiper-button-prev",
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
           },
           breakpoints: {
             // when window width is >= 320px
