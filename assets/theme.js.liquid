@@ -1357,10 +1357,11 @@ lazySizesConfig.expFactor = 4;
             lastAnimationRow: animation_row,
             cartDiscounts: cart.cart_level_discount_applications,
             cartDiscountsApplied: cart.cart_level_discount_applications.length === 0 ? false : true,
-            totalPrice: theme.Currency.formatMoney(cart.total_price, theme.settings.moneyFormat)
+            totalPrice: theme.Currency.formatMoney(cart.total_price, theme.settings.moneyFormat),
+            subtotalPrice: theme.Currency.formatMoney(cart.items_subtotal_price, theme.settings.moneyFormat)
           };
 
-          console.log(data.totalPrice);
+          console.log(data.subtotalPrice);
   
           $(selectors.container).append(this.template(data));
         }
