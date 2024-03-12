@@ -1,3 +1,6 @@
+<script>
+  console.log({{ cart | json }});
+</script>
 <script id="CartTemplate" type="text/template">
 {% raw %}
   <form action="/cart" method="post" novalidate class="cart ajaxcart">
