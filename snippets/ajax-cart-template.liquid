@@ -112,6 +112,11 @@
           </div>
         </div>
       {{/if}}
+
+      <script>
+        console.log({{ cart | json }});
+      </script>
+              
       <div class="grid grid--full">
         <div class="grid__item one-half">
           <p class="ajaxcart__subtotal">{% endraw %}{{ 'cart.general.subtotal' | t }}{% raw %}</p>
