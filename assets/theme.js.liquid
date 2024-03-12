@@ -1360,8 +1360,6 @@ lazySizesConfig.expFactor = 4;
             totalPrice: theme.Currency.formatMoney(cart.total_price, theme.settings.moneyFormat),
             subtotalPrice: theme.Currency.formatMoney(cart.items_subtotal_price, theme.settings.moneyFormat)
           };
-
-          console.log(data.subtotalPrice);
   
           $(selectors.container).append(this.template(data));
         }
