@@ -191,7 +191,7 @@
         "link_3": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3a8e9265d849426fa1f01784ae6f35c2.mp4",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a25fc6b828674df6a1b5e1dc5444e404.mp4",
         "section_height": "450px",
         "mobile_height": "auto"
       }
@@ -435,48 +435,6 @@
         "margin_bottom": 100
       }
     },
-    "modulo_blog_slider_wPi46T": {
-      "type": "modulo-blog-slider",
-      "blocks": {
-        "slide_jekrkh": {
-          "type": "slide",
-          "settings": {
-            "article": "back-at-the-base\/primo-dall-idea-al-base-layer-per-l-alta-intensita"
-          }
-        },
-        "slide_Bi3Qit": {
-          "type": "slide",
-          "settings": {
-            "article": "exploring-the-unseen\/la-nutrizione-nellendurance-puntata-1"
-          }
-        },
-        "slide_m3VrNK": {
-          "type": "slide",
-          "settings": {
-            "article": "untold-stories\/bernina-dal-buio-alla-luce"
-          }
-        },
-        "slide_RAkU3t": {
-          "type": "slide",
-          "settings": {
-            "article": "untold-stories\/roberto-la-tdh-e-i-campi-del-nord-est"
-          }
-        }
-      },
-      "block_order": [
-        "slide_jekrkh",
-        "slide_Bi3Qit",
-        "slide_m3VrNK",
-        "slide_RAkU3t"
-      ],
-      "disabled": true,
-      "settings": {
-        "sup_title": "",
-        "title": "leggi le storie dal BLOG",
-        "cta_link": "https:\/\/www.silverskin.it\/pages\/journal",
-        "cta_text": "leggi la storia"
-      }
-    },
     "1594645290306": {
       "type": "featured-content",
       "settings": {
@@ -509,7 +467,6 @@
     "modulo_spacer_QV3dTD",
     "16057820817ca1b14f",
     "product_grid_slider_Tx4VA6",
-    "modulo_blog_slider_wPi46T",
     "1594645290306",
     "1594644909912"
   ]
