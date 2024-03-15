@@ -33,7 +33,7 @@
 
     <script>
       console.log("log");
-      console.log({{ product.metafields.custom.product_variant_color.values }})
+      console.log({{ product.metafields.custom.product_variant_color.values | json }})
     </script>
 
   {% endif %}
