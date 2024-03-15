@@ -33,7 +33,7 @@
 
     <script>
       console.log("log");
-      console.log({{ shop.metaobjects.product_variant | json }})
+      console.log({{ shop.metaobjects.product_variant }})
     </script>
 
     {% for item in product.metafields.custom.product_variant_color.values %}
