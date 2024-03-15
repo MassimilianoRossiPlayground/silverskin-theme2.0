@@ -27,24 +27,6 @@
   {% endif %}
   {% assign color_link_lang = color_link_array[0] | append: link_lang | append: color_link_array[1] %}
 
-  
-
-  {% if product.metafields.custom.product_variant_color != null  %}
-
-    <script>
-      console.log("log");
-      console.log({{ shop.metaobjects.product_variant.values }})
-    </script>
-
-    {% for item in product.metafields.custom.product_variant_color.values %}
-      <p>{{ item.label }}</p>
-    {% endfor %}
-
-  {% endif %}
-
-  {% assign variant_color_metafield = product.metafields.custom.product_variant_color %}
-
-
   {% for t in product.tags %}
 
     {% case t %}
