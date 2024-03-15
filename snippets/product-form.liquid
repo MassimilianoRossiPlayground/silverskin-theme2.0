@@ -28,10 +28,14 @@
   {% assign color_link_lang = color_link_array[0] | append: link_lang | append: color_link_array[1] %}
 
   <script>
-    console.log({{ product.metafields.custom | json }})
+    console.log({{ product.metafields.custom.product_variant_color | json }})
   </script>
 
   {% assign variant_color_metafield = product.metafields.custom.product_variant_color %}
+
+  <script>
+    console.log({{ variant_color_metafield.size }})
+  </script>
 
 
   {% for t in product.tags %}
