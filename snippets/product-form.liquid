@@ -15,15 +15,21 @@
   {% if product.tags contains 'Anthracite' %}- Anthracite{% endif %}
   {% if product.tags contains 'Pearlgrey' %}- Pearlgrey{% endif %}
 </label>
+
+
+
 <div class="product-color-variants">
 
-
+  {% assign variant_color_metafield = product.metafields.custom.product_variant_color %}
   {% assign color_link_array = product.metafields.custom_fields['link_colore_alternativo'] | split: shop.url %}
   {% if localization.language.iso_code != "it" %}
     {% assign link_lang = "/" | append: localization.language.iso_code %}
   {% endif %}
   {% assign color_link_lang = color_link_array[0] | append: link_lang | append: color_link_array[1] %}
 
+  <script>
+    console.log({{ product.metafields.size }})
+  </script>
 
   {% for t in product.tags %}
 
