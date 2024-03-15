@@ -31,11 +31,15 @@
 
   {% if product.metafields.custom.product_variant_color != null  %}
 
-    <script>
-      console.log("log");
-      console.log({{ product.metafields.custom.product_variant_color | json }})
-    </script>
-    
+    {% for item in product.metafields.custom.product_variant_color %}
+
+      <script>
+        console.log("log");
+        console.log({{ item | json }})
+      </script>
+
+    {% endfor %}
+
   {% endif %}
 
   {% assign variant_color_metafield = product.metafields.custom.product_variant_color %}
