@@ -29,20 +29,10 @@
 
   {% assign variant_color_metafield = product.metafields.custom.product_variant_color %}
 
-  {% if variant_color_metafields != null and variant_color_metafields.size > 0 %}
-    {% for variantColor in variant_color_metafields %}
-
-      {% assign label = variantColor.product_variant.label %}
-      {% assign product_link = variantColor.product_variant.product_link %}
-      {% assign color_code = variantColor.product_variant.color_code %}
-
-      <script>
-        console.log({{ label | json }})
-        console.log({{ product_link | json }})
-        console.log({{ color_code | json }})
-      </script>
-
-    {% endfor %}
+  {% if variant_color_metafields != null %}
+    <script>
+      console.log(variant_color_metafields)
+    </script>
   {% endif %}
 
   {% for t in product.tags %}
