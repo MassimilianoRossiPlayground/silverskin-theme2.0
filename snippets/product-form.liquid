@@ -27,7 +27,9 @@
   {% endif %}
   {% assign color_link_lang = color_link_array[0] | append: link_lang | append: color_link_array[1] %}
 
-
+  <script>
+    console.log({{ product.metafields.custom | json }})
+  </script>
 
   {% for t in product.tags %}
 
