@@ -17,20 +17,18 @@
 </label>
 
 {% assign product_variant_color_metafields_string = product.metafields.custom.product_variant_color %}
-{% assign product_variant_color_metafields_array = product_variant_color_metafields_string | split: ' ' %}
+{% assign product_variant_color_metafields_array = product_variant_color_metafields_string | split: ',' %}
+{% assign new_array = "" | split: '' %}
 
-  {% for variant_array in product_variant_color_metafields_array %}
-    {% for variant in variant_array %}
-      <script>
-        console.log("variant");
-        console.log({{ variant.size }});
-      </script>
-    {% endfor %}
-  {% endfor %}
+{% for metaobject_id in product_variant_color_metafields_array %}
+  {% assign new_element = "" | split: '' %}
+  {% assign _ = new_element | push: 'variant_item' | push: metaobject_id %}
+  {% assign _ = new_array | push: new_element %}
+{% endfor %}
 
-{% if product_variant_color_metafields.size > 0 %}
-  
-{% endif %}
+<script>
+  console.log({{ new_array | json }})
+</script>
 
 <div class="product-color-variants">
 
