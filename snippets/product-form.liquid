@@ -18,11 +18,13 @@
 
 {%- assign product_variant_color_metafields = product.metafields.custom.product_variant_color -%}
 
-{% if product_variant_color_metafields.size > 0 %}
   <script>
     console.log("product");
-    console.log({{ product.metafields.custom.product_variant_color }});
+    console.log({{ product_variant_color_metafields.size }});
   </script>
+
+{% if product_variant_color_metafields.size > 0 %}
+  
 {% endif %}
 
 <div class="product-color-variants">
