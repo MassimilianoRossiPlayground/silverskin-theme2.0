@@ -29,7 +29,7 @@
 
   {% for item in shop.metaobjects.product_variant.values %}
     <script>
-      console.log("product-variant")
+      console.log({{ item | json }})
     </script>
   {% endfor %}
 
