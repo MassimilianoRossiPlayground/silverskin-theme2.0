@@ -16,7 +16,10 @@
   {% if product.tags contains 'Pearlgrey' %}- Pearlgrey{% endif %}
 </label>
 
-
+<script>
+  console.log("product");
+  console.log({{ product.metafields.custom.product_variant_color | json }});
+</script>
 
 <div class="product-color-variants">
 
