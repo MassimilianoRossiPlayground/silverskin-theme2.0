@@ -19,10 +19,12 @@
 {% assign product_variant_color_metafields_string = product.metafields.custom.product_variant_color %}
 {% assign product_variant_color_metafields_array = product_variant_color_metafields_string | split: ' ' %}
 
-  {% for item in product_variant_color_metafields_array %}
-    <script>
-      console.log({{ item }});
-    </script>
+  {% for variant_array in product_variant_color_metafields_array %}
+    {% for variant in variant_array %}
+      <script>
+        console.log({{ variant }});
+      </script>
+    {% endfor %}
   {% endfor %}
 
 {% if product_variant_color_metafields.size > 0 %}
