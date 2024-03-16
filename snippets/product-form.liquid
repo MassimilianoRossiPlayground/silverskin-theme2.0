@@ -29,7 +29,7 @@
 
   <script>
     console.log("my-console");
-    console.log({{ product.metafields.custom.product_variant_color | json }})
+    console.log({{ product.metafields.custom.product_variant_color.values | json }})
   </script>
 
   {% for t in product.tags %}
