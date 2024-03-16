@@ -27,11 +27,11 @@
   {% endif %}
   {% assign color_link_lang = color_link_array[0] | append: link_lang | append: color_link_array[1] %}
 
-  <script>
-    console.log("my-console");
-    console.log({{ product.metafields.custom.product_variant_color.values | json }})
-    console.log({{ shop.metaobjects }})
-  </script>
+  {% for item in shop.metaobjects.product_variant.values %}
+    <script>
+      console.log("product-variant")
+    </script>
+  {% endfor %}
 
   {% for t in product.tags %}
 
