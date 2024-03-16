@@ -16,11 +16,12 @@
   {% if product.tags contains 'Pearlgrey' %}- Pearlgrey{% endif %}
 </label>
 
-{%- assign product_variant_color_metafields = product.metafields.custom.product_variant_color -%}
+{% assign product_variant_color_metafields_string = product.metafields.custom.product_variant_color %}
+{% assign product_variant_color_metafields_array = product_variant_color_metafields_string | split: ',' %}
 
   <script>
     console.log("product");
-    console.log({{ product.metafields.custom.product_variant_color | size }});
+    console.log({{ product_variant_color_metafields_array }});
   </script>
 
 {% if product_variant_color_metafields.size > 0 %}
