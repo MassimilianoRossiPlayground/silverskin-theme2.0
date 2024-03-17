@@ -33,6 +33,16 @@
 
 {% assign new_array = new_array_string | split: "|" | compact %}
 
+<div class="product-color-variants-color">
+
+  {% if product.metafields.custom.product_variant_color != null %}
+    <script>
+      console.log("product-color-variant")
+    </script>
+  {% endif %}
+
+</div>
+
 <div class="product-color-variants">
 
   {% assign color_link_array = product.metafields.custom_fields['link_colore_alternativo'] | split: shop.url %}
