@@ -17,13 +17,13 @@
 </label>
 
 {% assign product_variant_color_metafields_string = product.metafields.custom.product_variant_color %}
-{% assign product_variant_color_metafields_array = product_variant_color_metafields_string | split: ',' %}
+{% assign product_variant_color_metafields_array = product_variant_color_metafields_string | remove: '[' | remove: ']' | split: ',' %}
 {% assign new_array = "" | split: '' %}
 
 
 {% for metaobject_id in product_variant_color_metafields_array %}
   {% assign new_element = "" | split: '' %}
-  {% assign _ = new_element | push: 'variant_item' | push: metaobject_id %}
+  {% assign _ = new_element | push: 'variant_item'  | push: metaobject_id %}
   {% assign _ = new_array | push: new_element %}
   <script>
     console.log({{ metaobject_id | json }})
