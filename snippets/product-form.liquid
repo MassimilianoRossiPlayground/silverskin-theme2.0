@@ -27,6 +27,8 @@
   {% assign _ = new_array | push: new_element %}
   <script>
     console.log({{ metaobject_id | json }})
+    console.log({{ new_element | json }})
+    console.log({{ new_array | json }})
   </script>
 {% endfor %}
 
@@ -36,13 +38,7 @@
   {% if localization.language.iso_code != "it" %}
     {% assign link_lang = "/" | append: localization.language.iso_code %}
   {% endif %}
-  {% assign color_link_lang = color_link_array[0] | append: link_lang | append: color_link_array[1] %}
-
-  {% for item in shop.metaobjects.product_variant.values %}
-    <script>
-      console.log({{ item | json }})
-    </script>
-  {% endfor %}
+  {% assign color_link_lang = color_link_array[0] | append: link_lang | append: color_link_array[1] %}ù
 
   {% for t in product.tags %}
 
