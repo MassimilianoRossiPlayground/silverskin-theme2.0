@@ -18,12 +18,12 @@
 
 {% assign product_variant_color_metafields_string = product.metafields.custom.product_variant_color %}
 {% assign product_variant_color_metafields_array = product_variant_color_metafields_string | remove: '[' | remove: ']' | split: ',' %}
-{% assign new_array_string = "" | split: '' %}
+{% assign new_array_string = "" %}
 
 
 {% for metaobject_id in product_variant_color_metafields_array %}
 
-  {% comment %} {% assign = new_array_string | append: "variant_item" | append: metaobject_id | append: "|" %} {% endcomment %}
+  {% assign new_array_string = new_array_string | append: "variant_item" | append: metaobject_id | append: "|" %}
   
   <script>
     console.log({{ new_array_string | json }})
