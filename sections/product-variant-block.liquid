@@ -5,14 +5,17 @@
   style="margin-top: {{ section.settings.margin_top }}px; margin-bottom: {{ section.settings.margin_bottom }}px;"
 >
 
-  <script>
-    console.log("product-variant");
-    console.log({{ section.blocks }})
-  </script> 
+   
   {%- for block in section.blocks -%}
-     <div class="product-variant-color-item">
+    <div class="product-variant-color-item">
+      <script>
+        console.log("product-variant");
+        console.log({{ section.blocks.settings.blockProduct | json }});
 
-     </div>
+
+
+      </script>
+    </div>
   {%- endfor -%}
 
 </div>
