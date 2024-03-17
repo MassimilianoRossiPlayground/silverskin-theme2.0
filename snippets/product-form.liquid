@@ -11,10 +11,7 @@
 {% capture form_id %}AddToCartForm-{{ section_id }}{% endcapture %}
 
 <!-- show selected option in label -->
-<label class="variant__label">COLORE
-  {% if product.tags contains 'Anthracite' %}- Anthracite{% endif %}
-  {% if product.tags contains 'Pearlgrey' %}- Pearlgrey{% endif %}
-</label>
+
 
 {% assign product_variant_color_metafields_string = product.metafields.custom.product_variant_color %}
 {% assign product_variant_color_metafields_array = product_variant_color_metafields_string | remove: '[' | remove: ']' | split: ',' %}
@@ -41,6 +38,12 @@
       console.log("product-color-variant")
     </script>
   {% else %}
+
+    <label class="variant__label">COLORE
+      {% if product.tags contains 'Anthracite' %}- Anthracite{% endif %}
+      {% if product.tags contains 'Pearlgrey' %}- Pearlgrey{% endif %}
+    </label>
+
     <div class="product-color-variants">
 
       {% assign color_link_array = product.metafields.custom_fields['link_colore_alternativo'] | split: shop.url %}
