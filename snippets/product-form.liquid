@@ -12,24 +12,16 @@
 
 <!-- show selected option in label -->
 
-
 {% assign product_variant_color_metafields_string = product.metafields.custom.product_variant_color %}
-{% assign product_variant_color_metafields_array = product_variant_color_metafields_string | remove: '[' | remove: ']' | split: ',' %}
-{% assign new_array_string = "" %}
 
+<label class="variant__label">COLORE
+  {% if product.tags contains 'Anthracite' %}- Anthracite{% endif %}
+  {% if product.tags contains 'Pearlgrey' %}- Pearlgrey{% endif %}
+  {% if product.tags contains 'Lime' %}- Lime{% endif %}
+  {% if product.tags contains 'Azzurro' %}- Azzurro{% endif %}
+  {% if product.tags contains 'Malchite' %}- Malchite{% endif %}
+</label>
 
-{% for metaobject_id in product_variant_color_metafields_array %}
-
-  {% assign new_array_string = new_array_string | append: metaobject_id %}
-  {% assign parts = new_array_string | split: "/" %}
-  {% assign number = parts[4] | remove: '"' %}
- 
-
-  {% assign new_array_string = "" %}
-
-{% endfor %}
-
-{% assign new_array = new_array_string | split: "|" | compact %}
 
 <div class="product-color-variants-container">
 
@@ -38,14 +30,7 @@
       console.log("product-color-variant")
     </script>
 
-    <label class="variant__label">COLORE</label>
-
   {% else %}
-
-    <label class="variant__label">COLORE
-      {% if product.tags contains 'Anthracite' %}- Anthracite{% endif %}
-      {% if product.tags contains 'Pearlgrey' %}- Pearlgrey{% endif %}
-    </label>
 
     <div class="product-color-variants">
 
