@@ -4,11 +4,13 @@
   class="product-variant-color-container"
   style="margin-top: {{ section.settings.margin_top }}px; margin-bottom: {{ section.settings.margin_bottom }}px;"
 >
+
+  <script>
+    console.log("product-variant");
+    console.log({{ section.blocks | json }})
+  </script> 
   {% for block in section.blocks %}
-    <script>
-      console.log("product-variant");
-      console.log({{ block.blockColor | json }})
-    </script>  
+     
   {% endfor %}
 
 </div>
