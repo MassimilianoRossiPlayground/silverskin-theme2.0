@@ -58,6 +58,27 @@
         "show_section": true,
         "recent_count": 5
       }
+    },
+    "product_variant_block_Q4chLR": {
+      "type": "product-variant-block",
+      "blocks": {
+        "color_variant_yHmUwa": {
+          "type": "color_variant",
+          "repeater": "{{ product.metafields.custom.product_variant_color.value }}",
+          "settings": {
+            "block-variant": "{{ block.repeater.label.value }}",
+            "block-color": "{{ block.repeater.color_code.value }}",
+            "block-product": ""
+          }
+        }
+      },
+      "block_order": [
+        "color_variant_yHmUwa"
+      ],
+      "settings": {
+        "margin_top": 10,
+        "margin_bottom": 10
+      }
     }
   },
   "order": [
@@ -65,6 +86,7 @@
     "17090714879eab4d9c",
     "gallery",
     "recommendations",
-    "viewed"
+    "viewed",
+    "product_variant_block_Q4chLR"
   ]
 }
