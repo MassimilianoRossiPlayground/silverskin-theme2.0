@@ -27,12 +27,6 @@
   {% assign parts = new_array_string | split: "/" %}
   {% assign number = parts[4] | remove: '"' %}
 
-
-  <script>
-    console.log({{ shop.metaobjects.product_variant.id | json }})
-  </script>
-  
-
   {% assign new_array_string = "" %}
 
 {% endfor %}
