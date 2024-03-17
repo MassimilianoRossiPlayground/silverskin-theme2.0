@@ -37,10 +37,6 @@
 
 {% assign new_array = new_array_string | split: "|" | compact %}
 
-<script>
-  console.log({{ new_array | json }})
-</script>
-
 <div class="product-color-variants">
 
   {% assign color_link_array = product.metafields.custom_fields['link_colore_alternativo'] | split: shop.url %}
