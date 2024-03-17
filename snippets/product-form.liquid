@@ -27,24 +27,11 @@
 
 {% endfor %}
 
-{% assign new_variant_array = new_array_string | split: "|" | compact %}
+{% assign new_array = new_array_string | split: "|" | compact %}
 
 <script>
-  console.log("number");
-  console.log({{ new_variant_array | json }})
+  console.log({{ new_array | json }})
 </script>
-
-{% for array_variant_id in new_variant_array %}
-  {% assign parts = item | split: "/" %}
-  {% assign number = parts[parts | size | minus: 1] | remove: "\" %}
-
-  <script>
-    console.log("number");
-    console.log({{ number | json }})
-  </script>
-
-{% endfor %}
-
 
 <div class="product-color-variants">
 
