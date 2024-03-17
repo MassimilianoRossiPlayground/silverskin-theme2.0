@@ -27,7 +27,7 @@
   {% assign parts = new_array_string | split: "/" %}
 
   <script>
-    console.log({{ parts | json }})
+    console.log({{ parts[4] | json }})
   </script>
 
   {% assign new_array_string = "" %}
