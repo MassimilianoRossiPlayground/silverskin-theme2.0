@@ -30,13 +30,8 @@
   </script>
 {% endfor %}
 
-<script>
-  console.log({{ metaobject_id | json }})
-</script>
-
 <div class="product-color-variants">
 
-  
   {% assign color_link_array = product.metafields.custom_fields['link_colore_alternativo'] | split: shop.url %}
   {% if localization.language.iso_code != "it" %}
     {% assign link_lang = "/" | append: localization.language.iso_code %}
