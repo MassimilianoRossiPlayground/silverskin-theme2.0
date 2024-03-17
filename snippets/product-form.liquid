@@ -27,9 +27,13 @@
   {% assign parts = new_array_string | split: "/" %}
   {% assign number = parts[4] | remove: '"' %}
 
-  <script>
-    console.log({{ shop.metaobjects.product_variant.values | json }})
-  </script>
+  {% for item in shop.metaobjects.product_variant.values %}
+    <script>
+      console.log({{ item | json }})
+    </script>
+  {% endfor %}
+
+  
 
   {% assign new_array_string = "" %}
 
