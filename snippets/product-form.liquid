@@ -25,9 +25,10 @@
 
   {% assign new_array_string = new_array_string | append: metaobject_id %}
   {% assign parts = new_array_string | split: "/" %}
+  {% assign number = parts[4] | remove: '"' %}
 
   <script>
-    console.log({{ parts[4] |  remove: '"' | json }})
+    console.log({{ number | json }})
   </script>
 
   {% assign new_array_string = "" %}
