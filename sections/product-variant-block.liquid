@@ -1,0 +1,78 @@
+<div
+  class="product-variant-color-container"
+  style="margin-top: {{ section.settings.margin_top }}px; margin-bottom: {{ section.settings.margin_bottom }}px;"
+>
+
+</div>
+
+{% schema %}
+  {
+    "name": "t:sectionsproduct-variant-color.name",
+    "tag": "section",
+    "class": "product-variant-color-container",
+    "enabled_on": {
+      "templates": ["*"]
+    },
+    "settings": [
+      {
+        "type": "range",
+        "id": "margin_top",
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "default": 10,
+        "unit": "px",
+        "label": "Top Margin"
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom",
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "default": 10,
+        "unit": "px",
+        "label": "Bottom Margin"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "color_variant",
+        "name": "Color Variant",
+        "settings": [
+          {
+            "type": "text",
+            "id": "block-variant",
+            "label": "Variant Label"
+          },
+          {
+            "type": "text",
+            "id": "block-color",
+            "label": "Variant Hex"
+          },
+          {
+            "type": "text",
+            "id": "block-product",
+            "label": "Variant Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "t:sections.product-variant_color.presets.name",
+        "blocks": [
+          {
+            "type": "color_variant"
+          },
+          {
+            "type": "color_variant"
+          },
+          {
+            "type": "color_variant"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
