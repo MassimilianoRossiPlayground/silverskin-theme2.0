@@ -30,7 +30,7 @@
       {% assign block_color = block.settings.blockColor %}
       {% assign block_url = block.settings.blockProduct.url %}
 
-      {% if product.tags != block_label %}
+      {% unless product.tags contains block_label %}
         <a href="{{ block_url }}" 
           class="variant-link">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewbox="0 0 20.784609690826528 24">
@@ -38,7 +38,7 @@
           </svg>
           <span>{{ block_label }}</span>
         </a>
-      {% endif %}
+      {% endunless %}
 
     {%- endfor -%}
    </div>
