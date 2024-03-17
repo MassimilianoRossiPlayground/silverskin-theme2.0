@@ -68,7 +68,7 @@
           "settings": {
             "blockVariant": "{{ block.repeater.label.value }}",
             "blockColor": "{{ block.repeater.color_code.value }}",
-            "blockProduct": "{{ block.repeater.variant_url.value }}"
+            "blockProduct": "{{ block.repeater.product_link.value }}"
           }
         }
       },
