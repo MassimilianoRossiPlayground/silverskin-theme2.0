@@ -33,6 +33,12 @@
   console.log({{ new_array | json }})
 </script>
 
+{% for item in new_array %}
+  <script>
+    console.log({{ new_array | json }})
+  </script>
+{% endfor %}
+
 <div class="product-color-variants">
 
   {% assign color_link_array = product.metafields.custom_fields['link_colore_alternativo'] | split: shop.url %}
