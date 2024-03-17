@@ -20,12 +20,19 @@
 {% assign product_variant_color_metafields_array = product_variant_color_metafields_string | remove: '[' | remove: ']' | split: ',' %}
 {% assign new_array_string = "" %}
 
+{% if product_variant_color_metafields_string.size > 0 %}
+  <script>
+    console.log("product-color-variant")
+  </script>
+{% endif %}
+
 
 {% for metaobject_id in product_variant_color_metafields_array %}
 
   {% assign new_array_string = new_array_string | append: metaobject_id %}
   {% assign parts = new_array_string | split: "/" %}
   {% assign number = parts[4] | remove: '"' %}
+ 
 
   {% assign new_array_string = "" %}
 
@@ -35,7 +42,7 @@
 
 <div class="product-color-variants-color">
 
-  {% if product.metafields.custom.product_variant_color != null %}
+  {% if product_variant_color_metafields_string != null %}
     <script>
       console.log("product-color-variant")
     </script>
@@ -49,7 +56,7 @@
   {% if localization.language.iso_code != "it" %}
     {% assign link_lang = "/" | append: localization.language.iso_code %}
   {% endif %}
-  {% assign color_link_lang = color_link_array[0] | append: link_lang | append: color_link_array[1] %}
+  {% assign color_link_lang = color_link_array[0] | append: link_lang | append: color_link_array[1] %}ù
 
   {% for t in product.tags %}
 
