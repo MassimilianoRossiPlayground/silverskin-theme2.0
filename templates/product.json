@@ -66,9 +66,9 @@
           "type": "color_variant",
           "repeater": "{{ product.metafields.custom.product_variant_color.value }}",
           "settings": {
-            "block-variant": "{{ block.repeater.label.value }}",
-            "block-color": "{{ block.repeater.color_code.value }}",
-            "block-product": "{{ block.repeater.product_link.value }}"
+            "blockVariant": "{{ block.repeater.label.value }}",
+            "blockColor": "{{ block.repeater.color_code.value }}",
+            "blockProduct": "{{ block.repeater.product_link.value }}"
           }
         }
       },
