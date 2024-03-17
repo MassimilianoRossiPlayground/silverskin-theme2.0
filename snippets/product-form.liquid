@@ -28,7 +28,7 @@
   {% assign number = parts[4] | remove: '"' %}
 
   <script>
-    console.log({{ shop.metaobjects.product_variant }})
+    console.log({{ shop.metaobjects.product_variant | json }})
   </script>
 
   {% assign new_array_string = "" %}
