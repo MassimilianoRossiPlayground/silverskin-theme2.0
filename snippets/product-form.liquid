@@ -28,7 +28,7 @@
   {% assign number = parts[parts | size | minus: 1] | remove: "\" %}
 
   <script>
-    console.log({{ parts | json }})
+    console.log({{ new_array_string | json }})
   </script>
 
 {% endfor %}
