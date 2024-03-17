@@ -24,11 +24,12 @@
 {% for metaobject_id in product_variant_color_metafields_array %}
 
   {% assign new_array_string = new_array_string | append: metaobject_id  %}
+  {% assign parts = new_array_string | split: "/" %}
+  {% assign number = parts[parts | size | minus: 1] | remove: "\" %}
 
   <script>
-    console.log({{ new_array_string | json }})
+    console.log({{ number | json }})
   </script>
-
 
 {% endfor %}
 
