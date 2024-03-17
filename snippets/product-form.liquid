@@ -29,6 +29,8 @@
     console.log({{ new_array_string | json }})
   </script>
 
+  {% assign new_array_string = "" %}
+
 {% endfor %}
 
 {% assign new_array = new_array_string | split: "|" | compact %}
