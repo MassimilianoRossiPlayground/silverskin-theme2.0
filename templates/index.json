@@ -316,6 +316,18 @@
         "space_below": false
       }
     },
+    "featured_content_PUWcpz": {
+      "type": "featured-content",
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Journal: back to the base layer of sport<\/strong><\/h3>",
+        "text_small": "",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
     "product_grid_slider_Tx4VA6": {
       "type": "product-grid-slider",
       "blocks": {
@@ -431,7 +443,7 @@
         "gutter_size": 20,
         "space_above": false,
         "space_below": false,
-        "margin_top": 100,
+        "margin_top": 60,
         "margin_bottom": 100
       }
     },
@@ -466,6 +478,7 @@
     "hero_video_NMP4DL",
     "modulo_spacer_QV3dTD",
     "16057820817ca1b14f",
+    "featured_content_PUWcpz",
     "product_grid_slider_Tx4VA6",
     "1594645290306",
     "1594644909912"
